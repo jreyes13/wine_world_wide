@@ -1,0 +1,356 @@
+INSPIREID,COUNTRY,NATLEV,NATLEVNAME,NATCODE,NAMEUNIT,CODNUT1,CODNUT2,CODNUT3,DO
+,,,,España,,,,,
+ES.IGN.BDDAE.34070909032,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909032",Avellanosa de Muþµ,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909109,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909109",Condado de Treviþo,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909094,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909094",Cebrecos,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909103,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909103",Cilleruelo de Abajo,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909104,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909104",Cilleruelo de Arriba,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909113,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909113",Covarrubias,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909127,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909127",Fontioso,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909179,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909179",Iglesiarrubia,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909194,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909194",Lerma,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909034,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909034",Los Balbases,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909196,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909196",Madrigal del Monte,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909197,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909197",Madrigalejo del Monte,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909198,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909198",Mahamud,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909231,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909231",Nebreda,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909277,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909277",Puentedura,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909901,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909901",Quintanilla del Agua y Tordueles,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909295,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909295",Quintanilla del Coco,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909294,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909294",Quintanilla de la Mata,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909311,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909311",Retuerta,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909316,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909316",Revilla Vallejera,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909325,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909325",Royuela de RÚo Franco,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909343,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909343",Santa Cecilia,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909348,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909348",Santa InÕs,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909350,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909350",Santa MarÚa del Campo,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909356,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909356",SantibÃþez del Val,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909358,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909358",Santo Domingo de Silos,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909366,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909366",Solarana,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909384,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909384",Tordµmar,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909386,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909386",Torrecilla del Monte,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909389,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909389",Torrepadre,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909418,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909418",Valles de Palenzuela,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909432,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909432",Villafruela,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909437,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909437",Villahoz,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909442,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909442",Villalmanzo,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909443,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909443",Villamayor de los Montes,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909448,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909448",Villangµmez,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909466,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909466",Villaverde del Monte,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34070909480,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070909480",Zael,ES4,ES41,ES412,Arlanza
+ES.IGN.BDDAE.34073434022,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073434022",BaltanÃs,ES4,ES41,ES414,Arlanza
+ES.IGN.BDDAE.34073434060,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073434060",Cobos de Cerrato,ES4,ES41,ES414,Arlanza
+ES.IGN.BDDAE.34073434063,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073434063",Cordovilla la Real,ES4,ES41,ES414,Arlanza
+ES.IGN.BDDAE.34073434070,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073434070",Espinosa de Cerrato,ES4,ES41,ES414,Arlanza
+ES.IGN.BDDAE.34073434084,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073434084",Herrera de Valdecaþas,ES4,ES41,ES414,Arlanza
+ES.IGN.BDDAE.34073434087,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073434087",Hornillos de Cerrato,ES4,ES41,ES414,Arlanza
+ES.IGN.BDDAE.34073434121,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073434121",Palenzuela,ES4,ES41,ES414,Arlanza
+ES.IGN.BDDAE.34073434141,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073434141",Quintana del Puente,ES4,ES41,ES414,Arlanza
+ES.IGN.BDDAE.34073434178,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073434178",Tabanera de Cerrato,ES4,ES41,ES414,Arlanza
+ES.IGN.BDDAE.34073434182,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073434182",Torquemada,ES4,ES41,ES414,Arlanza
+ES.IGN.BDDAE.34073434210,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073434210",VillahÃn,ES4,ES41,ES414,Arlanza
+ES.IGN.BDDAE.34073434242,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073434242",Villodrigo,ES4,ES41,ES414,Arlanza
+ES.IGN.BDDAE.34073737003,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737003",Ahigal de los Aceiteros,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737014,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737014",AldeadÃvila de la Ribera,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737132,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737132",La Fregeneda,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737160,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737160",Hinojosa de Duero,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737173,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737173",Lumbrales,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737184,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737184",Masueco,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737190,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737190",Mieza,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737243,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737243",La Peþa,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737248,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737248",Pereþa de la Ribera,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737264,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737264",Puerto Seguro,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737266,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737266",La Redonda,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737285,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737285",San Felices de los Gallegos,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737302,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737302",Saucelle,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737311,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737311",Sobradillo,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737350,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737350",Vilvestre,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737359,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737359",Villar de la Yegua,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737357,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737357",Villar de Ciervo,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34073737364,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737364",Villarino de los Aires,ES4,ES41,ES415,Arribes
+ES.IGN.BDDAE.34074949012,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949012",ArgaþÚn,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949036,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949036",Carbajales de Alba,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949042,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949042",Castronuevo,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949064,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949064",Fariza,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949065,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949065",Fermoselle,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949088,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949088",Gamones,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949101,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949101",Luelmo,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949124,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949124",Moral de Sayago,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949131,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949131",Moralina,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949202,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949202",Santa Eufemia del Barco,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949221,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949221",Torregamones,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949240,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949240",Villadepera,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949247,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949247",Villalcampo,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949265,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949265",Villardiegua de la Ribera,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949007,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949007",Almaraz de Duero,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34074949135,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949135",Muelas del Pan,ES4,ES41,ES419,Arribes
+ES.IGN.BDDAE.34072424007,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424007",Arganza,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424014,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424014",Bembibre,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424016,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424016",Benuza,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424019,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424019",Berlanga del Bierzo,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424022,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424022",Borrenes,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424027,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424027",Cabaþas Raras,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424030,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424030",Cacabelos,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424034,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424034",Camponaraya,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424038,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424038",Carracedelo,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424041,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424041",Carucedo,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424049,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424049",Castropodame,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424057,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424057",Congosto,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424059,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424059",Corullµn,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424064,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424064",Cubillos del Sil,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424070,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424070",Fabero,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424071,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424071",Folgoso de la Ribera,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424083,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424083",Ig■eþa,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424100,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424100",Molinaseca,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424102,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424102",Noceda del Bierzo,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424103,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424103",Oencia,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424115,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424115",Ponferrada,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424119,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424119",Priaranza del Bierzo,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424122,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424122",Puente de Domingo Flµrez,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424143,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424143",Sancedo,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424165,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424165",Sobrado,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424206,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424206",Toral de los Vados,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424169,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424169",Toreno,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424170,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424170",Torre del Bierzo,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424171,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424171",Trabadelo,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424196,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424196",Vega de Espinareda,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34072424209,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424209",Villafranca del Bierzo,ES4,ES41,ES413,Bierzo
+ES.IGN.BDDAE.34074747027,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747027",Cabezµn de Pisuerga,ES4,ES41,ES418,Cigales
+ES.IGN.BDDAE.34074747050,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747050",Cigales,ES4,ES41,ES418,Cigales
+ES.IGN.BDDAE.34074747055,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747055",Corcos,ES4,ES41,ES418,Cigales
+ES.IGN.BDDAE.34074747057,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747057",Cubillas de Santa Marta,ES4,ES41,ES418,Cigales
+ES.IGN.BDDAE.34074747066,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747066",Fuensaldaþa,ES4,ES41,ES418,Cigales
+ES.IGN.BDDAE.34074747098,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747098",Mucientes,ES4,ES41,ES418,Cigales
+ES.IGN.BDDAE.34074747130,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747130",Quintanilla de Trigueros,ES4,ES41,ES418,Cigales
+ES.IGN.BDDAE.34074747144,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747144",San MartÚn de ValvenÚ,ES4,ES41,ES418,Cigales
+ES.IGN.BDDAE.34074747155,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747155",Santovenia de Pisuerga,ES4,ES41,ES418,Cigales
+ES.IGN.BDDAE.34074747174,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747174",Trigueros del Valle,ES4,ES41,ES418,Cigales
+ES.IGN.BDDAE.34074747184,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747184",Valoria la Buena,ES4,ES41,ES418,Cigales
+ES.IGN.BDDAE.34074747186,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747186",Valladolid,ES4,ES41,ES418,Cigales
+ES.IGN.BDDAE.34073434069,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073434069",Dueþas,ES4,ES41,ES414,Cigales
+ES.IGN.BDDAE.34072424002,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424002",Algadefe,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424003,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424003",Alija del Infantado,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424005,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424005",La Antigua,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424006,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424006",Ardµn,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424010,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424010",La Baþeza,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424017,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424017",Bercianos del PÃramo,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424018,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424018",Bercianos del Real Camino,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424024,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424024",El Burgo Ranero,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424028,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424028",Cabreros del RÚo,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424031,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424031",Calzada del Coto,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424032,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424032",Campazas,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424033,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424033",Campo de Villavidel,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424042,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424042",CastilfalÕ,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424046,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424046",Castrocalbµn,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424050,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424050",Castrotierra de Valmadrigal,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424053,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424053",Cebrones del RÚo,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424054,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424054",Cimanes de la Vega,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424058,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424058",Corbillos de los Oteros,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424062,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424062",Cubillas de los Oteros,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424065,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424065",Chozas de Abajo,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424073,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424073",Fresno de la Vega,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424074,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424074",Fuentes de Carbajal,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424077,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424077",Gordaliza del Pino,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424078,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424078",Gordoncillo,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424080,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424080",Grajal de Campos,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424081,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424081",Gusendos de los Oteros,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424084,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424084",Izagre,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424086,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424086",Joarilla de las Matas,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424088,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424088",Laguna de Negrillos,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424097,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424097",Matadeµn de los Oteros,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424099,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424099",Matanza,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424105,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424105",Onzonilla,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424107,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424107",Pajares de los Oteros,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424108,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424108",Palacios de la Valduerna,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424113,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424113",Pobladura de Pelayo GarcÚa,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424117,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424117",Pozuelo del PÃramo,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424124,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424124",Quintana del Marco,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424125,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424125",Quintana y Congosto,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424131,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424131",Riego de la Vega,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424136,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424136",Roperuelos del PÃramo,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424139,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424139",Sahagºn,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424141,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424141",San AdriÃn del Valle,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424146,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424146",San Esteban de Nogales,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424149,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424149",San MillÃn de los Caballeros,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424153,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424153",Santa Cristina de Valmadrigal,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424154,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424154",Santa Elena de Jamuz,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424156,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424156",Santa MarÚa del Monte de Cea,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424160,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424160",Santas Martas,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424162,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424162",Santovenia de la Valdoncina,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424168,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424168",Toral de los Guzmanes,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424178,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424178",Valdemora,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424181,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424181",Valderas,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424187,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424187",Valdevimbre,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424188,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424188",Valencia de Don Juan,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424190,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424190",Valverde-Enrique,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424191,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424191",Vallecillo,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424197,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424197",Vega de Infanzones,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424203,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424203",Villabraz,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424207,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424207",Villademor de la Vega,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424211,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424211",Villamandos,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424212,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424212",VillamaþÃn,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424216,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424216",VillamontÃn de la Valduerna,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424217,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424217",Villamoratiel de las Matas,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424218,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424218",Villanueva de las Manzanas,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424902,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424902",Villaornate y Castro,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424221,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424221",Villaquejida,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424227,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424227",Villaturiel,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34072424230,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34072424230",Zotes del PÃramo,ES4,ES41,ES413,Leon
+ES.IGN.BDDAE.34074747015,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747015",Becilla de Valderaduey,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747026,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747026",Bustillo de Chaves,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747028,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747028",Cabezµn de Valderaduey,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747041,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747041",Castrodeza,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747046,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747046",Castroponce,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747058,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747058",Cuenca de Campos,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747084,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747084",Mayorga,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747088,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747088",Melgar de Abajo,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747089,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747089",Melgar de Arriba,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747091,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747091",Monasterio de Vega,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747128,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747128",Quintanilla del Molar,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747134,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747134",Roales de Campos,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747140,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747140",Saelices de Mayorga,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747153,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747153",SantervÃs de Campos,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747176,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747176",La Uniµn de Campos,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747183,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747183",Valdunquillo,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747199,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747199",Villacid de Campos,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747208,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747208",Villagµmez la Nueva,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747211,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747211",Villalba de la Loma,ES4,ES41,ES418,Leon
+ES.IGN.BDDAE.34074747002,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747002",Aguasal,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747004,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747004",Alaejos,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747005,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747005",AlcazarÕn,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747008,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747008",Almenara de Adaja,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747011,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747011",Ataquines,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747020,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747020",Bobadilla del Campo,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747021,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747021",Bocigas,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747025,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747025",Brahojos de Medina,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747045,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747045",Castronuþo,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747049,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747049",Cervillego de la Cruz,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747031,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747031",El Campillo,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747065,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747065",Fresno el Viejo,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747067,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747067",Fuente el Sol,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747068,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747068",Fuente-Olmedo,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747074,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747074",Hornillos de Eresma,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747159,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747159",La Seca,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747232,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747232",La Zarza,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747078,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747078",Lomoviejo,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747079,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747079",Llano de Olmedo,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747082,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747082",Matapozuelos,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747085,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747085",Medina del Campo,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747090,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747090",Mojados,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747095,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747095",Moraleja de las Panaderas,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747100,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747100",Muriel,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747101,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747101",Nava del Rey,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747102,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747102",Nueva Villa de las Torres,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747104,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747104",Olmedo,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747121,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747121",Pollos,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747123,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747123",Pozal de Gallinas,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747124,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747124",Pozaldez,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747126,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747126",Puras,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747132,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747132",Ramiro,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747138,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747138",RubÚ de Bracamonte,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747139,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747139",Rueda,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747141,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747141",Salvador de Zapardiel,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747147,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747147",San Pablo de la Moraleja,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747156,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747156",San Vicente del Palacio,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747160,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747160",Siete Iglesias de Trabancos,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747165,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747165",Tordesillas,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747166,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747166",Torrecilla de la Abadesa,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747167,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747167",Torrecilla de la Orden,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747182,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747182",Valdestillas,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747189,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747189",VelascÃlvaro,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747192,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747192",Ventosa de la Cuesta,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747204,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747204",Villafranca de Duero,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747218,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747218",Villanueva de Duero,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34074747228,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747228",Villaverde de Medina,ES4,ES41,ES418,Rueda
+ES.IGN.BDDAE.34070505034,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070505034",Blasconuþo de Matacabras,ES4,ES41,ES411,Rueda
+ES.IGN.BDDAE.34070505114,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070505114",Madrigal de las Altas Torres,ES4,ES41,ES411,Rueda
+ES.IGN.BDDAE.34070505174,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070505174",Orbita,ES4,ES41,ES411,Rueda
+ES.IGN.BDDAE.34070505178,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34070505178",Palacios de Goda,ES4,ES41,ES411,Rueda
+ES.IGN.BDDAE.34074040010,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040010",Aldeanueva del Codonal,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040015,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040015",Aldehuela del Codonal,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040031,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040031",Bernuy de Porreros,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040058,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040058",Codorniz,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040057,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040057",Coca,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040069,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040069",Donhierro,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040082,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040082",Fuente de Santa Cruz,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040106,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040106",Juarros de Voltoya,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040129,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040129",Montejo de ArÕvalo,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074053047,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074053047",Aldovera,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040095,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040095",GomezserracÚn,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040138,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040138",Nava de la Asunciµn,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040148,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040148",Nieva,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040164,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040164",Rapariegos,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040178,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040178",San Cristµbal de la Vega,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040189,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040189",Santiuste de San Juan Bautista,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074040201,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074040201",Tolocirio,ES4,ES41,ES416,Rueda
+ES.IGN.BDDAE.34074949006,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949006",Algodre,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949010,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949010",Arcenillas,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949022,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949022",Benegiles,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949031,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949031",Cabaþas de Sayago,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949034,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949034",Caþizal,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949038,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949038",Casaseca de CampeÃn,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949039,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949039",Casaseca de las Chanas,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949040,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949040",Castrillo de la Guareþa,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949044,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949044",Cazurra,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949053,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949053",Coreses,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949054,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949054",Corrales del Vino,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949056,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949056",Cubillos,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949058,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949058",El Cubo de Tierra del Vino,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949059,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949059",Cuelgamures,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949061,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949061",Entrala,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949076,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949076",Fresno de la Ribera,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949080,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949080",Fuentelapeþa,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949081,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949081",Fuentesaºco,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949084,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949084",Fuentespreadas,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949090,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949090",Gema,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949093,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949093",Guarrate,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949095,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949095",La Hiniesta,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949096,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949096",Jambrina,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949102,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949102",El Maderal,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949103,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949103",Madridanos,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949115,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949115",Mayalde,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949119,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949119",Molacillos,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949122,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949122",Monfarracinos,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949125,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949125",Moraleja del Vino,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949127,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949127",Morales del Vino,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949132,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949132",Moreruela de los Infanzones,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949148,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949148",Peleas de Abajo,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949149,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949149",Peþausende,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949151,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949151",El Perdigµn,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949178,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949178",Roales,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949197,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949197",Santa Clara de Avedillo,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949222,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949222",Torres del Carrizal,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949226,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949226",Vadillo de la Guareþa,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949227,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949227",Valcabado,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949230,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949230",Vallesa de la Guareþa,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949241,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949241",Villaescusa,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949245,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949245",VillalazÃn,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949255,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949255",Villamor de los Escuderos,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949258,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949258",Villanueva de CampeÃn,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949261,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949261",Villaralbo,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949275,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949275",Zamora,ES4,ES41,ES419,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34073737017,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737017",Aldeanueva de Figueroa,ES4,ES41,ES415,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34073737019,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737019",Aldearrodrigo,ES4,ES41,ES415,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34073737130,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737130",Forfoleda,ES4,ES41,ES415,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34073737226,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737226",Palacios del Arzobispo,ES4,ES41,ES415,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34073737231,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737231",Parada de Rubiales,ES4,ES41,ES415,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34073737299,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737299",Santiz,ES4,ES41,ES415,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34073737323,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737323",Topas,ES4,ES41,ES415,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34073737327,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737327",Torresmenudas,ES4,ES41,ES415,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34073737335,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737335",Valdelosa,ES4,ES41,ES415,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34073737379,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34073737379",Zamayµn,ES4,ES41,ES415,Tierra del Vino de Zamora
+ES.IGN.BDDAE.34074949013,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949013",Argujillo,ES4,ES41,ES419,Toro
+ES.IGN.BDDAE.34074949024,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949024",La Bµveda de Toro,ES4,ES41,ES419,Toro
+ES.IGN.BDDAE.34074949129,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949129",Morales de Toro,ES4,ES41,ES419,Toro
+ES.IGN.BDDAE.34074949146,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949146",El Pego,ES4,ES41,ES419,Toro
+ES.IGN.BDDAE.34074949147,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949147",Peleagonzalo,ES4,ES41,ES419,Toro
+ES.IGN.BDDAE.34074949158,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949158",El Piþero,ES4,ES41,ES419,Toro
+ES.IGN.BDDAE.34074949191,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949191",San Miguel de la Ribera,ES4,ES41,ES419,Toro
+ES.IGN.BDDAE.34074949210,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949210",Sanzoles,ES4,ES41,ES419,Toro
+ES.IGN.BDDAE.34074949219,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949219",Toro,ES4,ES41,ES419,Toro
+ES.IGN.BDDAE.34074949228,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949228",Valdefinjas,ES4,ES41,ES419,Toro
+ES.IGN.BDDAE.34074949234,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949234",Venialbo,ES4,ES41,ES419,Toro
+ES.IGN.BDDAE.34074949239,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074949239",Villabuena del Puente,ES4,ES41,ES419,Toro
+ES.IGN.BDDAE.34074747150,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747150",San RomÃn de Hornija,ES4,ES41,ES418,Toro
+ES.IGN.BDDAE.34074747204,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747204",Villafranca de Duero,ES4,ES41,ES418,Toro
+ES.IGN.BDDAE.34074747113,ES,https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder,Municipio,"34074747113",Pedrosa del Rey,ES4,ES41,ES418,Toro
