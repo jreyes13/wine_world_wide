@@ -1,7 +1,8 @@
 /* ============================================================
    PROYECTO: WINE_WORLD_WIDE
    FICHERO: DOCas.sql
-   VERSION: Verificada con recintos_municipales_NAMEUNIT.csv
+   DESCRIPCIÓN: Consultas SQL por subzonas para las DOCa 
+                (Rioja Alta, Alavesa, Oriental y Priorat).
    ============================================================ */
 
 -- DOCa RIOJA - SUBZONA: RIOJA ALTA
@@ -25,13 +26,13 @@
 'Briones',
 'Camprovín',
 'Canillas de Río Tuerto',
-'Casalarreina',
 'Castañares de Rioja',
+'Casalarreina',
 'Cañas',
 'Cárdenas',
 'Cellórigo',
 'Cenicero',
-'Cidamón',
+'Cidamon',
 'Cihuri',
 'Cirueña',
 'Cordovín',
@@ -54,6 +55,7 @@
 'Lardero',
 'Leiva',
 'Logroño',
+'Maluenda',
 'Manjarrés',
 'Matute',
 'Medrano',
@@ -72,6 +74,7 @@
 'Sojuela',
 'Sorzano',
 'Sotés',
+'Terrer',
 'Tirgo',
 'Tormantos',
 'Torrecilla sobre Alesanco',
