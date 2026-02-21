@@ -10,7 +10,7 @@ From the hills of Bordeaux to the valleys of Napa, from the slopes of Tuscany to
 
 This project produces **interactive web maps** that show the precise boundaries of wine regions. Each map can be viewed, shared, and embedded.
 
-👉 **Example Map:** [World Wine Wide Map on Google My Maps](https://www.google.com/maps/d/u/0/edit?mid=1CJHfZIoR3TKiEuWkXqIKF3ItGwuLS5s&usp=sharing)
+👉 **Example Map:** [World Wine Wide Map on Atlas](https://app.atlas.co/shared/iRfhgtNFAbVm6zHZL3bN?loc=-3.8121%2C41.8957%2C6.2431z&public=true)
 
 ## The Challenge: Sourcing Global Data
 
