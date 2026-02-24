@@ -168,7 +168,6 @@
 'Falset',
 'Gratallops',
 'El Lloar',
-'El Molar',
 'La Morera de Montsant',
 'Poboleda',
 'Porrera',
