@@ -57,8 +57,13 @@ map.addControl(new maplibregl.NavigationControl(), 'bottom-right');
 // Load Data
 map.on('load', async () => {
   try {
-    const resp = await fetch('data/spain_wine_regions.geojson');
-    const data = await resp.json();
+    let data;
+    if (typeof window.SPAIN_WINE_DATA !== 'undefined' && window.SPAIN_WINE_DATA) {
+      data = window.SPAIN_WINE_DATA;
+    } else {
+      const resp = await fetch('data/spain_wine_regions.geojson');
+      data = await resp.json();
+    }
     allFeatures = data.features;
     filteredFeatures = allFeatures;
 
