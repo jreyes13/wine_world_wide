@@ -423,3 +423,88 @@
 'La Zubia',
 'Zújar'
 )
+
+
+-- ============================================================
+-- 7. DOP CEBREROS (Ávila - Castilla y León)
+-- ============================================================
+"NAMEUNIT" IN (
+'Burgohondo',
+'Casavieja',
+'Casillas',
+'Cebreros',
+'Cuevas del Valle',
+'El Barraco',
+'El Hoyo de Pinares',
+'El Tiemblo',
+'Fresnedilla',
+'Gavilanes',
+'Herradón de Pinares',
+'Higuera de las Dueñas',
+'La Adrada',
+'Lanzahíta',
+'Mijares',
+'Mombeltrán',
+'Navahondilla',
+'Navalmoral',
+'Navaluenga',
+'Navarredondilla',
+'Navarrevisca',
+'Navatalgordo',
+'Pedro Bernardo',
+'Piedralaves',
+'San Bartolomé de Pinares',
+'San Esteban del Valle',
+'San Juan de la Nava',
+'San Juan del Molinillo',
+'Santa Cruz de Pinares',
+'Santa Cruz del Valle',
+'Santa María del Tiétar',
+'Serranillos',
+'Sotillo de la Adrada',
+'Villanueva de Ávila',
+'Villarejo del Valle'
+)
+
+-- ============================================================
+-- 8. DOP ARABAKO TXAKOLINA / TXAKOLI DE ÁLAVA (País Vasco)
+-- ============================================================
+"NAMEUNIT" IN (
+'Amurrio',
+'Artziniega',
+'Ayala/Aiara',
+'Laudio/Llodio',
+'Okondo'
+)
+
+-- ============================================================
+-- 9. DOP BIZKAIKO TXAKOLINA / TXAKOLI DE BIZKAIA (País Vasco)
+-- ============================================================
+"CODNUT3" = 'ES213'
+
+-- ============================================================
+-- 10. DOP GRAN CANARIA (Islas Canarias)
+-- ============================================================
+"NAMEUNIT" IN (
+'Agaete',
+'Agüimes',
+'Artenara',
+'Arucas',
+'Firgas',
+'Gáldar',
+'Ingenio',
+'La Aldea de San Nicolás',
+'Las Palmas de Gran Canaria',
+'Mogán',
+'Moya',
+'San Bartolomé de Tirajana',
+'Santa Brígida',
+'Santa Lucía de Tirajana',
+'Santa María de Guía de Gran Canaria',
+'Tejeda',
+'Telde',
+'Teror',
+'Valleseco',
+'Valsequillo de Gran Canaria',
+'Vega de San Mateo'
+)

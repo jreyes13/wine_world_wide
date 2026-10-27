@@ -1,5 +1,7 @@
 # World Wine Wide — A Global Wine Region Mapping Project 🍷
 
+**English** | [Versión en Español](README_ES.md)
+
 ## Project Overview
 
 **World Wine Wide** is a geospatial project with a simple but ambitious goal: **to create accurate, interactive maps of every major wine region on the planet**.
