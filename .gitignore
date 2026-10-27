@@ -1,0 +1,17 @@
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# QGIS temporary and backup files
+*.qgs~
+*.qgz~
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Temporary downloads or zips if needed
+*.tmp
