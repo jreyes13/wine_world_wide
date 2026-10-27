@@ -4,27 +4,30 @@ const I18N = {
   es: {
     title: "World Wine Wide",
     subtitle: "Mapas Oficiales de Regiones Vitivinícolas",
-    searchPlaceholder: "Buscar por DO, Comunidad, Uva o Municipio...",
+    searchPlaceholder: "Buscar por DO, País, Región, Uva o Municipio...",
+    allCountries: "Todos los Países / Territorios",
     allCategories: "Todas las Categorías",
     catDOCa: "DOCa (Calificada)",
-    catDO: "DO (Denominación de Origen)",
+    catDO: "DO / DOC (Origen)",
+    catAOC: "AOC (Francia)",
+    catDOCG: "DOCG (Italia)",
     catVP: "Vino de Pago (VP)",
     catVC: "Vino de Calidad (VC)",
-    allRegions: "Todas las Comunidades",
+    allRegions: "Todas las Regiones",
     regionsFound: "denominaciones encontradas",
-    munis: "municipios",
+    munis: "municipios / comunas",
     grapesRed: "Uvas Tintas Principales",
     grapesWhite: "Uvas Blancas Principales",
     viewPliego: "📄 Ver Pliego de Condiciones Oficial (PDF)",
     viewAtlas: "🗺️ Abrir en Atlas.co",
-    resetView: "Restablecer Vista (España)",
+    resetView: "Restablecer Vista",
     category: "Categoría",
-    region: "Comunidad Autónoma",
+    region: "Región / Zona",
     territory: "Delimitación Territorial",
     na: "No especificado en pliego",
-    viewMunis: "Ver municipios",
-    hideMunis: "Ocultar municipios",
-    searchMunisPlaceholder: "Buscar municipio en esta DO...",
+    viewMunis: "Ver municipios / comunas",
+    hideMunis: "Ocultar municipios / comunas",
+    searchMunisPlaceholder: "Buscar municipio / comuna...",
     noMunisFound: "No se encontraron municipios",
     basemapTitle: "Cambiar mapa de referencia",
     bmVoyager: "Voyager (Color)",
@@ -37,27 +40,30 @@ const I18N = {
   en: {
     title: "World Wine Wide",
     subtitle: "Official Wine Region Maps",
-    searchPlaceholder: "Search by Appellation, Region, Grape or Municipality...",
+    searchPlaceholder: "Search by Appellation, Country, Region, Grape or Municipality...",
+    allCountries: "All Countries / Territories",
     allCategories: "All Classifications",
     catDOCa: "DOCa (Qualified)",
-    catDO: "DO (Designation of Origin)",
+    catDO: "DO / DOC (Origin)",
+    catAOC: "AOC (France)",
+    catDOCG: "DOCG (Italy)",
     catVP: "Estate Wine / Pago (VP)",
     catVC: "Quality Wine (VC)",
     allRegions: "All Regions",
     regionsFound: "appellations found",
-    munis: "municipalities",
+    munis: "municipalities / communes",
     grapesRed: "Key Red Varieties",
     grapesWhite: "Key White Varieties",
     viewPliego: "📄 View Official Specifications (PDF)",
     viewAtlas: "🗺️ Open in Atlas.co",
-    resetView: "Reset View (Spain)",
+    resetView: "Reset View",
     category: "Classification",
-    region: "Region",
+    region: "Region / Zone",
     territory: "Territorial Scope",
     na: "Not specified in specifications",
-    viewMunis: "View municipalities",
-    hideMunis: "Hide municipalities",
-    searchMunisPlaceholder: "Search municipality in this DO...",
+    viewMunis: "View municipalities / communes",
+    hideMunis: "Hide municipalities / communes",
+    searchMunisPlaceholder: "Search municipality / commune...",
     noMunisFound: "No municipalities found",
     basemapTitle: "Change reference basemap",
     bmVoyager: "Voyager (Color)",
@@ -127,8 +133,8 @@ const BASEMAP_STYLES = {
 const map = new maplibregl.Map({
   container: 'map',
   style: BASEMAP_STYLES.voyager,
-  center: [-3.7038, 40.4168],
-  zoom: 5.6
+  center: [2.5, 43.5],
+  zoom: 5.0
 });
 
 map.addControl(new maplibregl.NavigationControl(), 'bottom-right');
@@ -223,7 +229,6 @@ function onRegionLeave() {
   map.getCanvas().style.cursor = '';
 }
 
-// React to basemap style changes reliably with styledata & idle
 function checkAndRestoreLayers() {
   if (map.isStyleLoaded() && allFeatures.length > 0 && !map.getLayer('wine-regions-fill')) {
     setupWineLayers();
@@ -247,8 +252,6 @@ map.on('load', async () => {
     filteredFeatures = allFeatures;
 
     setupWineLayers();
-
-    // Populate region select options
     populateRegionFilter();
     renderRegionsList();
 
@@ -257,9 +260,15 @@ map.on('load', async () => {
   }
 });
 
-function populateRegionFilter() {
+function populateRegionFilter(selectedCountry = '') {
   const select = document.getElementById('region-filter');
-  const regions = [...new Set(allFeatures.map(f => f.properties.region))].sort();
+  select.innerHTML = `<option value="" id="reg-all-opt">${I18N[currentLang].allRegions}</option>`;
+
+  let features = allFeatures;
+  if (selectedCountry) {
+    features = allFeatures.filter(f => f.properties.country === selectedCountry);
+  }
+  const regions = [...new Set(features.map(f => f.properties.region))].sort();
   regions.forEach(r => {
     const opt = document.createElement('option');
     opt.value = r;
@@ -270,28 +279,34 @@ function populateRegionFilter() {
 
 function applyFilters() {
   const search = document.getElementById('search-input').value.toLowerCase().trim();
+  const country = document.getElementById('country-filter').value;
   const cat = document.getElementById('category-filter').value;
   const reg = document.getElementById('region-filter').value;
 
   filteredFeatures = allFeatures.filter(f => {
     const p = f.properties;
+    const matchCountry = !country || p.country === country;
+    const matchCat = !cat || p.category === cat;
+    const matchReg = !reg || p.region === reg;
     const matchSearch = !search ||
       p.name.toLowerCase().includes(search) ||
       p.region.toLowerCase().includes(search) ||
+      (p.country && p.country.toLowerCase().includes(search)) ||
       (p.grapes_red && p.grapes_red.toLowerCase().includes(search)) ||
       (p.grapes_white && p.grapes_white.toLowerCase().includes(search)) ||
       (p.munis && p.munis.some(m => m.toLowerCase().includes(search)));
 
-    const matchCat = !cat || p.category === cat;
-    const matchReg = !reg || p.region === reg;
-
-    return matchSearch && matchCat && matchReg;
+    return matchCountry && matchCat && matchReg && matchSearch;
   });
 
   // Update map filter
   const ids = filteredFeatures.map(f => f.properties.id);
-  map.setFilter('wine-regions-fill', ['in', 'id', ...ids]);
-  map.setFilter('wine-regions-line', ['in', 'id', ...ids]);
+  if (map.getLayer('wine-regions-fill')) {
+    map.setFilter('wine-regions-fill', ['in', 'id', ...ids]);
+  }
+  if (map.getLayer('wine-regions-line')) {
+    map.setFilter('wine-regions-line', ['in', 'id', ...ids]);
+  }
 
   renderRegionsList();
 }
@@ -304,16 +319,29 @@ function renderRegionsList() {
   countEl.textContent = `${filteredFeatures.length} ${t.regionsFound}`;
   container.innerHTML = '';
 
+  const countryFlags = {
+    'España': '🇪🇸',
+    'La Rioja': '🍇',
+    'Navarra': '🛡️',
+    'País Vasco': '🌿',
+    'Francia': '🇫🇷',
+    'Portugal': '🇵🇹',
+    'Italia': '🇮🇹'
+  };
+
   filteredFeatures.forEach(f => {
     const p = f.properties;
     const card = document.createElement('div');
     card.className = `region-card ${selectedFeature && selectedFeature.id === p.id ? 'selected' : ''}`;
     card.onclick = () => selectDO(p);
 
+    const muniCount = p.munis_count || p.muni_count || (p.munis ? p.munis.length : 0);
+    const flag = countryFlags[p.country] || '🍷';
+
     card.innerHTML = `
       <div>
-        <div class="card-title">${p.name}</div>
-        <div class="card-meta">${p.region} • ${p.munis_count} ${t.munis}</div>
+        <div class="card-title">${flag} ${p.name}</div>
+        <div class="card-meta">${p.region} (${p.country || 'España'}) • ${muniCount} ${t.munis}</div>
       </div>
       <span class="card-badge" style="background-color: ${p.color};">${p.category}</span>
     `;
@@ -322,7 +350,6 @@ function renderRegionsList() {
 }
 
 function selectDO(inputProps) {
-  // Always resolve to the clean in-memory feature from allFeatures
   const feat = allFeatures.find(f => f.properties.id === inputProps.id || f.properties.name === inputProps.name);
   const props = feat ? feat.properties : inputProps;
   selectedFeature = props;
@@ -343,9 +370,13 @@ function selectDO(inputProps) {
   document.getElementById('detail-badge').textContent = props.category;
   document.getElementById('detail-badge').style.backgroundColor = props.color;
   document.getElementById('detail-title').textContent = props.name;
-  document.getElementById('detail-region').innerHTML = '<span style="font-size: 1.05rem;">📍</span> ' + props.region;
 
-  document.getElementById('detail-munis').textContent = `${props.munis_count} ${t.munis}`;
+  const countryFlags = { 'España': '🇪🇸', 'Francia': '🇫🇷', 'Portugal': '🇵🇹', 'Italia': '🇮🇹' };
+  const flag = countryFlags[props.country] || '';
+  document.getElementById('detail-region').innerHTML = `<span style="font-size: 1.05rem;">📍</span> ${props.region} ${flag ? `(${flag} ${props.country})` : ''}`;
+
+  const muniCount = props.munis_count || props.muni_count || (props.munis ? props.munis.length : 0);
+  document.getElementById('detail-munis').textContent = `${muniCount} ${t.munis}`;
   document.getElementById('detail-grapes-red').textContent = props.grapes_red || t.na;
   document.getElementById('detail-grapes-white').textContent = props.grapes_white || t.na;
 
@@ -378,7 +409,6 @@ function selectDO(inputProps) {
   panel.classList.add('active');
   renderRegionsList();
 
-  // Scroll into view in left list
   setTimeout(() => {
     const selectedCard = document.querySelector('.region-card.selected');
     if (selectedCard) {
@@ -452,6 +482,10 @@ function setLanguage(lang) {
   document.getElementById('brand-title').textContent = t.title;
   document.getElementById('brand-subtitle').textContent = t.subtitle;
   document.getElementById('search-input').placeholder = t.searchPlaceholder;
+  
+  const optCountryAll = document.getElementById('country-all-opt');
+  if (optCountryAll) optCountryAll.textContent = t.allCountries;
+
   document.getElementById('cat-all-opt').textContent = t.allCategories;
   const optDoca = document.getElementById('cat-doca-opt');
   if (optDoca) optDoca.textContent = t.catDOCa;
@@ -461,7 +495,10 @@ function setLanguage(lang) {
   if (optVp) optVp.textContent = t.catVP;
   const optVc = document.getElementById('cat-vc-opt');
   if (optVc) optVc.textContent = t.catVC;
-  document.getElementById('reg-all-opt').textContent = t.allRegions;
+
+  const optRegAll = document.getElementById('reg-all-opt');
+  if (optRegAll) optRegAll.textContent = t.allRegions;
+
   document.getElementById('lbl-territory').textContent = t.territory;
   document.getElementById('lbl-grapes-red').textContent = t.grapesRed;
   document.getElementById('lbl-grapes-white').textContent = t.grapesWhite;
@@ -475,7 +512,17 @@ function setLanguage(lang) {
   renderMunisChips(currentMunisList);
 
   if (selectedFeature) {
-    document.getElementById('detail-region').innerHTML = '<span style="font-size: 1.05rem;">📍</span> ' + selectedFeature.region;
+    const countryFlags = {
+      'España': '🇪🇸',
+      'La Rioja': '🍇',
+      'Navarra': '🛡️',
+      'País Vasco': '🌿',
+      'Francia': '🇫🇷',
+      'Portugal': '🇵🇹',
+      'Italia': '🇮🇹'
+    };
+    const flag = countryFlags[selectedFeature.country] || '';
+    document.getElementById('detail-region').innerHTML = `<span style="font-size: 1.05rem;">📍</span> ${selectedFeature.region} ${flag ? `(${flag} ${selectedFeature.country})` : ''}`;
   }
 
   const basemapSelect = document.getElementById('basemap-select');
@@ -502,6 +549,33 @@ function setLanguage(lang) {
 document.getElementById('search-input').addEventListener('input', applyFilters);
 document.getElementById('category-filter').addEventListener('change', applyFilters);
 document.getElementById('region-filter').addEventListener('change', applyFilters);
+document.getElementById('country-filter').addEventListener('change', (e) => {
+  populateRegionFilter(e.target.value);
+  applyFilters();
+  const countryCenters = {
+    'España': { center: [-3.7, 40.4], zoom: 5.8 },
+    'La Rioja': { center: [-2.5, 42.3], zoom: 9.0 },
+    'Navarra': { center: [-1.65, 42.6], zoom: 8.5 },
+    'País Vasco': { center: [-2.6, 43.1], zoom: 8.5 },
+    'Francia': { center: [2.2, 46.5], zoom: 5.6 },
+    'Portugal': { center: [-8.2, 39.5], zoom: 6.6 },
+    'Italia': { center: [12.5, 42.5], zoom: 5.8 }
+  };
+  if (countryCenters[e.target.value]) {
+    map.flyTo({
+      center: countryCenters[e.target.value].center,
+      zoom: countryCenters[e.target.value].zoom,
+      essential: true
+    });
+  } else {
+    map.flyTo({
+      center: [2.5, 43.5],
+      zoom: 5.0,
+      essential: true
+    });
+  }
+});
+
 document.getElementById('btn-close-detail').addEventListener('click', closeDetail);
 document.querySelectorAll('.lang-btn').forEach(btn => {
   btn.addEventListener('click', (e) => setLanguage(e.target.dataset.lang));

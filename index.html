@@ -66,15 +66,27 @@
             <input type="text" id="search-input" class="search-input" placeholder="Buscar por DO, Comunidad o Uva..." autocomplete="off">
           </div>
           <div class="filters-row">
+            <select id="country-filter" class="filter-select">
+              <option value="" id="country-all-opt">Todos los Países / Territorios</option>
+              <option value="España" id="country-es-opt">🇪🇸 España</option>
+              <option value="La Rioja" id="country-rioja-opt">🍇 La Rioja</option>
+              <option value="Navarra" id="country-navarra-opt">🛡️ Navarra</option>
+              <option value="País Vasco" id="country-euskadi-opt">🌿 País Vasco</option>
+              <option value="Francia" id="country-fr-opt">🇫🇷 Francia</option>
+              <option value="Portugal" id="country-pt-opt">🇵🇹 Portugal</option>
+              <option value="Italia" id="country-it-opt">🇮🇹 Italia</option>
+            </select>
             <select id="category-filter" class="filter-select">
               <option value="" id="cat-all-opt">Todas las Categorías</option>
               <option value="DOCa" id="cat-doca-opt">DOCa</option>
               <option value="DO" id="cat-do-opt">DO</option>
+              <option value="AOC" id="cat-aoc-opt">AOC (Francia)</option>
+              <option value="DOCG" id="cat-docg-opt">DOCG (Italia)</option>
               <option value="Vino de Pago" id="cat-vp-opt">Vino de Pago (VP)</option>
               <option value="Vino de Calidad" id="cat-vc-opt">Vino de Calidad (VC)</option>
             </select>
             <select id="region-filter" class="filter-select">
-              <option value="" id="reg-all-opt">Todas las Comunidades</option>
+              <option value="" id="reg-all-opt">Todas las Regiones</option>
             </select>
           </div>
         </div>

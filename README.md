@@ -106,20 +106,25 @@ To validate this workflow, it was first applied to the **Ribera del Duero D.O.**
 
 This example proves that the methodology works with real-world, official data.
 
+## Multi-Country Coverage Status 🌍
+
+The project currently features authoritative coverage across four leading wine nations:
+
+- 🇪🇸 **Spain (100% census):** 100 official regions (DOCa, DO, DOP, Vinos de Calidad, Vinos de Pago) with all official PDF specifications. See [Spain Registry](docs/SPAIN/REGISTRO_DOS.md).
+- 🇵🇹 **Portugal (100% census):** All 31 official Denominações de Origem Protegida (DOC / DOP) mapped with all 31 official PDF Cadernos de Especificações stored under [`DOWNs/DOCs/PORTUGAL/`](DOWNs/DOCs/PORTUGAL/). See [Portugal Registry](docs/PORTUGAL/REGISTRO_DOCS.md).
+- 🇫🇷 **France (Phase 2 Expansion):** 92 official Appellations d'Origine Contrôlée (AOC / AOP). Complete census of the **Bordeaux Basin (36 AOCs)** and the **Burgundy Basin (46 AOCs)** with 100% official *cahiers des charges* (PDF) stored in [`DOWNs/DOCs/FRANCE/Bordeaux/`](DOWNs/DOCs/FRANCE/Bordeaux/) and [`DOWNs/DOCs/FRANCE/Bourgogne/`](DOWNs/DOCs/FRANCE/Bourgogne/), delimited via official **INAO geospatial boundaries**, alongside premier appellations across Rhône Valley, Champagne, Alsace, and Loire Valley. See [France Registry](docs/FRANCE/REGISTRO_AOCS.md).
+- 🇮🇹 **Italy (Phase 1):** 10 premier DOCGs & DOCs including Barolo, Barbaresco, Chianti Classico, Brunello di Montalcino, Bolgheri, Amarone della Valpolicella, Prosecco, and Franciacorta. See [Italy Registry](docs/ITALY/REGISTRO_DOCS.md).
+
+**Key metrics:**
+* **234 official wine regions** interactive in the web application with real-time commune chip search, basemap switcher, and official PDF specification viewers.
+* **261 vector layers** systematically arranged in the primary QGIS project (`QGIS/wine_world_wine.qgz`).
+* **Dedicated SQL filter libraries** available under `QGIS/<COUNTRY>/SQLs/`.
+
+---
+
 ## Building the Global Collection
 
-The ultimate goal of the **World Wine Wide** project is to apply this five-step workflow to every major wine region. The collection will grow over time, creating a comprehensive atlas of the world's wine.
-
-**Planned regions include:**
-
-- 🍷 **France:** Bordeaux, Burgundy, Champagne, Rhône, Loire, Alsace
-- 🍷 **Italy:** Tuscany, Piedmont, Veneto, Sicily
-- 🍷 **Spain:** Rioja, Ribera del Duero, Priorat, Rías Baixas
-- 🍷 **Portugal:** Douro, Dão, Vinho Verde, Alentejo
-- 🍷 **Germany:** Mosel, Rheingau, Pfalz
-- 🍷 **USA:** Napa Valley, Sonoma, Willamette Valley
-- 🍷 **Southern Hemisphere:** Mendoza (Argentina), Colchagua Valley (Chile), Marlborough (New Zealand), Stellenbosch (South Africa)
-- And many more...
+The ultimate goal of the **World Wine Wide** project is to continue applying this five-step workflow to every major wine region worldwide. Next targets include Germany (Mosel, Rheingau, Pfalz), United States (Napa Valley, Sonoma, Willamette Valley), and the Southern Hemisphere (Mendoza, Colchagua, Marlborough, Stellenbosch).
 
 ## License and Attribution
 

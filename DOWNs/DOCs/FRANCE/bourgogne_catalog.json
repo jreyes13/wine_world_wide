@@ -1,0 +1,845 @@
+[
+  {
+    "id": "fr-bourgogne-chablis",
+    "name": "Chablis",
+    "layer": "AOC Chablis",
+    "denom": "Chablis",
+    "pdf": "Chablis.pdf",
+    "communes": [
+      "Chablis",
+      "Beine",
+      "Béru",
+      "La Chapelle-Vaupelteigne",
+      "Chemilly-sur-Serein",
+      "Chichée",
+      "Collan",
+      "Courgis",
+      "Fleys",
+      "Fontenay-près-Chablis",
+      "Lignorelles",
+      "Ligny-le-Châtel",
+      "Maligny",
+      "Poilly-sur-Serein",
+      "Préhy",
+      "Rameau",
+      "Saint-Cyr-les-Colons",
+      "Villy",
+      "Viviers"
+    ],
+    "reds": [],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Célebre vino blanco mineral y acerado forjado sobre margas fosilíferas de Kimmeridgiense."
+  },
+  {
+    "id": "fr-bourgogne-chablis-grand-cru",
+    "name": "Chablis Grand Cru",
+    "layer": "AOC Chablis Grand Cru",
+    "denom": "Chablis Grand Cru",
+    "pdf": "Chablis_Grand_Cru.pdf",
+    "communes": [
+      "Chablis",
+      "Fyé"
+    ],
+    "reds": [],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "La cúspide de Chablis en siete míticos climats orientados al suroeste frente al Serein: Les Clos, Vaudésir, Valmur, Blanchot, Les Preuses, Grenouilles y Bougros."
+  },
+  {
+    "id": "fr-bourgogne-petit-chablis",
+    "name": "Petit Chablis",
+    "layer": "AOC Petit Chablis",
+    "denom": "Petit Chablis",
+    "pdf": "Petit_Chablis.pdf",
+    "communes": [
+      "Chablis",
+      "Beine",
+      "Béru",
+      "Chemilly-sur-Serein",
+      "Courgis",
+      "Fleys",
+      "Maligny",
+      "Poilly-sur-Serein",
+      "Préhy",
+      "Villy"
+    ],
+    "reds": [],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Vinos blancos vivos y florales cultivados en las mesetas sobre calizas del Portlandiense."
+  },
+  {
+    "id": "fr-bourgogne-irancy",
+    "name": "Irancy",
+    "layer": "AOC Irancy",
+    "denom": "Irancy",
+    "pdf": "Irancy.pdf",
+    "communes": [
+      "Irancy",
+      "Kravant",
+      "Vincelottes"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "César"
+    ],
+    "whites": [],
+    "desc": "Singular anfiteatro de tintos frescos en el norte de Borgoña donde el Pinot Noir se ensambla con la histórica uva César."
+  },
+  {
+    "id": "fr-bourgogne-saint-bris",
+    "name": "Saint-Bris",
+    "layer": "AOC Saint-Bris",
+    "denom": "Saint-Bris",
+    "pdf": "Saint_Bris.pdf",
+    "communes": [
+      "Saint-Bris-le-Vineux",
+      "Chitry",
+      "Irancy",
+      "Quenne",
+      "Vincelottes"
+    ],
+    "reds": [],
+    "whites": [
+      "Sauvignon Blanc",
+      "Sauvignon Gris"
+    ],
+    "desc": "La única denominación de Borgoña consagrada a las variedades Sauvignon Blanc y Sauvignon Gris."
+  },
+  {
+    "id": "fr-bourgogne-marsannay",
+    "name": "Marsannay",
+    "layer": "AOC Marsannay",
+    "denom": "Marsannay",
+    "pdf": "Marsannay.pdf",
+    "communes": [
+      "Marsannay-la-Côte",
+      "Chenôve",
+      "Couchey"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay",
+      "Pinot Blanc"
+    ],
+    "desc": "Puerta de oro de la Côte de Nuits, célebre por ser la única AOC comunal que produce tintos, blancos y sus afamados rosados."
+  },
+  {
+    "id": "fr-bourgogne-fixin",
+    "name": "Fixin",
+    "layer": "AOC Fixin",
+    "denom": "Fixin",
+    "pdf": "Fixin.pdf",
+    "communes": [
+      "Fixin",
+      "Brochon"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Vinos tintos robustos, corpulentos y tánicos con gran potencial de envejecimiento."
+  },
+  {
+    "id": "fr-bourgogne-gevrey-chambertin",
+    "name": "Gevrey-Chambertin",
+    "layer": "AOC Gevrey-Chambertin",
+    "denom": "Gevrey-Chambertin",
+    "pdf": "Gevrey_Chambertin.pdf",
+    "communes": [
+      "Gevrey-Chambertin",
+      "Brochon"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [],
+    "desc": "El rey de la Côte de Nuits con 9 Grands Crus liderados por Chambertin y Chambertin-Clos de Bèze."
+  },
+  {
+    "id": "fr-bourgogne-morey-saint-denis",
+    "name": "Morey-Saint-Denis",
+    "layer": "AOC Morey-Saint-Denis",
+    "denom": "Morey-Saint-Denis",
+    "pdf": "Morey_Saint_Denis.pdf",
+    "communes": [
+      "Morey-Saint-Denis"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Puente de equilibrio perfecto entre la potencia de Gevrey y la gracia sedosa de Chambolle-Musigny."
+  },
+  {
+    "id": "fr-bourgogne-chambolle-musigny",
+    "name": "Chambolle-Musigny",
+    "layer": "AOC Chambolle-Musigny",
+    "denom": "Chambolle-Musigny",
+    "pdf": "Chambolle_Musigny.pdf",
+    "communes": [
+      "Chambolle-Musigny"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [],
+    "desc": "La máxima expresión de la elegancia, finura y aromas de violeta en la Borgoña tinta."
+  },
+  {
+    "id": "fr-bourgogne-vougeot",
+    "name": "Vougeot",
+    "layer": "AOC Vougeot",
+    "denom": "Vougeot",
+    "pdf": "Vougeot.pdf",
+    "communes": [
+      "Vougeot"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Corazón histórico de los monjes cistercienses presidido por el monumental Château du Clos de Vougeot."
+  },
+  {
+    "id": "fr-bourgogne-vosne-romanee",
+    "name": "Vosne-Romanée",
+    "layer": "AOC Vosne-Romanée",
+    "denom": "Vosne-Romanée",
+    "pdf": "Vosne_Romanee.pdf",
+    "communes": [
+      "Vosne-Romanée",
+      "Flagey-Échezeaux"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [],
+    "desc": "La perla más luminosa de Borgoña donde nacen Romanée-Conti, La Tâche, Richebourg y Romanée-Saint-Vivant."
+  },
+  {
+    "id": "fr-bourgogne-nuits-saint-georges",
+    "name": "Nuits-Saint-Georges",
+    "layer": "AOC Nuits-Saint-Georges",
+    "denom": "Nuits-Saint-Georges",
+    "pdf": "Nuits_Saint_Georges.pdf",
+    "communes": [
+      "Nuits-Saint-Georges",
+      "Premeaux-Prissey"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Capital meridional de la Côte de Nuits con tintos estructurados, firmes y profundos."
+  },
+  {
+    "id": "fr-bourgogne-aloxe-corton",
+    "name": "Aloxe-Corton",
+    "layer": "AOC Aloxe-Corton",
+    "denom": "Aloxe-Corton",
+    "pdf": "Aloxe_Corton.pdf",
+    "communes": [
+      "Aloxe-Corton",
+      "Ladoix-Serrigny"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Asentada al pie de la majestuosa colina de Corton, hogar de mitos vitivinícolas."
+  },
+  {
+    "id": "fr-bourgogne-corton",
+    "name": "Corton",
+    "layer": "AOC Corton",
+    "denom": "Corton",
+    "pdf": "Corton.pdf",
+    "communes": [
+      "Aloxe-Corton",
+      "Ladoix-Serrigny",
+      "Pernand-Vergelesses"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "El único Grand Cru tinto de toda la Côte de Beaune, señorial y de inmensa longevidad."
+  },
+  {
+    "id": "fr-bourgogne-corton-charlemagne",
+    "name": "Corton-Charlemagne",
+    "layer": "AOC Corton-Charlemagne",
+    "denom": "Corton-Charlemagne",
+    "pdf": "Corton_Charlemagne.pdf",
+    "communes": [
+      "Aloxe-Corton",
+      "Ladoix-Serrigny",
+      "Pernand-Vergelesses"
+    ],
+    "reds": [],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Grand Cru blanco de leyenda nombrado en honor al emperador Carlomagno, mineral y soberbio."
+  },
+  {
+    "id": "fr-bourgogne-beaune",
+    "name": "Beaune",
+    "layer": "AOC Beaune",
+    "denom": "Beaune",
+    "pdf": "Beaune.pdf",
+    "communes": [
+      "Beaune"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "La capital histórica y vinícola de Borgoña con sus célebres Hospices de Beaune."
+  },
+  {
+    "id": "fr-bourgogne-chorey-les-beaune",
+    "name": "Chorey-lès-Beaune",
+    "layer": "AOC Chorey-lès-Beaune",
+    "denom": "Chorey-lès-Beaune",
+    "pdf": "Chorey_les_Beaune.pdf",
+    "communes": [
+      "Chorey-lès-Beaune"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Vinos amables, sedosos y muy afrutados nacidos en el piedemonte aluvial de la Côte."
+  },
+  {
+    "id": "fr-bourgogne-savigny-les-beaune",
+    "name": "Savigny-lès-Beaune",
+    "layer": "AOC Savigny-lès-Beaune",
+    "denom": "Savigny-lès-Beaune",
+    "pdf": "Savigny_les_Beaune.pdf",
+    "communes": [
+      "Savigny-lès-Beaune"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Valle tallado por el río Rhoin famoso por sus tintos expresivos y de gran valor."
+  },
+  {
+    "id": "fr-bourgogne-pommard",
+    "name": "Pommard",
+    "layer": "AOC Pommard",
+    "denom": "Pommard",
+    "pdf": "Pommard.pdf",
+    "communes": [
+      "Pommard"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [],
+    "desc": "Arquetipo de la potencia tánica, color oscuro y solidez estructural en la Côte de Beaune."
+  },
+  {
+    "id": "fr-bourgogne-volnay",
+    "name": "Volnay",
+    "layer": "AOC Volnay",
+    "denom": "Volnay",
+    "pdf": "Volnay.pdf",
+    "communes": [
+      "Volnay"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [],
+    "desc": "Admirado como el vino más sedoso, refinado y perfumado de la Côte de Beaune."
+  },
+  {
+    "id": "fr-bourgogne-meursault",
+    "name": "Meursault",
+    "layer": "AOC Meursault",
+    "denom": "Meursault",
+    "pdf": "Meursault.pdf",
+    "communes": [
+      "Meursault"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Capital universal del gran Chardonnay untuoso, mantecoso, con notas de avellana tostada y mineralidad."
+  },
+  {
+    "id": "fr-bourgogne-auxey-duresses",
+    "name": "Auxey-Duresses",
+    "layer": "AOC Auxey-Duresses",
+    "denom": "Auxey-Duresses",
+    "pdf": "Auxey_Duresses.pdf",
+    "communes": [
+      "Auxey-Duresses"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Valle protegido entre Meursault y Monthélie con excelentes parcelas de suelos calizos."
+  },
+  {
+    "id": "fr-bourgogne-monthelie",
+    "name": "Monthélie",
+    "layer": "AOC Monthélie",
+    "denom": "Monthélie",
+    "pdf": "Monthelie.pdf",
+    "communes": [
+      "Monthélie"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Pueblo de postal colgado en la ladera entre Volnay y Auxey-Duresses."
+  },
+  {
+    "id": "fr-bourgogne-saint-romain",
+    "name": "Saint-Romain",
+    "layer": "AOC Saint-Romain",
+    "denom": "Saint-Romain",
+    "pdf": "Saint_Romain.pdf",
+    "communes": [
+      "Saint-Romain"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Uno de los terruños más elevados de la Côte, bendecido con una frescura y vivacidad mineral única."
+  },
+  {
+    "id": "fr-bourgogne-puligny-montrachet",
+    "name": "Puligny-Montrachet",
+    "layer": "AOC Puligny-Montrachet",
+    "denom": "Puligny-Montrachet",
+    "pdf": "Puligny_Montrachet.pdf",
+    "communes": [
+      "Puligny-Montrachet"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "El santuario supremo del vino blanco mundial, presidido por Le Montrachet y Chevalier-Montrachet."
+  },
+  {
+    "id": "fr-bourgogne-chassagne-montrachet",
+    "name": "Chassagne-Montrachet",
+    "layer": "AOC Chassagne-Montrachet",
+    "denom": "Chassagne-Montrachet",
+    "pdf": "Chassagne_Montrachet.pdf",
+    "communes": [
+      "Chassagne-Montrachet",
+      "Remigny"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Cuna de Criots-Bâtard y Bâtard-Montrachet, combinando opulencia floral y tensión caliza."
+  },
+  {
+    "id": "fr-bourgogne-saint-aubin",
+    "name": "Saint-Aubin",
+    "layer": "AOC Saint-Aubin",
+    "denom": "Saint-Aubin",
+    "pdf": "Saint_Aubin.pdf",
+    "communes": [
+      "Saint-Aubin"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Valle encajado tras los Montrachet que ofrece algunos de los Chardonnays más dinámicos de Borgoña."
+  },
+  {
+    "id": "fr-bourgogne-santenay",
+    "name": "Santenay",
+    "layer": "AOC Santenay",
+    "denom": "Santenay",
+    "pdf": "Santenay.pdf",
+    "communes": [
+      "Santenay"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Extremo sur de la Côte de Beaune dominado por el monte Trois Croix, famoso por sus tintos seductores."
+  },
+  {
+    "id": "fr-bourgogne-maranges",
+    "name": "Maranges",
+    "layer": "AOC Maranges",
+    "denom": "Maranges",
+    "pdf": "Maranges.pdf",
+    "communes": [
+      "Cheilly-lès-Maranges",
+      "Dezize-lès-Maranges",
+      "Sampigny-lès-Maranges"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Territorio limítrofe entre Côte-d'Or y Saône-et-Loire con tintos de gran cuerpo y frutos silvestres."
+  },
+  {
+    "id": "fr-bourgogne-bouzeron",
+    "name": "Bouzeron",
+    "layer": "AOC Bouzeron",
+    "denom": "Bouzeron",
+    "pdf": "Bouzeron.pdf",
+    "communes": [
+      "Bouzeron",
+      "Chassey-le-Camp"
+    ],
+    "reds": [],
+    "whites": [
+      "Aligoté"
+    ],
+    "desc": "La única apelación comunal del mundo dedicada exclusivamente a la uva noble Aligoté Doré."
+  },
+  {
+    "id": "fr-bourgogne-rully",
+    "name": "Rully",
+    "layer": "AOC Rully",
+    "denom": "Rully",
+    "pdf": "Rully.pdf",
+    "communes": [
+      "Rully",
+      "Chagny"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Cuna histórica del espumoso borgoñón y de refinados vinos blancos y tintos sobre calizas jurásicas."
+  },
+  {
+    "id": "fr-bourgogne-mercurey",
+    "name": "Mercurey",
+    "layer": "AOC Mercurey",
+    "denom": "Mercurey",
+    "pdf": "Mercurey.pdf",
+    "communes": [
+      "Mercurey",
+      "Saint-Martin-sous-Montaigu"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "El corazón palpitante y mayor apelación comunal de la Côte Chalonnaise con reputados tintos de guarda."
+  },
+  {
+    "id": "fr-bourgogne-givry",
+    "name": "Givry",
+    "layer": "AOC Givry",
+    "denom": "Givry",
+    "pdf": "Givry.pdf",
+    "communes": [
+      "Givry",
+      "Dracy-le-Fort",
+      "Jambles"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "El vino favorito del rey Enrique IV de Francia, fino, perfumado y con recuerdos a cereza negra."
+  },
+  {
+    "id": "fr-bourgogne-montagny",
+    "name": "Montagny",
+    "layer": "AOC Montagny",
+    "denom": "Montagny",
+    "pdf": "Montagny.pdf",
+    "communes": [
+      "Montagny-lès-Buxy",
+      "Buxy",
+      "Jully-lès-Buxy",
+      "Saint-Vallerin"
+    ],
+    "reds": [],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Dedicada en exclusiva al Chardonnay, con suelos ricos en calizas fósiles del bajociense."
+  },
+  {
+    "id": "fr-bourgogne-pouilly-fuisse",
+    "name": "Pouilly-Fuissé",
+    "layer": "AOC Pouilly-Fuissé",
+    "denom": "Pouilly-Fuissé",
+    "pdf": "Pouilly_Fuisse.pdf",
+    "communes": [
+      "Chaintré",
+      "Fuissé",
+      "Solutré-Pouilly",
+      "Vergisson"
+    ],
+    "reds": [],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Magistral anfiteatro a la sombra de las majestuosas Rocas de Solutré y Vergisson, con Premiers Crus."
+  },
+  {
+    "id": "fr-bourgogne-pouilly-vinzelles",
+    "name": "Pouilly-Vinzelles",
+    "layer": "AOC Pouilly-Vinzelles",
+    "denom": "Pouilly-Vinzelles",
+    "pdf": "Pouilly_Vinzelles.pdf",
+    "communes": [
+      "Vinzelles",
+      "Loché"
+    ],
+    "reds": [],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Laderas orientadas al este sobre calizas del lías que confieren opulencia y finura melosa."
+  },
+  {
+    "id": "fr-bourgogne-pouilly-loche",
+    "name": "Pouilly-Loché",
+    "layer": "AOC Pouilly-Loché",
+    "denom": "Pouilly-Loché",
+    "pdf": "Pouilly_Loche.pdf",
+    "communes": [
+      "Loché"
+    ],
+    "reds": [],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Pequeña joya del Mâconnais con apenas 32 hectáreas de viñedos de gran distinción."
+  },
+  {
+    "id": "fr-bourgogne-saint-veran",
+    "name": "Saint-Véran",
+    "layer": "AOC Saint-Véran",
+    "denom": "Saint-Véran",
+    "pdf": "Saint_Veran.pdf",
+    "communes": [
+      "Chânes",
+      "Chasselas",
+      "Davayé",
+      "Leynes",
+      "Prissé",
+      "Saint-Amour-Bellevue",
+      "Saint-Vérand"
+    ],
+    "reds": [],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Envuelve a Pouilly-Fuissé en dos alas septentrional y meridional con vinos redondos y florales."
+  },
+  {
+    "id": "fr-bourgogne-vire-clesse",
+    "name": "Viré-Clessé",
+    "layer": "AOC Viré-Clessé",
+    "denom": "Viré-Clessé",
+    "pdf": "Vire_Clesse.pdf",
+    "communes": [
+      "Viré",
+      "Clessé",
+      "Laizé",
+      "Montbellet"
+    ],
+    "reds": [],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Dos pueblos señeros del norte del Mâconnais unidos para crear Chardonnays generosos y complejos."
+  },
+  {
+    "id": "fr-bourgogne-macon",
+    "name": "Mâcon",
+    "layer": "AOC Mâcon",
+    "denom": "Mâcon",
+    "pdf": "Macon.pdf",
+    "communes": [
+      "Mâcon",
+      "Lugny",
+      "Chardonnay",
+      "Prissé",
+      "Uchizy",
+      "Mancey",
+      "Milly-Lamartine"
+    ],
+    "reds": [
+      "Gamay",
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Extenso y luminoso viñedo meridional donde se encuentra el mismísimo pueblo de Chardonnay."
+  },
+  {
+    "id": "fr-bourgogne-bourgogne",
+    "name": "Bourgogne",
+    "layer": "AOC Bourgogne",
+    "denom": "Bourgogne",
+    "pdf": "Bourgogne.pdf",
+    "communes": [
+      "Beaune",
+      "Dijon",
+      "Nuits-Saint-Georges",
+      "Chalon-sur-Saône",
+      "Mâcon",
+      "Auxerre"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "La gran apelación regional matriz que expresa la identidad universal del terruño borgoñón."
+  },
+  {
+    "id": "fr-bourgogne-bourgogne-aligote",
+    "name": "Bourgogne Aligoté",
+    "layer": "AOC Bourgogne Aligoté",
+    "denom": "Bourgogne aligoté",
+    "pdf": "Bourgogne_Aligote.pdf",
+    "communes": [
+      "Beaune",
+      "Dijon",
+      "Chalon-sur-Saône",
+      "Mâcon",
+      "Auxerre"
+    ],
+    "reds": [],
+    "whites": [
+      "Aligoté"
+    ],
+    "desc": "El blanco fresco, vivaz y crujiente de Borgoña, base del célebre Kir borgoñón."
+  },
+  {
+    "id": "fr-bourgogne-bourgogne-passe-tout-grains",
+    "name": "Bourgogne Passe-tout-grains",
+    "layer": "AOC Bourgogne Passe-tout-grains",
+    "denom": "Bourgogne Passe-tout-grains",
+    "pdf": "Bourgogne_Passe_tout_grains.pdf",
+    "communes": [
+      "Beaune",
+      "Dijon",
+      "Nuits-Saint-Georges",
+      "Chalon-sur-Saône"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Gamay"
+    ],
+    "whites": [],
+    "desc": "Tradicional cofermentación donde el Pinot Noir se funde con la frutosidad del Gamay."
+  },
+  {
+    "id": "fr-bourgogne-cremant-de-bourgogne",
+    "name": "Crémant de Bourgogne",
+    "layer": "AOC Crémant de Bourgogne",
+    "denom": "Crémant de Bourgogne",
+    "pdf": "Cremant_de_Bourgogne.pdf",
+    "communes": [
+      "Rully",
+      "Beaune",
+      "Nuits-Saint-Georges",
+      "Auxerre"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay",
+      "Aligoté"
+    ],
+    "desc": "Vino espumoso de método tradicional de gran finura nacido de viñedos seleccionados de Borgoña."
+  },
+  {
+    "id": "fr-bourgogne-coteaux-bourguignons",
+    "name": "Coteaux Bourguignons",
+    "layer": "AOC Coteaux Bourguignons",
+    "denom": "Coteaux Bourguignons ou Bourgogne grand ordinaire ou Bourgogne ordinaire",
+    "pdf": "Coteaux_Bourguignons.pdf",
+    "communes": [
+      "Auxerre",
+      "Dijon",
+      "Beaune",
+      "Mâcon"
+    ],
+    "reds": [
+      "Gamay",
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay",
+      "Aligoté"
+    ],
+    "desc": "Vinos joviales y versátiles procedentes de las laderas que recorren de norte a sur la gran Borgoña."
+  }
+]

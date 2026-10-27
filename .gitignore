@@ -15,4 +15,7 @@ __pycache__/
 
 # Temporary downloads or zips if needed
 *.tmp
+*.zip
+DOWNs/FRANCE/inao_shapefile/
+DOWNs/FRANCE/inao_delim_aire_geo.zip
 scratch/

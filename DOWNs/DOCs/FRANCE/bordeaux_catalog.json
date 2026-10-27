@@ -1,0 +1,851 @@
+[
+  {
+    "id": "fr-bordeaux-pauillac",
+    "name": "Pauillac",
+    "layer": "AOC Pauillac",
+    "denom": "Pauillac",
+    "pdf": "Pauillac.pdf",
+    "communes": [
+      "Pauillac"
+    ],
+    "reds": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc",
+      "Petit Verdot"
+    ],
+    "whites": [],
+    "desc": "Cuna de 3 Premiers Grands Crus Classés de 1855: Lafite Rothschild, Latour y Mouton Rothschild."
+  },
+  {
+    "id": "fr-bordeaux-margaux",
+    "name": "Margaux",
+    "layer": "AOC Margaux",
+    "denom": "Margaux",
+    "pdf": "Margaux.pdf",
+    "communes": [
+      "Margaux-Cantenac",
+      "Arsac",
+      "Labarde",
+      "Soussans"
+    ],
+    "reds": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc",
+      "Petit Verdot"
+    ],
+    "whites": [],
+    "desc": "Famosa por su elegancia y finura aromática legendaria, presidida por Château Margaux."
+  },
+  {
+    "id": "fr-bordeaux-saint-julien",
+    "name": "Saint-Julien",
+    "layer": "AOC Saint-Julien",
+    "denom": "Saint-Julien",
+    "pdf": "Saint_Julien.pdf",
+    "communes": [
+      "Saint-Julien-Beychevelle"
+    ],
+    "reds": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "whites": [],
+    "desc": "Equilibrio maestro entre la opulencia de Pauillac y la finura de Margaux."
+  },
+  {
+    "id": "fr-bordeaux-saint-estephe",
+    "name": "Saint-Estèphe",
+    "layer": "AOC Saint-Estèphe",
+    "denom": "Saint-Estèphe",
+    "pdf": "Saint_Estephe.pdf",
+    "communes": [
+      "Saint-Estèphe"
+    ],
+    "reds": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "whites": [],
+    "desc": "Suelos más arcillosos sobre caliza que confieren gran estructura y formidable longevidad."
+  },
+  {
+    "id": "fr-bordeaux-saint-emilion",
+    "name": "Saint-Émilion",
+    "layer": "AOC Saint-Émilion",
+    "denom": "Saint-Emilion",
+    "pdf": "Saint_Emilion.pdf",
+    "communes": [
+      "Saint-Émilion",
+      "Saint-Christophe-des-Bardes",
+      "Saint-Étienne-de-Lisse",
+      "Saint-Hippolyte",
+      "Saint-Laurent-des-Combes",
+      "Saint-Pey-d'Armens",
+      "Saint-Sulpice-de-Faleyrens",
+      "Vignonet"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [],
+    "desc": "Mítico terruño calizo de la orilla derecha bordelesa dominado por el terciopelo del Merlot."
+  },
+  {
+    "id": "fr-bordeaux-saint-emilion-grand-cru",
+    "name": "Saint-Émilion Grand Cru",
+    "layer": "AOC Saint-Émilion Grand Cru",
+    "denom": "Saint-Emilion grand cru",
+    "pdf": "Saint_Emilion_Grand_Cru.pdf",
+    "communes": [
+      "Saint-Émilion",
+      "Saint-Christophe-des-Bardes",
+      "Saint-Étienne-de-Lisse",
+      "Saint-Hippolyte",
+      "Saint-Laurent-des-Combes",
+      "Saint-Pey-d'Armens",
+      "Saint-Sulpice-de-Faleyrens",
+      "Vignonet"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [],
+    "desc": "Apelación de élite con rendimientos más estrictos y crianza obligatoria en barrica."
+  },
+  {
+    "id": "fr-bordeaux-pomerol",
+    "name": "Pomerol",
+    "layer": "AOC Pomerol",
+    "denom": "Pomerol",
+    "pdf": "Pomerol.pdf",
+    "communes": [
+      "Pomerol"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "whites": [],
+    "desc": "Meseta de arcillas azules ferrosas de donde nacen leyendas vinícolas como Pétrus y Le Pin."
+  },
+  {
+    "id": "fr-bordeaux-lalande-de-pomerol",
+    "name": "Lalande-de-Pomerol",
+    "layer": "AOC Lalande-de-Pomerol",
+    "denom": "Lalande-de-Pomerol",
+    "pdf": "Lalande_de_Pomerol.pdf",
+    "communes": [
+      "Lalande-de-Pomerol",
+      "Néac"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [],
+    "desc": "Vecino inmediato de Pomerol al norte del río Barbanne, de gran finura y frutosidad."
+  },
+  {
+    "id": "fr-bordeaux-sauternes",
+    "name": "Sauternes",
+    "layer": "AOC Sauternes",
+    "denom": "Sauternes",
+    "pdf": "Sauternes.pdf",
+    "communes": [
+      "Sauternes",
+      "Barsac",
+      "Bommes",
+      "Fargues",
+      "Preignac"
+    ],
+    "reds": [],
+    "whites": [
+      "Sémillon",
+      "Sauvignon Blanc",
+      "Muscadelle"
+    ],
+    "desc": "Sublimes vinos licorosos botritizados favorecidos por el microclima del río Ciron y Château d'Yquem."
+  },
+  {
+    "id": "fr-bordeaux-barsac",
+    "name": "Barsac",
+    "layer": "AOC Barsac",
+    "denom": "Barsac",
+    "pdf": "Barsac.pdf",
+    "communes": [
+      "Barsac"
+    ],
+    "reds": [],
+    "whites": [
+      "Sémillon",
+      "Sauvignon Blanc",
+      "Muscadelle"
+    ],
+    "desc": "Vinos botritizados con mayor tensión, frescura y mineralidad sobre roca calcárea del Alto Barsac."
+  },
+  {
+    "id": "fr-bordeaux-pessac-leognan",
+    "name": "Pessac-Léognan",
+    "layer": "AOC Pessac-Léognan",
+    "denom": "Pessac-Léognan",
+    "pdf": "Pessac_Leognan.pdf",
+    "communes": [
+      "Cadaujac",
+      "Canéjan",
+      "Gradignan",
+      "Léognan",
+      "Martillac",
+      "Mérignac",
+      "Pessac",
+      "Saint-Médard-d'Eyrans",
+      "Talence",
+      "Villenave-d'Ornon"
+    ],
+    "reds": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "whites": [
+      "Sauvignon Blanc",
+      "Sémillon"
+    ],
+    "desc": "Cuna histórica del viñedo bordelés con suelos de gravas profundas presidida por Château Haut-Brion."
+  },
+  {
+    "id": "fr-bordeaux-graves",
+    "name": "Graves",
+    "layer": "AOC Graves",
+    "denom": "Graves",
+    "pdf": "Graves_et_Graves_Superieures.pdf",
+    "communes": [
+      "La Brède",
+      "Portets",
+      "Podensac",
+      "Arbanats",
+      "Budos",
+      "Castres-Gironde",
+      "Cerons",
+      "Guillos",
+      "Illats",
+      "Landiras",
+      "Langon",
+      "Mazeres",
+      "Pujols-sur-Ciron",
+      "Roaillan",
+      "Saint-Michel-de-Rieufret",
+      "Saint-Pardon-de-Conques",
+      "Saint-Pierre-de-Mons",
+      "Toulenne",
+      "Virelade"
+    ],
+    "reds": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "whites": [
+      "Sémillon",
+      "Sauvignon Blanc",
+      "Muscadelle"
+    ],
+    "desc": "Terruño matriz de gravas cuarcíferas depositadas por el Garona a lo largo de las eras glaciares."
+  },
+  {
+    "id": "fr-bordeaux-graves-superieures",
+    "name": "Graves Supérieures",
+    "layer": "AOC Graves Supérieures",
+    "denom": "Graves supérieures",
+    "pdf": "Graves_et_Graves_Superieures.pdf",
+    "communes": [
+      "La Brède",
+      "Portets",
+      "Podensac",
+      "Landiras",
+      "Langon"
+    ],
+    "reds": [],
+    "whites": [
+      "Sémillon",
+      "Sauvignon Blanc",
+      "Muscadelle"
+    ],
+    "desc": "Vinos blancos melosos y licorosos cosechados tardíamente con rica concentración frutal."
+  },
+  {
+    "id": "fr-bordeaux-haut-medoc",
+    "name": "Haut-Médoc",
+    "layer": "AOC Haut-Médoc",
+    "denom": "Haut-Médoc",
+    "pdf": "Haut_Medoc.pdf",
+    "communes": [
+      "Blanquefort",
+      "Le Taillan-Médoc",
+      "Ludon-Médoc",
+      "Macau",
+      "Parempuyre",
+      "Saint-Laurent-Médoc",
+      "Cussac-Fort-Médoc",
+      "Arcins",
+      "Avensan",
+      "Castelnau-de-Médoc",
+      "Lamarque",
+      "Le Pian-Médoc",
+      "Sainte-Hélène",
+      "Soussans",
+      "Vertheuil"
+    ],
+    "reds": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc",
+      "Petit Verdot"
+    ],
+    "whites": [],
+    "desc": "Franja sur del Médoc con formidables terrazas de gravas que albergan prestigiosos Crus Classés y Crus Bourgeois."
+  },
+  {
+    "id": "fr-bordeaux-medoc",
+    "name": "Médoc",
+    "layer": "AOC Médoc",
+    "denom": "Médoc",
+    "pdf": "Medoc.pdf",
+    "communes": [
+      "Bégadan",
+      "Blaignan-Prignac",
+      "Cissac-Médoc",
+      "Civrac-en-Médoc",
+      "Couquèques",
+      "Gaillan-en-Médoc",
+      "Jau-Dignac-et-Loirac",
+      "Lesparre-Médoc",
+      "Ordonnac",
+      "Queyrac",
+      "Saint-Christoly-Médoc",
+      "Saint-Germain-d'Esteuil",
+      "Saint-Seurin-de-Cadourne",
+      "Saint-Yzans-de-Médoc",
+      "Valeyrac",
+      "Vensac"
+    ],
+    "reds": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "whites": [],
+    "desc": "Extremo norte de la península entre el Atlántico y el estuario del Garona, fresco y atlántico."
+  },
+  {
+    "id": "fr-bordeaux-moulis-en-medoc",
+    "name": "Moulis-en-Médoc",
+    "layer": "AOC Moulis-en-Médoc",
+    "denom": "Moulis ou Moulis-en-Médoc",
+    "pdf": "Moulis_en_Medoc.pdf",
+    "communes": [
+      "Moulis-en-Médoc"
+    ],
+    "reds": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc",
+      "Petit Verdot"
+    ],
+    "whites": [],
+    "desc": "La más pequeña de las seis apelaciones comunales del Médoc, famosa por su gran balance y finura."
+  },
+  {
+    "id": "fr-bordeaux-listrac-medoc",
+    "name": "Listrac-Médoc",
+    "layer": "AOC Listrac-Médoc",
+    "denom": "Listrac-Médoc",
+    "pdf": "Listrac_Medoc.pdf",
+    "communes": [
+      "Listrac-Médoc"
+    ],
+    "reds": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc",
+      "Petit Verdot"
+    ],
+    "whites": [],
+    "desc": "El techo del Médoc situado a 43 m sobre el nivel del mar, con vinos estructurados y vigorosos."
+  },
+  {
+    "id": "fr-bordeaux-fronsac",
+    "name": "Fronsac",
+    "layer": "AOC Fronsac",
+    "denom": "Fronsac",
+    "pdf": "Fronsac.pdf",
+    "communes": [
+      "Fronsac",
+      "La Rivière",
+      "Saint-Aignan",
+      "Saint-Germain-de-la-Rivière",
+      "Saint-Michel-de-Fronsac",
+      "Saillans"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [],
+    "desc": "Laderas colinares de areniscas y calizas molásicas apodadas la Toscana bordelesa."
+  },
+  {
+    "id": "fr-bordeaux-canon-fronsac",
+    "name": "Canon Fronsac",
+    "layer": "AOC Canon Fronsac",
+    "denom": "Canon Fronsac",
+    "pdf": "Canon_Fronsac.pdf",
+    "communes": [
+      "Fronsac",
+      "Saint-Michel-de-Fronsac"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "whites": [],
+    "desc": "El corazón noble de Fronsac sobre calizas de estrellas con vinos de enorme potencia y elegancia."
+  },
+  {
+    "id": "fr-bordeaux-montagne-saint-emilion",
+    "name": "Montagne-Saint-Émilion",
+    "layer": "AOC Montagne-Saint-Émilion",
+    "denom": "Montagne-Saint-Emilion",
+    "pdf": "Montagne_Saint_Emilion.pdf",
+    "communes": [
+      "Montagne"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [],
+    "desc": "El más septentrional de los satélites de Saint-Émilion, con magníficas colinas calcáreas."
+  },
+  {
+    "id": "fr-bordeaux-lussac-saint-emilion",
+    "name": "Lussac-Saint-Émilion",
+    "layer": "AOC Lussac-Saint-Émilion",
+    "denom": "Lussac-Saint-Emilion",
+    "pdf": "Lussac_Saint_Emilion.pdf",
+    "communes": [
+      "Lussac"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [],
+    "desc": "Anfiteatro natural de viñedos que produce tintos aterciopelados y aromáticos."
+  },
+  {
+    "id": "fr-bordeaux-puisseguin-saint-emilion",
+    "name": "Puisseguin-Saint-Émilion",
+    "layer": "AOC Puisseguin-Saint-Émilion",
+    "denom": "Puisseguin-Saint-Emilion",
+    "pdf": "Puisseguin_Saint_Emilion.pdf",
+    "communes": [
+      "Puisseguin"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [],
+    "desc": "Suelos arcillo-calcáreos de gran altitud que confieren frescura y magníficos taninos sedosos."
+  },
+  {
+    "id": "fr-bordeaux-saint-georges-saint-emilion",
+    "name": "Saint-Georges-Saint-Émilion",
+    "layer": "AOC Saint-Georges-Saint-Émilion",
+    "denom": "Saint-Georges-Saint-Emilion",
+    "pdf": "Saint_Georges_Saint_Emilion.pdf",
+    "communes": [
+      "Montagne"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "whites": [],
+    "desc": "La denominación satélite más diminuta y codiciada, orientada al mediodía sobre arcillas calizas."
+  },
+  {
+    "id": "fr-bordeaux-cotes-de-bourg",
+    "name": "Côtes de Bourg",
+    "layer": "AOC Côtes de Bourg",
+    "denom": "Côtes de Bourg, Bourg et Bourgeais",
+    "pdf": "Cotes_de_Bourg.pdf",
+    "communes": [
+      "Bourg",
+      "Bayon-sur-Gironde",
+      "Comps",
+      "Gauriac",
+      "Lansac",
+      "Mombrier",
+      "Prignac-et-Marcamps",
+      "Pugnac",
+      "Saint-Ciers-de-Canesse",
+      "Saint-Seurin-de-Bourg",
+      "Saint-Trojan",
+      "Samonac",
+      "Tauriac",
+      "Teuillac",
+      "Villenave-de-Rions"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Malbec (Cot)",
+      "Cabernet Franc"
+    ],
+    "whites": [
+      "Sauvignon Blanc",
+      "Sémillon",
+      "Muscadelle"
+    ],
+    "desc": "Acantilados y lomas junto al estuario con destacada presencia de la uva Malbec."
+  },
+  {
+    "id": "fr-bordeaux-blaye",
+    "name": "Blaye",
+    "layer": "AOC Blaye",
+    "denom": "Côtes de Bordeaux Blaye",
+    "pdf": "Blaye.pdf",
+    "communes": [
+      "Blaye",
+      "Berson",
+      "Campugnan",
+      "Cars",
+      "Cartelègue",
+      "Fours",
+      "Mazion",
+      "Plassac",
+      "Saint-Androny",
+      "Saint-Genès-de-Blaye",
+      "Saint-Martin-Lacaussade",
+      "Saint-Paul",
+      "Saint-Seurin-de-Cursac"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Cabernet Franc"
+    ],
+    "whites": [
+      "Sauvignon Blanc",
+      "Sémillon",
+      "Muscadelle",
+      "Colombard"
+    ],
+    "desc": "Noble comarca fortificada por Vauban con vinos frescos, afrutados y de gran tipicidad."
+  },
+  {
+    "id": "fr-bordeaux-cotes-de-bordeaux",
+    "name": "Côtes de Bordeaux",
+    "layer": "AOC Côtes de Bordeaux",
+    "denom": "Côtes de Bordeaux",
+    "pdf": "Cotes_de_Bordeaux.pdf",
+    "communes": [
+      "Blaye",
+      "Cadillac",
+      "Castillon-la-Bataille",
+      "Francs",
+      "Sainte-Foy-la-Grande"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Cabernet Franc",
+      "Malbec"
+    ],
+    "whites": [
+      "Sauvignon Blanc",
+      "Sémillon"
+    ],
+    "desc": "Gran unión de terruños en ladera: Blaye, Cadillac, Castillon, Francs y Sainte-Foy."
+  },
+  {
+    "id": "fr-bordeaux-entre-deux-mers",
+    "name": "Entre-Deux-Mers",
+    "layer": "AOC Entre-Deux-Mers",
+    "denom": "Entre-deux-Mers",
+    "pdf": "Entre_deux_Mers.pdf",
+    "communes": [
+      "Sauveterre-de-Guyenne",
+      "Créon",
+      "Targon",
+      "Monségur",
+      "Pellegrue",
+      "Rauzan",
+      "La Sauve",
+      "Branne",
+      "Cadillac",
+      "Saint-Foy-la-Grande"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [
+      "Sauvignon Blanc",
+      "Sémillon",
+      "Muscadelle"
+    ],
+    "desc": "El corazón verde entre el Garona y el Dordoña, famoso por sus blancos vivaces y secos."
+  },
+  {
+    "id": "fr-bordeaux-graves-de-vayres",
+    "name": "Graves de Vayres",
+    "layer": "AOC Graves de Vayres",
+    "denom": "Graves de Vayres",
+    "pdf": "Graves_de_Vayres.pdf",
+    "communes": [
+      "Vayres",
+      "Arveyres"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Cabernet Franc"
+    ],
+    "whites": [
+      "Sémillon",
+      "Sauvignon Blanc"
+    ],
+    "desc": "Enclave de gravas sobre un meandro del río Dordoña frente a Fronsac."
+  },
+  {
+    "id": "fr-bordeaux-cerons",
+    "name": "Cérons",
+    "layer": "AOC Cérons",
+    "denom": "Cérons",
+    "pdf": "Cerons.pdf",
+    "communes": [
+      "Cérons",
+      "Illats",
+      "Podensac"
+    ],
+    "reds": [],
+    "whites": [
+      "Sémillon",
+      "Sauvignon Blanc",
+      "Muscadelle"
+    ],
+    "desc": "Vinos licorosos de gran frescor nacidos en las gravas calizas vecinas a Barsac."
+  },
+  {
+    "id": "fr-bordeaux-cadillac",
+    "name": "Cadillac",
+    "layer": "AOC Cadillac",
+    "denom": "Cadillac",
+    "pdf": "Cadillac.pdf",
+    "communes": [
+      "Cadillac",
+      "Beguey",
+      "Capian",
+      "Cardan",
+      "Donzac",
+      "Gabarnac",
+      "Langoiran",
+      "Laroque",
+      "Le Tourne",
+      "Monprimblanc",
+      "Omet",
+      "Rions",
+      "Saint-Germain-de-Grave",
+      "Sainte-Croix-du-Mont",
+      "Villenave-de-Rions"
+    ],
+    "reds": [],
+    "whites": [
+      "Sémillon",
+      "Sauvignon Blanc",
+      "Muscadelle"
+    ],
+    "desc": "Vinos blancos dulces y dorados cosechados en laderas empinadas del Garona."
+  },
+  {
+    "id": "fr-bordeaux-loupiac",
+    "name": "Loupiac",
+    "layer": "AOC Loupiac",
+    "denom": "Loupiac",
+    "pdf": "Loupiac.pdf",
+    "communes": [
+      "Loupiac"
+    ],
+    "reds": [],
+    "whites": [
+      "Sémillon",
+      "Sauvignon Blanc",
+      "Muscadelle"
+    ],
+    "desc": "Laderas frente a Sauternes que producen néctares melosos de gran elegancia y aroma."
+  },
+  {
+    "id": "fr-bordeaux-sainte-croix-du-mont",
+    "name": "Sainte-Croix-du-Mont",
+    "layer": "AOC Sainte-Croix-du-Mont",
+    "denom": "Sainte-Croix-du-Mont",
+    "pdf": "Sainte_Croix_du_Mont.pdf",
+    "communes": [
+      "Sainte-Croix-du-Mont"
+    ],
+    "reds": [],
+    "whites": [
+      "Sémillon",
+      "Sauvignon Blanc",
+      "Muscadelle"
+    ],
+    "desc": "Impresionantes acantilados de ostras fósiles donde maduran suntuosos vinos botritizados."
+  },
+  {
+    "id": "fr-bordeaux-premieres-cotes-de-bordeaux",
+    "name": "Premières Côtes de Bordeaux",
+    "layer": "AOC Premières Côtes de Bordeaux",
+    "denom": "Premières Côtes de Bordeaux",
+    "pdf": "Premieres_Cotes_de_Bordeaux.pdf",
+    "communes": [
+      "Bassens",
+      "Carbon-Blanc",
+      "Cenon",
+      "Floirac",
+      "Bouliac",
+      "Carignan-de-Bordeaux",
+      "Latresne",
+      "Cénac",
+      "Camblanes-et-Meynac",
+      "Quinsac",
+      "Cambes",
+      "Saint-Caprais-de-Bordeaux",
+      "Baurech",
+      "Tabanac",
+      "Le Tourne",
+      "Langoiran",
+      "Capian",
+      "Cardan",
+      "Villenave-de-Rions",
+      "Rions",
+      "Laroque",
+      "Beguey",
+      "Cadillac",
+      "Omet",
+      "Donzac",
+      "Monprimblanc",
+      "Loupiac",
+      "Sainte-Croix-du-Mont",
+      "Semens",
+      "Saint-Germain-de-Grave",
+      "Saint-Maixant"
+    ],
+    "reds": [],
+    "whites": [
+      "Sémillon",
+      "Sauvignon Blanc",
+      "Muscadelle"
+    ],
+    "desc": "Estrecha franja en la orilla derecha del Garona especializada en vinos blancos melosos."
+  },
+  {
+    "id": "fr-bordeaux-cotes-de-bordeaux-saint-macaire",
+    "name": "Côtes de Bordeaux-Saint-Macaire",
+    "layer": "AOC Côtes de Bordeaux-Saint-Macaire",
+    "denom": "Côtes de Bordeaux-Saint-Macaire",
+    "pdf": "Cotes_de_Bordeaux_Saint_Macaire.pdf",
+    "communes": [
+      "Saint-Macaire",
+      "Caudrot",
+      "Le Pian-sur-Garonne",
+      "Saint-André-du-Bois",
+      "Saint-Germain-de-Grave",
+      "Saint-Laurent-du-Bois",
+      "Saint-Laurent-du-Plan",
+      "Saint-Maixant",
+      "Saint-Martial",
+      "Saint-Pierre-d'Aurillac",
+      "Sainte-Foy-la-Longue",
+      "Semens",
+      "Verdelais"
+    ],
+    "reds": [],
+    "whites": [
+      "Sémillon",
+      "Sauvignon Blanc",
+      "Muscadelle"
+    ],
+    "desc": "Vinos blancos secos, melosos y licorosos de histórica tradición alrededor de Saint-Macaire."
+  },
+  {
+    "id": "fr-bordeaux-bordeaux",
+    "name": "Bordeaux",
+    "layer": "AOC Bordeaux",
+    "denom": "Bordeaux",
+    "pdf": "Bordeaux.pdf",
+    "communes": [
+      "Bordeaux",
+      "Mérignac",
+      "Pessac",
+      "Talence",
+      "Libourne",
+      "Saint-Émilion",
+      "Blaye",
+      "Lesparre-Médoc",
+      "Langon"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Cabernet Franc"
+    ],
+    "whites": [
+      "Sauvignon Blanc",
+      "Sémillon"
+    ],
+    "desc": "La mayor apelación de origen de calidad del mundo, estandarte del arte del ensamblaje bordelés."
+  },
+  {
+    "id": "fr-bordeaux-bordeaux-superieur",
+    "name": "Bordeaux Supérieur",
+    "layer": "AOC Bordeaux Supérieur",
+    "denom": "Bordeaux supérieur",
+    "pdf": "Bordeaux_Superieur.pdf",
+    "communes": [
+      "Bordeaux",
+      "Mérignac",
+      "Pessac",
+      "Talence",
+      "Libourne",
+      "Saint-Émilion",
+      "Blaye",
+      "Lesparre-Médoc",
+      "Langon"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Cabernet Franc"
+    ],
+    "whites": [
+      "Sémillon",
+      "Sauvignon Blanc"
+    ],
+    "desc": "Vinos procedentes de cepas más viejas y con mayor crianza que la AOC Bordeaux básica."
+  }
+]

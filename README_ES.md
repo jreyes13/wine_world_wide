@@ -39,20 +39,25 @@ Para ver los detalles técnicos y particularidades cartográficas (pedanías, no
 
 ---
 
-## 📊 Estado Actual: España
+## 📊 Estado Actual: Cobertura Multipaís
 
-El proyecto ha comenzado por España, donde ya contamos con:
-- **75 pliegos de condiciones oficiales en PDF** en [`DOWNs/DOCs/SPAIN/`](DOWNs/DOCs/SPAIN/).
-- **Más de 50 capas GeoPackage** generadas en [`QGIS/SPAIN/`](QGIS/SPAIN/).
-- **Filtros SQL listos para QGIS** en [`QGIS/SPAIN/SQLs/`](QGIS/SPAIN/SQLs/).
+El proyecto cuenta con una cobertura internacional consolidada y estructurada:
 
-Consulta el estado detallado de cada DO por Comunidad Autónoma en el [Registro de Denominaciones de Origen de España](docs/SPAIN/REGISTRO_DOS.md).
+- **🇪🇸 España (100% oficial):** 100 regiones (2 DOCas, 65 DOs, 4 DOPs, 4 Vinos de Calidad y 25 Vinos de Pago) con sus pliegos PDF. Ver [Registro de España](docs/SPAIN/REGISTRO_DOS.md).
+- **🇵🇹 Portugal (100% oficial):** 31 Denominações de Origem Protegida (DOC / DOP) completadas al 100%, con sus 31 Cadernos de Especificações oficiales en PDF archivados en [`DOWNs/DOCs/PORTUGAL/`](DOWNs/DOCs/PORTUGAL/). Ver [Registro de Portugal](docs/PORTUGAL/REGISTRO_DOCS.md).
+- **🇫🇷 Francia (Expansión Fase 2):** 92 AOCs oficiales. Cuencas completas de **Burdeos (36 AOCs)** y **Borgoña (46 AOCs)** con el 100% de los pliegos de condiciones oficiales (*cahiers des charges*) en PDF archivados en [`DOWNs/DOCs/FRANCE/Bordeaux/`](DOWNs/DOCs/FRANCE/Bordeaux/) y [`DOWNs/DOCs/FRANCE/Bourgogne/`](DOWNs/DOCs/FRANCE/Bourgogne/), delimitación vectorial oficial **INAO**, filtros SQL por comunas, junto a apelaciones clave del Ródano, Champaña, Alsacia y Loira. Ver [Registro de Francia](docs/FRANCE/REGISTRO_AOCS.md).
+- **🇮🇹 Italia (Fase 1 completada):** 10 icónicas DOCG/DOC incluyendo Barolo, Barbaresco, Chianti Classico, Brunello di Montalcino, Bolgheri, Amarone della Valpolicella, Prosecco y Franciacorta. Ver [Registro de Italia](docs/ITALY/REGISTRO_DOCS.md).
+
+**En números:**
+* **234 regiones vitivinícolas oficiales** integradas en el visor web interactivo.
+* **261 capas vectoriales** estructuradas en el proyecto maestro QGIS (`QGIS/wine_world_wine.qgz`).
+* **Librerías SQL completas** para cada país en `QGIS/<PAIS>/SQLs/`.
 
 ---
 
 ## 🌍 Expansión Global y Cómo Colaborar
 
-El proyecto está diseñado para crecer de forma modular e incorporar todas las grandes regiones del mundo (Francia, Italia, Portugal, Alemania, EE.UU., etc.).
+El proyecto está diseñado para crecer de forma modular e incorporar todas las grandes regiones del mundo (Alemania, EE.UU., Argentina, Chile, Australia, etc.).
 
 ¿Quieres proponer una nueva denominación o colaborar con pliegos y límites cartográficos? Consulta nuestra [Guía de Expansión Global](docs/EXPANSION_GLOBAL.md).
 
