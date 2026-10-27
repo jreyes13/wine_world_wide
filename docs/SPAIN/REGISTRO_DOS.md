@@ -7,7 +7,7 @@ Estado cartográfico y documental de todas las Denominaciones de Origen Protegid
 ## Resumen de Estado
 
 - **Total Pliegos Oficiales en Repositorio (`DOWNs/DOCs/SPAIN/`):** 75
-- **Capas GeoPackage Generadas (`QGIS/SPAIN/`):** 52 capas
+- **Capas GeoPackage Generadas (`QGIS/SPAIN/`):** **84 capas** (100% de DOs/DOCas de España completadas)
 - **Fuentes Cartográficas Base:**
   - Península y Baleares: Instituto Geográfico Nacional (IGN) - `recintos_municipales_inspire_peninbal_etrs89` (ETRS89 / EPSG:4258).
   - Canarias: IGN - `recintos_municipales_inspire_canarias_regcan95` (REGCAN95 / EPSG:4081).
@@ -36,7 +36,7 @@ Estado cartográfico y documental de todas las Denominaciones de Origen Protegid
 | **Calatayud** | `Calatayud_2021_12_28.pdf` | `Calatayud.gpkg` | 51 | Comarca de Calatayud |
 | **Campo de Borja** | `Campo_de_Borja_2024_12_13.pdf` | `Campo_de_Borja.gpkg` | 18 | El imperio de la Garnacha |
 | **Cariñena** | `Cariñena_2025_06_07.pdf` | `Cariñena.gpkg` | 16 | Campo de Cariñena |
-| **Somontano** | `Somontano_2011_01_01.pdf` | `Somontano.gpkg` | 43 | *Nombre de capa corregido* |
+| **Somontano** | `Somontano_2011_01_01.pdf` | `Somontano.gpkg` | 43 | *Nombre de capa y archivo corregido* |
 | **Urbezo** (Vino de Pago) | `Urbezo_2024_10_25.pdf` | `Urbezo.gpkg` | 1 | Cariñena |
 
 ---
@@ -63,16 +63,16 @@ Estado cartográfico y documental de todas las Denominaciones de Origen Protegid
 | DO / DOP | Pliego Oficial en Repositorio | Capa GPKG | Municipios | Subzonas / Notas |
 | :--- | :--- | :--- | :--- | :--- |
 | **Gran Canaria** | `Gran_Canaria_2024.pdf` | `Gran_Canaria.gpkg` | 21 | Isla completa (incl. Monte Lentiscal) |
-| **Abona** | `Abona_2011_01_01.pdf` | *En proceso* | 7 | Sur de Tenerife |
-| **El Hierro** | `El_Hierro_2011_01_01.pdf` | *En proceso* | 3 | Isla completa |
-| **Islas Canarias** | `Islas_Canarias_2021_07_27.pdf` | *En proceso* | 88 | Denominación regional archipiélago |
-| **La Gomera** | `La_Gomera_2011_01_01.pdf` | *En proceso* | 6 | Isla completa |
-| **La Palma** | `La_Palma_2011_01_01.pdf` | *En proceso* | 14 | Isla completa (3 subzonas) |
-| **Lanzarote** | `Lanzarote_2025_01_13.pdf` | *En proceso* | 7 | Isla completa |
-| **Tacoronte-Acentejo** | `Tacoronte-Acentejo_2024_12_30.pdf`| *En proceso* | 9 | Norte de Tenerife |
-| **Valle de Güímar** | `Valle_de_Guimar_2011_01_01.pdf` | *En proceso* | 3 | Vertiente este de Tenerife |
-| **Valle de la Orotava**| `Valle_de_la_Orotava_2011_01_01.pdf`| *En proceso* | 3 | Norte de Tenerife |
-| **Ycoden-Daute-Isora** | `Ycoden-Daute-Isora_2011_01_01.pdf`| *En proceso* | 9 | Noroeste de Tenerife |
+| **Abona** | `Abona_2011_01_01.pdf` | `Abona.gpkg` | 7 | Sur de Tenerife |
+| **El Hierro** | `El_Hierro_2011_01_01.pdf` | `El_Hierro.gpkg` | 3 | Isla completa |
+| **Islas Canarias** | `Islas_Canarias_2021_07_27.pdf` | `Islas_Canarias.gpkg` | 88 | Denominación regional archipiélago |
+| **La Gomera** | `La_Gomera_2011_01_01.pdf` | `La_Gomera.gpkg` | 6 | Isla completa |
+| **La Palma** | `La_Palma_2011_01_01.pdf` | `La_Palma.gpkg` | 14 | Isla completa (3 subzonas) |
+| **Lanzarote** | `Lanzarote_2025_01_13.pdf` | `Lanzarote.gpkg` | 7 | Isla completa |
+| **Tacoronte-Acentejo** | `Tacoronte-Acentejo_2024_12_30.pdf`| `Tacoronte_Acentejo.gpkg` | 9 | Norte de Tenerife |
+| **Valle de Güímar** | `Valle_de_Guimar_2011_01_01.pdf` | `Valle_de_Guimar.gpkg` | 3 | Vertiente este de Tenerife |
+| **Valle de la Orotava**| `Valle_de_la_Orotava_2011_01_01.pdf`| `Valle_de_la_Orotava.gpkg` | 3 | Norte de Tenerife |
+| **Ycoden-Daute-Isora** | `Ycoden-Daute-Isora_2011_01_01.pdf`| `Ycoden_Daute_Isora.gpkg` | 9 | Noroeste de Tenerife |
 
 ---
 
@@ -97,14 +97,14 @@ Estado cartográfico y documental de todas las Denominaciones de Origen Protegid
 
 | DO / DOP | Pliego Oficial en Repositorio | Capa GPKG | Municipios | Subzonas / Notas |
 | :--- | :--- | :--- | :--- | :--- |
+| **Almansa** | `Almansa_2024_12_04.pdf` | `Almansa.gpkg` | 8 | Albacete |
 | **Campo de Calatrava** | `Campo_de_Calatrava_2025_10_20.pdf` | `Campo_de_Calatrava.gpkg` | 17 | Volcanes de Calatrava (Ciudad Real) |
-| **Almansa** | `Almansa_2024_12_04.pdf` | *En proceso* | 8 | Albacete |
-| **La Mancha** | `La_Mancha_2025_02_10.pdf` | *En proceso* | 182 | Mayor extensión vitivinícola de Europa |
-| **Manchuela** | `Manchuela_2024_03_12.pdf` | *En proceso* | 70 | Albacete y Cuenca |
-| **Méntrida** | `Mentrida_2022_15_12.pdf` | *En proceso* | 51 | Toledo |
-| **Ribera del Júcar** | `Ribera_del_Jucar_2021_08_06.pdf` | *En proceso* | 7 | Cuenca |
-| **Uclés** | `Ucles_2025_09_05.pdf` | *En proceso* | 28 | Cuenca y Toledo |
-| **Valdepeñas** | `Valdepeñas_2019_09_03.pdf` | *En proceso* | 10 | Ciudad Real |
+| **La Mancha** | `La_Mancha_2025_02_10.pdf` | `La_Mancha.gpkg` | 129 | Albacete, Ciudad Real, Cuenca, Toledo |
+| **Manchuela** | `Manchuela_2024_03_12.pdf` | `Manchuela.gpkg` | 69 | Albacete y Cuenca |
+| **Méntrida** | `Mentrida_2022_15_12.pdf` | `Mentrida.gpkg` | 74 | Toledo |
+| **Ribera del Júcar** | `Ribera_del_Jucar_2021_08_06.pdf` | `Ribera_del_Jucar.gpkg` | 7 | Cuenca |
+| **Uclés** | `Ucles_2025_09_05.pdf` | `Ucles.gpkg` | 25 | Cuenca y Toledo |
+| **Valdepeñas** | `Valdepeñas_2019_09_03.pdf` | `Valdepeñas.gpkg` | 10 | Ciudad Real |
 
 ---
 
@@ -116,14 +116,14 @@ Estado cartográfico y documental de todas las Denominaciones de Origen Protegid
 | **DO Cava** *(Supraautonómica)* | `Cava_2025_10_11.pdf` | 6 capas por subzonas | 134+ | Comtats de Barcelona, Requena, Almendralejo, Valle del Ebro |
 | **Alella** | `Alella_2020_03_04.pdf` | `Alella.gpkg` | 31 | Maresme y Vallès |
 | **Cataluña** | `Cataluña_2024_03_25.pdf` | `Cataluña.gpkg` | 423 | Ámbito regional |
+| **Conca de Barberà** | `Conca_de_Barbera_2024_10_24.pdf` | `Conca_de_Barbera.gpkg` | 14 | Trepat autóctono |
 | **Costers del Segre** | `Costers_del_Segre_2024.pdf` | `Costers_del_Segre.gpkg` | 70 | 7 subzonas (Lleida) |
-| **Conca de Barberà** | `Conca_de_Barbera_2024_10_24.pdf` | *En proceso* | 14 | Trepat autóctono |
-| **Empordà** | `Emporda_2025_07_24.pdf` | *En proceso* | 55 | Alt y Baix Empordà |
-| **Montsant** | `Montsant_2022_09_14.pdf` | *En proceso* | 16 | Corona del Priorat |
-| **Penedès** | `Penedes_2024_11.pdf` | *En proceso* | 66 | 10 subzonas / Clàssic Penedès |
-| **Pla de Bages** | `Pla_de_Bages_2024_09_13.pdf` | *En proceso* | 26 | Picapoll |
-| **Tarragona** | `Tarragona_2023_09_05.pdf` | *En proceso* | 73 | Camp de Tarragona y Ribera d'Ebre |
-| **Terra Alta** | `Terra_Alta_2020_04_03.pdf` | *En proceso* | 12 | Garnacha blanca |
+| **Empordà** | `Emporda_2025_07_24.pdf` | `Emporda.gpkg` | 55 | Alt y Baix Empordà |
+| **Montsant** | `Montsant_2022_09_14.pdf` | `Montsant.gpkg` | 17 | Corona del Priorat |
+| **Penedès** | `Penedes_2024_11.pdf` | `Penedes.gpkg` | 57 | 10 subzonas / Clàssic Penedès |
+| **Pla de Bages** | `Pla_de_Bages_2024_09_13.pdf` | `Pla_de_Bages.gpkg` | 35 | Picapoll |
+| **Tarragona** | `Tarragona_2023_09_05.pdf` | `Tarragona.gpkg` | 76 | Camp de Tarragona y Ribera d'Ebre |
+| **Terra Alta** | `Terra_Alta_2020_04_03.pdf` | `Terra_Alta.gpkg` | 12 | Garnacha blanca |
 
 ---
 
@@ -131,9 +131,9 @@ Estado cartográfico y documental de todas las Denominaciones de Origen Protegid
 
 | DO / DOP | Pliego Oficial en Repositorio | Capa GPKG | Municipios | Subzonas / Notas |
 | :--- | :--- | :--- | :--- | :--- |
-| **Alicante** | `Alicante_2024_01_31.pdf` | *En proceso* | 45 | Marina Alta y Vinalopó (Fondillón) |
-| **Utiel-Requena** | `Utiel-Requena_2023_05_09.pdf` | *En proceso* | 9 | Bobal autóctono |
-| **Valencia** | `Valencia_2024_09_20.pdf` | *En proceso* | 66 | Alto Turia, Valentino, Moscatel, Clariano |
+| **Alicante** | `Alicante_2024_01_31.pdf` | `Alicante.gpkg` | 71 | Marina Alta, Marina Baixa, Vinalopó, l'Alacantí |
+| **Utiel-Requena** | `Utiel-Requena_2023_05_09.pdf` | `Utiel-Requena.gpkg` | 9 | Bobal autóctono |
+| **Valencia** | `Valencia_2024_09_20.pdf` | `Valencia.gpkg` | 91 | Alto Turia, Valentino, Moscatel, Clariano |
 
 ---
 
@@ -141,7 +141,7 @@ Estado cartográfico y documental de todas las Denominaciones de Origen Protegid
 
 | DO / DOP | Pliego Oficial en Repositorio | Capa GPKG | Municipios | Subzonas / Notas |
 | :--- | :--- | :--- | :--- | :--- |
-| **Ribera del Guadiana** | `Ribera_del_Guadiana_2023_06_19.pdf` | *En proceso* | 133 | 6 subzonas (Tierra de Barros, etc.) |
+| **Ribera del Guadiana** | `Ribera_del_Guadiana_2023_06_19.pdf` | `Ribera_del_Guadiana.gpkg` | 123 | 6 subzonas (Tierra de Barros, Matanegra, Ribera Alta, Ribera Baja, Montánchez, Cañamero) |
 
 ---
 
@@ -161,7 +161,7 @@ Estado cartográfico y documental de todas las Denominaciones de Origen Protegid
 
 | DO / DOP | Pliego Oficial en Repositorio | Capa GPKG | Municipios | Subzonas / Notas |
 | :--- | :--- | :--- | :--- | :--- |
-| **Vinos de Madrid** | `Vinos_de_Madrid_2024_10_25.pdf` | *En proceso* | 70 | 4 subzonas: Arganda, Navalcarnero, San Martín, El Molar |
+| **Vinos de Madrid** | `Vinos_de_Madrid_2024_10_25.pdf` | `Vinos_de_Madrid.gpkg` | 72 | 4 subzonas: Arganda, Navalcarnero, San Martín, El Molar |
 
 ---
 
@@ -169,9 +169,9 @@ Estado cartográfico y documental de todas las Denominaciones de Origen Protegid
 
 | DO / DOP | Pliego Oficial en Repositorio | Capa GPKG | Municipios | Subzonas / Notas |
 | :--- | :--- | :--- | :--- | :--- |
+| **Bullas** | `Bullas_2019_07_01.pdf` | `Bullas.gpkg` | 8 | Noroeste murciano (Bullas, Cehegín, Mula, Pliego, etc.) |
 | **Jumilla** | `Jumilla_2024_02_24.pdf` | `Jumilla.gpkg` | 7 | Murcia (1) y Albacete (6) |
-| **Bullas** | `Bullas_2019_07_01.pdf` | *En proceso* | 8 | Noroeste murciano |
-| **Yecla** | `Yecla_2024_02_22.pdf` | *En proceso* | 1 | Término municipal exclusivo de Yecla |
+| **Yecla** | `Yecla_2024_02_22.pdf` | `Yecla.gpkg` | 1 | Término municipal exclusivo de Yecla |
 
 ---
 
