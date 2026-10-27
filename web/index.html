@@ -85,6 +85,17 @@
           <div class="info-item">
             <div class="info-label" id="lbl-territory">Delimitación Territorial</div>
             <div class="info-value" id="detail-munis"></div>
+            <!-- Desplegable interactivo de municipios -->
+            <details class="munis-dropdown" id="munis-dropdown">
+              <summary class="munis-summary" id="munis-summary">
+                <span id="lbl-toggle-munis">Ver listado de municipios</span>
+                <span class="summary-arrow">▾</span>
+              </summary>
+              <div class="munis-container">
+                <input type="text" id="munis-search" class="munis-search-input" placeholder="Filtrar municipios..." autocomplete="off">
+                <div class="munis-chips" id="munis-chips"></div>
+              </div>
+            </details>
           </div>
           <div class="info-item">
             <div class="info-label" id="lbl-grapes-red">Uvas Tintas Principales</div>

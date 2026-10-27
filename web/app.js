@@ -4,7 +4,7 @@ const I18N = {
   es: {
     title: "World Wine Wide",
     subtitle: "Mapas Oficiales de Regiones Vitivinícolas",
-    searchPlaceholder: "Buscar por DO, Comunidad o Uva...",
+    searchPlaceholder: "Buscar por DO, Comunidad, Uva o Municipio...",
     allCategories: "Todas las Categorías",
     allRegions: "Todas las Comunidades",
     regionsFound: "denominaciones encontradas",
@@ -17,12 +17,16 @@ const I18N = {
     category: "Categoría",
     region: "Comunidad Autónoma",
     territory: "Delimitación Territorial",
-    na: "No especificado en pliego"
+    na: "No especificado en pliego",
+    viewMunis: "Ver municipios",
+    hideMunis: "Ocultar municipios",
+    searchMunisPlaceholder: "Buscar municipio en esta DO...",
+    noMunisFound: "No se encontraron municipios"
   },
   en: {
     title: "World Wine Wide",
     subtitle: "Official Wine Region Maps",
-    searchPlaceholder: "Search by Appellation, Region or Grape...",
+    searchPlaceholder: "Search by Appellation, Region, Grape or Municipality...",
     allCategories: "All Classifications",
     allRegions: "All Regions",
     regionsFound: "appellations found",
@@ -35,7 +39,11 @@ const I18N = {
     category: "Classification",
     region: "Region",
     territory: "Territorial Scope",
-    na: "Not specified in specifications"
+    na: "Not specified in specifications",
+    viewMunis: "View municipalities",
+    hideMunis: "Hide municipalities",
+    searchMunisPlaceholder: "Search municipality in this DO...",
+    noMunisFound: "No municipalities found"
   }
 };
 
@@ -43,6 +51,7 @@ let currentLang = 'es';
 let allFeatures = [];
 let filteredFeatures = [];
 let selectedFeature = null;
+let currentMunisList = [];
 
 // Initialize MapLibre
 const map = new maplibregl.Map({
@@ -155,7 +164,8 @@ function applyFilters() {
       p.name.toLowerCase().includes(search) ||
       p.region.toLowerCase().includes(search) ||
       (p.grapes_red && p.grapes_red.toLowerCase().includes(search)) ||
-      (p.grapes_white && p.grapes_white.toLowerCase().includes(search));
+      (p.grapes_white && p.grapes_white.toLowerCase().includes(search)) ||
+      (p.munis && p.munis.some(m => m.toLowerCase().includes(search)));
 
     const matchCat = !cat || p.category === cat;
     const matchReg = !reg || p.region === reg;
@@ -222,6 +232,15 @@ function selectDO(props) {
   document.getElementById('detail-grapes-red').textContent = props.grapes_red || t.na;
   document.getElementById('detail-grapes-white').textContent = props.grapes_white || t.na;
 
+  // Setup Municipalities list
+  currentMunisList = props.munis || [];
+  const dropdown = document.getElementById('munis-dropdown');
+  dropdown.open = false;
+  document.getElementById('munis-search').value = '';
+  document.getElementById('munis-search').placeholder = t.searchMunisPlaceholder;
+  renderMunisChips(currentMunisList);
+  updateMunisToggleLabel();
+
   const btnPliego = document.getElementById('btn-pliego');
   if (props.pliego) {
     btnPliego.href = `https://github.com/jreyes13/wine_world_wide/blob/main/${encodeURI(props.pliego)}`;
@@ -232,6 +251,39 @@ function selectDO(props) {
 
   panel.classList.add('active');
   renderRegionsList();
+}
+
+function renderMunisChips(munis) {
+  const container = document.getElementById('munis-chips');
+  const t = I18N[currentLang];
+  container.innerHTML = '';
+
+  if (!munis || munis.length === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'munis-empty';
+    empty.textContent = t.noMunisFound;
+    container.appendChild(empty);
+    return;
+  }
+
+  munis.forEach(m => {
+    const chip = document.createElement('span');
+    chip.className = 'muni-chip';
+    chip.textContent = m;
+    container.appendChild(chip);
+  });
+}
+
+function updateMunisToggleLabel() {
+  const dropdown = document.getElementById('munis-dropdown');
+  const label = document.getElementById('lbl-toggle-munis');
+  const t = I18N[currentLang];
+  const count = currentMunisList ? currentMunisList.length : 0;
+  if (dropdown.open) {
+    label.textContent = `${t.hideMunis} (${count})`;
+  } else {
+    label.textContent = `${t.viewMunis} (${count})`;
+  }
 }
 
 function getFlattenedCoords(geom) {
@@ -269,6 +321,13 @@ function setLanguage(lang) {
   document.getElementById('lbl-grapes-white').textContent = t.grapesWhite;
   document.getElementById('btn-pliego-txt').textContent = t.viewPliego;
 
+  const munisSearch = document.getElementById('munis-search');
+  if (munisSearch) {
+    munisSearch.placeholder = t.searchMunisPlaceholder;
+  }
+  updateMunisToggleLabel();
+  renderMunisChips(currentMunisList);
+
   renderRegionsList();
 }
 
@@ -280,3 +339,24 @@ document.getElementById('btn-close-detail').addEventListener('click', closeDetai
 document.querySelectorAll('.lang-btn').forEach(btn => {
   btn.addEventListener('click', (e) => setLanguage(e.target.dataset.lang));
 });
+
+// Dropdown & Search for Municipalities
+const munisSearchInput = document.getElementById('munis-search');
+if (munisSearchInput) {
+  munisSearchInput.addEventListener('input', (e) => {
+    const query = e.target.value.toLowerCase().trim();
+    if (!query) {
+      renderMunisChips(currentMunisList);
+    } else {
+      const filtered = currentMunisList.filter(m => m.toLowerCase().includes(query));
+      renderMunisChips(filtered);
+    }
+  });
+}
+
+const munisDropdown = document.getElementById('munis-dropdown');
+if (munisDropdown) {
+  munisDropdown.addEventListener('toggle', () => {
+    updateMunisToggleLabel();
+  });
+}

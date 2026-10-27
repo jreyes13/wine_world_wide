@@ -352,6 +352,114 @@ body, html {
   line-height: 1.4;
 }
 
+/* Municipios Dropdown & Chips */
+.munis-dropdown {
+  margin-top: 0.4rem;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.munis-dropdown[open] {
+  border-color: #CBD5E1;
+  background: #FFFFFF;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.munis-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.45rem 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--primary);
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+}
+
+.munis-summary::-webkit-details-marker {
+  display: none;
+}
+
+.summary-arrow {
+  font-size: 0.7rem;
+  transition: transform 0.2s ease;
+  color: var(--text-muted);
+}
+
+.munis-dropdown[open] .summary-arrow {
+  transform: rotate(180deg);
+  color: var(--primary);
+}
+
+.munis-container {
+  padding: 0.5rem 0.65rem;
+  border-top: 1px solid #E2E8F0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.munis-search-input {
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.72rem;
+  border: 1px solid #CBD5E1;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.munis-search-input:focus {
+  border-color: var(--primary);
+}
+
+.munis-chips {
+  max-height: 160px;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  padding-right: 0.2rem;
+}
+
+.munis-chips::-webkit-scrollbar {
+  width: 4px;
+}
+
+.munis-chips::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 2px;
+}
+
+.muni-chip {
+  background: #F1F5F9;
+  border: 1px solid #E2E8F0;
+  border-radius: 4px;
+  padding: 0.15rem 0.4rem;
+  font-size: 0.7rem;
+  color: #334155;
+  line-height: 1.3;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.muni-chip:hover {
+  background: #FFF5F5;
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.munis-empty {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 0.3rem 0;
+}
+
 .detail-actions {
   display: flex;
   flex-direction: column;
