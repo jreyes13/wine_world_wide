@@ -209,7 +209,9 @@ function bindMapInteractions() {
 
 function onRegionClick(e) {
   if (e.features && e.features.length > 0) {
-    selectDO(e.features[0].properties);
+    const feat = e.features[0];
+    const match = allFeatures.find(f => f.properties.id === feat.properties.id || f.properties.name === feat.properties.name);
+    selectDO(match ? match.properties : feat.properties);
   }
 }
 
@@ -319,7 +321,10 @@ function renderRegionsList() {
   });
 }
 
-function selectDO(props) {
+function selectDO(inputProps) {
+  // Always resolve to the clean in-memory feature from allFeatures
+  const feat = allFeatures.find(f => f.properties.id === inputProps.id || f.properties.name === inputProps.name);
+  const props = feat ? feat.properties : inputProps;
   selectedFeature = props;
   const t = I18N[currentLang];
 
@@ -327,7 +332,6 @@ function selectDO(props) {
   map.setFilter('wine-regions-highlight', ['==', 'id', props.id]);
 
   // Find geometry bbox to zoom
-  const feat = allFeatures.find(f => f.properties.id === props.id);
   if (feat) {
     const coords = getFlattenedCoords(feat.geometry);
     const bounds = coords.reduce((b, coord) => b.extend(coord), new maplibregl.LngLatBounds(coords[0], coords[0]));
@@ -345,8 +349,17 @@ function selectDO(props) {
   document.getElementById('detail-grapes-red').textContent = props.grapes_red || t.na;
   document.getElementById('detail-grapes-white').textContent = props.grapes_white || t.na;
 
-  // Setup Municipalities list
-  currentMunisList = props.munis || [];
+  // Setup Municipalities list safely
+  let munis = props.munis;
+  if (typeof munis === 'string') {
+    try {
+      munis = JSON.parse(munis);
+    } catch (e) {
+      munis = munis.split(',').map(s => s.trim());
+    }
+  }
+  currentMunisList = Array.isArray(munis) ? munis : [];
+
   const dropdown = document.getElementById('munis-dropdown');
   dropdown.open = false;
   document.getElementById('munis-search').value = '';
@@ -364,6 +377,14 @@ function selectDO(props) {
 
   panel.classList.add('active');
   renderRegionsList();
+
+  // Scroll into view in left list
+  setTimeout(() => {
+    const selectedCard = document.querySelector('.region-card.selected');
+    if (selectedCard) {
+      selectedCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }, 50);
 }
 
 function renderMunisChips(munis) {
@@ -371,7 +392,11 @@ function renderMunisChips(munis) {
   const t = I18N[currentLang];
   container.innerHTML = '';
 
-  if (!munis || munis.length === 0) {
+  let list = munis;
+  if (typeof list === 'string') {
+    try { list = JSON.parse(list); } catch (e) { list = [list]; }
+  }
+  if (!Array.isArray(list) || list.length === 0) {
     const empty = document.createElement('div');
     empty.className = 'munis-empty';
     empty.textContent = t.noMunisFound;
@@ -379,7 +404,7 @@ function renderMunisChips(munis) {
     return;
   }
 
-  munis.forEach(m => {
+  list.forEach(m => {
     const chip = document.createElement('span');
     chip.className = 'muni-chip';
     chip.textContent = m;
