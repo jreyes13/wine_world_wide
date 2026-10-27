@@ -6,6 +6,10 @@ const I18N = {
     subtitle: "Mapas Oficiales de Regiones Vitivinícolas",
     searchPlaceholder: "Buscar por DO, Comunidad, Uva o Municipio...",
     allCategories: "Todas las Categorías",
+    catDOCa: "DOCa (Calificada)",
+    catDO: "DO (Denominación de Origen)",
+    catVP: "Vino de Pago (VP)",
+    catVC: "Vino de Calidad (VC)",
     allRegions: "Todas las Comunidades",
     regionsFound: "denominaciones encontradas",
     munis: "municipios",
@@ -21,13 +25,24 @@ const I18N = {
     viewMunis: "Ver municipios",
     hideMunis: "Ocultar municipios",
     searchMunisPlaceholder: "Buscar municipio en esta DO...",
-    noMunisFound: "No se encontraron municipios"
+    noMunisFound: "No se encontraron municipios",
+    basemapTitle: "Cambiar mapa de referencia",
+    bmVoyager: "Voyager (Color)",
+    bmPositron: "Claro (Positron)",
+    bmDark: "Oscuro (Dark Matter)",
+    bmSatellite: "Satélite (ESRI)",
+    bmTopo: "Topográfico (Relieve)",
+    bmOsm: "OpenStreetMap"
   },
   en: {
     title: "World Wine Wide",
     subtitle: "Official Wine Region Maps",
     searchPlaceholder: "Search by Appellation, Region, Grape or Municipality...",
     allCategories: "All Classifications",
+    catDOCa: "DOCa (Qualified)",
+    catDO: "DO (Designation of Origin)",
+    catVP: "Estate Wine / Pago (VP)",
+    catVC: "Quality Wine (VC)",
     allRegions: "All Regions",
     regionsFound: "appellations found",
     munis: "municipalities",
@@ -43,7 +58,14 @@ const I18N = {
     viewMunis: "View municipalities",
     hideMunis: "Hide municipalities",
     searchMunisPlaceholder: "Search municipality in this DO...",
-    noMunisFound: "No municipalities found"
+    noMunisFound: "No municipalities found",
+    basemapTitle: "Change reference basemap",
+    bmVoyager: "Voyager (Color)",
+    bmPositron: "Light (Positron)",
+    bmDark: "Dark (Dark Matter)",
+    bmSatellite: "Satellite (ESRI)",
+    bmTopo: "Topographic (Relief)",
+    bmOsm: "OpenStreetMap"
   }
 };
 
@@ -53,15 +75,128 @@ let filteredFeatures = [];
 let selectedFeature = null;
 let currentMunisList = [];
 
+const BASEMAP_STYLES = {
+  voyager: 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json',
+  positron: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
+  dark: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
+  satellite: {
+    version: 8,
+    sources: {
+      'esri-satellite': {
+        type: 'raster',
+        tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
+        tileSize: 256,
+        attribution: '© Esri, Maxar, Earthstar Geographics'
+      }
+    },
+    layers: [
+      { id: 'esri-satellite-layer', type: 'raster', source: 'esri-satellite', minzoom: 0, maxzoom: 19 }
+    ]
+  },
+  topo: {
+    version: 8,
+    sources: {
+      'opentopo': {
+        type: 'raster',
+        tiles: ['https://tile.opentopomap.org/{z}/{x}/{y}.png'],
+        tileSize: 256,
+        attribution: 'Map: © OpenTopoMap, © OpenStreetMap'
+      }
+    },
+    layers: [
+      { id: 'opentopo-layer', type: 'raster', source: 'opentopo', minzoom: 0, maxzoom: 17 }
+    ]
+  },
+  osm: {
+    version: 8,
+    sources: {
+      'osm': {
+        type: 'raster',
+        tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+        tileSize: 256,
+        attribution: '© OpenStreetMap contributors'
+      }
+    },
+    layers: [
+      { id: 'osm-layer', type: 'raster', source: 'osm', minzoom: 0, maxzoom: 19 }
+    ]
+  }
+};
+
 // Initialize MapLibre
 const map = new maplibregl.Map({
   container: 'map',
-  style: 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json',
+  style: BASEMAP_STYLES.voyager,
   center: [-3.7038, 40.4168],
   zoom: 5.6
 });
 
 map.addControl(new maplibregl.NavigationControl(), 'bottom-right');
+
+function setupWineLayers() {
+  if (!allFeatures || allFeatures.length === 0) return;
+
+  if (!map.getSource('wine-regions')) {
+    map.addSource('wine-regions', {
+      type: 'geojson',
+      data: {
+        type: 'FeatureCollection',
+        features: allFeatures
+      }
+    });
+  }
+
+  if (!map.getLayer('wine-regions-fill')) {
+    map.addLayer({
+      id: 'wine-regions-fill',
+      type: 'fill',
+      source: 'wine-regions',
+      paint: {
+        'fill-color': ['get', 'color'],
+        'fill-opacity': 0.65
+      }
+    });
+  }
+
+  if (!map.getLayer('wine-regions-line')) {
+    map.addLayer({
+      id: 'wine-regions-line',
+      type: 'line',
+      source: 'wine-regions',
+      paint: {
+        'line-color': '#FFFFFF',
+        'line-width': 1.5,
+        'line-opacity': 0.9
+      }
+    });
+  }
+
+  if (!map.getLayer('wine-regions-highlight')) {
+    map.addLayer({
+      id: 'wine-regions-highlight',
+      type: 'line',
+      source: 'wine-regions',
+      paint: {
+        'line-color': '#FFD700',
+        'line-width': 3.5,
+        'line-opacity': 1
+      },
+      filter: ['==', 'id', selectedFeature ? selectedFeature.id : '']
+    });
+  }
+
+  // Re-apply filter
+  if (filteredFeatures && filteredFeatures.length < allFeatures.length) {
+    const ids = filteredFeatures.map(f => f.properties.id);
+    map.setFilter('wine-regions-fill', ['in', 'id', ...ids]);
+    map.setFilter('wine-regions-line', ['in', 'id', ...ids]);
+  }
+}
+
+// React to basemap style changes
+map.on('style.load', () => {
+  setupWineLayers();
+});
 
 // Load Data
 map.on('load', async () => {
@@ -76,47 +211,7 @@ map.on('load', async () => {
     allFeatures = data.features;
     filteredFeatures = allFeatures;
 
-    // Add source
-    map.addSource('wine-regions', {
-      type: 'geojson',
-      data: data
-    });
-
-    // Fill layer
-    map.addLayer({
-      id: 'wine-regions-fill',
-      type: 'fill',
-      source: 'wine-regions',
-      paint: {
-        'fill-color': ['get', 'color'],
-        'fill-opacity': 0.65
-      }
-    });
-
-    // Outline layer
-    map.addLayer({
-      id: 'wine-regions-line',
-      type: 'line',
-      source: 'wine-regions',
-      paint: {
-        'line-color': '#FFFFFF',
-        'line-width': 1.5,
-        'line-opacity': 0.9
-      }
-    });
-
-    // Highlight layer
-    map.addLayer({
-      id: 'wine-regions-highlight',
-      type: 'line',
-      source: 'wine-regions',
-      paint: {
-        'line-color': '#FFD700',
-        'line-width': 3.5,
-        'line-opacity': 1
-      },
-      filter: ['==', 'id', '']
-    });
+    setupWineLayers();
 
     // Populate region select options
     populateRegionFilter();
@@ -315,6 +410,14 @@ function setLanguage(lang) {
   document.getElementById('brand-subtitle').textContent = t.subtitle;
   document.getElementById('search-input').placeholder = t.searchPlaceholder;
   document.getElementById('cat-all-opt').textContent = t.allCategories;
+  const optDoca = document.getElementById('cat-doca-opt');
+  if (optDoca) optDoca.textContent = t.catDOCa;
+  const optDo = document.getElementById('cat-do-opt');
+  if (optDo) optDo.textContent = t.catDO;
+  const optVp = document.getElementById('cat-vp-opt');
+  if (optVp) optVp.textContent = t.catVP;
+  const optVc = document.getElementById('cat-vc-opt');
+  if (optVc) optVc.textContent = t.catVC;
   document.getElementById('reg-all-opt').textContent = t.allRegions;
   document.getElementById('lbl-territory').textContent = t.territory;
   document.getElementById('lbl-grapes-red').textContent = t.grapesRed;
@@ -328,6 +431,23 @@ function setLanguage(lang) {
   updateMunisToggleLabel();
   renderMunisChips(currentMunisList);
 
+  const basemapSelect = document.getElementById('basemap-select');
+  if (basemapSelect) {
+    basemapSelect.title = t.basemapTitle;
+    const optVoy = document.getElementById('bm-voyager-opt');
+    if (optVoy) optVoy.textContent = t.bmVoyager;
+    const optPos = document.getElementById('bm-positron-opt');
+    if (optPos) optPos.textContent = t.bmPositron;
+    const optDark = document.getElementById('bm-dark-opt');
+    if (optDark) optDark.textContent = t.bmDark;
+    const optSat = document.getElementById('bm-satellite-opt');
+    if (optSat) optSat.textContent = t.bmSatellite;
+    const optTopo = document.getElementById('bm-topo-opt');
+    if (optTopo) optTopo.textContent = t.bmTopo;
+    const optOsm = document.getElementById('bm-osm-opt');
+    if (optOsm) optOsm.textContent = t.bmOsm;
+  }
+
   renderRegionsList();
 }
 
@@ -339,6 +459,18 @@ document.getElementById('btn-close-detail').addEventListener('click', closeDetai
 document.querySelectorAll('.lang-btn').forEach(btn => {
   btn.addEventListener('click', (e) => setLanguage(e.target.dataset.lang));
 });
+
+// Basemap Switcher
+const basemapSelectEl = document.getElementById('basemap-select');
+if (basemapSelectEl) {
+  basemapSelectEl.addEventListener('change', (e) => {
+    const key = e.target.value;
+    const style = BASEMAP_STYLES[key];
+    if (style) {
+      map.setStyle(style);
+    }
+  });
+}
 
 // Dropdown & Search for Municipalities
 const munisSearchInput = document.getElementById('munis-search');

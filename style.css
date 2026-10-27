@@ -75,6 +75,37 @@ body, html {
   gap: 0.75rem;
 }
 
+.basemap-selector-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: #F1F5F9;
+  border: 1px solid #CBD5E1;
+  border-radius: 6px;
+  padding: 0.25rem 0.5rem;
+  transition: all 0.2s;
+}
+
+.basemap-selector-wrap:hover {
+  border-color: var(--primary);
+}
+
+.basemap-label {
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.basemap-select {
+  border: none;
+  background: transparent;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-main);
+  outline: none;
+  cursor: pointer;
+  padding: 0.15rem 0;
+}
+
 .lang-btn {
   background: #F1F5F9;
   border: 1px solid #CBD5E1;

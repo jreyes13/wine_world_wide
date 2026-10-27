@@ -1,24 +1,19 @@
 /* ============================================================
    PROYECTO: WINE_WORLD_WIDE
-   FICHERO: DO_España_Sur.sql
-   ESTRUCTURA: Subzonas y Zonas de Crianza (Municipios por línea)
+   FICHERO: DOs.sql
+   DESCRIPCIÓN: Consultas SQL de filtrado para QGIS ("NAMEUNIT" IN (...))
+   de todas las Denominaciones de Origen de España.
+   Verificado con la cartografía oficial del IGN (recintos_municipales_inspire).
+   ============================================================ */
+
+
+/* ============================================================
+   1. ANDALUCÍA
    ============================================================ */
 
 -- ============================================================
--- 1. DOP JUMILLA (Murcia y Albacete)
--- ============================================================
-"NAMEUNIT" IN (
-'Albatana',
-'Fuente-Álamo',
-'Hellín',
-'Jumilla',
-'Montealegre del Castillo',
-'Ontur',
-'Tobarra'
-)
-
--- ============================================================
--- 2. DO CONDADO DE HUELVA (Zona de Producción y Crianza)
+-- DO Condado de Huelva (18 municipios)
+-- Fichero: Condado_de_Huelva.gpkg
 -- ============================================================
 "NAMEUNIT" IN (
 'Almonte',
@@ -42,220 +37,17 @@
 )
 
 -- ============================================================
--- 3. DO JEREZ-XÉRÈS-SHERRY Y MANZANILLA (ZONA PRODUCCIÓN)
--- ============================================================
-"NAMEUNIT" IN (
-'Chiclana de la Frontera',
-'Chipiona',
-'El Puerto de Santa María',
-'Jerez de la Frontera',
-'Lebrija',
-'Puerto Real',
-'Rota',
-'San José del Valle',
-'Sanlúcar de Barrameda',
-'Trebujena'
-)
-
--- 3.1 ZONA DE CRIANZA EXCLUSIVA MANZANILLA
-"NAMEUNIT" = 'Sanlúcar de Barrameda'
-
--- ============================================================
--- 4. DO MONTILLA-MORILES
--- ============================================================
-
--- 4.1 ZONA DE PRODUCCIÓN (Municipios completos y parciales)
-"NAMEUNIT" IN (
-'Aguilar de la Frontera',
-'Baena',
-'Cabra',
-'Castro del Río',
-'Doña Mencía',
-'Espejo',
-'Fernán-Núñez',
-'La Rambla',
-'Lucena',
-'Montalbán de Córdoba',
-'Montemayor',
-'Montilla',
-'Monturque',
-'Moriles',
-'Nueva Carteya',
-'Puente Genil',
-'Santaella'
-)
-
--- 4.2 ZONA DE CRIANZA (Producción + Córdoba Capital)
-"NAMEUNIT" IN (
-'Aguilar de la Frontera',
-'Baena',
-'Cabra',
-'Castro del Río',
-'Córdoba',
-'Doña Mencía',
-'Espejo',
-'Fernán-Núñez',
-'La Rambla',
-'Lucena',
-'Montalbán de Córdoba',
-'Montemayor',
-'Montilla',
-'Monturque',
-'Moriles',
-'Nueva Carteya',
-'Puente Genil',
-'Santaella'
-)
-
--- ============================================================
--- 5. DO MÁLAGA Y SIERRAS DE MÁLAGA (SUBZONAS/ÁREAS)
--- ============================================================
-
--- 5.1 SUBZONA: SERRANÍA DE RONDA
-"NAMEUNIT" IN (
-'Algatocín',
-'Alpandeire',
-'Arriate',
-'Atajate',
-'Benadalid',
-'Benalauría',
-'Benaoján',
-'Benarrabá',
-'Cartajima',
-'Cortes de la Frontera',
-'Cuevas del Becerro',
-'Faraján',
-'Gaucín',
-'Genalguacil',
-'Igualeja',
-'Jimera de Líbar',
-'Jubrique',
-'Júzcar',
-'Montecorto',
-'Montejaque',
-'Parauta',
-'Pujerra',
-'Ronda',
-'Serrato'
-)
-
--- 5.2 ÁREA: AXARQUÍA
-"NAMEUNIT" IN (
-'Alcaucín',
-'Alfarnate',
-'Alfarnatejo',
-'Algarrobo',
-'Almáchar',
-'Árchez',
-'Arenas',
-'Benamargosa',
-'Benamocarra',
-'El Borge',
-'Canillas de Aceituno',
-'Canillas de Albaida',
-'Comares',
-'Cómpeta',
-'Cútar',
-'Frigiliana',
-'Iznate',
-'Macharaviaya',
-'Moclinejo',
-'Nerja',
-'Periana',
-'Rincón de la Victoria',
-'Riogordo',
-'Salares',
-'Sayalonga',
-'Sedella',
-'Torrox',
-'Totalán',
-'Vélez-Málaga',
-'La Viñuela'
-)
-
--- 5.3 ÁREA: NORTE DE MÁLAGA
-"NAMEUNIT" IN (
-'Alameda',
-'Almargen',
-'Antequera',
-'Archidona',
-'Benamejí',
-'Campillos',
-'Cañete la Real',
-'Cuevas Bajas',
-'Cuevas de San Marcos',
-'Fuentepiedra',
-'Humilladero',
-'Mollina',
-'Palenciana',
-'Sierra de Yeguas',
-'Teba',
-'Valle de Abdalajís',
-'Villanueva de Algaidas',
-'Villanueva del Rosario',
-'Villanueva de Tapia',
-'Villanueva del Trabuco'
-)
-
--- 5.4 ÁREA: MONTES DE MÁLAGA
-"NAMEUNIT" IN (
-'Alhaurín de la Torre',
-'Alhaurín el Grande',
-'Almogía',
-'Álora',
-'Antequera',
-'Ardales',
-'Carratraca',
-'Cártama',
-'Casabermeja',
-'Coín',
-'Colmenar',
-'Málaga',
-'Pizarra',
-'Torremolinos',
-'Villanueva de la Concepción'
-)
-
--- 5.5 ÁREA: SIERRA DE LAS NIEVES
-"NAMEUNIT" IN (
-'Alozaina',
-'El Burgo',
-'Casarabonela',
-'Guaro',
-'Istán',
-'Monda',
-'Ojén',
-'Tolox',
-'Yunquera'
-)
-
--- 5.6 ÁREA: MANILVA
-"NAMEUNIT" IN (
-'Casares',
-'Estepona',
-'Manilva'
-)
-
--- 5.7 ÁREA: COSTA OCCIDENTAL
-"NAMEUNIT" IN (
-'Benahavís',
-'Benalmádena',
-'Fuengirola',
-'Marbella',
-'Mijas'
-)
-
--- ============================================================
--- 6. DO GRANADA (TOTAL PROVINCIA)
+-- DO Granada (167 municipios)
+-- Fichero: Granada.gpkg
 -- ============================================================
 "NAMEUNIT" IN (
 'Agrón',
 'Alamedilla',
 'Albolote',
 'Albondón',
-'Albuñán',
 'Albuñol',
 'Albuñuelas',
+'Albuñán',
 'Aldeire',
 'Alfacar',
 'Algarinejo',
@@ -275,20 +67,15 @@
 'Benalúa',
 'Benalúa de las Villas',
 'Benamaurel',
-'Bérchules',
 'Bubión',
 'Busquístar',
+'Bérchules',
 'Cacín',
-'Cádiar',
-'Cájar',
-'La Calahorra',
 'Calicasas',
 'Campotéjar',
 'Caniles',
-'Cáñar',
 'Capileira',
 'Carataunas',
-'Cástaras',
 'Castilléjar',
 'Castril',
 'Cenes de la Vega',
@@ -297,67 +84,71 @@
 'Churriana de la Vega',
 'Cijuela',
 'Cogollos de Guadix',
-'Cogollos Vega',
 'Colomera',
 'Cortes de Baza',
 'Cortes y Graena',
 'Cuevas del Campo',
+'Cádiar',
+'Cájar',
+'Cástaras',
+'Cáñar',
 'Cúllar',
 'Cúllar Vega',
 'Darro',
-'Dehesas de Guadix',
 'Dehesas Viejas',
+'Dehesas de Guadix',
 'Deifontes',
 'Diezma',
+'Domingo Pérez de Granada',
 'Dílar',
 'Dólar',
-'Domingo Pérez de Granada',
 'Dúdar',
 'Dúrcal',
+'El Pinar',
+'El Valle',
 'Escúzar',
 'Ferreira',
 'Fonelas',
 'Fornes',
 'Freila',
 'Fuente Vaqueros',
-'Las Gabias',
 'Galera',
 'Gobernador',
-'Gójar',
 'Gor',
 'Gorafe',
 'Granada',
 'Guadahortuna',
 'Guadix',
-'Los Guájares',
 'Gualchos',
-'Güéjar Sierra',
+'Gójar',
 'Güevéjar',
+'Güéjar Sierra',
 'Huélago',
 'Huéneja',
 'Huéscar',
-'Huétor Santillán',
-'Huétor-Tájar',
 'Huétor Vega',
-'Íllora',
-'Ítrabo',
 'Iznalloz',
-'Játar',
 'Jayena',
-'Jerez del Marquesado',
 'Jete',
 'Jun',
 'Juviles',
-'Láchar',
+'Játar',
+'La Calahorra',
+'La Malahá',
+'La Peza',
+'La Taha',
+'La Zubia',
 'Lanjarón',
 'Lanteira',
+'Las Gabias',
 'Lecrín',
 'Lentegí',
 'Lobras',
 'Loja',
+'Los Guájares',
 'Lugros',
+'Láchar',
 'Lújar',
-'La Malahá',
 'Maracena',
 'Marchal',
 'Moclín',
@@ -375,23 +166,18 @@
 'Nívar',
 'Ogíjares',
 'Orce',
-'Órgiva',
 'Otívar',
-'Otura',
-'El Padul',
 'Pampaneira',
 'Pedro Martínez',
 'Peligros',
-'La Peza',
-'El Pinar',
 'Pinos Genil',
 'Pinos Puente',
-'Polícar',
 'Polopos',
-'Pórtugos',
+'Polícar',
 'Puebla de Don Fadrique',
 'Pulianas',
 'Purullena',
+'Pórtugos',
 'Quéntar',
 'Rubite',
 'Salar',
@@ -400,33 +186,1295 @@
 'Santa Fe',
 'Soportújar',
 'Sorvilán',
-'La Taha',
 'Torre-Cardela',
-'Torvizcón',
 'Torrenueva Costa',
+'Torvizcón',
 'Trevélez',
 'Turón',
 'Ugíjar',
 'Valderrubio',
-'El Valle',
 'Valle del Zalabí',
-'Válor',
 'Vegas del Genil',
-'Vélez de Benaudalla',
 'Ventas de Huelma',
 'Villamena',
-'Villanueva de las Torres',
 'Villanueva Mesía',
+'Villanueva de las Torres',
+'Válor',
+'Vélez de Benaudalla',
 'Víznar',
 'Zafarraya',
 'Zagra',
-'La Zubia',
-'Zújar'
+'Zújar',
+'Íllora',
+'Ítrabo',
+'Órgiva'
+)
+
+-- ============================================================
+-- DO Jerez (10 municipios)
+-- Fichero: Jerez.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Chiclana de la Frontera',
+'Chipiona',
+'El Puerto de Santa María',
+'Jerez de la Frontera',
+'Lebrija',
+'Puerto Real',
+'Rota',
+'San José del Valle',
+'Sanlúcar de Barrameda',
+'Trebujena'
+)
+
+-- ============================================================
+-- DO Malaga (65 municipios)
+-- Fichero: Malaga.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Alameda',
+'Alcaucín',
+'Alfarnate',
+'Alfarnatejo',
+'Algarrobo',
+'Alhaurín de la Torre',
+'Almargen',
+'Almogía',
+'Almáchar',
+'Antequera',
+'Archidona',
+'Arenas',
+'Arriate',
+'Atajate',
+'Benadalid',
+'Benamargosa',
+'Benamejí',
+'Benamocarra',
+'Benarrabá',
+'Campillos',
+'Canillas de Aceituno',
+'Canillas de Albaida',
+'Casabermeja',
+'Casares',
+'Colmenar',
+'Comares',
+'Cortes de la Frontera',
+'Cuevas Bajas',
+'Cuevas de San Marcos',
+'Cuevas del Becerro',
+'Cártama',
+'Cómpeta',
+'Cútar',
+'El Borge',
+'Estepona',
+'Frigiliana',
+'Gaucín',
+'Humilladero',
+'Iznate',
+'Macharaviaya',
+'Manilva',
+'Moclinejo',
+'Mollina',
+'Málaga',
+'Nerja',
+'Palenciana',
+'Periana',
+'Pizarra',
+'Rincón de la Victoria',
+'Riogordo',
+'Ronda',
+'Salares',
+'Sayalonga',
+'Sedella',
+'Sierra de Yeguas',
+'Torremolinos',
+'Torrox',
+'Totalán',
+'Villanueva de Algaidas',
+'Villanueva de Tapia',
+'Villanueva del Rosario',
+'Villanueva del Trabuco',
+'Vélez-Málaga',
+'Álora',
+'Árchez'
+)
+
+-- ============================================================
+-- DO Manzanilla - San Lúcar (10 municipios)
+-- Fichero: Manzanilla_San_Lúcar.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Chiclana de la Frontera',
+'Chipiona',
+'El Puerto de Santa María',
+'Jerez de la Frontera',
+'Lebrija',
+'Puerto Real',
+'Rota',
+'San José del Valle',
+'Sanlúcar de Barrameda',
+'Trebujena'
+)
+
+-- ============================================================
+-- DO Montilla Moriles (17 municipios)
+-- Fichero: Montilla_Moriles.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Aguilar de la Frontera',
+'Baena',
+'Cabra',
+'Castro del Río',
+'Doña Mencía',
+'Espejo',
+'Fernán-Núñez',
+'La Rambla',
+'Lucena',
+'Montalbán de Córdoba',
+'Montemayor',
+'Montilla',
+'Monturque',
+'Moriles',
+'Nueva Carteya',
+'Puente Genil',
+'Santaella'
+)
+
+-- ============================================================
+-- DO Sierras de Malaga (103 municipios)
+-- Fichero: Sierras_de_Malaga.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Alameda',
+'Alcaucín',
+'Alfarnate',
+'Alfarnatejo',
+'Algarrobo',
+'Algatocín',
+'Alhaurín de la Torre',
+'Alhaurín el Grande',
+'Almargen',
+'Almogía',
+'Almáchar',
+'Alozaina',
+'Alpandeire',
+'Antequera',
+'Archidona',
+'Ardales',
+'Arenas',
+'Arriate',
+'Atajate',
+'Benadalid',
+'Benahavís',
+'Benalauría',
+'Benalmádena',
+'Benamargosa',
+'Benamejí',
+'Benamocarra',
+'Benaoján',
+'Benarrabá',
+'Campillos',
+'Canillas de Aceituno',
+'Canillas de Albaida',
+'Carratraca',
+'Cartajima',
+'Casabermeja',
+'Casarabonela',
+'Casares',
+'Cañete la Real',
+'Colmenar',
+'Comares',
+'Cortes de la Frontera',
+'Coín',
+'Cuevas Bajas',
+'Cuevas de San Marcos',
+'Cuevas del Becerro',
+'Cártama',
+'Cómpeta',
+'Cútar',
+'El Borge',
+'El Burgo',
+'Estepona',
+'Faraján',
+'Frigiliana',
+'Fuengirola',
+'Gaucín',
+'Genalguacil',
+'Guaro',
+'Humilladero',
+'Igualeja',
+'Istán',
+'Iznate',
+'Jimera de Líbar',
+'Jubrique',
+'Júzcar',
+'Macharaviaya',
+'Manilva',
+'Marbella',
+'Mijas',
+'Moclinejo',
+'Mollina',
+'Monda',
+'Montecorto',
+'Montejaque',
+'Málaga',
+'Nerja',
+'Ojén',
+'Palenciana',
+'Parauta',
+'Periana',
+'Pizarra',
+'Pujerra',
+'Rincón de la Victoria',
+'Riogordo',
+'Ronda',
+'Salares',
+'Sayalonga',
+'Sedella',
+'Serrato',
+'Sierra de Yeguas',
+'Teba',
+'Tolox',
+'Torremolinos',
+'Torrox',
+'Totalán',
+'Valle de Abdalajís',
+'Villanueva de Algaidas',
+'Villanueva de Tapia',
+'Villanueva de la Concepción',
+'Villanueva del Rosario',
+'Villanueva del Trabuco',
+'Vélez-Málaga',
+'Yunquera',
+'Álora',
+'Árchez'
 )
 
 
+/* ============================================================
+   2. ARAGÓN
+   ============================================================ */
+
 -- ============================================================
--- 7. DOP CEBREROS (Ávila - Castilla y León)
+-- DO Calatayud (51 municipios)
+-- Fichero: Calatayud.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Abanto',
+'Acered',
+'Alarba',
+'Alhama de Aragón',
+'Aniñón',
+'Ariza',
+'Atea',
+'Ateca',
+'Belmonte de Gracián',
+'Bubierca',
+'Calatayud',
+'Carenas',
+'Castejón de Alarba',
+'Castejón de las Armas',
+'Cervera de la Cañada',
+'Cetina',
+'Clarés de Ribota',
+'Codos',
+'Daroca',
+'El Frasno',
+'Fuentes de Jiloca',
+'Godojos',
+'Ibdes',
+'Jaraba',
+'La Vilueña',
+'Maluenda',
+'Manchones',
+'Mara',
+'Miedes de Aragón',
+'Monterde',
+'Montón',
+'Morata de Jiloca',
+'Moros',
+'Munébrega',
+'Murero',
+'Nuévalos',
+'Olvés',
+'Orcajo',
+'Orera',
+'Paracuellos de Jiloca',
+'Ruesca',
+'Sediles',
+'Terrer',
+'Torralba de Ribota',
+'Torrijo de la Cañada',
+'Valtorres',
+'Velilla de Jiloca',
+'Villafeliche',
+'Villalba de Perejil',
+'Villalengua',
+'Villarroya de la Sierra'
+)
+
+-- ============================================================
+-- DO Campo de Borja (18 municipios)
+-- Fichero: Campo_de_Borja.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Agón',
+'Ainzón',
+'Alberite de San Juan',
+'Albeta',
+'Ambel',
+'Bisimbre',
+'Borja',
+'Bulbuente',
+'Bureta',
+'El Buste',
+'Fréscano',
+'Fuendejalón',
+'Magallón',
+'Maleján',
+'Mallén',
+'Pozuelo de Aragón',
+'Tabuenca',
+'Vera de Moncayo'
+)
+
+-- ============================================================
+-- DO Cariñena (16 municipios)
+-- Fichero: Cariñena.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Aguarón',
+'Aladrén',
+'Alfamén',
+'Almonacid de la Sierra',
+'Alpartir',
+'Cariñena',
+'Cosuenda',
+'Encinacorba',
+'Fuendetodos',
+'Longares',
+'Mezalocha',
+'Muel',
+'Paniza',
+'Tosos',
+'Villanueva de Huerva',
+'Vistabella'
+)
+
+-- ============================================================
+-- DO Somontano (43 municipios)
+-- Fichero: Somontano.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Abiego',
+'Adahuesca',
+'Alcalá del Obispo',
+'Alquézar',
+'Angüés',
+'Antillón',
+'Argavieso',
+'Azara',
+'Azlor',
+'Barbastro',
+'Barbuñales',
+'Berbegal',
+'Bierge',
+'Blecua y Torres',
+'Capella',
+'Casbas de Huesca',
+'Castillazuelo',
+'Colungo',
+'El Grado',
+'Estada',
+'Estadilla',
+'Fonz',
+'Graus',
+'Hoz y Costean',
+'Ibieca',
+'Ilche',
+'La Puebla de Castro',
+'Laluenga',
+'Laperdiguera',
+'Lascellas-Ponzano',
+'Naval',
+'Olvena',
+'Peralta de Alcofea',
+'Peraltilla',
+'Perarrúa',
+'Pertusa',
+'Pozán de Vero',
+'Salas Altas',
+'Salas Bajas',
+'Santa María de Dulcis',
+'Secastilla',
+'Siétamo',
+'Torres de Alcanadre'
+)
+
+-- ============================================================
+-- DO Urbezo (1 municipios)
+-- Fichero: Urbezo.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Cariñena'
+)
+
+
+/* ============================================================
+   3. ASTURIAS
+   ============================================================ */
+
+-- ============================================================
+-- DO Cangas (8 municipios)
+-- Fichero: Cangas.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Allande',
+'Cangas del Narcea',
+'Degaña',
+'Grandas de Salime',
+'Ibias',
+'Illano',
+'Pesoz',
+'Tineo'
+)
+
+
+/* ============================================================
+   4. ILLES BALEARS
+   ============================================================ */
+
+-- ============================================================
+-- DO Binissalem (5 municipios)
+-- Fichero: Binissalem.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Binissalem',
+'Consell',
+'Santa Eugènia',
+'Santa María del Camí',
+'Sencelles'
+)
+
+-- ============================================================
+-- DO Pla i Llevant (19 municipios)
+-- Fichero: Pla_i_Llevant.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Algaida',
+'Ariany',
+'Artà',
+'Campos',
+'Capdepera',
+'Felanitx',
+'Llucmajor',
+'Manacor',
+'Maria de la Salut',
+'Montuïri',
+'Muro',
+'Petra',
+'Porreres',
+'Sant Joan',
+'Sant Llorenç des Cardassar',
+'Santa Margalida',
+'Santanyí',
+'Sineu',
+'Vilafranca de Bonany'
+)
+
+
+/* ============================================================
+   5. CANARIAS
+   ============================================================ */
+
+-- ============================================================
+-- DO Abona (7 municipios)
+-- Fichero: Abona.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Adeje',
+'Arico',
+'Arona',
+'Fasnia',
+'Granadilla de Abona',
+'San Miguel de Abona',
+'Vilaflor de Chasna'
+)
+
+-- ============================================================
+-- DO El Hierro (3 municipios)
+-- Fichero: El_Hierro.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'El Pinar de El Hierro',
+'Frontera',
+'Valverde'
+)
+
+-- ============================================================
+-- DO Gran Canaria (21 municipios)
+-- Fichero: Gran_Canaria.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Agaete',
+'Agüimes',
+'Artenara',
+'Arucas',
+'Firgas',
+'Gáldar',
+'Ingenio',
+'La Aldea de San Nicolás',
+'Las Palmas de Gran Canaria',
+'Mogán',
+'Moya',
+'San Bartolomé de Tirajana',
+'Santa Brígida',
+'Santa Lucía de Tirajana',
+'Santa María de Guía de Gran Canaria',
+'Tejeda',
+'Telde',
+'Teror',
+'Valleseco',
+'Valsequillo de Gran Canaria',
+'Vega de San Mateo'
+)
+
+-- ============================================================
+-- DO Islas Canarias (88 municipios)
+-- Fichero: Islas_Canarias.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Adeje',
+'Agaete',
+'Agulo',
+'Agüimes',
+'Alajeró',
+'Antigua',
+'Arafo',
+'Arico',
+'Arona',
+'Arrecife',
+'Artenara',
+'Arucas',
+'Barlovento',
+'Betancuria',
+'Breña Alta',
+'Breña Baja',
+'Buenavista del Norte',
+'Candelaria',
+'El Paso',
+'El Pinar de El Hierro',
+'El Rosario',
+'El Sauzal',
+'El Tanque',
+'Fasnia',
+'Firgas',
+'Frontera',
+'Fuencaliente de la Palma',
+'Garachico',
+'Garafía',
+'Granadilla de Abona',
+'Guía de Isora',
+'Gáldar',
+'Güímar',
+'Haría',
+'Hermigua',
+'Icod de los Vinos',
+'Ingenio',
+'La Aldea de San Nicolás',
+'La Guancha',
+'La Matanza de Acentejo',
+'La Oliva',
+'La Orotava',
+'La Victoria de Acentejo',
+'Las Palmas de Gran Canaria',
+'Los Llanos de Aridane',
+'Los Realejos',
+'Los Silos',
+'Mogán',
+'Moya',
+'Puerto de la Cruz',
+'Puerto del Rosario',
+'Puntagorda',
+'Puntallana',
+'Pájara',
+'San Andrés y Sauces',
+'San Bartolomé',
+'San Bartolomé de Tirajana',
+'San Cristóbal de La Laguna',
+'San Juan de la Rambla',
+'San Miguel de Abona',
+'San Sebastián de la Gomera',
+'Santa Brígida',
+'Santa Cruz de Tenerife',
+'Santa Cruz de la Palma',
+'Santa Lucía de Tirajana',
+'Santa María de Guía de Gran Canaria',
+'Santa Úrsula',
+'Santiago del Teide',
+'Tacoronte',
+'Tazacorte',
+'Tegueste',
+'Teguise',
+'Tejeda',
+'Telde',
+'Teror',
+'Tijarafe',
+'Tinajo',
+'Tuineje',
+'Tías',
+'Valle Gran Rey',
+'Vallehermoso',
+'Valleseco',
+'Valsequillo de Gran Canaria',
+'Valverde',
+'Vega de San Mateo',
+'Vilaflor de Chasna',
+'Villa de Mazo',
+'Yaiza'
+)
+
+-- ============================================================
+-- DO La Gomera (6 municipios)
+-- Fichero: La_Gomera.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Agulo',
+'Alajeró',
+'Hermigua',
+'San Sebastián de la Gomera',
+'Valle Gran Rey',
+'Vallehermoso'
+)
+
+-- ============================================================
+-- DO La Palma (14 municipios)
+-- Fichero: La_Palma.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Barlovento',
+'Breña Alta',
+'Breña Baja',
+'El Paso',
+'Fuencaliente de la Palma',
+'Garafía',
+'Los Llanos de Aridane',
+'Puntagorda',
+'Puntallana',
+'San Andrés y Sauces',
+'Santa Cruz de la Palma',
+'Tazacorte',
+'Tijarafe',
+'Villa de Mazo'
+)
+
+-- ============================================================
+-- DO Lanzarote (7 municipios)
+-- Fichero: Lanzarote.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Arrecife',
+'Haría',
+'San Bartolomé',
+'Teguise',
+'Tinajo',
+'Tías',
+'Yaiza'
+)
+
+-- ============================================================
+-- DO Tacoronte-Acentejo (9 municipios)
+-- Fichero: Tacoronte_Acentejo.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'El Rosario',
+'El Sauzal',
+'La Matanza de Acentejo',
+'La Victoria de Acentejo',
+'San Cristóbal de La Laguna',
+'Santa Cruz de Tenerife',
+'Santa Úrsula',
+'Tacoronte',
+'Tegueste'
+)
+
+-- ============================================================
+-- DO Valle de Guimar (3 municipios)
+-- Fichero: Valle_de_Guimar.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Arafo',
+'Candelaria',
+'Güímar'
+)
+
+-- ============================================================
+-- DO Valle de la Orotava (3 municipios)
+-- Fichero: Valle_de_la_Orotava.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'La Orotava',
+'Los Realejos',
+'Puerto de la Cruz'
+)
+
+-- ============================================================
+-- DO Ycoden-Daute-Isora (9 municipios)
+-- Fichero: Ycoden_Daute_Isora.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Buenavista del Norte',
+'El Tanque',
+'Garachico',
+'Guía de Isora',
+'Icod de los Vinos',
+'La Guancha',
+'Los Silos',
+'San Juan de la Rambla',
+'Santiago del Teide'
+)
+
+
+/* ============================================================
+   6. CASTILLA - LA MANCHA
+   ============================================================ */
+
+-- ============================================================
+-- DO Almansa (8 municipios)
+-- Fichero: Almansa.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Almansa',
+'Alpera',
+'Bonete',
+'Chinchilla de Monte-Aragón',
+'Corral-Rubio',
+'Higueruela',
+'Hoya-Gonzalo',
+'Pétrola'
+)
+
+-- ============================================================
+-- DO Campo de Calatrava (17 municipios)
+-- Fichero: Campo_de_Calatrava.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Aldea del Rey',
+'Almagro',
+'Argamasilla de Calatrava',
+'Ballesteros de Calatrava',
+'Bolaños de Calatrava',
+'Calzada de Calatrava',
+'Carrión de Calatrava',
+'Cañada de Calatrava',
+'Ciudad Real',
+'Granátula de Calatrava',
+'Miguelturra',
+'Moral de Calatrava',
+'Pozuelo de Calatrava',
+'Torralba de Calatrava',
+'Valenzuela de Calatrava',
+'Villanueva de San Carlos',
+'Villar del Pozo'
+)
+
+-- ============================================================
+-- DO La Mancha (128 municipios)
+-- Fichero: La_Mancha.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Ajofrín',
+'Albaladejo',
+'Alcolea de Calatrava',
+'Alcázar de San Juan',
+'Aldea del Rey',
+'Almagro',
+'Almedina',
+'Almodóvar del Campo',
+'Almonacid de Toledo',
+'Almonacid del Marquesado',
+'Arenales de San Gregorio',
+'Arenas de San Juan',
+'Argamasilla de Alba',
+'Argamasilla de Calatrava',
+'Ballesteros de Calatrava',
+'Barajas de Melo',
+'Barrax',
+'Belmonte',
+'Bolaños de Calatrava',
+'Cabañas de Yepes',
+'Calzada de Calatrava',
+'Campo de Criptana',
+'Camuñas',
+'Carrascosa de Haro',
+'Carrizosa',
+'Carrión de Calatrava',
+'Castellar de Santiago',
+'Cañada de Calatrava',
+'Ciruelos',
+'Ciudad Real',
+'Consuegra',
+'Cózar',
+'Daimiel',
+'Dosbarrios',
+'El Ballestero',
+'El Bonillo',
+'El Pedernoso',
+'El Provencio',
+'El Robledo',
+'El Romeral',
+'El Toboso',
+'Fernán Caballero',
+'Fuenllana',
+'Fuensanta',
+'Fuente el Fresno',
+'Fuentelespino de Haro',
+'Herencia',
+'Hontanaya',
+'La Herrera',
+'La Roda',
+'La Solana',
+'Las Labores',
+'Las Mesas',
+'Las Pedroñeras',
+'Lezuza',
+'Llanos del Caudillo',
+'Los Cortijos',
+'Madridejos',
+'Malagón',
+'Manzanares',
+'Manzaneque',
+'Marjaliza',
+'Mascaraque',
+'Membrilla',
+'Miguelturra',
+'Minaya',
+'Monreal del Llano',
+'Montalvos',
+'Mora',
+'Mota del Cuervo',
+'Munera',
+'Nambroca',
+'Noblejas',
+'Ocaña',
+'Ontígola',
+'Orgaz',
+'Ossa de Montiel',
+'Pedro Muñoz',
+'Picón',
+'Piedrabuena',
+'Poblete',
+'Porzuna',
+'Pozuelo de Calatrava',
+'Puebla de Almenara',
+'Puebla del Príncipe',
+'Puerto Lápice',
+'Quero',
+'Quintanar de la Orden',
+'Ruidera',
+'San Clemente',
+'Santa Cruz de los Cáñamos',
+'Santa María de los Llanos',
+'Santa María del Campo Rus',
+'Socuéllamos',
+'Sonseca',
+'Tarazona de la Mancha',
+'Tembleque',
+'Terrinches',
+'Tomelloso',
+'Torralba de Calatrava',
+'Tresjuncos',
+'Turleque',
+'Urda',
+'Valenzuela de Calatrava',
+'Villacañas',
+'Villaescusa de Haro',
+'Villafranca de los Caballeros',
+'Villahermosa',
+'Villalgordo del Júcar',
+'Villamanrique',
+'Villamayor de Calatrava',
+'Villaminaya',
+'Villamuelas',
+'Villanueva de Alcardete',
+'Villanueva de Bogas',
+'Villanueva de la Fuente',
+'Villanueva de los Infantes',
+'Villar de Cañas',
+'Villar de la Encina',
+'Villarejo de Fuentes',
+'Villares del Saz',
+'Villarrobledo',
+'Villarrubia de Santiago',
+'Villarrubia de los Ojos',
+'Villarta de San Juan',
+'Villasequilla',
+'Villatobas',
+'Yepes'
+)
+
+-- ============================================================
+-- DO Manchuela (69 municipios)
+-- Fichero: Manchuela.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Abengibre',
+'Alarcón',
+'Alatoz',
+'Alborea',
+'Alcalá del Júcar',
+'Aliaguilla',
+'Almodóvar del Pinar',
+'Balsa de Ves',
+'Barchín del Hoyo',
+'Buenache de Alarcón',
+'Campillo de Altobuey',
+'Carcelén',
+'Cardenete',
+'Casas de Juan Núñez',
+'Casas de Ves',
+'Casas-Ibáñez',
+'Casasimarro',
+'Castillejo de Iniesta',
+'Cenizate',
+'Chumillas',
+'El Herrumblar',
+'El Peral',
+'El Picazo',
+'Enguídanos',
+'Fuentealbilla',
+'Gabaldón',
+'Garaballa',
+'Golosalvo',
+'Graja de Campalbo',
+'Graja de Iniesta',
+'Hontecillas',
+'Iniesta',
+'Jorquera',
+'La Gineta',
+'La Pesquera',
+'La Recueja',
+'Landete',
+'Ledaña',
+'Madrigueras',
+'Mahora',
+'Minglanilla',
+'Mira',
+'Motilla del Palancar',
+'Motilleja',
+'Narboneta',
+'Navas de Jorquera',
+'Olmedilla de Alarcón',
+'Paracuellos',
+'Piqueras del Castillo',
+'Pozo-Lorente',
+'Pozorrubielos de la Mancha',
+'Puebla del Salvador',
+'Quintanar del Rey',
+'Solera de Gabaldón',
+'Talayuelas',
+'Tébar',
+'Valdeganga',
+'Valhermoso de la Fuente',
+'Valverdejo',
+'Villa de Ves',
+'Villagarcía del Llano',
+'Villalpardo',
+'Villamalea',
+'Villanueva de la Jara',
+'Villarta',
+'Villatoya',
+'Villavaliente',
+'Víllora',
+'Yémeda'
+)
+
+-- ============================================================
+-- DO Mentrida (74 municipios)
+-- Fichero: Mentrida.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Albarreal de Tajo',
+'Alcabón',
+'Almendral de la Cañada',
+'Almorox',
+'Arcicóllar',
+'Argés',
+'Barcience',
+'Bargas',
+'Buenaventura',
+'Burujón',
+'Camarena',
+'Camarenilla',
+'Cardiel de los Montes',
+'Carmena',
+'Carranque',
+'Carriches',
+'Casarrubios del Monte',
+'Castillo de Bayuela',
+'Cazalegas',
+'Cebolla',
+'Cedillo del Condado',
+'Chozas de Canales',
+'Domingo Pérez',
+'El Carpio de Tajo',
+'El Casar de Escalona',
+'El Real de San Vicente',
+'Erustes',
+'Escalona',
+'Escalonilla',
+'Fuensalida',
+'Garciotum',
+'Gerindote',
+'Guadamur',
+'Hinojosa de San Vicente',
+'Hormigos',
+'Huecas',
+'Illán de Vacas',
+'La Mata',
+'La Torre de Esteban Hambrán',
+'Lominchar',
+'Los Cerralbos',
+'Lucillos',
+'Malpica de Tajo',
+'Maqueda',
+'Marrupe',
+'Mesegar de Tajo',
+'Montearagón',
+'Méntrida',
+'Navamorcuende',
+'Nombela',
+'Novés',
+'Nuño Gómez',
+'Olías del Rey',
+'Otero',
+'Palomeque',
+'Paredes de Escalona',
+'Pelahustán',
+'Portillo de Toledo',
+'Quismondo',
+'Recas',
+'Rielves',
+'San Martín de Pusa',
+'Santa Ana de Pusa',
+'Santa Cruz del Retamar',
+'Santa Olalla',
+'Sartajada',
+'Sotillo de las Palomas',
+'Talavera de la Reina',
+'Toledo',
+'Torrijos',
+'Valmojado',
+'Villamiel de Toledo',
+'Yeles',
+'Yunclillos'
+)
+
+-- ============================================================
+-- DO Ribera del Jucar (7 municipios)
+-- Fichero: Ribera_del_Jucar.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Casas de Benítez',
+'Casas de Fernando Alonso',
+'Casas de Guijarro',
+'Casas de Haro',
+'El Picazo',
+'Pozoamargo',
+'Sisante'
+)
+
+-- ============================================================
+-- DO Ucles (25 municipios)
+-- Fichero: Ucles.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Alcázar del Rey',
+'Almendros',
+'Belinchón',
+'Cabezamesada',
+'Campos del Paraíso',
+'Corral de Almaguer',
+'El Acebrón',
+'Fuente de Pedro Naharro',
+'Horcajo de Santiago',
+'Huelves',
+'Huete',
+'Langa',
+'Paredes',
+'Pozorrubio de Santiago',
+'Rozalén del Monte',
+'Saelices',
+'Santa Cruz de la Zarza',
+'Tarancón',
+'Torrubia del Campo',
+'Tribaldos',
+'Uclés',
+'Vellisca',
+'Villamayor de Santiago',
+'Villarrubio',
+'Zarza de Tajo'
+)
+
+-- ============================================================
+-- DO Valdepeñas (10 municipios)
+-- Fichero: Valdepeñas.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Alcubillas',
+'Alhambra',
+'Granátula de Calatrava',
+'Montiel',
+'Moral de Calatrava',
+'San Carlos del Valle',
+'Santa Cruz de Mudela',
+'Torre de Juan Abad',
+'Torrenueva',
+'Valdepeñas'
+)
+
+
+/* ============================================================
+   7. CASTILLA Y LEÓN
+   ============================================================ */
+
+-- ============================================================
+-- DO Arlanza (51 municipios)
+-- Fichero: Arlanza.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Avellanosa de Muñó',
+'Baltanás',
+'Cebrecos',
+'Cilleruelo de Abajo',
+'Cilleruelo de Arriba',
+'Ciruelos de Cervera',
+'Cobos de Cerrato',
+'Cordovilla la Real',
+'Covarrubias',
+'Espinosa de Cerrato',
+'Fontioso',
+'Herrera de Valdecañas',
+'Hornillos de Cerrato',
+'Iglesiarrubia',
+'Lerma',
+'Los Balbases',
+'Madrigal del Monte',
+'Madrigalejo del Monte',
+'Mahamud',
+'Nebreda',
+'Palenzuela',
+'Peral de Arlanza',
+'Pineda Trasmonte',
+'Pinilla Trasmonte',
+'Puentedura',
+'Quintana del Puente',
+'Quintanilla de la Mata',
+'Quintanilla del Agua y Tordueles',
+'Quintanilla del Coco',
+'Retuerta',
+'Revilla Vallejera',
+'Santa Cecilia',
+'Santa Inés',
+'Santa María del Campo',
+'Santibáñez del Val',
+'Santo Domingo de Silos',
+'Solarana',
+'Tabanera de Cerrato',
+'Torquemada',
+'Torrecilla del Monte',
+'Torrepadre',
+'Valles de Palenzuela',
+'Villafruela',
+'Villahoz',
+'Villahán',
+'Villalmanzo',
+'Villamayor de los Montes',
+'Villangómez',
+'Villaverde del Monte',
+'Villodrigo',
+'Zael'
+)
+
+-- ============================================================
+-- DO Arribes (31 municipios)
+-- Fichero: Arribes.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Ahigal de los Aceiteros',
+'Aldeadávila de la Ribera',
+'Almaraz de Duero',
+'Argañín',
+'Fariza',
+'Fermoselle',
+'Gamones',
+'Hinojosa de Duero',
+'La Fregeneda',
+'La Peña',
+'La Redonda',
+'Luelmo',
+'Lumbrales',
+'Masueco',
+'Mieza',
+'Moral de Sayago',
+'Moralina',
+'Muelas del Pan',
+'Pereña de la Ribera',
+'Pino del Oro',
+'Puerto Seguro',
+'San Felices de los Gallegos',
+'Saucelle',
+'Sobradillo',
+'Torregamones',
+'Villadepera',
+'Villalcampo',
+'Villar de la Yegua',
+'Villardiegua de la Ribera',
+'Villarino de los Aires',
+'Vilvestre'
+)
+
+-- ============================================================
+-- DO Bierzo (31 municipios)
+-- Fichero: Bierzo.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Arganza',
+'Bembibre',
+'Benuza',
+'Berlanga del Bierzo',
+'Borrenes',
+'Cabañas Raras',
+'Cacabelos',
+'Camponaraya',
+'Carracedelo',
+'Carucedo',
+'Castropodame',
+'Congosto',
+'Corullón',
+'Cubillos del Sil',
+'Fabero',
+'Folgoso de la Ribera',
+'Igüeña',
+'Molinaseca',
+'Noceda del Bierzo',
+'Oencia',
+'Ponferrada',
+'Priaranza del Bierzo',
+'Puente de Domingo Flórez',
+'Sancedo',
+'Sobrado',
+'Toral de los Vados',
+'Toreno',
+'Torre del Bierzo',
+'Trabadelo',
+'Vega de Espinareda',
+'Villafranca del Bierzo'
+)
+
+-- ============================================================
+-- DO Cebreros (35 municipios)
+-- Fichero: Cebreros.gpkg
 -- ============================================================
 "NAMEUNIT" IN (
 'Burgohondo',
@@ -467,7 +1515,1601 @@
 )
 
 -- ============================================================
--- 8. DOP ARABAKO TXAKOLINA / TXAKOLI DE ÁLAVA (País Vasco)
+-- DO Cigales (13 municipios)
+-- Fichero: Cigales.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Cabezón de Pisuerga',
+'Cigales',
+'Corcos',
+'Cubillas de Santa Marta',
+'Dueñas',
+'Fuensaldaña',
+'Mucientes',
+'Quintanilla de Trigueros',
+'San Martín de Valvení',
+'Santovenia de Pisuerga',
+'Trigueros del Valle',
+'Valladolid',
+'Valoria la Buena'
+)
+
+-- ============================================================
+-- DO Leon (88 municipios)
+-- Fichero: Leon.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Algadefe',
+'Alija del Infantado',
+'Ardón',
+'Becilla de Valderaduey',
+'Bercianos del Páramo',
+'Bercianos del Real Camino',
+'Bustillo de Chaves',
+'Cabezón de Valderaduey',
+'Cabreros del Río',
+'Calzada del Coto',
+'Campazas',
+'Campo de Villavidel',
+'Castilfalé',
+'Castrobol',
+'Castrocalbón',
+'Castroponce',
+'Castrotierra de Valmadrigal',
+'Cebrones del Río',
+'Chozas de Abajo',
+'Cimanes de la Vega',
+'Corbillos de los Oteros',
+'Cubillas de los Oteros',
+'Cuenca de Campos',
+'El Burgo Ranero',
+'Fresno de la Vega',
+'Fuentes de Carbajal',
+'Gordaliza del Pino',
+'Gordoncillo',
+'Grajal de Campos',
+'Gusendos de los Oteros',
+'Izagre',
+'Joarilla de las Matas',
+'La Antigua',
+'La Bañeza',
+'La Unión de Campos',
+'Laguna de Negrillos',
+'León',
+'Matadeón de los Oteros',
+'Matanza',
+'Mayorga',
+'Melgar de Abajo',
+'Melgar de Arriba',
+'Monasterio de Vega',
+'Onzonilla',
+'Pajares de los Oteros',
+'Palacios de la Valduerna',
+'Pobladura de Pelayo García',
+'Pozuelo del Páramo',
+'Quintana del Marco',
+'Quintana y Congosto',
+'Quintanilla del Molar',
+'Riego de la Vega',
+'Roales de Campos',
+'Roperuelos del Páramo',
+'Saelices de Mayorga',
+'Sahagún',
+'San Adrián del Valle',
+'San Esteban de Nogales',
+'San Millán de los Caballeros',
+'Santa Cristina de Valmadrigal',
+'Santa Elena de Jamuz',
+'Santa María del Monte de Cea',
+'Santas Martas',
+'Santervás de Campos',
+'Santovenia de la Valdoncina',
+'Toral de los Guzmanes',
+'Valdemora',
+'Valderas',
+'Valdevimbre',
+'Valdunquillo',
+'Valencia de Don Juan',
+'Vallecillo',
+'Valverde-Enrique',
+'Vega de Infanzones',
+'Villabraz',
+'Villacid de Campos',
+'Villademor de la Vega',
+'Villagómez la Nueva',
+'Villalba de la Loma',
+'Villamandos',
+'Villamañán',
+'Villamontán de la Valduerna',
+'Villamoratiel de las Matas',
+'Villanueva de las Manzanas',
+'Villaornate y Castro',
+'Villaquejida',
+'Villaturiel',
+'Zotes del Páramo'
+)
+
+-- ============================================================
+-- DO Ribera del Duero (82 municipios)
+-- Fichero: Ribera_del_Duero.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Adrada de Haza',
+'Alcubilla de Avellaneda',
+'Aldehorno',
+'Anguix',
+'Aranda de Duero',
+'Baños de Valdearados',
+'Berlangas de Roa',
+'Bocos de Duero',
+'Burgo de Osma-Ciudad de Osma',
+'Caleruega',
+'Campillo de Aranda',
+'Canalejas de Peñafiel',
+'Castillejo de Robledo',
+'Castrillo de Duero',
+'Castrillo de la Vega',
+'Curiel de Duero',
+'Fompedraza',
+'Fresnillo de las Dueñas',
+'Fuentecén',
+'Fuentelcésped',
+'Fuentelisendo',
+'Fuentemolinos',
+'Fuentenebro',
+'Fuentespina',
+'Gumiel de Izán',
+'Gumiel de Mercado',
+'Haza',
+'Honrubia de la Cuesta',
+'Hontangas',
+'Hontoria de Valdearados',
+'Hoyales de Roa',
+'La Cueva de Roa',
+'La Horra',
+'La Sequera de Haza',
+'La Vid y Barrios',
+'Langa de Duero',
+'Mambrilla de Castrejón',
+'Manzanillo',
+'Milagros',
+'Miño de San Esteban',
+'Montejo de la Vega de la Serrezuela',
+'Moradillo de Roa',
+'Nava de Roa',
+'Olivares de Duero',
+'Olmedillo de Roa',
+'Olmos de Peñafiel',
+'Pardilla',
+'Pedrosa de Duero',
+'Pesquera de Duero',
+'Peñafiel',
+'Peñaranda de Duero',
+'Piñel de Abajo',
+'Piñel de Arriba',
+'Quemada',
+'Quintana del Pidio',
+'Quintanilla de Arriba',
+'Quintanilla de Onésimo',
+'Roa',
+'Roturas',
+'Rábano',
+'San Esteban de Gormaz',
+'San Juan del Monte',
+'San Martín de Rubiales',
+'Santa Cruz de la Salceda',
+'Sotillo de la Ribera',
+'Terradillos de Esgueva',
+'Torre de Peñafiel',
+'Torregalindo',
+'Tubilla del Lago',
+'Tórtoles de Esgueva',
+'Vadocondes',
+'Valbuena de Duero',
+'Valdeande',
+'Valdearcos de la Vega',
+'Valdezate',
+'Villaescusa de Roa',
+'Villalba de Duero',
+'Villalbilla de Gumiel',
+'Villanueva de Gumiel',
+'Villatuelda',
+'Villaverde de Montejo',
+'Zazuar'
+)
+
+-- ============================================================
+-- DO Rueda (64 municipios)
+-- Fichero: Rueda.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Aguasal',
+'Alaejos',
+'Alcazarén',
+'Aldeanueva del Codonal',
+'Aldehuela del Codonal',
+'Almenara de Adaja',
+'Ataquines',
+'Blasconuño de Matacabras',
+'Bobadilla del Campo',
+'Bocigas',
+'Brahojos de Medina',
+'Carpio',
+'Castrejón de Trabancos',
+'Castronuño',
+'Cervillego de la Cruz',
+'Coca',
+'Codorniz',
+'Donhierro',
+'El Campillo',
+'Fresno el Viejo',
+'Fuente el Sol',
+'Fuente-Olmedo',
+'Hornillos de Eresma',
+'Juarros de Voltoya',
+'La Seca',
+'La Zarza',
+'Llano de Olmedo',
+'Lomoviejo',
+'Madrigal de las Altas Torres',
+'Matapozuelos',
+'Medina del Campo',
+'Mojados',
+'Montejo de Arévalo',
+'Moraleja de las Panaderas',
+'Nava de la Asunción',
+'Nava del Rey',
+'Nieva',
+'Nueva Villa de las Torres',
+'Olmedo',
+'Palacios de Goda',
+'Pollos',
+'Pozal de Gallinas',
+'Pozaldez',
+'Puras',
+'Ramiro',
+'Rapariegos',
+'Rubí de Bracamonte',
+'Rueda',
+'Salvador de Zapardiel',
+'San Cristóbal de la Vega',
+'San Pablo de la Moraleja',
+'San Vicente del Palacio',
+'Santiuste de San Juan Bautista',
+'Serrada',
+'Siete Iglesias de Trabancos',
+'Tolocirio',
+'Tordesillas',
+'Torrecilla de la Abadesa',
+'Torrecilla de la Orden',
+'Valdestillas',
+'Velascálvaro',
+'Ventosa de la Cuesta',
+'Villanueva de Duero',
+'Villaverde de Medina'
+)
+
+-- ============================================================
+-- DO Tierra del Vino de Zamora (56 municipios)
+-- Fichero: Tierra_del_Vino_de_Zamora.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Aldeanueva de Figueroa',
+'Aldearrodrigo',
+'Algodre',
+'Arcenillas',
+'Benegiles',
+'Cabañas de Sayago',
+'Casaseca de Campeán',
+'Casaseca de las Chanas',
+'Castrillo de la Guareña',
+'Cazurra',
+'Cañizal',
+'Coreses',
+'Corrales del Vino',
+'Cubillos',
+'Cuelgamures',
+'El Cubo de Tierra del Vino',
+'El Maderal',
+'El Perdigón',
+'Entrala',
+'Forfoleda',
+'Fresno de la Ribera',
+'Fuentelapeña',
+'Fuentesaúco',
+'Fuentespreadas',
+'Gema',
+'Guarrate',
+'Jambrina',
+'La Hiniesta',
+'Madridanos',
+'Mayalde',
+'Molacillos',
+'Monfarracinos',
+'Moraleja del Vino',
+'Morales del Vino',
+'Moreruela de los Infanzones',
+'Palacios del Arzobispo',
+'Parada de Rubiales',
+'Peleas de Abajo',
+'Peñausende',
+'Roales',
+'Santa Clara de Avedillo',
+'Santiz',
+'Topas',
+'Torres del Carrizal',
+'Torresmenudas',
+'Vadillo de la Guareña',
+'Valcabado',
+'Valdelosa',
+'Vallesa de la Guareña',
+'Villaescusa',
+'Villalazán',
+'Villamor de los Escuderos',
+'Villanueva de Campeán',
+'Villaralbo',
+'Zamayón',
+'Zamora'
+)
+
+-- ============================================================
+-- DO Toro (15 municipios)
+-- Fichero: Toro.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Argujillo',
+'El Pego',
+'El Piñero',
+'La Bóveda de Toro',
+'Morales de Toro',
+'Pedrosa del Rey',
+'Peleagonzalo',
+'San Miguel de la Ribera',
+'San Román de Hornija',
+'Sanzoles',
+'Toro',
+'Valdefinjas',
+'Venialbo',
+'Villabuena del Puente',
+'Villafranca de Duero'
+)
+
+
+/* ============================================================
+   8. CATALUÑA (DOs específicas; DOCa Priorat en DOCas.sql y Cava en DO_Cava.sql)
+   ============================================================ */
+
+-- ============================================================
+-- DO Alella (31 municipios)
+-- Fichero: Alella.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Alella',
+'Arenys de Mar',
+'Arenys de Munt',
+'Argentona',
+'Badalona',
+'Cabrera de Mar',
+'Cabrils',
+'Calella',
+'El Masnou',
+'Granollers',
+'La Roca del Vallès',
+'Llinars del Vallès',
+'Martorelles',
+'Mataró',
+'Montgat',
+'Montornès del Vallès',
+'Premià de Dalt',
+'Premià de Mar',
+'Sant Cebrià de Vallalta',
+'Sant Fost de Campsentelles',
+'Sant Iscle de Vallalta',
+'Sant Pol de Mar',
+'Santa Coloma de Gramenet',
+'Santa Maria de Martorelles',
+'Teià',
+'Tiana',
+'Vallromanes',
+'Vilanova del Vallès',
+'Vilassar de Dalt',
+'Vilassar de Mar',
+'Òrrius'
+)
+
+-- ============================================================
+-- DO Conca de Barbera (14 municipios)
+-- Fichero: Conca_de_Barbera.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Barberà de la Conca',
+'Blancafort',
+'Conesa',
+'Forès',
+'L''Espluga de Francolí',
+'Montblanc',
+'Pira',
+'Rocafort de Queralt',
+'Sarral',
+'Senan',
+'Solivella',
+'Vallclara',
+'Vilaverd',
+'Vimbodí i Poblet'
+)
+
+-- ============================================================
+-- DO Costers del Segre (70 municipios)
+-- Fichero: Costers_del_Segre.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Agramunt',
+'Alcarràs',
+'Alfarràs',
+'Algerri',
+'Almacelles',
+'Almenar',
+'Alt Àneu',
+'Alòs de Balaguer',
+'Arbeca',
+'Artesa de Segre',
+'Balaguer',
+'Belianes',
+'Bellaguarda',
+'Castell de Mur',
+'Castelló de Farfanya',
+'Cervià de les Garrigues',
+'Ciutadilla',
+'Conca de Dalt',
+'Cubells',
+'El Vilosell',
+'Els Omellons',
+'Els Omells de na Gaia',
+'Esterri d''Àneu',
+'Foradada',
+'Fulleda',
+'Gavet de la Conca',
+'Gimenells i el Pla de la Font',
+'Granyanella',
+'Granyena de Segarra',
+'Guimerà',
+'Isona i Conca Dellà',
+'Ivars d''Urgell',
+'Juncosa',
+'Juneda',
+'L''Albagés',
+'L''Albi',
+'L''Espluga Calba',
+'La Floresta',
+'La Pobla de Cérvoles',
+'La Pobla de Segur',
+'La Sentiu de Sió',
+'Les Borges Blanques',
+'Llardecans',
+'Lleida',
+'Llimiana',
+'Maldà',
+'Menàrguens',
+'Montoliu de Segarra',
+'Montornès de Segarra',
+'Nalec',
+'Os de Balaguer',
+'Penelles',
+'Preixana',
+'Preixens',
+'Rialp',
+'Salàs de Pallars',
+'Sant Martí de Riucorb',
+'Soriguera',
+'Sort',
+'Talarn',
+'Tarrés',
+'Torrefarrera',
+'Tremp',
+'Tàrrega',
+'Vallbona de les Monges',
+'Vallfogona de Riucorb',
+'Verdú',
+'Vilagrassa',
+'Vilanova de Meià',
+'Vinaixa'
+)
+
+-- ============================================================
+-- DO Emporda (53 municipios)
+-- Fichero: Emporda.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Agullana',
+'Avinyonet de Puigventós',
+'Begur',
+'Bellcaire d''Empordà',
+'Biure',
+'Boadella i les Escaules',
+'Cabanes',
+'Cadaqués',
+'Calonge i Sant Antoni',
+'Cantallops',
+'Capmany',
+'Cistella',
+'Colera',
+'Corçà',
+'Cruïlles, Monells i Sant Sadurní de l''Heura',
+'Darnius',
+'El Port de la Selva',
+'Espolla',
+'Figueres',
+'Forallac',
+'Garriguella',
+'La Bisbal d''Empordà',
+'La Jonquera',
+'La Selva de Mar',
+'Llançà',
+'Llers',
+'Mollet de Peralada',
+'Mont-ras',
+'Palafrugell',
+'Palamós',
+'Palau-sator',
+'Palau-saverdera',
+'Pals',
+'Pau',
+'Pedret i Marzà',
+'Peralada',
+'Pont de Molins',
+'Portbou',
+'Rabós',
+'Regencós',
+'Roses',
+'Sant Climent Sescebes',
+'Sant Feliu de Guíxols',
+'Santa Cristina d''Aro',
+'Terrades',
+'Torrent',
+'Torroella de Montgrí',
+'Ullà',
+'Vall-llobrega',
+'Vilafant',
+'Vilajuïga',
+'Vilamaniscle',
+'Vilanant'
+)
+
+-- ============================================================
+-- DO Montsant (16 municipios)
+-- Fichero: Montsant.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Cabacés',
+'Capçanes',
+'Cornudella de Montsant',
+'Darnius',
+'El Masroig',
+'El Molar',
+'Els Guiamets',
+'Falset',
+'Garcia',
+'La Bisbal de Falset',
+'La Figuera',
+'La Torre de Fontaubella',
+'Margalef',
+'Marçà',
+'Pradell de la Teixeta',
+'Ulldemolins'
+)
+
+-- ============================================================
+-- DO Penedes (57 municipios)
+-- Fichero: Penedes.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Abrera',
+'Aiguamúrcia',
+'Albinyana',
+'Avinyonet del Penedès',
+'Banyeres del Penedès',
+'Begues',
+'Bellvei',
+'Bonastre',
+'Calafell',
+'Canyelles',
+'Castellet i la Gornal',
+'Castellví de Rosanes',
+'Castellví de la Marca',
+'Cervelló',
+'Corbera de Llobregat',
+'Cubelles',
+'Cunit',
+'El Pla del Penedès',
+'El Vendrell',
+'Els Hostalets de Pierola',
+'Font-rubí',
+'Gelida',
+'L''Arboç',
+'La Bisbal del Penedès',
+'La Granada',
+'La Llacuna',
+'Les Cabanyes',
+'Llorenç del Penedès',
+'Martorell',
+'Masquefa',
+'Mediona',
+'Olesa de Bonesvalls',
+'Olivella',
+'Olèrdola',
+'Pacs del Penedès',
+'Piera',
+'Pontons',
+'Puigdàlber',
+'Sant Cugat Sesgarrigues',
+'Sant Esteve Sesrovires',
+'Sant Martí Sarroca',
+'Sant Pere de Ribes',
+'Sant Pere de Riudebitlles',
+'Sant Quintí de Mediona',
+'Santa Fe del Penedès',
+'Santa Margarida i els Monjos',
+'Santa Maria de Miralles',
+'Santa Oliva',
+'Sitges',
+'Subirats',
+'Torrelavit',
+'Torrelles de Foix',
+'Vallirana',
+'Vilafranca del Penedès',
+'Vilanova i la Geltrú',
+'Vilobí del Penedès',
+'el Montmell'
+)
+
+-- ============================================================
+-- DO Pla de Bages (35 municipios)
+-- Fichero: Pla_de_Bages.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Aguilar de Segarra',
+'Artés',
+'Avinyó',
+'Balsareny',
+'Calders',
+'Callús',
+'Cardona',
+'Castellbell i el Vilar',
+'Castellfollit del Boix',
+'Castellgalí',
+'Castellnou de Bages',
+'El Pont de Vilomara i Rocafort',
+'Fonollosa',
+'Gaià',
+'L''Estany',
+'Manresa',
+'Marganell',
+'Moià',
+'Monistrol de Calders',
+'Monistrol de Montserrat',
+'Mura',
+'Navarcles',
+'Navàs',
+'Rajadell',
+'Sallent',
+'Sant Feliu Sasserra',
+'Sant Fruitós de Bages',
+'Sant Joan de Vilatorrada',
+'Sant Mateu de Bages',
+'Sant Salvador de Guardiola',
+'Sant Vicenç de Castellet',
+'Santa Maria d''Oló',
+'Santpedor',
+'Súria',
+'Talamanca'
+)
+
+-- ============================================================
+-- DO Tarragona (76 municipios)
+-- Fichero: Tarragona.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Alcover',
+'Alforja',
+'Alió',
+'Almoster',
+'Altafulla',
+'Ascó',
+'Benissanet',
+'Botarell',
+'Bràfim',
+'Cabra del Camp',
+'Cambrils',
+'Capafonts',
+'Castellvell del Camp',
+'Colldejou',
+'Constantí',
+'Duesaigües',
+'El Catllar',
+'El Milà',
+'El Perelló',
+'El Pla de Santa Maria',
+'El Pont d''Armentera',
+'El Rourell',
+'Els Garidells',
+'Els Pallaresos',
+'Figuerola del Camp',
+'Flix',
+'Garcia',
+'Ginestar',
+'L''Albiol',
+'L''Aleixar',
+'L''Argentera',
+'La Canonja',
+'La Febró',
+'La Nou de Gaià',
+'La Palma d''Ebre',
+'La Pobla de Mafumet',
+'La Pobla de Montornès',
+'La Riera de Gaià',
+'La Secuita',
+'La Selva del Camp',
+'La Torre de l''Espanyol',
+'Les Borges del Camp',
+'Masllorenç',
+'Maspujols',
+'Miravet',
+'Mont-roig del Camp',
+'Montbrió del Camp',
+'Montferri',
+'Nulles',
+'Perafort',
+'Prades',
+'Puigpelat',
+'Rasquera',
+'Renau',
+'Reus',
+'Riba-roja d''Ebre',
+'Riudecanyes',
+'Riudecols',
+'Riudoms',
+'Rodonyà',
+'Salomó',
+'Salou',
+'Tarragona',
+'Tivissa',
+'Torredembarra',
+'Vallmoll',
+'Valls',
+'Vespella de Gaià',
+'Vila-rodona',
+'Vila-seca',
+'Vilabella',
+'Vilallonga del Camp',
+'Vilanova d''Escornalbou',
+'Vinebre',
+'Vinyols i els Arcs',
+'la Masó'
+)
+
+-- ============================================================
+-- DO Terra Alta (12 municipios)
+-- Fichero: Terra_Alta.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Arnes',
+'Batea',
+'Bot',
+'Caseres',
+'Corbera d''Ebre',
+'El Pinell de Brai',
+'Gandesa',
+'Horta de Sant Joan',
+'La Fatarella',
+'La Pobla de Massaluca',
+'Prat de Comte',
+'Vilalba dels Arcs'
+)
+
+
+/* ============================================================
+   9. COMUNIDAD VALENCIANA
+   ============================================================ */
+
+-- ============================================================
+-- DO Alicante (71 municipios)
+-- Fichero: Alicante.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Agost',
+'Aigües',
+'Alcalalí',
+'Alcoi/Alcoy',
+'Algueña',
+'Altea',
+'Banyeres de Mariola',
+'Beneixama',
+'Beniarbeig',
+'Benidoleig',
+'Benidorm',
+'Benifallim',
+'Benifato',
+'Benigembla',
+'Benimantell',
+'Benimeli',
+'Benissa',
+'Biar',
+'Bolulla',
+'Busot',
+'Calp',
+'Castalla',
+'Castell de Castells',
+'Cañada',
+'Dénia',
+'Elda',
+'Finestrat',
+'Gata de Gorgos',
+'Hondón de los Frailes',
+'Ibi',
+'Llíber',
+'Murla',
+'Mutxamel',
+'Novelda',
+'Ondara',
+'Onil',
+'Orba',
+'Parcent',
+'Pedreguer',
+'Penàguila',
+'Petrer',
+'Polop',
+'Relleu',
+'Sagra',
+'Salinas',
+'Sanet y Negrals',
+'Sant Vicent del Raspeig/San Vicente del Raspeig',
+'Sax',
+'Sella',
+'Senija',
+'Teulada',
+'Tibi',
+'Tormos',
+'Tàrbena',
+'Villena',
+'Xaló',
+'Xixona/Jijona',
+'Xàbia/Jávea',
+'el Camp de Mirra/Campo de Mirra',
+'el Campello',
+'el Castell de Guadalest',
+'el Pinós/Pinoso',
+'el Poble Nou de Benitatxell/Benitachell',
+'el Verger',
+'els Poblets',
+'la Nucia',
+'la Romana',
+'la Torre de les Maçanes/Torremanzanas',
+'la Vall de Gallinera',
+'la Vall de Laguar',
+'la Vila Joiosa/Villajoyosa'
+)
+
+-- ============================================================
+-- DO Utiel-Requena (9 municipios)
+-- Fichero: Utiel-Requena.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Camporrobles',
+'Caudete de las Fuentes',
+'Fuenterrobles',
+'Requena',
+'Siete Aguas',
+'Sinarcas',
+'Utiel',
+'Venta del Moro',
+'Villargordo del Cabriel'
+)
+
+-- ============================================================
+-- DO Valencia (90 municipios)
+-- Fichero: Valencia.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Agullent',
+'Aielo de Malferit',
+'Aielo de Rugat',
+'Albaida',
+'Alborache',
+'Alcublas',
+'Alfarrasí',
+'Alpuente',
+'Andilla',
+'Anna',
+'Aras de los Olmos',
+'Atzeneta d''Albaida',
+'Ayora',
+'Barx',
+'Bellreguard',
+'Bellús',
+'Benagéber',
+'Beniatjar',
+'Benicolet',
+'Benigànim',
+'Benissoda',
+'Benissuera',
+'Bicorp',
+'Bocairent',
+'Bolbaite',
+'Bufali',
+'Bugarra',
+'Buñol',
+'Bèlgida',
+'Bétera',
+'Calles',
+'Carrícola',
+'Casinos',
+'Castelló de Rugat',
+'Catadau',
+'Chella',
+'Chelva',
+'Cheste',
+'Chiva',
+'Chulilla',
+'Domeño',
+'Enguera',
+'Estivella',
+'Fontanars dels Alforins',
+'Gestalgar',
+'Godella',
+'Godelleta',
+'Guadasséquies',
+'Guardamar de la Safor',
+'Higueruelas',
+'La Yesa',
+'Llombai',
+'Llutxent',
+'Llíria',
+'Losa del Obispo',
+'Macastre',
+'Moixent/Mogente',
+'Montaverner',
+'Montesa',
+'Montitxelvo/Montichelvo',
+'Montroi/Montroy',
+'Montserrat',
+'Nàquera/Náquera',
+'Ontinyent',
+'Otos',
+'Paterna',
+'Pedralba',
+'Picanya',
+'Pinet',
+'Quatretonda',
+'Real',
+'Riba-roja de Túria',
+'Rugat',
+'Salem',
+'Sempere',
+'Terrateig',
+'Titaguas',
+'Torrent',
+'Turís',
+'Tuéjar',
+'Vallada',
+'Vilamarxant',
+'Villar del Arzobispo',
+'Xàtiva',
+'Yátova',
+'el Palomar',
+'l''Olleria',
+'la Font de la Figuera',
+'la Llosa de Ranes',
+'la Pobla del Duc'
+)
+
+
+/* ============================================================
+   10. EXTREMADURA
+   ============================================================ */
+
+-- ============================================================
+-- DO Ribera del Guadiana (122 municipios)
+-- Fichero: Ribera_del_Guadiana.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Aceuchal',
+'Ahillones',
+'Alange',
+'Albalá',
+'Alcuéscar',
+'Aldeacentenera',
+'Aljucén',
+'Almendral',
+'Almendralejo',
+'Almoharín',
+'Alía',
+'Arroyo de San Serván',
+'Arroyomolinos',
+'Arroyomolinos de la Vera',
+'Azuaga',
+'Badajoz',
+'Benquerencia de la Serena',
+'Berlanga',
+'Berzocana',
+'Bienvenida',
+'Calamonte',
+'Calzadilla de los Barros',
+'Campanario',
+'Carrascalejo',
+'Casas de Don Antonio',
+'Castuera',
+'Cañamero',
+'Corte de Peleas',
+'Cristina',
+'Don Benito',
+'Don Álvaro',
+'Entrín Bajo',
+'Escurial',
+'Esparragalejo',
+'Esparragosa de la Serena',
+'Feria',
+'Fuente de Cantos',
+'Fuente del Maestre',
+'Garciaz',
+'Granja de Torrehermosa',
+'Guadalupe',
+'Guareña',
+'Higuera de Llerena',
+'Higuera de la Serena',
+'Hinojosa del Valle',
+'Hornachos',
+'Ibahernando',
+'La Albuera',
+'La Coronada',
+'La Cumbre',
+'La Garrovilla',
+'La Haba',
+'La Morera',
+'La Nava de Santiago',
+'La Parra',
+'La Roca de la Sierra',
+'Llera',
+'Llerena',
+'Lobón',
+'Los Santos de Maimona',
+'Madroñera',
+'Magacela',
+'Maguilla',
+'Malpartida de la Serena',
+'Manchita',
+'Medellín',
+'Medina de las Torres',
+'Mengabril',
+'Miajadas',
+'Mirandilla',
+'Monterrubio de la Serena',
+'Montijo',
+'Montánchez',
+'Mérida',
+'Navalvillar de Pela',
+'Nogales',
+'Oliva de Mérida',
+'Olivenza',
+'Palomas',
+'Puebla de Sancho Pérez',
+'Puebla de la Reina',
+'Puebla del Prior',
+'Puerto de Santa Cruz',
+'Quintana de la Serena',
+'Rena',
+'Ribera del Fresno',
+'Robledillo de Trujillo',
+'Salvatierra de Santiago',
+'Salvatierra de los Barros',
+'San Pedro de Mérida',
+'Santa Amalia',
+'Santa Cruz de la Sierra',
+'Santa Marta',
+'Santa Marta de Magasca',
+'Solana de los Barros',
+'Torre de Miguel Sesmero',
+'Torre de Santa María',
+'Torremayor',
+'Torremejía',
+'Trujillanos',
+'Trujillo',
+'Usagre',
+'Valdecaballeros',
+'Valdefuentes',
+'Valdemorales',
+'Valdetorres',
+'Valencia de las Torres',
+'Valencia del Ventoso',
+'Valle de la Serena',
+'Valverde de Leganés',
+'Valverde de Llerena',
+'Valverde de Mérida',
+'Villafranca de los Barros',
+'Villagonzalo',
+'Villalba de los Barros',
+'Villamesías',
+'Villanueva de la Serena',
+'Villar de Rena',
+'Villar del Rey',
+'Zafra',
+'Zalamea de la Serena',
+'Zarza de Montánchez'
+)
+
+
+/* ============================================================
+   11. GALICIA
+   ============================================================ */
+
+-- ============================================================
+-- DO Monterrei (8 municipios)
+-- Fichero: Monterrei.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Castrelo do Val',
+'Cualedro',
+'Laza',
+'Monterrei',
+'Oímbra',
+'Riós',
+'Verín',
+'Vilardevós'
+)
+
+-- ============================================================
+-- DO DO Rias Baixas (33 municipios)
+-- Fichero: Rias_Baixas.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'A Cañiza',
+'A Estrada',
+'A Illa de Arousa',
+'Arbo',
+'As Neves',
+'Barro',
+'Boqueixón',
+'Caldas de Reis',
+'Cambados',
+'Crecente',
+'Gondomar',
+'Meaño',
+'Meis',
+'Mos',
+'O Grove',
+'O Rosal',
+'Padrón',
+'Ponteareas',
+'Portas',
+'Ribadumia',
+'Salceda de Caselas',
+'Salvaterra de Miño',
+'Sanxenxo',
+'Silleda',
+'Soutomaior',
+'Teo',
+'Tomiño',
+'Touro',
+'Tui',
+'Vedra',
+'Vila de Cruces',
+'Vilagarcía de Arousa',
+'Vilanova de Arousa'
+)
+
+-- ============================================================
+-- DO DO Ribeiro (13 municipios)
+-- Fichero: Ribeiro.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Beade',
+'Boborás',
+'Carballeda de Avia',
+'Castrelo de Miño',
+'Cenlle',
+'Cortegada',
+'Leiro',
+'O Carballiño',
+'Ourense',
+'Punxín',
+'Ribadavia',
+'San Amaro',
+'Toén'
+)
+
+-- ============================================================
+-- DO Ribera Sacra (20 municipios)
+-- Fichero: Ribera_Sacra.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'A Peroxa',
+'A Pobra de Trives',
+'A Pobra do Brollón',
+'A Teixeira',
+'Carballedo',
+'Castro Caldelas',
+'Chantada',
+'Manzaneda',
+'Monforte de Lemos',
+'Nogueira de Ramuín',
+'O Saviñao',
+'Pantón',
+'Parada de Sil',
+'Paradela',
+'Portomarín',
+'Quiroga',
+'Ribas de Sil',
+'San Xoán de Río',
+'Sober',
+'Taboada'
+)
+
+-- ============================================================
+-- DO Valdeorras (8 municipios)
+-- Fichero: Valdeorras.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'A Rúa',
+'Carballeda de Valdeorras',
+'Larouco',
+'O Barco de Valdeorras',
+'O Bolo',
+'Petín',
+'Rubiá',
+'Vilamartín de Valdeorras'
+)
+
+
+/* ============================================================
+   12. COMUNIDAD DE MADRID
+   ============================================================ */
+
+-- ============================================================
+-- DO Vinos de Madrid (70 municipios)
+-- Fichero: Vinos_de_Madrid.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Alcalá de Henares',
+'Aldea del Fresno',
+'Ambite',
+'Aranjuez',
+'Arganda del Rey',
+'Arroyomolinos',
+'Batres',
+'Belmonte de Tajo',
+'Brunete',
+'Cadalso de los Vidrios',
+'Campo Real',
+'Carabaña',
+'Cenicientos',
+'Chapinería',
+'Chinchón',
+'Colmenar Viejo',
+'Colmenar de Oreja',
+'Colmenar del Arroyo',
+'El Molar',
+'El Vellón',
+'El Álamo',
+'Estremera',
+'Fuenlabrada',
+'Fuentidueña de Tajo',
+'Getafe',
+'Griñón',
+'Humanes de Madrid',
+'Loeches',
+'Mejorada del Campo',
+'Moraleja de Enmedio',
+'Morata de Tajuña',
+'Móstoles',
+'Navalcarnero',
+'Navas del Rey',
+'Nuevo Baztán',
+'Olmeda de las Fuentes',
+'Orusco de Tajuña',
+'Parla',
+'Patones',
+'Pedrezuela',
+'Pelayos de la Presa',
+'Perales de Tajuña',
+'Pezuela de las Torres',
+'Pozuelo del Rey',
+'Rozas de Puerto Real',
+'San Agustín del Guadalix',
+'San Martín de Valdeiglesias',
+'Serranillos del Valle',
+'Sevilla la Nueva',
+'Talamanca de Jarama',
+'Tielmes',
+'Titulcia',
+'Torrelaguna',
+'Torremocha de Jarama',
+'Torres de la Alameda',
+'Valdaracete',
+'Valdelaguna',
+'Valdemorillo',
+'Valdetorres de Jarama',
+'Valdilecha',
+'Venturada',
+'Villa del Prado',
+'Villaconejos',
+'Villamanrique de Tajo',
+'Villamanta',
+'Villamantilla',
+'Villanueva de la Cañada',
+'Villar del Olmo',
+'Villarejo de Salvanés',
+'Villaviciosa de Odón'
+)
+
+
+/* ============================================================
+   13. REGIÓN DE MURCIA
+   ============================================================ */
+
+-- ============================================================
+-- DO Bullas (8 municipios)
+-- Fichero: Bullas.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Bullas',
+'Calasparra',
+'Caravaca de la Cruz',
+'Cehegín',
+'Moratalla',
+'Mula',
+'Pliego',
+'Ricote'
+)
+
+-- ============================================================
+-- DO Jumilla (7 municipios)
+-- Fichero: Jumilla.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Albatana',
+'Fuente-Álamo',
+'Hellín',
+'Jumilla',
+'Montealegre del Castillo',
+'Ontur',
+'Tobarra'
+)
+
+-- ============================================================
+-- DO Yecla (1 municipios)
+-- Fichero: Yecla.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Yecla'
+)
+
+
+/* ============================================================
+   14. COMUNIDAD FORAL DE NAVARRA
+   ============================================================ */
+
+-- ============================================================
+-- DO Navarra (111 municipios)
+-- Fichero: Navarra.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Aberin',
+'Ablitas',
+'Adiós',
+'Aibar/Oibar',
+'Allo',
+'Arellano',
+'Arguedas',
+'Armañanzas',
+'Arróniz',
+'Artajona',
+'Artazu',
+'Azuelo',
+'Añorbe',
+'Barbarin',
+'Barillas',
+'Barásoain',
+'Beire',
+'Berbinzana',
+'Biurrun-Olcoz',
+'Cadreita',
+'Caparroso',
+'Carcastillo',
+'Cascante',
+'Castejón',
+'Cintruénigo',
+'Cirauqui/Zirauki',
+'Cizur',
+'Corella',
+'Cárcar',
+'Cáseda',
+'Desojo',
+'Dicastillo',
+'El Busto',
+'Enériz/Eneritz',
+'Eslava',
+'Espronceda',
+'Estella-Lizarra',
+'Etxauri',
+'Ezprogui',
+'Falces',
+'Fitero',
+'Funes',
+'Gallipienzo/Galipentzu',
+'Garínoain',
+'Guirguillano',
+'Igúzquiza',
+'Javier',
+'Lapoblación',
+'Larraga',
+'Lazagurría',
+'Leache/Leatxe',
+'Legarda',
+'Leoz/Leotz',
+'Lerga',
+'Lerín',
+'Liédena',
+'Lodosa',
+'Los Arcos',
+'Lumbier',
+'Luquin',
+'Lónguida/Longida',
+'Marcilla',
+'Mañeru',
+'Mendaza',
+'Mendigorría',
+'Metauten',
+'Milagro',
+'Mirafuentes',
+'Miranda de Arga',
+'Monteagudo',
+'Morentin',
+'Murchante',
+'Murieta',
+'Murillo el Cuende',
+'Murillo el Fruto',
+'Muruzábal',
+'Mélida',
+'Nazar',
+'Obanos',
+'Oco',
+'Olóriz/Oloritz',
+'Orísoain',
+'Oteiza',
+'Piedramillera',
+'Pitillas',
+'Puente la Reina/Gares',
+'Pueyo',
+'Romanzado',
+'Sada',
+'San Martín de Unx',
+'Sangüesa/Zangoza',
+'Sansol',
+'Santacara',
+'Sesma',
+'Sorlada',
+'Tafalla',
+'Tiebas-Muruarte de Reta',
+'Tirapu',
+'Torralba del Río',
+'Torres del Río',
+'Tudela',
+'Tulebras',
+'Ujué/Uxue',
+'Unzué/Untzue',
+'Uterga',
+'Valtierra',
+'Villafranca',
+'Villamayor de Monjardín',
+'Villatuerta',
+'Yesa',
+'Zabalza/Zabaltza'
+)
+
+
+/* ============================================================
+   15. PAÍS VASCO / EUSKADI
+   ============================================================ */
+
+-- ============================================================
+-- DO Chacolí (90 municipios)
+-- Fichero: Chacolí.gpkg
+-- ============================================================
+"NAMEUNIT" IN (
+'Abaltzisketa',
+'Aduna',
+'Aia',
+'Aizarnazabal',
+'Albiztur',
+'Alegia',
+'Alkiza',
+'Altzaga',
+'Altzo',
+'Amezketa',
+'Andoain',
+'Anoeta',
+'Antzuola',
+'Arama',
+'Aretxabaleta',
+'Arrasate/Mondragón',
+'Asteasu',
+'Astigarraga',
+'Ataun',
+'Azkoitia',
+'Azpeitia',
+'Baliarrain',
+'Beasain',
+'Beizama',
+'Belauntza',
+'Berastegi',
+'Bergara',
+'Berrobi',
+'Bidania-Goiatz',
+'Deba',
+'Donostia/San Sebastián',
+'Eibar',
+'Elduain',
+'Elgeta',
+'Elgoibar',
+'Errenteria',
+'Errezil',
+'Eskoriatza',
+'Ezkio-Itsaso',
+'Gabiria',
+'Gaintza',
+'Gaztelu',
+'Getaria',
+'Hernani',
+'Hernialde',
+'Hondarribia',
+'Ibarra',
+'Idiazabal',
+'Ikaztegieta',
+'Irun',
+'Irura',
+'Itsasondo',
+'Larraul',
+'Lasarte-Oria',
+'Lazkao',
+'Leaburu',
+'Legazpi',
+'Legorreta',
+'Leintz-Gatzaga',
+'Lezo',
+'Lizartza',
+'Mancomunidad de Amezketa y Ordizia',
+'Mendaro',
+'Mutiloa',
+'Mutriku',
+'Oiartzun',
+'Olaberria',
+'Ordizia',
+'Orendain',
+'Orexa',
+'Orio',
+'Ormaiztegi',
+'Oñati',
+'Parzonería general de Guipuzkoa y Araba/Álava',
+'Pasaia',
+'Segura',
+'Soraluze-Placencia de las Armas',
+'Tolosa',
+'Urnieta',
+'Urretxu',
+'Usurbil',
+'Villabona',
+'Zaldibia',
+'Zarautz',
+'Zegama',
+'Zerain',
+'Zestoa',
+'Zizurkil',
+'Zumaia',
+'Zumarraga'
+)
+
+-- ============================================================
+-- DO Txakoli de Alava (5 municipios)
+-- Fichero: Txakoli_de_Alava.gpkg
 -- ============================================================
 "NAMEUNIT" IN (
 'Amurrio',
@@ -478,33 +3120,122 @@
 )
 
 -- ============================================================
--- 9. DOP BIZKAIKO TXAKOLINA / TXAKOLI DE BIZKAIA (País Vasco)
--- ============================================================
-"CODNUT3" = 'ES213'
-
--- ============================================================
--- 10. DOP GRAN CANARIA (Islas Canarias)
+-- DO Txakoli de Bizkaia (113 municipios)
+-- Fichero: Txakoli_de_Bizkaia.gpkg
 -- ============================================================
 "NAMEUNIT" IN (
-'Agaete',
-'Agüimes',
-'Artenara',
-'Arucas',
-'Firgas',
-'Gáldar',
-'Ingenio',
-'La Aldea de San Nicolás',
-'Las Palmas de Gran Canaria',
-'Mogán',
-'Moya',
-'San Bartolomé de Tirajana',
-'Santa Brígida',
-'Santa Lucía de Tirajana',
-'Santa María de Guía de Gran Canaria',
-'Tejeda',
-'Telde',
-'Teror',
-'Valleseco',
-'Valsequillo de Gran Canaria',
-'Vega de San Mateo'
+'Abadiño',
+'Abanto y Ciérvana-Abanto Zierbena',
+'Ajangiz',
+'Alonsotegi',
+'Amorebieta-Etxano',
+'Amoroto',
+'Arakaldo',
+'Arantzazu',
+'Areatza',
+'Arrankudiaga-Zollo',
+'Arratzu',
+'Arrieta',
+'Arrigorriaga',
+'Artea',
+'Artzentales',
+'Atxondo',
+'Aulesti',
+'Bakio',
+'Balmaseda',
+'Barakaldo',
+'Barrika',
+'Basauri',
+'Bedia',
+'Berango',
+'Bermeo',
+'Berriatua',
+'Berriz',
+'Bilbao',
+'Busturia',
+'Derio',
+'Dima',
+'Durango',
+'Ea',
+'Elantxobe',
+'Elorrio',
+'Erandio',
+'Ereño',
+'Ermua',
+'Errigoiti',
+'Etxebarri',
+'Etxebarria',
+'Forua',
+'Fruiz',
+'Galdakao',
+'Galdames',
+'Gamiz-Fika',
+'Garai',
+'Gatika',
+'Gautegiz Arteaga',
+'Gernika-Lumo',
+'Getxo',
+'Gizaburuaga',
+'Gordexola',
+'Gorliz',
+'Güeñes',
+'Ibarrangelu',
+'Igorre',
+'Ispaster',
+'Iurreta',
+'Izurtza',
+'Karrantza Harana/Valle de Carranza',
+'Kortezubi',
+'Lanestosa',
+'Larrabetzu',
+'Laukiz',
+'Leioa',
+'Lekeitio',
+'Lemoa',
+'Lemoiz',
+'Lezama',
+'Loiu',
+'Mallabia',
+'Markina-Xemein',
+'Maruri-Jatabe',
+'Mañaria',
+'Mendata',
+'Mendexa',
+'Meñaka',
+'Morga',
+'Mundaka',
+'Mungia',
+'Munitibar-Arbatzegi Gerrikaitz',
+'Murueta',
+'Muskiz',
+'Muxika',
+'Nabarniz',
+'Ondarroa',
+'Orozko',
+'Ortuella',
+'Otxandio',
+'Plentzia',
+'Portugalete',
+'Santurtzi',
+'Sestao',
+'Sondika',
+'Sopela',
+'Sopuerta',
+'Sukarrieta',
+'Trucios-Turtzioz',
+'Ubide',
+'Ugao-Miraballes',
+'Urduliz',
+'Urduña/Orduña',
+'Usansolo',
+'Valle de Trápaga-Trapagaran',
+'Zaldibar',
+'Zalla',
+'Zamudio',
+'Zaratamo',
+'Zeanuri',
+'Zeberio',
+'Zierbena',
+'Ziortza-Bolibar'
 )
+

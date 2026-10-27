@@ -7,11 +7,12 @@ Estado cartográfico y documental de todas las Denominaciones de Origen Protegid
 ## Resumen de Estado
 
 - **Total Pliegos Oficiales en Repositorio (`DOWNs/DOCs/SPAIN/`):** 75
-- **Capas GeoPackage Generadas (`QGIS/SPAIN/`):** **84 capas** (100% de DOs/DOCas de España completadas)
+- **Capas GeoPackage Generadas (`QGIS/SPAIN/`):** **112 capas** (100% de DOs, DOCas, Vinos de Calidad y Vinos de Pago de España)
+- **Capas en Proyecto QGIS (`QGIS/wine_world_wine.qgz`):** **128 capas** organizadas por comunidades y categorías
 - **Fuentes Cartográficas Base:**
   - Península y Baleares: Instituto Geográfico Nacional (IGN) - `recintos_municipales_inspire_peninbal_etrs89` (ETRS89 / EPSG:4258).
   - Canarias: IGN - `recintos_municipales_inspire_canarias_regcan95` (REGCAN95 / EPSG:4081).
-- **Publicación Web Interactiva:** [Atlas.co Project](https://app.atlas.co/projects/iRfhgtNFAbVm6zHZL3bN?loc=-2.7334%2C39.9785%2C6.0441z)
+- **Publicación Web Interactiva:** [World Wine Wide Viewer](https://jreyes13.github.io/wine_world_wide/) | [Atlas.co Project](https://app.atlas.co/projects/iRfhgtNFAbVm6zHZL3bN?loc=-2.7334%2C39.9785%2C6.0441z)
 
 ---
 
@@ -201,3 +202,47 @@ Estado cartográfico y documental de todas las Denominaciones de Origen Protegid
 | **Rioja Alta** | *(Ídem)* | `Rioja_Alta.gpkg` | 76 | La Rioja occidental y Miranda de Ebro (Burgos) |
 | **Rioja Oriental** | *(Ídem)* | `Rioja_Oriental.gpkg` | 47 | La Rioja baja y Ribera Navarra |
 | **Rioja Alavesa** | *(Ídem)* | `Rioja_Alavesa.gpkg` | 15 | Cuadrilla de Laguardia-Rioja Alavesa (Álava) |
+
+---
+
+## 17. Vinos de Calidad con Indicación Geográfica (VC)
+
+| Vino de Calidad (VC) | Comunidad Autónoma | Capa GPKG | Municipios | Notas territoriales |
+| :--- | :--- | :--- | :--- | :--- |
+| **Vino de Calidad de Lebrija** | Andalucía | `Andalucía/Lebrija.gpkg` | 1 | Término municipal de Lebrija (Sevilla) |
+| **Vino de Calidad de Sierra de Salamanca** | Castilla y León | `CyL/Sierra_de_Salamanca.gpkg` | 26 | 26 municipios en la Sierra de Francia / Salamanca |
+| **Vino de Calidad de Valtiendas** | Castilla y León | `CyL/Valtiendas.gpkg` | 16 | 16 municipios en el norte de Segovia |
+| **Vino de Calidad de Valles de Benavente** | Castilla y León | `CyL/Valles_de_Benavente.gpkg` | 62 | 62 municipios de los valles del Esla, Tera y Órbigo (Zamora) |
+
+---
+
+## 18. Vinos de Pago (VP / DOP)
+
+| Vino de Pago (DOP) | Comunidad Autónoma | Capa GPKG | Municipio Anfitrión | Finca / Paraje |
+| :--- | :--- | :--- | :--- | :--- |
+| **Dominio de Valdepusa** | Castilla-La Mancha | `Vinos_de_Pago/Dominio_de_Valdepusa.gpkg` | Malpica de Tajo (Toledo) | Finca Valdepusa |
+| **Finca Élez** | Castilla-La Mancha | `Vinos_de_Pago/Finca_Elez.gpkg` | El Bonillo (Albacete) | Sierra de Alcaraz |
+| **Pago Guijoso** | Castilla-La Mancha | `Vinos_de_Pago/Pago_Guijoso.gpkg` | El Bonillo (Albacete) | Finca Campo Guijoso |
+| **Dehesa del Carrizal** | Castilla-La Mancha | `Vinos_de_Pago/Dehesa_del_Carrizal.gpkg` | Retuerta del Bullaque (Ciudad Real) | Montes de Toledo / Cabañeros |
+| **Campo de la Guardia** | Castilla-La Mancha | `Vinos_de_Pago/Campo_de_la_Guardia.gpkg` | La Guardia (Toledo) | Paraje Campo de la Guardia |
+| **Pago Florentino** | Castilla-La Mancha | `Vinos_de_Pago/Pago_Florentino.gpkg` | Malagón (Ciudad Real) | Finca La Solana |
+| **Casa del Blanco** | Castilla-La Mancha | `Vinos_de_Pago/Casa_del_Blanco.gpkg` | Manzanares (Ciudad Real) | Finca Casa del Blanco |
+| **Pago Calzadilla** | Castilla-La Mancha | `Vinos_de_Pago/Pago_Calzadilla.gpkg` | Huete (Cuenca) | Valle del río Mayor |
+| **Pago de la Jaraba** | Castilla-La Mancha | `Vinos_de_Pago/Pago_de_la_Jaraba.gpkg` | Villarrobledo (Albacete) | Paraje de La Jaraba |
+| **Vallegarcía** | Castilla-La Mancha | `Vinos_de_Pago/Vallegarcia.gpkg` | Retuerta del Bullaque (Ciudad Real) | Montes de Toledo |
+| **Rosalejo** | Castilla-La Mancha | `Vinos_de_Pago/Rosalejo.gpkg` | Oropesa (Toledo) | Finca Rosalejo |
+| **Río Negro** | Castilla-La Mancha | `Vinos_de_Pago/Rio_Negro.gpkg` | Cogolludo (Guadalajara) | Sierra Norte de Guadalajara |
+| **El Terrerazo** | Com. Valenciana | `Vinos_de_Pago/El_Terrerazo.gpkg` | Utiel (Valencia) | Finca El Terrerazo |
+| **Los Balagueses** | Com. Valenciana | `Vinos_de_Pago/Los_Balagueses.gpkg` | Requena (Valencia) | Finca Los Balagueses |
+| **Chozas Carrascal** | Com. Valenciana | `Vinos_de_Pago/Chozas_Carrascal.gpkg` | Requena (Valencia) | Finca Chozas Carrascal |
+| **Pago Vera de Estenas** | Com. Valenciana | `Vinos_de_Pago/Pago_Vera_de_Estenas.gpkg` | Utiel (Valencia) | Finca Vera de Estenas |
+| **Pago de Tharsys** | Com. Valenciana | `Vinos_de_Pago/Pago_de_Tharsys.gpkg` | Requena (Valencia) | Finca Tharsys |
+| **Pago de Arínzano** | Navarra | `Vinos_de_Pago/Pago_de_Arinzano.gpkg` | Aberin (Navarra) | Señorío de Arínzano |
+| **Prado de Irache** | Navarra | `Vinos_de_Pago/Prado_de_Irache.gpkg` | Ayegui/Aiegi (Navarra) | Monasterio de Irache |
+| **Pago de Otazu** | Navarra | `Vinos_de_Pago/Pago_de_Otazu.gpkg` | Etxauri (Navarra) | Señorío de Otazu |
+| **Pago Aylés** | Aragón | `Vinos_de_Pago/Pago_Ayles.gpkg` | Mezalocha (Zaragoza) | Finca Aylés |
+| **Pago Urbezo** | Aragón | `Aragón/Urbezo.gpkg` | Cariñena (Zaragoza) | Paraje Monte Urbezo |
+| **Abadía Retuerta** | Castilla y León | `Vinos_de_Pago/Abadia_Retuerta.gpkg` | Sardón de Duero (Valladolid) | Monasterio de Retuerta |
+| **Heredad de Urueña** | Castilla y León | `Vinos_de_Pago/Heredad_de_Uruena.gpkg` | Urueña (Valladolid) | Finca Heredad de Urueña |
+| **Dehesa Peñalba** | Castilla y León | `Vinos_de_Pago/Dehesa_Penalba.gpkg` | Villabáñez (Valladolid) | Valle del río Duero |
+

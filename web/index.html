@@ -26,6 +26,19 @@
         </div>
       </div>
       <div class="nav-actions">
+        <!-- Selector de Mapa de Referencia (Basemap) -->
+        <div class="basemap-selector-wrap">
+          <span class="basemap-label" id="lbl-basemap" title="Mapa de referencia">🗺️</span>
+          <select id="basemap-select" class="basemap-select" title="Cambiar mapa de referencia">
+            <option value="voyager" id="bm-voyager-opt">Voyager (Color)</option>
+            <option value="positron" id="bm-positron-opt">Claro (Positron)</option>
+            <option value="dark" id="bm-dark-opt">Oscuro (Dark Matter)</option>
+            <option value="satellite" id="bm-satellite-opt">Satélite (ESRI)</option>
+            <option value="topo" id="bm-topo-opt">Topográfico (Relieve)</option>
+            <option value="osm" id="bm-osm-opt">OpenStreetMap</option>
+          </select>
+        </div>
+
         <button class="lang-btn active" data-lang="es">ES</button>
         <button class="lang-btn" data-lang="en">EN</button>
         <a href="https://app.atlas.co/projects/iRfhgtNFAbVm6zHZL3bN?loc=-2.7334%2C39.9785%2C6.0441z" target="_blank" rel="noopener noreferrer" class="btn-link btn-atlas">
@@ -55,10 +68,10 @@
           <div class="filters-row">
             <select id="category-filter" class="filter-select">
               <option value="" id="cat-all-opt">Todas las Categorías</option>
-              <option value="DOCa">DOCa</option>
-              <option value="DO">DO</option>
-              <option value="Vino de Pago">Vino de Pago</option>
-              <option value="VC">Vino de Calidad</option>
+              <option value="DOCa" id="cat-doca-opt">DOCa</option>
+              <option value="DO" id="cat-do-opt">DO</option>
+              <option value="Vino de Pago" id="cat-vp-opt">Vino de Pago (VP)</option>
+              <option value="Vino de Calidad" id="cat-vc-opt">Vino de Calidad (VC)</option>
             </select>
             <select id="region-filter" class="filter-select">
               <option value="" id="reg-all-opt">Todas las Comunidades</option>
