@@ -135,6 +135,7 @@ map.addControl(new maplibregl.NavigationControl(), 'bottom-right');
 
 function setupWineLayers() {
   if (!allFeatures || allFeatures.length === 0) return;
+  if (!map.isStyleLoaded()) return;
 
   if (!map.getSource('wine-regions')) {
     map.addSource('wine-regions', {
@@ -185,18 +186,50 @@ function setupWineLayers() {
     });
   }
 
+  // Bind layer interaction events
+  bindMapInteractions();
+
   // Re-apply filter
-  if (filteredFeatures && filteredFeatures.length < allFeatures.length) {
+  if (map.getLayer('wine-regions-fill') && map.getLayer('wine-regions-line')) {
     const ids = filteredFeatures.map(f => f.properties.id);
     map.setFilter('wine-regions-fill', ['in', 'id', ...ids]);
     map.setFilter('wine-regions-line', ['in', 'id', ...ids]);
   }
 }
 
-// React to basemap style changes
-map.on('style.load', () => {
-  setupWineLayers();
-});
+function bindMapInteractions() {
+  map.off('click', 'wine-regions-fill', onRegionClick);
+  map.off('mouseenter', 'wine-regions-fill', onRegionEnter);
+  map.off('mouseleave', 'wine-regions-fill', onRegionLeave);
+
+  map.on('click', 'wine-regions-fill', onRegionClick);
+  map.on('mouseenter', 'wine-regions-fill', onRegionEnter);
+  map.on('mouseleave', 'wine-regions-fill', onRegionLeave);
+}
+
+function onRegionClick(e) {
+  if (e.features && e.features.length > 0) {
+    selectDO(e.features[0].properties);
+  }
+}
+
+function onRegionEnter() {
+  map.getCanvas().style.cursor = 'pointer';
+}
+
+function onRegionLeave() {
+  map.getCanvas().style.cursor = '';
+}
+
+// React to basemap style changes reliably with styledata & idle
+function checkAndRestoreLayers() {
+  if (map.isStyleLoaded() && allFeatures.length > 0 && !map.getLayer('wine-regions-fill')) {
+    setupWineLayers();
+  }
+}
+
+map.on('styledata', checkAndRestoreLayers);
+map.on('idle', checkAndRestoreLayers);
 
 // Load Data
 map.on('load', async () => {
@@ -216,21 +249,6 @@ map.on('load', async () => {
     // Populate region select options
     populateRegionFilter();
     renderRegionsList();
-
-    // Map interactions
-    map.on('click', 'wine-regions-fill', (e) => {
-      if (e.features.length > 0) {
-        selectDO(e.features[0].properties);
-      }
-    });
-
-    map.on('mouseenter', 'wine-regions-fill', () => {
-      map.getCanvas().style.cursor = 'pointer';
-    });
-
-    map.on('mouseleave', 'wine-regions-fill', () => {
-      map.getCanvas().style.cursor = '';
-    });
 
   } catch (err) {
     console.error("Error loading GeoJSON:", err);
@@ -321,7 +339,7 @@ function selectDO(props) {
   document.getElementById('detail-badge').textContent = props.category;
   document.getElementById('detail-badge').style.backgroundColor = props.color;
   document.getElementById('detail-title').textContent = props.name;
-  document.getElementById('detail-region').textContent = props.region;
+  document.getElementById('detail-region').innerHTML = '<span style="font-size: 1.05rem;">📍</span> ' + props.region;
 
   document.getElementById('detail-munis').textContent = `${props.munis_count} ${t.munis}`;
   document.getElementById('detail-grapes-red').textContent = props.grapes_red || t.na;
@@ -430,6 +448,10 @@ function setLanguage(lang) {
   }
   updateMunisToggleLabel();
   renderMunisChips(currentMunisList);
+
+  if (selectedFeature) {
+    document.getElementById('detail-region').innerHTML = '<span style="font-size: 1.05rem;">📍</span> ' + selectedFeature.region;
+  }
 
   const basemapSelect = document.getElementById('basemap-select');
   if (basemapSelect) {

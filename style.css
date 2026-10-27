@@ -173,7 +173,7 @@ body, html {
   top: 1rem;
   left: 1rem;
   bottom: 1rem;
-  width: 380px;
+  width: 410px;
   background: var(--panel-bg);
   border: 1px solid var(--panel-border);
   border-radius: 12px;
@@ -304,14 +304,17 @@ body, html {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  width: 360px;
+  width: 440px;
+  max-width: calc(100vw - 2rem);
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
   background: var(--panel-bg);
   border: 1px solid var(--panel-border);
-  border-radius: 12px;
-  backdrop-filter: blur(12px);
+  border-radius: 14px;
+  backdrop-filter: blur(14px);
   z-index: 500;
   box-shadow: var(--shadow-lg);
-  padding: 1.25rem;
+  padding: 1.5rem;
   display: none;
 }
 
@@ -325,9 +328,14 @@ body, html {
   right: 0.75rem;
   background: none;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--text-muted);
   cursor: pointer;
+  transition: color 0.15s;
+}
+
+.detail-close:hover {
+  color: var(--primary);
 }
 
 .detail-header {
@@ -336,24 +344,31 @@ body, html {
 
 .detail-badge {
   display: inline-block;
-  padding: 0.2rem 0.5rem;
+  padding: 0.25rem 0.6rem;
   border-radius: 4px;
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   font-weight: 700;
   color: white;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.45rem;
+  letter-spacing: 0.5px;
 }
 
 .detail-title {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 800;
   color: var(--primary);
+  line-height: 1.25;
 }
 
 .detail-region {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  font-weight: 500;
+  font-size: 0.95rem;
+  color: #334155;
+  font-weight: 700;
+  margin-top: 0.35rem;
+  line-height: 1.35;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
 }
 
 .detail-body {
