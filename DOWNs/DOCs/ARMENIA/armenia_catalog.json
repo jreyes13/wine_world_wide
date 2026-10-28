@@ -1,0 +1,155 @@
+[
+  {
+    "id": "am-pdo-vayots-dzor",
+    "name": "Vayots Dzor",
+    "layer": "Vayots Dzor PDO",
+    "country": "Armenia",
+    "country_code": "AM",
+    "adm0_a3": "ARM",
+    "region": "Vayots Dzor",
+    "category": "PDO / GI",
+    "pdo_code": "GI Vayots Dzor (VWFA / Ministry of Economy)",
+    "decree": "Law of the Republic of Armenia on Viticulture and Winemaking (HO-199-N)",
+    "color": "#8B0000",
+    "whites": [
+      "Voskehat",
+      "Khatun Kharji"
+    ],
+    "reds": [
+      "Areni Noir (Sev Areni)",
+      "Tozot"
+    ],
+    "desc": "La cuna arqueológica mundial del vino. Alberga el complejo de cuevas de Areni-1, donde se descubrió la bodega completa más antigua de la humanidad con 6.100 años de antigüedad (prensa de uva, tinajas de fermentación karas y copas). Viñedos de montaña situados entre 1.200 y 1.800 metros sobre cañones calizos y toba volcánica, feudo indiscutible de la noble uva autóctona Areni Noir.",
+    "units": [
+      "Vayots Dzor"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ARMENIA/Vayots_Dzor.pdf",
+    "gpkg_rel": "QGIS/ARMENIA/Vayots_Dzor.gpkg"
+  },
+  {
+    "id": "am-pdo-aragatsotn",
+    "name": "Aragatsotn",
+    "layer": "Aragatsotn PDO",
+    "country": "Armenia",
+    "country_code": "AM",
+    "adm0_a3": "ARM",
+    "region": "Aragatsotn",
+    "category": "PDO / GI",
+    "pdo_code": "GI Aragatsotn (VWFA)",
+    "decree": "Law of the Republic of Armenia on Viticulture and Winemaking",
+    "color": "#D4AF37",
+    "whites": [
+      "Voskehat (\"Gota Dorada\")",
+      "Kangun",
+      "Chilar"
+    ],
+    "reds": [
+      "Areni Noir",
+      "Haghtanak",
+      "Kakhet"
+    ],
+    "desc": "Laderas meridionales y occidentales del monte Aragats (el pico más alto de Armenia con 4.090 m). Suelos volcánicos pedregosos basálticos y calcáreos en Oshakan, Voskevaz y Sasunik. Patria por excelencia de la reina blanca armenia Voskehat (\"Gota Dorada\"), uva milenaria aromática y estructurada, y de potentes tintos de Haghtanak.",
+    "units": [
+      "Aragatsotn",
+      "Shirak"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ARMENIA/Aragatsotn.pdf",
+    "gpkg_rel": "QGIS/ARMENIA/Aragatsotn.gpkg"
+  },
+  {
+    "id": "am-pdo-armavir",
+    "name": "Armavir",
+    "layer": "Armavir PDO",
+    "country": "Armenia",
+    "country_code": "AM",
+    "adm0_a3": "ARM",
+    "region": "Armavir",
+    "category": "PDO / GI",
+    "pdo_code": "GI Armavir (VWFA)",
+    "decree": "Law of the Republic of Armenia on Viticulture and Winemaking",
+    "color": "#4682B4",
+    "whites": [
+      "Kangun",
+      "Voskehat",
+      "Chardonnay",
+      "Viognier"
+    ],
+    "reds": [
+      "Areni Noir",
+      "Sireni (Khndoghni)",
+      "Cabernet Franc",
+      "Montepulciano",
+      "Malbec"
+    ],
+    "desc": "Ubicada en la meseta del valle de Ararat junto a la histórica capital de Sardarapat. Suelos de toba volcánica rica en minerales y arenas aluviales. Epicentro del renacimiento vinícola armenio moderno de alta tecnología (Bodega Karas fundada por la familia Eurnekian con asesoramiento de Michel Rolland) con vinos frescos, minerales y de clase mundial.",
+    "units": [
+      "Armavir"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ARMENIA/Armavir.pdf",
+    "gpkg_rel": "QGIS/ARMENIA/Armavir.gpkg"
+  },
+  {
+    "id": "am-pdo-ararat",
+    "name": "Ararat",
+    "layer": "Ararat PDO",
+    "country": "Armenia",
+    "country_code": "AM",
+    "adm0_a3": "ARM",
+    "region": "Ararat Plain",
+    "category": "PDO / GI",
+    "pdo_code": "GI Ararat (VWFA)",
+    "decree": "Law of the Republic of Armenia on Viticulture and Winemaking",
+    "color": "#C5A059",
+    "whites": [
+      "Kangun",
+      "Rkatsiteli",
+      "Garan Dmak",
+      "Mskhali"
+    ],
+    "reds": [
+      "Areni",
+      "Kakhet",
+      "Haghtanak",
+      "Tigrani"
+    ],
+    "desc": "El legendario valle bajo la silueta sagrada del bíblico monte Ararat, donde según el Génesis Noé plantó la primera vid tras el Diluvio Universal. Clima continental extremo de intensa insolación solar. Cuna histórica del afamado brandy armenio tradicional envejecido en roble del Cáucaso y de vinos tintos y blancos de rica extracción frutal.",
+    "units": [
+      "Ararat",
+      "Erevan",
+      "Kotayk"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ARMENIA/Ararat.pdf",
+    "gpkg_rel": "QGIS/ARMENIA/Ararat.gpkg"
+  },
+  {
+    "id": "am-pdo-tavush",
+    "name": "Tavush",
+    "layer": "Tavush PDO",
+    "country": "Armenia",
+    "country_code": "AM",
+    "adm0_a3": "ARM",
+    "region": "Tavush / Lori",
+    "category": "PDO / GI",
+    "pdo_code": "GI Tavush (VWFA)",
+    "decree": "Law of the Republic of Armenia on Viticulture and Winemaking",
+    "color": "#2E8B57",
+    "whites": [
+      "Lalvari",
+      "Banants",
+      "Voskehat"
+    ],
+    "reds": [
+      "Areni Noir",
+      "Haghtanak"
+    ],
+    "desc": "El noreste montañoso y boscoso de Armenia en torno a Ijevan, protegido por gargantas y valles verdes con mayor humedad y temperaturas suaves. Destaca por sus vinos blancos vibrantes y frescos elaborados a partir de las uvas autóctonas Lalvari y Banants, así como excelentes vinos espumosos.",
+    "units": [
+      "Tavush",
+      "Lori",
+      "Gegharkunik",
+      "Syunik"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ARMENIA/Tavush.pdf",
+    "gpkg_rel": "QGIS/ARMENIA/Tavush.gpkg"
+  }
+]

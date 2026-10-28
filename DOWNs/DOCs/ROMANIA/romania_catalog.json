@@ -1,0 +1,279 @@
+[
+  {
+    "id": "ro-doc-dealurile-moldovei",
+    "name": "Dealurile Moldovei",
+    "layer": "Dealurile Moldovei DOC",
+    "country": "Rumanía",
+    "country_code": "RO",
+    "adm0_a3": "ROU",
+    "region": "Dealurile Moldovei",
+    "category": "DOC / PDO",
+    "pdo_code": "PDO-RO-A1070 (Cotnari, Panciu, Odobești, Huși, Bohotin)",
+    "decree": "Ordinul MADR nr. 225/2006 / ONVPV Registrul Denumirilor de Origine",
+    "color": "#C5A059",
+    "whites": [
+      "Grasă de Cotnari",
+      "Fetească Albă",
+      "Frâncușă",
+      "Tămâioasă Românească",
+      "Șarbă"
+    ],
+    "reds": [
+      "Fetească Neagră",
+      "Busuioacă de Bohotin",
+      "Băbească Neagră"
+    ],
+    "desc": "La mayor región vinícola de Rumanía, extendida sobre las colinas subcarpáticas orientales de Moldavia. Incluye apelaciones ilustres como Cotnari (célebre desde tiempos de Esteban el Grande por sus vinos botritizados de Grasă de Cotnari), Panciu (capital del espumoso rumano), Odobești y Huși, así como el enclave aromático rosado de Busuioacă de Bohotin.",
+    "units": [
+      "Iasi",
+      "Vaslui",
+      "Vrancea",
+      "Galati",
+      "Bacau",
+      "Neamt",
+      "Botosani",
+      "Suceava"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ROMANIA/Dealurile_Moldovei.pdf",
+    "gpkg_rel": "QGIS/ROMANIA/Dealurile_Moldovei.gpkg"
+  },
+  {
+    "id": "ro-doc-muntenia-oltenia",
+    "name": "Dealurile Munteniei și Olteniei",
+    "layer": "Muntenia și Oltenia DOC",
+    "country": "Rumanía",
+    "country_code": "RO",
+    "adm0_a3": "ROU",
+    "region": "Dealurile Munteniei și Olteniei",
+    "category": "DOC / PDO",
+    "pdo_code": "PDO-RO-A1071 (Dealu Mare, Drăgășani, Ștefănești, Sâmburești)",
+    "decree": "Ordinul MADR nr. 225/2006 / Caiet de Sarcini Dealu Mare & Drăgășani",
+    "color": "#8B0000",
+    "whites": [
+      "Crâmpoșie Selecționată",
+      "Tămâioasă Românească",
+      "Fetească Albă",
+      "Chardonnay"
+    ],
+    "reds": [
+      "Fetească Neagră",
+      "Negru de Drăgășani",
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Syrah"
+    ],
+    "desc": "El corazón noble del vino tinto en Rumanía. Alberga Dealu Mare (\"la patria del tinto rumano\" a lo largo de las colinas meridionales de Prahova y Buzău, sobre arcillas rojas y margas con extraordinaria exposición sur), Drăgășani (cuna de la fresca Crâmpoșie y del autóctono Negru de Drăgășani junto al río Olt) y los históricos terruños principescos de Sâmburești y Ștefănești.",
+    "units": [
+      "Prahova",
+      "Buzau",
+      "Arges",
+      "Dâmbovita",
+      "Vâlcea",
+      "Gorj",
+      "Mehedinti"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ROMANIA/Dealurile_Munteniei_si_Olteniei.pdf",
+    "gpkg_rel": "QGIS/ROMANIA/Dealurile_Munteniei_si_Olteniei.gpkg"
+  },
+  {
+    "id": "ro-doc-podisul-transilvaniei",
+    "name": "Podișul Transilvaniei",
+    "layer": "Podișul Transilvaniei DOC",
+    "country": "Rumanía",
+    "country_code": "RO",
+    "adm0_a3": "ROU",
+    "region": "Podișul Transilvaniei",
+    "category": "DOC / PDO",
+    "pdo_code": "PDO-RO-A1072 (Târnave, Jidvei, Alba Iulia, Sebeș-Apold, Lechința)",
+    "decree": "Ordinul MADR nr. 225/2006 / Caiet de Sarcini Târnave",
+    "color": "#4682B4",
+    "whites": [
+      "Fetească Regală",
+      "Fetească Albă",
+      "Sauvignon Blanc",
+      "Traminer Roz",
+      "Pinot Gris",
+      "Neuburger"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "desc": "La meseta elevada de Transilvania, rodeada por el arco de los Cárpatos. Cuna indiscutible de vinos blancos aromáticos, elegantes y de vibrante acidez mineral. Destaca la apelación Târnave (Jidvei, donde nació en 1928 la afamada Fetească Regală), Alba Iulia y Lechința, beneficiadas por densas nieblas otoñales lacustres y noches alpinas frescas.",
+    "units": [
+      "Alba",
+      "Sibiu",
+      "Mures",
+      "Cluj",
+      "Bistrita-Nasaud",
+      "Brasov",
+      "Covasna",
+      "Harghita"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ROMANIA/Podisul_Transilvaniei.pdf",
+    "gpkg_rel": "QGIS/ROMANIA/Podisul_Transilvaniei.gpkg"
+  },
+  {
+    "id": "ro-doc-colinele-dobrogei",
+    "name": "Colinele Dobrogei",
+    "layer": "Colinele Dobrogei DOC",
+    "country": "Rumanía",
+    "country_code": "RO",
+    "adm0_a3": "ROU",
+    "region": "Colinele Dobrogei",
+    "category": "DOC / PDO",
+    "pdo_code": "PDO-RO-A1073 (Murfatlar, Babadag, Sarica Niculițel)",
+    "decree": "Ordinul MADR nr. 225/2006 / Caiet de Sarcini Murfatlar",
+    "color": "#20B2AA",
+    "whites": [
+      "Chardonnay",
+      "Pinot Gris",
+      "Sauvignon Blanc",
+      "Muscat Ottonel"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Cabernet Sauvignon",
+      "Fetească Neagră",
+      "Merlot"
+    ],
+    "desc": "Región marítima privilegiada entre el bajo Danubio y el Mar Negro. La alta insolación solar y la brisa marina moderadora de Murfatlar crean condiciones perfectas para uvas sobre suelo de loess calcáreo, generando vinos blancos licorosos y tintos maduros de gran concentración.",
+    "units": [
+      "Constanta",
+      "Tulcea"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ROMANIA/Colinele_Dobrogei.pdf",
+    "gpkg_rel": "QGIS/ROMANIA/Colinele_Dobrogei.gpkg"
+  },
+  {
+    "id": "ro-doc-dealurile-banatului",
+    "name": "Dealurile Banatului",
+    "layer": "Dealurile Banatului DOC",
+    "country": "Rumanía",
+    "country_code": "RO",
+    "adm0_a3": "ROU",
+    "region": "Dealurile Banatului",
+    "category": "DOC / PDO",
+    "pdo_code": "PDO-RO-A1074 (Recaș, Silagiu, Moldova Nouă, Tirol)",
+    "decree": "Ordinul MADR nr. 225/2006 / Caiet de Sarcini Recaș",
+    "color": "#800020",
+    "whites": [
+      "Sauvignon Blanc",
+      "Chardonnay",
+      "Fetească Regală"
+    ],
+    "reds": [
+      "Fetească Neagră",
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Syrah",
+      "Cadarcă"
+    ],
+    "desc": "Las colinas del Banato occidental en la frontera con Serbia y Hungría. Su epicentro en Cramele Recaș y Silagiu aúna influencias mediterráneas y continentales moderadas, con suelos de arcilla rica en óxidos de hierro que aportan taninos carnosos a los tintos y gran fruta a los blancos.",
+    "units": [
+      "Timis",
+      "Caras-Severin",
+      "Hunedoara"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ROMANIA/Dealurile_Banatului.pdf",
+    "gpkg_rel": "QGIS/ROMANIA/Dealurile_Banatului.gpkg"
+  },
+  {
+    "id": "ro-doc-crisana-maramures",
+    "name": "Dealurile Crișanei și Maramureșului",
+    "layer": "Crișana și Maramureș DOC",
+    "country": "Rumanía",
+    "country_code": "RO",
+    "adm0_a3": "ROU",
+    "region": "Dealurile Crișanei și Maramureșului",
+    "category": "DOC / PDO",
+    "pdo_code": "PDO-RO-A1075 (Miniș, Diosig, Valea lui Mihai, Silvania)",
+    "decree": "Ordinul MADR nr. 225/2006 / Caiet de Sarcini Miniș",
+    "color": "#D4AF37",
+    "whites": [
+      "Mustoasă de Măderat",
+      "Furmint",
+      "Fetească Regală",
+      "Traminer"
+    ],
+    "reds": [
+      "Cadarcă",
+      "Cabernet Sauvignon",
+      "Burgund Mare (Blaufränkisch)",
+      "Merlot"
+    ],
+    "desc": "Franja noroccidental a lo largo de los montes Zarand y el río Mureș. Sobresale el viñedo histórico de Miniș, cuna secular del mítico \"Aszú tinto\" elaborado con uva Cadarcă desecada sobre esteras en los siglos XVIII y XIX, junto a la autóctona Mustoasă de Măderat.",
+    "units": [
+      "Arad",
+      "Bihor",
+      "Salaj",
+      "Satu Mare",
+      "Maramures"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ROMANIA/Crisana_si_Maramures.pdf",
+    "gpkg_rel": "QGIS/ROMANIA/Crisana_si_Maramures.gpkg"
+  },
+  {
+    "id": "ro-doc-terasele-dunarii",
+    "name": "Terasele Dunării",
+    "layer": "Terasele Dunării DOC",
+    "country": "Rumanía",
+    "country_code": "RO",
+    "adm0_a3": "ROU",
+    "region": "Terasele Dunării",
+    "category": "DOC / PDO",
+    "pdo_code": "PDO-RO-A1076 (Ostrov, Greaca)",
+    "decree": "Ordinul MADR nr. 225/2006 / Caiet de Sarcini Ostrov",
+    "color": "#2E8B57",
+    "whites": [
+      "Muscat Ottonel",
+      "Sauvignon Blanc",
+      "Fetească Regală"
+    ],
+    "reds": [
+      "Fetească Neagră",
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "desc": "Terrazas altas orientadas al río Danubio en el sur de Rumanía. El gran espejo de agua fluvial refleja la luz y estabiliza las temperaturas durante el ciclo vegetativo, permitiendo maduraciones óptimas con perfiles florales y afrutados.",
+    "units": [
+      "Calarasi",
+      "Ialomita",
+      "Braila",
+      "Giurgiu",
+      "Teleorman",
+      "Ilfov",
+      "Bucharest"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ROMANIA/Terasele_Dunarii.pdf",
+    "gpkg_rel": "QGIS/ROMANIA/Terasele_Dunarii.gpkg"
+  },
+  {
+    "id": "ro-doc-nisipurile-olteniei",
+    "name": "Nisipurile din Sudul Olteniei",
+    "layer": "Nisipurile Olteniei DOC",
+    "country": "Rumanía",
+    "country_code": "RO",
+    "adm0_a3": "ROU",
+    "region": "Regiunea Nisipurilor din Sudul Olteniei",
+    "category": "DOC / PDO",
+    "pdo_code": "PDO-RO-A1077 (Sadova-Corabia, Plenița)",
+    "decree": "Ordinul MADR nr. 225/2006 / Caiet de Sarcini Sadova",
+    "color": "#CD853F",
+    "whites": [
+      "Tămâioasă Românească",
+      "Fetească Albă"
+    ],
+    "reds": [
+      "Roșioară (Băbească Neagră)",
+      "Fetească Neagră",
+      "Cabernet Sauvignon"
+    ],
+    "desc": "Singular terruño sobre dunas y arenas aluviales fijadas en el sur de Oltenia junto al Danubio. Las cepas sobre pie franco inmunes a la filoxera producen vinos tintos ligeros, frescos y muy frutales, encabezados por la histórica uva Roșioară.",
+    "units": [
+      "Dolj",
+      "Olt"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ROMANIA/Nisipurile_Olteniei.pdf",
+    "gpkg_rel": "QGIS/ROMANIA/Nisipurile_Olteniei.gpkg"
+  }
+]

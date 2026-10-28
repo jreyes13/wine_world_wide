@@ -1,0 +1,155 @@
+[
+  {
+    "id": "md-igp-valul-lui-traian",
+    "name": "Valul lui Traian",
+    "layer": "Valul lui Traian IGP",
+    "country": "Moldavia",
+    "country_code": "MD",
+    "adm0_a3": "MDA",
+    "region": "Valul lui Traian (South)",
+    "category": "IGP / PGI",
+    "pdo_code": "IGP Valul lui Traian (ONVV)",
+    "decree": "Legea viei şi vinului nr. 57-XVI / Caiet de sarcini IGP Valul lui Traian",
+    "color": "#8B0000",
+    "whites": [
+      "Fetească Albă",
+      "Chardonnay",
+      "Sauvignon"
+    ],
+    "reds": [
+      "Fetească Neagră",
+      "Saperavi",
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Bastardo"
+    ],
+    "desc": "La región meridional moldava llamada así por las fortificaciones romanas del Muro de Trajano. Terreno estepario de Bugeac y colinas cálidas con influencia del Mar Negro. Gran productora de tintos robustos, corpulentos y maduros, y de vinos licorosos tradicionales.",
+    "units": [
+      "Cahul",
+      "Cantemir",
+      "Taraclia",
+      "Comrat",
+      "Leova",
+      "Basarabeasca",
+      "Cimişlia"
+    ],
+    "pdf_rel": "DOWNs/DOCs/MOLDOVA/Valul_lui_Traian.pdf",
+    "gpkg_rel": "QGIS/MOLDOVA/Valul_lui_Traian.gpkg"
+  },
+  {
+    "id": "md-igp-stefan-voda",
+    "name": "Ștefan Vodă",
+    "layer": "Ștefan Vodă IGP",
+    "country": "Moldavia",
+    "country_code": "MD",
+    "adm0_a3": "MDA",
+    "region": "Ștefan Vodă (Southeast)",
+    "category": "IGP / PGI",
+    "pdo_code": "IGP Ștefan Vodă (ONVV)",
+    "decree": "Legea viei şi vinului nr. 57-XVI / Caiet de sarcini IGP Ștefan Vodă",
+    "color": "#800020",
+    "whites": [
+      "Viorica",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "reds": [
+      "Rara Neagră (Băbească)",
+      "Saperavi",
+      "Cabernet Sauvignon",
+      "Malbec"
+    ],
+    "desc": "Ubicada a lo largo del bajo río Dniéster en el sudeste moldavo. Enclave de la mítica bodega Purcari (fundada en 1827), productora del célebre \"Negru de Purcari\" ensamblado con Cabernet Sauvignon, Saperavi y la noble uva autóctona Rara Neagră, bendecida por brisas templadas del Mar Negro.",
+    "units": [
+      "Ștefan Vodă",
+      "Causeni",
+      "Anenii Noi",
+      "Bender"
+    ],
+    "pdf_rel": "DOWNs/DOCs/MOLDOVA/Stefan_Voda.pdf",
+    "gpkg_rel": "QGIS/MOLDOVA/Stefan_Voda.gpkg"
+  },
+  {
+    "id": "md-igp-codru",
+    "name": "Codru",
+    "layer": "Codru IGP",
+    "country": "Moldavia",
+    "country_code": "MD",
+    "adm0_a3": "MDA",
+    "region": "Codru (Central)",
+    "category": "IGP / PGI",
+    "pdo_code": "IGP Codru (ONVV)",
+    "decree": "Legea viei şi vinului nr. 57-XVI / Caiet de sarcini IGP Codru",
+    "color": "#2E8B57",
+    "whites": [
+      "Fetească Albă",
+      "Fetească Regală",
+      "Viorica",
+      "Chardonnay",
+      "Sauvignon"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "desc": "La región central boscosa y montañosa de Moldavia (los Codri). Famosa por sus colosales bodegas subterráneas excavadas en roca caliza: Mileștii Mici (récord Guinness a la mayor colección de vino del mundo con más de 2 millones de botellas) y Cricova (más de 120 km de galerías), cuna de espumosos clásicos y blancos minerales.",
+    "units": [
+      "Ialoveni",
+      "Străşeni",
+      "Orhei",
+      "Criuleni",
+      "Hîncesti",
+      "Călărași",
+      "Nisporeni",
+      "Teleneşti",
+      "Ungheni",
+      "Chişinău"
+    ],
+    "pdf_rel": "DOWNs/DOCs/MOLDOVA/Codru.pdf",
+    "gpkg_rel": "QGIS/MOLDOVA/Codru.gpkg"
+  },
+  {
+    "id": "md-igp-divin",
+    "name": "Divin",
+    "layer": "Divin IGP",
+    "country": "Moldavia",
+    "country_code": "MD",
+    "adm0_a3": "MDA",
+    "region": "Divin (North & Transnistria)",
+    "category": "IGP / PGI",
+    "pdo_code": "IGP Divin (ONVV)",
+    "decree": "Legea viei şi vinului nr. 57-XVI / Caiet de sarcini IGP Divin",
+    "color": "#C5A059",
+    "whites": [
+      "Aligoté",
+      "Rkatsiteli",
+      "Bianca",
+      "Fetească Albă",
+      "Uni Blanc"
+    ],
+    "reds": [],
+    "desc": "Indicación Geográfica Protegida nacional dedicada a la histórica tradición del brandy destilado de uva de Moldavia (Divin / eau-de-vie de vin). Producido principalmente en los distritos septentrionales (Bălți, Călărași, Tiraspol) a partir de vinos blancos de alta acidez destilados en alambiques de cobre y envejecidos en barricas de roble durante décadas.",
+    "units": [
+      "Bălţi",
+      "Edineţ",
+      "Soroca",
+      "Floreşti",
+      "Briceni",
+      "Glodeni",
+      "Făleşti",
+      "Rîşcani",
+      "Rezina",
+      "Şoldăneşti",
+      "Donduseni",
+      "Drochia",
+      "Ocniţa",
+      "Camenca",
+      "Grigoriopol",
+      "Transnistria",
+      "Stîngă Nistrului"
+    ],
+    "pdf_rel": "DOWNs/DOCs/MOLDOVA/Divin.pdf",
+    "gpkg_rel": "QGIS/MOLDOVA/Divin.gpkg"
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "id": "ch-aoc-valais",
+    "name": "Valais",
+    "layer": "Valais AOC",
+    "country": "SWITZERLAND",
+    "region": "Valais / Wallis",
+    "category": "AOC",
+    "pdo_code": "AOC Valais (Ordonnance sur la vigne et le vin du Valais)",
+    "decree": "Ordonnance cantonale sur la viticulture et le vin du Valais (916.100)",
+    "color": "#722F37",
+    "whites": [
+      "Chasselas (Fendant)",
+      "Petite Arvine",
+      "Amigne",
+      "Ermitage (Marsanne)",
+      "Païen / Heida (Savagnin Blanc)",
+      "Johannisberg (Sylvaner)",
+      "Malvoisie (Pinot Gris)"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Gamay",
+      "Cornalin",
+      "Humagne Rouge",
+      "Syrah",
+      "Dôle (Pinot Noir + Gamay)"
+    ],
+    "desc": "La mayor región vitivinícola de Suiza, situada a lo largo del alto valle del río Ródano bajo las cumbres alpinas. Célebre por sus terrazas de pendiente extrema, muros de piedra seca centenarios, microclima cálido alpino potenciado por el efecto foehn, y variedades endémicas como Petite Arvine, Cornalin y Humagne Rouge.",
+    "cantons": [
+      "VS"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SWITZERLAND/Valais.pdf",
+    "gpkg_rel": "QGIS/SWITZERLAND/Valais.gpkg"
+  },
+  {
+    "id": "ch-aoc-vaud",
+    "name": "Vaud",
+    "layer": "Vaud AOC",
+    "country": "SWITZERLAND",
+    "region": "Vaud",
+    "category": "AOC",
+    "pdo_code": "AOC Vaud (Règlement sur les vins vaudois)",
+    "decree": "Règlement cantonal sur les vins vaudois et Grands Crus Dézaley & Calamin (916.115)",
+    "color": "#4682B4",
+    "whites": [
+      "Chasselas",
+      "Doral",
+      "Chardonnay",
+      "Pinot Blanc",
+      "Sauvignon Blanc"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Gamay",
+      "Gamaret",
+      "Garanoir",
+      "Plant Robert",
+      "Merlot"
+    ],
+    "desc": "Segunda región vitícola helvética, abrazando las orillas septentrionales del lago Lemán. Incluye las míticas terrazas de Lavaux (Patrimonio Mundial de la UNESCO), los Grands Crus Dézaley y Calamin, La Côte, Chablais (Aigle, Yvorne) y Côtes de l'Orbe. El Chasselas alcanza aquí la máxima finura mineral gracias a la radiación directa, el reflejo lacustre y el calor de los muros de piedra.",
+    "cantons": [
+      "VD"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SWITZERLAND/Vaud.pdf",
+    "gpkg_rel": "QGIS/SWITZERLAND/Vaud.gpkg"
+  },
+  {
+    "id": "ch-aoc-geneve",
+    "name": "Genève",
+    "layer": "Genève AOC",
+    "country": "SWITZERLAND",
+    "region": "Genève",
+    "category": "AOC",
+    "pdo_code": "AOC Genève (Règlement sur la viticulture genevoise)",
+    "decree": "Règlement d'application de la loi sur la viticulture du canton de Genève (M 2 50.01)",
+    "color": "#D4AF37",
+    "whites": [
+      "Chasselas",
+      "Chardonnay",
+      "Aligoté",
+      "Sauvignon Blanc",
+      "Pinot Blanc",
+      "Viognier"
+    ],
+    "reds": [
+      "Gamay",
+      "Pinot Noir",
+      "Gamaret",
+      "Garanoir",
+      "Cabernet Franc",
+      "Merlot"
+    ],
+    "desc": "Tercer cantón productor de Suiza, ubicado en el extremo occidental del lago Lemán rodeado por territorio francés. Pionero al implantar la primera reglamentación AOC de Suiza en 1988. Comprende el Mandement, Entre Arve et Lac y Entre Arve et Rhône, con vinos aromáticos de Gamay y Chasselas, e innovaciones de Gamaret y Garanoir.",
+    "cantons": [
+      "GE"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SWITZERLAND/Geneve.pdf",
+    "gpkg_rel": "QGIS/SWITZERLAND/Geneve.gpkg"
+  },
+  {
+    "id": "ch-aoc-trois-lacs",
+    "name": "Trois-Lacs",
+    "layer": "Trois-Lacs AOC",
+    "country": "SWITZERLAND",
+    "region": "Trois-Lacs / Drei-Seen-Land",
+    "category": "AOC",
+    "pdo_code": "AOC Région des Trois-Lacs (Neuchâtel, Morat/Vully, Bienne)",
+    "decree": "Règlements viticoles cantonaux de Neuchâtel, Fribourg et Berne",
+    "color": "#FF7F50",
+    "whites": [
+      "Chasselas",
+      "Chasselas Non Filtré",
+      "Pinot Gris",
+      "Chardonnay",
+      "Freisamer"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Œil-de-Perdrix (Rosé de Pinot Noir)",
+      "Gamaret",
+      "Garanoir"
+    ],
+    "desc": "Región que circunda los tres lagos del piedemonte jurásico: Neuchâtel, Bienne/Biel y Morat/Murten (cantones de Neuchâtel, Fribourg, Jura y parte lacustre de Berne). Cuna universal del Œil-de-Perdrix (rosado histórico obtenido por sangrado directo de Pinot Noir) y del Chasselas Non Filtré, con terruños calcáreos de gran mineralidad.",
+    "cantons": [
+      "NE",
+      "FR",
+      "JU"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SWITZERLAND/Trois_Lacs.pdf",
+    "gpkg_rel": "QGIS/SWITZERLAND/Trois_Lacs.gpkg"
+  },
+  {
+    "id": "ch-doc-ticino",
+    "name": "Ticino",
+    "layer": "Ticino DOC",
+    "country": "SWITZERLAND",
+    "region": "Ticino (Svizzera Italiana)",
+    "category": "DOC",
+    "pdo_code": "DOC Ticino (Regolamento viticolo del Cantone Ticino)",
+    "decree": "Regolamento concernente le denominazioni d'origine dei vini ticinesi (RL 814.610)",
+    "color": "#800020",
+    "whites": [
+      "Merlot Bianco (Bianco di Merlot)",
+      "Chardonnay",
+      "Sauvignon Blanc",
+      "Semillon"
+    ],
+    "reds": [
+      "Merlot",
+      "Bondola",
+      "Cabernet Sauvignon",
+      "Cabernet Franc"
+    ],
+    "desc": "La Suiza meridional e italófona al sur de la cadena alpina, bendecida por un clima de fuerte luminosidad solar e influencia templada de los lagos Maggiore y Lugano. El Merlot, introducido en 1906 tras la filoxera, representa más del 80% del viñedo, vinificado tanto en tintos estructurados con crianza en barrica como en el afamado Bianco di Merlot.",
+    "cantons": [
+      "TI"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SWITZERLAND/Ticino.pdf",
+    "gpkg_rel": "QGIS/SWITZERLAND/Ticino.gpkg"
+  },
+  {
+    "id": "ch-aoc-deutschschweiz",
+    "name": "Deutschschweiz",
+    "layer": "Deutschschweiz AOC",
+    "country": "SWITZERLAND",
+    "region": "Deutschschweiz / Suisse Alémanique",
+    "category": "AOC",
+    "pdo_code": "AOC Deutschschweiz (Interkantonale Vereinbarung / BLW)",
+    "decree": "Ordonnance fédérale sur le vin et dispositions cantonales alémaniques (916.140)",
+    "color": "#2E8B57",
+    "whites": [
+      "Müller-Thurgau (Riesling-Silvaner)",
+      "Räuschling",
+      "Completer",
+      "Chardonnay",
+      "Pinot Blanc"
+    ],
+    "reds": [
+      "Blauburgunder (Pinot Noir)",
+      "Zweigelt",
+      "Gamaret",
+      "Garanoir",
+      "Diolinoir"
+    ],
+    "desc": "La Suiza germanófona abarca los cantones orientales, septentrionales y centrales. Destaca de forma estelar la Bündner Herrschaft (Graubünden / Grisones) por sus soberbios Pinot Noir calificados entre los mejores del planeta, Zürich por sus viñedos del lago y el autóctono Räuschling, Schaffhausen (Klettgau), Thurgau (cuna del Müller-Thurgau) y Aargau.",
+    "cantons": [
+      "ZH",
+      "SH",
+      "TG",
+      "GR",
+      "AG",
+      "SG",
+      "BL",
+      "BS",
+      "LU",
+      "SZ",
+      "ZG",
+      "SO",
+      "BE",
+      "GL",
+      "UR",
+      "OW",
+      "NW",
+      "AI",
+      "AR"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SWITZERLAND/Deutschschweiz.pdf",
+    "gpkg_rel": "QGIS/SWITZERLAND/Deutschschweiz.gpkg"
+  }
+]

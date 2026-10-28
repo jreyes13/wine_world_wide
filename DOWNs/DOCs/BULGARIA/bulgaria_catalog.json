@@ -1,0 +1,178 @@
+[
+  {
+    "id": "bg-pgi-dunavska-ravnina",
+    "name": "Dunavska Ravnina",
+    "layer": "Dunavska Ravnina PGI",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "adm0_a3": "BGR",
+    "region": "Severen rayon (Danubian Plain)",
+    "category": "PGI / ZGU",
+    "pdo_code": "PGI-BG-A1501 (Дунавска равнина)",
+    "decree": "Zakon za vinoto i spirtnite napitki / EAVW Official Register",
+    "color": "#4682B4",
+    "whites": [
+      "Chardonnay",
+      "Sauvignon Blanc",
+      "Dimyat",
+      "Muscat Ottonel",
+      "Riesling"
+    ],
+    "reds": [
+      "Gamza (Kadarka)",
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Pinot Noir"
+    ],
+    "desc": "La gran región septentrional de Bulgaria que desciende en terrazas desde los montes Balcanes hasta el Danubio. Clima continental templado con suelos de loess y calcisoles fértiles. Patria de la emblemática uva tinta Gamza (Kadarka), productora de tintos ligeros, vivaces y especiados, y de blancos crujientes.",
+    "units": [
+      "Vidin",
+      "Montana",
+      "Vratsa",
+      "Pleven",
+      "Veliko Tarnovo",
+      "Ruse",
+      "Silistra",
+      "Razgrad",
+      "Targovishte",
+      "Dobrich"
+    ],
+    "pdf_rel": "DOWNs/DOCs/BULGARIA/Dunavska_Ravnina.pdf",
+    "gpkg_rel": "QGIS/BULGARIA/Dunavska_Ravnina.gpkg"
+  },
+  {
+    "id": "bg-pgi-trakiiska-nizina",
+    "name": "Trakiiska Nizina",
+    "layer": "Trakiiska Nizina PGI",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "adm0_a3": "BGR",
+    "region": "Yuzhen rayon (Thracian Lowland)",
+    "category": "PGI / ZGU",
+    "pdo_code": "PGI-BG-A1502 (Тракийска низина)",
+    "decree": "Zakon za vinoto i spirtnite napitki / EAVW Official Register",
+    "color": "#8B0000",
+    "whites": [
+      "Dimyat",
+      "Rkatsiteli",
+      "Chardonnay",
+      "Viognier"
+    ],
+    "reds": [
+      "Mavrud",
+      "Rubin",
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Syrah"
+    ],
+    "desc": "El corazón meridional vinícola de Bulgaria, protegido de los vientos gélidos del norte por la cordillera de los Balcanes y abierto a las influencias cálidas del mar Egeo. Epicentro de la legendaria uva autóctona Mavrud (en Asenovgrad y Plovdiv), que genera tintos oscuros, tánicos, profundos y longevos, y del cotizado cruce Rubin (Nebbiolo x Syrah).",
+    "units": [
+      "Plovdiv",
+      "Pazardzhik",
+      "Stara Zagora",
+      "Haskovo",
+      "Yambol",
+      "Sliven",
+      "Kardzhali",
+      "Smolyan"
+    ],
+    "pdf_rel": "DOWNs/DOCs/BULGARIA/Trakiiska_Nizina.pdf",
+    "gpkg_rel": "QGIS/BULGARIA/Trakiiska_Nizina.gpkg"
+  },
+  {
+    "id": "bg-pgi-chernomorski",
+    "name": "Chernomorski Rayon",
+    "layer": "Chernomorski PGI",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "adm0_a3": "BGR",
+    "region": "Iztochen rayon (Black Sea)",
+    "category": "PGI / ZGU",
+    "pdo_code": "PGI-BG-A1503 (Черноморски район)",
+    "decree": "Zakon za vinoto i spirtnite napitki / EAVW Official Register",
+    "color": "#20B2AA",
+    "whites": [
+      "Dimyat",
+      "Traminer",
+      "Sauvignon Blanc",
+      "Chardonnay",
+      "Muscat Ottonel"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "desc": "La región marítima oriental búlgara que bordea la costa del Mar Negro (Varna, Burgas, Pomorie, Shumen). El influjo termorregulador marino y los largos otoños secos y templados permiten que los blancos alcancen una acidez cítrica y aromaticidad floral excepcional, destacando el autóctono Dimyat y fragantes Gewürztraminer.",
+    "units": [
+      "Burgas",
+      "Varna",
+      "Shumen"
+    ],
+    "pdf_rel": "DOWNs/DOCs/BULGARIA/Chernomorski_Rayon.pdf",
+    "gpkg_rel": "QGIS/BULGARIA/Chernomorski_Rayon.gpkg"
+  },
+  {
+    "id": "bg-pgi-struma-valley",
+    "name": "Dolina na Reka Struma",
+    "layer": "Dolina Struma PGI",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "adm0_a3": "BGR",
+    "region": "Yugozapaden rayon (Struma Valley / Melnik)",
+    "category": "PGI / ZGU",
+    "pdo_code": "PGI-BG-A1504 (Долината на Струма / Мелник)",
+    "decree": "Zakon za vinoto i spirtnite napitki / EAVW Official Register",
+    "color": "#800020",
+    "whites": [
+      "Keratsuda",
+      "Tamianka",
+      "Sandanski Misket"
+    ],
+    "reds": [
+      "Shiroka Melnishka Loza (Broad-Leaved Melnik)",
+      "Melnik 55 (Ranna Melnishka)",
+      "Mavrud",
+      "Cabernet"
+    ],
+    "desc": "El sudoeste búlgaro encajonado en el valle del río Struma y las espectaculares pirámides de arenisca de Melnik, junto a Grecia. Clima mediterráneo con el mayor número de horas de sol de Bulgaria. Cuna exclusiva de la histórica uva Shiroka Melnishka Loza (el vino favorito de Winston Churchill) y de su clon precoz Melnik 55.",
+    "units": [
+      "Blagoevgrad",
+      "Kyustendil",
+      "Pernik"
+    ],
+    "pdf_rel": "DOWNs/DOCs/BULGARIA/Dolina_na_Reka_Struma.pdf",
+    "gpkg_rel": "QGIS/BULGARIA/Dolina_na_Reka_Struma.gpkg"
+  },
+  {
+    "id": "bg-pgi-rozova-dolina",
+    "name": "Rozova Dolina",
+    "layer": "Rozova Dolina PGI",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "adm0_a3": "BGR",
+    "region": "Podbalkanski rayon (Rose Valley)",
+    "category": "PGI / ZGU",
+    "pdo_code": "PGI-BG-A1505 (Розова долина / Подбалкански)",
+    "decree": "Zakon za vinoto i spirtnite napitki / EAVW Official Register",
+    "color": "#FF69B4",
+    "whites": [
+      "Cherven Misket (Red Misket)",
+      "Riesling",
+      "Traminer"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "desc": "El mítico Valle de las Rosas en las cuencas subbalcánicas de Karlovo y Sungurlare. Famoso en todo el mundo por la uva indígena Cherven Misket (Misket Rojo), una uva de piel rosada pero vinificada en blanco, que produce caldos cristalinos sumamente aromáticos con notas de rosa de Damasco, membrillo y heno.",
+    "units": [
+      "Sofia",
+      "Grad Sofiya",
+      "Lovech",
+      "Gabrovo"
+    ],
+    "pdf_rel": "DOWNs/DOCs/BULGARIA/Rozova_Dolina.pdf",
+    "gpkg_rel": "QGIS/BULGARIA/Rozova_Dolina.gpkg"
+  }
+]

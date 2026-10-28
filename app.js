@@ -542,7 +542,19 @@ function setLanguage(lang) {
       'Alemania': '🇩🇪',
       'Austria': '🇦🇹',
       'Grecia': '🇬🇷',
-      'Hungría': '🇭🇺'
+      'Hungría': '🇭🇺',
+      'Georgia': '🇬🇪',
+      'República Checa': '🇨🇿',
+      'Suiza': '🇨🇭',
+      'Eslovenia': '🇸🇮',
+      'Croacia': '🇭🇷',
+      'Eslovaquia': '🇸🇰',
+      'Rumanía': '🇷🇴',
+      'Bulgaria': '🇧🇬',
+      'Moldavia': '🇲🇩',
+      'Armenia': '🇦🇲',
+      'Chipre': '🇨🇾',
+      'Líbano': '🇱🇧'
     };
     const flag = countryFlags[selectedFeature.country] || '';
     document.getElementById('detail-region').innerHTML = `<span style="font-size: 1.05rem;">📍</span> ${selectedFeature.region} ${flag ? `(${flag} ${selectedFeature.country})` : ''}`;
@@ -582,7 +594,19 @@ const COUNTRY_CENTERS = {
   'Alemania': { center: [10.4, 51.1], zoom: 6.0 },
   'Austria': { center: [14.5, 47.5], zoom: 6.5 },
   'Grecia': { center: [23.5, 38.3], zoom: 6.2 },
-  'Hungría': { center: [19.5, 47.1], zoom: 6.8 }
+  'Hungría': { center: [19.5, 47.1], zoom: 6.8 },
+  'Georgia': { center: [44.0, 42.0], zoom: 6.8 },
+  'República Checa': { center: [16.0, 49.3], zoom: 7.0 },
+  'Suiza': { center: [8.2, 46.8], zoom: 7.8 },
+  'Eslovenia': { center: [14.8, 46.1], zoom: 8.2 },
+  'Croacia': { center: [16.4, 44.5], zoom: 7.0 },
+  'Eslovaquia': { center: [19.5, 48.7], zoom: 7.2 },
+  'Rumanía': { center: [24.9, 45.9], zoom: 6.6 },
+  'Bulgaria': { center: [25.5, 42.7], zoom: 7.0 },
+  'Moldavia': { center: [28.8, 47.0], zoom: 7.5 },
+  'Armenia': { center: [44.8, 40.2], zoom: 7.5 },
+  'Chipre': { center: [33.1, 35.0], zoom: 8.5 },
+  'Líbano': { center: [35.8, 33.9], zoom: 8.3 }
 };
 
 // Event Listeners

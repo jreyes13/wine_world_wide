@@ -1,0 +1,129 @@
+[
+  {
+    "id": "lb-gi-valle-de-la-beca",
+    "name": "Valle de la Becá",
+    "layer": "Valle de la Becá GI",
+    "country": "Líbano",
+    "country_code": "LB",
+    "adm0_a3": "LBN",
+    "region": "Bekaa Valley (Wadi al-Biqa)",
+    "category": "GI / Terroir",
+    "pdo_code": "Union Vinicole du Liban (UVL) / Ministry of Agriculture",
+    "decree": "Loi libanaise sur le vin (Loi no 216 du 29/05/2000) / Décrets d'application",
+    "color": "#8B0000",
+    "whites": [
+      "Obeidi",
+      "Merwah",
+      "Chardonnay",
+      "Viognier",
+      "Sauvignon Blanc"
+    ],
+    "reds": [
+      "Cinsault",
+      "Carignan",
+      "Cabernet Sauvignon",
+      "Syrah",
+      "Mourvèdre"
+    ],
+    "desc": "El corazón milenario del vino libanés y levantino, custodiado por el colosal Templo de Baco en Baalbek (el templo romano al dios del vino mejor conservado del planeta). Altiplano fértil a 1.000 metros de altitud resguardado entre el Monte Líbano y el Antilíbano, con 300 días de sol al año y noches frescas. Cuna de bodegas históricas legendarias: Château Ksara (fundado en 1857 por los jesuitas en cuevas romanas), Château Kefraya, Domaine des Tourelles y el viñedo de Château Musar.",
+    "units": [
+      "Beqaa"
+    ],
+    "pdf_rel": "DOWNs/DOCs/LEBANON/Valle_de_la_Beca.pdf",
+    "gpkg_rel": "QGIS/LEBANON/Valle_de_la_Beca.gpkg"
+  },
+  {
+    "id": "lb-gi-monte-libano",
+    "name": "Monte Líbano",
+    "layer": "Monte Líbano GI",
+    "country": "Líbano",
+    "country_code": "LB",
+    "adm0_a3": "LBN",
+    "region": "Mount Lebanon (Jabal Lubnan)",
+    "category": "GI / Terroir",
+    "pdo_code": "Union Vinicole du Liban (UVL)",
+    "decree": "Loi libanaise sur le vin (Loi no 216 / 2000)",
+    "color": "#800020",
+    "whites": [
+      "Merwah",
+      "Chardonnay",
+      "Sauvignon Blanc",
+      "Viognier"
+    ],
+    "reds": [
+      "Cabernet Sauvignon",
+      "Syrah",
+      "Merlot",
+      "Cinsault"
+    ],
+    "desc": "Las laderas escarpadas de la cordillera del Monte Líbano que descienden en terrazas escalonadas hacia el mar Mediterráneo (Ghazir, Bhamdoun, Chouf, Keserwan). Hogar histórico de Château Musar (Gaston Hochar en Ghazir), donde las uvas autóctonas Merwah y Obeidi maduran en altura sobre piedra caliza jurásica pura con vistas panorámicas al mar.",
+    "units": [
+      "Mount Lebanon",
+      "Beirut"
+    ],
+    "pdf_rel": "DOWNs/DOCs/LEBANON/Monte_Libano.pdf",
+    "gpkg_rel": "QGIS/LEBANON/Monte_Libano.gpkg"
+  },
+  {
+    "id": "lb-gi-norte-de-libano",
+    "name": "Norte del Líbano",
+    "layer": "Norte del Líbano GI",
+    "country": "Líbano",
+    "country_code": "LB",
+    "adm0_a3": "LBN",
+    "region": "North Lebanon / Batroun",
+    "category": "GI / Terroir",
+    "pdo_code": "Union Vinicole du Liban (UVL)",
+    "decree": "Loi libanaise sur le vin (Loi no 216 / 2000)",
+    "color": "#4682B4",
+    "whites": [
+      "Obeidi",
+      "Sauvignon Blanc",
+      "Chardonnay",
+      "Viognier"
+    ],
+    "reds": [
+      "Syrah",
+      "Cabernet Franc",
+      "Merlot",
+      "Mourvèdre"
+    ],
+    "desc": "La comarca marítima y montañosa de Batroun y el valle sagrado de Qadisha. Antigua cuna de marinos fenicios que navegaron el Mediterráneo difundiendo la cultura del vino. Destaca por viñedos boutique que escalan desde la brisa salina de la costa de Batroun hasta los 1.800 metros de altitud en Ainata (bodegas Ixsir, Coteaux de Botrys, Château Sanctus).",
+    "units": [
+      "North Lebanon"
+    ],
+    "pdf_rel": "DOWNs/DOCs/LEBANON/Norte_del_Libano.pdf",
+    "gpkg_rel": "QGIS/LEBANON/Norte_del_Libano.gpkg"
+  },
+  {
+    "id": "lb-gi-sur-de-libano",
+    "name": "Sur del Líbano",
+    "layer": "Sur del Líbano GI",
+    "country": "Líbano",
+    "country_code": "LB",
+    "adm0_a3": "LBN",
+    "region": "South Lebanon / Jezzine",
+    "category": "GI / Terroir",
+    "pdo_code": "Union Vinicole du Liban (UVL)",
+    "decree": "Loi libanaise sur le vin (Loi no 216 / 2000)",
+    "color": "#2E8B57",
+    "whites": [
+      "Viognier",
+      "Sauvignon Blanc",
+      "Chardonnay"
+    ],
+    "reds": [
+      "Syrah",
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "desc": "Comprende las colinas de Jezzine, Marjayoun y Nabatieh rodeadas de densos bosques de pino piñonero y cascadas de montaña a 950 metros de altitud. Tierras de roca caliza pura y cascajo donde proyectos como Karam Wines han demostrado la excelencia de tintos minerales de Syrah y Cabernet Sauvignon.",
+    "units": [
+      "South Lebanon",
+      "An Nabatiyah"
+    ],
+    "pdf_rel": "DOWNs/DOCs/LEBANON/Sur_del_Libano.pdf",
+    "gpkg_rel": "QGIS/LEBANON/Sur_del_Libano.gpkg"
+  }
+]

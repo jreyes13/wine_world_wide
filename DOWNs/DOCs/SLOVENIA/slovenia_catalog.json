@@ -1,0 +1,368 @@
+[
+  {
+    "id": "si-zgp-brda",
+    "name": "Goriška Brda",
+    "layer": "Goriška Brda ZGP",
+    "country": "SLOVENIA",
+    "region": "Primorska",
+    "category": "ZGP / PDO",
+    "pdo_code": "PDO-SI-A0041",
+    "decree": "Pravilnik o vinu z zaščiteno označbo porekla Goriška Brda (Uradni list RS, št. 105/09)",
+    "color": "#C5A059",
+    "whites": [
+      "Rebula (Ribolla Gialla)",
+      "Sauvignonasse (Jakot / Tokaj)",
+      "Sivi Pinot (Pinot Grigio)",
+      "Chardonnay",
+      "Sauvignon"
+    ],
+    "reds": [
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Cabernet Franc",
+      "Modri Pinot (Pinot Noir)"
+    ],
+    "desc": "Frontera directa con el Collio italiano. Terreno de colinas escalonadas sobre flysch margoso eoceno (opoka / ponca). Cuna de la emblemática uva Rebula, tanto en vinos blancos frescos y minerales como en extraordinarios macerados de color naranja (orange wines).",
+    "municipalities": [
+      "Brda"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVENIA/Goriska_Brda.pdf",
+    "gpkg_rel": "QGIS/SLOVENIA/Goriska_Brda.gpkg"
+  },
+  {
+    "id": "si-zgp-vipavska-dolina",
+    "name": "Vipavska dolina",
+    "layer": "Vipavska dolina ZGP",
+    "country": "SLOVENIA",
+    "region": "Primorska",
+    "category": "ZGP / PDO",
+    "pdo_code": "PDO-SI-A0042",
+    "decree": "Pravilnik o vinu z zaščiteno označbo porekla Vipavska dolina (Uradni list RS, št. 105/09)",
+    "color": "#4682B4",
+    "whites": [
+      "Zelen",
+      "Pinela",
+      "Klarnica",
+      "Malvazija",
+      "Rebula",
+      "Sauvignon",
+      "Chardonnay"
+    ],
+    "reds": [
+      "Merlot",
+      "Barbera",
+      "Cabernet Sauvignon",
+      "Modri Pinot"
+    ],
+    "desc": "Valle abierto entre la meseta de Trnovo y el Carso, barrido con fuerza por el viento Bora (Burja). Hábitat casi exclusivo de joyas ampelográficas ancestrales: Zelen (vino aromático y herbáceo), Pinela y Klarnica, junto a vibrantes Malvasías y tintos mediterráneos de Merlot y Barbera.",
+    "municipalities": [
+      "Ajdovščina",
+      "Vipava",
+      "Nova Gorica",
+      "Renče-Vogrsko",
+      "Miren-Kostanjevica",
+      "Kanal"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVENIA/Vipavska_dolina.pdf",
+    "gpkg_rel": "QGIS/SLOVENIA/Vipavska_dolina.gpkg"
+  },
+  {
+    "id": "si-zgp-kras",
+    "name": "Kras",
+    "layer": "Kras ZGP",
+    "country": "SLOVENIA",
+    "region": "Primorska",
+    "category": "ZGP / PDO",
+    "pdo_code": "PDO-SI-A0043",
+    "decree": "Pravilnik o vinu z zaščiteno označbo porekla Kras in Teran PTP (Uradni list RS, št. 105/09)",
+    "color": "#8B0000",
+    "whites": [
+      "Vitovska Grganja",
+      "Malvazija"
+    ],
+    "reds": [
+      "Teran PTP (Refošk)",
+      "Refošk",
+      "Cabernet Sauvignon"
+    ],
+    "desc": "Altiplano kárstico de roca caliza pura cubierto por una delgada capa de tierra roja ferruginosa (terra rossa / jerina). Territorio sagrado del mítico Teran PTP (elaborado con Refošk), tinto de color púrpura oscuro impenetrable, viva acidez láctica y alto contenido en hierro y polifenoles, junto al blanco autóctono Vitovska Grganja.",
+    "municipalities": [
+      "Sežana",
+      "Komen",
+      "Divača",
+      "Hrpelje-Kozina"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVENIA/Kras.pdf",
+    "gpkg_rel": "QGIS/SLOVENIA/Kras.gpkg"
+  },
+  {
+    "id": "si-zgp-slovenska-istra",
+    "name": "Slovenska Istra",
+    "layer": "Slovenska Istra ZGP",
+    "country": "SLOVENIA",
+    "region": "Primorska",
+    "category": "ZGP / PDO",
+    "pdo_code": "PDO-SI-A0044",
+    "decree": "Pravilnik o vinu z zaščiteno označbo porekla Slovenska Istra (Uradni list RS, št. 105/09)",
+    "color": "#800020",
+    "whites": [
+      "Malvazija (Istrska Malvazija)",
+      "Rumeni Muškat",
+      "Chardonnay",
+      "Sivi Pinot"
+    ],
+    "reds": [
+      "Refošk (Istrski Refošk)",
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Syrah"
+    ],
+    "desc": "Franja litoral adriática eslovena en torno a Koper, Piran e Izola. Suelos de flysch calizo y clima netamente mediterráneo con alta insolación. El Refošk (tinto robusto y afrutado) y la Istrska Malvazija (blanco mineral de gran estructura y salinidad) son los estandartes indiscutibles de la comarca.",
+    "municipalities": [
+      "Koper",
+      "Izola",
+      "Piran",
+      "Ankaran"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVENIA/Slovenska_Istra.pdf",
+    "gpkg_rel": "QGIS/SLOVENIA/Slovenska_Istra.gpkg"
+  },
+  {
+    "id": "si-zgp-stajerska-slovenija",
+    "name": "Štajerska Slovenija",
+    "layer": "Štajerska Slovenija ZGP",
+    "country": "SLOVENIA",
+    "region": "Podravje",
+    "category": "ZGP / PDO",
+    "pdo_code": "PDO-SI-A0045",
+    "decree": "Pravilnik o vinu z zaščiteno označbo porekla Štajerska Slovenija (Uradni list RS, št. 105/09)",
+    "color": "#2E8B57",
+    "whites": [
+      "Šipon (Furmint)",
+      "Sauvignon",
+      "Laški Rizling (Welschriesling)",
+      "Renski Rizling (Riesling)",
+      "Rumeni Muškat",
+      "Traminec",
+      "Chardonnay"
+    ],
+    "reds": [
+      "Modri Pinot",
+      "Modra Frankinja (Blaufränkisch)",
+      "Zweigelt"
+    ],
+    "desc": "El mayor distrito vinícola de Eslovenia, enclavado en las colinas de Slovenske gorice y Haloze alrededor de Maribor (hogar de la vid productiva más antigua del mundo con más de 400 años, Stara trta) y Jeruzalem-Ormož. Famoso por sus blancos aromáticos, crujientes y elegantes de Šipon (Furmint) y Sauvignon Blanc.",
+    "municipalities": [
+      "Maribor",
+      "Ptuj",
+      "Ormož",
+      "Ljutomer",
+      "Slovenska Bistrica",
+      "Šentjur",
+      "Celje",
+      "Laško",
+      "Gornja Radgona",
+      "Lenart",
+      "Pesnica",
+      "Radenci",
+      "Kungota",
+      "Duplek",
+      "Sveta Ana",
+      "Sveti Jurij v Slovenskih goricah",
+      "Cerkvenjak",
+      "Benedikt",
+      "Sveta Trojica v Slovenskih goricah",
+      "Kidričevo",
+      "Videm",
+      "Hajdina",
+      "Dornava",
+      "Gorišnica",
+      "Markovci",
+      "Zavrč",
+      "Cirkulane",
+      "Podlehnik",
+      "Majšperk",
+      "Žetale",
+      "Trnovska vas",
+      "Sveti Andraž v Slov. goricah",
+      "Destrnik",
+      "Juršinci",
+      "Središče ob Dravi",
+      "Sveti Tomaž",
+      "Ruše",
+      "Selnica ob Dravi",
+      "Lovrenc na Pohorju",
+      "Rače-Fram",
+      "Hoče-Slivnica",
+      "Miklavž na Dravskem polju",
+      "Starše",
+      "Oplotnica",
+      "Poljčane",
+      "Makole",
+      "Vojnik",
+      "Dobrna",
+      "Štore",
+      "Vitanje",
+      "Zreče",
+      "Rogaška Slatina",
+      "Rogatec",
+      "Podčetrtek",
+      "Kozje",
+      "Šmarje pri Jelšah",
+      "Apače"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVENIA/Stajerska_Slovenija.pdf",
+    "gpkg_rel": "QGIS/SLOVENIA/Stajerska_Slovenija.gpkg"
+  },
+  {
+    "id": "si-zgp-prekmurje",
+    "name": "Prekmurje",
+    "layer": "Prekmurje ZGP",
+    "country": "SLOVENIA",
+    "region": "Podravje",
+    "category": "ZGP / PDO",
+    "pdo_code": "PDO-SI-A0046",
+    "decree": "Pravilnik o vinu z zaščiteno označbo porekla Prekmurje (Uradni list RS, št. 105/09)",
+    "color": "#9370DB",
+    "whites": [
+      "Laški Rizling",
+      "Šipon",
+      "Chardonnay",
+      "Sauvignon",
+      "Beli Pinot",
+      "Renski Rizling"
+    ],
+    "reds": [
+      "Modra Frankinja",
+      "Zweigelt",
+      "Modri Pinot"
+    ],
+    "desc": "Región transfluviana al otro lado del río Mura, con influencias continentales y de la llanura panónica, extendida por las colinas de Goričko y Lendavske gorice. Produce vinos frescos de Laški Rizling y tintos elegantes de Modra Frankinja y Zweigelt.",
+    "municipalities": [
+      "Murska Sobota",
+      "Lendava",
+      "Dobrovnik",
+      "Moravske Toplice",
+      "Puconci",
+      "Gornji Petrovci",
+      "Šalovci",
+      "Hodoš",
+      "Grad",
+      "Kuzma",
+      "Rogašovci",
+      "Cankova",
+      "Tišina",
+      "Beltinci",
+      "Črenšovci",
+      "Turnišče",
+      "Odranci",
+      "Kobilje",
+      "Velika Polana"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVENIA/Prekmurje.pdf",
+    "gpkg_rel": "QGIS/SLOVENIA/Prekmurje.gpkg"
+  },
+  {
+    "id": "si-zgp-dolenjska",
+    "name": "Dolenjska",
+    "layer": "Dolenjska ZGP",
+    "country": "SLOVENIA",
+    "region": "Posavje",
+    "category": "ZGP / PDO",
+    "pdo_code": "PDO-SI-A0047",
+    "decree": "Pravilnik o vinu z zaščiteno označbo porekla Dolenjska in Cviček PTP (Uradni list RS, št. 105/09)",
+    "color": "#DC143C",
+    "whites": [
+      "Kraljevina",
+      "Laški Rizling",
+      "Rumeni Plavec"
+    ],
+    "reds": [
+      "Žametovka (Žametna črnina)",
+      "Modra Frankinja",
+      "Modri Pinot"
+    ],
+    "desc": "Cuna exclusiva del legendario Cviček PTP, un vino protegido único en el mundo elaborado mediante el ensamblaje de uvas tintas (Žametovka y Modra Frankinja) y blancas (Kraljevina y Laški Rizling). De color rubí claro traslúcido, acidez sumamente refrescante y bajo grado alcohólico (8.5 - 10% vol).",
+    "municipalities": [
+      "Novo mesto",
+      "Trebnje",
+      "Šentjernej",
+      "Škocjan",
+      "Mirna Peč",
+      "Mokronog-Trebelno",
+      "Šmarješke Toplice",
+      "Žužemberk",
+      "Straža",
+      "Mirna",
+      "Kostanjevica na Krki",
+      "Ivančna Gorica",
+      "Grosuplje",
+      "Dobrepolje"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVENIA/Dolenjska.pdf",
+    "gpkg_rel": "QGIS/SLOVENIA/Dolenjska.gpkg"
+  },
+  {
+    "id": "si-zgp-bizeljsko-sremic",
+    "name": "Bizeljsko-Sremič",
+    "layer": "Bizeljsko-Sremič ZGP",
+    "country": "SLOVENIA",
+    "region": "Posavje",
+    "category": "ZGP / PDO",
+    "pdo_code": "PDO-SI-A0048",
+    "decree": "Pravilnik o vinu z zaščiteno označbo porekla Bizeljsko-Sremič (Uradni list RS, št. 105/09)",
+    "color": "#D4AF37",
+    "whites": [
+      "Beli Bizeljčan PTP",
+      "Laški Rizling",
+      "Rumeni Plavec",
+      "Sauvignon",
+      "Chardonnay"
+    ],
+    "reds": [
+      "Modra Frankinja",
+      "Rdeči Bizeljčan PTP",
+      "Žametovka",
+      "Modri Pinot"
+    ],
+    "desc": "Comarca situada a lo largo de la ribera izquierda del río Sava y las colinas de Bizeljsko fronterizas con Croacia. Famosa por sus tradicionales cuevas subterráneas de arena (repnice), sus espumosos de calidad de método tradicional y la expresión mineral de la Modra Frankinja.",
+    "municipalities": [
+      "Brežice",
+      "Krško",
+      "Sevnica",
+      "Bistrica ob Sotli"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVENIA/Bizeljsko_Sremic.pdf",
+    "gpkg_rel": "QGIS/SLOVENIA/Bizeljsko_Sremic.gpkg"
+  },
+  {
+    "id": "si-zgp-bela-krajina",
+    "name": "Bela Krajina",
+    "layer": "Bela Krajina ZGP",
+    "country": "SLOVENIA",
+    "region": "Posavje",
+    "category": "ZGP / PDO",
+    "pdo_code": "PDO-SI-A0049",
+    "decree": "Pravilnik o vinu z zaščiteno označbo porekla Bela Krajina (Uradni list RS, št. 105/09)",
+    "color": "#FF6347",
+    "whites": [
+      "Belokranjec PTP",
+      "Laški Rizling",
+      "Rumeni Muškat",
+      "Sauvignon"
+    ],
+    "reds": [
+      "Metliška Črnina PTP",
+      "Modra Frankinja",
+      "Žametovka"
+    ],
+    "desc": "La comarca más meridional de Posavje, resguardada tras los montes Gorjanci junto al río Kolpa. Tierras cálidas de abedules blancos y colinas vinícolas que producen dos vinos protegidos célebres: el tinto Metliška Črnina PTP y el coupage blanco Belokranjec PTP, además de cosechas tardías e icewines galardonados.",
+    "municipalities": [
+      "Črnomelj",
+      "Metlika",
+      "Semič"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVENIA/Bela_Krajina.pdf",
+    "gpkg_rel": "QGIS/SLOVENIA/Bela_Krajina.gpkg"
+  }
+]

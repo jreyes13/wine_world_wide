@@ -1,0 +1,183 @@
+[
+  {
+    "id": "sk-chop-malokarpatska",
+    "name": "Malokarpatská",
+    "layer": "Malokarpatská CHOP",
+    "country": "Eslovaquia",
+    "country_code": "SK",
+    "adm0_a3": "SVK",
+    "region": "Malokarpatská vinohradnícka oblasť",
+    "category": "CHOP / PDO",
+    "pdo_code": "PDO-SK-A1420",
+    "decree": "Zákon č. 313/2009 Z. z. o vinohradníctve a vinárstve / Vyhláška 350/2009 Z. z.",
+    "color": "#722F37",
+    "whites": [
+      "Rizling vlašský",
+      "Veltlínske zelené",
+      "Rizling rýnsky",
+      "Rulandské biele",
+      "Muškát moravský"
+    ],
+    "reds": [
+      "Frankovka modrá",
+      "Svätovavrinecké (St. Laurent)",
+      "Modrý Portugal",
+      "Alibernet"
+    ],
+    "desc": "La región vitivinícola más célebre e histórica de Eslovaquia, extendida a lo largo de las laderas surorientales de los Pequeños Cárpatos desde Bratislava hasta Trnava. Famosa por sus ciudades reales de vino (Pezinok, Modra, Svätý Jur), sus suelos graníticos y esquistosos, y la legendaria Frankovka modrá apreciada por la emperatriz María Teresa.",
+    "units": [
+      "Bratislavský",
+      "Trnavský"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVAKIA/Malokarpatska.pdf",
+    "gpkg_rel": "QGIS/SLOVAKIA/Malokarpatska.gpkg"
+  },
+  {
+    "id": "sk-chop-juznoslovenska",
+    "name": "Južnoslovenská",
+    "layer": "Južnoslovenská CHOP",
+    "country": "Eslovaquia",
+    "country_code": "SK",
+    "adm0_a3": "SVK",
+    "region": "Južnoslovenská vinohradnícka oblasť",
+    "category": "CHOP / PDO",
+    "pdo_code": "PDO-SK-A1421",
+    "decree": "Zákon č. 313/2009 Z. z. o vinohradníctve a vinárstve",
+    "color": "#8B0000",
+    "whites": [
+      "Chardonnay",
+      "Sauvignon",
+      "Rulandské šedé",
+      "Tramín červený"
+    ],
+    "reds": [
+      "Dunaj",
+      "Hron",
+      "Cabernet Sauvignon",
+      "Frankovka modrá",
+      "Alibernet"
+    ],
+    "desc": "La región más meridional y cálida de Eslovaquia, situada en la fértil llanura del Danubio junto a la frontera húngara (Hurbanovo, Komárno, Štúrovo). Gran cuna de los prestigiosos cruces de uvas autóctonas eslovacas creados por Dorota Pospíšilová, en especial la célebre variedad Dunaj (cruce de Muscat Bouschet x Oporto x St. Laurent) y Hron.",
+    "units": [
+      "Nitriansky"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVAKIA/Juznoslovenska.pdf",
+    "gpkg_rel": "QGIS/SLOVAKIA/Juznoslovenska.gpkg"
+  },
+  {
+    "id": "sk-chop-nitrianska",
+    "name": "Nitrianska",
+    "layer": "Nitrianska CHOP",
+    "country": "Eslovaquia",
+    "country_code": "SK",
+    "adm0_a3": "SVK",
+    "region": "Nitrianska vinohradnícka oblasť",
+    "category": "CHOP / PDO",
+    "pdo_code": "PDO-SK-A1422",
+    "decree": "Zákon č. 313/2009 Z. z. o vinohradníctve a vinárstve",
+    "color": "#4682B4",
+    "whites": [
+      "Silvánske zelené",
+      "Rizling rýnsky",
+      "Veltlínske zelené",
+      "Fetească Regală"
+    ],
+    "reds": [
+      "Frankovka modrá",
+      "Svätovavrinecké",
+      "Cabernet Franc"
+    ],
+    "desc": "Región de enorme diversidad geológica y climática centrada alrededor de la histórica ciudad episcopal de Nitra, el monte Zobor y Vráble. Destaca por sus viñedos de ladera sobre suelos calcáreos y loess, produciendo vinos blancos minerales de Silvánske zelené y tintos de gran finura.",
+    "units": [
+      "Trenciansky"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVAKIA/Nitrianska.pdf",
+    "gpkg_rel": "QGIS/SLOVAKIA/Nitrianska.gpkg"
+  },
+  {
+    "id": "sk-chop-stredoslovenska",
+    "name": "Stredoslovenská",
+    "layer": "Stredoslovenská CHOP",
+    "country": "Eslovaquia",
+    "country_code": "SK",
+    "adm0_a3": "SVK",
+    "region": "Stredoslovenská vinohradnícka oblasť",
+    "category": "CHOP / PDO",
+    "pdo_code": "PDO-SK-A1423",
+    "decree": "Zákon č. 313/2009 Z. z. o vinohradníctve a vinárstve",
+    "color": "#2E8B57",
+    "whites": [
+      "Tramín červený",
+      "Rulandské biele",
+      "Rizling vlašský"
+    ],
+    "reds": [
+      "Frankovka modrá",
+      "Alibernet",
+      "Rulandské modré"
+    ],
+    "desc": "Comprende las estribaciones meridionales del macizo volcánico de Štiavnica y la cuenca de Krupina y Modrý Kameň. Los suelos volcánicos andesíticos confieren una mineralidad punzante y alta frescura a variedades aromáticas como Tramín červený y tintos estructurados.",
+    "units": [
+      "Banskobystrický",
+      "Žilinský"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVAKIA/Stredoslovenska.pdf",
+    "gpkg_rel": "QGIS/SLOVAKIA/Stredoslovenska.gpkg"
+  },
+  {
+    "id": "sk-chop-vychodoslovenska",
+    "name": "Východoslovenská",
+    "layer": "Východoslovenská CHOP",
+    "country": "Eslovaquia",
+    "country_code": "SK",
+    "adm0_a3": "SVK",
+    "region": "Východoslovenská vinohradnícka oblasť",
+    "category": "CHOP / PDO",
+    "pdo_code": "PDO-SK-A1424",
+    "decree": "Zákon č. 313/2009 Z. z. o vinohradníctve a vinárstve",
+    "color": "#9370DB",
+    "whites": [
+      "Müller-Thurgau",
+      "Rizling vlašský",
+      "Sauvignon",
+      "Chardonnay"
+    ],
+    "reds": [
+      "Frankovka modrá",
+      "Svätovavrinecké",
+      "Rulandské modré"
+    ],
+    "desc": "La comarca oriental sobre las laderas de los montes Vihorlat y el valle de Sobrance y Tibava cerca de la frontera ucraniana. Clima continental con veranos cálidos y suelos de toba volcánica que aportan gran personalidad y perfil especiado a los vinos.",
+    "units": [
+      "Prešov"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVAKIA/Vychodoslovenska.pdf",
+    "gpkg_rel": "QGIS/SLOVAKIA/Vychodoslovenska.gpkg"
+  },
+  {
+    "id": "sk-chop-tokaj",
+    "name": "Tokaj",
+    "layer": "Tokaj CHOP",
+    "country": "Eslovaquia",
+    "country_code": "SK",
+    "adm0_a3": "SVK",
+    "region": "Vinohradnícka oblasť Tokaj",
+    "category": "CHOP / PDO",
+    "pdo_code": "PDO-SK-A1425",
+    "decree": "Zákon č. 313/2009 Z. z. (§ 34 - Tokajská vinohradnícka oblasť) / eAmbrosia",
+    "color": "#C5A059",
+    "whites": [
+      "Furmint",
+      "Lipovina (Hárslevelű)",
+      "Muškát žltý (Sárgamuskotály)",
+      "Zéta"
+    ],
+    "reds": [],
+    "desc": "La parte septentrional demarcada de la mítica región histórica de Tokaj en el distrito de Trebišov (Zemplín), amparando los municipios oficiales de Čerhov, Černochov, Malá Tŕňa, Slovenské Nové Mesto, Veľká Bara, Veľká Tŕňa y Viničky. Cuna de los legendarios Tokajský výber (3 a 6 putňový), Tokajské samorodné y la mística Tokajská esencia, envejecidos en galerías de toba volcánica cubiertas por el hongo Cladosporium cellare.",
+    "units": [
+      "Košický"
+    ],
+    "pdf_rel": "DOWNs/DOCs/SLOVAKIA/Tokaj.pdf",
+    "gpkg_rel": "QGIS/SLOVAKIA/Tokaj.gpkg"
+  }
+]

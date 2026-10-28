@@ -1,0 +1,146 @@
+[
+  {
+    "id": "cy-pdo-commandaria",
+    "name": "Commandaria",
+    "layer": "Commandaria PDO",
+    "country": "Chipre",
+    "country_code": "CY",
+    "adm0_a3": "CYP",
+    "region": "Commandaria (Troodos Foothills)",
+    "category": "PDO / POP",
+    "pdo_code": "PDO-CY-A0001 (Κουμανδαρία / Commandaria)",
+    "decree": "Department of Agriculture / Law on the Regulation of Wine Production (Law 61(I)/2004)",
+    "color": "#C5A059",
+    "whites": [
+      "Xinisteri (Ξυνιστέρι)"
+    ],
+    "reds": [
+      "Mavro (Μαύρο)"
+    ],
+    "desc": "El vino con nombre demarcado más antiguo del mundo que todavía se produce ininterrumpidamente, documentado desde el 800 a.C. por Hesíodo (\"Nama de Chipre\") y bautizado en 1191 por Ricardo Corazón de León en su boda en Limassol como \"el vino de los reyes y el rey de los vinos\". Ampara exclusivamente 14 aldeas de montaña en Limassol. Uvas asoleadas en esteras tras la vendimia y envejecidas mediante el sistema tradicional de solera \"mana\" en barricas de roble durante años.",
+    "units": [
+      "Limassol"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CYPRUS/Commandaria.pdf",
+    "gpkg_rel": "QGIS/CYPRUS/Commandaria.gpkg"
+  },
+  {
+    "id": "cy-pdo-krasochoria-lemesou",
+    "name": "Krasochoria Lemesou",
+    "layer": "Krasochoria Lemesou PDO",
+    "country": "Chipre",
+    "country_code": "CY",
+    "adm0_a3": "CYP",
+    "region": "Krasochoria Lemesou (Limassol Wine Villages)",
+    "category": "PDO / POP",
+    "pdo_code": "PDO-CY-A0002 (Κρασοχώρια Λεμεσού)",
+    "decree": "Department of Agriculture / Law 61(I)/2004",
+    "color": "#8B0000",
+    "whites": [
+      "Xinisteri",
+      "Promara",
+      "Spourtiko"
+    ],
+    "reds": [
+      "Maratheftiko",
+      "Mavro",
+      "Lefkada",
+      "Yiannoudi",
+      "Shiraz",
+      "Cabernet Sauvignon"
+    ],
+    "desc": "Los pintorescos \"Pueblos del Vino de Limassol\" (Omodos, Koilani, Vouni, Vasa, Arsos) en las laderas meridionales de Troodos entre 500 y 1.100 m. Suelos calcáreos y margosos. Cuna de tintos de gran carácter de la noble y compleja uva autóctona Maratheftiko (de floración exclusivamente femenina) y blancos cítricos y minerales de Xinisteri.",
+    "units": [
+      "Larnaca"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CYPRUS/Krasochoria_Lemesou.pdf",
+    "gpkg_rel": "QGIS/CYPRUS/Krasochoria_Lemesou.gpkg"
+  },
+  {
+    "id": "cy-pdo-laona-akamas",
+    "name": "Laona Akamas",
+    "layer": "Laona Akamas PDO",
+    "country": "Chipre",
+    "country_code": "CY",
+    "adm0_a3": "CYP",
+    "region": "Laona Akamas (Paphos)",
+    "category": "PDO / POP",
+    "pdo_code": "PDO-CY-A0003 (Λαόνα Ακάμα)",
+    "decree": "Department of Agriculture / Law 61(I)/2004",
+    "color": "#4682B4",
+    "whites": [
+      "Xinisteri",
+      "Morokanella"
+    ],
+    "reds": [
+      "Maratheftiko",
+      "Mavro",
+      "Cabernet Sauvignon",
+      "Shiraz"
+    ],
+    "desc": "La meseta noroccidental de la península protegida de Akamas en Pafos (Kathikas, Droushia, Ineia). La elevación sobre 650 m y la proximidad al mar confieren brisas constantes y noches frescas que preservan una acidez crujiente y frescura salina inigualable en los vinos blancos de Xinisteri.",
+    "units": [
+      "Paphos"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CYPRUS/Laona_Akamas.pdf",
+    "gpkg_rel": "QGIS/CYPRUS/Laona_Akamas.gpkg"
+  },
+  {
+    "id": "cy-pdo-vouni-panayias",
+    "name": "Vouni Panayias - Ambelitis",
+    "layer": "Vouni Panayias PDO",
+    "country": "Chipre",
+    "country_code": "CY",
+    "adm0_a3": "CYP",
+    "region": "Vouni Panayias - Ambelitis (High Paphos)",
+    "category": "PDO / POP",
+    "pdo_code": "PDO-CY-A0004 (Βουνί Παναγιάς - Αμπελίτης)",
+    "decree": "Department of Agriculture / Law 61(I)/2004",
+    "color": "#2E8B57",
+    "whites": [
+      "Xinisteri",
+      "Spourtiko",
+      "Promara",
+      "Morokanella"
+    ],
+    "reds": [
+      "Maratheftiko",
+      "Mavro",
+      "Yiannoudi"
+    ],
+    "desc": "Las tierras altas montañosas de Pafos entre 800 y 1.150 m en torno al histórico monasterio de Chrysorrogiatissa. Viñas en vaso centenarias en pie franco (inmunes a la filoxera) sobre laderas de esquisto y yeso. Bastión pionero de la recuperación de microvinificaciones de uvas ancestrales chipriotas (Spourtiko, Promara, Morokanella).",
+    "units": [
+      "Nicosia"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CYPRUS/Vouni_Panayias.pdf",
+    "gpkg_rel": "QGIS/CYPRUS/Vouni_Panayias.gpkg"
+  },
+  {
+    "id": "cy-pdo-pitsilia",
+    "name": "Pitsilia",
+    "layer": "Pitsilia PDO",
+    "country": "Chipre",
+    "country_code": "CY",
+    "adm0_a3": "CYP",
+    "region": "Pitsilia (Troodos Peaks)",
+    "category": "PDO / POP",
+    "pdo_code": "PDO-CY-A0005 (Πιτσιλιά)",
+    "decree": "Department of Agriculture / Law 61(I)/2004",
+    "color": "#800020",
+    "whites": [
+      "Xinisteri"
+    ],
+    "reds": [
+      "Mavro",
+      "Maratheftiko",
+      "Shiraz",
+      "Cabernet Sauvignon"
+    ],
+    "desc": "Los viñedos más altos de Chipre y de toda la Unión Europea, encaramados en las cumbres escarpadas de Troodos (picos Madari y Papoutsa) a altitudes de hasta 1.500 metros en Kyperounta y Pelendri. Viñas en terrazas estrechas rodeadas de bosques de pinos y hierbas silvestres sobre suelos de ofiolita y esquisto volcánico.",
+    "units": [
+      "Famagusta"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CYPRUS/Pitsilia.pdf",
+    "gpkg_rel": "QGIS/CYPRUS/Pitsilia.gpkg"
+  }
+]

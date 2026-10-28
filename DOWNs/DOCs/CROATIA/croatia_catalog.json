@@ -1,0 +1,169 @@
+[
+  {
+    "id": "hr-zoi-dalmacija",
+    "name": "Dalmacija",
+    "layer": "Dalmacija ZOI",
+    "country": "CROATIA",
+    "region": "Dalmacija",
+    "category": "ZOI / PDO",
+    "pdo_code": "PDO-HR-A1650 (Dalmacija, Dingač, Postup)",
+    "decree": "Pravilnik o zaštićenim oznakama izvornosti i zemljopisnog podrijetla (NN 141/10) / Zakon o vinu",
+    "color": "#800020",
+    "whites": [
+      "Pošip",
+      "Grk",
+      "Maraština (Rukatac)",
+      "Malvasija Dubrovačka",
+      "Vugava",
+      "Kujundžuša",
+      "Debit"
+    ],
+    "reds": [
+      "Plavac Mali",
+      "Babić",
+      "Crljenak Kaštelanski (Tribidrag / Zinfandel)",
+      "Plavina",
+      "Lasina"
+    ],
+    "desc": "La costa e islas adriáticas meridionales de Croacia. Cuna histórica del mítico Dingač (1961, primera denominación protegida croata) y Postup en las laderas empinadas de la península de Pelješac, así como de las viñas en terrazas de piedra de Primošten (Babić) y la cuna genética universal del Zinfandel (Crljenak Kaštelanski / Tribidrag en Kaštela). Vinos de extraordinaria potencia solar, mineralidad marina y caliza.",
+    "subregions": [
+      "Dingač (ZOI)",
+      "Postup (ZOI)",
+      "Sjeverna Dalmacija",
+      "Srednja i Južna Dalmacija",
+      "Dalmatinska zagora"
+    ],
+    "counties": [
+      "Dubrovačko-neretvanska",
+      "Splitsko-dalmatinska",
+      "Šibensko-kninska",
+      "Zadarska"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CROATIA/Dalmacija.pdf",
+    "gpkg_rel": "QGIS/CROATIA/Dalmacija.gpkg"
+  },
+  {
+    "id": "hr-zoi-istra-kvarner",
+    "name": "Hrvatska Istra i Kvarner",
+    "layer": "Istra i Kvarner ZOI",
+    "country": "CROATIA",
+    "region": "Istra i Kvarner",
+    "category": "ZOI / PDO",
+    "pdo_code": "PDO-HR-A1651 (Istra, Hrvatsko Primorje)",
+    "decree": "Pravilnik o vinu i zaštićenim oznakama izvornosti za Istru i Kvarner (NN 141/10)",
+    "color": "#4682B4",
+    "whites": [
+      "Malvazija Istarska",
+      "Žlahtina (Vrbnička)",
+      "Muškat Momjanski",
+      "Chardonnay",
+      "Sauvignon"
+    ],
+    "reds": [
+      "Teran",
+      "Refošk",
+      "Borgonja",
+      "Sansigot (Sušćan)",
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "desc": "Península de Istria y archipiélago del golfo de Kvarner (Krk, Cres, Rab, Pag). Famosa por sus tres tipos de suelos característicos (tierra blanca caliza, tierra gris de flysch y tierra roja ferruginosa). La Malvazija Istarska (fresca, mineral y estructurada) y el Teran (tinto kárstico vibrante) marcan el compás, junto a la autóctona Žlahtina del valle de Vrbnik en la isla de Krk.",
+    "subregions": [
+      "Hrvatska Istra (ZOI)",
+      "Hrvatsko Primorje (ZOI)",
+      "Kvarnerski otoci"
+    ],
+    "counties": [
+      "Istarska",
+      "Primorsko-goranska",
+      "Ličko-senjska"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CROATIA/Istra_i_Kvarner.pdf",
+    "gpkg_rel": "QGIS/CROATIA/Istra_i_Kvarner.gpkg"
+  },
+  {
+    "id": "hr-zoi-slavonija-podunavlje",
+    "name": "Slavonija i Hrvatsko Podunavlje",
+    "layer": "Slavonija i Podunavlje ZOI",
+    "country": "CROATIA",
+    "region": "Istočna kontinentalna Hrvatska",
+    "category": "ZOI / PDO",
+    "pdo_code": "PDO-HR-A1652 (Slavonija, Hrvatsko Podunavlje)",
+    "decree": "Pravilnik o vinu Istočne kontinentalne Hrvatske (NN 141/10)",
+    "color": "#C5A059",
+    "whites": [
+      "Graševina (Welschriesling)",
+      "Traminac (Gewürztraminer)",
+      "Chardonnay",
+      "Pinot Sivi",
+      "Rajnski Rizling"
+    ],
+    "reds": [
+      "Frankovka (Blaufränkisch)",
+      "Zweigelt",
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Pinot Crni"
+    ],
+    "desc": "La gran región vinícola continental oriental entre los ríos Danubio, Drava y Sava. El corazón palpitante de la Graševina, variedad reina de Croacia que aquí produce desde vinos jóvenes crujientes hasta complejas cosechas tardías y vinos de hielo en Kutjevo y Đakovo. En Ilok (Srijem), el legendario Traminac servido en la coronación de la reina Isabel II de Inglaterra en 1953.",
+    "subregions": [
+      "Slavonija (ZOI)",
+      "Hrvatsko Podunavlje (ZOI: Srijem/Ilok, Baranja, Erdut)"
+    ],
+    "counties": [
+      "Osječko-baranjska",
+      "Vukovarsko-srijemska",
+      "Požeško-slavonska",
+      "Brodsko-posavska",
+      "Virovitičko-podravska"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CROATIA/Slavonija_i_Podunavlje.pdf",
+    "gpkg_rel": "QGIS/CROATIA/Slavonija_i_Podunavlje.gpkg"
+  },
+  {
+    "id": "hr-zoi-bregovita-hrvatska",
+    "name": "Središnja bregovita Hrvatska",
+    "layer": "Bregovita Hrvatska ZOI",
+    "country": "CROATIA",
+    "region": "Središnja bregovita Hrvatska",
+    "category": "ZOI / PDO",
+    "pdo_code": "PDO-HR-A1653 (Plešivica, Zagorje-Međimurje, Prigorje-Bilogora, Moslavina, Pokuplje)",
+    "decree": "Pravilnik o regionalnim oznakama Središnje bregovite Hrvatske (NN 141/10)",
+    "color": "#2E8B57",
+    "whites": [
+      "Škrlet",
+      "Kraljevina",
+      "Pušipel (Šipon/Furmint)",
+      "Rajnski Rizling",
+      "Sauvignon",
+      "Chardonnay",
+      "Graševina"
+    ],
+    "reds": [
+      "Pinot Crni (Pinot Noir)",
+      "Portugizac",
+      "Frankovka"
+    ],
+    "desc": "Tierras onduladas y colinas del centro-norte de Croacia en torno a Zagreb. Incluye Plešivica (la \"Champaña croata\", epicentro de los mejores espumosos de método tradicional y vinos en ánfora qvevri de maceración prolongada), Moslavina (hogar exclusivo de la uva autóctona Škrlet), Prigorje (Zelina y la uva Kraljevina) y Zagorje-Međimurje (Pušipel).",
+    "subregions": [
+      "Plešivica (ZOI)",
+      "Zagorje - Međimurje (ZOI)",
+      "Prigorje - Bilogora (ZOI)",
+      "Moslavina (ZOI)",
+      "Pokuplje (ZOI)"
+    ],
+    "counties": [
+      "Zagreb",
+      "Zagrebačka",
+      "Krapinsko-zagorska",
+      "Varaždinska",
+      "Međimurska",
+      "Koprivničko-križevačka",
+      "Bjelovarsko-bilogorska",
+      "Sisačko-moslavačka",
+      "Karlovačka"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CROATIA/Bregovita_Hrvatska.pdf",
+    "gpkg_rel": "QGIS/CROATIA/Bregovita_Hrvatska.gpkg"
+  }
+]

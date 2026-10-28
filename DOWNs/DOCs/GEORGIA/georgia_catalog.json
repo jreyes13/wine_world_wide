@@ -1,0 +1,653 @@
+[
+  {
+    "id": "ge-pdo-tsinandali",
+    "name": "Tsinandali",
+    "layer": "Tsinandali PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-01",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 43 / Sakpatenti Reg. No. 1",
+    "color": "#DAA520",
+    "whites": [
+      "Rkatsiteli",
+      "Kakhuri Mtsvane"
+    ],
+    "reds": [],
+    "desc": "La cuna del vino blanco clásico georgiano de estilo europeo, creado en 1886 por el príncipe Aleksandre Chavchavadze en su hacienda señorial de Tsinandali. Producido en la margen derecha del río Alazani con Rkatsiteli (mín. 85%) y Kakhuri Mtsvane (hasta 15%), envejecido durante un mínimo de 2 años con al menos 4 meses en roble, ofreciendo un bouquet floral, notas de durazno blanco, frutos secos y una acidez mineral refinada.",
+    "districts": [
+      "Telavi",
+      "Kvareli"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Tsinandali.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Tsinandali.gpkg"
+  },
+  {
+    "id": "ge-pdo-mukuzani",
+    "name": "Mukuzani",
+    "layer": "Mukuzani PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-02",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 44 / Sakpatenti Reg. No. 2",
+    "color": "#800000",
+    "whites": [],
+    "reds": [
+      "Saperavi"
+    ],
+    "desc": "El rey de los tintos secos de guarda de Georgia. Elaborado exclusivamente al 100% con uvas nobles Saperavi procedentes del microterruño especial de Mukuzani y Teliani sobre suelos aluviales pedregosos ricos en carbonatos. Envejecido tradicionalmente durante al menos 3 años con un mínimo de un año completo en barricas de roble, entrega un color rubí profundo casi opaco, taninos firmes y aterciopelados, y notas complejas de moras silvestres, cerezas negras, tabaco, cedro y pimienta negra.",
+    "districts": [
+      "Gurjaani"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Mukuzani.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Mukuzani.gpkg"
+  },
+  {
+    "id": "ge-pdo-kindzmarauli",
+    "name": "Kindzmarauli",
+    "layer": "Kindzmarauli PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-03",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 45 / Sakpatenti Reg. No. 3",
+    "color": "#8B0000",
+    "whites": [],
+    "reds": [
+      "Saperavi"
+    ],
+    "desc": "Célebre tinto naturalmente semidulce elaborado al 100% con uvas Saperavi sobre los abanicos aluviales del río Duruji al pie de las montañas del Cáucaso. El suelo negro de esquisto y grava almacena calor permitiendo una maduración extraordinaria con alta concentración natural de azúcar residual, resultando en un vino aterciopelado de color púrpura oscuro con aromas voluptuosos de cerezas maduras, granada, ciruelas pasas y una acidez refrescante que equilibra el dulzor natural.",
+    "districts": [
+      "Kvareli"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Kindzmarauli.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Kindzmarauli.gpkg"
+  },
+  {
+    "id": "ge-pdo-napareuli",
+    "name": "Napareuli",
+    "layer": "Napareuli PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-04",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 46 / Sakpatenti Reg. No. 4",
+    "color": "#8B008B",
+    "whites": [
+      "Rkatsiteli"
+    ],
+    "reds": [
+      "Saperavi"
+    ],
+    "desc": "Microzona situada en la margen izquierda del río Alazani en las laderas meridionales del Gran Cáucaso. Produce tanto tintos secos estructurados de Saperavi (envejecidos en roble con notas de frutos del bosque, especias y cuero) como blancos secos elegantes y frescos de Rkatsiteli sobre suelos aluviales-carbonatados bien drenados.",
+    "districts": [
+      "Telavi"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Napareuli.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Napareuli.gpkg"
+  },
+  {
+    "id": "ge-pdo-vazisubani",
+    "name": "Vazisubani",
+    "layer": "Vazisubani PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-05",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 47 / Sakpatenti Reg. No. 5",
+    "color": "#BDB76B",
+    "whites": [
+      "Rkatsiteli",
+      "Kakhuri Mtsvane"
+    ],
+    "reds": [],
+    "desc": "Vino blanco seco elegante producido a partir del clásico coupage de Rkatsiteli (85%) y Kakhuri Mtsvane (15%) cultivados en las suaves colinas del distrito de Gurjaani. Destaca por su color pajizo claro con reflejos verdosos, aromas florales de manzanilla, melón maduro y manzana verde, con un paladar armónico, fresco y persistente.",
+    "districts": [
+      "Gurjaani"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Vazisubani.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Vazisubani.gpkg"
+  },
+  {
+    "id": "ge-pdo-akhasheni",
+    "name": "Akhasheni",
+    "layer": "Akhasheni PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-06",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 48 / Sakpatenti Reg. No. 6",
+    "color": "#A52A2A",
+    "whites": [],
+    "reds": [
+      "Saperavi"
+    ],
+    "desc": "Distinguido tinto naturalmente semidulce elaborado al 100% con uvas Saperavi recolectadas en plena madurez en el viñedo histórico de Akhasheni (Gurjaani). Exhibe un color rubí granate profundo, textura sedosa, ricos sabores a moras, frambuesas confitadas y chocolate, con un retrogusto armónico y elegante.",
+    "districts": [
+      "Gurjaani"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Akhasheni.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Akhasheni.gpkg"
+  },
+  {
+    "id": "ge-pdo-teliani",
+    "name": "Teliani",
+    "layer": "Teliani PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-07",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 49 / Sakpatenti Reg. No. 7",
+    "color": "#4A0E17",
+    "whites": [],
+    "reds": [
+      "Cabernet Sauvignon"
+    ],
+    "desc": "Histórica microzona entre Telavi y Tsinandali donde a finales del siglo XIX los enólogos franceses de la finca imperial del zar introdujeron cepas de Cabernet Sauvignon. Elaborado como tinto seco envejecido en barricas de roble durante al menos 3 años, presenta notas nobles de cassis, cedro, violetas y un tanino perfectamente pulido de corte bordelés clásico.",
+    "districts": [
+      "Telavi"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Teliani.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Teliani.gpkg"
+  },
+  {
+    "id": "ge-pdo-kvareli",
+    "name": "Kvareli",
+    "layer": "Kvareli PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-08",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 50 / Sakpatenti Reg. No. 8",
+    "color": "#800020",
+    "whites": [],
+    "reds": [
+      "Saperavi"
+    ],
+    "desc": "Vino tinto seco de gran estructura elaborado al 100% con Saperavi en la margen izquierda del Alazani. Célebre por su envejecimiento en las colosales bodegas túnel excavadas en la roca del Cáucaso en Kvareli (Túnel de Khareba), donde la temperatura constante de 12-14°C permite una crianza impecable en roble con notas de cereza negra, regaliz y sotobosque.",
+    "districts": [
+      "Kvareli"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Kvareli.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Kvareli.gpkg"
+  },
+  {
+    "id": "ge-pdo-manavi",
+    "name": "Manavi",
+    "layer": "Manavi PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-09",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 51 / Sakpatenti Reg. No. 9",
+    "color": "#556B2F",
+    "whites": [
+      "Kakhuri Mtsvane",
+      "Rkatsiteli"
+    ],
+    "reds": [],
+    "desc": "Blanco seco aromático originario del distrito de Sagarejo en el valle del río Iori (Gare Kakheti). Elaborado predominantemente con la autóctona Kakhuri Mtsvane (\"Verde de Kajetia\", mín. 85%), ofrece un perfil sumamente fresco con notas cítricas de lima, albaricoque, flores blancas y una refrescante acidez crujiente.",
+    "districts": [
+      "Sagarejo"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Manavi.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Manavi.gpkg"
+  },
+  {
+    "id": "ge-pdo-kakheti",
+    "name": "Kakheti",
+    "layer": "Kakheti PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-10",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 52 / Sakpatenti Reg. No. 10",
+    "color": "#D2691E",
+    "whites": [
+      "Rkatsiteli",
+      "Kakhuri Mtsvane",
+      "Kisi",
+      "Khikhvi"
+    ],
+    "reds": [
+      "Saperavi"
+    ],
+    "desc": "La gran denominación de origen regional que ampara el corazón vitivinícola de Georgia en el fértil valle del Alazani y el Iori. Reconocida por sus tradicionales vinos de tinaja Qvevri (Kakhuri Qvevri) fermentados con hollejos, pepitas y raspones durante 6 meses bajo tierra, con su inconfundible color ámbar dorado, taninos de té negro, frutos secos, membrillo y especias orientales.",
+    "districts": [
+      "Akhmeta",
+      "Dedoplis Tskaro",
+      "Gurjaani",
+      "Kvareli",
+      "Lagodekhi",
+      "Sagarejo",
+      "Signagi",
+      "Telavi"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Kakheti.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Kakheti.gpkg"
+  },
+  {
+    "id": "ge-pdo-kotekhi",
+    "name": "Kotekhi",
+    "layer": "Kotekhi PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-11",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 53 / Sakpatenti Reg. No. 11",
+    "color": "#8B4513",
+    "whites": [
+      "Rkatsiteli"
+    ],
+    "reds": [
+      "Saperavi"
+    ],
+    "desc": "Vinos tintos y blancos secos procedentes de las terrazas fluviales de la ribera media derecha del Alazani en Gurjaani. El tinto de Saperavi destaca por su carisma frutal directo y taninos suaves, mientras que el blanco de Rkatsiteli ofrece equilibrio y frescura.",
+    "districts": [
+      "Gurjaani"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Kotekhi.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Kotekhi.gpkg"
+  },
+  {
+    "id": "ge-pdo-kardenakhi",
+    "name": "Kardenakhi",
+    "layer": "Kardenakhi PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-12",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 54 / Sakpatenti Reg. No. 12",
+    "color": "#CD853F",
+    "whites": [
+      "Rkatsiteli",
+      "Kakhuri Mtsvane",
+      "Khikhvi"
+    ],
+    "reds": [],
+    "desc": "Singular vino generoso fortificado tradicional de color ámbar oscuro, elaborado en las laderas empinadas de Kardenakhi a partir de mostos fermentados en Qvevri y madurados en barricas de roble. Ofrece ricos aromas tostados de miel, nueces, pasas e higos secos con un paladar untuoso y persistente.",
+    "districts": [
+      "Gurjaani"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Kardenakhi.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Kardenakhi.gpkg"
+  },
+  {
+    "id": "ge-pdo-tibaani",
+    "name": "Tibaani",
+    "layer": "Tibaani PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-13",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 55 / Sakpatenti Reg. No. 13",
+    "color": "#CC7722",
+    "whites": [
+      "Rkatsiteli"
+    ],
+    "reds": [],
+    "desc": "Auténtica obra maestra del vino ámbar tradicional kakhetiano en tinaja Qvevri, procedente de Tibaani en el distrito de Sighnaghi. Fermentado al 100% con Rkatsiteli con maceración pelicular completa bajo tierra, exhibe un color té ámbar profundo, notas de pasas, orejones de albaricoque, tabaco rubio y una estructura tánica vibrante y envolvente.",
+    "districts": [
+      "Signagi"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Tibaani.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Tibaani.gpkg"
+  },
+  {
+    "id": "ge-pdo-akhmeta",
+    "name": "Akhmeta",
+    "layer": "Akhmeta PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-14",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 56 / Sakpatenti Reg. No. 14",
+    "color": "#E4D00A",
+    "whites": [
+      "Kakhuri Mtsvane",
+      "Kisi"
+    ],
+    "reds": [],
+    "desc": "Situada en el curso superior del río Alazani en las faldas septentrionales del Cáucaso, esta microzona goza de noches frescas que preservan una vibrante acidez aromática. Famosa por sus blancos secos y ámbar en Qvevri de Kakhuri Mtsvane y Kisi, con intensos recuerdos a flor de sauco, melocotón y menta silvestre.",
+    "districts": [
+      "Akhmeta"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Akhmeta.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Akhmeta.gpkg"
+  },
+  {
+    "id": "ge-pdo-tsarapi",
+    "name": "Tsarapi",
+    "layer": "Tsarapi PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-15",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 57 / Sakpatenti Reg. No. 15",
+    "color": "#C5A059",
+    "whites": [
+      "Rkatsiteli",
+      "Kakhuri Mtsvane",
+      "Khikhvi"
+    ],
+    "reds": [],
+    "desc": "Denominación de microzona específica dentro de Kardenakhi consagrada al vino ámbar tradicional elaborado estrictamente en vasijas de barro Qvevri. Suelo carbonatado de loess arcilloso que otorga taninos suaves pero profundos, notas complejas de cera de abejas, cáscara de naranja confitada y almendras amargas.",
+    "districts": [
+      "Gurjaani"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Tsarapi.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Tsarapi.gpkg"
+  },
+  {
+    "id": "ge-pdo-akhoebi",
+    "name": "Akhoebi",
+    "layer": "Akhoebi PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-16",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 58 / Sakpatenti Reg. No. 16",
+    "color": "#4C0013",
+    "whites": [],
+    "reds": [
+      "Saperavi"
+    ],
+    "desc": "Exclusiva microzona de colinas cálidas de Kardenakhi reservada para grandes tintos secos de Saperavi y su subvariedad Saperavi Budeshuriseburi. Fermentado tanto en Qvevri como en tanques y criado en roble, se distingue por su color ciruela oscuro, gran densidad glicérica y aromas a cerezas en licor y clavo.",
+    "districts": [
+      "Gurjaani"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Akhoebi.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Akhoebi.gpkg"
+  },
+  {
+    "id": "ge-pdo-khashmi",
+    "name": "Khashmi",
+    "layer": "Khashmi PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-17",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 59 / Sakpatenti Reg. No. 17",
+    "color": "#722F37",
+    "whites": [],
+    "reds": [
+      "Saperavi"
+    ],
+    "desc": "Denominada históricamente Khashmi Saperavi en el valle medio del río Iori (distrito de Sagarejo). Este enclave protegido de altas montañas cuenta con suelos pedregosos de aluvión que alumbran un Saperavi único de excepcional elegancia tánica, aromáticas notas balsámicas, ciruela madura y chocolate negro.",
+    "districts": [
+      "Sagarejo"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Khashmi.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Khashmi.gpkg"
+  },
+  {
+    "id": "ge-pdo-eniseli",
+    "name": "Eniseli",
+    "layer": "Eniseli PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-18",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 60 / Sakpatenti Reg. No. 18",
+    "color": "#E5A65E",
+    "whites": [
+      "Rkatsiteli"
+    ],
+    "reds": [],
+    "desc": "Famosa microzona del distrito de Kvareli al pie de las estribaciones caucásicas. Reconocida tanto por sus blancos secos de Rkatsiteli de exquisita frescura floral como por sus históricos destilados de vino y brandies nobles envejecidos en barricas de roble de Georgia.",
+    "districts": [
+      "Kvareli"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Eniseli.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Eniseli.gpkg"
+  },
+  {
+    "id": "ge-pdo-gurjaani",
+    "name": "Gurjaani",
+    "layer": "Gurjaani PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-19",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 61 / Sakpatenti Reg. No. 19",
+    "color": "#C3B091",
+    "whites": [
+      "Rkatsiteli",
+      "Kakhuri Mtsvane"
+    ],
+    "reds": [],
+    "desc": "Uno de los centros neurálgicos históricos del vino georgiano en la vertiente noreste de la cordillera de Tsiv-Gombori. Producido con Rkatsiteli y Kakhuri Mtsvane, envejecido en barricas de roble durante 3 años, presenta un bouquet complejo y especiado con tonos amargos característicos y agradables en el final.",
+    "districts": [
+      "Gurjaani"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Gurjaani.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Gurjaani.gpkg"
+  },
+  {
+    "id": "ge-pdo-maghraani",
+    "name": "Maghraani",
+    "layer": "Maghraani PDO",
+    "country": "GEORGIA",
+    "region": "Kakheti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-20",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 62 / Sakpatenti Reg. No. 20",
+    "color": "#FFD700",
+    "whites": [
+      "Kisi",
+      "Kakhuri Mtsvane"
+    ],
+    "reds": [],
+    "desc": "Microzona de alta insolación y brisas de montaña en el valle del Alazani en Akhmeta. Especializada en la variedad autóctona Kisi vinificada tradicionalmente en Qvevri, ofreciendo vinos ambarinos de gran finura con notas de pera madura, heno seco, flores de acacia y nueces tostadas.",
+    "districts": [
+      "Akhmeta"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Maghraani.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Maghraani.gpkg"
+  },
+  {
+    "id": "ge-pdo-khvanchkara",
+    "name": "Khvanchkara",
+    "layer": "Khvanchkara PDO",
+    "country": "GEORGIA",
+    "region": "Racha-Lechkhumi",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-21",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 63 / Sakpatenti Reg. No. 21",
+    "color": "#900C3F",
+    "whites": [],
+    "reds": [
+      "Aleksandrouli",
+      "Mujureteli"
+    ],
+    "desc": "La joya indiscutible de las montañas occidentales de Racha en el desfiladero del río Rioni. Elaborado con las escasas y preciadas variedades Aleksandrouli (mín. 50%) y Mujureteli sobre empinadas terrazas calizas bañadas por nieblas matinales. Es un tinto naturalmente semidulce de color rubí brillante, con notas aterciopeladas de frambuesas silvestres, fresas, violetas y granada.",
+    "districts": [
+      "Ambrolauri"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Khvanchkara.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Khvanchkara.gpkg"
+  },
+  {
+    "id": "ge-pdo-tvishi",
+    "name": "Tvishi",
+    "layer": "Tvishi PDO",
+    "country": "GEORGIA",
+    "region": "Racha-Lechkhumi",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-22",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 64 / Sakpatenti Reg. No. 22",
+    "color": "#7FFF00",
+    "whites": [
+      "Tsolikouri"
+    ],
+    "reds": [],
+    "desc": "Legendario blanco naturalmente semidulce procedente de la garganta del río Rioni en Lechkhumi (Tsageri). Elaborado al 100% con la cepa Tsolikouri sobre laderas kársticas calizas de alta pendiente. Deslumbra por su frescura frutal chispeante, tonos pajizos dorados y aromas seductores de membrillo, piña, melocotón y miel de flores de montaña.",
+    "districts": [
+      "Tsageri"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Tvishi.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Tvishi.gpkg"
+  },
+  {
+    "id": "ge-pdo-usakhelouri",
+    "name": "Usakhelouri",
+    "layer": "Usakhelouri PDO",
+    "country": "GEORGIA",
+    "region": "Racha-Lechkhumi",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-23",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 65 / Sakpatenti Reg. No. 23",
+    "color": "#581845",
+    "whites": [],
+    "reds": [
+      "Usakhelouri"
+    ],
+    "desc": "Uno de los vinos tintos más exclusivos y caros del planeta, elaborado a partir de la uva autóctona Usakhelouri (\"Sin Nombre\") en las terrazas vertiginosas de Tsageri sobre margas calizas. Producido en cantidades minúsculas en estilo naturalmente semidulce, ofrece un color púrpura oscuro y una sinfonía aromática de cerezas negras, bayas de bosque, menta y pimienta dulce con un equilibrio azúcar-acidez insuperable.",
+    "districts": [
+      "Tsageri"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Usakhelouri.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Usakhelouri.gpkg"
+  },
+  {
+    "id": "ge-pdo-atenuri",
+    "name": "Atenuri",
+    "layer": "Atenuri PDO",
+    "country": "GEORGIA",
+    "region": "Shida Kartli",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-24",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 66 / Sakpatenti Reg. No. 24",
+    "color": "#ADFF2F",
+    "whites": [
+      "Chinuri",
+      "Goruli Mtsvane",
+      "Aligote"
+    ],
+    "reds": [],
+    "desc": "Famoso vino espumoso y blanco seco producido en la escarpada garganta del río Tana en Ateni (Gori). Las variedades autóctonas Chinuri y Goruli Mtsvane crecen sobre suelos calizos a altitudes elevadas, desarrollando una acidez natural electrizante perfecta para espumosos méthode traditionelle con finas notas cítricas y minerales.",
+    "districts": [
+      "Gori"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Atenuri.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Atenuri.gpkg"
+  },
+  {
+    "id": "ge-pdo-bolnisi",
+    "name": "Bolnisi",
+    "layer": "Bolnisi PDO",
+    "country": "GEORGIA",
+    "region": "Kvemo Kartli",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-25",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 67 / Sakpatenti Reg. No. 25",
+    "color": "#A0522D",
+    "whites": [
+      "Rkatsiteli",
+      "Chinuri",
+      "Goruli Mtsvane"
+    ],
+    "reds": [
+      "Saperavi",
+      "Asuretuli Shala",
+      "Tavkveri"
+    ],
+    "desc": "Región histórica al sur de Tiflis marcada por una rica herencia milenaria y la influencia de colonos suabos en el siglo XIX. Reconocida por sus tintos intensos de Saperavi y Asuretuli Shala, así como blancos secos y ámbar en Qvevri sobre suelos volcánicos y aluviales fértiles.",
+    "districts": [
+      "Bolnisi"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Bolnisi.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Bolnisi.gpkg"
+  },
+  {
+    "id": "ge-pdo-asuretuli-shala",
+    "name": "Asuretuli Shala",
+    "layer": "Asuretuli Shala PDO",
+    "country": "GEORGIA",
+    "region": "Kvemo Kartli",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-26",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 68 / Sakpatenti Reg. No. 26",
+    "color": "#8B0000",
+    "whites": [],
+    "reds": [
+      "Asuretuli Shala"
+    ],
+    "desc": "Uva tinta autóctona redescubierta en el histórico pueblo colonial alemán de Elisabethtal (actual Asureti, distrito de Tetritskaro). Produce un vino tinto seco de gran personalidad aromática, color rubí vivo, notas de grosellas rojas, granada, hierbas de monte y taninos sedosos y elegantes.",
+    "districts": [
+      "Tetri Tskaro"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Asuretuli_Shala.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Asuretuli_Shala.gpkg"
+  },
+  {
+    "id": "ge-pdo-sviri",
+    "name": "Sviri",
+    "layer": "Sviri PDO",
+    "country": "GEORGIA",
+    "region": "Imereti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-27",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 69 / Sakpatenti Reg. No. 27",
+    "color": "#E6C229",
+    "whites": [
+      "Tsolikouri",
+      "Tsitska",
+      "Krakhuna"
+    ],
+    "reds": [],
+    "desc": "El gran estandarte del vino blanco tradicional en el oeste de Georgia (Imereti). Vinificado con el método tradicional imeretiano en tinajas subterráneas Churi (Qvevri occidental), utilizando una maceración parcial (solo el 4-6% de hollejos y sin raspones). Da lugar a un vino amarillo dorado brillante con aromas de albaricoques amarillos, acidez tensa y un toque especiado.",
+    "districts": [
+      "Zestaponi"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Sviri.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Sviri.gpkg"
+  },
+  {
+    "id": "ge-pdo-terjola",
+    "name": "Terjola",
+    "layer": "Terjola PDO",
+    "country": "GEORGIA",
+    "region": "Imereti",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-28",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 70 / Sakpatenti Reg. No. 28",
+    "color": "#6A0DAD",
+    "whites": [
+      "Tsolikouri",
+      "Tsitska",
+      "Krakhuna"
+    ],
+    "reds": [
+      "Otskhanuri Sapere"
+    ],
+    "desc": "Microzona situada en la cuenca del río Kvirila en Imereti. Destaca por sus tintos de la rara cepa autóctona Otskhanuri Sapere (\"Tinto de Otskhana\"), famosa por su intenso color púrpura oscuro, alta acidez natural y gran capacidad de envejecimiento, así como blancos frescos y vivaces de Tsitska y Tsolikouri.",
+    "districts": [
+      "Terjola"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Terjola.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Terjola.gpkg"
+  },
+  {
+    "id": "ge-pdo-salkhino-dadiani",
+    "name": "Salkhino Dadiani",
+    "layer": "Salkhino Dadiani PDO",
+    "country": "GEORGIA",
+    "region": "Samegrelo",
+    "category": "PDO",
+    "pdo_code": "GEO-PDO-29",
+    "decree": "Law of Georgia on Vine and Wine / NWA Order No. 71 / Sakpatenti Reg. No. 29",
+    "color": "#8B0000",
+    "whites": [],
+    "reds": [
+      "Ojaleshi"
+    ],
+    "desc": "Histórico palacio de verano y viñedos de la dinastía principesca Dadiani en el cañón de Martvili en Samegrelo (Georgia occidental). Es la patria consagrada de la variedad tinta Ojaleshi (\"que crece en los árboles\"), cosechada tardíamente en noviembre tras las primeras heladas para entregar un tinto aristocrático de color rubí rubí brillante, notas de grosellas, pimienta blanca y una acidez mineral fresca y persistente.",
+    "districts": [
+      "Martvili"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GEORGIA/Salkhino_Dadiani.pdf",
+    "gpkg_rel": "QGIS/GEORGIA/Salkhino_Dadiani.gpkg"
+  }
+]

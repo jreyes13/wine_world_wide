@@ -1,0 +1,183 @@
+[
+  {
+    "id": "cz-pdo-znojemska",
+    "name": "Znojemská",
+    "layer": "Znojemská PDO",
+    "country": "CZECH REPUBLIC",
+    "region": "Morava",
+    "category": "CHOP / PDO / VOC",
+    "pdo_code": "PDO-CZ-A1038",
+    "decree": "Zákon č. 321/2004 Sb. / Vyhláška č. 254/2010 Sb. / EU eAmbrosia PDO-CZ-A1038 / VOC Znojmo",
+    "color": "#4682B4",
+    "whites": [
+      "Veltlínské zelené",
+      "Ryzlink rýnský",
+      "Sauvignon Blanc"
+    ],
+    "reds": [
+      "Svatovavřinecké",
+      "Frankovka"
+    ],
+    "desc": "Situada en el suroeste de Moravia a lo largo del río Dyje (Thaya), en la frontera con el Weinviertel austríaco. El lecho rocoso cristalino del Macizo de Bohemia y las terrazas de loess crean un terruño idóneo para blancos aromáticos y minerales de extraordinaria finura. Hogar del primer sistema VOC de la República Checa (VOC Znojmo en 2009), célebre por sus Veltlínské zelené especiados, Rieslings afilados y Sauvignon Blanc de notas florales y grosella.",
+    "districts": [
+      "Znojmo"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CZECH_REPUBLIC/Znojemska.pdf",
+    "gpkg_rel": "QGIS/CZECH_REPUBLIC/Znojemska.gpkg"
+  },
+  {
+    "id": "cz-pdo-mikulovska",
+    "name": "Mikulovská",
+    "layer": "Mikulovská PDO",
+    "country": "CZECH REPUBLIC",
+    "region": "Morava",
+    "category": "CHOP / PDO / VOC",
+    "pdo_code": "PDO-CZ-A1039",
+    "decree": "Zákon č. 321/2004 Sb. / Vyhláška č. 254/2010 Sb. / EU eAmbrosia PDO-CZ-A1039 / VOC Mikulov & Pálava",
+    "color": "#DAA520",
+    "whites": [
+      "Ryzlink vlašský",
+      "Pálava",
+      "Rulandské šedé",
+      "Rulandské bílé",
+      "Chardonnay"
+    ],
+    "reds": [
+      "Frankovka",
+      "Rulandské modré"
+    ],
+    "desc": "El corazón calcáreo más deslumbrante de Moravia, presidido por los acantilados de caliza jurásica blanca de las colinas de Pálava (Reserva de la Biosfera UNESCO) y la histórica ciudad vitivinícola de Mikulov. Es la cumbre indiscutible del Ryzlink vlašský (Welschriesling) mineral, salino y estructurado, y la patria creadora de la uva aromática autóctona Pálava (cruce de Tramín x Müller-Thurgau en Perná). Ampara los prestigiosos sellos VOC Mikulov, VOC Pálava y VOC Valtice.",
+    "districts": [
+      "Břeclav"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CZECH_REPUBLIC/Mikulovska.pdf",
+    "gpkg_rel": "QGIS/CZECH_REPUBLIC/Mikulovska.gpkg"
+  },
+  {
+    "id": "cz-pdo-velkopavlovicka",
+    "name": "Velkopavlovická",
+    "layer": "Velkopavlovická PDO",
+    "country": "CZECH REPUBLIC",
+    "region": "Morava",
+    "category": "CHOP / PDO / VOC",
+    "pdo_code": "PDO-CZ-A1040",
+    "decree": "Zákon č. 321/2004 Sb. / Vyhláška č. 254/2010 Sb. / EU eAmbrosia PDO-CZ-A1040 / VOC Modré Hory",
+    "color": "#800020",
+    "whites": [
+      "Tramín červený",
+      "Veltlínské zelené",
+      "Neuburské",
+      "Muškát moravský"
+    ],
+    "reds": [
+      "Frankovka",
+      "Svatovavřinecké",
+      "Modrý Portugal",
+      "André"
+    ],
+    "desc": "La capital indiscutible del vino tinto en la República Checa, extendida por colinas de arcilla calcárea pesada y profundo loess en torno a Velké Pavlovice, Hustopeče y Čejkovice. Famosa por sus tintos estructurados, especiados y elegantes de Frankovka y Svatovavřinecké, cuna de la variedad autóctona André y del primer VOC tinto del país: VOC Modré Hory (\"Montañas Azules\"), además de VOC Kraví hora y VOC Hustopečsko.",
+    "districts": [
+      "Brno-venkov",
+      "Vyškov"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CZECH_REPUBLIC/Velkopavlovicka.pdf",
+    "gpkg_rel": "QGIS/CZECH_REPUBLIC/Velkopavlovicka.gpkg"
+  },
+  {
+    "id": "cz-pdo-slovacka",
+    "name": "Slovácká",
+    "layer": "Slovácká PDO",
+    "country": "CZECH REPUBLIC",
+    "region": "Morava",
+    "category": "CHOP / PDO / VOC",
+    "pdo_code": "PDO-CZ-A1041",
+    "decree": "Zákon č. 321/2004 Sb. / Vyhláška č. 254/2010 Sb. / EU eAmbrosia PDO-CZ-A1041 / VOC Slovácko & Blatnice",
+    "color": "#8B4513",
+    "whites": [
+      "Ryzlink rýnský",
+      "Rulandské bílé",
+      "Muškát moravský",
+      "Sylvánské zelené"
+    ],
+    "reds": [
+      "Frankovka",
+      "Cabernet Moravia",
+      "Zweigeltrebe"
+    ],
+    "desc": "Al sureste de Moravia junto a la frontera eslovaca y las laderas de los Cárpatos Blancos (Bílé Karpaty). Región de arraigada tradición folclórica vitivinícola caracterizada por un mosaico de suelos de flysch arenisco y loess. Cuna de las cepas autóctonas Muškát moravský y Cabernet Moravia, del legendario coupage histórico Blatnický Roháč (reconocido ya en 1896 en París) y de los sellos VOC Slovácko, VOC Blatnice, VOC Bzenec y VOC Mutěnice.",
+    "districts": [
+      "Hodonín",
+      "Uherské Hradiště",
+      "Zlín",
+      "Kroměříž"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CZECH_REPUBLIC/Slovacka.pdf",
+    "gpkg_rel": "QGIS/CZECH_REPUBLIC/Slovacka.gpkg"
+  },
+  {
+    "id": "cz-pdo-melnicka",
+    "name": "Mělnická",
+    "layer": "Mělnická PDO",
+    "country": "CZECH REPUBLIC",
+    "region": "Čechy",
+    "category": "CHOP / PDO / VOC",
+    "pdo_code": "PDO-CZ-A1042",
+    "decree": "Zákon č. 321/2004 Sb. / Vyhláška č. 254/2010 Sb. / EU eAmbrosia PDO-CZ-A1042 / VOC Mělník",
+    "color": "#4A0E17",
+    "whites": [
+      "Ryzlink rýnský",
+      "Müller-Thurgau",
+      "Rulandské šedé",
+      "Rulandské bílé"
+    ],
+    "reds": [
+      "Rulandské modré",
+      "Svatovavřinecké",
+      "Modrý Portugal"
+    ],
+    "desc": "Situada en Bohemia central en la confluencia de los ríos Elba (Labe) y Moldava (Vltava) al norte de Praga. Sus viñedos históricos fueron impulsados en el siglo XIV por el emperador Carlos IV, quien importó las primeras cepas de Pinot Noir directamente de Borgoña. Suelos de marga calcárea, grava y arena que producen Pinot Noirs de perfil borgoñón clásico, acidez vibrante y gran finura aromática, amparados bajo el sello VOC Mělník.",
+    "districts": [
+      "Mělník",
+      "Praha-východ",
+      "Praha-západ",
+      "Kutná Hora",
+      "Nymburk",
+      "Kolín",
+      "území Hlavního města Prahy"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CZECH_REPUBLIC/Melnicka.pdf",
+    "gpkg_rel": "QGIS/CZECH_REPUBLIC/Melnicka.gpkg"
+  },
+  {
+    "id": "cz-pdo-litomericka",
+    "name": "Litoměřická",
+    "layer": "Litoměřická PDO",
+    "country": "CZECH REPUBLIC",
+    "region": "Čechy",
+    "category": "CHOP / PDO / VOC",
+    "pdo_code": "PDO-CZ-A1043",
+    "decree": "Zákon č. 321/2004 Sb. / Vyhláška č. 254/2010 Sb. / EU eAmbrosia PDO-CZ-A1043 / VOC Litoměřice",
+    "color": "#2E8B57",
+    "whites": [
+      "Ryzlink rýnský",
+      "Tramín červený",
+      "Müller-Thurgau",
+      "Rulandské šedé"
+    ],
+    "reds": [
+      "Rulandské modré",
+      "Svatovavřinecké"
+    ],
+    "desc": "El enclave vitivinícola más septentrional de la República Checa, ubicado en las laderas volcánicas meridionales de las Tierras Altas Centrales de Bohemia (České středohoří) y los meandros del Elba. Suelos basálticos oscuros y terrazas calizas cretácicas que otorgan a sus Rieslings y Pinot Noirs una mineralidad pedregosa inconfundible, tensión ácida y enorme longevidad (VOC Litoměřice).",
+    "districts": [
+      "Litoměřice",
+      "Louny",
+      "Most",
+      "Ústí nad Labem",
+      "Teplice",
+      "Chomutov"
+    ],
+    "pdf_rel": "DOWNs/DOCs/CZECH_REPUBLIC/Litomericka.pdf",
+    "gpkg_rel": "QGIS/CZECH_REPUBLIC/Litomericka.gpkg"
+  }
+]
