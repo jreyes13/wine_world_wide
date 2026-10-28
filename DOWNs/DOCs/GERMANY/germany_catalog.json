@@ -1,0 +1,438 @@
+[
+  {
+    "id": "de-anbaugebiet-ahr",
+    "name": "Ahr",
+    "layer": "g.U. Ahr",
+    "country": "GERMANY",
+    "region": "Rheinland-Pfalz",
+    "category": "g.U. / Qualitätswein",
+    "pdo_code": "PDO-DE-A0867",
+    "color": "#722F37",
+    "reds": [
+      "Spätburgunder (Pinot Noir)",
+      "Frühburgunder",
+      "Dornfelder",
+      "Portugieser"
+    ],
+    "whites": [
+      "Riesling",
+      "Weißburgunder",
+      "Müller-Thurgau"
+    ],
+    "desc": "El \"Paraíso del Spätburgunder\" más septentrional de Europa. Situado en el impresionante cañón del río Ahr con suelos volcánicos y terrazas escarpadas de pizarra devónica que almacenan la radiación solar. Famoso por sus tintos de clima fresco con aromas a cereza silvestre, frutos del bosque, notas especiadas y finos taninos minerales.",
+    "districts": [
+      "Ahrweiler"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GERMANY/Ahr.pdf",
+    "gpkg_rel": "QGIS/GERMANY/Ahr.gpkg"
+  },
+  {
+    "id": "de-anbaugebiet-baden",
+    "name": "Baden",
+    "layer": "g.U. Baden",
+    "country": "GERMANY",
+    "region": "Baden-Württemberg",
+    "category": "g.U. / Qualitätswein",
+    "pdo_code": "PDO-DE-A1264",
+    "color": "#8B0000",
+    "reds": [
+      "Spätburgunder",
+      "Schwarzriesling (Pinot Meunier)",
+      "Regent"
+    ],
+    "whites": [
+      "Grauburgunder (Pinot Gris)",
+      "Weißburgunder (Pinot Blanc)",
+      "Müller-Thurgau",
+      "Gutedel (Chasselas)",
+      "Riesling",
+      "Chardonnay"
+    ],
+    "desc": "La región vinícola más soleada y meridional de Alemania, única clasificada en la Zona Climática B de la UE. Se extiende más de 400 km desde Tauberfranken hasta el Lago de Constanza a través del Rin. Destaca por sus suelos volcánicos del Kaiserstuhl y la excelencia de la familia de los Pinot (Spätburgunder, Grauburgunder y Weißburgunder) con cuerpo y elegancia.",
+    "districts": [
+      "Main-Tauber",
+      "Rhein-Neckar-Kreis",
+      "Heidelberg Städte",
+      "Mannheim Städte",
+      "Karlsruhe",
+      "Karlsruhe Städte",
+      "Baden-Baden Städte",
+      "Rastatt",
+      "Ortenaukreis",
+      "Emmendingen",
+      "Freiburg",
+      "Breisgau-Hochschwarzwald",
+      "Lörrach",
+      "Bodensee",
+      "Konstanz",
+      "Lindau"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GERMANY/Baden.pdf",
+    "gpkg_rel": "QGIS/GERMANY/Baden.gpkg"
+  },
+  {
+    "id": "de-anbaugebiet-franken",
+    "name": "Franken",
+    "layer": "g.U. Franken",
+    "country": "GERMANY",
+    "region": "Bayern",
+    "category": "g.U. / Qualitätswein",
+    "pdo_code": "PDO-DE-A1267",
+    "color": "#2E8B57",
+    "reds": [
+      "Spätburgunder",
+      "Domina",
+      "Dornfelder"
+    ],
+    "whites": [
+      "Silvaner",
+      "Müller-Thurgau",
+      "Bacchus",
+      "Riesling",
+      "Weißburgunder"
+    ],
+    "desc": "El corazón indiscutible del Silvaner de clase mundial y la cuna de la tradicional botella redondeada \"Bocksbeutel\". Viñedos a lo largo de las curvas del río Meno con suelos estratificados del Triásico: Muschelkalk (caliza de conchas), Keuper y arenisca roja Buntsandstein. Vinos sumamente secos (\"fränkisch trocken\"), minerales, terrosos y con gran tensión.",
+    "districts": [
+      "Würzburg",
+      "Würzburg Städte",
+      "Kitzingen",
+      "Main-Spessart",
+      "Schweinfurt",
+      "Schweinfurt Städte",
+      "Haßberge",
+      "Miltenberg",
+      "Aschaffenburg",
+      "Aschaffenburg Städte",
+      "Bad Kissingen",
+      "Rhön-Grabfeld",
+      "Neustadt-Bad Windsheim",
+      "Bamberg",
+      "Bamberg Städte"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GERMANY/Franken.pdf",
+    "gpkg_rel": "QGIS/GERMANY/Franken.gpkg"
+  },
+  {
+    "id": "de-anbaugebiet-hessische-bergstrasse",
+    "name": "Hessische Bergstraße",
+    "layer": "g.U. Hessische Bergstraße",
+    "country": "GERMANY",
+    "region": "Hessen",
+    "category": "g.U. / Qualitätswein",
+    "pdo_code": "PDO-DE-A1268",
+    "color": "#FF8C00",
+    "reds": [
+      "Spätburgunder",
+      "Dornfelder"
+    ],
+    "whites": [
+      "Riesling",
+      "Grauburgunder",
+      "Weißburgunder",
+      "Silvaner"
+    ],
+    "desc": "El \"Jardín de Primavera de Alemania\", ubicado en las faldas soleadas del macizo del Odenwald. Una de las regiones más compactas pero con el microclima más benigno del país donde los almendros florecen en marzo. Produce Rieslings fragantes y jugosos con notas de melocotón maduro y acidez cristalina, con una producción casi absorbida íntegramente a nivel local.",
+    "districts": [
+      "Bergstraße",
+      "Darmstadt Städte",
+      "Darmstadt-Dieburg",
+      "Groß-Gerau",
+      "Odenwaldkreis"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GERMANY/Hessische_Bergstrasse.pdf",
+    "gpkg_rel": "QGIS/GERMANY/Hessische_Bergstrasse.gpkg"
+  },
+  {
+    "id": "de-anbaugebiet-mittelrhein",
+    "name": "Mittelrhein",
+    "layer": "g.U. Mittelrhein",
+    "country": "GERMANY",
+    "region": "Rheinland-Pfalz / Nordrhein-Westfalen",
+    "category": "g.U. / Qualitätswein",
+    "pdo_code": "PDO-DE-A1269",
+    "color": "#DAA520",
+    "reds": [
+      "Spätburgunder"
+    ],
+    "whites": [
+      "Riesling",
+      "Weißburgunder",
+      "Grauburgunder",
+      "Müller-Thurgau"
+    ],
+    "desc": "El espectacular desfiladero del Rin entre Bingen y Bonn, dominado por castillos medievales, la mítica roca de Loreley y declarado Patrimonio de la Humanidad por la UNESCO. Viticultura heroica en terrazas verticales con pendientes de hasta el 70% sobre pizarra devónica negra. Hogar de Rieslings minerales incisivos, con notas a pedernal, cítricos y gran longevidad.",
+    "districts": [
+      "Rhein-Lahn",
+      "Rhein-Hunsrück",
+      "Mayen-Koblenz",
+      "Koblenz Coblenz Städte",
+      "Neuwied",
+      "Bonn Städte",
+      "Rhein-Sieg"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GERMANY/Mittelrhein.pdf",
+    "gpkg_rel": "QGIS/GERMANY/Mittelrhein.gpkg"
+  },
+  {
+    "id": "de-anbaugebiet-mosel",
+    "name": "Mosel",
+    "layer": "g.U. Mosel",
+    "country": "GERMANY",
+    "region": "Rheinland-Pfalz / Saarland",
+    "category": "g.U. / Qualitätswein",
+    "pdo_code": "PDO-DE-A1270",
+    "color": "#4682B4",
+    "reds": [
+      "Spätburgunder"
+    ],
+    "whites": [
+      "Riesling",
+      "Elbling",
+      "Müller-Thurgau",
+      "Weißburgunder"
+    ],
+    "desc": "La meca internacional del Riesling escarpado a lo largo de los valles del Mosela, Sarre y Ruwer. Alberga los viñedos más empinados del mundo (Bremmer Calmont) sobre pizarras del Devónico ricas en hierro. Vinos legendarios por su perfil ingrávido y etéreo, baja graduación alcohólica natural, explosión aromática de flor de azahar y una vibrante acidez mineral.",
+    "districts": [
+      "Bernkastel-Wittlich",
+      "Trier-Saarburg",
+      "Trier Städte",
+      "Cochem-Zell",
+      "Merzig-Wadern"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GERMANY/Mosel.pdf",
+    "gpkg_rel": "QGIS/GERMANY/Mosel.gpkg"
+  },
+  {
+    "id": "de-anbaugebiet-nahe",
+    "name": "Nahe",
+    "layer": "g.U. Nahe",
+    "country": "GERMANY",
+    "region": "Rheinland-Pfalz",
+    "category": "g.U. / Qualitätswein",
+    "pdo_code": "PDO-DE-A1271",
+    "color": "#20B2AA",
+    "reds": [
+      "Spätburgunder",
+      "Dornfelder"
+    ],
+    "whites": [
+      "Riesling",
+      "Müller-Thurgau",
+      "Grauburgunder",
+      "Weißburgunder"
+    ],
+    "desc": "El mosaico geológico más fascinante de Alemania a orillas del río Nahe y sus afluentes. En un radio de pocos kilómetros se alternan coladas volcánicas de pórfiro, pizarra devónica, arenisca roja y margas arcillosas. Sus Rieslings combinan milagrosamente la ligereza y finura floral del Mosela con la riqueza y densidad de fruta amarilla del Rheingau.",
+    "districts": [
+      "Bad Kreuznach",
+      "Birkenfeld"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GERMANY/Nahe.pdf",
+    "gpkg_rel": "QGIS/GERMANY/Nahe.gpkg"
+  },
+  {
+    "id": "de-anbaugebiet-pfalz",
+    "name": "Pfalz",
+    "layer": "g.U. Pfalz",
+    "country": "GERMANY",
+    "region": "Rheinland-Pfalz",
+    "category": "g.U. / Qualitätswein",
+    "pdo_code": "PDO-DE-A1272",
+    "color": "#C71585",
+    "reds": [
+      "Spätburgunder",
+      "Dornfelder",
+      "Portugieser",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [
+      "Riesling",
+      "Grauburgunder",
+      "Weißburgunder",
+      "Sauvignon Blanc",
+      "Chardonnay"
+    ],
+    "desc": "La segunda mayor región vitícola de Alemania y el mayor viñedo continuo de Riesling del planeta (casi 6.000 ha). Resguardada por las montañas del Haardt bajo un clima mediterráneo con higueras, adelfas y almendros. Cuna de Rieslings carnosos, potentes y generosos (Mittelhaardt) y de tintos de Spätburgunder estructurados y complejos de talla mundial.",
+    "districts": [
+      "Bad Dürkheim",
+      "Neustadt Städte",
+      "Südliche Weinstraße",
+      "Landau Städte",
+      "Germersheim",
+      "Rhein-Pfalz-Kreis",
+      "Speyer Spires Städte",
+      "Frankenthal Städte",
+      "Ludwigshafen Städte",
+      "Donnersbergkreis"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GERMANY/Pfalz.pdf",
+    "gpkg_rel": "QGIS/GERMANY/Pfalz.gpkg"
+  },
+  {
+    "id": "de-anbaugebiet-rheingau",
+    "name": "Rheingau",
+    "layer": "g.U. Rheingau",
+    "country": "GERMANY",
+    "region": "Hessen",
+    "category": "g.U. / Qualitätswein",
+    "pdo_code": "PDO-DE-A1273",
+    "color": "#FFD700",
+    "reds": [
+      "Spätburgunder (Assmannshausen)"
+    ],
+    "whites": [
+      "Riesling",
+      "Weißburgunder"
+    ],
+    "desc": "La cuna aristocrática del Riesling y del concepto de vendimia tardía (Spätlese 1775 en Schloss Johannisberg). Una curva natural donde el Rin fluye excepcionalmente hacia el oeste regala 30 km de laderas con orientación sur perfecta protegidas por los montes Taunus. Produce vinos de estructura acerada noble, refinamiento aromático inmaculado y longevidad legendaria.",
+    "districts": [
+      "Rheingau-Taunus-Kreis",
+      "Wiesbaden Städte",
+      "Main-Taunus-Kreis Städte"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GERMANY/Rheingau.pdf",
+    "gpkg_rel": "QGIS/GERMANY/Rheingau.gpkg"
+  },
+  {
+    "id": "de-anbaugebiet-rheinhessen",
+    "name": "Rheinhessen",
+    "layer": "g.U. Rheinhessen",
+    "country": "GERMANY",
+    "region": "Rheinland-Pfalz",
+    "category": "g.U. / Qualitätswein",
+    "pdo_code": "PDO-DE-A1274",
+    "color": "#9370DB",
+    "reds": [
+      "Spätburgunder",
+      "Dornfelder",
+      "Portugieser"
+    ],
+    "whites": [
+      "Riesling",
+      "Silvaner",
+      "Müller-Thurgau",
+      "Grauburgunder",
+      "Weißburgunder",
+      "Scheurebe"
+    ],
+    "desc": "La mayor región vinícola de Alemania (\"Tierra de las mil colinas\") delimitada por el gran meandro del Rin. Epicentro de la vanguardia vinícola germana; famosa por la ladera roja de arenisca de Nierstein (Roter Hang) y los terruños calcáreos de Wonnegau. Produce Rieslings de enorme opulencia aromática, textura mineral y Silvaners secos de alta gama.",
+    "districts": [
+      "Mainz Städte",
+      "Mainz-Bingen",
+      "Alzey-Worms",
+      "Worms Städte"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GERMANY/Rheinhessen.pdf",
+    "gpkg_rel": "QGIS/GERMANY/Rheinhessen.gpkg"
+  },
+  {
+    "id": "de-anbaugebiet-saale-unstrut",
+    "name": "Saale-Unstrut",
+    "layer": "g.U. Saale-Unstrut",
+    "country": "GERMANY",
+    "region": "Sachsen-Anhalt / Thüringen",
+    "category": "g.U. / Qualitätswein",
+    "pdo_code": "PDO-DE-A1275",
+    "color": "#3CB371",
+    "reds": [
+      "Spätburgunder",
+      "Portugieser",
+      "Zweigelt"
+    ],
+    "whites": [
+      "Müller-Thurgau",
+      "Weißburgunder",
+      "Silvaner",
+      "Riesling",
+      "Traminer"
+    ],
+    "desc": "La denominación vinícola de calidad situada en el límite septentrional del cultivo de la vid en Europa (latitud 51°N). Viñedos con más de 1.000 años de historia aterrazados sobre paredes de piedra caliza de conchas en los valles de los ríos Saale y Unstrut. Sus vinos son secos (\"trocken\"), rectos, crujientes y con una vibrante pureza frutal de clima fresco.",
+    "districts": [
+      "Burgenlandkreis",
+      "Weißenfels",
+      "Merseburg-Querfurt",
+      "Saalkreis",
+      "Halle Städte",
+      "Mansfelder Land",
+      "Kyffhäuserkreis",
+      "Sömmerda",
+      "Weimarer Land",
+      "Jena Städte"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GERMANY/Saale_Unstrut.pdf",
+    "gpkg_rel": "QGIS/GERMANY/Saale_Unstrut.gpkg"
+  },
+  {
+    "id": "de-anbaugebiet-sachsen",
+    "name": "Sachsen",
+    "layer": "g.U. Sachsen",
+    "country": "GERMANY",
+    "region": "Sachsen",
+    "category": "g.U. / Qualitätswein",
+    "pdo_code": "PDO-DE-A1277",
+    "color": "#BDB76B",
+    "reds": [
+      "Spätburgunder",
+      "Dornfelder"
+    ],
+    "whites": [
+      "Müller-Thurgau",
+      "Riesling",
+      "Weißburgunder",
+      "Grauburgunder",
+      "Goldriesling",
+      "Traminer"
+    ],
+    "desc": "La región vinícola más oriental de Alemania, enclavada en las riberas del río Elba entre Pirna, Dresde y Meißen. Famosa por sus empinadas terrazas de granito y gneis, su clima continental de contrastes y la exclusiva rareza del Goldriesling, uva aromática casi endémica que sólo se elabora aquí, ofreciendo vinos florales, vivaces y muy codiciados.",
+    "districts": [
+      "Meißen",
+      "Dresden Städte",
+      "Sächsische Schweiz",
+      "Riesa-Großenhain"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GERMANY/Sachsen.pdf",
+    "gpkg_rel": "QGIS/GERMANY/Sachsen.gpkg"
+  },
+  {
+    "id": "de-anbaugebiet-wuerttemberg",
+    "name": "Württemberg",
+    "layer": "g.U. Württemberg",
+    "country": "GERMANY",
+    "region": "Baden-Württemberg",
+    "category": "g.U. / Qualitätswein",
+    "pdo_code": "PDO-DE-A1276",
+    "color": "#800000",
+    "reds": [
+      "Trollinger",
+      "Lemberger (Blaufränkisch)",
+      "Schwarzriesling (Pinot Meunier)",
+      "Spätburgunder"
+    ],
+    "whites": [
+      "Riesling",
+      "Kerner",
+      "Müller-Thurgau",
+      "Silvaner"
+    ],
+    "desc": "La capital indiscutible del vino tinto en Alemania (más del 65% de la producción total). Cultivada a lo largo del sinuoso río Neckar y sus valles tributarios sobre laderas de Keuper y yeso. Destaca por el emblemático Trollinger servido tradicionalmente en el Viertele, el distinguido y noble Lemberger con potencial de guarda y finos Rieslings de colina.",
+    "districts": [
+      "Stuttgart Städte",
+      "Heilbronn",
+      "Heilbronn city Städte",
+      "Ludwigsburg",
+      "Esslingen",
+      "Rems-Murr-Kreis",
+      "Hohenlohe",
+      "Schwäbisch Hall",
+      "Enz",
+      "Pforzheim Städte",
+      "Göppingen",
+      "Böblingen",
+      "Tübingen",
+      "Reutlingen",
+      "Calw",
+      "Zollernalbkreis"
+    ],
+    "pdf_rel": "DOWNs/DOCs/GERMANY/Wuerttemberg.pdf",
+    "gpkg_rel": "QGIS/GERMANY/Wuerttemberg.gpkg"
+  }
+]

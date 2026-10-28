@@ -1,0 +1,3972 @@
+[
+  {
+    "giIdentifier": "EUGI00000003801",
+    "modificationDate": "2023-02-24T14:17:38.249Z",
+    "protectedNames": [
+      "Wachau"
+    ],
+    "fileNumber": "PDO-AT-A0205",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-11-15",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Corrigendum - Official Journal C, C/2025/90060, 1.8.2025",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202590060"
+      },
+      {
+        "text": "Official Journal C 68, 24.2.2023",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.068.01.0041.01.ENG&toc=OJ%3AC%3A2023%3A068%3ATOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305623",
+        "uri": "10573"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000003861",
+    "modificationDate": "2020-09-09T09:13:00.683Z",
+    "protectedNames": [
+      "Weinviertel"
+    ],
+    "fileNumber": "PDO-AT-A0206",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-11-15",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 298, 8.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.298.01.0031.01.ENG&toc=OJ:C:2020:298:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305662",
+        "uri": "11376"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000004142",
+    "modificationDate": "2025-02-28T17:29:04.335Z",
+    "protectedNames": [
+      "Burgenland"
+    ],
+    "fileNumber": "PDO-AT-A0207",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1999-02-19",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 298, 8.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.298.01.0017.01.ENG&toc=OJ:C:2020:298:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305932",
+        "uri": "11379"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000004143",
+    "modificationDate": "2020-09-09T09:12:23.653Z",
+    "protectedNames": [
+      "Kremstal"
+    ],
+    "fileNumber": "PDO-AT-A0208",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-11-15",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 298, 8.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.298.01.0028.01.ENG&toc=OJ:C:2020:298:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305667",
+        "uri": "11380"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000004222",
+    "modificationDate": "2025-05-27T10:43:30.417Z",
+    "protectedNames": [
+      "Kamptal"
+    ],
+    "fileNumber": "PDO-AT-A0209",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-11-15",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C, C/2025/2992, 27.5.2025",
+        "uri": "http://data.europa.eu/eli/C/2025/2992/oj"
+      },
+      {
+        "text": "Official Journal C 295, 7.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.295.01.0034.01.ENG&toc=OJ:C:2020:295:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305675",
+        "uri": "11382"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000004223",
+    "modificationDate": "2020-09-08T11:59:46.883Z",
+    "protectedNames": [
+      "Traisental"
+    ],
+    "fileNumber": "PDO-AT-A0210",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-11-15",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 295, 7.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.295.01.0031.01.ENG&toc=OJ:C:2020:295:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305743",
+        "uri": "11383"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000004285",
+    "modificationDate": "2020-08-31T13:56:12.601Z",
+    "protectedNames": [
+      "Mittelburgenland"
+    ],
+    "fileNumber": "PDO-AT-A0214",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-11-15",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 286, 31.08.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.286.01.0004.01.ENG&toc=OJ:C:2020:286:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305775",
+        "uri": "10857"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000004421",
+    "modificationDate": "2025-06-06T12:21:14.620Z",
+    "protectedNames": [
+      "Eisenberg"
+    ],
+    "fileNumber": "PDO-AT-A0215",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "2011-12-05",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C, C/2025/3141, 6.6.2025",
+        "uri": "http://data.europa.eu/eli/C/2025/3141/oj"
+      },
+      {
+        "text": "Official Journal C 298, 8.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.298.01.0023.01.ENG&toc=OJ:C:2020:298:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305923",
+        "uri": "11157"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000004644",
+    "modificationDate": "2020-09-09T09:09:14.369Z",
+    "protectedNames": [
+      "Leithaberg"
+    ],
+    "fileNumber": "PDO-AT-A0216",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "2009-08-01",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 298, 8.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.298.01.0014.01.ENG&toc=OJ:C:2020:298:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305959",
+        "uri": "11163"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005504",
+    "modificationDate": "2023-02-24T14:06:56.963Z",
+    "protectedNames": [
+      "Carnuntum"
+    ],
+    "fileNumber": "PDO-AT-A0217",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-11-15",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 68, 24.2.2023",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.068.01.0029.01.ENG&toc=OJ%3AC%3A2023%3A068%3ATOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305953",
+        "uri": "10648"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005506",
+    "modificationDate": "2023-02-24T14:14:06.440Z",
+    "protectedNames": [
+      "Neusiedlersee"
+    ],
+    "fileNumber": "PDO-AT-A0219",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-11-15",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 68, 24.2.2023",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.068.01.0036.01.ENG&toc=OJ%3AC%3A2023%3A068%3ATOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305814",
+        "uri": "10377"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005507",
+    "modificationDate": "2021-09-06T15:29:02.796Z",
+    "protectedNames": [
+      "Neusiedlersee-Hügelland"
+    ],
+    "fileNumber": "PDO-AT-A0220",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "2021-08-06",
+    "legalInstrument": {
+      "text": "Official Journal L 283, 6.8.2021",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2021.283.01.0011.01.ENG&toc=OJ%3AL%3A2021%3A283%3ATOC"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal L 283, 6.8.2021",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2021.283.01.0011.01.ENG&toc=OJ%3AL%3A2021%3A283%3ATOC"
+      },
+      {
+        "text": "Official Journal C57, 17.2.2021",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2021.057.01.0028.01.ENG&toc=OJ%3AC%3A2021%3A057%3ATOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": true,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1306021",
+        "uri": "11006"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005512",
+    "modificationDate": "2025-02-28T17:27:16.330Z",
+    "protectedNames": [
+      "Niederösterreich"
+    ],
+    "fileNumber": "PDO-AT-A0221",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1999-02-19",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 295, 7.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.295.01.0037.01.ENG&toc=OJ:C:2020:295:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305903",
+        "uri": "11207"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005518",
+    "modificationDate": "2020-09-08T11:58:51.337Z",
+    "protectedNames": [
+      "Salzburg"
+    ],
+    "fileNumber": "PDO-AT-A0224",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "2004-04-14",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 295, 7.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.295.01.0028.01.ENG&toc=OJ:C:2020:295:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305579",
+        "uri": "11210"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005521",
+    "modificationDate": "2025-02-28T17:30:14.603Z",
+    "protectedNames": [
+      "Steiermark"
+    ],
+    "fileNumber": "PDO-AT-A0225",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1999-02-19",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 298, 8.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.298.01.0020.01.ENG&toc=OJ:C:2020:298:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305809",
+        "uri": "11478"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005525",
+    "modificationDate": "2025-01-03T17:50:00.357Z",
+    "protectedNames": [
+      "Vulkanland Steiermark"
+    ],
+    "fileNumber": "PDO-AT-A0226",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-11-15",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C, C/2024/5349, 2.9.2024",
+        "uri": "http://data.europa.eu/eli/C/2024/5349/oj"
+      },
+      {
+        "text": "Official Journal L, 2024/3227, 31.12.2024",
+        "uri": "http://data.europa.eu/eli/reg_impl/2024/3227/oj"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1306029",
+        "uri": "11426"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005527",
+    "modificationDate": "2021-09-06T15:07:54.330Z",
+    "protectedNames": [
+      "Südburgenland"
+    ],
+    "fileNumber": "PDO-AT-A0227",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "2021-08-05",
+    "legalInstrument": {
+      "text": "Official Journal L 282, 5.8.2021",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2021.282.01.0001.01.ENG&toc=OJ%3AL%3A2021%3A282%3ATOC"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal L 282, 5.8.2021",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2021.282.01.0001.01.ENG&toc=OJ%3AL%3A2021%3A282%3ATOC"
+      },
+      {
+        "text": "Official Journal C57, 17.2.2021",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2021.057.01.0030.01.ENG&toc=OJ%3AC%3A2021%3A057%3ATOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": true,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305882",
+        "uri": "11011"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005528",
+    "modificationDate": "2023-03-01T15:15:12.104Z",
+    "protectedNames": [
+      "Südsteiermark"
+    ],
+    "fileNumber": "PDO-AT-A0228",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-11-15",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 66, 23.2.2023",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.066.01.0028.01.ENG&toc=OJ%3AC%3A2023%3A066%3ATOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305688",
+        "uri": "11012"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005530",
+    "modificationDate": "2020-09-08T11:06:36.198Z",
+    "protectedNames": [
+      "Tirol"
+    ],
+    "fileNumber": "PDO-AT-A0230",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1999-02-19",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 295, 7.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.295.01.0019.01.ENG&toc=OJ:C:2020:295:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305705",
+        "uri": "11013"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005531",
+    "modificationDate": "2020-08-21T12:00:21.080Z",
+    "protectedNames": [
+      "Vorarlberg"
+    ],
+    "fileNumber": "PDO-AT-A0231",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1999-02-19",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 276, 21.8.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.276.01.0005.01.ENG&toc=OJ:C:2020:276:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305823",
+        "uri": "10649"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005621",
+    "modificationDate": "2025-07-02T16:50:24.759Z",
+    "protectedNames": [
+      "Wagram"
+    ],
+    "fileNumber": "PDO-AT-A0233",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "2009-08-01",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C, C/2025/3581, 2.7.2025",
+        "uri": "http://data.europa.eu/eli/C/2025/3581/oj"
+      },
+      {
+        "text": "Official Journal C 295, 7.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.295.01.0025.01.ENG&toc=OJ:C:2020:295:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1306002",
+        "uri": "10587"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005622",
+    "modificationDate": "2023-02-24T14:10:57.666Z",
+    "protectedNames": [
+      "Weststeiermark"
+    ],
+    "fileNumber": "PDO-AT-A0234",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-11-15",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 68, 24.02.2023",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.068.01.0033.01.ENG&toc=OJ%3AC%3A2023%3A068%3ATOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305996",
+        "uri": "11743"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005624",
+    "modificationDate": "2025-02-18T16:08:17.840Z",
+    "protectedNames": [
+      "Wien"
+    ],
+    "fileNumber": "PDO-AT-A0235",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-11-15",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 298, 8.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.298.01.0011.01.ENG&toc=OJ:C:2020:298:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2011)1305992",
+        "uri": "11499"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005505",
+    "modificationDate": "2020-08-21T12:01:53.431Z",
+    "protectedNames": [
+      "Kärnten"
+    ],
+    "fileNumber": "PDO-AT-A0218",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "2004-04-14",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 276, 21.8.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.276.01.0008.01.ENG&toc=OJ:C:2020:276:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2014)1890931",
+        "uri": "21475"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000004282",
+    "modificationDate": "2020-09-09T09:11:55.013Z",
+    "protectedNames": [
+      "Steirerland"
+    ],
+    "fileNumber": "PGI-AT-A0213",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PGI",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "2004-04-16",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 298, 8.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.298.01.0026.01.ENG&toc=OJ:C:2020:298:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2014)1890937",
+        "uri": "21669"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005529",
+    "modificationDate": "2025-06-06T13:00:50.890Z",
+    "protectedNames": [
+      "Thermenregion"
+    ],
+    "fileNumber": "PDO-AT-A0229",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-11-15",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C, C/2025/3206, 6.6.2025",
+        "uri": "http://data.europa.eu/eli/C/2025/3206/oj"
+      },
+      {
+        "text": "Official Journal C 286, 31.08.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.286.01.0007.01.ENG&toc=OJ:C:2020:286:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2014)1890939",
+        "uri": "21675"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000004241",
+    "modificationDate": "2020-09-09T09:07:27.014Z",
+    "protectedNames": [
+      "Bergland"
+    ],
+    "fileNumber": "PGI-AT-A0211",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PGI",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "2004-04-16",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 298, 8.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.298.01.0008.01.ENG&toc=OJ:C:2020:298:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2014)1890943",
+        "uri": "21694"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000005515",
+    "modificationDate": "2020-09-08T11:19:10.540Z",
+    "protectedNames": [
+      "Oberösterreich"
+    ],
+    "fileNumber": "PDO-AT-A0223",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "2004-04-14",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 295, 7.9.202",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.295.01.0022.01.ENG&toc=OJ:C:2020:295:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2014)1890955",
+        "uri": "21731"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000004281",
+    "modificationDate": "2020-09-15T16:59:56.568Z",
+    "protectedNames": [
+      "Weinland"
+    ],
+    "fileNumber": "PGI-AT-A0212",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PGI",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "2004-04-16",
+    "legalInstrument": {
+      "text": "Article 107 of Regulation (EU) No 1308/2013",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1308"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C303,14.9.2020",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.303.01.0031.01.ENG&toc=OJ:C:2020:303:TOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2014)1999370",
+        "uri": "27951"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000013361",
+    "modificationDate": "2021-02-03T20:27:18.231Z",
+    "protectedNames": [
+      "Tiroler Speck"
+    ],
+    "fileNumber": "PGI-AT-1395",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PGI",
+    "productType": "Food",
+    "productCategories": [
+      143
+    ],
+    "status": "registered",
+    "euProtectionDate": "1997-06-13",
+    "legalInstrument": {
+      "text": "Official Journal L 156, 13.06.1997",
+      "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31997R1065:EN:NOT"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Ares(2021)903758",
+        "uri": "65271"
+      },
+      {
+        "text": "Ares(2021)903758",
+        "uri": "65270"
+      },
+      {
+        "text": "Official Journal L 156, 13.06.1997",
+        "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31997R1065:EN:NOT"
+      },
+      {
+        "text": "Official Journal C 46, 08.02.2018",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:JOC_2018_046_R_0008&from=EN"
+      },
+      {
+        "text": "Official Journal L 167, 24.06.2019",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32019R1027"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "AT_0017_1395_SUM_IT.pdf",
+        "uri": "73662"
+      },
+      {
+        "text": "AT_0017_1395_SUM_PT.pdf",
+        "uri": "73661"
+      },
+      {
+        "text": "AT_0017_1395_SUM_NL.pdf",
+        "uri": "73660"
+      },
+      {
+        "text": "AT_0017_1395_SUM_DA.pdf",
+        "uri": "73659"
+      },
+      {
+        "text": "AT_0017_1395_SUM_EN.pdf",
+        "uri": "73658"
+      },
+      {
+        "text": "AT_0017_1395_SUM_EL.pdf",
+        "uri": "73657"
+      },
+      {
+        "text": "AT_0017_1395_SUM_FI.pdf",
+        "uri": "73656"
+      },
+      {
+        "text": "AT_0017_1395_SUM_ES.pdf",
+        "uri": "73655"
+      },
+      {
+        "text": "AT_0017_1395_SUM_FR.pdf",
+        "uri": "73654"
+      },
+      {
+        "text": "AT_0017_1395_SUM_DE_O.pdf",
+        "uri": "62338"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "160000000080",
+        "cnText": "16",
+        "cnLabel": "16 - cnCode.160000000080.label",
+        "cnTranslation": "16 - PREPARATIONS OF MEAT, OF FISH, OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES, OR OF INSECTS"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000013362",
+    "modificationDate": "2023-09-07T10:37:34.399Z",
+    "protectedNames": [
+      "Vorarlberger Alpkäse"
+    ],
+    "fileNumber": "PDO-AT-1413",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Food",
+    "productCategories": [
+      144
+    ],
+    "status": "registered",
+    "euProtectionDate": "1997-06-13",
+    "legalInstrument": {
+      "text": "Official Journal L 156, 13.06.1997",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A31997R1065"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 156, 3.5.2023",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.156.01.0035.01.ENG&toc=OJ%3AC%3A2023%3A156%3ATOC"
+      },
+      {
+        "text": "Official Journal L 219, 6.9.2023",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2023.219.01.0005.01.ENG&toc=OJ%3AL%3A2023%3A219%3ATOC"
+      },
+      {
+        "text": "Official Journal L 156, 13.06.1997",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A31997R1065"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "AT_0017_1413_SUM_DA.pdf",
+        "uri": "72171"
+      },
+      {
+        "text": "AT_0017_1413_SUM_EN.pdf",
+        "uri": "72170"
+      },
+      {
+        "text": "AT_0017_1413_SUM_FI.pdf",
+        "uri": "72169"
+      },
+      {
+        "text": "AT_0017_1413_SUM_ES.pdf",
+        "uri": "72168"
+      },
+      {
+        "text": "AT_0017_1413_SUM_IT.pdf",
+        "uri": "72167"
+      },
+      {
+        "text": "AT_0017_1413_SUM_FR.pdf",
+        "uri": "72166"
+      },
+      {
+        "text": "AT_0017_1413_SUM_PT.pdf",
+        "uri": "72165"
+      },
+      {
+        "text": "AT_0017_1413_SUM_NL.pdf",
+        "uri": "72164"
+      },
+      {
+        "text": "AT_0017_1413_SUM_EL.pdf",
+        "uri": "72163"
+      },
+      {
+        "text": "AT_0017_1413_SUM_DE_O.pdf",
+        "uri": "62965"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "040600000080",
+        "cnText": "0406",
+        "cnLabel": "04 - cnCode.040000000080.label|0406 - cnCode.040600000080.label",
+        "cnTranslation": "04 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED | 0406 - Cheese and curd"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000013363",
+    "modificationDate": "2019-12-23T10:38:02.000Z",
+    "protectedNames": [
+      "Tiroler Bergkäse"
+    ],
+    "fileNumber": "PDO-AT-1416",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Food",
+    "productCategories": [
+      144
+    ],
+    "status": "registered",
+    "euProtectionDate": "1997-06-13",
+    "legalInstrument": {
+      "text": "Official Journal L 156, 13.06.1997",
+      "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31997R1065:EN:NOT"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal L 156, 13.06.1997",
+        "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31997R1065:EN:NOT"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "AT_0017_1416_SUM_DA.pdf",
+        "uri": "73554"
+      },
+      {
+        "text": "AT_0017_1416_SUM_EL.pdf",
+        "uri": "73553"
+      },
+      {
+        "text": "AT_0017_1416_SUM_ES.pdf",
+        "uri": "73552"
+      },
+      {
+        "text": "AT_0017_1416_SUM_EN.pdf",
+        "uri": "73551"
+      },
+      {
+        "text": "AT_0017_1416_SUM_FR.pdf",
+        "uri": "73550"
+      },
+      {
+        "text": "AT_0017_1416_SUM_FI.pdf",
+        "uri": "73549"
+      },
+      {
+        "text": "AT_0017_1416_SUM_NL.pdf",
+        "uri": "73548"
+      },
+      {
+        "text": "AT_0017_1416_SUM_IT.pdf",
+        "uri": "73547"
+      },
+      {
+        "text": "AT_0017_1416_SUM_PT.pdf",
+        "uri": "73546"
+      },
+      {
+        "text": "AT_0017_1416_SUM_DE_O.pdf",
+        "uri": "62319"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "040600000080",
+        "cnText": "0406",
+        "cnLabel": "04 - cnCode.040000000080.label|0406 - cnCode.040600000080.label",
+        "cnTranslation": "04 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED | 0406 - Cheese and curd"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000013364",
+    "modificationDate": "2023-09-07T10:38:15.436Z",
+    "protectedNames": [
+      "Vorarlberger Bergkäse"
+    ],
+    "fileNumber": "PDO-AT-1419",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Food",
+    "productCategories": [
+      144
+    ],
+    "status": "registered",
+    "euProtectionDate": "1997-06-13",
+    "legalInstrument": {
+      "text": "Official Journal L 13, 13.06.1997",
+      "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31997R1065:EN:NOT"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 156, 3.5.2023",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.156.01.0045.01.ENG&toc=OJ%3AC%3A2023%3A156%3ATOC"
+      },
+      {
+        "text": "Official Journal L 219, 6.9.2023",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2023.219.01.0007.01.ENG&toc=OJ%3AL%3A2023%3A219%3ATOC"
+      },
+      {
+        "text": "Official Journal L 13, 13.06.1997",
+        "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31997R1065:EN:NOT"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "AT_0017_1419_SUM_DA.pdf",
+        "uri": "74845"
+      },
+      {
+        "text": "AT_0017_1419_SUM_ES.pdf",
+        "uri": "74844"
+      },
+      {
+        "text": "AT_0017_1419_SUM_FR.pdf",
+        "uri": "74843"
+      },
+      {
+        "text": "AT_0017_1419_SUM_FI.pdf",
+        "uri": "74842"
+      },
+      {
+        "text": "AT_0017_1419_SUM_IT.pdf",
+        "uri": "74841"
+      },
+      {
+        "text": "AT_0017_1419_SUM_PT.pdf",
+        "uri": "74840"
+      },
+      {
+        "text": "AT_0017_1419_SUM_NL.pdf",
+        "uri": "74839"
+      },
+      {
+        "text": "AT_0017_1419_SUM_EN.pdf",
+        "uri": "62970"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "040600000080",
+        "cnText": "0406",
+        "cnLabel": "04 - cnCode.040000000080.label|0406 - cnCode.040600000080.label",
+        "cnTranslation": "04 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED | 0406 - Cheese and curd"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000013365",
+    "modificationDate": "2019-12-23T10:37:45.000Z",
+    "protectedNames": [
+      "Gailtaler Almkäse"
+    ],
+    "fileNumber": "PDO-AT-1425",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Food",
+    "productCategories": [
+      144
+    ],
+    "status": "registered",
+    "euProtectionDate": "1997-01-24",
+    "legalInstrument": {
+      "text": "Official Journal L 22, 24.01.1997",
+      "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31997R0123:EN:NOT"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 62, 20.02.2015",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:JOC_2015_062_R_0007&from=FR"
+      },
+      {
+        "text": "Official Journal L 22, 24.01.1997",
+        "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31997R0123:EN:NOT"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "AT_0017_1425_SUM_FR.pdf",
+        "uri": "72519"
+      },
+      {
+        "text": "AT_0017_1425_SUM_DE_O.pdf",
+        "uri": "63859"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "040600000080",
+        "cnText": "0406",
+        "cnLabel": "04 - cnCode.040000000080.label|0406 - cnCode.040600000080.label",
+        "cnTranslation": "04 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED | 0406 - Cheese and curd"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000013366",
+    "modificationDate": "2019-12-23T10:38:02.000Z",
+    "protectedNames": [
+      "Tiroler Graukäse"
+    ],
+    "fileNumber": "PDO-AT-1435",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Food",
+    "productCategories": [
+      144
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-07-02",
+    "legalInstrument": {
+      "text": "Official Journal L 163, 02.07.1996",
+      "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996R1263:EN:NOT"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal L 163, 02.07.1996",
+        "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996R1263:EN:NOT"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "AT_0017_1435_SUM_FR.pdf",
+        "uri": "74846"
+      },
+      {
+        "text": "AT_0017_1435_SUM_DA.pdf",
+        "uri": "74852"
+      },
+      {
+        "text": "AT_0017_1435_SUM_ES.pdf",
+        "uri": "74851"
+      },
+      {
+        "text": "AT_0017_1435_SUM_FI.pdf",
+        "uri": "74850"
+      },
+      {
+        "text": "AT_0017_1435_SUM_PT.pdf",
+        "uri": "74849"
+      },
+      {
+        "text": "AT_0017_1435_SUM_IT.pdf",
+        "uri": "74848"
+      },
+      {
+        "text": "AT_0017_1435_SUM_SV.pdf",
+        "uri": "74847"
+      },
+      {
+        "text": "AT_0017_1435_SUM_EN.pdf",
+        "uri": "62322"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "040600000080",
+        "cnText": "0406",
+        "cnLabel": "04 - cnCode.040000000080.label|0406 - cnCode.040600000080.label",
+        "cnTranslation": "04 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED | 0406 - Cheese and curd"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000013367",
+    "modificationDate": "2020-02-10T10:53:19.000Z",
+    "protectedNames": [
+      "Tiroler Almkäse",
+      "Tiroler Alpkäse"
+    ],
+    "fileNumber": "PDO-AT-1436",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Food",
+    "productCategories": [
+      144
+    ],
+    "status": "registered",
+    "euProtectionDate": "1997-11-25",
+    "legalInstrument": {
+      "text": "Official Journal L 322, 25.11.1997",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A31997R2325"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal L 322, 25.11.1997",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A31997R2325"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "AT_0017_1436_SUM_DA.pdf",
+        "uri": "73545"
+      },
+      {
+        "text": "AT_0017_1436_SUM_EN.pdf",
+        "uri": "73544"
+      },
+      {
+        "text": "AT_0017_1436_SUM_IT.pdf",
+        "uri": "73543"
+      },
+      {
+        "text": "AT_0017_1436_SUM_FR.pdf",
+        "uri": "73542"
+      },
+      {
+        "text": "AT_0017_1436_SUM_SV.pdf",
+        "uri": "73541"
+      },
+      {
+        "text": "AT_0017_1436_SUM_PT.pdf",
+        "uri": "73540"
+      },
+      {
+        "text": "AT_0017_1436_SUM_FI.pdf",
+        "uri": "73539"
+      },
+      {
+        "text": "AT_0017_1436_SUM_DE_O.pdf",
+        "uri": "62311"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "040600000080",
+        "cnText": "0406",
+        "cnLabel": "04 - cnCode.040000000080.label|0406 - cnCode.040600000080.label",
+        "cnTranslation": "04 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED | 0406 - Cheese and curd"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000013368",
+    "modificationDate": "2023-02-06T20:56:47.284Z",
+    "protectedNames": [
+      "Steirisches Kürbiskernöl"
+    ],
+    "fileNumber": "PGI-AT-1460",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PGI",
+    "productType": "Food",
+    "productCategories": [
+      146
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-07-02",
+    "legalInstrument": {
+      "text": "Official Journal L 163, 02.07.1996",
+      "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996R1263:EN:NOT"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 327, 30.8.2022",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2022.327.01.0005.01.ENG&toc=OJ%3AC%3A2022%3A327%3ATOC"
+      },
+      {
+        "text": "Amendment",
+        "uri": "64790"
+      },
+      {
+        "text": "Amendment",
+        "uri": "64789"
+      },
+      {
+        "text": "Amendment",
+        "uri": "64804"
+      },
+      {
+        "text": "Official Journal L 15, 22.01.2015",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:JOL_2015_015_R_0016&from=EN"
+      },
+      {
+        "text": "Official Journal L 163, 02.07.1996",
+        "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996R1263:EN:NOT"
+      },
+      {
+        "text": "Official Journal L 27, 31.1.2023",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2023.027.01.0006.01.ENG&toc=OJ%3AL%3A2023%3A027%3ATOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "agri-2011-63269-00-00-bg-tra-00.pdf",
+        "uri": "72327"
+      },
+      {
+        "text": "agri-2011-63269-00-00-en-tra-00.pdf",
+        "uri": "72326"
+      },
+      {
+        "text": "agri-2011-63269-00-00-es-tra-00.pdf",
+        "uri": "72325"
+      },
+      {
+        "text": "agri-2011-63269-00-00-fi-tra-00.pdf",
+        "uri": "72324"
+      },
+      {
+        "text": "agri-2011-63269-00-00-it-tra-00.pdf",
+        "uri": "72323"
+      },
+      {
+        "text": "agri-2011-63269-00-00-cs-tra-00.pdf",
+        "uri": "72322"
+      },
+      {
+        "text": "agri-2011-63269-00-00-sk-tra-00.pdf",
+        "uri": "72321"
+      },
+      {
+        "text": "agri-2011-63269-00-00-mt-tra-00.pdf",
+        "uri": "72320"
+      },
+      {
+        "text": "agri-2011-63269-00-00-nl-tra-00.pdf",
+        "uri": "72319"
+      },
+      {
+        "text": "agri-2011-63269-00-00-da-tra-00.pdf",
+        "uri": "72318"
+      },
+      {
+        "text": "agri-2011-63269-00-00-lv-tra-00.pdf",
+        "uri": "72338"
+      },
+      {
+        "text": "agri-2011-63269-00-00-lt-tra-00.pdf",
+        "uri": "72337"
+      },
+      {
+        "text": "agri-2011-63269-00-00-hu-tra-00.pdf",
+        "uri": "72336"
+      },
+      {
+        "text": "agri-2011-63269-00-00-hu-tra-00.pdf",
+        "uri": "72335"
+      },
+      {
+        "text": "agri-2011-63269-00-00-fr-tra-00.pdf",
+        "uri": "72334"
+      },
+      {
+        "text": "agri-2011-63269-00-00-sv-tra-00.pdf",
+        "uri": "72333"
+      },
+      {
+        "text": "agri-2011-63269-00-00-pt-tra-00.pdf",
+        "uri": "72332"
+      },
+      {
+        "text": "agri-2011-63269-00-00-et-tra-00.pdf",
+        "uri": "72331"
+      },
+      {
+        "text": "agri-2011-63269-00-00-ro-tra-00.pdf",
+        "uri": "72330"
+      },
+      {
+        "text": "agri-2011-63269-00-00-el-tra-00.pdf",
+        "uri": "72329"
+      },
+      {
+        "text": "agri-2011-63269-00-00-pl-tra-00.pdf",
+        "uri": "72328"
+      },
+      {
+        "text": "111110-de-s-steirischeskürbiskernöl_O.pdf",
+        "uri": "64797"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "150000000080",
+        "cnText": "15",
+        "cnLabel": "15 - cnCode.150000000080.label",
+        "cnTranslation": "15 - ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000013369",
+    "modificationDate": "2024-10-04T17:16:55.590Z",
+    "protectedNames": [
+      "Marchfeldspargel"
+    ],
+    "fileNumber": "PGI-AT-1462",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PGI",
+    "productType": "Food",
+    "productCategories": [
+      147
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-07-02",
+    "legalInstrument": {
+      "text": "Official Journal L 163, 02.07.1996",
+      "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996R1263:EN:NOT"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal L 2023/2889, 22.12.2023",
+        "uri": "http://data.europa.eu/eli/reg_impl/2023/2889/oj"
+      },
+      {
+        "text": "Official Journal C 306, 30.8.2023",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.306.01.0005.01.ENG&toc=OJ%3AC%3A2023%3A306%3ATOC"
+      },
+      {
+        "text": "Official Journal C 437, 25.11.2016",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:JOC_2016_437_R_0008&from=EN"
+      },
+      {
+        "text": "Official Journal L 163, 02.07.1996",
+        "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996R1263:EN:NOT"
+      },
+      {
+        "text": "Official Journal L 43, 18.02.2015",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:JOL_2015_043_R_0002&from=EN"
+      },
+      {
+        "text": "Official Journal L 86, 03.04.2002",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32002R0564"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "AT_0117_1462_SUM_EL.pdf",
+        "uri": "74421"
+      },
+      {
+        "text": "AT_0117_1462_SUM_ES.pdf",
+        "uri": "74420"
+      },
+      {
+        "text": "AT_0117_1462_SUM_EN.pdf",
+        "uri": "74419"
+      },
+      {
+        "text": "AT_0117_1462_SUM_FR.pdf",
+        "uri": "74418"
+      },
+      {
+        "text": "AT_0117_1462_SUM_FI.pdf",
+        "uri": "74417"
+      },
+      {
+        "text": "AT_0117_1462_SUM_NL.pdf",
+        "uri": "74416"
+      },
+      {
+        "text": "AT_0117_1462_SUM_SV.pdf",
+        "uri": "74415"
+      },
+      {
+        "text": "AT_0117_1462_SUM_PT.pdf",
+        "uri": "74414"
+      },
+      {
+        "text": "AT_0117_1462_SUM_DE_O.pdf",
+        "uri": "61301"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "070900000080",
+        "cnText": "0709",
+        "cnLabel": "07 - cnCode.070000000080.label|0709 - cnCode.070900000080.label",
+        "cnTranslation": "07 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS | 0709 - Other vegetables, fresh or chilled"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000013370",
+    "modificationDate": "2024-10-04T17:18:10.712Z",
+    "protectedNames": [
+      "Waldviertler Graumohn"
+    ],
+    "fileNumber": "PDO-AT-1463",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Food",
+    "productCategories": [
+      147
+    ],
+    "status": "registered",
+    "euProtectionDate": "1997-06-13",
+    "legalInstrument": {
+      "text": "Official Journal L 156, 13.06.1997",
+      "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31997R1065:EN:NOT"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal L 156, 13.06.1997",
+        "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31997R1065:EN:NOT"
+      },
+      {
+        "text": "Official Journal C 62, 20.02.2015",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:JOC_2015_062_R_0008&from=FR"
+      },
+      {
+        "text": "Official Journal C 341, 16.10.2015",
+        "uri": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=uriserv:OJ.C_.2015.341.01.0024.01.FRA"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "AT_0017_1463_SUM_DA.pdf",
+        "uri": "73569"
+      },
+      {
+        "text": "AT_0017_1463_SUM_EL.pdf",
+        "uri": "73568"
+      },
+      {
+        "text": "AT_0017_1463_SUM_ES.pdf",
+        "uri": "73567"
+      },
+      {
+        "text": "AT_0017_1463_SUM_EN.pdf",
+        "uri": "73566"
+      },
+      {
+        "text": "AT_0017_1463_SUM_IT.pdf",
+        "uri": "73565"
+      },
+      {
+        "text": "AT_0017_1463_SUM_FI.pdf",
+        "uri": "73564"
+      },
+      {
+        "text": "AT_0017_1463_SUM_PT.pdf",
+        "uri": "73563"
+      },
+      {
+        "text": "AT_0017_1463_SUM_NL.pdf",
+        "uri": "73562"
+      },
+      {
+        "text": "AT_0017_1463_SUM_DE_O.pdf",
+        "uri": "62986"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "120700000080",
+        "cnText": "1207",
+        "cnLabel": "12 - cnCode.120000000080.label|1207 - cnCode.120700000080.label",
+        "cnTranslation": "12 - OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER | 1207 - Other oil seeds and oleaginous fruits, whether or not broken"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000013371",
+    "modificationDate": "2024-10-04T17:19:00.632Z",
+    "protectedNames": [
+      "Wachauer Marille"
+    ],
+    "fileNumber": "PDO-AT-1473",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Food",
+    "productCategories": [
+      147
+    ],
+    "status": "registered",
+    "euProtectionDate": "1996-06-21",
+    "legalInstrument": {
+      "text": "Official Journal L 148, 21.06.1996",
+      "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996R1107:EN:NOT"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal L 82, 22.03.2013",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32013R0265"
+      },
+      {
+        "text": "Official Journal C 140, 16.05.2012",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52012XC0516%2803%29"
+      },
+      {
+        "text": "Official Journal L 148, 21.06.1996",
+        "uri": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996R1107:EN:NOT"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "AT_0017_1473_SUM_DA.pdf",
+        "uri": "73561"
+      },
+      {
+        "text": "AT_0017_1473_SUM_EL.pdf",
+        "uri": "73560"
+      },
+      {
+        "text": "AT_0017_1473_SUM_FR.pdf",
+        "uri": "73559"
+      },
+      {
+        "text": "AT_0017_1473_SUM_EN.pdf",
+        "uri": "73558"
+      },
+      {
+        "text": "AT_0017_1473_SUM_NL.pdf",
+        "uri": "73557"
+      },
+      {
+        "text": "AT_0017_1473_SUM_PT.pdf",
+        "uri": "73556"
+      },
+      {
+        "text": "AT_0017_1473_SUM_IT.pdf",
+        "uri": "73555"
+      },
+      {
+        "text": "AT_0017_1473_SUM_DE_O.pdf",
+        "uri": "62977"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "080900000080",
+        "cnText": "0809",
+        "cnLabel": "08 - cnCode.080000000080.label|0809 - cnCode.080900000080.label",
+        "cnTranslation": "08 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS | 0809 - Apricots, cherries, peaches (including nectarines), plums and sloes, fresh"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000013503",
+    "modificationDate": "2019-12-23T10:37:45.000Z",
+    "protectedNames": [
+      "Gailtaler Speck"
+    ],
+    "fileNumber": "PGI-AT-0192",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PGI",
+    "productType": "Food",
+    "productCategories": [
+      143
+    ],
+    "status": "registered",
+    "euProtectionDate": "2001-11-22",
+    "legalInstrument": {
+      "text": "Official Journal L 181, 11.07.2002",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32002R1241"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 327, 22.11.2001",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3AC2001%2F327%2F04"
+      },
+      {
+        "text": "Official Journal L 287, 15.11.2018",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018R1721"
+      },
+      {
+        "text": "Official Journal C 195, 07.06.2018",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52018XC0607%2801%29"
+      },
+      {
+        "text": "Official Journal L 181, 11.07.2002",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32002R1241"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": null,
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "160000000080",
+        "cnText": "16",
+        "cnLabel": "16 - cnCode.160000000080.label",
+        "cnTranslation": "16 - PREPARATIONS OF MEAT, OF FISH, OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES, OR OF INSECTS"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000013554",
+    "modificationDate": "2024-10-04T17:20:16.404Z",
+    "protectedNames": [
+      "Steirischer Kren"
+    ],
+    "fileNumber": "PGI-AT-0249",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PGI",
+    "productType": "Food",
+    "productCategories": [
+      147
+    ],
+    "status": "registered",
+    "euProtectionDate": "2002-09-04",
+    "legalInstrument": {
+      "text": "Official Journal L 333, 11.12.2008",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32008R1229"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal L 333, 11.12.2008",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32008R1229"
+      },
+      {
+        "text": "Official Journal C 91, 12.04.2008",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52008XC0412%2807%29"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": null,
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "070600000080",
+        "cnText": "0706",
+        "cnLabel": "07 - cnCode.070000000080.label|0706 - cnCode.070600000080.label",
+        "cnTranslation": "07 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS | 0706 - Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled"
+      },
+      {
+        "cnCode": "200000000080",
+        "cnText": "20",
+        "cnLabel": "20 - cnCode.200000000080.label",
+        "cnTranslation": "20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000014529",
+    "modificationDate": "2024-10-16T14:43:03.861Z",
+    "protectedNames": [
+      "Pöllauer Hirschbirne"
+    ],
+    "fileNumber": "PDO-AT-1190",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Food",
+    "productCategories": [
+      147
+    ],
+    "status": "registered",
+    "euProtectionDate": "2013-12-16",
+    "legalInstrument": {
+      "text": "Official Journal L 97, 14.04.2015",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:JOL_2015_097_R_0003&from=EN"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 414, 20.11.2014",
+        "uri": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=uriserv:OJ.C_.2014.414.01.0013.01.FRA"
+      },
+      {
+        "text": "Official Journal L 97, 14.04.2015",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:JOL_2015_097_R_0003&from=EN"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": null,
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "080800000080",
+        "cnText": "0808",
+        "cnLabel": "08 - cnCode.080000000080.label|0808 - cnCode.080800000080.label",
+        "cnTranslation": "08 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS | 0808 - Apples, pears and quinces, fresh"
+      },
+      {
+        "cnCode": "081300000080",
+        "cnText": "0813",
+        "cnLabel": "08 - cnCode.080000000080.label|0813 - cnCode.081300000080.label",
+        "cnTranslation": "08 - EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS | 0813 - Fruit, dried, other than that of headings 0801 to 0806; mixtures of nuts or dried fruits of this chapter"
+      },
+      {
+        "cnCode": "200900000080",
+        "cnText": "2009",
+        "cnLabel": "20 - cnCode.200000000080.label|2009 - cnCode.200900000080.label",
+        "cnTranslation": "20 - PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS | 2009 - Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000014226",
+    "modificationDate": "2019-11-13T16:23:35.000Z",
+    "protectedNames": [
+      "Wachauer Marillenlikör"
+    ],
+    "fileNumber": "PGI-AT-02037",
+    "countries": [
+      "AT"
+    ],
+    "giType": "GI",
+    "productType": "Spirit drink",
+    "productCategories": [
+      223
+    ],
+    "status": "registered",
+    "euProtectionDate": "1994-08-29",
+    "legalInstrument": {
+      "text": "Article 37 of Regulation 2019/787",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.130.01.0001.01.ENG"
+    },
+    "singleDocument": null,
+    "publications": null,
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2017)1258247_EN",
+        "uri": "66086"
+      },
+      {
+        "text": "Ares(2017)1258247",
+        "uri": "55640"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220800000080",
+        "cnText": "2208",
+        "cnLabel": "22 - cnCode.220000000080.label|2208 - cnCode.220800000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2208 - Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol; spirits, liqueurs and other spirituous beverages"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000015333",
+    "modificationDate": "2019-07-12T08:36:40.000Z",
+    "protectedNames": [
+      "Inländerrum"
+    ],
+    "fileNumber": "PGI-AT-01915",
+    "countries": [
+      "AT"
+    ],
+    "giType": "GI",
+    "productType": "Spirit drink",
+    "productCategories": [
+      235
+    ],
+    "status": "registered",
+    "euProtectionDate": "2008-02-13",
+    "legalInstrument": {
+      "text": "Article 37 of Regulation 2019/787",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.130.01.0001.01.ENG"
+    },
+    "singleDocument": null,
+    "publications": null,
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2015)4116304_EN",
+        "uri": "66179"
+      },
+      {
+        "text": "Ares(2015)4116304",
+        "uri": "48663"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220800000080",
+        "cnText": "2208",
+        "cnLabel": "22 - cnCode.220000000080.label|2208 - cnCode.220800000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2208 - Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol; spirits, liqueurs and other spirituous beverages"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000015338",
+    "modificationDate": "2019-07-12T08:36:39.000Z",
+    "protectedNames": [
+      "Steinfelder Magenbitter"
+    ],
+    "fileNumber": "PGI-AT-01916",
+    "countries": [
+      "AT"
+    ],
+    "giType": "GI",
+    "productType": "Spirit drink",
+    "productCategories": [
+      223
+    ],
+    "status": "registered",
+    "euProtectionDate": "1994-08-29",
+    "legalInstrument": {
+      "text": "Article 37 of Regulation 2019/787",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.130.01.0001.01.ENG"
+    },
+    "singleDocument": null,
+    "publications": null,
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2016)96163_EN",
+        "uri": "66198"
+      },
+      {
+        "text": "Ares(2016)96163",
+        "uri": "42187"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220800000080",
+        "cnText": "2208",
+        "cnLabel": "22 - cnCode.220000000080.label|2208 - cnCode.220800000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2208 - Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol; spirits, liqueurs and other spirituous beverages"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000015336",
+    "modificationDate": "2019-07-12T08:36:39.000Z",
+    "protectedNames": [
+      "Mariazeller Magenlikör"
+    ],
+    "fileNumber": "PGI-AT-01920",
+    "countries": [
+      "AT"
+    ],
+    "giType": "GI",
+    "productType": "Spirit drink",
+    "productCategories": [
+      223
+    ],
+    "status": "registered",
+    "euProtectionDate": "1994-08-29",
+    "legalInstrument": {
+      "text": "Article 37 of Regulation 2019/787",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.130.01.0001.01.ENG"
+    },
+    "singleDocument": null,
+    "publications": null,
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2017)523219_EN",
+        "uri": "66197"
+      },
+      {
+        "text": "Ares(2017)523219",
+        "uri": "42190"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220800000080",
+        "cnText": "2208",
+        "cnLabel": "22 - cnCode.220000000080.label|2208 - cnCode.220800000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2208 - Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol; spirits, liqueurs and other spirituous beverages"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000015337",
+    "modificationDate": "2019-07-12T08:36:39.000Z",
+    "protectedNames": [
+      "Jägertee",
+      "Jagertee",
+      "Jagatee"
+    ],
+    "fileNumber": "PGI-AT-01917",
+    "countries": [
+      "AT"
+    ],
+    "giType": "GI",
+    "productType": "Spirit drink",
+    "productCategories": [
+      223
+    ],
+    "status": "registered",
+    "euProtectionDate": "2008-02-13",
+    "legalInstrument": {
+      "text": "Article 37 of Regulation 2019/787",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.130.01.0001.01.ENG"
+    },
+    "singleDocument": null,
+    "publications": null,
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2015)5732426_EN",
+        "uri": "66196"
+      },
+      {
+        "text": "Ares(2015)5732426",
+        "uri": "42193"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220800000080",
+        "cnText": "2208",
+        "cnLabel": "22 - cnCode.220000000080.label|2208 - cnCode.220800000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2208 - Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol; spirits, liqueurs and other spirituous beverages"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000015335",
+    "modificationDate": "2019-07-12T08:36:26.000Z",
+    "protectedNames": [
+      "Wachauer Marillenbrand"
+    ],
+    "fileNumber": "PGI-AT-01918",
+    "countries": [
+      "AT"
+    ],
+    "giType": "GI",
+    "productType": "Spirit drink",
+    "productCategories": [
+      199
+    ],
+    "status": "registered",
+    "euProtectionDate": "1994-08-29",
+    "legalInstrument": {
+      "text": "Article 37 of Regulation 2019/787",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.130.01.0001.01.ENG"
+    },
+    "singleDocument": null,
+    "publications": null,
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2015)4116304_EN",
+        "uri": "66178"
+      },
+      {
+        "text": "Ares(2015)4116304",
+        "uri": "48664"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220800000080",
+        "cnText": "2208",
+        "cnLabel": "22 - cnCode.220000000080.label|2208 - cnCode.220800000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2208 - Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol; spirits, liqueurs and other spirituous beverages"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000015334",
+    "modificationDate": "2019-07-12T08:36:25.000Z",
+    "protectedNames": [
+      "Wachauer Weinbrand"
+    ],
+    "fileNumber": "PGI-AT-01919",
+    "countries": [
+      "AT"
+    ],
+    "giType": "GI",
+    "productType": "Spirit drink",
+    "productCategories": [
+      195
+    ],
+    "status": "registered",
+    "euProtectionDate": "1994-08-29",
+    "legalInstrument": {
+      "text": "Article 37 of Regulation 2019/787",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.130.01.0001.01.ENG"
+    },
+    "singleDocument": null,
+    "publications": null,
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2015)4116936_EN",
+        "uri": "66177"
+      },
+      {
+        "text": "Ares(2015)4116936",
+        "uri": "48665"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220800000080",
+        "cnText": "2208",
+        "cnLabel": "22 - cnCode.220000000080.label|2208 - cnCode.220800000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2208 - Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol; spirits, liqueurs and other spirituous beverages"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000015918",
+    "modificationDate": "2024-10-04T17:22:09.296Z",
+    "protectedNames": [
+      "Steirische Käferbohne"
+    ],
+    "fileNumber": "PDO-AT-01272",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Food",
+    "productCategories": [
+      147
+    ],
+    "status": "registered",
+    "euProtectionDate": "2014-11-04",
+    "legalInstrument": {
+      "text": "Official Journal L 229, 24.08.2016",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32016R1408"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal L 229, 24.08.2016",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32016R1408"
+      },
+      {
+        "text": "Official Journal C 127, 09.04.2016",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52016XC0409%2805%29"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": null,
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "070000000080",
+        "cnText": "07",
+        "cnLabel": "07 - cnCode.070000000080.label",
+        "cnTranslation": "07 - EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000015653",
+    "modificationDate": "2019-07-12T08:36:24.000Z",
+    "protectedNames": [
+      "Korn",
+      "Kornbrand"
+    ],
+    "fileNumber": "PGI-DE+AT+BE-01929",
+    "countries": [
+      "DE",
+      "BE",
+      "AT"
+    ],
+    "giType": "GI",
+    "productType": "Spirit drink",
+    "productCategories": [
+      193
+    ],
+    "status": "registered",
+    "euProtectionDate": "2008-02-13",
+    "legalInstrument": {
+      "text": "Article 37 of Regulation 2019/787",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.130.01.0001.01.ENG"
+    },
+    "singleDocument": null,
+    "publications": null,
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2016)8037_EN",
+        "uri": "66176"
+      },
+      {
+        "text": "Ares(2016)8037",
+        "uri": "48681"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220800000080",
+        "cnText": "2208",
+        "cnLabel": "22 - cnCode.220000000080.label|2208 - cnCode.220800000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2208 - Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol; spirits, liqueurs and other spirituous beverages"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000014166",
+    "modificationDate": "2019-11-13T16:23:35.000Z",
+    "protectedNames": [
+      "Pálinka"
+    ],
+    "fileNumber": "PGI-HU+AT-02048",
+    "countries": [
+      "HU",
+      "AT"
+    ],
+    "giType": "GI",
+    "productType": "Spirit drink",
+    "productCategories": [
+      199
+    ],
+    "status": "registered",
+    "euProtectionDate": "2008-02-13",
+    "legalInstrument": {
+      "text": "Article 37 of Regulation 2019/787",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.130.01.0001.01.ENG"
+    },
+    "singleDocument": null,
+    "publications": null,
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": [
+      {
+        "text": "Ares(2018)619133_EN",
+        "uri": "66066"
+      },
+      {
+        "text": "Ares(2018)619133",
+        "uri": "55706"
+      }
+    ],
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220800000080",
+        "cnText": "2208",
+        "cnLabel": "22 - cnCode.220000000080.label|2208 - cnCode.220800000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2208 - Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol; spirits, liqueurs and other spirituous beverages"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000017177",
+    "modificationDate": "2023-09-06T13:39:02.712Z",
+    "protectedNames": [
+      "Ennstaler Steirerkas"
+    ],
+    "fileNumber": "PDO-AT-02588",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Food",
+    "productCategories": [
+      144
+    ],
+    "status": "registered",
+    "euProtectionDate": "2020-01-28",
+    "legalInstrument": {
+      "text": "Official Journal L 162, 10.05.2021",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2021.162.01.0004.01.ENG&toc=OJ%3AL%3A2021%3A162%3ATOC"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C, 19.01.2021",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2021.020.01.0011.01.ENG&toc=OJ%3AC%3A2021%3A020%3ATOC"
+      },
+      {
+        "text": "Official Journal L 162, 10.05.2021",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2021.162.01.0004.01.ENG&toc=OJ%3AL%3A2021%3A162%3ATOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": null,
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "040600000080",
+        "cnText": "0406",
+        "cnLabel": "04 - cnCode.040000000080.label|0406 - cnCode.040600000080.label",
+        "cnTranslation": "04 - DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED | 0406 - Cheese and curd"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000016590",
+    "modificationDate": "2024-01-08T14:34:48.925Z",
+    "protectedNames": [
+      "Bodensee Obstler"
+    ],
+    "fileNumber": "PGI-DE+AT+CH-02570",
+    "countries": [
+      "DE",
+      "AT",
+      "CH"
+    ],
+    "giType": "GI",
+    "productType": "Spirit drink",
+    "productCategories": [
+      199
+    ],
+    "status": "applied",
+    "euProtectionDate": "2019-06-07",
+    "legalInstrument": null,
+    "singleDocument": null,
+    "publications": null,
+    "amendmentsInProgressFlag": false,
+    "removedFlag": true,
+    "summarySheets": null,
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": true,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220800000080",
+        "cnText": "2208",
+        "cnLabel": "22 - cnCode.220000000080.label|2208 - cnCode.220800000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2208 - Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol; spirits, liqueurs and other spirituous beverages"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000016591",
+    "modificationDate": "2024-01-08T14:35:57.342Z",
+    "protectedNames": [
+      "Bodensee Birnenbrand (mit oder ohne Angabe der Sorte(n))"
+    ],
+    "fileNumber": "PGI-DE+AT+CH-02576",
+    "countries": [
+      "DE",
+      "AT",
+      "CH"
+    ],
+    "giType": "GI",
+    "productType": "Spirit drink",
+    "productCategories": [
+      199
+    ],
+    "status": "applied",
+    "euProtectionDate": "2019-06-07",
+    "legalInstrument": null,
+    "singleDocument": null,
+    "publications": null,
+    "amendmentsInProgressFlag": false,
+    "removedFlag": true,
+    "summarySheets": null,
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": true,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220800000080",
+        "cnText": "2208",
+        "cnLabel": "22 - cnCode.220000000080.label|2208 - cnCode.220800000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2208 - Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol; spirits, liqueurs and other spirituous beverages"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000016589",
+    "modificationDate": "2023-10-11T15:44:17.044Z",
+    "protectedNames": [
+      "Pregler",
+      "Osttiroler Pregler"
+    ],
+    "fileNumber": "PGI-AT-02512",
+    "countries": [
+      "AT"
+    ],
+    "giType": "GI",
+    "productType": "Spirit drink",
+    "productCategories": [
+      199
+    ],
+    "status": "registered",
+    "euProtectionDate": "2019-06-07",
+    "legalInstrument": {
+      "text": "Official Journal L 41, 22.02.2022",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2022.041.01.0014.01.ENG&toc=OJ%3AL%3A2022%3A041%3ATOC"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 430, 25.10.2021",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2021.430.01.0014.01.ENG&toc=OJ%3AC%3A2021%3A430%3ATOC"
+      },
+      {
+        "text": "Official Journal L 41, 22.02.2022",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2022.041.01.0014.01.ENG&toc=OJ%3AL%3A2022%3A041%3ATOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": null,
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220800000080",
+        "cnText": "2208",
+        "cnLabel": "22 - cnCode.220000000080.label|2208 - cnCode.220800000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2208 - Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol; spirits, liqueurs and other spirituous beverages"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000017144",
+    "modificationDate": "2022-12-20T12:17:00.891Z",
+    "protectedNames": [
+      "Rosalia"
+    ],
+    "fileNumber": "PDO-AT-02594",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "2020-02-21",
+    "legalInstrument": {
+      "text": "Official Journal L 323, 19.12.2022",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2022.323.01.0032.01.ENG&toc=OJ%3AL%3A2022%3A323%3ATOC"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal L 323, 19.12.2022",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2022.323.01.0032.01.ENG&toc=OJ%3AL%3A2022%3A323%3ATOC"
+      },
+      {
+        "text": "Official Journal C 305, 10.8.2022",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2022.305.01.0018.01.ENG&toc=OJ%3AC%3A2022%3A305%3ATOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": null,
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000017145",
+    "modificationDate": "2024-05-02T12:21:30.104Z",
+    "protectedNames": [
+      "Wiener Gemischter Satz"
+    ],
+    "fileNumber": "PDO-AT-02593",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "2020-02-21",
+    "legalInstrument": {
+      "text": "Official Journal L, 2024/1216, 29.4.2024",
+      "uri": "http://data.europa.eu/eli/reg_impl/2024/1216/oj"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal L, 2024/1216, 29.4.2024",
+        "uri": "http://data.europa.eu/eli/reg_impl/2024/1216/oj"
+      },
+      {
+        "text": "Official Journal C, C/2023/1187, 24.11.2023",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202301187"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": null,
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000018658",
+    "modificationDate": "2023-06-28T11:52:03.014Z",
+    "protectedNames": [
+      "Lesachtaler Brot"
+    ],
+    "fileNumber": "PGI-AT-02849",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PGI",
+    "productType": "Food",
+    "productCategories": [
+      153
+    ],
+    "status": "registered",
+    "euProtectionDate": "2022-06-03",
+    "legalInstrument": {
+      "text": "Official Journal L 160, 26.6.2023",
+      "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2023.160.01.0005.01.ENG&toc=OJ%3AL%3A2023%3A160%3ATOC"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C 78, 2.3.2023",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.078.01.0031.01.ENG&toc=OJ%3AC%3A2023%3A078%3ATOC"
+      },
+      {
+        "text": "Official Journal L 160, 26.6.2023",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2023.160.01.0005.01.ENG&toc=OJ%3AL%3A2023%3A160%3ATOC"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": null,
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "190500000080",
+        "cnText": "1905",
+        "cnLabel": "19 - cnCode.190000000080.label|1905 - cnCode.190500000080.label",
+        "cnTranslation": "19 - PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS' PRODUCTS | 1905 - Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products"
+      }
+    ]
+  },
+  {
+    "giIdentifier": "EUGI00000017207",
+    "modificationDate": "2024-04-30T12:08:06.198Z",
+    "protectedNames": [
+      "Ruster Ausbruch"
+    ],
+    "fileNumber": "PDO-AT-02769",
+    "countries": [
+      "AT"
+    ],
+    "giType": "PDO",
+    "productType": "Wine",
+    "productCategories": [
+      1
+    ],
+    "status": "registered",
+    "euProtectionDate": "2021-04-26",
+    "legalInstrument": {
+      "text": "Official Journal L 2024/1228, 30.4.2024",
+      "uri": "http://data.europa.eu/eli/reg_impl/2024/1228/oj"
+    },
+    "singleDocument": null,
+    "publications": [
+      {
+        "text": "Official Journal C/2024/673, 9.1.2024",
+        "uri": "http://data.europa.eu/eli/C/2024/673/oj"
+      },
+      {
+        "text": "Official Journal L 2024/1228, 30.4.2024",
+        "uri": "http://data.europa.eu/eli/reg_impl/2024/1228/oj"
+      }
+    ],
+    "amendmentsInProgressFlag": false,
+    "removedFlag": false,
+    "summarySheets": null,
+    "producerGroupName": null,
+    "producerGroupEmail": null,
+    "producerGroupPhone": null,
+    "producerGroupUrl": null,
+    "producerGroupAdress": null,
+    "producerGroupCountry": null,
+    "producerGroupUpdatedOn": null,
+    "thirdCountryFlag": false,
+    "transcriptions": null,
+    "competentControlAuthorities": [],
+    "recognisedProducersGroup": [],
+    "sustainabilityReports": [],
+    "cnClassification": [
+      {
+        "cnCode": "220400000080",
+        "cnText": "2204",
+        "cnLabel": "22 - cnCode.220000000080.label|2204 - cnCode.220400000080.label",
+        "cnTranslation": "22 - BEVERAGES, SPIRITS AND VINEGAR | 2204 - Wine of fresh grapes, including fortified wines; grape must other than that of heading 2009"
+      }
+    ]
+  }
+]

@@ -1,0 +1,546 @@
+[
+  {
+    "id": "at-dac-wachau",
+    "name": "Wachau",
+    "layer": "Wachau DAC",
+    "country": "AUSTRIA",
+    "region": "Niederösterreich",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0205",
+    "color": "#4682B4",
+    "whites": [
+      "Grüner Veltliner",
+      "Riesling"
+    ],
+    "reds": [],
+    "desc": "La meca histórica del vino blanco austríaco a lo largo de las terrazas empinadas de piedra seca del Danubio (Patrimonio UNESCO). Suelos primarios de gneis de Gföhl y anfibolita. Célebre por las categorías históricas Steinfeder, Federspiel y Smaragd, con Rieslings minerales cristalinos y Grüner Veltliners opulentos y especiados de legendaria longevidad.",
+    "source_mode": "munis",
+    "source_file": "DOWNs/AUSTRIA/gemeinden_austria.geojson",
+    "source_table": "gemeinden_995_geo_korr",
+    "items": [
+      "31344",
+      "31304",
+      "31351",
+      "31338",
+      "31327",
+      "31303",
+      "31326",
+      "31330",
+      "31301",
+      "31553",
+      "31542"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Wachau.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Wachau.gpkg"
+  },
+  {
+    "id": "at-dac-kremstal",
+    "name": "Kremstal",
+    "layer": "Kremstal DAC",
+    "country": "AUSTRIA",
+    "region": "Niederösterreich",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0208",
+    "color": "#20B2AA",
+    "whites": [
+      "Grüner Veltliner",
+      "Riesling"
+    ],
+    "reds": [],
+    "desc": "Situada en torno a la milenaria ciudad de Krems an der Donau y el monasterio de Göttweig. Transición geológica entre la roca primaria occidental y los profundos mantos orientales de loess. Produce Grüner Veltliner frescos y pimentados (Pfefferl) junto a Rieslings afilados con vivacidad cítrica y notas ahumadas de roca primaria.",
+    "source_mode": "munis",
+    "source_file": "DOWNs/AUSTRIA/gemeinden_austria.geojson",
+    "source_table": "gemeinden_995_geo_korr",
+    "items": [
+      "30101",
+      "31343",
+      "31336",
+      "31309",
+      "31347",
+      "31356",
+      "31308",
+      "31333"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Kremstal.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Kremstal.gpkg"
+  },
+  {
+    "id": "at-dac-kamptal",
+    "name": "Kamptal",
+    "layer": "Kamptal DAC",
+    "country": "AUSTRIA",
+    "region": "Niederösterreich",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0209",
+    "color": "#3CB371",
+    "whites": [
+      "Grüner Veltliner",
+      "Riesling"
+    ],
+    "reds": [],
+    "desc": "Valle del río Kamp con centro en la prestigiosa villa vinícola de Langenlois. Destaca el legendario pago Zöbinger Heiligenstein sobre areniscas del Pérmico con componentes volcánicos desérticos y colinas de loess. Rieslings de Heiligenstein con aromas a melocotón de viña y pedernal, y Grüner Veltliner de gran salinidad y acidez vibrante.",
+    "source_mode": "munis",
+    "source_file": "DOWNs/AUSTRIA/gemeinden_austria.geojson",
+    "source_table": "gemeinden_995_geo_korr",
+    "items": [
+      "31322",
+      "31355",
+      "31315",
+      "31346",
+      "31324",
+      "31310"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Kamptal.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Kamptal.gpkg"
+  },
+  {
+    "id": "at-dac-traisental",
+    "name": "Traisental",
+    "layer": "Traisental DAC",
+    "country": "AUSTRIA",
+    "region": "Niederösterreich",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0210",
+    "color": "#5F9EA0",
+    "whites": [
+      "Grüner Veltliner",
+      "Riesling"
+    ],
+    "reds": [],
+    "desc": "Valle idílico a lo largo del río Traisen hacia Sankt Pölten. Terrazas escarpadas sobre conglomerados y calizas del Mioceno que confieren a sus vinos un perfil afilado, sumamente mineral, con acidez crujiente acerada, notas de lima, tiza y una salinidad prolongada extraordinaria en la mesa.",
+    "source_mode": "munis",
+    "source_file": "DOWNs/AUSTRIA/gemeinden_austria.geojson",
+    "source_table": "gemeinden_995_geo_korr",
+    "items": [
+      "30201",
+      "31913",
+      "31915",
+      "31928",
+      "31940",
+      "31943",
+      "31949",
+      "31929"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Traisental.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Traisental.gpkg"
+  },
+  {
+    "id": "at-dac-wagram",
+    "name": "Wagram",
+    "layer": "Wagram DAC",
+    "country": "AUSTRIA",
+    "region": "Niederösterreich",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0233",
+    "color": "#DAA520",
+    "whites": [
+      "Grüner Veltliner",
+      "Roter Veltliner",
+      "Riesling"
+    ],
+    "reds": [
+      "Blauer Zweigelt",
+      "Pinot Noir"
+    ],
+    "desc": "Espectacular terraza elevada de loess de hasta 20 metros de espesor al norte del Danubio y la histórica sede abacial de Klosterneuburg. Cuna del singular Roter Veltliner autóctono y de Grüner Veltliner opulentos, con textura melosa aterciopelada, notas de frutos secos y especias finas.",
+    "source_mode": "munis",
+    "source_file": "DOWNs/AUSTRIA/gemeinden_austria.geojson",
+    "source_table": "gemeinden_995_geo_korr",
+    "items": [
+      "32101",
+      "32104",
+      "32109",
+      "32110",
+      "32114",
+      "32115",
+      "32112",
+      "32135"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Wagram.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Wagram.gpkg"
+  },
+  {
+    "id": "at-dac-weinviertel",
+    "name": "Weinviertel",
+    "layer": "Weinviertel DAC",
+    "country": "AUSTRIA",
+    "region": "Niederösterreich",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0206",
+    "color": "#2E8B57",
+    "whites": [
+      "Grüner Veltliner"
+    ],
+    "reds": [],
+    "desc": "El gran \"Cuadrante del Vino\", la mayor región vitícola de Austria y la primera denominación DAC pionera en 2002. Famosa por sus idílicas calles de bodegas (Kellergassen). Hogar del auténtico \"Pfefferl\": Grüner Veltliner seco, aromático, chispeante de pimienta blanca, manzana verde y frescura inigualable.",
+    "source_mode": "bezirke",
+    "source_file": "DOWNs/AUSTRIA/bezirke_austria.geojson",
+    "source_table": "bezirke_995_geo",
+    "items": [
+      "316",
+      "310",
+      "312",
+      "308"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Weinviertel.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Weinviertel.gpkg"
+  },
+  {
+    "id": "at-dac-carnuntum",
+    "name": "Carnuntum",
+    "layer": "Carnuntum DAC",
+    "country": "AUSTRIA",
+    "region": "Niederösterreich",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0217",
+    "color": "#8B0000",
+    "whites": [
+      "Chardonnay",
+      "Weißburgunder",
+      "Grüner Veltliner"
+    ],
+    "reds": [
+      "Zweigelt",
+      "Blaufränkisch"
+    ],
+    "desc": "Ubicada sobre los asentamientos romanos entre Viena y el Danubio oriental. Las colinas calizas de Spitzerberg y las gravas cálidas de Arbesthal dan vida a los tintos de Zweigelt y Blaufränkisch más elegantes, sedosos y nobles del norte austríaco, con una estructura tánica vibrante y salinidad calcárea.",
+    "source_mode": "munis",
+    "source_file": "DOWNs/AUSTRIA/gemeinden_austria.geojson",
+    "source_table": "gemeinden_995_geo_korr",
+    "items": [
+      "30702",
+      "30703",
+      "30704",
+      "30708",
+      "30710",
+      "30711",
+      "30712",
+      "30713",
+      "30718",
+      "30719",
+      "30721",
+      "30722",
+      "30726",
+      "30728"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Carnuntum.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Carnuntum.gpkg"
+  },
+  {
+    "id": "at-dac-thermenregion",
+    "name": "Thermenregion",
+    "layer": "Thermenregion DAC",
+    "country": "AUSTRIA",
+    "region": "Niederösterreich",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0229",
+    "color": "#C71585",
+    "whites": [
+      "Rotgipfler",
+      "Zierfandler (Spätrot)",
+      "Weißburgunder",
+      "Chardonnay"
+    ],
+    "reds": [
+      "Pinot Noir (Blauburgunder)",
+      "Sankt Laurent"
+    ],
+    "desc": "Falla termal a lo largo del Wienerwald al sur de Viena (Gumpoldskirchen, Baden, Sooß). Único rincón del mundo donde se elaboran las variedades blancas autóctonas Zierfandler y Rotgipfler (\"Spätrot-Rotgipfler\"), complementadas por sublimes tintos aristocráticos de Pinot Noir y Sankt Laurent sobre gravas calcáreas.",
+    "source_mode": "bezirke",
+    "source_file": "DOWNs/AUSTRIA/bezirke_austria.geojson",
+    "source_table": "bezirke_995_geo",
+    "items": [
+      "317",
+      "306"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Thermenregion.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Thermenregion.gpkg"
+  },
+  {
+    "id": "at-dac-neusiedlersee",
+    "name": "Neusiedlersee",
+    "layer": "Neusiedlersee DAC",
+    "country": "AUSTRIA",
+    "region": "Burgenland",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0219",
+    "color": "#800020",
+    "whites": [
+      "Welschriesling",
+      "Chardonnay",
+      "Weißburgunder"
+    ],
+    "reds": [
+      "Zweigelt"
+    ],
+    "desc": "Orilla oriental del lago Neusiedl y el humedal estepario de Seewinkel. Clima pannónico caluroso regulado por el lago. Produce los tintos de Zweigelt más exuberantes, carnosos y afrutados de Austria, así como vinos dulces botritizados (Beerenauslese y TBA) clasificados entre las grandes cumbres del mundo.",
+    "source_mode": "bezirke",
+    "source_file": "DOWNs/AUSTRIA/bezirke_austria.geojson",
+    "source_table": "bezirke_995_geo",
+    "items": [
+      "107"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Neusiedlersee.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Neusiedlersee.gpkg"
+  },
+  {
+    "id": "at-dac-leithaberg",
+    "name": "Leithaberg",
+    "layer": "Leithaberg DAC",
+    "country": "AUSTRIA",
+    "region": "Burgenland / Niederösterreich",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0216",
+    "color": "#9932CC",
+    "whites": [
+      "Weißburgunder",
+      "Chardonnay",
+      "Grüner Veltliner",
+      "Neuburger"
+    ],
+    "reds": [
+      "Blaufränkisch"
+    ],
+    "desc": "Laderas del Leithagebirge al oeste del lago Neusiedl. Fascinante dualidad geológica entre la caliza marina fósil de conchas (Leithakalk) y esquistos micáceos cristalinos. Vinos tensos, marcadamente minerales y salinos: Blaufränkisch de prodigiosa finura y blancos calcáreos de gran capacidad de guarda.",
+    "source_mode": "munis",
+    "source_file": "DOWNs/AUSTRIA/gemeinden_austria.geojson",
+    "source_table": "gemeinden_995_geo_korr",
+    "items": [
+      "10101",
+      "10301",
+      "10302",
+      "10303",
+      "10307",
+      "10311",
+      "10312",
+      "10313",
+      "10314",
+      "10315",
+      "30701",
+      "30716",
+      "30724"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Leithaberg.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Leithaberg.gpkg"
+  },
+  {
+    "id": "at-dac-mittelburgenland",
+    "name": "Mittelburgenland",
+    "layer": "Mittelburgenland DAC",
+    "country": "AUSTRIA",
+    "region": "Burgenland",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0214",
+    "color": "#8B0000",
+    "whites": [],
+    "reds": [
+      "Blaufränkisch"
+    ],
+    "desc": "El legendario \"Blaufränkischland\" en el distrito de Oberpullendorf. Protegido por colinas y con suelos profundos de arcilla pesada que retienen el calor. Da origen a Blaufränkisch monumentales, oscuros, con notas de mora silvestre, arándanos maduros, especias oscuras y taninos densos y nobles.",
+    "source_mode": "bezirke",
+    "source_file": "DOWNs/AUSTRIA/bezirke_austria.geojson",
+    "source_table": "bezirke_995_geo",
+    "items": [
+      "108"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Mittelburgenland.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Mittelburgenland.gpkg"
+  },
+  {
+    "id": "at-dac-eisenberg",
+    "name": "Eisenberg",
+    "layer": "Eisenberg DAC",
+    "country": "AUSTRIA",
+    "region": "Burgenland",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0215",
+    "color": "#4B0082",
+    "whites": [
+      "Welschriesling"
+    ],
+    "reds": [
+      "Blaufränkisch"
+    ],
+    "desc": "En el sur de Burgenland, sobre las laderas empinadas del monte Eisenberg y Deutsch Schützen. Suelos singulares de esquisto verde y pizarra arcillosa con alto contenido en óxido de hierro. Origina los Blaufränkisch más minerales, terrosos y afilados de Austria, con notas de grafito, arándanos y acidez elegante.",
+    "source_mode": "bezirke",
+    "source_file": "DOWNs/AUSTRIA/bezirke_austria.geojson",
+    "source_table": "bezirke_995_geo",
+    "items": [
+      "109",
+      "104",
+      "105"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Eisenberg.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Eisenberg.gpkg"
+  },
+  {
+    "id": "at-dac-rosalia",
+    "name": "Rosalia",
+    "layer": "Rosalia DAC",
+    "country": "AUSTRIA",
+    "region": "Burgenland",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-02594",
+    "color": "#DC143C",
+    "whites": [],
+    "reds": [
+      "Blaufränkisch",
+      "Zweigelt"
+    ],
+    "desc": "A los pies de las montañas de Rosalia en el extremo oeste de Burgenland (Mattersburg). Suelos ligeros de gravas, areniscas y loess cálido con noches frescas de montaña. Famosa por sus tintos sabrosos de Blaufränkisch y Zweigelt y por sus reconocidos vinos rosados Rosalia Rosé crujientes y especiados.",
+    "source_mode": "bezirke",
+    "source_file": "DOWNs/AUSTRIA/bezirke_austria.geojson",
+    "source_table": "bezirke_995_geo",
+    "items": [
+      "106"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Rosalia.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Rosalia.gpkg"
+  },
+  {
+    "id": "at-dac-ruster-ausbruch",
+    "name": "Ruster Ausbruch",
+    "layer": "Ruster Ausbruch DAC",
+    "country": "AUSTRIA",
+    "region": "Burgenland",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-02769",
+    "color": "#FFD700",
+    "whites": [
+      "Furmint",
+      "Gelber Muskateller",
+      "Grauburgunder",
+      "Sauvignon Blanc",
+      "Weißburgunder",
+      "Welschriesling",
+      "Chardonnay"
+    ],
+    "reds": [],
+    "desc": "La histórica Ciudad Libre de Rust (Freistadt Rust) en la orilla del lago Neusiedl, que en 1681 compró su título imperial a los Habsburgo con 500 cubas de su vino. Obra de arte enológica de botrytis noble cosechada grano a grano, con aromas a piel de naranja confitada, higos secos y un equilibrio suntuoso eterno.",
+    "source_mode": "bezirke",
+    "source_file": "DOWNs/AUSTRIA/bezirke_austria.geojson",
+    "source_table": "bezirke_995_geo",
+    "items": [
+      "102"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Ruster_Ausbruch.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Ruster_Ausbruch.gpkg"
+  },
+  {
+    "id": "at-dac-vulkanland-steiermark",
+    "name": "Vulkanland Steiermark",
+    "layer": "Vulkanland Steiermark DAC",
+    "country": "AUSTRIA",
+    "region": "Steiermark",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0226",
+    "color": "#B8860B",
+    "whites": [
+      "Welschriesling",
+      "Weißburgunder",
+      "Morillon (Chardonnay)",
+      "Grauburgunder",
+      "Sauvignon Blanc",
+      "Gelber Muskateller",
+      "Traminer"
+    ],
+    "reds": [
+      "Zweigelt"
+    ],
+    "desc": "Sureste de Estiria salpicado por más de 40 conos volcánicos extintos. Suelos de basalto, toba de ceniza y arenas terciarias. Vinos con marcado carácter mineral y notas ahumadas de pedernal, y el célebre Klöcher Traminer con aromas embriagadores de rosas silvestres y lichi.",
+    "source_mode": "bezirke",
+    "source_file": "DOWNs/AUSTRIA/bezirke_austria.geojson",
+    "source_table": "bezirke_995_geo",
+    "items": [
+      "623",
+      "622",
+      "617"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Vulkanland_Steiermark.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Vulkanland_Steiermark.gpkg"
+  },
+  {
+    "id": "at-dac-suedsteiermark",
+    "name": "Südsteiermark",
+    "layer": "Südsteiermark DAC",
+    "country": "AUSTRIA",
+    "region": "Steiermark",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0228",
+    "color": "#2E8B57",
+    "whites": [
+      "Sauvignon Blanc",
+      "Gelber Muskateller",
+      "Morillon (Chardonnay)",
+      "Weißburgunder",
+      "Grauburgunder",
+      "Riesling"
+    ],
+    "reds": [],
+    "desc": "La \"Toscana de Estiria\" en laderas escarpadas colindantes con Eslovenia. Suelos de marga calcárea (Opok), esquistos y pizarras paleozoicas. Cuna de los Sauvignon Blanc más puros, vibrantes, aromáticos y minerales de Europa, con notas de grosella espinosa, flor de saúco, humo y tensión salina.",
+    "source_mode": "bezirke",
+    "source_file": "DOWNs/AUSTRIA/bezirke_austria.geojson",
+    "source_table": "bezirke_995_geo",
+    "items": [
+      "610"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Suedsteiermark.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Suedsteiermark.gpkg"
+  },
+  {
+    "id": "at-dac-weststeiermark",
+    "name": "Weststeiermark",
+    "layer": "Weststeiermark DAC",
+    "country": "AUSTRIA",
+    "region": "Steiermark",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-A0234",
+    "color": "#E9967A",
+    "whites": [
+      "Weißburgunder",
+      "Sauvignon Blanc"
+    ],
+    "reds": [
+      "Blauer Wildbacher (Schilcher)"
+    ],
+    "desc": "Cuna del célebre vino rosado de culto Schilcher elaborado a partir de la uva autóctona ancestral Blauer Wildbacher. Cultivado en terrazas de gneis y esquisto de los montes Koralpe. Color rosa piel de cebolla brillante, acidez viva salvaje y aromas chispeantes de frambuesa silvestre, grosellas y ortiga.",
+    "source_mode": "bezirke",
+    "source_file": "DOWNs/AUSTRIA/bezirke_austria.geojson",
+    "source_table": "bezirke_995_geo",
+    "items": [
+      "603",
+      "616",
+      "606"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Weststeiermark.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Weststeiermark.gpkg"
+  },
+  {
+    "id": "at-dac-wiener-gemischter-satz",
+    "name": "Wiener Gemischter Satz",
+    "layer": "Wiener Gemischter Satz DAC",
+    "country": "AUSTRIA",
+    "region": "Wien",
+    "category": "DAC / g.U.",
+    "pdo_code": "PDO-AT-02593",
+    "color": "#FF8C00",
+    "whites": [
+      "Grüner Veltliner",
+      "Riesling",
+      "Weißburgunder",
+      "Grauburgunder",
+      "Traminer",
+      "Chardonnay"
+    ],
+    "reds": [],
+    "desc": "La única capital mundial con viñedos de clase mundial protegidos por DAC (Nussberg, Grinzing, Bisamberg). Elaborado según la tradición histórica vienesa de plantación mixta de cepas variadas en la misma parcela que se vendimian y prensan juntas, ofreciendo una sinfonía de frescura, elegancia y complejidad aromática.",
+    "source_mode": "bezirke",
+    "source_file": "DOWNs/AUSTRIA/bezirke_austria.geojson",
+    "source_table": "bezirke_995_geo",
+    "items": [
+      "900"
+    ],
+    "pdf_rel": "DOWNs/DOCs/AUSTRIA/Wiener_Gemischter_Satz.pdf",
+    "gpkg_rel": "QGIS/AUSTRIA/Wiener_Gemischter_Satz.gpkg"
+  }
+]
