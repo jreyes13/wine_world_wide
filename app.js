@@ -252,6 +252,7 @@ map.on('load', async () => {
     filteredFeatures = allFeatures;
 
     setupWineLayers();
+    populateCategoryFilter();
     populateRegionFilter();
     renderRegionsList();
 
@@ -260,19 +261,43 @@ map.on('load', async () => {
   }
 });
 
-function populateRegionFilter(selectedCountry = '') {
-  const select = document.getElementById('region-filter');
-  select.innerHTML = `<option value="" id="reg-all-opt">${I18N[currentLang].allRegions}</option>`;
+function populateCategoryFilter(selectedCountry = '') {
+  const select = document.getElementById('category-filter');
+  const currentVal = select.value;
+  select.innerHTML = `<option value="" id="cat-all-opt">${I18N[currentLang].allCategories}</option>`;
 
   let features = allFeatures;
   if (selectedCountry) {
     features = allFeatures.filter(f => f.properties.country === selectedCountry);
   }
-  const regions = [...new Set(features.map(f => f.properties.region))].sort();
+  const categories = [...new Set(features.map(f => f.properties.category).filter(Boolean))].sort();
+  categories.forEach(cat => {
+    const opt = document.createElement('option');
+    opt.value = cat;
+    opt.textContent = cat;
+    if (cat === currentVal) opt.selected = true;
+    select.appendChild(opt);
+  });
+}
+
+function populateRegionFilter(selectedCountry = '', selectedCategory = '') {
+  const select = document.getElementById('region-filter');
+  const currentVal = select.value;
+  select.innerHTML = `<option value="" id="reg-all-opt">${I18N[currentLang].allRegions}</option>`;
+
+  let features = allFeatures;
+  if (selectedCountry) {
+    features = features.filter(f => f.properties.country === selectedCountry);
+  }
+  if (selectedCategory) {
+    features = features.filter(f => f.properties.category === selectedCategory);
+  }
+  const regions = [...new Set(features.map(f => f.properties.region).filter(Boolean))].sort();
   regions.forEach(r => {
     const opt = document.createElement('option');
     opt.value = r;
     opt.textContent = r;
+    if (r === currentVal) opt.selected = true;
     select.appendChild(opt);
   });
 }
@@ -512,8 +537,12 @@ function setLanguage(lang) {
     const countryFlags = {
       'España': '🇪🇸',
       'Francia': '🇫🇷',
+      'Italia': '🇮🇹',
       'Portugal': '🇵🇹',
-      'Italia': '🇮🇹'
+      'Alemania': '🇩🇪',
+      'Austria': '🇦🇹',
+      'Grecia': '🇬🇷',
+      'Hungría': '🇭🇺'
     };
     const flag = countryFlags[selectedFeature.country] || '';
     document.getElementById('detail-region').innerHTML = `<span style="font-size: 1.05rem;">📍</span> ${selectedFeature.region} ${flag ? `(${flag} ${selectedFeature.country})` : ''}`;
@@ -536,32 +565,49 @@ function setLanguage(lang) {
     if (optOsm) optOsm.textContent = t.bmOsm;
   }
 
+  // Refresh dynamic filters labels
+  const selCountry = document.getElementById('country-filter').value;
+  const selCat = document.getElementById('category-filter').value;
+  populateCategoryFilter(selCountry);
+  populateRegionFilter(selCountry, selCat);
+
   renderRegionsList();
 }
 
+const COUNTRY_CENTERS = {
+  'España': { center: [-3.7, 40.4], zoom: 5.8 },
+  'Francia': { center: [2.2, 46.5], zoom: 5.6 },
+  'Italia': { center: [12.5, 42.5], zoom: 5.8 },
+  'Portugal': { center: [-8.2, 39.5], zoom: 6.6 },
+  'Alemania': { center: [10.4, 51.1], zoom: 6.0 },
+  'Austria': { center: [14.5, 47.5], zoom: 6.5 },
+  'Grecia': { center: [23.5, 38.3], zoom: 6.2 },
+  'Hungría': { center: [19.5, 47.1], zoom: 6.8 }
+};
+
 // Event Listeners
 document.getElementById('search-input').addEventListener('input', applyFilters);
-document.getElementById('category-filter').addEventListener('change', applyFilters);
+document.getElementById('category-filter').addEventListener('change', (e) => {
+  const selCountry = document.getElementById('country-filter').value;
+  populateRegionFilter(selCountry, e.target.value);
+  applyFilters();
+});
 document.getElementById('region-filter').addEventListener('change', applyFilters);
 document.getElementById('country-filter').addEventListener('change', (e) => {
-  populateRegionFilter(e.target.value);
+  const selCountry = e.target.value;
+  populateCategoryFilter(selCountry);
+  populateRegionFilter(selCountry);
   applyFilters();
-  const countryCenters = {
-    'España': { center: [-3.7, 40.4], zoom: 5.8 },
-    'Francia': { center: [2.2, 46.5], zoom: 5.6 },
-    'Portugal': { center: [-8.2, 39.5], zoom: 6.6 },
-    'Italia': { center: [12.5, 42.5], zoom: 5.8 }
-  };
-  if (countryCenters[e.target.value]) {
+  if (COUNTRY_CENTERS[selCountry]) {
     map.flyTo({
-      center: countryCenters[e.target.value].center,
-      zoom: countryCenters[e.target.value].zoom,
+      center: COUNTRY_CENTERS[selCountry].center,
+      zoom: COUNTRY_CENTERS[selCountry].zoom,
       essential: true
     });
   } else {
     map.flyTo({
-      center: [2.5, 43.5],
-      zoom: 5.0,
+      center: [10.0, 47.0],
+      zoom: 4.8,
       essential: true
     });
   }

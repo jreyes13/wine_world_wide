@@ -1,0 +1,645 @@
+[
+  {
+    "id": "gr-pop-naoussa",
+    "name": "Naoussa",
+    "layer": "POP Naoussa",
+    "country": "GRECIA",
+    "region": "Macedonia",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1610",
+    "color": "#800020",
+    "whites": [],
+    "reds": [
+      "Xinomavro (100%)"
+    ],
+    "desc": "La cuna del Xinomavro (\"negro y ácido\"), el gran tinto noble de guarda de Grecia comparable al Barolo. Cultivado en las laderas del monte Vermio sobre margas calcáreas; notas de tomate seco, oliva negra, frambuesa silvestre y taninos firmes.",
+    "pref": "Imathia",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Naoussa.pdf",
+    "gpkg_rel": "QGIS/GREECE/Naoussa.gpkg"
+  },
+  {
+    "id": "gr-pop-amyndeon",
+    "name": "Amyndeon",
+    "layer": "POP Amyndeon",
+    "country": "GRECIA",
+    "region": "Macedonia",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1395",
+    "color": "#C71585",
+    "whites": [],
+    "reds": [
+      "Xinomavro (100%)"
+    ],
+    "desc": "La región vinícola más septentrional y fría de Grecia sobre la meseta de los cuatro lagos a 700 m de altitud. Suelos arenosos con cepas centenarias prefiloxéricas en pie franco; produce tintos de estilo borgoñón y los mejores espumosos brut de Grecia.",
+    "pref": "Florina",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Amyndeon.pdf",
+    "gpkg_rel": "QGIS/GREECE/Amyndeon.gpkg"
+  },
+  {
+    "id": "gr-pop-goumenissa",
+    "name": "Goumenissa",
+    "layer": "POP Goumenissa",
+    "country": "GRECIA",
+    "region": "Macedonia",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1251",
+    "color": "#8B0000",
+    "whites": [],
+    "reds": [
+      "Xinomavro",
+      "Negoska"
+    ],
+    "desc": "Colinas al pie del monte Paiko en Kilkis. Coupage donde la uva autóctona Negoska suaviza los taninos del Xinomavro, aportando un color más profundo, notas de ciruela pasa, especias dulces y un paso de boca más carnoso y aterciopelado.",
+    "pref": "Kilkis",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Goumenissa.pdf",
+    "gpkg_rel": "QGIS/GREECE/Goumenissa.gpkg"
+  },
+  {
+    "id": "gr-pop-slopes-of-meliton",
+    "name": "Slopes of Meliton",
+    "layer": "POP Slopes of Meliton",
+    "country": "GRECIA",
+    "region": "Macedonia",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1096",
+    "color": "#8B4513",
+    "whites": [
+      "Assyrtiko",
+      "Athiri",
+      "Roditis"
+    ],
+    "reds": [
+      "Cabernet Sauvignon",
+      "Cabernet Franc",
+      "Limnio"
+    ],
+    "desc": "Península de Sitonia en Chalkidiki (Domaine Porto Carras) en laderas con vistas al mar Egeo. Histórico viñedo pionero creado con asesoramiento de Émile Peynaud; tintos bordeleses estructurados con la autóctona Limnio y blancos minerales marinos.",
+    "pref": "Chalkidiki",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Slopes_of_Meliton.pdf",
+    "gpkg_rel": "QGIS/GREECE/Slopes_of_Meliton.gpkg"
+  },
+  {
+    "id": "gr-pop-rapsani",
+    "name": "Rapsani",
+    "layer": "POP Rapsani",
+    "country": "GRECIA",
+    "region": "Tesalia",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A0116",
+    "color": "#800000",
+    "whites": [],
+    "reds": [
+      "Xinomavro",
+      "Krassato",
+      "Stavroto"
+    ],
+    "desc": "Las laderas del legendario Monte Olimpo en Larisa a hasta 800 m de altitud sobre esquistos con óxido de hierro. Coupage tradicional en tercios iguales que equilibra la nerviosa acidez del Xinomavro con la dulzura frutal del Krassato y el cuerpo del Stavroto.",
+    "pref": "Larisa",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Rapsani.pdf",
+    "gpkg_rel": "QGIS/GREECE/Rapsani.gpkg"
+  },
+  {
+    "id": "gr-pop-anchialos",
+    "name": "Anchialos",
+    "layer": "POP Anchialos",
+    "country": "GRECIA",
+    "region": "Tesalia",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1484",
+    "color": "#9ACD32",
+    "whites": [
+      "Roditis",
+      "Savatiano"
+    ],
+    "reds": [],
+    "desc": "En las costas del Golfo Pagasético en Magnisia. Blancos frescos, ligeros y vivaces elaborados a partir de Roditis y Savatiano bajo la suave brisa marina costera.",
+    "pref": "Magnisia",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Anchialos.pdf",
+    "gpkg_rel": "QGIS/GREECE/Anchialos.gpkg"
+  },
+  {
+    "id": "gr-pop-mesenikola",
+    "name": "Mesenikola",
+    "layer": "POP Mesenikola",
+    "country": "GRECIA",
+    "region": "Tesalia",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1253",
+    "color": "#A52A2A",
+    "whites": [],
+    "reds": [
+      "Mavro Mesenikola",
+      "Carignan",
+      "Syrah"
+    ],
+    "desc": "Laderas montañosas de Karditsa junto al lago Plastira en la cordillera del Pindo. Tintos con carácter montañés, fruta madura de bosque y notas de especias.",
+    "pref": "Karditsa",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Mesenikola.pdf",
+    "gpkg_rel": "QGIS/GREECE/Mesenikola.gpkg"
+  },
+  {
+    "id": "gr-pop-zitsa",
+    "name": "Zitsa",
+    "layer": "POP Zitsa",
+    "country": "GRECIA",
+    "region": "Epiro",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1532",
+    "color": "#2E8B57",
+    "whites": [
+      "Debina (100%)"
+    ],
+    "reds": [],
+    "desc": "En las montañas calizas de Ioannina a 700 m de altitud. Vinos blancos tranquilos y espumosos naturales a partir de la uva Debina; aroma a manzana reineta y acidez alpina muy viva.",
+    "pref": "Ioannina",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Zitsa.pdf",
+    "gpkg_rel": "QGIS/GREECE/Zitsa.gpkg"
+  },
+  {
+    "id": "gr-pop-nemea",
+    "name": "Nemea",
+    "layer": "POP Nemea",
+    "country": "GRECIA",
+    "region": "Peloponeso",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1573",
+    "color": "#8B0000",
+    "whites": [],
+    "reds": [
+      "Agiorgitiko (100%)"
+    ],
+    "desc": "La gran capital del vino tinto griego en Corinto y Argólida. 100% Agiorgitiko (\"La Sangre de Hércules\") cultivada en tres niveles de altitud; famosa por su color púrpura oscuro, cereza negra, canela, nuez moscada y textura aterciopelada.",
+    "pref": "Korinthos / Argolida",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Nemea.pdf",
+    "gpkg_rel": "QGIS/GREECE/Nemea.gpkg"
+  },
+  {
+    "id": "gr-pop-mantinia",
+    "name": "Mantinia",
+    "layer": "POP Mantinia",
+    "country": "GRECIA",
+    "region": "Peloponeso",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1554",
+    "color": "#DA70D6",
+    "whites": [
+      "Moschofilero (min 85%)",
+      "Asproudes"
+    ],
+    "reds": [],
+    "desc": "Meseta fría de Arcadia a 650 m de altitud en el corazón del Peloponeso. Elaborado a partir de Moschofilero (uva rosada de piel aromática); famoso por su perfume exótico de pétalos de rosa, lichi, flor de azahar y cítricos crujientes.",
+    "pref": "Arkadia",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Mantinia.pdf",
+    "gpkg_rel": "QGIS/GREECE/Mantinia.gpkg"
+  },
+  {
+    "id": "gr-pop-patra",
+    "name": "Patra",
+    "layer": "POP Patra",
+    "country": "GRECIA",
+    "region": "Peloponeso",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1239",
+    "color": "#3CB371",
+    "whites": [
+      "Roditis (100%)"
+    ],
+    "reds": [],
+    "desc": "Laderas septentrionales de Achaia sobre el Golfo de Corinto. Vinos blancos secos elegantes y frescos elaborados a partir de la subvariedad Roditis Alepou sobre colinas de altitud.",
+    "pref": "Achaia",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Patra.pdf",
+    "gpkg_rel": "QGIS/GREECE/Patra.gpkg"
+  },
+  {
+    "id": "gr-pop-mavrodaphne-of-patras",
+    "name": "Mavrodaphne of Patras",
+    "layer": "POP Mavrodaphne of Patras",
+    "country": "GRECIA",
+    "region": "Peloponeso",
+    "category": "POP / PDO (OPE)",
+    "pdo_code": "PDO-GR-A1048",
+    "color": "#4A0E17",
+    "whites": [],
+    "reds": [
+      "Mavrodaphne (min 51%)",
+      "Korinthiaki"
+    ],
+    "desc": "El histórico vino dulce tinto fortificado de Achaia. Envejecido en soleras de roble viejo durante años; densas notas de higos secos, uvas pasas, café, chocolate amargo y tabaco rubio con infinita longevidad.",
+    "pref": "Achaia",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Mavrodaphne_of_Patras.pdf",
+    "gpkg_rel": "QGIS/GREECE/Mavrodaphne_of_Patras.gpkg"
+  },
+  {
+    "id": "gr-pop-muscat-of-patras",
+    "name": "Muscat of Patras",
+    "layer": "POP Muscat of Patras",
+    "country": "GRECIA",
+    "region": "Peloponeso",
+    "category": "POP / PDO (OPE)",
+    "pdo_code": "PDO-GR-A1087",
+    "color": "#FFD700",
+    "whites": [
+      "Muscat Blanc à Petits Grains (100%)"
+    ],
+    "reds": [],
+    "desc": "Vino dulce natural de moscatel de grano menudo cultivado en las laderas de Achaia; notas de albaricoque en almíbar, azahar, bergamota y miel.",
+    "pref": "Achaia",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Muscat_of_Patras.pdf",
+    "gpkg_rel": "QGIS/GREECE/Muscat_of_Patras.gpkg"
+  },
+  {
+    "id": "gr-pop-muscat-of-rio-patras",
+    "name": "Muscat of Rio Patras",
+    "layer": "POP Muscat of Rio Patras",
+    "country": "GRECIA",
+    "region": "Peloponeso",
+    "category": "POP / PDO (OPE)",
+    "pdo_code": "PDO-GR-A1316",
+    "color": "#FFA500",
+    "whites": [
+      "Muscat Blanc à Petits Grains (100%)"
+    ],
+    "reds": [],
+    "desc": "Microzona costera de Rio en el estrecho de Corinto. Expresión floral y sumamente delicada de moscatel blanco con notas de miel de tomillo y limón confitado.",
+    "pref": "Achaia",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Muscat_of_Rio_Patras.pdf",
+    "gpkg_rel": "QGIS/GREECE/Muscat_of_Rio_Patras.gpkg"
+  },
+  {
+    "id": "gr-pop-monemvasia-malvasia",
+    "name": "Monemvasia-Malvasia",
+    "layer": "POP Monemvasia-Malvasia",
+    "country": "GRECIA",
+    "region": "Peloponeso",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1533",
+    "color": "#D2691E",
+    "whites": [
+      "Monemvasia (min 51%)",
+      "Assyrtiko",
+      "Asproudes",
+      "Kydonitsa"
+    ],
+    "reds": [],
+    "desc": "Península de Epidauro Limira y el peñón de Monemvasia en Lakonia. Renacimiento oficial del mítico \"Malvasía histórico medieval\"; vino dulce de uvas asoleadas con notas de dátiles, naranja amarga y frutos secos.",
+    "pref": "Lakonia",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Monemvasia_Malvasia.pdf",
+    "gpkg_rel": "QGIS/GREECE/Monemvasia_Malvasia.gpkg"
+  },
+  {
+    "id": "gr-pop-robola-of-cephalonia",
+    "name": "Robola of Cephalonia",
+    "layer": "POP Robola of Cephalonia",
+    "country": "GRECIA",
+    "region": "Islas Jónicas",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1240",
+    "color": "#20B2AA",
+    "whites": [
+      "Robola (100%)"
+    ],
+    "reds": [],
+    "desc": "Laderas desnudas de caliza pura del monte Ainos en la isla de Cefalonia (\"Vino di Sasso\"). Blanco mineral incisivo, tenso, con notas de flor de limonero, manzana verde, sal marina y final acerado.",
+    "pref": "Kefallonia",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Robola_of_Cephalonia.pdf",
+    "gpkg_rel": "QGIS/GREECE/Robola_of_Cephalonia.gpkg"
+  },
+  {
+    "id": "gr-pop-mavrodaphne-of-cephalonia",
+    "name": "Mavrodaphne of Cephalonia",
+    "layer": "POP Mavrodaphne of Cephalonia",
+    "country": "GRECIA",
+    "region": "Islas Jónicas",
+    "category": "POP / PDO (OPE)",
+    "pdo_code": "PDO-GR-A1055",
+    "color": "#4A0E17",
+    "whites": [],
+    "reds": [
+      "Mavrodaphne",
+      "Korinthiaki"
+    ],
+    "desc": "Península de Paliki en Cefalonia. Vino dulce fortificado noble de ciruela pasa, especias orientales, chocolate negro y suave tanino.",
+    "pref": "Kefallonia",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Mavrodaphne_of_Cephalonia.pdf",
+    "gpkg_rel": "QGIS/GREECE/Mavrodaphne_of_Cephalonia.gpkg"
+  },
+  {
+    "id": "gr-pop-muscat-of-cephalonia",
+    "name": "Muscat of Cephalonia",
+    "layer": "POP Muscat of Cephalonia",
+    "country": "GRECIA",
+    "region": "Islas Jónicas",
+    "category": "POP / PDO (OPE)",
+    "pdo_code": "PDO-GR-A1566",
+    "color": "#FFD700",
+    "whites": [
+      "Muscat Blanc à Petits Grains (100%)"
+    ],
+    "reds": [],
+    "desc": "Sur de Cefalonia sobre laderas calcáreas. Moscatel dulce aromático con frutas exóticas de la pasión, salvia y miel.",
+    "pref": "Kefallonia",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Muscat_of_Cephalonia.pdf",
+    "gpkg_rel": "QGIS/GREECE/Muscat_of_Cephalonia.gpkg"
+  },
+  {
+    "id": "gr-pop-santorini",
+    "name": "Santorini",
+    "layer": "POP Santorini",
+    "country": "GRECIA",
+    "region": "Islas del Egeo",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1065",
+    "color": "#4682B4",
+    "whites": [
+      "Assyrtiko (min 75-85%)",
+      "Athiri",
+      "Aidani"
+    ],
+    "reds": [],
+    "desc": "El archipiélago volcánico más legendario del vino mundial. Suelos de ceniza y piedra pómez; viñedos en cesta redonda a ras de suelo (\"kouloura\"). Assyrtiko volcánico titánico con acidez electrizante, humo de pedernal, lima y profunda salinidad marina, además del mítico Vinsanto dulce.",
+    "pref": "Kyklades (Santorini)",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Santorini.pdf",
+    "gpkg_rel": "QGIS/GREECE/Santorini.gpkg"
+  },
+  {
+    "id": "gr-pop-paros",
+    "name": "Paros",
+    "layer": "POP Paros",
+    "country": "GRECIA",
+    "region": "Islas del Egeo",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1570",
+    "color": "#8B0000",
+    "whites": [
+      "Monemvasia (100%)"
+    ],
+    "reds": [
+      "Mandilaria",
+      "Monemvasia (co-fermentadas)"
+    ],
+    "desc": "Isla de Paros en las Cícladas. Única denominación que co-fermenta uva tinta (Mandilaria) y blanca (Monemvasia) para suavizar los taninos, junto a blancos minerales de Monemvasia.",
+    "pref": "Kyklades (Paros)",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Paros.pdf",
+    "gpkg_rel": "QGIS/GREECE/Paros.gpkg"
+  },
+  {
+    "id": "gr-pop-malvasia-paros",
+    "name": "Malvasia Paros",
+    "layer": "POP Malvasia Paros",
+    "country": "GRECIA",
+    "region": "Islas del Egeo",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1607",
+    "color": "#D2691E",
+    "whites": [
+      "Monemvasia (min 85%)",
+      "Assyrtiko"
+    ],
+    "reds": [],
+    "desc": "Vino dulce histórico de uvas pasificadas al sol de Paros envejecido durante al menos 24 meses en barricas de roble.",
+    "pref": "Kyklades (Paros)",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Malvasia_Paros.pdf",
+    "gpkg_rel": "QGIS/GREECE/Malvasia_Paros.gpkg"
+  },
+  {
+    "id": "gr-pop-samos",
+    "name": "Samos",
+    "layer": "POP Samos",
+    "country": "GRECIA",
+    "region": "Islas del Egeo",
+    "category": "POP / PDO (OPE)",
+    "pdo_code": "PDO-GR-A1564",
+    "color": "#FFD700",
+    "whites": [
+      "Muscat Blanc à Petits Grains (100%)"
+    ],
+    "reds": [],
+    "desc": "Isla de Samos en terrazas de piedra sobre el monte Ampelos a hasta 900 m de altitud. La cumbre mundial del moscatel dulce: Samos Vin Doux, Anthemis y Nectar de uvas asoleadas con miel, frutos secos y flores de azahar.",
+    "pref": "Samos",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Samos.pdf",
+    "gpkg_rel": "QGIS/GREECE/Samos.gpkg"
+  },
+  {
+    "id": "gr-pop-limnos",
+    "name": "Limnos",
+    "layer": "POP Limnos",
+    "country": "GRECIA",
+    "region": "Islas del Egeo",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1614",
+    "color": "#9370DB",
+    "whites": [
+      "Muscat of Alexandria"
+    ],
+    "reds": [
+      "Limnio (Kalambaki)"
+    ],
+    "desc": "Isla volcánica de Lemnos en el norte del Egeo. Blancos secos aromáticos de Muscat de Alejandría y tintos de la ancestral uva Limnio de Homero con notas de laurel y pimienta.",
+    "pref": "Lesvos (Lemnos)",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Limnos.pdf",
+    "gpkg_rel": "QGIS/GREECE/Limnos.gpkg"
+  },
+  {
+    "id": "gr-pop-muscat-of-limnos",
+    "name": "Muscat of Limnos",
+    "layer": "POP Muscat of Limnos",
+    "country": "GRECIA",
+    "region": "Islas del Egeo",
+    "category": "POP / PDO (OPE)",
+    "pdo_code": "PDO-GR-A1432",
+    "color": "#FFA500",
+    "whites": [
+      "Muscat of Alexandria (100%)"
+    ],
+    "reds": [],
+    "desc": "Vinos dulces naturales y de pasas asoleadas de uva Moscatel de Alejandría cultivada en suelos volcánicos de Lemnos.",
+    "pref": "Lesvos (Lemnos)",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Muscat_of_Limnos.pdf",
+    "gpkg_rel": "QGIS/GREECE/Muscat_of_Limnos.gpkg"
+  },
+  {
+    "id": "gr-pop-rhodes",
+    "name": "Rhodes",
+    "layer": "POP Rhodes",
+    "country": "GRECIA",
+    "region": "Dodecaneso",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1612",
+    "color": "#CD853F",
+    "whites": [
+      "Athiri (min 70%)"
+    ],
+    "reds": [
+      "Mandilaria / Amorgiano (min 70%)"
+    ],
+    "desc": "Laderas del monte Attavyros a hasta 700 m en la isla de Rodas. Blancos y espumosos frescos de Athiri y tintos rústicos de Mandilaria.",
+    "pref": "Dodekanisa (Rhodes)",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Rhodes.pdf",
+    "gpkg_rel": "QGIS/GREECE/Rhodes.gpkg"
+  },
+  {
+    "id": "gr-pop-muscat-of-rhodes",
+    "name": "Muscat of Rhodes",
+    "layer": "POP Muscat of Rhodes",
+    "country": "GRECIA",
+    "region": "Dodecaneso",
+    "category": "POP / PDO (OPE)",
+    "pdo_code": "PDO-GR-A1567",
+    "color": "#FFD700",
+    "whites": [
+      "Muscat Blanc à Petits Grains",
+      "Muscat di Trani"
+    ],
+    "reds": [],
+    "desc": "Moscatel dulce de licor y de pasas secadas al sol en Rodas; aromas de rosa mosqueta, miel de pino y cítricos dulces.",
+    "pref": "Dodekanisa (Rhodes)",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Muscat_of_Rhodes.pdf",
+    "gpkg_rel": "QGIS/GREECE/Muscat_of_Rhodes.gpkg"
+  },
+  {
+    "id": "gr-pop-archanes",
+    "name": "Archanes",
+    "layer": "POP Archanes",
+    "country": "GRECIA",
+    "region": "Creta",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1340",
+    "color": "#8B0000",
+    "whites": [],
+    "reds": [
+      "Kotsifali",
+      "Mandilaria"
+    ],
+    "desc": "Colinas en torno al pueblo histórico de Archanes en Heraklion (Creta Central). Coupage cretense clásico de Kotsifali cálido y Mandilaria estructurada.",
+    "pref": "Heraklio",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Archanes.pdf",
+    "gpkg_rel": "QGIS/GREECE/Archanes.gpkg"
+  },
+  {
+    "id": "gr-pop-dafnes",
+    "name": "Dafnes",
+    "layer": "POP Dafnes",
+    "country": "GRECIA",
+    "region": "Creta",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1390",
+    "color": "#A52A2A",
+    "whites": [],
+    "reds": [
+      "Liatiko (100%)"
+    ],
+    "desc": "Valle de Dafnes al pie del monte Psiloritis. Tintos secos y dulces Liastos de uva Liatiko; notas de cereza deshidratada, higos secos, canela y cacao.",
+    "pref": "Heraklio",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Dafnes.pdf",
+    "gpkg_rel": "QGIS/GREECE/Dafnes.gpkg"
+  },
+  {
+    "id": "gr-pop-peza",
+    "name": "Peza",
+    "layer": "POP Peza",
+    "country": "GRECIA",
+    "region": "Creta",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1401",
+    "color": "#B8860B",
+    "whites": [
+      "Vilana (100%)"
+    ],
+    "reds": [
+      "Kotsifali",
+      "Mandilaria"
+    ],
+    "desc": "El corazón vitícola de Heraklion. Blancos frescos de Vilana con notas de limón y pera, y tintos carnosos y especiados de Kotsifali y Mandilaria.",
+    "pref": "Heraklio",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Peza.pdf",
+    "gpkg_rel": "QGIS/GREECE/Peza.gpkg"
+  },
+  {
+    "id": "gr-pop-handakas-candia",
+    "name": "Handakas-Candia",
+    "layer": "POP Handakas-Candia",
+    "country": "GRECIA",
+    "region": "Creta",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1615",
+    "color": "#CD5C5C",
+    "whites": [
+      "Vilana",
+      "Vidiano",
+      "Assyrtiko",
+      "Athiri",
+      "Thrapsathiri"
+    ],
+    "reds": [
+      "Kotsifali",
+      "Mandilaria"
+    ],
+    "desc": "Recupera el nombre medieval veneciano de Heraklion (Candia). Blancos complejos con cuerpo y tintos nobles cretenses.",
+    "pref": "Heraklio",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Handakas_Candia.pdf",
+    "gpkg_rel": "QGIS/GREECE/Handakas_Candia.gpkg"
+  },
+  {
+    "id": "gr-pop-malvasia-handakas-candia",
+    "name": "Malvasia Handakas-Candia",
+    "layer": "POP Malvasia Handakas-Candia",
+    "country": "GRECIA",
+    "region": "Creta",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1617",
+    "color": "#D2691E",
+    "whites": [
+      "Plyto",
+      "Dafni",
+      "Vidiano",
+      "Vilana",
+      "Assyrtiko"
+    ],
+    "reds": [],
+    "desc": "Homenaje al \"Crete Malmsey\" que Venecia exportaba a toda Europa. Vino dulce de uvas asoleadas con notas de albaricoque seco, miel de tomillo y resina.",
+    "pref": "Heraklio",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Malvasia_Handakas_Candia.pdf",
+    "gpkg_rel": "QGIS/GREECE/Malvasia_Handakas_Candia.gpkg"
+  },
+  {
+    "id": "gr-pop-sitia",
+    "name": "Sitia",
+    "layer": "POP Sitia",
+    "country": "GRECIA",
+    "region": "Creta",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1613",
+    "color": "#B22222",
+    "whites": [
+      "Vilana",
+      "Thrapsathiri"
+    ],
+    "reds": [
+      "Liatiko (min 80%)",
+      "Mandilaria"
+    ],
+    "desc": "Extremo oriental de Creta en la meseta de Lasithi sobre suelos calizos y vientos secos. Blancos minerales y tintos aromáticos de Liatiko con ciruelas y cuero.",
+    "pref": "Lasithio",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Sitia.pdf",
+    "gpkg_rel": "QGIS/GREECE/Sitia.gpkg"
+  },
+  {
+    "id": "gr-pop-malvasia-sitia",
+    "name": "Malvasia Sitia",
+    "layer": "POP Malvasia Sitia",
+    "country": "GRECIA",
+    "region": "Creta",
+    "category": "POP / PDO",
+    "pdo_code": "PDO-GR-A1608",
+    "color": "#D2691E",
+    "whites": [
+      "Assyrtiko",
+      "Thrapsathiri"
+    ],
+    "reds": [],
+    "desc": "Vino dulce tradicional de pasas asoleadas de uvas Assyrtiko y Thrapsathiri con 24 meses de crianza en roble en Sitia (Lasithi).",
+    "pref": "Lasithio",
+    "pdf_rel": "DOWNs/DOCs/GREECE/Malvasia_Sitia.pdf",
+    "gpkg_rel": "QGIS/GREECE/Malvasia_Sitia.gpkg"
+  }
+]
