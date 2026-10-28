@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>World Wine Wide - Interactive Wine Maps</title>
-  <meta name="description" content="Mapas interactivos de las Denominaciones de Origen de vino de España generados a partir de los pliegos de condiciones oficiales y límites cartográficos IGN.">
+  <meta name="description" content="Interactive maps of official wine regions across the world built from authoritative geographic boundaries and legal specifications.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍷</text></svg>">
   
   <!-- MapLibre GL JS -->
@@ -22,25 +22,25 @@
         <span class="brand-icon">🍷</span>
         <div>
           <h1 class="brand-title" id="brand-title">World Wine Wide</h1>
-          <div class="brand-subtitle" id="brand-subtitle">Mapas Oficiales de Regiones Vitivinícolas</div>
+          <div class="brand-subtitle" id="brand-subtitle">Official Wine Region Maps</div>
         </div>
       </div>
       <div class="nav-actions">
         <!-- Selector de Mapa de Referencia (Basemap) -->
         <div class="basemap-selector-wrap">
-          <span class="basemap-label" id="lbl-basemap" title="Mapa de referencia">🗺️</span>
-          <select id="basemap-select" class="basemap-select" title="Cambiar mapa de referencia">
+          <span class="basemap-label" id="lbl-basemap" title="Reference Basemap">🗺️</span>
+          <select id="basemap-select" class="basemap-select" title="Change reference basemap">
             <option value="voyager" id="bm-voyager-opt">Voyager (Color)</option>
-            <option value="positron" id="bm-positron-opt">Claro (Positron)</option>
-            <option value="dark" id="bm-dark-opt">Oscuro (Dark Matter)</option>
-            <option value="satellite" id="bm-satellite-opt">Satélite (ESRI)</option>
-            <option value="topo" id="bm-topo-opt">Topográfico (Relieve)</option>
+            <option value="positron" id="bm-positron-opt">Light (Positron)</option>
+            <option value="dark" id="bm-dark-opt">Dark (Dark Matter)</option>
+            <option value="satellite" id="bm-satellite-opt">Satellite (ESRI)</option>
+            <option value="topo" id="bm-topo-opt">Topographic (Relief)</option>
             <option value="osm" id="bm-osm-opt">OpenStreetMap</option>
           </select>
         </div>
 
-        <button class="lang-btn active" data-lang="es">ES</button>
-        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn active" data-lang="en">EN</button>
         <a href="https://app.atlas.co/projects/iRfhgtNFAbVm6zHZL3bN?loc=-2.7334%2C39.9785%2C6.0441z" target="_blank" rel="noopener noreferrer" class="btn-link btn-atlas">
           <span>🗺️</span> Atlas.co
         </a>
@@ -59,55 +59,60 @@
       <div id="map"></div>
 
       <!-- Left Sidebar Search & Explorer -->
-      <aside class="sidebar">
+      <aside class="sidebar" id="sidebar">
+        <!-- Sidebar Collapse / Expand Toggle Button -->
+        <button class="sidebar-toggle" id="sidebar-toggle" title="Hide sidebar" aria-label="Toggle Sidebar">
+          <span class="toggle-icon" id="sidebar-toggle-icon">◀</span>
+        </button>
+
         <div class="sidebar-header">
           <div class="search-box">
             <span class="search-icon">🔍</span>
-            <input type="text" id="search-input" class="search-input" placeholder="Buscar por DO, Comunidad o Uva..." autocomplete="off">
+            <input type="text" id="search-input" class="search-input" placeholder="Search by Appellation, Country, Region, Grape or Municipality..." autocomplete="off">
           </div>
           <div class="filters-row">
             <select id="country-filter" class="filter-select">
-              <option value="" id="country-all-opt">Todos los Países</option>
-              <option value="España" id="country-es-opt">🇪🇸 España</option>
-              <option value="Francia" id="country-fr-opt">🇫🇷 Francia</option>
-              <option value="Italia" id="country-it-opt">🇮🇹 Italia</option>
+              <option value="" id="country-all-opt">All Countries</option>
+              <option value="España" id="country-es-opt">🇪🇸 Spain</option>
+              <option value="Francia" id="country-fr-opt">🇫🇷 France</option>
+              <option value="Italia" id="country-it-opt">🇮🇹 Italy</option>
               <option value="Portugal" id="country-pt-opt">🇵🇹 Portugal</option>
-              <option value="Alemania" id="country-de-opt">🇩🇪 Alemania</option>
+              <option value="Alemania" id="country-de-opt">🇩🇪 Germany</option>
               <option value="Austria" id="country-at-opt">🇦🇹 Austria</option>
-              <option value="Grecia" id="country-gr-opt">🇬🇷 Grecia</option>
-              <option value="Hungría" id="country-hu-opt">🇭🇺 Hungría</option>
+              <option value="Grecia" id="country-gr-opt">🇬🇷 Greece</option>
+              <option value="Hungría" id="country-hu-opt">🇭🇺 Hungary</option>
               <option value="Georgia" id="country-ge-opt">🇬🇪 Georgia</option>
-              <option value="República Checa" id="country-cz-opt">🇨🇿 República Checa</option>
-              <option value="Suiza" id="country-ch-opt">🇨🇭 Suiza</option>
-              <option value="Eslovenia" id="country-si-opt">🇸🇮 Eslovenia</option>
-              <option value="Croacia" id="country-hr-opt">🇭🇷 Croacia</option>
-              <option value="Eslovaquia" id="country-sk-opt">🇸🇰 Eslovaquia</option>
-              <option value="Rumanía" id="country-ro-opt">🇷🇴 Rumanía</option>
+              <option value="República Checa" id="country-cz-opt">🇨🇿 Czech Republic</option>
+              <option value="Suiza" id="country-ch-opt">🇨🇭 Switzerland</option>
+              <option value="Eslovenia" id="country-si-opt">🇸🇮 Slovenia</option>
+              <option value="Croacia" id="country-hr-opt">🇭🇷 Croatia</option>
+              <option value="Eslovaquia" id="country-sk-opt">🇸🇰 Slovakia</option>
+              <option value="Rumanía" id="country-ro-opt">🇷🇴 Romania</option>
               <option value="Bulgaria" id="country-bg-opt">🇧🇬 Bulgaria</option>
-              <option value="Moldavia" id="country-md-opt">🇲🇩 Moldavia</option>
+              <option value="Moldavia" id="country-md-opt">🇲🇩 Moldova</option>
               <option value="Armenia" id="country-am-opt">🇦🇲 Armenia</option>
-              <option value="Chipre" id="country-cy-opt">🇨🇾 Chipre</option>
-              <option value="Líbano" id="country-lb-opt">🇱🇧 Líbano</option>
+              <option value="Chipre" id="country-cy-opt">🇨🇾 Cyprus</option>
+              <option value="Líbano" id="country-lb-opt">🇱🇧 Lebanon</option>
             </select>
             <select id="category-filter" class="filter-select">
-              <option value="" id="cat-all-opt">Todas las Categorías</option>
+              <option value="" id="cat-all-opt">All Classifications</option>
             </select>
             <select id="region-filter" class="filter-select">
-              <option value="" id="reg-all-opt">Todas las Regiones</option>
+              <option value="" id="reg-all-opt">All Regions</option>
             </select>
           </div>
         </div>
 
         <div class="regions-counter">
-          <span id="count-badge">Cargando denominaciones...</span>
+          <span id="count-badge">Loading appellations...</span>
         </div>
 
         <div class="regions-list" id="regions-list"></div>
       </aside>
 
       <!-- Right Detail Panel (Floating) -->
-      <section class="detail-panel" id="detail-panel" aria-label="Detalles de la Denominación">
-        <button class="detail-close" id="btn-close-detail" title="Cerrar">&times;</button>
+      <section class="detail-panel" id="detail-panel" aria-label="Appellation Details">
+        <button class="detail-close" id="btn-close-detail" title="Close">&times;</button>
         <div class="detail-header">
           <span class="detail-badge" id="detail-badge">DO</span>
           <h2 class="detail-title" id="detail-title"></h2>
@@ -115,32 +120,32 @@
         </div>
         <div class="detail-body">
           <div class="info-item">
-            <div class="info-label" id="lbl-territory">Delimitación Territorial</div>
+            <div class="info-label" id="lbl-territory">Territorial Scope</div>
             <div class="info-value" id="detail-munis"></div>
             <!-- Desplegable interactivo de municipios -->
             <details class="munis-dropdown" id="munis-dropdown">
               <summary class="munis-summary" id="munis-summary">
-                <span id="lbl-toggle-munis">Ver listado de municipios</span>
+                <span id="lbl-toggle-munis">View municipalities / communes</span>
                 <span class="summary-arrow">▾</span>
               </summary>
               <div class="munis-container">
-                <input type="text" id="munis-search" class="munis-search-input" placeholder="Filtrar municipios..." autocomplete="off">
+                <input type="text" id="munis-search" class="munis-search-input" placeholder="Search municipality / commune..." autocomplete="off">
                 <div class="munis-chips" id="munis-chips"></div>
               </div>
             </details>
           </div>
           <div class="info-item">
-            <div class="info-label" id="lbl-grapes-red">Uvas Tintas Principales</div>
+            <div class="info-label" id="lbl-grapes-red">Key Red Varieties</div>
             <div class="info-value" id="detail-grapes-red"></div>
           </div>
           <div class="info-item">
-            <div class="info-label" id="lbl-grapes-white">Uvas Blancas Principales</div>
+            <div class="info-label" id="lbl-grapes-white">Key White Varieties</div>
             <div class="info-value" id="detail-grapes-white"></div>
           </div>
         </div>
         <div class="detail-actions">
           <a href="#" target="_blank" rel="noopener noreferrer" class="btn-action btn-pliego" id="btn-pliego">
-            <span id="btn-pliego-txt">📄 Ver Pliego de Condiciones Oficial (PDF)</span>
+            <span id="btn-pliego-txt">📄 View Official Specifications (PDF)</span>
           </a>
         </div>
       </section>

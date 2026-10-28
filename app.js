@@ -35,7 +35,9 @@ const I18N = {
     bmDark: "Oscuro (Dark Matter)",
     bmSatellite: "Satélite (ESRI)",
     bmTopo: "Topográfico (Relieve)",
-    bmOsm: "OpenStreetMap"
+    bmOsm: "OpenStreetMap",
+    toggleSidebarHide: "Ocultar panel lateral",
+    toggleSidebarShow: "Mostrar panel lateral"
   },
   en: {
     title: "World Wine Wide",
@@ -71,11 +73,36 @@ const I18N = {
     bmDark: "Dark (Dark Matter)",
     bmSatellite: "Satellite (ESRI)",
     bmTopo: "Topographic (Relief)",
-    bmOsm: "OpenStreetMap"
+    bmOsm: "OpenStreetMap",
+    toggleSidebarHide: "Hide sidebar",
+    toggleSidebarShow: "Show sidebar"
   }
 };
 
-let currentLang = 'es';
+const COUNTRY_NAMES = {
+  'España': { es: 'España', en: 'Spain', flag: '🇪🇸' },
+  'Francia': { es: 'Francia', en: 'France', flag: '🇫🇷' },
+  'Italia': { es: 'Italia', en: 'Italy', flag: '🇮🇹' },
+  'Portugal': { es: 'Portugal', en: 'Portugal', flag: '🇵🇹' },
+  'Alemania': { es: 'Alemania', en: 'Germany', flag: '🇩🇪' },
+  'Austria': { es: 'Austria', en: 'Austria', flag: '🇦🇹' },
+  'Grecia': { es: 'Grecia', en: 'Greece', flag: '🇬🇷' },
+  'Hungría': { es: 'Hungría', en: 'Hungary', flag: '🇭🇺' },
+  'Georgia': { es: 'Georgia', en: 'Georgia', flag: '🇬🇪' },
+  'República Checa': { es: 'República Checa', en: 'Czech Republic', flag: '🇨🇿' },
+  'Suiza': { es: 'Suiza', en: 'Switzerland', flag: '🇨🇭' },
+  'Eslovenia': { es: 'Eslovenia', en: 'Slovenia', flag: '🇸🇮' },
+  'Croacia': { es: 'Croacia', en: 'Croatia', flag: '🇭🇷' },
+  'Eslovaquia': { es: 'Eslovaquia', en: 'Slovakia', flag: '🇸🇰' },
+  'Rumanía': { es: 'Rumanía', en: 'Romania', flag: '🇷🇴' },
+  'Bulgaria': { es: 'Bulgaria', en: 'Bulgaria', flag: '🇧🇬' },
+  'Moldavia': { es: 'Moldavia', en: 'Moldova', flag: '🇲🇩' },
+  'Armenia': { es: 'Armenia', en: 'Armenia', flag: '🇦🇲' },
+  'Chipre': { es: 'Chipre', en: 'Cyprus', flag: '🇨🇾' },
+  'Líbano': { es: 'Líbano', en: 'Lebanon', flag: '🇱🇧' }
+};
+
+let currentLang = 'en';
 let allFeatures = [];
 let filteredFeatures = [];
 let selectedFeature = null;
@@ -252,14 +279,25 @@ map.on('load', async () => {
     filteredFeatures = allFeatures;
 
     setupWineLayers();
-    populateCategoryFilter();
-    populateRegionFilter();
-    renderRegionsList();
+    setLanguage(currentLang);
 
   } catch (err) {
     console.error("Error loading GeoJSON:", err);
   }
 });
+
+function updateCountryFilterLabels(lang) {
+  const select = document.getElementById('country-filter');
+  const optCountryAll = document.getElementById('country-all-opt');
+  if (optCountryAll) optCountryAll.textContent = I18N[lang].allCountries;
+
+  for (const [key, data] of Object.entries(COUNTRY_NAMES)) {
+    const opt = select.querySelector(`option[value="${key}"]`);
+    if (opt) {
+      opt.textContent = `${data.flag} ${data[lang]}`;
+    }
+  }
+}
 
 function populateCategoryFilter(selectedCountry = '') {
   const select = document.getElementById('category-filter');
@@ -313,10 +351,15 @@ function applyFilters() {
     const matchCountry = !country || p.country === country;
     const matchCat = !cat || p.category === cat;
     const matchReg = !reg || p.region === reg;
+    const cInfo = COUNTRY_NAMES[p.country];
+    const cEn = cInfo ? cInfo.en.toLowerCase() : '';
+    const cEs = cInfo ? cInfo.es.toLowerCase() : '';
     const matchSearch = !search ||
       p.name.toLowerCase().includes(search) ||
       p.region.toLowerCase().includes(search) ||
       (p.country && p.country.toLowerCase().includes(search)) ||
+      cEn.includes(search) ||
+      cEs.includes(search) ||
       (p.grapes_red && p.grapes_red.toLowerCase().includes(search)) ||
       (p.grapes_white && p.grapes_white.toLowerCase().includes(search)) ||
       (p.munis && p.munis.some(m => m.toLowerCase().includes(search)));
@@ -344,13 +387,6 @@ function renderRegionsList() {
   countEl.textContent = `${filteredFeatures.length} ${t.regionsFound}`;
   container.innerHTML = '';
 
-  const countryFlags = {
-    'España': '🇪🇸',
-    'Francia': '🇫🇷',
-    'Portugal': '🇵🇹',
-    'Italia': '🇮🇹'
-  };
-
   filteredFeatures.forEach(f => {
     const p = f.properties;
     const card = document.createElement('div');
@@ -358,12 +394,14 @@ function renderRegionsList() {
     card.onclick = () => selectDO(p);
 
     const muniCount = p.munis_count || p.muni_count || (p.munis ? p.munis.length : 0);
-    const flag = countryFlags[p.country] || '🍷';
+    const cInfo = COUNTRY_NAMES[p.country];
+    const flag = cInfo ? cInfo.flag : '🍷';
+    const cDisplayName = cInfo ? cInfo[currentLang] : (p.country || '');
 
     card.innerHTML = `
       <div>
         <div class="card-title">${flag} ${p.name}</div>
-        <div class="card-meta">${p.region} (${p.country || 'España'}) • ${muniCount} ${t.munis}</div>
+        <div class="card-meta">${p.region}${cDisplayName ? ` (${cDisplayName})` : ''} • ${muniCount} ${t.munis}</div>
       </div>
       <span class="card-badge" style="background-color: ${p.color};">${p.category}</span>
     `;
@@ -393,9 +431,10 @@ function selectDO(inputProps) {
   document.getElementById('detail-badge').style.backgroundColor = props.color;
   document.getElementById('detail-title').textContent = props.name;
 
-  const countryFlags = { 'España': '🇪🇸', 'Francia': '🇫🇷', 'Portugal': '🇵🇹', 'Italia': '🇮🇹' };
-  const flag = countryFlags[props.country] || '';
-  document.getElementById('detail-region').innerHTML = `<span style="font-size: 1.05rem;">📍</span> ${props.region} ${flag ? `(${flag} ${props.country})` : ''}`;
+  const countryInfo = COUNTRY_NAMES[props.country];
+  const flag = countryInfo ? countryInfo.flag : '';
+  const countryLabel = countryInfo ? countryInfo[currentLang] : props.country;
+  document.getElementById('detail-region').innerHTML = `<span style="font-size: 1.05rem;">📍</span> ${props.region} ${flag ? `(${flag} ${countryLabel})` : ''}`;
 
   const muniCount = props.munis_count || props.muni_count || (props.munis ? props.munis.length : 0);
   document.getElementById('detail-munis').textContent = `${muniCount} ${t.munis}`;
@@ -508,6 +547,15 @@ function setLanguage(lang) {
   const optCountryAll = document.getElementById('country-all-opt');
   if (optCountryAll) optCountryAll.textContent = t.allCountries;
 
+  updateCountryFilterLabels(lang);
+
+  const sidebarToggle = document.getElementById('sidebar-toggle');
+  const sidebarEl = document.getElementById('sidebar');
+  if (sidebarToggle && sidebarEl) {
+    const isCollapsed = sidebarEl.classList.contains('collapsed');
+    sidebarToggle.title = isCollapsed ? t.toggleSidebarShow : t.toggleSidebarHide;
+  }
+
   document.getElementById('cat-all-opt').textContent = t.allCategories;
   const optDoca = document.getElementById('cat-doca-opt');
   if (optDoca) optDoca.textContent = t.catDOCa;
@@ -534,30 +582,10 @@ function setLanguage(lang) {
   renderMunisChips(currentMunisList);
 
   if (selectedFeature) {
-    const countryFlags = {
-      'España': '🇪🇸',
-      'Francia': '🇫🇷',
-      'Italia': '🇮🇹',
-      'Portugal': '🇵🇹',
-      'Alemania': '🇩🇪',
-      'Austria': '🇦🇹',
-      'Grecia': '🇬🇷',
-      'Hungría': '🇭🇺',
-      'Georgia': '🇬🇪',
-      'República Checa': '🇨🇿',
-      'Suiza': '🇨🇭',
-      'Eslovenia': '🇸🇮',
-      'Croacia': '🇭🇷',
-      'Eslovaquia': '🇸🇰',
-      'Rumanía': '🇷🇴',
-      'Bulgaria': '🇧🇬',
-      'Moldavia': '🇲🇩',
-      'Armenia': '🇦🇲',
-      'Chipre': '🇨🇾',
-      'Líbano': '🇱🇧'
-    };
-    const flag = countryFlags[selectedFeature.country] || '';
-    document.getElementById('detail-region').innerHTML = `<span style="font-size: 1.05rem;">📍</span> ${selectedFeature.region} ${flag ? `(${flag} ${selectedFeature.country})` : ''}`;
+    const countryInfo = COUNTRY_NAMES[selectedFeature.country];
+    const flag = countryInfo ? countryInfo.flag : '';
+    const countryLabel = countryInfo ? countryInfo[currentLang] : selectedFeature.country;
+    document.getElementById('detail-region').innerHTML = `<span style="font-size: 1.05rem;">📍</span> ${selectedFeature.region} ${flag ? `(${flag} ${countryLabel})` : ''}`;
   }
 
   const basemapSelect = document.getElementById('basemap-select');
@@ -672,5 +700,22 @@ const munisDropdown = document.getElementById('munis-dropdown');
 if (munisDropdown) {
   munisDropdown.addEventListener('toggle', () => {
     updateMunisToggleLabel();
+  });
+}
+
+// Collapsible Sidebar Drawer Toggle
+const sidebarToggleBtn = document.getElementById('sidebar-toggle');
+const sidebarEl = document.getElementById('sidebar');
+if (sidebarToggleBtn && sidebarEl) {
+  sidebarToggleBtn.addEventListener('click', () => {
+    sidebarEl.classList.toggle('collapsed');
+    const isCollapsed = sidebarEl.classList.contains('collapsed');
+    const t = I18N[currentLang];
+    sidebarToggleBtn.title = isCollapsed ? t.toggleSidebarShow : t.toggleSidebarHide;
+    setTimeout(() => {
+      if (typeof map !== 'undefined' && map.resize) {
+        map.resize();
+      }
+    }, 360);
   });
 }
