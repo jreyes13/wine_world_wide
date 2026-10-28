@@ -1164,40 +1164,478 @@ Total denominaciones en el basin borgoñón: **46 AOCs oficiales** (Chablis, Cô
 
 ## 3. Valle del Ródano (Vallée du Rhône)
 
-### AOC Châteauneuf-du-Pape
-- **Figura de Calidad:** AOC
-- **Pliego Oficial:** Cahier des charges AOC Châteauneuf-du-Pape (INAO)
-- **Variedades:** Grenache, Syrah, Mourvèdre, Cinsault, Grenache Blanc, Roussanne, Clairette
-- **Comunas Delimitadas:** Châteauneuf-du-Pape, Bédarrides, Courthézon, Orange, Sorgues
-- **Capa Generada:** `QGIS/FRANCE/Rhône/Châteauneuf_du_Pape.gpkg`
+Total denominaciones en el basin del Ródano: **31 AOCs oficiales** organizadas en sus subcuencas históricas:
+- **Rhône Septentrional:** Los 8 míticos crus de las laderas septentrionales sobre el granito y pizarra del Ródano (*Côte Rôtie, Condrieu, Château-Grillet, Saint-Joseph, Crozes-Hermitage, Hermitage, Cornas, Saint-Péray*).
+- **Diois (Vignoble de Die):** El valle prealpino del río Drôme (*Clairette de Die, Crémant de Die, Coteaux de Die, Châtillon-en-Diois*).
+- **Rhône Méridional:** Los crus y denominaciones de la Provenza rodaniana (*Châteauneuf-du-Pape, Gigondas, Vacqueyras, Beaumes de Venise, Muscat de Beaumes-de-Venise, Vinsobres, Rasteau, Cairanne, Tavel, Lirac, Grignan-les-Adhémar, Côtes du Vivarais*).
+- **Rhône Régional y Adyacentes:** Las grandes denominaciones estructurantes y terruños protegidos (*Côtes du Rhône, Côtes du Rhône Villages, Ventoux, Luberon, Costières de Nîmes, Clairette de Bellegarde, Duché d'Uzès*).
 
-### AOC Gigondas
-- **Figura de Calidad:** AOC
-- **Pliego Oficial:** Cahier des charges AOC Gigondas (INAO)
-- **Variedades:** Grenache, Syrah, Mourvèdre
-- **Comunas Delimitadas:** Gigondas
-- **Capa Generada:** `QGIS/FRANCE/Rhône/Gigondas.gpkg`
+Todos los pliegos de condiciones técnicos (*cahiers des charges*) se encuentran descargados en formato PDF oficial en el repositorio en `DOWNs/DOCs/FRANCE/Rhone/`.
 
-### AOC Côte-Rôtie
-- **Figura de Calidad:** AOC
-- **Pliego Oficial:** Cahier des charges AOC Côte-Rôtie (INAO)
-- **Variedades:** Syrah, Viognier
-- **Comunas Delimitadas:** Ampuis, Saint-Cyr-sur-le-Rhône, Tupin-et-Semons
-- **Capa Generada:** `QGIS/FRANCE/Rhône/Côte_Rôtie.gpkg`
-
-### AOC Hermitage
-- **Figura de Calidad:** AOC
-- **Pliego Oficial:** Cahier des charges AOC Hermitage (INAO)
-- **Variedades:** Syrah, Marsanne, Roussanne
-- **Comunas Delimitadas:** Tain-l'Hermitage, Crozes-Hermitage, Larnage
-- **Capa Generada:** `QGIS/FRANCE/Rhône/Hermitage.gpkg`
+### AOC Côte Rôtie
+- **Subcuenca:** Rhône Septentrional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Cote_Rotie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Cote_Rotie.pdf)
+- **Denominación INAO Shapefile:** `Côte Rôtie`
+- **Variedades Tintas:** Syrah
+- **Variedades Blancas:** Viognier
+- **Descripción:** Vértigo y elegancia pura en terrazas de pizarra sobre el Ródano: Syrah magistral cofermentada históricamente con hasta un 20% de Viognier.
+- **Comunas Oficiales:** Ampuis, Saint-Cyr-sur-le-Rhône, Tupin-et-Semons
+- **Capa Generada:** [`Cote_Rotie.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Cote_Rotie.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Ampuis', 'Saint-Cyr-sur-le-Rhône', 'Tupin-et-Semons');
+  ```
 
 ### AOC Condrieu
-- **Figura de Calidad:** AOC
-- **Pliego Oficial:** Cahier des charges AOC Condrieu (INAO)
-- **Variedad Exclusiva:** Viognier
-- **Comunas Delimitadas:** Condrieu
-- **Capa Generada:** `QGIS/FRANCE/Rhône/Condrieu.gpkg`
+- **Subcuenca:** Rhône Septentrional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Condrieu.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Condrieu.pdf)
+- **Denominación INAO Shapefile:** `Condrieu`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Viognier
+- **Descripción:** El santuario supremo del Viognier: blancos untuosos y exóticos con aromas de albaricoque, melocotón blanco y violetas cultivados en laderas graníticas escarpadas.
+- **Comunas Oficiales:** Condrieu, Chavanay, Limony, Malleval, Saint-Michel-sur-Rhône, Saint-Pierre-de-Bœuf, Vérin
+- **Capa Generada:** [`Condrieu.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Condrieu.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Condrieu', 'Chavanay', 'Limony', 'Malleval', 'Saint-Michel-sur-Rhône', 'Saint-Pierre-de-Bœuf', 'Vérin');
+  ```
+
+### AOC Château-Grillet
+- **Subcuenca:** Rhône Septentrional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Chateau_Grillet.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Chateau_Grillet.pdf)
+- **Denominación INAO Shapefile:** `Château-Grillet`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Viognier
+- **Descripción:** Mítico monopolio de 3,5 hectáreas enclavado en un anfiteatro natural orientado al mediodía; uno de los vinos blancos más exclusivos y legendarios del mundo.
+- **Comunas Oficiales:** Vérin, Saint-Michel-sur-Rhône
+- **Capa Generada:** [`Chateau_Grillet.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Chateau_Grillet.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Vérin', 'Saint-Michel-sur-Rhône');
+  ```
+
+### AOC Saint-Joseph
+- **Subcuenca:** Rhône Septentrional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Saint_Joseph.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Saint_Joseph.pdf)
+- **Denominación INAO Shapefile:** `Saint-Joseph`
+- **Variedades Tintas:** Syrah
+- **Variedades Blancas:** Marsanne, Roussanne
+- **Descripción:** Franja esbelta de 50 km de viñedos en la orilla derecha sobre granito fracturado; tintos minerales de Syrah con notas de pimienta y florales, y blancos de Marsanne y Roussanne.
+- **Comunas Oficiales:** Tournon-sur-Rhône, Mauves, Charnas, Félines, Limony, Saint-Jean-de-Muzols, Sarras, Lemps, Glun, Vion
+- **Capa Generada:** [`Saint_Joseph.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Saint_Joseph.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Tournon-sur-Rhône', 'Mauves', 'Charnas', 'Félines', 'Limony', 'Saint-Jean-de-Muzols', 'Sarras', 'Lemps', 'Glun', 'Vion');
+  ```
+
+### AOC Crozes-Hermitage
+- **Subcuenca:** Rhône Septentrional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Crozes_Hermitage.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Crozes_Hermitage.pdf)
+- **Denominación INAO Shapefile:** `Crozes-Hermitage ou Crozes-Ermitage`
+- **Variedades Tintas:** Syrah
+- **Variedades Blancas:** Marsanne, Roussanne
+- **Descripción:** El cru más extenso del Ródano norte, extendido sobre terrazas aluviales de cantos rodados y loess; vinos joviales, seductores y especiados.
+- **Comunas Oficiales:** Crozes-Hermitage, Tain-l'Hermitage, Beaumont-Monteux, Chanos-Curson, Érôme, Gervans, Larnage, Mercurol-Veaunes, Pont-de-l'Isère, La Roche-de-Glun, Serves-sur-Rhône
+- **Capa Generada:** [`Crozes_Hermitage.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Crozes_Hermitage.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Crozes-Hermitage', 'Tain-l''Hermitage', 'Beaumont-Monteux', 'Chanos-Curson', 'Érôme', 'Gervans', 'Larnage', 'Mercurol-Veaunes', 'Pont-de-l''Isère', 'La Roche-de-Glun', 'Serves-sur-Rhône');
+  ```
+
+### AOC Hermitage
+- **Subcuenca:** Rhône Septentrional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Hermitage.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Hermitage.pdf)
+- **Denominación INAO Shapefile:** `Hermitage ou Ermitage ou l''Hermitage ou l''Ermitage`
+- **Variedades Tintas:** Syrah
+- **Variedades Blancas:** Marsanne, Roussanne
+- **Descripción:** La colina sagrada del Ródano: laderas graníticas orientadas al sur donde la Syrah y la Marsanne alcanzan una potencia, longevidad y majestuosidad insuperables.
+- **Comunas Oficiales:** Tain-l'Hermitage, Crozes-Hermitage, Larnage
+- **Capa Generada:** [`Hermitage.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Hermitage.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Tain-l''Hermitage', 'Crozes-Hermitage', 'Larnage');
+  ```
+
+### AOC Cornas
+- **Subcuenca:** Rhône Septentrional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Cornas.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Cornas.pdf)
+- **Denominación INAO Shapefile:** `Cornas`
+- **Variedades Tintas:** Syrah
+- **Variedades Blancas:** N/A
+- **Descripción:** Tierra quemada en lengua celta: anfiteatro natural protegido del viento donde la Syrah 100% expresa una fuerza telúrica, notas de tinta, mora silvestre y taninos nobles.
+- **Comunas Oficiales:** Cornas
+- **Capa Generada:** [`Cornas.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Cornas.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Cornas');
+  ```
+
+### AOC Saint-Péray
+- **Subcuenca:** Rhône Septentrional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Saint_Peray.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Saint_Peray.pdf)
+- **Denominación INAO Shapefile:** `Saint-Péray`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Marsanne, Roussanne
+- **Descripción:** Vinos blancos tranquilos y espumosos históricos al pie del castillo de Crussol sobre calizas y granito, con frescura cítrica y notas de avellana tostada.
+- **Comunas Oficiales:** Saint-Péray, Toulaud
+- **Capa Generada:** [`Saint_Peray.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Saint_Peray.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Saint-Péray', 'Toulaud');
+  ```
+
+### AOC Clairette de Die
+- **Subcuenca:** Diois
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Clairette_de_Die.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Clairette_de_Die.pdf)
+- **Denominación INAO Shapefile:** `Clairette de Die`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Muscat blanc à petits grains, Clairette
+- **Descripción:** Célebre espumoso ancestral y fragante elaborado por método diois sin licor de expedición, dominado por la uva moscatel en un valle prealpino.
+- **Comunas Oficiales:** Die, Barsac, Vercheny, Aouste-sur-Sye, Pontaix, Saillans, Luc-en-Diois
+- **Capa Generada:** [`Clairette_de_Die.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Clairette_de_Die.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Die', 'Barsac', 'Vercheny', 'Aouste-sur-Sye', 'Pontaix', 'Saillans', 'Luc-en-Diois');
+  ```
+
+### AOC Crémant de Die
+- **Subcuenca:** Diois
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Cremant_de_Die.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Cremant_de_Die.pdf)
+- **Denominación INAO Shapefile:** `Crémant de Die`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Clairette, Aligoté, Muscat blanc à petits grains
+- **Descripción:** Espumoso brut de método tradicional elaborado sobre base de Clairette blanca con crianza mínima sobre lías.
+- **Comunas Oficiales:** Die, Barsac, Vercheny, Aouste-sur-Sye, Pontaix, Saillans
+- **Capa Generada:** [`Cremant_de_Die.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Cremant_de_Die.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Die', 'Barsac', 'Vercheny', 'Aouste-sur-Sye', 'Pontaix', 'Saillans');
+  ```
+
+### AOC Coteaux de Die
+- **Subcuenca:** Diois
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Coteaux_de_Die.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Coteaux_de_Die.pdf)
+- **Denominación INAO Shapefile:** `Coteaux de Die`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Clairette
+- **Descripción:** Vino blanco seco y mineral 100% Clairette forjado en las laderas calizas y pedregosas bajo los contrafuertes del macizo del Vercors.
+- **Comunas Oficiales:** Die, Barsac, Vercheny, Pontaix, Saillans, Aouste-sur-Sye
+- **Capa Generada:** [`Coteaux_de_Die.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Coteaux_de_Die.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Die', 'Barsac', 'Vercheny', 'Pontaix', 'Saillans', 'Aouste-sur-Sye');
+  ```
+
+### AOC Châtillon-en-Diois
+- **Subcuenca:** Diois
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Chatillon_en_Diois.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Chatillon_en_Diois.pdf)
+- **Denominación INAO Shapefile:** `Châtillon-en-Diois`
+- **Variedades Tintas:** Gamay, Pinot Noir, Syrah
+- **Variedades Blancas:** Chardonnay, Aligoté
+- **Descripción:** Enclave vinícola alpino único en el Ródano con vinos tintos dominados por Gamay y blancos frescos de Chardonnay y Aligoté.
+- **Comunas Oficiales:** Châtillon-en-Diois, Menglon, Luc-en-Diois, Poyols, Laval-d'Aix, Saint-Roman
+- **Capa Generada:** [`Chatillon_en_Diois.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Chatillon_en_Diois.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Châtillon-en-Diois', 'Menglon', 'Luc-en-Diois', 'Poyols', 'Laval-d''Aix', 'Saint-Roman');
+  ```
+
+### AOC Châteauneuf-du-Pape
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Chateauneuf_du_Pape.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Chateauneuf_du_Pape.pdf)
+- **Denominación INAO Shapefile:** `Châteauneuf-du-Pape`
+- **Variedades Tintas:** Grenache, Syrah, Mourvèdre, Cinsaut, Counoise, Muscardin, Vaccarèse, Terret noir
+- **Variedades Blancas:** Grenache blanc, Roussanne, Clairette, Bourboulenc, Picpoul, Picardan
+- **Descripción:** El mito indiscutible del sur: la sinfonía de los 18 cépages sobre terrazas de galets roulés que atesoran el calor solar diurno.
+- **Comunas Oficiales:** Châteauneuf-du-Pape, Bédarrides, Courthézon, Orange, Sorgues
+- **Capa Generada:** [`Chateauneuf_du_Pape.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Chateauneuf_du_Pape.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Châteauneuf-du-Pape', 'Bédarrides', 'Courthézon', 'Orange', 'Sorgues');
+  ```
+
+### AOC Gigondas
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Gigondas.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Gigondas.pdf)
+- **Denominación INAO Shapefile:** `Gigondas`
+- **Variedades Tintas:** Grenache, Syrah, Mourvèdre, Cinsaut
+- **Variedades Blancas:** Clairette
+- **Descripción:** Vinos de gran casta y concentración nacidos al pie de las escarpadas Dentelles de Montmirail, dominados por la Garnacha.
+- **Comunas Oficiales:** Gigondas
+- **Capa Generada:** [`Gigondas.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Gigondas.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Gigondas');
+  ```
+
+### AOC Vacqueyras
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vacqueyras.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Vacqueyras.pdf)
+- **Denominación INAO Shapefile:** `Vacqueyras`
+- **Variedades Tintas:** Grenache, Syrah, Mourvèdre, Cinsaut
+- **Variedades Blancas:** Clairette, Grenache blanc, Bourboulenc, Roussanne
+- **Descripción:** Cru meridional vigoroso y generoso asentado sobre las mesetas aluviales de Les Garrigues frente a las Dentelles.
+- **Comunas Oficiales:** Vacqueyras, Sarrians
+- **Capa Generada:** [`Vacqueyras.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Vacqueyras.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Vacqueyras', 'Sarrians');
+  ```
+
+### AOC Beaumes de Venise
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Beaumes_de_Venise.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Beaumes_de_Venise.pdf)
+- **Denominación INAO Shapefile:** `Beaumes de Venise`
+- **Variedades Tintas:** Grenache, Syrah
+- **Variedades Blancas:** N/A
+- **Descripción:** Tintos estructurados y aromáticos cultivados en terrazas sobre margas triásicas del macizo de las Dentelles.
+- **Comunas Oficiales:** Beaumes-de-Venise, Lafare, La Roque-Alric, Suzette
+- **Capa Generada:** [`Beaumes_de_Venise.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Beaumes_de_Venise.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Beaumes-de-Venise', 'Lafare', 'La Roque-Alric', 'Suzette');
+  ```
+
+### AOC Muscat de Beaumes-de-Venise
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Muscat_de_Beaumes_de_Venise.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Muscat_de_Beaumes_de_Venise.pdf)
+- **Denominación INAO Shapefile:** `Muscat de Beaumes-de-Venise`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Muscat blanc à petits grains, Muscat rouge à petits grains
+- **Descripción:** Célebre vino dulce natural (VDN) dorado, untuoso y floral elaborado con Muscat à petits grains mutado con alcohol vínico.
+- **Comunas Oficiales:** Beaumes-de-Venise, Aubignan
+- **Capa Generada:** [`Muscat_de_Beaumes_de_Venise.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Muscat_de_Beaumes_de_Venise.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Beaumes-de-Venise', 'Aubignan');
+  ```
+
+### AOC Vinsobres
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vinsobres.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Vinsobres.pdf)
+- **Denominación INAO Shapefile:** `Vinsobres`
+- **Variedades Tintas:** Grenache, Syrah, Mourvèdre
+- **Variedades Blancas:** N/A
+- **Descripción:** El primer cru de la Drôme provenzal: tintos de gran altitud y frescura combinando Garnacha con una presencia distinguida de Syrah.
+- **Comunas Oficiales:** Vinsobres
+- **Capa Generada:** [`Vinsobres.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Vinsobres.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Vinsobres');
+  ```
+
+### AOC Rasteau
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Rasteau.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Rasteau.pdf)
+- **Denominación INAO Shapefile:** `Rasteau Vin Tranquille`
+- **Variedades Tintas:** Grenache, Syrah, Mourvèdre
+- **Variedades Blancas:** N/A
+- **Descripción:** Cru de laderas arcillo-calcáreas orientadas al sur famoso tanto por sus tintos tranquilos corpulentos como por sus legendarios Vins Doux Naturels.
+- **Comunas Oficiales:** Rasteau
+- **Capa Generada:** [`Rasteau.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Rasteau.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Rasteau');
+  ```
+
+### AOC Cairanne
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Cairanne.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Cairanne.pdf)
+- **Denominación INAO Shapefile:** `Cairanne`
+- **Variedades Tintas:** Grenache, Syrah, Mourvèdre, Carignan
+- **Variedades Blancas:** Clairette, Grenache blanc, Roussanne
+- **Descripción:** Elevado a cru comunal en 2016; vinos armoniosos, elegantes y de taninos sedosos sobre colinas de arenas y cantos rodados.
+- **Comunas Oficiales:** Cairanne
+- **Capa Generada:** [`Cairanne.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Cairanne.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Cairanne');
+  ```
+
+### AOC Tavel
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Tavel.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Tavel.pdf)
+- **Denominación INAO Shapefile:** `Tavel`
+- **Variedades Tintas:** Grenache, Cinsaut, Clairette, Mourvèdre, Syrah
+- **Variedades Blancas:** N/A
+- **Descripción:** El Rey de los Rosados: la única denominación francesa consagrada con exclusividad a rosados gastronómicos, intensos y estructurados.
+- **Comunas Oficiales:** Tavel, Roquemaure
+- **Capa Generada:** [`Tavel.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Tavel.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Tavel', 'Roquemaure');
+  ```
+
+### AOC Lirac
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Lirac.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Lirac.pdf)
+- **Denominación INAO Shapefile:** `Lirac`
+- **Variedades Tintas:** Grenache, Syrah, Mourvèdre, Cinsaut
+- **Variedades Blancas:** Clairette, Grenache blanc, Bourboulenc, Roussanne
+- **Descripción:** Cru milenario de la orilla derecha frente a Châteauneuf-du-Pape que produce tintos opulentos y blancos complejos sobre terrazas fluviales.
+- **Comunas Oficiales:** Lirac, Roquemaure, Saint-Geniès-de-Comolas, Saint-Laurent-des-Arbres
+- **Capa Generada:** [`Lirac.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Lirac.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Lirac', 'Roquemaure', 'Saint-Geniès-de-Comolas', 'Saint-Laurent-des-Arbres');
+  ```
+
+### AOC Grignan-les-Adhémar
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Grignan_les_Adhemar.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Grignan_les_Adhemar.pdf)
+- **Denominación INAO Shapefile:** `Grignan-les-Adhémar`
+- **Variedades Tintas:** Grenache, Syrah, Carignan, Mourvèdre
+- **Variedades Blancas:** Viognier, Marsanne, Roussanne, Grenache blanc
+- **Descripción:** Entre lavandas y castillos renacentistas en la Drôme provenzal: vinos afrutados y especiados marcados por el clima de transición.
+- **Comunas Oficiales:** Grignan, Saint-Paul-Trois-Châteaux, Suze-la-Rousse, Donzère, La Garde-Adhémar
+- **Capa Generada:** [`Grignan_les_Adhemar.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Grignan_les_Adhemar.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Grignan', 'Saint-Paul-Trois-Châteaux', 'Suze-la-Rousse', 'Donzère', 'La Garde-Adhémar');
+  ```
+
+### AOC Côtes du Vivarais
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Cotes_du_Vivarais.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Cotes_du_Vivarais.pdf)
+- **Denominación INAO Shapefile:** `Côtes du Vivarais`
+- **Variedades Tintas:** Syrah, Grenache
+- **Variedades Blancas:** Clairette, Grenache blanc, Marsanne
+- **Descripción:** Viñedos de mesetas kársticas flanqueando las majestuosas gargantas del Ardèche; tintos vivaces con notas de garriga y frutos negros.
+- **Comunas Oficiales:** Orgnac-l'Aven, Bourg-Saint-Andéol, Saint-Montan, Saint-Remèze, Barjac, Vallon-Pont-d'Arc
+- **Capa Generada:** [`Cotes_du_Vivarais.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Cotes_du_Vivarais.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Orgnac-l''Aven', 'Bourg-Saint-Andéol', 'Saint-Montan', 'Saint-Remèze', 'Barjac', 'Vallon-Pont-d''Arc');
+  ```
+
+### AOC Côtes du Rhône
+- **Subcuenca:** Rhône Régional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Cotes_du_Rhone.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Cotes_du_Rhone.pdf)
+- **Denominación INAO Shapefile:** `Côtes du Rhône`
+- **Variedades Tintas:** Grenache, Syrah, Mourvèdre, Carignan, Cinsaut
+- **Variedades Blancas:** Grenache blanc, Clairette, Roussanne, Marsanne, Viognier, Bourboulenc
+- **Descripción:** La gran columna vertebral del valle: denominación histórica que encarna la generosidad, calidez y diversidad del viñedo rodaniano.
+- **Comunas Oficiales:** Avignon, Orange, Bollène, Valréas, Bagnols-sur-Cèze, Pont-Saint-Esprit
+- **Capa Generada:** [`Cotes_du_Rhone.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Cotes_du_Rhone.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Avignon', 'Orange', 'Bollène', 'Valréas', 'Bagnols-sur-Cèze', 'Pont-Saint-Esprit');
+  ```
+
+### AOC Côtes du Rhône Villages
+- **Subcuenca:** Rhône Régional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Cotes_du_Rhone_Villages.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Cotes_du_Rhone_Villages.pdf)
+- **Denominación INAO Shapefile:** `Côtes du Rhône Villages`
+- **Variedades Tintas:** Grenache, Syrah, Mourvèdre
+- **Variedades Blancas:** Grenache blanc, Clairette, Roussanne, Marsanne
+- **Descripción:** Paso adelante en calidad y terruño que agrupa municipios y dénominations géographiques con exigencias de rendimiento más estrictas.
+- **Comunas Oficiales:** Sablet, Séguret, Plan de Dieu, Visan, Valréas, Chusclan, Laudun, Signargues, Massif d'Uchaux
+- **Capa Generada:** [`Cotes_du_Rhone_Villages.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Cotes_du_Rhone_Villages.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Sablet', 'Séguret', 'Plan de Dieu', 'Visan', 'Valréas', 'Chusclan', 'Laudun', 'Signargues', 'Massif d''Uchaux');
+  ```
+
+### AOC Ventoux
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Ventoux.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Ventoux.pdf)
+- **Denominación INAO Shapefile:** `Ventoux`
+- **Variedades Tintas:** Grenache, Syrah, Mourvèdre, Cinsaut, Carignan
+- **Variedades Blancas:** Clairette, Bourboulenc, Grenache blanc, Roussanne
+- **Descripción:** El frescor alpino en el corazón provenzal: viñedos al amparo del Monte Ventoux (la cumbre de la Provenza) con tintos y rosados finos y vivaces.
+- **Comunas Oficiales:** Carpentras, Bédoin, Mazan, Caromb, Mormoiron, Malaucène, Apt
+- **Capa Generada:** [`Ventoux.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Ventoux.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Carpentras', 'Bédoin', 'Mazan', 'Caromb', 'Mormoiron', 'Malaucène', 'Apt');
+  ```
+
+### AOC Luberon
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Luberon.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Luberon.pdf)
+- **Denominación INAO Shapefile:** `Luberon`
+- **Variedades Tintas:** Syrah, Grenache, Mourvèdre
+- **Variedades Blancas:** Grenache blanc, Clairette, Bourboulenc, Vermentino, Roussanne
+- **Descripción:** Parque Natural del Luberon: equilibrio perfecto entre sol mediterráneo y noches frescas de altitud, produciendo blancos florales y tintos sedosos.
+- **Comunas Oficiales:** Apt, Cavaillon, Lourmarin, Bonnieux, Gordes, Ménerbes, Pertuis, Ansouis
+- **Capa Generada:** [`Luberon.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Luberon.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Apt', 'Cavaillon', 'Lourmarin', 'Bonnieux', 'Gordes', 'Ménerbes', 'Pertuis', 'Ansouis');
+  ```
+
+### AOC Costières de Nîmes
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Costieres_de_Nimes.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Costieres_de_Nimes.pdf)
+- **Denominación INAO Shapefile:** `Costières de Nîmes`
+- **Variedades Tintas:** Syrah, Grenache, Mourvèdre, Carignan, Cinsaut
+- **Variedades Blancas:** Grenache blanc, Roussanne, Marsanne, Clairette
+- **Descripción:** El puente entre el Ródano y la Camarga: terrazas de cantos rodados conocidas como gress bajo la brisa marina del golfo de León.
+- **Comunas Oficiales:** Nîmes, Beaucaire, Bellegarde, Générac, Saint-Gilles, Vauvert
+- **Capa Generada:** [`Costieres_de_Nimes.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Costieres_de_Nimes.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Nîmes', 'Beaucaire', 'Bellegarde', 'Générac', 'Saint-Gilles', 'Vauvert');
+  ```
+
+### AOC Clairette de Bellegarde
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Clairette_de_Bellegarde.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Clairette_de_Bellegarde.pdf)
+- **Denominación INAO Shapefile:** `Clairette de Bellegarde`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Clairette
+- **Descripción:** Microdenominación histórica exclusiva de Bellegarde en el Gard: vino blanco floral y sutil elaborado exclusivamente con uva Clairette.
+- **Comunas Oficiales:** Bellegarde
+- **Capa Generada:** [`Clairette_de_Bellegarde.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Clairette_de_Bellegarde.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Bellegarde');
+  ```
+
+### AOC Duché d'Uzès
+- **Subcuenca:** Rhône Méridional
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Duche_dUzes.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Rhone/Duche_dUzes.pdf)
+- **Denominación INAO Shapefile:** `Duché d''Uzès`
+- **Variedades Tintas:** Syrah, Grenache
+- **Variedades Blancas:** Viognier, Grenache blanc, Roussanne, Marsanne
+- **Descripción:** Reconocida en 2013 en torno al primer ducado de Francia y el Pont du Gard: tintos armoniosos y blancos frescos y minerales.
+- **Comunas Oficiales:** Uzès, Blauzac, Bourdic, Saint-Quentin-la-Poterie, Vers-Pont-du-Gard
+- **Capa Generada:** [`Duche_dUzes.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Rhône/Duche_dUzes.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Uzès', 'Blauzac', 'Bourdic', 'Saint-Quentin-la-Poterie', 'Vers-Pont-du-Gard');
+  ```
 
 ---
 

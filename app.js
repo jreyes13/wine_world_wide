@@ -5,7 +5,7 @@ const I18N = {
     title: "World Wine Wide",
     subtitle: "Mapas Oficiales de Regiones Vitivinícolas",
     searchPlaceholder: "Buscar por DO, País, Región, Uva o Municipio...",
-    allCountries: "Todos los Países / Territorios",
+    allCountries: "Todos los Países",
     allCategories: "Todas las Categorías",
     catDOCa: "DOCa (Calificada)",
     catDO: "DO / DOC (Origen)",
@@ -41,7 +41,7 @@ const I18N = {
     title: "World Wine Wide",
     subtitle: "Official Wine Region Maps",
     searchPlaceholder: "Search by Appellation, Country, Region, Grape or Municipality...",
-    allCountries: "All Countries / Territories",
+    allCountries: "All Countries",
     allCategories: "All Classifications",
     catDOCa: "DOCa (Qualified)",
     catDO: "DO / DOC (Origin)",
@@ -321,9 +321,6 @@ function renderRegionsList() {
 
   const countryFlags = {
     'España': '🇪🇸',
-    'La Rioja': '🍇',
-    'Navarra': '🛡️',
-    'País Vasco': '🌿',
     'Francia': '🇫🇷',
     'Portugal': '🇵🇹',
     'Italia': '🇮🇹'
@@ -514,9 +511,6 @@ function setLanguage(lang) {
   if (selectedFeature) {
     const countryFlags = {
       'España': '🇪🇸',
-      'La Rioja': '🍇',
-      'Navarra': '🛡️',
-      'País Vasco': '🌿',
       'Francia': '🇫🇷',
       'Portugal': '🇵🇹',
       'Italia': '🇮🇹'
@@ -554,9 +548,6 @@ document.getElementById('country-filter').addEventListener('change', (e) => {
   applyFilters();
   const countryCenters = {
     'España': { center: [-3.7, 40.4], zoom: 5.8 },
-    'La Rioja': { center: [-2.5, 42.3], zoom: 9.0 },
-    'Navarra': { center: [-1.65, 42.6], zoom: 8.5 },
-    'País Vasco': { center: [-2.6, 43.1], zoom: 8.5 },
     'Francia': { center: [2.2, 46.5], zoom: 5.6 },
     'Portugal': { center: [-8.2, 39.5], zoom: 6.6 },
     'Italia': { center: [12.5, 42.5], zoom: 5.8 }

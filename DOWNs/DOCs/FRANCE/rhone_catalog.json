@@ -1,0 +1,742 @@
+[
+  {
+    "id": "fr-rhone-cote-rotie",
+    "name": "Côte Rôtie",
+    "layer": "AOC Côte Rôtie",
+    "denom": "Côte Rôtie",
+    "pdf": "Cote_Rotie.pdf",
+    "subbasin": "Rhône Septentrional",
+    "communes": [
+      "Ampuis",
+      "Saint-Cyr-sur-le-Rhône",
+      "Tupin-et-Semons"
+    ],
+    "reds": [
+      "Syrah"
+    ],
+    "whites": [
+      "Viognier"
+    ],
+    "desc": "Vértigo y elegancia pura en terrazas de pizarra sobre el Ródano: Syrah magistral cofermentada históricamente con hasta un 20% de Viognier."
+  },
+  {
+    "id": "fr-rhone-condrieu",
+    "name": "Condrieu",
+    "layer": "AOC Condrieu",
+    "denom": "Condrieu",
+    "pdf": "Condrieu.pdf",
+    "subbasin": "Rhône Septentrional",
+    "communes": [
+      "Condrieu",
+      "Chavanay",
+      "Limony",
+      "Malleval",
+      "Saint-Michel-sur-Rhône",
+      "Saint-Pierre-de-Bœuf",
+      "Vérin"
+    ],
+    "reds": [],
+    "whites": [
+      "Viognier"
+    ],
+    "desc": "El santuario supremo del Viognier: blancos untuosos y exóticos con aromas de albaricoque, melocotón blanco y violetas cultivados en laderas graníticas escarpadas."
+  },
+  {
+    "id": "fr-rhone-chateau-grillet",
+    "name": "Château-Grillet",
+    "layer": "AOC Château-Grillet",
+    "denom": "Château-Grillet",
+    "pdf": "Chateau_Grillet.pdf",
+    "subbasin": "Rhône Septentrional",
+    "communes": [
+      "Vérin",
+      "Saint-Michel-sur-Rhône"
+    ],
+    "reds": [],
+    "whites": [
+      "Viognier"
+    ],
+    "desc": "Mítico monopolio de 3,5 hectáreas enclavado en un anfiteatro natural orientado al mediodía; uno de los vinos blancos más exclusivos y legendarios del mundo."
+  },
+  {
+    "id": "fr-rhone-saint-joseph",
+    "name": "Saint-Joseph",
+    "layer": "AOC Saint-Joseph",
+    "denom": "Saint-Joseph",
+    "pdf": "Saint_Joseph.pdf",
+    "subbasin": "Rhône Septentrional",
+    "communes": [
+      "Tournon-sur-Rhône",
+      "Mauves",
+      "Charnas",
+      "Félines",
+      "Limony",
+      "Saint-Jean-de-Muzols",
+      "Sarras",
+      "Lemps",
+      "Glun",
+      "Vion"
+    ],
+    "reds": [
+      "Syrah"
+    ],
+    "whites": [
+      "Marsanne",
+      "Roussanne"
+    ],
+    "desc": "Franja esbelta de 50 km de viñedos en la orilla derecha sobre granito fracturado; tintos minerales de Syrah con notas de pimienta y florales, y blancos de Marsanne y Roussanne."
+  },
+  {
+    "id": "fr-rhone-crozes-hermitage",
+    "name": "Crozes-Hermitage",
+    "layer": "AOC Crozes-Hermitage",
+    "denom": "Crozes-Hermitage ou Crozes-Ermitage",
+    "pdf": "Crozes_Hermitage.pdf",
+    "subbasin": "Rhône Septentrional",
+    "communes": [
+      "Crozes-Hermitage",
+      "Tain-l'Hermitage",
+      "Beaumont-Monteux",
+      "Chanos-Curson",
+      "Érôme",
+      "Gervans",
+      "Larnage",
+      "Mercurol-Veaunes",
+      "Pont-de-l'Isère",
+      "La Roche-de-Glun",
+      "Serves-sur-Rhône"
+    ],
+    "reds": [
+      "Syrah"
+    ],
+    "whites": [
+      "Marsanne",
+      "Roussanne"
+    ],
+    "desc": "El cru más extenso del Ródano norte, extendido sobre terrazas aluviales de cantos rodados y loess; vinos joviales, seductores y especiados."
+  },
+  {
+    "id": "fr-rhone-hermitage",
+    "name": "Hermitage",
+    "layer": "AOC Hermitage",
+    "denom": "Hermitage ou Ermitage ou l''Hermitage ou l''Ermitage",
+    "pdf": "Hermitage.pdf",
+    "subbasin": "Rhône Septentrional",
+    "communes": [
+      "Tain-l'Hermitage",
+      "Crozes-Hermitage",
+      "Larnage"
+    ],
+    "reds": [
+      "Syrah"
+    ],
+    "whites": [
+      "Marsanne",
+      "Roussanne"
+    ],
+    "desc": "La colina sagrada del Ródano: laderas graníticas orientadas al sur donde la Syrah y la Marsanne alcanzan una potencia, longevidad y majestuosidad insuperables."
+  },
+  {
+    "id": "fr-rhone-cornas",
+    "name": "Cornas",
+    "layer": "AOC Cornas",
+    "denom": "Cornas",
+    "pdf": "Cornas.pdf",
+    "subbasin": "Rhône Septentrional",
+    "communes": [
+      "Cornas"
+    ],
+    "reds": [
+      "Syrah"
+    ],
+    "whites": [],
+    "desc": "Tierra quemada en lengua celta: anfiteatro natural protegido del viento donde la Syrah 100% expresa una fuerza telúrica, notas de tinta, mora silvestre y taninos nobles."
+  },
+  {
+    "id": "fr-rhone-saint-peray",
+    "name": "Saint-Péray",
+    "layer": "AOC Saint-Péray",
+    "denom": "Saint-Péray",
+    "pdf": "Saint_Peray.pdf",
+    "subbasin": "Rhône Septentrional",
+    "communes": [
+      "Saint-Péray",
+      "Toulaud"
+    ],
+    "reds": [],
+    "whites": [
+      "Marsanne",
+      "Roussanne"
+    ],
+    "desc": "Vinos blancos tranquilos y espumosos históricos al pie del castillo de Crussol sobre calizas y granito, con frescura cítrica y notas de avellana tostada."
+  },
+  {
+    "id": "fr-rhone-clairette-de-die",
+    "name": "Clairette de Die",
+    "layer": "AOC Clairette de Die",
+    "denom": "Clairette de Die",
+    "pdf": "Clairette_de_Die.pdf",
+    "subbasin": "Diois",
+    "communes": [
+      "Die",
+      "Barsac",
+      "Vercheny",
+      "Aouste-sur-Sye",
+      "Pontaix",
+      "Saillans",
+      "Luc-en-Diois"
+    ],
+    "reds": [],
+    "whites": [
+      "Muscat blanc à petits grains",
+      "Clairette"
+    ],
+    "desc": "Célebre espumoso ancestral y fragante elaborado por método diois sin licor de expedición, dominado por la uva moscatel en un valle prealpino."
+  },
+  {
+    "id": "fr-rhone-cremant-de-die",
+    "name": "Crémant de Die",
+    "layer": "AOC Crémant de Die",
+    "denom": "Crémant de Die",
+    "pdf": "Cremant_de_Die.pdf",
+    "subbasin": "Diois",
+    "communes": [
+      "Die",
+      "Barsac",
+      "Vercheny",
+      "Aouste-sur-Sye",
+      "Pontaix",
+      "Saillans"
+    ],
+    "reds": [],
+    "whites": [
+      "Clairette",
+      "Aligoté",
+      "Muscat blanc à petits grains"
+    ],
+    "desc": "Espumoso brut de método tradicional elaborado sobre base de Clairette blanca con crianza mínima sobre lías."
+  },
+  {
+    "id": "fr-rhone-coteaux-de-die",
+    "name": "Coteaux de Die",
+    "layer": "AOC Coteaux de Die",
+    "denom": "Coteaux de Die",
+    "pdf": "Coteaux_de_Die.pdf",
+    "subbasin": "Diois",
+    "communes": [
+      "Die",
+      "Barsac",
+      "Vercheny",
+      "Pontaix",
+      "Saillans",
+      "Aouste-sur-Sye"
+    ],
+    "reds": [],
+    "whites": [
+      "Clairette"
+    ],
+    "desc": "Vino blanco seco y mineral 100% Clairette forjado en las laderas calizas y pedregosas bajo los contrafuertes del macizo del Vercors."
+  },
+  {
+    "id": "fr-rhone-chatillon-en-diois",
+    "name": "Châtillon-en-Diois",
+    "layer": "AOC Châtillon-en-Diois",
+    "denom": "Châtillon-en-Diois",
+    "pdf": "Chatillon_en_Diois.pdf",
+    "subbasin": "Diois",
+    "communes": [
+      "Châtillon-en-Diois",
+      "Menglon",
+      "Luc-en-Diois",
+      "Poyols",
+      "Laval-d'Aix",
+      "Saint-Roman"
+    ],
+    "reds": [
+      "Gamay",
+      "Pinot Noir",
+      "Syrah"
+    ],
+    "whites": [
+      "Chardonnay",
+      "Aligoté"
+    ],
+    "desc": "Enclave vinícola alpino único en el Ródano con vinos tintos dominados por Gamay y blancos frescos de Chardonnay y Aligoté."
+  },
+  {
+    "id": "fr-rhone-chateauneuf-du-pape",
+    "name": "Châteauneuf-du-Pape",
+    "layer": "AOC Châteauneuf-du-Pape",
+    "denom": "Châteauneuf-du-Pape",
+    "pdf": "Chateauneuf_du_Pape.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Châteauneuf-du-Pape",
+      "Bédarrides",
+      "Courthézon",
+      "Orange",
+      "Sorgues"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Mourvèdre",
+      "Cinsaut",
+      "Counoise",
+      "Muscardin",
+      "Vaccarèse",
+      "Terret noir"
+    ],
+    "whites": [
+      "Grenache blanc",
+      "Roussanne",
+      "Clairette",
+      "Bourboulenc",
+      "Picpoul",
+      "Picardan"
+    ],
+    "desc": "El mito indiscutible del sur: la sinfonía de los 18 cépages sobre terrazas de galets roulés que atesoran el calor solar diurno."
+  },
+  {
+    "id": "fr-rhone-gigondas",
+    "name": "Gigondas",
+    "layer": "AOC Gigondas",
+    "denom": "Gigondas",
+    "pdf": "Gigondas.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Gigondas"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Mourvèdre",
+      "Cinsaut"
+    ],
+    "whites": [
+      "Clairette"
+    ],
+    "desc": "Vinos de gran casta y concentración nacidos al pie de las escarpadas Dentelles de Montmirail, dominados por la Garnacha."
+  },
+  {
+    "id": "fr-rhone-vacqueyras",
+    "name": "Vacqueyras",
+    "layer": "AOC Vacqueyras",
+    "denom": "Vacqueyras",
+    "pdf": "Vacqueyras.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Vacqueyras",
+      "Sarrians"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Mourvèdre",
+      "Cinsaut"
+    ],
+    "whites": [
+      "Clairette",
+      "Grenache blanc",
+      "Bourboulenc",
+      "Roussanne"
+    ],
+    "desc": "Cru meridional vigoroso y generoso asentado sobre las mesetas aluviales de Les Garrigues frente a las Dentelles."
+  },
+  {
+    "id": "fr-rhone-beaumes-de-venise",
+    "name": "Beaumes de Venise",
+    "layer": "AOC Beaumes de Venise",
+    "denom": "Beaumes de Venise",
+    "pdf": "Beaumes_de_Venise.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Beaumes-de-Venise",
+      "Lafare",
+      "La Roque-Alric",
+      "Suzette"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah"
+    ],
+    "whites": [],
+    "desc": "Tintos estructurados y aromáticos cultivados en terrazas sobre margas triásicas del macizo de las Dentelles."
+  },
+  {
+    "id": "fr-rhone-muscat-de-beaumes-de-venise",
+    "name": "Muscat de Beaumes-de-Venise",
+    "layer": "AOC Muscat de Beaumes-de-Venise",
+    "denom": "Muscat de Beaumes-de-Venise",
+    "pdf": "Muscat_de_Beaumes_de_Venise.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Beaumes-de-Venise",
+      "Aubignan"
+    ],
+    "reds": [],
+    "whites": [
+      "Muscat blanc à petits grains",
+      "Muscat rouge à petits grains"
+    ],
+    "desc": "Célebre vino dulce natural (VDN) dorado, untuoso y floral elaborado con Muscat à petits grains mutado con alcohol vínico."
+  },
+  {
+    "id": "fr-rhone-vinsobres",
+    "name": "Vinsobres",
+    "layer": "AOC Vinsobres",
+    "denom": "Vinsobres",
+    "pdf": "Vinsobres.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Vinsobres"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Mourvèdre"
+    ],
+    "whites": [],
+    "desc": "El primer cru de la Drôme provenzal: tintos de gran altitud y frescura combinando Garnacha con una presencia distinguida de Syrah."
+  },
+  {
+    "id": "fr-rhone-rasteau",
+    "name": "Rasteau",
+    "layer": "AOC Rasteau",
+    "denom": "Rasteau Vin Tranquille",
+    "pdf": "Rasteau.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Rasteau"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Mourvèdre"
+    ],
+    "whites": [],
+    "desc": "Cru de laderas arcillo-calcáreas orientadas al sur famoso tanto por sus tintos tranquilos corpulentos como por sus legendarios Vins Doux Naturels."
+  },
+  {
+    "id": "fr-rhone-cairanne",
+    "name": "Cairanne",
+    "layer": "AOC Cairanne",
+    "denom": "Cairanne",
+    "pdf": "Cairanne.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Cairanne"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Mourvèdre",
+      "Carignan"
+    ],
+    "whites": [
+      "Clairette",
+      "Grenache blanc",
+      "Roussanne"
+    ],
+    "desc": "Elevado a cru comunal en 2016; vinos armoniosos, elegantes y de taninos sedosos sobre colinas de arenas y cantos rodados."
+  },
+  {
+    "id": "fr-rhone-tavel",
+    "name": "Tavel",
+    "layer": "AOC Tavel",
+    "denom": "Tavel",
+    "pdf": "Tavel.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Tavel",
+      "Roquemaure"
+    ],
+    "reds": [
+      "Grenache",
+      "Cinsaut",
+      "Clairette",
+      "Mourvèdre",
+      "Syrah"
+    ],
+    "whites": [],
+    "desc": "El Rey de los Rosados: la única denominación francesa consagrada con exclusividad a rosados gastronómicos, intensos y estructurados."
+  },
+  {
+    "id": "fr-rhone-lirac",
+    "name": "Lirac",
+    "layer": "AOC Lirac",
+    "denom": "Lirac",
+    "pdf": "Lirac.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Lirac",
+      "Roquemaure",
+      "Saint-Geniès-de-Comolas",
+      "Saint-Laurent-des-Arbres"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Mourvèdre",
+      "Cinsaut"
+    ],
+    "whites": [
+      "Clairette",
+      "Grenache blanc",
+      "Bourboulenc",
+      "Roussanne"
+    ],
+    "desc": "Cru milenario de la orilla derecha frente a Châteauneuf-du-Pape que produce tintos opulentos y blancos complejos sobre terrazas fluviales."
+  },
+  {
+    "id": "fr-rhone-grignan-les-adhemar",
+    "name": "Grignan-les-Adhémar",
+    "layer": "AOC Grignan-les-Adhémar",
+    "denom": "Grignan-les-Adhémar",
+    "pdf": "Grignan_les_Adhemar.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Grignan",
+      "Saint-Paul-Trois-Châteaux",
+      "Suze-la-Rousse",
+      "Donzère",
+      "La Garde-Adhémar"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Carignan",
+      "Mourvèdre"
+    ],
+    "whites": [
+      "Viognier",
+      "Marsanne",
+      "Roussanne",
+      "Grenache blanc"
+    ],
+    "desc": "Entre lavandas y castillos renacentistas en la Drôme provenzal: vinos afrutados y especiados marcados por el clima de transición."
+  },
+  {
+    "id": "fr-rhone-cotes-du-vivarais",
+    "name": "Côtes du Vivarais",
+    "layer": "AOC Côtes du Vivarais",
+    "denom": "Côtes du Vivarais",
+    "pdf": "Cotes_du_Vivarais.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Orgnac-l'Aven",
+      "Bourg-Saint-Andéol",
+      "Saint-Montan",
+      "Saint-Remèze",
+      "Barjac",
+      "Vallon-Pont-d'Arc"
+    ],
+    "reds": [
+      "Syrah",
+      "Grenache"
+    ],
+    "whites": [
+      "Clairette",
+      "Grenache blanc",
+      "Marsanne"
+    ],
+    "desc": "Viñedos de mesetas kársticas flanqueando las majestuosas gargantas del Ardèche; tintos vivaces con notas de garriga y frutos negros."
+  },
+  {
+    "id": "fr-rhone-cotes-du-rhone",
+    "name": "Côtes du Rhône",
+    "layer": "AOC Côtes du Rhône",
+    "denom": "Côtes du Rhône",
+    "pdf": "Cotes_du_Rhone.pdf",
+    "subbasin": "Rhône Régional",
+    "communes": [
+      "Avignon",
+      "Orange",
+      "Bollène",
+      "Valréas",
+      "Bagnols-sur-Cèze",
+      "Pont-Saint-Esprit"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Mourvèdre",
+      "Carignan",
+      "Cinsaut"
+    ],
+    "whites": [
+      "Grenache blanc",
+      "Clairette",
+      "Roussanne",
+      "Marsanne",
+      "Viognier",
+      "Bourboulenc"
+    ],
+    "desc": "La gran columna vertebral del valle: denominación histórica que encarna la generosidad, calidez y diversidad del viñedo rodaniano."
+  },
+  {
+    "id": "fr-rhone-cotes-du-rhone-villages",
+    "name": "Côtes du Rhône Villages",
+    "layer": "AOC Côtes du Rhône Villages",
+    "denom": "Côtes du Rhône Villages",
+    "pdf": "Cotes_du_Rhone_Villages.pdf",
+    "subbasin": "Rhône Régional",
+    "communes": [
+      "Sablet",
+      "Séguret",
+      "Plan de Dieu",
+      "Visan",
+      "Valréas",
+      "Chusclan",
+      "Laudun",
+      "Signargues",
+      "Massif d'Uchaux"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Mourvèdre"
+    ],
+    "whites": [
+      "Grenache blanc",
+      "Clairette",
+      "Roussanne",
+      "Marsanne"
+    ],
+    "desc": "Paso adelante en calidad y terruño que agrupa municipios y dénominations géographiques con exigencias de rendimiento más estrictas."
+  },
+  {
+    "id": "fr-rhone-ventoux",
+    "name": "Ventoux",
+    "layer": "AOC Ventoux",
+    "denom": "Ventoux",
+    "pdf": "Ventoux.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Carpentras",
+      "Bédoin",
+      "Mazan",
+      "Caromb",
+      "Mormoiron",
+      "Malaucène",
+      "Apt"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Mourvèdre",
+      "Cinsaut",
+      "Carignan"
+    ],
+    "whites": [
+      "Clairette",
+      "Bourboulenc",
+      "Grenache blanc",
+      "Roussanne"
+    ],
+    "desc": "El frescor alpino en el corazón provenzal: viñedos al amparo del Monte Ventoux (la cumbre de la Provenza) con tintos y rosados finos y vivaces."
+  },
+  {
+    "id": "fr-rhone-luberon",
+    "name": "Luberon",
+    "layer": "AOC Luberon",
+    "denom": "Luberon",
+    "pdf": "Luberon.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Apt",
+      "Cavaillon",
+      "Lourmarin",
+      "Bonnieux",
+      "Gordes",
+      "Ménerbes",
+      "Pertuis",
+      "Ansouis"
+    ],
+    "reds": [
+      "Syrah",
+      "Grenache",
+      "Mourvèdre"
+    ],
+    "whites": [
+      "Grenache blanc",
+      "Clairette",
+      "Bourboulenc",
+      "Vermentino",
+      "Roussanne"
+    ],
+    "desc": "Parque Natural del Luberon: equilibrio perfecto entre sol mediterráneo y noches frescas de altitud, produciendo blancos florales y tintos sedosos."
+  },
+  {
+    "id": "fr-rhone-costieres-de-nimes",
+    "name": "Costières de Nîmes",
+    "layer": "AOC Costières de Nîmes",
+    "denom": "Costières de Nîmes",
+    "pdf": "Costieres_de_Nimes.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Nîmes",
+      "Beaucaire",
+      "Bellegarde",
+      "Générac",
+      "Saint-Gilles",
+      "Vauvert"
+    ],
+    "reds": [
+      "Syrah",
+      "Grenache",
+      "Mourvèdre",
+      "Carignan",
+      "Cinsaut"
+    ],
+    "whites": [
+      "Grenache blanc",
+      "Roussanne",
+      "Marsanne",
+      "Clairette"
+    ],
+    "desc": "El puente entre el Ródano y la Camarga: terrazas de cantos rodados conocidas como gress bajo la brisa marina del golfo de León."
+  },
+  {
+    "id": "fr-rhone-clairette-de-bellegarde",
+    "name": "Clairette de Bellegarde",
+    "layer": "AOC Clairette de Bellegarde",
+    "denom": "Clairette de Bellegarde",
+    "pdf": "Clairette_de_Bellegarde.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Bellegarde"
+    ],
+    "reds": [],
+    "whites": [
+      "Clairette"
+    ],
+    "desc": "Microdenominación histórica exclusiva de Bellegarde en el Gard: vino blanco floral y sutil elaborado exclusivamente con uva Clairette."
+  },
+  {
+    "id": "fr-rhone-duche-duzes",
+    "name": "Duché d'Uzès",
+    "layer": "AOC Duché d'Uzès",
+    "denom": "Duché d''Uzès",
+    "pdf": "Duche_dUzes.pdf",
+    "subbasin": "Rhône Méridional",
+    "communes": [
+      "Uzès",
+      "Blauzac",
+      "Bourdic",
+      "Saint-Quentin-la-Poterie",
+      "Vers-Pont-du-Gard"
+    ],
+    "reds": [
+      "Syrah",
+      "Grenache"
+    ],
+    "whites": [
+      "Viognier",
+      "Grenache blanc",
+      "Roussanne",
+      "Marsanne"
+    ],
+    "desc": "Reconocida en 2013 en torno al primer ducado de Francia y el Pont du Gard: tintos armoniosos y blancos frescos y minerales."
+  }
+]
