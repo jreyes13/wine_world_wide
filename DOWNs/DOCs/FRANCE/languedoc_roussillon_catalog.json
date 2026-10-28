@@ -1,0 +1,1414 @@
+[
+  {
+    "id": "fr-languedoc-languedoc",
+    "name": "Languedoc",
+    "region": "Languedoc",
+    "subbasin": "Languedoc Regional",
+    "where_clause": "denom = 'Languedoc'",
+    "gpkg_rel": "FRANCE/Languedoc/Languedoc.gpkg",
+    "layer": "AOC Languedoc",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Languedoc.pdf",
+    "color": "#991b1b",
+    "reds": [
+      "Grenache noir",
+      "Syrah",
+      "Mourvèdre",
+      "Carignan",
+      "Cinsaut"
+    ],
+    "whites": [
+      "Grenache blanc",
+      "Clairette",
+      "Bourboulenc",
+      "Roussanne",
+      "Marsanne",
+      "Viognier",
+      "Vermentino",
+      "Piquepoul blanc"
+    ],
+    "communes": [
+      "Montpellier",
+      "Nîmes",
+      "Béziers",
+      "Narbonne",
+      "Carcassonne",
+      "Pézenas",
+      "Sommières",
+      "Clermont-l'Hérault",
+      "Limoux"
+    ],
+    "desc": "La gran denominación regional paraguas del Midi mediterráneo que se extiende desde la frontera española hasta las puertas del delta del Ródano, abarcando una rica diversidad de terruños calcáreos, esquistosos y aluviales."
+  },
+  {
+    "id": "fr-languedoc-corbieres",
+    "name": "Corbières",
+    "region": "Languedoc",
+    "subbasin": "Massif des Corbières (Aude)",
+    "where_clause": "denom = 'Corbières'",
+    "gpkg_rel": "FRANCE/Languedoc/Corbieres.gpkg",
+    "layer": "AOC Corbières",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Corbieres.pdf",
+    "color": "#881337",
+    "reds": [
+      "Carignan",
+      "Grenache noir",
+      "Syrah",
+      "Mourvèdre",
+      "Cinsaut"
+    ],
+    "whites": [
+      "Bourboulenc",
+      "Grenache blanc",
+      "Roussanne",
+      "Marsanne",
+      "Maccabeu",
+      "Clairette"
+    ],
+    "communes": [
+      "Boutenac",
+      "Camplong-d'Aude",
+      "Fabrezan",
+      "Ferrals-les-Corbières",
+      "Fontcouverte",
+      "Lagrasse",
+      "Lézignan-Corbières",
+      "Montséret",
+      "Saint-André-de-Roquelongue",
+      "Saint-Laurent-de-la-Cabrerisse",
+      "Thézan-des-Corbières",
+      "Luc-sur-Orbieu",
+      "Ornaisons"
+    ],
+    "desc": "El macizo salvaje del Aude batido por el viento Cers: viñedos ásperos sobre calizas y margas con el histórico Carignan como pilar de identidad, estructurado con Syrah y Mourvèdre."
+  },
+  {
+    "id": "fr-languedoc-corbieres-boutenac",
+    "name": "Corbières-Boutenac",
+    "region": "Languedoc",
+    "subbasin": "Crête de Boutenac (Aude)",
+    "where_clause": "denom = 'Boutenac'",
+    "gpkg_rel": "FRANCE/Languedoc/Corbieres_Boutenac.gpkg",
+    "layer": "AOC Corbières-Boutenac",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Corbieres_Boutenac.pdf",
+    "color": "#701a75",
+    "reds": [
+      "Carignan",
+      "Grenache noir",
+      "Mourvèdre",
+      "Syrah"
+    ],
+    "whites": [],
+    "communes": [
+      "Boutenac",
+      "Ferrals-les-Corbières",
+      "Fabrezan",
+      "Saint-André-de-Roquelongue",
+      "Luc-sur-Orbieu",
+      "Ornaisons",
+      "Thézan-des-Corbières",
+      "Montséret",
+      "Saint-Laurent-de-la-Cabrerisse",
+      "Lézignan-Corbières"
+    ],
+    "desc": "El gran Cru del macizo de Corbières: suelo de puddingstones (galets y areniscas silíceas) donde las cepas centenarias de Carignan negro en vaso alcanzan cotas legendarias de terciopelo, frutos maduros y mineralidad."
+  },
+  {
+    "id": "fr-languedoc-minervois",
+    "name": "Minervois",
+    "region": "Languedoc",
+    "subbasin": "Piedmont de la Montagne Noire (Aude / Hérault)",
+    "where_clause": "denom = 'Minervois'",
+    "gpkg_rel": "FRANCE/Languedoc/Minervois.gpkg",
+    "layer": "AOC Minervois",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Minervois.pdf",
+    "color": "#9f1239",
+    "reds": [
+      "Syrah",
+      "Mourvèdre",
+      "Grenache noir",
+      "Lledoner Pelut",
+      "Carignan",
+      "Cinsaut"
+    ],
+    "whites": [
+      "Grenache blanc",
+      "Bourboulenc",
+      "Marsanne",
+      "Roussanne",
+      "Maccabeu",
+      "Vermentino"
+    ],
+    "communes": [
+      "Minerve",
+      "La Livinière",
+      "Siran",
+      "Cesseras",
+      "Azillanet",
+      "Olonzac",
+      "Aigne",
+      "Aigues-Vives",
+      "Beaufort",
+      "Bize-Minervois",
+      "Caunes-Minervois",
+      "Trausse",
+      "Rieux-Minervois",
+      "Laure-Minervois",
+      "Peyriac-Minervois"
+    ],
+    "desc": "Vasto anfiteatro natural orientado al sur entre el Canal du Midi y la Montagne Noire: cañones calizos de Minerve y terrazas pedregosas que alumbran tintos sedosos, perfumados y complejos."
+  },
+  {
+    "id": "fr-languedoc-minervois-la-liviniere",
+    "name": "Minervois-La Livinière",
+    "region": "Languedoc",
+    "subbasin": "Petit Causse (Hérault)",
+    "where_clause": "denom = 'La Livinière'",
+    "gpkg_rel": "FRANCE/Languedoc/Minervois_La_Liviniere.gpkg",
+    "layer": "AOC Minervois-La Livinière",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Minervois_La_Liviniere.pdf",
+    "color": "#831843",
+    "reds": [
+      "Syrah",
+      "Mourvèdre",
+      "Grenache noir",
+      "Carignan",
+      "Cinsaut"
+    ],
+    "whites": [],
+    "communes": [
+      "La Livinière",
+      "Azillanet",
+      "Cesseras",
+      "Siran",
+      "Félines-Minervois",
+      "Calamiac"
+    ],
+    "desc": "El primer Cru comunal reconocido de Languedoc (1999): microclima de excepcional aridez y noches frescas al pie de la Montagne Noire sobre calizas del Eoceno, produciendo tintos concentrados y de excelsa nobleza."
+  },
+  {
+    "id": "fr-languedoc-saint-chinian",
+    "name": "Saint-Chinian",
+    "region": "Languedoc",
+    "subbasin": "Avant-Monts (Hérault)",
+    "where_clause": "denom = 'Saint-Chinian'",
+    "gpkg_rel": "FRANCE/Languedoc/Saint_Chinian.gpkg",
+    "layer": "AOC Saint-Chinian",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Saint_Chinian.pdf",
+    "color": "#9a3412",
+    "reds": [
+      "Syrah",
+      "Mourvèdre",
+      "Grenache noir",
+      "Lledoner Pelut",
+      "Carignan",
+      "Cinsaut"
+    ],
+    "whites": [
+      "Grenache blanc",
+      "Marsanne",
+      "Roussanne",
+      "Vermentino"
+    ],
+    "communes": [
+      "Saint-Chinian",
+      "Assignan",
+      "Babeau-Bouldoux",
+      "Berlou",
+      "Cébazan",
+      "Cessenon-sur-Orb",
+      "Cruzy",
+      "Pierrerue",
+      "Prades-sur-Vernazobre",
+      "Puisserguier",
+      "Quarante",
+      "Roquebrun",
+      "Saint-Jean-de-Minervois",
+      "Villespassans"
+    ],
+    "desc": "Fascinante dualidad geológica entre el norte de esquistos primarios y el sur de arcillas y calizas: tintos con nervio mineral, aromas de jara, tomillo y frutos negros crujientes."
+  },
+  {
+    "id": "fr-languedoc-saint-chinian-berlou",
+    "name": "Saint-Chinian Berlou",
+    "region": "Languedoc",
+    "subbasin": "Vallée du Vernazobre (Hérault)",
+    "where_clause": "denom = 'Saint-Chinian Berlou'",
+    "gpkg_rel": "FRANCE/Languedoc/Saint_Chinian_Berlou.gpkg",
+    "layer": "AOC Saint-Chinian Berlou",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Saint_Chinian.pdf",
+    "color": "#7c2d12",
+    "reds": [
+      "Carignan",
+      "Grenache noir",
+      "Syrah",
+      "Mourvèdre"
+    ],
+    "whites": [],
+    "communes": [
+      "Berlou",
+      "Prades-sur-Vernazobre",
+      "Cessenon-sur-Orb",
+      "Roquebrun",
+      "Vieussan"
+    ],
+    "desc": "Cru comunal de Saint-Chinian situado en un circo protegido de esquistos pardos: Carignan viejo combinado con Syrah que entrega taninos extremadamente fundidos y especiados."
+  },
+  {
+    "id": "fr-languedoc-saint-chinian-roquebrun",
+    "name": "Saint-Chinian Roquebrun",
+    "region": "Languedoc",
+    "subbasin": "Gorges de l'Orb (Hérault)",
+    "where_clause": "denom = 'Saint-Chinian Roquebrun'",
+    "gpkg_rel": "FRANCE/Languedoc/Saint_Chinian_Roquebrun.gpkg",
+    "layer": "AOC Saint-Chinian Roquebrun",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Saint_Chinian.pdf",
+    "color": "#6c2e12",
+    "reds": [
+      "Syrah",
+      "Grenache noir",
+      "Mourvèdre",
+      "Carignan"
+    ],
+    "whites": [],
+    "communes": [
+      "Roquebrun",
+      "Berlou",
+      "Cessenon-sur-Orb",
+      "Vieussan"
+    ],
+    "desc": "El «Pequeño Niza» de Languedoc: microclima casi subtropical en las hoces del río Orb sobre laderas de esquisto abruptas, con la Syrah como protagonista de vinos estructurados y aromáticos."
+  },
+  {
+    "id": "fr-languedoc-faugeres",
+    "name": "Faugères",
+    "region": "Languedoc",
+    "subbasin": "Monts de Faugères (Hérault)",
+    "where_clause": "denom = 'Faugères'",
+    "gpkg_rel": "FRANCE/Languedoc/Faugeres.gpkg",
+    "layer": "AOC Faugères",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Faugeres.pdf",
+    "color": "#4c1d95",
+    "reds": [
+      "Syrah",
+      "Mourvèdre",
+      "Grenache noir",
+      "Carignan",
+      "Cinsaut"
+    ],
+    "whites": [
+      "Roussanne",
+      "Marsanne",
+      "Grenache blanc",
+      "Vermentino"
+    ],
+    "communes": [
+      "Faugères",
+      "Autignac",
+      "Cabrerolles",
+      "Caussiniojouls",
+      "Fos",
+      "Laurens",
+      "Roquessels"
+    ],
+    "desc": "El único terruño 100% de esquistos primarios homogéneos de Languedoc: suelos ácidos y filtrantes a 250-400m de altitud que dotan a los vinos de una mineralidad sedosa, elegante y profunda."
+  },
+  {
+    "id": "fr-languedoc-fitou",
+    "name": "Fitou",
+    "region": "Languedoc",
+    "subbasin": "Hautes-Corbières & Littoral (Aude)",
+    "where_clause": "denom = 'Fitou'",
+    "gpkg_rel": "FRANCE/Languedoc/Fitou.gpkg",
+    "layer": "AOC Fitou",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Fitou.pdf",
+    "color": "#581c87",
+    "reds": [
+      "Carignan",
+      "Grenache noir",
+      "Mourvèdre",
+      "Syrah"
+    ],
+    "whites": [],
+    "communes": [
+      "Fitou",
+      "Leucate",
+      "Caves",
+      "La Palme",
+      "Treilles",
+      "Cascastel-des-Corbières",
+      "Tuchan",
+      "Paziols",
+      "Villeneuve-les-Corbières"
+    ],
+    "desc": "La AOC de vinos tintos más antigua de Languedoc (1948), dividida en dos islotes: el Fitou marítimo sobre la laguna de Leucate y el Fitou montañoso de las Hautes-Corbières, reino indiscutible del Carignan criado en madera."
+  },
+  {
+    "id": "fr-languedoc-terrasses-du-larzac",
+    "name": "Terrasses du Larzac",
+    "region": "Languedoc",
+    "subbasin": "Causse du Larzac (Hérault)",
+    "where_clause": "denom = 'Terrasses du Larzac'",
+    "gpkg_rel": "FRANCE/Languedoc/Terrasses_du_Larzac.gpkg",
+    "layer": "AOC Terrasses du Larzac",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Terrasses_du_Larzac.pdf",
+    "color": "#1e3a8a",
+    "reds": [
+      "Grenache noir",
+      "Syrah",
+      "Mourvèdre",
+      "Carignan",
+      "Cinsaut"
+    ],
+    "whites": [],
+    "communes": [
+      "Aniane",
+      "Gignac",
+      "Saint-Jean-de-Fos",
+      "Saint-Saturnin-de-Lucian",
+      "Montpeyroux",
+      "Arboras",
+      "Saint-Guilhem-le-Désert",
+      "Soubès",
+      "Lodève",
+      "Octon",
+      "Salasc"
+    ],
+    "desc": "Uno de los terruños más aclamados del mundo vinícola: anfiteatro a los pies del imponente escarpe del Larzac con enorme amplitud térmica noche-día que aporta una frescura, tensión y finura incomparable."
+  },
+  {
+    "id": "fr-languedoc-pic-saint-loup",
+    "name": "Pic Saint-Loup",
+    "region": "Languedoc",
+    "subbasin": "Garrigues de Montpellier (Hérault / Gard)",
+    "where_clause": "denom = 'Pic Saint-Loup'",
+    "gpkg_rel": "FRANCE/Languedoc/Pic_Saint_Loup.gpkg",
+    "layer": "AOC Pic Saint-Loup",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Pic_Saint_Loup.pdf",
+    "color": "#1d4ed8",
+    "reds": [
+      "Syrah",
+      "Grenache noir",
+      "Mourvèdre"
+    ],
+    "whites": [],
+    "communes": [
+      "Cazevieille",
+      "Les Matelles",
+      "Saint-Gély-du-Fesc",
+      "Saint-Mathieu-de-Tréviers",
+      "Sainte-Croix-de-Quintillargues",
+      "Valflaunès",
+      "Saint-Jean-de-Cuculles",
+      "Fontanès",
+      "Corconne",
+      "Claret",
+      "Lauret",
+      "Sauteyrargues",
+      "Vacquières"
+    ],
+    "desc": "Bajo la tutela mítica de la aguja caliza del Pic Saint-Loup y el acantilado del Hortus: clima de transición entre el Mediterráneo y las Cevenas con abundante pluviometría otoñal, cuna de tintos de Syrah elegantes y balsámicos."
+  },
+  {
+    "id": "fr-languedoc-la-clape",
+    "name": "La Clape",
+    "region": "Languedoc",
+    "subbasin": "Massif de la Clape (Aude)",
+    "where_clause": "denom = 'La Clape'",
+    "gpkg_rel": "FRANCE/Languedoc/La_Clape.gpkg",
+    "layer": "AOC La Clape",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/La_Clape.pdf",
+    "color": "#0284c7",
+    "reds": [
+      "Mourvèdre",
+      "Syrah",
+      "Grenache noir",
+      "Carignan",
+      "Cinsaut"
+    ],
+    "whites": [
+      "Bourboulenc",
+      "Grenache blanc",
+      "Clairette",
+      "Marsanne",
+      "Roussanne"
+    ],
+    "communes": [
+      "Narbonne",
+      "Armissan",
+      "Fleury-d'Aude",
+      "Gruissan",
+      "Salles-d'Aude"
+    ],
+    "desc": "Antigua isla romana cercada por el mar y las lagunas de Narbona: acantilados de caliza blanca batidos por la brisa marina, hogar del gran blanco histórico de Bourboulenc (Malvoisie) y tintos yodados de Mourvèdre."
+  },
+  {
+    "id": "fr-languedoc-picpoul-de-pinet",
+    "name": "Picpoul de Pinet",
+    "region": "Languedoc",
+    "subbasin": "Bassin de Thau (Hérault)",
+    "where_clause": "denom = 'Picpoul de Pinet'",
+    "gpkg_rel": "FRANCE/Languedoc/Picpoul_de_Pinet.gpkg",
+    "layer": "AOC Picpoul de Pinet",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Picpoul_de_Pinet.pdf",
+    "color": "#0d9488",
+    "reds": [],
+    "whites": [
+      "Piquepoul blanc"
+    ],
+    "communes": [
+      "Pinet",
+      "Castelnau-de-Guers",
+      "Florensac",
+      "Montagnac",
+      "Pomerols",
+      "Mèze"
+    ],
+    "desc": "Viñedos plantados en suave pendiente hacia el estanque de Thau: monovarietal blanco en su emblemática botella verde acanalada, caracterizado por una vibrante acidez cítrica y salinidad marina perfecta con ostras."
+  },
+  {
+    "id": "fr-languedoc-malepere",
+    "name": "Malepère",
+    "region": "Languedoc",
+    "subbasin": "Massif de la Malepère (Aude)",
+    "where_clause": "denom = 'Malepère'",
+    "gpkg_rel": "FRANCE/Languedoc/Malepere.gpkg",
+    "layer": "AOC Malepère",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Malepere.pdf",
+    "color": "#b45309",
+    "reds": [
+      "Merlot",
+      "Cabernet Franc",
+      "Cot",
+      "Grenache noir",
+      "Cinsaut",
+      "Lledoner Pelut"
+    ],
+    "whites": [],
+    "communes": [
+      "Arzens",
+      "Alairac",
+      "Caux-et-Sauzens",
+      "Lavalette",
+      "Montréal",
+      "Montclar",
+      "Preixan",
+      "Roullens",
+      "Villarzel-du-Razès"
+    ],
+    "desc": "El enlace atlántico de Languedoc a las puertas de Carcassonne: macizo de areniscas y margas con predominio de Merlot y Cabernet Franc templados por la insolación mediterránea."
+  },
+  {
+    "id": "fr-languedoc-cabardes",
+    "name": "Cabardès",
+    "region": "Languedoc",
+    "subbasin": "Versant Sud de la Montagne Noire (Aude)",
+    "where_clause": "denom = 'Cabardès'",
+    "gpkg_rel": "FRANCE/Languedoc/Cabardes.gpkg",
+    "layer": "AOC Cabardès",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Cabardes.pdf",
+    "color": "#a16207",
+    "reds": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc",
+      "Syrah",
+      "Grenache noir"
+    ],
+    "whites": [],
+    "communes": [
+      "Alzonne",
+      "Aragon",
+      "Conques-sur-Orbiel",
+      "Fournes-Cabardès",
+      "Moussoulens",
+      "Pennautier",
+      "Pezens",
+      "Sainte-Eulalie",
+      "Ventenac-Cabardès",
+      "Villegailhenc",
+      "Villemoustaussou"
+    ],
+    "desc": "El cruce de vientos entre el Atlántico y el Mediterráneo: ensamblaje obligatorio al 50% entre variedades atlánticas (Cabernet, Merlot) y mediterráneas (Syrah, Grenache) sobre laderas calizas y esquistosas."
+  },
+  {
+    "id": "fr-languedoc-limoux",
+    "name": "Limoux",
+    "region": "Languedoc",
+    "subbasin": "Haute Vallée de l'Aude (Aude)",
+    "where_clause": "denom = 'Limoux'",
+    "gpkg_rel": "FRANCE/Languedoc/Limoux.gpkg",
+    "layer": "AOC Limoux",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Limoux.pdf",
+    "color": "#ca8a04",
+    "reds": [
+      "Merlot",
+      "Cot",
+      "Syrah",
+      "Grenache noir",
+      "Carignan",
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Mauzac",
+      "Chardonnay",
+      "Chenin blanc"
+    ],
+    "communes": [
+      "Limoux",
+      "Alet-les-Bains",
+      "Antugnac",
+      "Bouriège",
+      "Campagne-sur-Aude",
+      "Cépie",
+      "Cournanel",
+      "Espéraza",
+      "Festes-et-Saint-André",
+      "La Digne-d'Amont",
+      "La Digne-d'Aval",
+      "Luc-sur-Aude",
+      "Magrie",
+      "Pieusse",
+      "Saint-Hilaire",
+      "Saint-Polycarpe",
+      "Tourreilles",
+      "Villar-Saint-Anselme"
+    ],
+    "desc": "Vinos tranquilos de alta montaña pirenaica: grandes blancos fermentados y criados en barrica de roble (Chardonnay, Chenin y Mauzac) y tintos elegantes de influencia atlántica-mediterránea."
+  },
+  {
+    "id": "fr-languedoc-cremant-de-limoux",
+    "name": "Crémant de Limoux",
+    "region": "Languedoc",
+    "subbasin": "Haute Vallée de l'Aude (Aude)",
+    "where_clause": "denom = 'Crémant de Limoux'",
+    "gpkg_rel": "FRANCE/Languedoc/Cremant_de_Limoux.gpkg",
+    "layer": "AOC Crémant de Limoux",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Limoux.pdf",
+    "color": "#eab308",
+    "reds": [],
+    "whites": [
+      "Chardonnay",
+      "Chenin blanc",
+      "Mauzac",
+      "Pinot Noir"
+    ],
+    "communes": [
+      "Limoux",
+      "Saint-Hilaire",
+      "Cépie",
+      "La Digne-d'Amont",
+      "Pieusse",
+      "Cournanel",
+      "Magrie",
+      "Saint-Polycarpe",
+      "Espéraza",
+      "Alet-les-Bains"
+    ],
+    "desc": "La cuna del primer espumoso del mundo creado por los monjes de la Abadía benedictina de Saint-Hilaire en 1531: método tradicional de alta montaña con burbuja finísima y notas de manzana verde, avellana y brioche."
+  },
+  {
+    "id": "fr-languedoc-clairette-du-languedoc",
+    "name": "Clairette du Languedoc",
+    "region": "Languedoc",
+    "subbasin": "Moyenne Vallée de l'Hérault (Hérault)",
+    "where_clause": "denom = 'Clairette du Languedoc'",
+    "gpkg_rel": "FRANCE/Languedoc/Clairette_du_Languedoc.gpkg",
+    "layer": "AOC Clairette du Languedoc",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Clairette_du_Languedoc.pdf",
+    "color": "#14b8a6",
+    "reds": [],
+    "whites": [
+      "Clairette blanche"
+    ],
+    "communes": [
+      "Adissan",
+      "Aspiran",
+      "Le Bosc",
+      "Cabrières",
+      "Ceyras",
+      "Fontès",
+      "Lieuran-Cabrières",
+      "Nizas",
+      "Paulhan",
+      "Péret",
+      "Saint-André-de-Sangonis"
+    ],
+    "desc": "Una de las denominaciones más antiguas de Francia (reconocida en 1948): monovarietal de Clairette blanche cultivada sobre terrazas villafranchianas y basaltos, célebre por sus vinos secos florales y su histórico Rancio."
+  },
+  {
+    "id": "fr-languedoc-clairette-de-bellegarde",
+    "name": "Clairette de Bellegarde",
+    "region": "Languedoc",
+    "subbasin": "Costière de Bellegarde (Gard)",
+    "where_clause": "denom = 'Clairette de Bellegarde'",
+    "gpkg_rel": "FRANCE/Languedoc/Clairette_de_Bellegarde.gpkg",
+    "layer": "AOC Clairette de Bellegarde",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Clairette_de_Bellegarde.pdf",
+    "color": "#059669",
+    "reds": [],
+    "whites": [
+      "Clairette blanche"
+    ],
+    "communes": [
+      "Bellegarde"
+    ],
+    "desc": "Exclusivo terruño monocomunal situado en un cerro testigo de cantos rodados de cuarzo del Ródano: vinos blancos monovarietales de gran elegancia, acidez comedida y aromas de flor de acacia."
+  },
+  {
+    "id": "fr-languedoc-gres-de-montpellier",
+    "name": "Grés de Montpellier",
+    "region": "Languedoc",
+    "subbasin": "Bassin Montpelliérain (Hérault)",
+    "where_clause": "denom = 'Grés de Montpellier'",
+    "gpkg_rel": "FRANCE/Languedoc/Gres_de_Montpellier.gpkg",
+    "layer": "AOC Grés de Montpellier",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Languedoc.pdf",
+    "color": "#b91c1c",
+    "reds": [
+      "Grenache noir",
+      "Syrah",
+      "Mourvèdre"
+    ],
+    "whites": [],
+    "communes": [
+      "Montpellier",
+      "Castelnau-le-Lez",
+      "Saint-Jean-de-Védas",
+      "Villeneuve-lès-Maguelone",
+      "Murviel-lès-Montpellier",
+      "Saint-Aunès",
+      "Mauguio",
+      "Lunel-Viel"
+    ],
+    "desc": "DGC de Languedoc que agrupa los viñedos que rodean la ciudad de Montpellier: suelos de cantos rodados y arenas calcáreas bajo la brisa marina, con tintos generosos, golosos y perfumados."
+  },
+  {
+    "id": "fr-languedoc-montpeyroux",
+    "name": "Montpeyroux",
+    "region": "Languedoc",
+    "subbasin": "Monts de Saint-Guilhem (Hérault)",
+    "where_clause": "denom = 'Montpeyroux'",
+    "gpkg_rel": "FRANCE/Languedoc/Montpeyroux.gpkg",
+    "layer": "AOC Montpeyroux",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Languedoc.pdf",
+    "color": "#991b1b",
+    "reds": [
+      "Grenache noir",
+      "Syrah",
+      "Mourvèdre",
+      "Carignan",
+      "Cinsaut"
+    ],
+    "whites": [],
+    "communes": [
+      "Montpeyroux",
+      "Arboras"
+    ],
+    "desc": "El «monte pedregoso»: viñedos encaramados bajo el Castellas y la meseta del Larzac sobre canchales calcáreos, célebres por su vigor, estructura tánica y longevidad."
+  },
+  {
+    "id": "fr-languedoc-cabrieres",
+    "name": "Languedoc Cabrières",
+    "region": "Languedoc",
+    "subbasin": "Pic de Vissou (Hérault)",
+    "where_clause": "denom = 'Languedoc Cabrières'",
+    "gpkg_rel": "FRANCE/Languedoc/Languedoc_Cabrieres.gpkg",
+    "layer": "AOC Languedoc Cabrières",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Languedoc.pdf",
+    "color": "#be185d",
+    "reds": [
+      "Cinsaut",
+      "Grenache noir",
+      "Syrah"
+    ],
+    "whites": [],
+    "communes": [
+      "Cabrières",
+      "Lieuran-Cabrières"
+    ],
+    "desc": "Terruño de esquistos dominado por el Pic de Vissou: cuna legendaria de los vinos rosados y tintos de Cinsaut predilectos del Rey Sol Luis XIV por su ligereza y perfume silvestre."
+  },
+  {
+    "id": "fr-languedoc-la-mejanelle",
+    "name": "Languedoc La Méjanelle",
+    "region": "Languedoc",
+    "subbasin": "Plaine de Mauguio (Hérault)",
+    "where_clause": "denom = 'Languedoc La Méjanelle'",
+    "gpkg_rel": "FRANCE/Languedoc/Languedoc_La_Mejanelle.gpkg",
+    "layer": "AOC Languedoc La Méjanelle",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Languedoc.pdf",
+    "color": "#9d174d",
+    "reds": [
+      "Grenache noir",
+      "Syrah",
+      "Mourvèdre"
+    ],
+    "whites": [],
+    "communes": [
+      "Castelnau-le-Lez",
+      "Mauguio",
+      "Montpellier",
+      "Saint-Aunès"
+    ],
+    "desc": "Terrazas de galets cuarcíticos del Ródano al este de Montpellier: terruño de gran insolación que transmite a la Syrah y al Grenache taninos sedosos y notas de regaliz y mora."
+  },
+  {
+    "id": "fr-languedoc-pezenas",
+    "name": "Languedoc Pézenas",
+    "region": "Languedoc",
+    "subbasin": "Vallée de la Peyne (Hérault)",
+    "where_clause": "denom = 'Languedoc Pézenas'",
+    "gpkg_rel": "FRANCE/Languedoc/Languedoc_Pezenas.gpkg",
+    "layer": "AOC Languedoc Pézenas",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Languedoc.pdf",
+    "color": "#86198f",
+    "reds": [
+      "Syrah",
+      "Mourvèdre",
+      "Grenache noir",
+      "Carignan"
+    ],
+    "whites": [],
+    "communes": [
+      "Pézenas",
+      "Alignan-du-Vent",
+      "Aumes",
+      "Castelnau-de-Guers",
+      "Caux",
+      "Fontès",
+      "Lézignan-la-Cèbe",
+      "Montagnac",
+      "Nizas",
+      "Roujan",
+      "Saint-Pons-de-Mauchiens"
+    ],
+    "desc": "La ciudad de Molière y los volcanes cuaternarios: coladas basálticas, calizas y esquistos que alumbran tintos de acusada personalidad mineral y notas balsámicas."
+  },
+  {
+    "id": "fr-languedoc-quatourze",
+    "name": "Languedoc Quatourze",
+    "region": "Languedoc",
+    "subbasin": "Plateau de Quatourze (Aude)",
+    "where_clause": "denom = 'Languedoc Quatourze'",
+    "gpkg_rel": "FRANCE/Languedoc/Languedoc_Quatourze.gpkg",
+    "layer": "AOC Languedoc Quatourze",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Languedoc.pdf",
+    "color": "#701a75",
+    "reds": [
+      "Grenache noir",
+      "Syrah",
+      "Mourvèdre"
+    ],
+    "whites": [],
+    "communes": [
+      "Narbonne"
+    ],
+    "desc": "Meseta calcárea y arcillosa que domina las marismas y estanques de Bages-Sigean: viñedos romanos de la antigua Narbo Martius con tintos cálidos, potentes y salinos."
+  },
+  {
+    "id": "fr-languedoc-saint-christol",
+    "name": "Languedoc Saint-Christol",
+    "region": "Languedoc",
+    "subbasin": "Plateau de Saint-Christol (Hérault)",
+    "where_clause": "denom = 'Languedoc Saint-Christol'",
+    "gpkg_rel": "FRANCE/Languedoc/Languedoc_Saint_Christol.gpkg",
+    "layer": "AOC Languedoc Saint-Christol",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Languedoc.pdf",
+    "color": "#4a044e",
+    "reds": [
+      "Grenache noir",
+      "Syrah",
+      "Mourvèdre",
+      "Carignan"
+    ],
+    "whites": [],
+    "communes": [
+      "Saint-Christol"
+    ],
+    "desc": "Terruño milenario cultivado por la Orden de los Caballeros de San Juan de Jerusalén desde el siglo XII: galets roules sobre arcillas rojas que producen vinos corpulentos y carnosos."
+  },
+  {
+    "id": "fr-languedoc-saint-drezery",
+    "name": "Languedoc Saint-Drézéry",
+    "region": "Languedoc",
+    "subbasin": "Collines du Vidourle (Hérault)",
+    "where_clause": "denom = 'Languedoc Saint-Drézéry'",
+    "gpkg_rel": "FRANCE/Languedoc/Languedoc_Saint_Drezery.gpkg",
+    "layer": "AOC Languedoc Saint-Drézéry",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Languedoc.pdf",
+    "color": "#581c87",
+    "reds": [
+      "Syrah",
+      "Grenache noir",
+      "Mourvèdre"
+    ],
+    "whites": [],
+    "communes": [
+      "Saint-Drézéry"
+    ],
+    "desc": "Minúsculo enclave al noreste de Montpellier sobre crestas pedregosas de cantos rodados: viñedos de élite con rendimientos muy reducidos donde la Syrah despliega notas de trufa y violeta."
+  },
+  {
+    "id": "fr-languedoc-saint-georges-d-orques",
+    "name": "Languedoc Saint-Georges-d'Orques",
+    "region": "Languedoc",
+    "subbasin": "Collines de la Mosson (Hérault)",
+    "where_clause": "denom = 'Languedoc Saint-Georges-d''Orques'",
+    "gpkg_rel": "FRANCE/Languedoc/Languedoc_Saint_Georges_d_Orques.gpkg",
+    "layer": "AOC Languedoc Saint-Georges-d'Orques",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Languedoc.pdf",
+    "color": "#3b0764",
+    "reds": [
+      "Syrah",
+      "Grenache noir",
+      "Mourvèdre"
+    ],
+    "whites": [],
+    "communes": [
+      "Saint-Georges-d'Orques",
+      "Juvignac",
+      "Lavérune",
+      "Murviel-lès-Montpellier",
+      "Pignan"
+    ],
+    "desc": "Histórico viñedo alabado en las cartas de Thomas Jefferson durante su embajada en Francia: suelos de calizas jurásicas y arcillas rojas que forjan tintos de gran distinción y fondo de tabaco."
+  },
+  {
+    "id": "fr-languedoc-saint-saturnin",
+    "name": "Languedoc Saint-Saturnin",
+    "region": "Languedoc",
+    "subbasin": "Piedmont du Larzac (Hérault)",
+    "where_clause": "denom = 'Languedoc Saint-Saturnin'",
+    "gpkg_rel": "FRANCE/Languedoc/Languedoc_Saint_Saturnin.gpkg",
+    "layer": "AOC Languedoc Saint-Saturnin",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Languedoc.pdf",
+    "color": "#1e1b4b",
+    "reds": [
+      "Grenache noir",
+      "Syrah",
+      "Mourvèdre",
+      "Carignan",
+      "Cinsaut"
+    ],
+    "whites": [],
+    "communes": [
+      "Saint-Saturnin-de-Lucian",
+      "Jonquières",
+      "Saint-Guiraud",
+      "Arboras"
+    ],
+    "desc": "A los pies de los acantilados del Larzac: microclima fresco protegido del viento del norte, reconocido por sus tintos ricos en notas de monte bajo, romero y frutas confitadas."
+  },
+  {
+    "id": "fr-languedoc-sommieres",
+    "name": "Languedoc Sommières",
+    "region": "Languedoc",
+    "subbasin": "Vallée du Vidourle (Gard)",
+    "where_clause": "denom = 'Languedoc Sommières'",
+    "gpkg_rel": "FRANCE/Languedoc/Languedoc_Sommieres.gpkg",
+    "layer": "AOC Languedoc Sommières",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Languedoc.pdf",
+    "color": "#312e81",
+    "reds": [
+      "Syrah",
+      "Grenache noir",
+      "Mourvèdre",
+      "Carignan",
+      "Cinsaut"
+    ],
+    "whites": [],
+    "communes": [
+      "Sommières",
+      "Aspères",
+      "Calvisson",
+      "Carnas",
+      "Fontanès",
+      "Junas",
+      "Salinelles",
+      "Souvignargues",
+      "Villevieille"
+    ],
+    "desc": "El límite oriental de Languedoc en el departamento de Gard: suelos de margas calcáreas y canteras romanas con tintos estructurados, especiados y carnosos."
+  },
+  {
+    "id": "fr-languedoc-muscat-de-frontignan",
+    "name": "Muscat de Frontignan",
+    "region": "Languedoc",
+    "subbasin": "Gardeiole & Littoral (Hérault)",
+    "where_clause": "denom = 'Muscat de Frontignan ou Frontignan ou Vin de Frontignan'",
+    "gpkg_rel": "FRANCE/Languedoc/Muscat_de_Frontignan.gpkg",
+    "layer": "AOC Muscat de Frontignan",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Frontignan.pdf",
+    "color": "#f59e0b",
+    "reds": [],
+    "whites": [
+      "Muscat à petits grains blancs"
+    ],
+    "communes": [
+      "Frontignan",
+      "Vic-la-Gardiole"
+    ],
+    "desc": "El más célebre y antiguo Vin Doux Naturel de Languedoc (reconocido en 1936), comercializado en su histórica botella torcida: 100% Moscatel de grano menudo con aromas embriagadores de azahar, melocotón y miel."
+  },
+  {
+    "id": "fr-languedoc-muscat-de-mireval",
+    "name": "Muscat de Mireval",
+    "region": "Languedoc",
+    "subbasin": "Massif de la Gardiole (Hérault)",
+    "where_clause": "denom = 'Muscat de Mireval'",
+    "gpkg_rel": "FRANCE/Languedoc/Muscat_de_Mireval.gpkg",
+    "layer": "AOC Muscat de Mireval",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Mireval.pdf",
+    "color": "#d97706",
+    "reds": [],
+    "whites": [
+      "Muscat à petits grains blancs"
+    ],
+    "communes": [
+      "Mireval",
+      "Vic-la-Gardiole"
+    ],
+    "desc": "Laderas calcáreas orientadas al sur frente al mar: Vin Doux Naturel de Moscatel dotado de una vibrante acidez y pureza cítrica sobre fondo de frutas exóticas."
+  },
+  {
+    "id": "fr-languedoc-muscat-de-lunel",
+    "name": "Muscat de Lunel",
+    "region": "Languedoc",
+    "subbasin": "Vallée du Vidourle (Hérault)",
+    "where_clause": "denom = 'Muscat de Lunel'",
+    "gpkg_rel": "FRANCE/Languedoc/Muscat_de_Lunel.gpkg",
+    "layer": "AOC Muscat de Lunel",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Lunel.pdf",
+    "color": "#b45309",
+    "reds": [],
+    "whites": [
+      "Muscat à petits grains blancs"
+    ],
+    "communes": [
+      "Lunel",
+      "Lunel-Viel",
+      "Vérargues",
+      "Saturargues"
+    ],
+    "desc": "Mesetas de galets cuarcíticos al este de Montpellier: Vin Doux Naturel fragante y refinado, con delicadas notas de rosas, jazmín y frutas confitadas."
+  },
+  {
+    "id": "fr-languedoc-muscat-de-saint-jean-de-minervois",
+    "name": "Muscat de Saint-Jean-de-Minervois",
+    "region": "Languedoc",
+    "subbasin": "Petit Causse (Hérault)",
+    "where_clause": "denom = 'Muscat de Saint-Jean-de-Minervois'",
+    "gpkg_rel": "FRANCE/Languedoc/Muscat_de_Saint_Jean_de_Minervois.gpkg",
+    "layer": "AOC Muscat de Saint-Jean-de-Minervois",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Languedoc/Muscat_de_Saint_Jean_de_Minervois.pdf",
+    "color": "#92400e",
+    "reds": [],
+    "whites": [
+      "Muscat à petits grains blancs"
+    ],
+    "communes": [
+      "Saint-Jean-de-Minervois"
+    ],
+    "desc": "Isla de caliza blanca deslumbrante a 250-300m de altitud: el más fresco y aéreo de todos los vinos dulces de Moscatel del sur de Francia, con notas cristalinas de hierbaluisa y lichi."
+  },
+  {
+    "id": "fr-roussillon-cotes-du-roussillon",
+    "name": "Côtes du Roussillon",
+    "region": "Roussillon",
+    "subbasin": "Roussillon Regional (Pyrénées-Orientales)",
+    "where_clause": "denom = 'Côtes du Roussillon'",
+    "gpkg_rel": "FRANCE/Roussillon/Cotes_du_Roussillon.gpkg",
+    "layer": "AOC Côtes du Roussillon",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Roussillon/Cotes_du_Roussillon.pdf",
+    "color": "#991b1b",
+    "reds": [
+      "Grenache noir",
+      "Carignan",
+      "Syrah",
+      "Mourvèdre"
+    ],
+    "whites": [
+      "Grenache blanc",
+      "Macabeu",
+      "Roussanne",
+      "Marsanne",
+      "Vermentino",
+      "Malvoisie du Roussillon"
+    ],
+    "communes": [
+      "Perpignan",
+      "Rivesaltes",
+      "Thuir",
+      "Céret",
+      "Ille-sur-Têt",
+      "Prades",
+      "Saint-Estève",
+      "Canet-en-Roussillon",
+      "Argelès-sur-Mer",
+      "Espira-de-l'Agly"
+    ],
+    "desc": "La gran denominación del País Catalán encajada entre los Pirineos, las Corbières y el mar: viñedos de sol radiante sobre terrazas aluviales y laderas que alumbran tintos generosos, rosados vivos y blancos perfumados."
+  },
+  {
+    "id": "fr-roussillon-cotes-du-roussillon-villages",
+    "name": "Côtes du Roussillon Villages",
+    "region": "Roussillon",
+    "subbasin": "Vallée de l'Agly (Pyrénées-Orientales)",
+    "where_clause": "denom = 'Côtes du Roussillon Villages'",
+    "gpkg_rel": "FRANCE/Roussillon/Cotes_du_Roussillon_Villages.gpkg",
+    "layer": "AOC Côtes du Roussillon Villages",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Roussillon/Cotes_du_Roussillon_Villages.pdf",
+    "color": "#881337",
+    "reds": [
+      "Grenache noir",
+      "Carignan",
+      "Syrah",
+      "Mourvèdre",
+      "Lledoner Pelut"
+    ],
+    "whites": [],
+    "communes": [
+      "Estagel",
+      "Latour-de-France",
+      "Maury",
+      "Planèzes",
+      "Rasiguères",
+      "Tautavel",
+      "Vingrau",
+      "Caramany",
+      "Cassagnes",
+      "Lesquerde",
+      "Lansac",
+      "Bélesta"
+    ],
+    "desc": "Selección de 32 comunas situadas en la mitad septentrional del Rosellón (valle del río Agly): suelos abruptos de esquistos, granitos y calizas que otorgan una concentración, potencia y carácter mineral superior."
+  },
+  {
+    "id": "fr-roussillon-cotes-du-roussillon-villages-caramany",
+    "name": "Côtes du Roussillon Villages Caramany",
+    "region": "Roussillon",
+    "subbasin": "Lac d'Agly (Pyrénées-Orientales)",
+    "where_clause": "denom = 'Côtes du Roussillon Villages Caramany'",
+    "gpkg_rel": "FRANCE/Roussillon/Cotes_du_Roussillon_Villages_Caramany.gpkg",
+    "layer": "AOC Côtes du Roussillon Villages Caramany",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Roussillon/Cotes_du_Roussillon_Villages.pdf",
+    "color": "#7c2d12",
+    "reds": [
+      "Carignan",
+      "Grenache noir",
+      "Syrah"
+    ],
+    "whites": [],
+    "communes": [
+      "Caramany",
+      "Bélesta",
+      "Cassagnes",
+      "Montalba-le-Château"
+    ],
+    "desc": "Denominación comunal sobre el embalse de Caramany: suelos de gneis y granito precámbricos donde el Carignan vinificado por maceración carbónica ofrece aromas brillantes de frambuesa y frescura silvestre."
+  },
+  {
+    "id": "fr-roussillon-cotes-du-roussillon-villages-latour-de-france",
+    "name": "Côtes du Roussillon Villages Latour-de-France",
+    "region": "Roussillon",
+    "subbasin": "Vallée Moyenne de l'Agly (Pyrénées-Orientales)",
+    "where_clause": "denom = 'Côtes du Roussillon Villages Latour-de-France'",
+    "gpkg_rel": "FRANCE/Roussillon/Cotes_du_Roussillon_Villages_Latour_de_France.gpkg",
+    "layer": "AOC Côtes du Roussillon Villages Latour-de-France",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Roussillon/Cotes_du_Roussillon_Villages.pdf",
+    "color": "#701a75",
+    "reds": [
+      "Carignan",
+      "Grenache noir",
+      "Syrah",
+      "Mourvèdre"
+    ],
+    "whites": [],
+    "communes": [
+      "Latour-de-France",
+      "Cassagnes",
+      "Estagel",
+      "Montner",
+      "Planèzes"
+    ],
+    "desc": "Antigua frontera histórica entre los Reinos de Francia y Aragón: colinas de esquistos grises que proporcionan a los vinos una textura densa, notas de garriga, frutos negros y grafito."
+  },
+  {
+    "id": "fr-roussillon-cotes-du-roussillon-villages-les-aspres",
+    "name": "Côtes du Roussillon Villages Les Aspres",
+    "region": "Roussillon",
+    "subbasin": "Piémont du Canigó (Pyrénées-Orientales)",
+    "where_clause": "denom = 'Côtes du Roussillon Villages Les Aspres'",
+    "gpkg_rel": "FRANCE/Roussillon/Cotes_du_Roussillon_Villages_Les_Aspres.gpkg",
+    "layer": "AOC Côtes du Roussillon Villages Les Aspres",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Roussillon/Cotes_du_Roussillon_Villages.pdf",
+    "color": "#4c1d95",
+    "reds": [
+      "Syrah",
+      "Mourvèdre",
+      "Grenache noir",
+      "Carignan"
+    ],
+    "whites": [],
+    "communes": [
+      "Thuir",
+      "Camélas",
+      "Castelnou",
+      "Fourques",
+      "Passa",
+      "Sainte-Colombe-de-la-Commanderie",
+      "Terrats",
+      "Tresserre",
+      "Villemolaque"
+    ],
+    "desc": "Las tierras áridas y pedregosas («aspres») a los pies del macizo sagrado del Canigó: vinos tintos complejos de gran elegancia tánica criados obligatoriamente un mínimo de 12 meses."
+  },
+  {
+    "id": "fr-roussillon-cotes-du-roussillon-villages-lesquerde",
+    "name": "Côtes du Roussillon Villages Lesquerde",
+    "region": "Roussillon",
+    "subbasin": "Haute Vallée de l'Agly (Pyrénées-Orientales)",
+    "where_clause": "denom = 'Côtes du Roussillon Villages Lesquerde'",
+    "gpkg_rel": "FRANCE/Roussillon/Cotes_du_Roussillon_Villages_Lesquerde.gpkg",
+    "layer": "AOC Côtes du Roussillon Villages Lesquerde",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Roussillon/Cotes_du_Roussillon_Villages.pdf",
+    "color": "#312e81",
+    "reds": [
+      "Syrah",
+      "Grenache noir",
+      "Carignan"
+    ],
+    "whites": [],
+    "communes": [
+      "Lesquerde",
+      "Lansac",
+      "Rasiguères"
+    ],
+    "desc": "Plateau de arenas graníticas y vetas de hierro a más de 300m de altitud: tintos de marcada austeridad mineral y frescura, con aromas minerales y especiados inconfundibles."
+  },
+  {
+    "id": "fr-roussillon-cotes-du-roussillon-villages-tautavel",
+    "name": "Côtes du Roussillon Villages Tautavel",
+    "region": "Roussillon",
+    "subbasin": "Cirque de Tautavel (Pyrénées-Orientales)",
+    "where_clause": "denom = 'Côtes du Roussillon Villages Tautavel'",
+    "gpkg_rel": "FRANCE/Roussillon/Cotes_du_Roussillon_Villages_Tautavel.gpkg",
+    "layer": "AOC Côtes du Roussillon Villages Tautavel",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Roussillon/Cotes_du_Roussillon_Villages.pdf",
+    "color": "#1e1b4b",
+    "reds": [
+      "Grenache noir",
+      "Carignan",
+      "Syrah",
+      "Mourvèdre"
+    ],
+    "whites": [],
+    "communes": [
+      "Tautavel",
+      "Vingrau"
+    ],
+    "desc": "El valle del Hombre Prehistórico de Tautavel: majestuoso circo de calizas blancas del Cretácico batido por la Tramontana que forja tintos vigorosos, balsámicos y concentrados."
+  },
+  {
+    "id": "fr-roussillon-collioure",
+    "name": "Collioure",
+    "region": "Roussillon",
+    "subbasin": "Côte Vermeille (Pyrénées-Orientales)",
+    "where_clause": "denom = 'Collioure'",
+    "gpkg_rel": "FRANCE/Roussillon/Collioure.gpkg",
+    "layer": "AOC Collioure",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Roussillon/Collioure.pdf",
+    "color": "#be123c",
+    "reds": [
+      "Grenache noir",
+      "Mourvèdre",
+      "Syrah",
+      "Carignan",
+      "Cinsaut"
+    ],
+    "whites": [
+      "Grenache blanc",
+      "Grenache gris",
+      "Vermentino",
+      "Roussanne",
+      "Marsanne"
+    ],
+    "communes": [
+      "Collioure",
+      "Banyuls-sur-Mer",
+      "Cerbère",
+      "Port-Vendres"
+    ],
+    "desc": "Vinos tranquilos de la mítica Costa Bermeja: terrazas vertiginosas de esquistos cambrianos sobre el mar talladas en muros de piedra seca, que producen tintos marítimos poderosos y blancos de Grenache gris minerales y salinos."
+  },
+  {
+    "id": "fr-roussillon-banyuls",
+    "name": "Banyuls",
+    "region": "Roussillon",
+    "subbasin": "Côte Vermeille (Pyrénées-Orientales)",
+    "where_clause": "denom = 'Banyuls'",
+    "gpkg_rel": "FRANCE/Roussillon/Banyuls.gpkg",
+    "layer": "AOC Banyuls",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Roussillon/Banyuls.pdf",
+    "color": "#881337",
+    "reds": [
+      "Grenache noir",
+      "Grenache gris",
+      "Carignan"
+    ],
+    "whites": [
+      "Grenache blanc",
+      "Macabeu",
+      "Muscat"
+    ],
+    "communes": [
+      "Banyuls-sur-Mer",
+      "Cerbère",
+      "Collioure",
+      "Port-Vendres"
+    ],
+    "desc": "El legendario Vin Doux Naturel de crianza oxidativa: elaborado por mutage con alcohol vínico y envejecido en barricas o damajuanas de vidrio expuestas al sol del Mediterráneo, rebosante de notas de cacao, higos secos, torrefacción y café."
+  },
+  {
+    "id": "fr-roussillon-banyuls-grand-cru",
+    "name": "Banyuls Grand Cru",
+    "region": "Roussillon",
+    "subbasin": "Côte Vermeille (Pyrénées-Orientales)",
+    "where_clause": "denom = 'Banyuls grand cru'",
+    "gpkg_rel": "FRANCE/Roussillon/Banyuls_Grand_Cru.gpkg",
+    "layer": "AOC Banyuls Grand Cru",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Roussillon/Banyuls.pdf",
+    "color": "#701a75",
+    "reds": [
+      "Grenache noir"
+    ],
+    "whites": [],
+    "communes": [
+      "Banyuls-sur-Mer",
+      "Cerbère",
+      "Collioure",
+      "Port-Vendres"
+    ],
+    "desc": "La aristocracia de los vinos dulces de Banyuls: mínimo 75% de Grenache noir sobre terrazas de esquisto extremo y crianza obligatoria mínima de 30 meses en madera de roble, ofreciendo una complejidad de rancio histórica inigualable."
+  },
+  {
+    "id": "fr-roussillon-maury",
+    "name": "Maury",
+    "region": "Roussillon",
+    "subbasin": "Couloir de l'Agly (Pyrénées-Orientales)",
+    "where_clause": "denom = 'Maury'",
+    "gpkg_rel": "FRANCE/Roussillon/Maury.gpkg",
+    "layer": "AOC Maury",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Roussillon/Maury.pdf",
+    "color": "#4a044e",
+    "reds": [
+      "Grenache noir",
+      "Carignan",
+      "Syrah"
+    ],
+    "whites": [
+      "Grenache blanc",
+      "Grenache gris",
+      "Macabeu"
+    ],
+    "communes": [
+      "Maury",
+      "Cucugnan",
+      "Rasiguères",
+      "Saint-Paul-de-Fenouillet"
+    ],
+    "desc": "Pasillo tectónico de margas y esquistos negros bajo el castillo cátaro de Quéribus: afamado por sus opulentos VDNs tintos de Grenache noir y sus contemporáneos vinos tintos secos (Maury Sec)."
+  },
+  {
+    "id": "fr-roussillon-rivesaltes",
+    "name": "Rivesaltes",
+    "region": "Roussillon",
+    "subbasin": "Plaine du Roussillon (Pyrénées-Orientales / Aude)",
+    "where_clause": "denom = 'Rivesaltes'",
+    "gpkg_rel": "FRANCE/Roussillon/Rivesaltes.gpkg",
+    "layer": "AOC Rivesaltes",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Roussillon/Rivesaltes.pdf",
+    "color": "#c2410c",
+    "reds": [
+      "Grenache noir"
+    ],
+    "whites": [
+      "Grenache blanc",
+      "Grenache gris",
+      "Macabeu",
+      "Malvoisie du Roussillon"
+    ],
+    "communes": [
+      "Rivesaltes",
+      "Perpignan",
+      "Baixas",
+      "Espira-de-l'Agly",
+      "Pia",
+      "Salses-le-Château",
+      "Saint-Laurent-de-la-Salanque",
+      "Thuir",
+      "Céret",
+      "Ille-sur-Têt"
+    ],
+    "desc": "El Vin Doux Naturel más extenso del Mediterráneo con sus míticas categorías Ambré, Grenat, Tuilé y Hors d'Âge: siglos de maestría en crianza oxidativa con aromas de frutos secos, nuez, miel y cuero noble."
+  },
+  {
+    "id": "fr-roussillon-muscat-de-rivesaltes",
+    "name": "Muscat de Rivesaltes",
+    "region": "Roussillon",
+    "subbasin": "Plaine du Roussillon (Pyrénées-Orientales / Aude)",
+    "where_clause": "denom = 'Muscat de Rivesaltes'",
+    "gpkg_rel": "FRANCE/Roussillon/Muscat_de_Rivesaltes.gpkg",
+    "layer": "AOC Muscat de Rivesaltes",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Roussillon/Rivesaltes.pdf",
+    "color": "#d97706",
+    "reds": [],
+    "whites": [
+      "Muscat à petits grains blancs",
+      "Muscat d'Alexandrie"
+    ],
+    "communes": [
+      "Rivesaltes",
+      "Perpignan",
+      "Baixas",
+      "Espira-de-l'Agly",
+      "Pia",
+      "Salses-le-Château",
+      "Canet-en-Roussillon",
+      "Saint-Cyprien",
+      "Argelès-sur-Mer",
+      "Thuir"
+    ],
+    "desc": "El gran moscatel dulce del sur: maridaje armónico entre el Muscat à petits grains (finura floral y frescor) y el Muscat d'Alexandrie (potencia frutal y notas de uva fresca y melocotón)."
+  },
+  {
+    "id": "fr-roussillon-grand-roussillon",
+    "name": "Grand Roussillon",
+    "region": "Roussillon",
+    "subbasin": "Roussillon Regional (Pyrénées-Orientales)",
+    "where_clause": "denom = 'Grand Roussillon'",
+    "gpkg_rel": "FRANCE/Roussillon/Grand_Roussillon.gpkg",
+    "layer": "AOC Grand Roussillon",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Roussillon/Rivesaltes.pdf",
+    "color": "#9a3412",
+    "reds": [
+      "Grenache noir"
+    ],
+    "whites": [
+      "Grenache blanc",
+      "Grenache gris",
+      "Macabeu",
+      "Muscat"
+    ],
+    "communes": [
+      "Perpignan",
+      "Rivesaltes",
+      "Thuir",
+      "Céret",
+      "Ille-sur-Têt",
+      "Argelès-sur-Mer",
+      "Prades"
+    ],
+    "desc": "Denominación tradicional regional reservada para los Vins Doux Naturels que armonizan los terruños del Rosellón en un ensamblaje de crianza oxidativa de larga guarda."
+  }
+]

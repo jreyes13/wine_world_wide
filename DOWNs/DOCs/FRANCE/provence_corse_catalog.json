@@ -1,0 +1,657 @@
+[
+  {
+    "id": "fr-provence-cotes-de-provence",
+    "name": "Côtes de Provence",
+    "layer": "AOC Côtes de Provence",
+    "gpkg_rel": "FRANCE/Provence/Cotes_de_Provence.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Provence/Cotes_de_Provence.pdf",
+    "region": "Provence",
+    "subbasin": "Provence",
+    "color": "#F48FB1",
+    "communes": [
+      "Hyères",
+      "Fréjus",
+      "Vidauban",
+      "Le Cannet-des-Maures",
+      "Saint-Tropez",
+      "Cuers",
+      "Brignoles",
+      "Draguignan"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Mourvèdre",
+      "Cinsault",
+      "Tibouren",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [
+      "Rolle (Vermentino)",
+      "Ugni Blanc",
+      "Clairette"
+    ],
+    "desc": "El referente planetario del rosado sutil y luminoso: prensado directo sobre terrazas calcáreas y esquistos cristalinos del macizo de los Maures y del Estérel.",
+    "where_clause": "denom = 'Côtes de Provence'"
+  },
+  {
+    "id": "fr-provence-cotes-de-provence-sainte-victoire",
+    "name": "Côtes de Provence Sainte-Victoire",
+    "layer": "AOC Côtes de Provence Sainte-Victoire",
+    "gpkg_rel": "FRANCE/Provence/Cotes_de_Provence_Sainte_Victoire.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Provence/Cotes_de_Provence.pdf",
+    "region": "Provence",
+    "subbasin": "Provence",
+    "color": "#F06292",
+    "communes": [
+      "Puyloubier",
+      "Châteauneuf-le-Rouge",
+      "Pourrières",
+      "Pourcieux",
+      "Saint-Antonin-sur-Bayon",
+      "Rousset",
+      "Le Tholonet"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Cinsault"
+    ],
+    "whites": [],
+    "desc": "Bajo la mítica montaña inmortalizada por Cézanne: microclima continental y calizas puras que dan rosados tensos y tintos carnosos de gran finura.",
+    "where_clause": "denom = 'Côtes de Provence Sainte-Victoire'"
+  },
+  {
+    "id": "fr-provence-cotes-de-provence-frejus",
+    "name": "Côtes de Provence Fréjus",
+    "layer": "AOC Côtes de Provence Fréjus",
+    "gpkg_rel": "FRANCE/Provence/Cotes_de_Provence_Frejus.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Provence/Cotes_de_Provence.pdf",
+    "region": "Provence",
+    "subbasin": "Provence",
+    "color": "#EC407A",
+    "communes": [
+      "Fréjus",
+      "Le Muy",
+      "Puget-sur-Argens",
+      "Roquebrune-sur-Argens"
+    ],
+    "reds": [
+      "Tibouren",
+      "Grenache",
+      "Syrah",
+      "Mourvèdre"
+    ],
+    "whites": [],
+    "desc": "En el corredor oriental entre el mar y las rocas volcánicas rojas del Estérel: el santuario del uva Tibouren que aporta aromas inconfundibles a garriga y fruta confitada.",
+    "where_clause": "denom = 'Côtes de Provence Fréjus'"
+  },
+  {
+    "id": "fr-provence-cotes-de-provence-la-londe",
+    "name": "Côtes de Provence La Londe",
+    "layer": "AOC Côtes de Provence La Londe",
+    "gpkg_rel": "FRANCE/Provence/Cotes_de_Provence_La_Londe.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Provence/Cotes_de_Provence.pdf",
+    "region": "Provence",
+    "subbasin": "Provence",
+    "color": "#E91E63",
+    "communes": [
+      "La Londe-les-Maures",
+      "Bormes-les-Mimosas",
+      "Hyères",
+      "Le Pradet"
+    ],
+    "reds": [
+      "Cinsault",
+      "Grenache",
+      "Mourvèdre"
+    ],
+    "whites": [],
+    "desc": "Balcón marítimo inmediato sobre las islas de Hyères: suelos de esquistos con cuarzo blanco y brisa yodada permanente para rosados de elegante salinidad marina.",
+    "where_clause": "denom = 'Côtes de Provence la Londe'"
+  },
+  {
+    "id": "fr-provence-cotes-de-provence-pierrefeu",
+    "name": "Côtes de Provence Pierrefeu",
+    "layer": "AOC Côtes de Provence Pierrefeu",
+    "gpkg_rel": "FRANCE/Provence/Cotes_de_Provence_Pierrefeu.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Provence/Cotes_de_Provence.pdf",
+    "region": "Provence",
+    "subbasin": "Provence",
+    "color": "#D81B60",
+    "communes": [
+      "Pierrefeu-du-Var",
+      "Cuers",
+      "Collobrières",
+      "Pugent-Ville",
+      "Carnoules"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Cinsault"
+    ],
+    "whites": [],
+    "desc": "En la depresión perialpina de los Maures sobre esquistos y aluviones de cantos rodados: vinos de generosa densidad aromática y taninos sedosos.",
+    "where_clause": "denom = 'Côtes de Provence Pierrefeu'"
+  },
+  {
+    "id": "fr-provence-cotes-de-provence-notre-dame-des-anges",
+    "name": "Côtes de Provence Notre-Dame des Anges",
+    "layer": "AOC Côtes de Provence Notre-Dame des Anges",
+    "gpkg_rel": "FRANCE/Provence/Cotes_de_Provence_Notre_Dame_des_Anges.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Provence/Cotes_de_Provence.pdf",
+    "region": "Provence",
+    "subbasin": "Provence",
+    "color": "#C2185B",
+    "communes": [
+      "Les Mayons",
+      "Le Cannet-des-Maures",
+      "Vidauban",
+      "Le Luc",
+      "Taradeau",
+      "Gonfaron",
+      "Pignans"
+    ],
+    "reds": [
+      "Grenache",
+      "Cinsault",
+      "Syrah"
+    ],
+    "whites": [],
+    "desc": "Reconocida en 2019 en el corazón boscoso del macizo de los Maures: suelos de areniscas del Pérmico que confieren gran calidez y persistencia especiada.",
+    "where_clause": "denom = 'Côtes de Provence Notre-Dame des Anges'"
+  },
+  {
+    "id": "fr-provence-bandol",
+    "name": "Bandol",
+    "layer": "AOC Bandol",
+    "gpkg_rel": "FRANCE/Provence/Bandol.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Provence/Bandol.pdf",
+    "region": "Provence",
+    "subbasin": "Provence",
+    "color": "#880E4F",
+    "communes": [
+      "Bandol",
+      "Le Beausset",
+      "Le Castellet",
+      "La Cadière-d'Azur",
+      "Saint-Cyr-sur-Mer",
+      "Sainte-Anne-d'Évenos",
+      "Sanary-sur-Mer",
+      "Ollioules"
+    ],
+    "reds": [
+      "Mourvèdre (min 50%)",
+      "Grenache",
+      "Cinsault"
+    ],
+    "whites": [
+      "Clairette",
+      "Ugni Blanc",
+      "Bourboulenc"
+    ],
+    "desc": "El rey supremo del Mourvèdre en el Mediterráneo: terrazas de piedra seca (restanques) orientadas al mar, tintos poderosos de legendaria longevidad y rosados estructurados de alta gastronomía.",
+    "where_clause": "denom = 'Bandol'"
+  },
+  {
+    "id": "fr-provence-cassis",
+    "name": "Cassis",
+    "layer": "AOC Cassis",
+    "gpkg_rel": "FRANCE/Provence/Cassis.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Provence/Cassis.pdf",
+    "region": "Provence",
+    "subbasin": "Provence",
+    "color": "#00897B",
+    "communes": [
+      "Cassis"
+    ],
+    "reds": [
+      "Grenache",
+      "Mourvèdre",
+      "Cinsault"
+    ],
+    "whites": [
+      "Marsanne",
+      "Clairette",
+      "Ugni Blanc",
+      "Bourboulenc"
+    ],
+    "desc": "La primera AOC reconocida en Provenza (1936) encaramada sobre los impresionantes acantilados blancos de las Calanques: blancos minerales deslumbrantes con aromas florales, salinos y miel silvestre.",
+    "where_clause": "denom = 'Cassis'"
+  },
+  {
+    "id": "fr-provence-coteaux-d-aix-en-provence",
+    "name": "Coteaux d'Aix-en-Provence",
+    "layer": "AOC Coteaux d'Aix-en-Provence",
+    "gpkg_rel": "FRANCE/Provence/Coteaux_d_Aix_en_Provence.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Provence/Coteaux_d_Aix_en_Provence.pdf",
+    "region": "Provence",
+    "subbasin": "Provence",
+    "color": "#E57373",
+    "communes": [
+      "Aix-en-Provence",
+      "Salon-de-Provence",
+      "Lambesc",
+      "Rognes",
+      "Éguilles",
+      "Venelles",
+      "Meyrargues"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Cinsault",
+      "Mourvèdre",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [
+      "Vermentino (Rolle)",
+      "Clairette",
+      "Grenache Blanc"
+    ],
+    "desc": "Entre el río Durance y la llanura de Crau sobre calizas y margas arcillosas batidas por el viento Mistral: rosados alegres y vibrantes, y tintos estructurados con Cabernet y Syrah.",
+    "where_clause": "denom = 'Coteaux d''Aix-en-Provence'"
+  },
+  {
+    "id": "fr-provence-les-baux-de-provence",
+    "name": "Les Baux-de-Provence",
+    "layer": "AOC Les Baux-de-Provence",
+    "gpkg_rel": "FRANCE/Provence/Les_Baux_de_Provence.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Provence/Les_Baux_de_Provence.pdf",
+    "region": "Provence",
+    "subbasin": "Provence",
+    "color": "#B71C1C",
+    "communes": [
+      "Les Baux-de-Provence",
+      "Saint-Étienne-du-Grès",
+      "Maussane-les-Alpilles",
+      "Mouriès",
+      "Paradou",
+      "Saint-Rémy-de-Provence",
+      "Fontvieille"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Mourvèdre",
+      "Cabernet Sauvignon",
+      "Cinsault"
+    ],
+    "whites": [
+      "Clairette",
+      "Grenache Blanc",
+      "Rolle"
+    ],
+    "desc": "Pionera mundial de la viticultura ecológica y biodinámica en el macizo escarpado de las Alpilles: tintos profundos, densos y aromáticos con recuerdos a romero, tomillo y aceituna negra.",
+    "where_clause": "denom = 'Les Baux de Provence'"
+  },
+  {
+    "id": "fr-provence-coteaux-varois-en-provence",
+    "name": "Coteaux Varois en Provence",
+    "layer": "AOC Coteaux Varois en Provence",
+    "gpkg_rel": "FRANCE/Provence/Coteaux_Varois_en_Provence.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Provence/Coteaux_Varois_en_Provence.pdf",
+    "region": "Provence",
+    "subbasin": "Provence",
+    "color": "#F8BBD0",
+    "communes": [
+      "Brignoles",
+      "Saint-Maximin-la-Sainte-Baume",
+      "Tourves",
+      "Rocbaron",
+      "Garéoult",
+      "La Roquebrussanne"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Mourvèdre",
+      "Cinsault"
+    ],
+    "whites": [
+      "Rolle (Vermentino)",
+      "Clairette",
+      "Ugni Blanc"
+    ],
+    "desc": "En el corazón montañoso del Var a los pies del macizo de la Sainte-Baume: altiplanos calcáreos que aportan gran frescura nocturna a sus rosados florales y cítricos.",
+    "where_clause": "denom = 'Coteaux varois en Provence'"
+  },
+  {
+    "id": "fr-provence-palette",
+    "name": "Palette",
+    "layer": "AOC Palette",
+    "gpkg_rel": "FRANCE/Provence/Palette.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Provence/Palette.pdf",
+    "region": "Provence",
+    "subbasin": "Provence",
+    "color": "#4A148C",
+    "communes": [
+      "Meyreuil",
+      "Le Tholonet",
+      "Aix-en-Provence"
+    ],
+    "reds": [
+      "Mourvèdre",
+      "Grenache",
+      "Cinsault",
+      "Manosquin",
+      "Castet"
+    ],
+    "whites": [
+      "Clairette",
+      "Grenache Blanc",
+      "Bourboulenc",
+      "Picardan"
+    ],
+    "desc": "Exclusivo y diminuto enclave aristocrático frente a la montaña Sainte-Victoire liderado por Château Simone: suelos calizos lacustres del Terciario y una colección de cepas históricas de longevidad asombrosa.",
+    "where_clause": "denom = 'Palette'"
+  },
+  {
+    "id": "fr-provence-bellet",
+    "name": "Bellet",
+    "layer": "AOC Bellet",
+    "gpkg_rel": "FRANCE/Provence/Bellet.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Provence/Bellet.pdf",
+    "region": "Provence",
+    "subbasin": "Provence",
+    "color": "#FFB300",
+    "communes": [
+      "Nice"
+    ],
+    "reds": [
+      "Braquet (Brachet)",
+      "Folle Noire",
+      "Grenache"
+    ],
+    "whites": [
+      "Rolle (Vermentino)",
+      "Mayorquin"
+    ],
+    "desc": "En las empinadas colinas que dominan Niza y la Bahía de los Ángeles sobre pudingas calcáreas del Plioceno: castas endémicas únicas (Braquet, Folle Noire) que producen rosados y tintos de originalidad incomparable.",
+    "where_clause": "denom = 'Bellet ou Vin de Bellet'"
+  },
+  {
+    "id": "fr-provence-pierrevert",
+    "name": "Pierrevert",
+    "layer": "AOC Pierrevert",
+    "gpkg_rel": "FRANCE/Provence/Pierrevert.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Provence/Pierrevert.pdf",
+    "region": "Provence",
+    "subbasin": "Alpes-de-Haute-Provence",
+    "color": "#3949AB",
+    "communes": [
+      "Pierrevert",
+      "Manosque",
+      "Corbières",
+      "Gréoux-les-Bains",
+      "Montfuron",
+      "Quinson",
+      "Saint-Laurent-du-Verdon",
+      "Saint-Martin-de-Brômes",
+      "Sainte-Tulle",
+      "Villeneuve",
+      "Volx"
+    ],
+    "reds": [
+      "Grenache",
+      "Syrah",
+      "Carignan",
+      "Cinsault"
+    ],
+    "whites": [
+      "Grenache Blanc",
+      "Vermentino",
+      "Clairette",
+      "Ugni Blanc"
+    ],
+    "desc": "El viñedo más septentrional y elevado de Provenza (450 m de altitud media) junto al cañón del Verdon: influencia alpina vigorosa que aporta una acidez cristalina y frescura excepcional a todas sus elaboraciones.",
+    "where_clause": "denom = 'Pierrevert'"
+  },
+  {
+    "id": "fr-corse-patrimonio",
+    "name": "Patrimonio",
+    "layer": "AOC Patrimonio",
+    "gpkg_rel": "FRANCE/Corse/Patrimonio.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Corse/Patrimonio.pdf",
+    "region": "Corse",
+    "subbasin": "Corse",
+    "color": "#8E24AA",
+    "communes": [
+      "Patrimonio",
+      "Barbaggio",
+      "Farinole",
+      "Oletta",
+      "Poggio-d'Oletta",
+      "Saint-Florent",
+      "Santo-Pietro-di-Tenda"
+    ],
+    "reds": [
+      "Niellucciu (min 90%)",
+      "Grenache",
+      "Sciaccarellu"
+    ],
+    "whites": [
+      "Vermentinu (100%)"
+    ],
+    "desc": "La joya indiscutible del vino corso en la base del Cap Corse: suelos calcáreos puros que exaltan el Niellucciu (pariente del Sangiovese) en tintos minerales poderosos y el Vermentinu más vibrante del Mediterráneo.",
+    "where_clause": "denom = 'Patrimonio'"
+  },
+  {
+    "id": "fr-corse-ajaccio",
+    "name": "Ajaccio",
+    "layer": "AOC Ajaccio",
+    "gpkg_rel": "FRANCE/Corse/Ajaccio.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Corse/Ajaccio.pdf",
+    "region": "Corse",
+    "subbasin": "Corse",
+    "color": "#D81B60",
+    "communes": [
+      "Ajaccio",
+      "Alata",
+      "Afa",
+      "Appietto",
+      "Bastelicaccia",
+      "Coti-Chiavari",
+      "Peri",
+      "Sarrola-Carcopino",
+      "Villanova"
+    ],
+    "reds": [
+      "Sciaccarellu (min 60%)",
+      "Niellucciu",
+      "Barbajolo",
+      "Carcajolo Nero"
+    ],
+    "whites": [
+      "Vermentinu"
+    ],
+    "desc": "El reino del Sciaccarellu sobre laderas graníticas escarpadas alrededor del golfo de Ajaccio: tintos etéreos y aromáticos con notas cautivadoras de pimienta, almendra tostada y maquis corso.",
+    "where_clause": "denom = 'Ajaccio'"
+  },
+  {
+    "id": "fr-corse-vin-de-corse",
+    "name": "Vin de Corse",
+    "layer": "AOC Vin de Corse",
+    "gpkg_rel": "FRANCE/Corse/Corse.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Corse/Corse.pdf",
+    "region": "Corse",
+    "subbasin": "Corse",
+    "color": "#AB47BC",
+    "communes": [
+      "Bastia",
+      "Aleria",
+      "Ghisonaccia",
+      "Cervione",
+      "Linguizzetta",
+      "Ventiseri"
+    ],
+    "reds": [
+      "Niellucciu",
+      "Sciaccarellu",
+      "Grenache"
+    ],
+    "whites": [
+      "Vermentinu"
+    ],
+    "desc": "Denominación regional que cubre la fachada oriental y los valles de la Isla de la Belleza: tintos, rosados y blancos aromáticos marcados por la vegetación del maquis.",
+    "where_clause": "denom = 'Vin de Corse ou Corse'"
+  },
+  {
+    "id": "fr-corse-calvi",
+    "name": "Corse Calvi",
+    "layer": "AOC Corse Calvi",
+    "gpkg_rel": "FRANCE/Corse/Corse_Calvi.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Corse/Corse.pdf",
+    "region": "Corse",
+    "subbasin": "Corse",
+    "color": "#BA68C8",
+    "communes": [
+      "Calvi",
+      "Lumio",
+      "L'Île-Rousse",
+      "Calenzana",
+      "Montegrosso",
+      "Zilia",
+      "Aregno"
+    ],
+    "reds": [
+      "Sciaccarellu",
+      "Niellucciu",
+      "Grenache"
+    ],
+    "whites": [
+      "Vermentinu"
+    ],
+    "desc": "En el anfiteatro de la comarca de Balagne entre el mar y las cumbres nevadas de Monte Cinto: suelos de arenas graníticas que producen vinos luminosos y equilibrados.",
+    "where_clause": "denom = 'Vin de Corse Calvi ou Corse Calvi'"
+  },
+  {
+    "id": "fr-corse-coteaux-du-cap-corse",
+    "name": "Corse Coteaux du Cap Corse",
+    "layer": "AOC Corse Coteaux du Cap Corse",
+    "gpkg_rel": "FRANCE/Corse/Corse_Coteaux_du_Cap_Corse.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Corse/Corse.pdf",
+    "region": "Corse",
+    "subbasin": "Corse",
+    "color": "#7E57C2",
+    "communes": [
+      "Rogliano",
+      "Centuri",
+      "Morsiglia",
+      "Luri",
+      "Tomino",
+      "Ersa"
+    ],
+    "reds": [
+      "Niellucciu",
+      "Grenache"
+    ],
+    "whites": [
+      "Vermentinu"
+    ],
+    "desc": "En el dedo septentrional de Córcega sobre terrazas de esquisto que caen a plomo sobre el mar tirreno: vinos blancos de impresionante concentración mineral.",
+    "where_clause": "denom = 'Vin de Corse Coteaux du Cap Corse ou Corse Coteaux du Cap Corse'"
+  },
+  {
+    "id": "fr-corse-figari",
+    "name": "Corse Figari",
+    "layer": "AOC Corse Figari",
+    "gpkg_rel": "FRANCE/Corse/Corse_Figari.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Corse/Corse.pdf",
+    "region": "Corse",
+    "subbasin": "Corse",
+    "color": "#5C6BC0",
+    "communes": [
+      "Figari",
+      "Monacia-d'Aullène",
+      "Pianottoli-Caldarello"
+    ],
+    "reds": [
+      "Sciaccarellu",
+      "Niellucciu",
+      "Carcajolo Nero"
+    ],
+    "whites": [
+      "Vermentinu"
+    ],
+    "desc": "El viñedo más meridional de Francia frente al estrecho de Bonifacio: suelos graníticos y clima tórrido batido por el viento que forjan vinos recios, especiados y personales.",
+    "where_clause": "denom = 'Vin de Corse ou Corse Figari'"
+  },
+  {
+    "id": "fr-corse-porto-vecchio",
+    "name": "Corse Porto-Vecchio",
+    "layer": "AOC Corse Porto-Vecchio",
+    "gpkg_rel": "FRANCE/Corse/Corse_Porto_Vecchio.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Corse/Corse.pdf",
+    "region": "Corse",
+    "subbasin": "Corse",
+    "color": "#3F51B5",
+    "communes": [
+      "Porto-Vecchio",
+      "Bonifacio",
+      "Sotta",
+      "Lecci",
+      "San-Gavino-di-Carbini"
+    ],
+    "reds": [
+      "Niellucciu",
+      "Sciaccarellu"
+    ],
+    "whites": [
+      "Vermentinu"
+    ],
+    "desc": "En torno al golfo de Porto-Vecchio sobre colinas de granito rosa y pórfidos: tintos redondos y carnosos, y rosados sutiles que armonizan con la cocina marinera.",
+    "where_clause": "denom = 'Vin de Corse Porto-Vecchio ou Corse Porto-Vecchio'"
+  },
+  {
+    "id": "fr-corse-sartene",
+    "name": "Corse Sartène",
+    "layer": "AOC Corse Sartène",
+    "gpkg_rel": "FRANCE/Corse/Corse_Sartene.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Corse/Corse.pdf",
+    "region": "Corse",
+    "subbasin": "Corse",
+    "color": "#283593",
+    "communes": [
+      "Sartène",
+      "Propriano",
+      "Olmeto",
+      "Grossa",
+      "Belvédère-Campomoro"
+    ],
+    "reds": [
+      "Niellucciu",
+      "Sciaccarellu",
+      "Grenache"
+    ],
+    "whites": [
+      "Vermentinu"
+    ],
+    "desc": "En el corazón más orgulloso y tradicional de Córcega: colinas graníticas del valle de Rizzanese que alumbran tintos de guarda rústicos, cálidos y complejos.",
+    "where_clause": "denom = 'Vin de Corse Sartène ou Corse Sartène'"
+  },
+  {
+    "id": "fr-corse-muscat-du-cap-corse",
+    "name": "Muscat du Cap Corse",
+    "layer": "AOC Muscat du Cap Corse",
+    "gpkg_rel": "FRANCE/Corse/Muscat_du_Cap_Corse.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Corse/Corse.pdf",
+    "region": "Corse",
+    "subbasin": "Corse",
+    "color": "#FFA000",
+    "communes": [
+      "Rogliano",
+      "Centuri",
+      "Morsiglia",
+      "Tomino",
+      "Barcaggio"
+    ],
+    "reds": [],
+    "whites": [
+      "Muscat à petits grains blancs"
+    ],
+    "desc": "Néctar dulce natural legendario en terrazas de esquisto vertiginosas sobre el Mediterráneo: aromas embriagadores de corteza de naranja confitada, higo seco y miel de brezo.",
+    "where_clause": "denom = 'Muscat du Cap Corse'"
+  }
+]

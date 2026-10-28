@@ -1,0 +1,572 @@
+[
+  {
+    "id": "fr-champagne",
+    "name": "Champagne",
+    "layer": "AOC Champagne",
+    "gpkg_rel": "FRANCE/Champagne/Champagne.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Champagne/Champagne.pdf",
+    "region": "Champagne",
+    "subbasin": "Champagne",
+    "color": "#C5A059",
+    "communes": [
+      "Reims",
+      "Épernay",
+      "Aÿ-Champagne",
+      "Châlons-en-Champagne",
+      "Troyes",
+      "Bar-sur-Aube",
+      "Château-Thierry"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Pinot Meunier"
+    ],
+    "whites": [
+      "Chardonnay",
+      "Arbane",
+      "Petit Meslier",
+      "Pinot Blanc"
+    ],
+    "desc": "El emblema universal del vino efervescente noble: suelos de creta campaniense (craie), ensamblaje de terruños y añadas, y segunda fermentación en botella en catedrales de yeso subterráneas.",
+    "where_clause": "denom = 'Champagne'"
+  },
+  {
+    "id": "fr-champagne-grand-cru",
+    "name": "Champagne Grand Cru",
+    "layer": "AOC Champagne Grand Cru",
+    "gpkg_rel": "FRANCE/Champagne/Champagne_Grand_Cru.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Champagne/Champagne.pdf",
+    "region": "Champagne",
+    "subbasin": "Champagne",
+    "color": "#D4AF37",
+    "communes": [
+      "Ambonnay",
+      "Avize",
+      "Aÿ",
+      "Beaumont-sur-Vesle",
+      "Bouzy",
+      "Chouilly",
+      "Cramant",
+      "Louvois",
+      "Mailly-Champagne",
+      "Le Mesnil-sur-Oger",
+      "Oger",
+      "Oiry",
+      "Puisieulx",
+      "Sillery",
+      "Tours-sur-Marne",
+      "Verzenay",
+      "Verzy"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Los 17 municipios históricos clasificados al 100% en la Échelle des Crus: Pinot Noir majestuoso en la Montagne de Reims y Chardonnay diamantino en la Côte des Blancs.",
+    "where_clause": "denom = 'Champagne grand cru'"
+  },
+  {
+    "id": "fr-champagne-premier-cru",
+    "name": "Champagne Premier Cru",
+    "layer": "AOC Champagne Premier Cru",
+    "gpkg_rel": "FRANCE/Champagne/Champagne_Premier_Cru.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Champagne/Champagne.pdf",
+    "region": "Champagne",
+    "subbasin": "Champagne",
+    "color": "#E5C158",
+    "communes": [
+      "Mareuil-sur-Aÿ",
+      "Hautvillers",
+      "Cumières",
+      "Dizy",
+      "Vertus",
+      "Rilly-la-Montagne",
+      "Chigny-les-Roses",
+      "Ludes",
+      "Villers-Allerand",
+      "Pierry"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Pinot Meunier"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Los 42 municipios privilegiados clasificados entre el 90% y el 99% en la escala oficial de crus: viñedos de excepcional pureza calcárea y mineral.",
+    "where_clause": "denom = 'Champagne premier cru'"
+  },
+  {
+    "id": "fr-champagne-coteaux-champenois",
+    "name": "Coteaux Champenois",
+    "layer": "AOC Coteaux Champenois",
+    "gpkg_rel": "FRANCE/Champagne/Coteaux_Champenois.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Champagne/Coteaux_Champenois.pdf",
+    "region": "Champagne",
+    "subbasin": "Champagne",
+    "color": "#A63A50",
+    "communes": [
+      "Bouzy",
+      "Ambonnay",
+      "Cumières",
+      "Aÿ",
+      "Sillery",
+      "Damery"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Pinot Meunier"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "Los célebres vinos tranquilos históricos de Champaña: el mítico Bouzy Rouge y blancos minerales nacidos en las laderas más abrigadas del viñedo champañés.",
+    "where_clause": "denom = 'Coteaux champenois'"
+  },
+  {
+    "id": "fr-champagne-rose-des-riceys",
+    "name": "Rosé des Riceys",
+    "layer": "AOC Rosé des Riceys",
+    "gpkg_rel": "FRANCE/Champagne/Rose_des_Riceys.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Champagne/Rose_des_Riceys.pdf",
+    "region": "Champagne",
+    "subbasin": "Côte des Bar",
+    "color": "#C94C66",
+    "communes": [
+      "Les Riceys"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [],
+    "desc": "Vino rosado tranquilo legendario de la Côte des Bar adorado por Luis XIV: Pinot Noir vinificado en racimos enteros sobre margas kimmeridgianas con el célebre sabor a almendra amarga y fruta macerada.",
+    "where_clause": "denom = 'Rosé des Riceys'"
+  },
+  {
+    "id": "fr-alsace",
+    "name": "Alsace",
+    "layer": "AOC Alsace",
+    "gpkg_rel": "FRANCE/Alsace/Alsace.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Alsace",
+    "color": "#2E7D32",
+    "communes": [
+      "Colmar",
+      "Ribeauvillé",
+      "Riquewihr",
+      "Kaysersberg",
+      "Eguisheim",
+      "Guebwiller",
+      "Obernai",
+      "Barr"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Riesling",
+      "Gewurztraminer",
+      "Pinot Gris",
+      "Muscat d'Alsace",
+      "Pinot Blanc",
+      "Sylvaner"
+    ],
+    "desc": "La gran denominación renana: pureza varietal magistral embotellada en la flûte d'Alsace tradicional a lo largo de las laderas orientales de los Vosgos.",
+    "where_clause": "denom = 'Alsace'"
+  },
+  {
+    "id": "fr-alsace-grand-cru",
+    "name": "Alsace Grand Cru",
+    "layer": "AOC Alsace Grand Cru",
+    "gpkg_rel": "FRANCE/Alsace/Alsace_Grand_Cru.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace_Grand_Cru.pdf",
+    "region": "Alsace",
+    "subbasin": "Alsace",
+    "color": "#1B5E20",
+    "communes": [
+      "Riquewihr",
+      "Ribeauvillé",
+      "Kaysersberg",
+      "Guebwiller",
+      "Thann",
+      "Turckheim",
+      "Wintzenheim"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Riesling",
+      "Gewurztraminer",
+      "Pinot Gris",
+      "Muscat d'Alsace"
+    ],
+    "desc": "Los 51 terruños de élite delimitados con rigor geológico estricto (Rangen de Thann, Schlossberg, Schoenenbourg, Hengst, Altenberg) que expresan la aristocracia de las cuatro castas nobles.",
+    "where_clause": "denom = 'Alsace grand cru'"
+  },
+  {
+    "id": "fr-alsace-cremant-d-alsace",
+    "name": "Crémant d'Alsace",
+    "layer": "AOC Crémant d'Alsace",
+    "gpkg_rel": "FRANCE/Alsace/Cremant_d_Alsace.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Cremant_d_Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Alsace",
+    "color": "#9E9D24",
+    "communes": [
+      "Colmar",
+      "Eguisheim",
+      "Ribeauvillé",
+      "Riquewihr",
+      "Kaysersberg",
+      "Rouffach"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Pinot Blanc",
+      "Auxerrois",
+      "Pinot Gris",
+      "Riesling",
+      "Chardonnay"
+    ],
+    "desc": "El primer productor de método tradicional efervescente de Francia tras Champaña: burbujas finas, frescas y equilibradas que exaltan la vivacidad alsaciana.",
+    "where_clause": "denom = 'Crémant d’Alsace'"
+  },
+  {
+    "id": "fr-alsace-klevener-de-heiligenstein",
+    "name": "Alsace Klevener de Heiligenstein",
+    "layer": "AOC Alsace Klevener de Heiligenstein",
+    "gpkg_rel": "FRANCE/Alsace/Alsace_Klevener_de_Heiligenstein.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Bas-Rhin",
+    "color": "#558B2F",
+    "communes": [
+      "Heiligenstein",
+      "Bourgheim",
+      "Gertwiller",
+      "Goxwiller",
+      "Obernai"
+    ],
+    "reds": [],
+    "whites": [
+      "Savagnin Rose (Klevener)"
+    ],
+    "desc": "Enclave histórico milenario de Heiligenstein: vinos blancos untuosos, especiados y aterciopelados elaborados exclusivamente con Savagnin Rose.",
+    "where_clause": "denom = 'Alsace Klevener de Heiligenstein'"
+  },
+  {
+    "id": "fr-alsace-bergheim",
+    "name": "Alsace Bergheim",
+    "layer": "AOC Alsace Bergheim",
+    "gpkg_rel": "FRANCE/Alsace/Alsace_Bergheim.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Haut-Rhin",
+    "color": "#43A047",
+    "communes": [
+      "Bergheim"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Gewurztraminer"
+    ],
+    "desc": "Denominación comunal sobre margas calizas jurásicas: célebre por sus Gewurztraminer exuberantes y sus Pinot Noir estructurados.",
+    "where_clause": "denom = 'Alsace Bergheim'"
+  },
+  {
+    "id": "fr-alsace-blienschwiller",
+    "name": "Alsace Blienschwiller",
+    "layer": "AOC Alsace Blienschwiller",
+    "gpkg_rel": "FRANCE/Alsace/Alsace_Blienschwiller.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Bas-Rhin",
+    "color": "#66BB6A",
+    "communes": [
+      "Blienschwiller"
+    ],
+    "reds": [],
+    "whites": [
+      "Sylvaner",
+      "Riesling"
+    ],
+    "desc": "Cuna consagrada al Sylvaner de terruño granítico: vinos de gran finura mineral con sutiles notas florales y acidez tensa.",
+    "where_clause": "denom = 'Alsace Blienschwiller'"
+  },
+  {
+    "id": "fr-alsace-coteaux-du-haut-koenigsbourg",
+    "name": "Alsace Coteaux du Haut-Koenigsbourg",
+    "layer": "AOC Alsace Coteaux du Haut-Koenigsbourg",
+    "gpkg_rel": "FRANCE/Alsace/Alsace_Coteaux_du_Haut_Koenigsbourg.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Bas-Rhin",
+    "color": "#2E7D32",
+    "communes": [
+      "Orschwiller",
+      "Kintzheim"
+    ],
+    "reds": [],
+    "whites": [
+      "Riesling",
+      "Gewurztraminer"
+    ],
+    "desc": "Laderas escarpadas bajo la silueta del legendario castillo de Haut-Koenigsbourg: suelos de areniscas vosgienses y granito.",
+    "where_clause": "denom = 'Alsace Coteaux du Haut Koenigsbourg'"
+  },
+  {
+    "id": "fr-alsace-cotes-de-barr",
+    "name": "Alsace Côtes de Barr",
+    "layer": "AOC Alsace Côtes de Barr",
+    "gpkg_rel": "FRANCE/Alsace/Alsace_Cotes_de_Barr.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Bas-Rhin",
+    "color": "#388E3C",
+    "communes": [
+      "Barr"
+    ],
+    "reds": [],
+    "whites": [
+      "Sylvaner"
+    ],
+    "desc": "En torno a la capital vitícola del Bajo Rin sobre laderas de calizas y esquistos que otorgan al Sylvaner una densidad mineral inigualable.",
+    "where_clause": "denom = 'Alsace Côtes de Barr'"
+  },
+  {
+    "id": "fr-alsace-ottrott",
+    "name": "Alsace Ottrott",
+    "layer": "AOC Alsace Ottrott",
+    "gpkg_rel": "FRANCE/Alsace/Alsace_Ottrott.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Bas-Rhin",
+    "color": "#880E4F",
+    "communes": [
+      "Ottrott",
+      "Obernai"
+    ],
+    "reds": [
+      "Pinot Noir (Rouge d'Ottrott)"
+    ],
+    "whites": [],
+    "desc": "Famoso reducto de vinos tintos alsacianos (Rouge d'Ottrott) cultivado desde el siglo XII por monjes benedictinos sobre areniscas rojas.",
+    "where_clause": "denom = 'Alsace Ottrott'"
+  },
+  {
+    "id": "fr-alsace-rodern",
+    "name": "Alsace Rodern",
+    "layer": "AOC Alsace Rodern",
+    "gpkg_rel": "FRANCE/Alsace/Alsace_Rodern.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Haut-Rhin",
+    "color": "#AD1457",
+    "communes": [
+      "Rodern"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [],
+    "desc": "Bastión histórico del Pinot Noir alsaciano sobre esquistos y areniscas con un bouquet vibrante de cereza negra, frambuesa y especias.",
+    "where_clause": "denom = 'Alsace Rodern'"
+  },
+  {
+    "id": "fr-alsace-saint-hippolyte",
+    "name": "Alsace Saint-Hippolyte",
+    "layer": "AOC Alsace Saint-Hippolyte",
+    "gpkg_rel": "FRANCE/Alsace/Alsace_Saint_Hippolyte.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Haut-Rhin",
+    "color": "#C2185B",
+    "communes": [
+      "Saint-Hippolyte"
+    ],
+    "reds": [
+      "Pinot Noir (Rouge de Saint-Hippolyte)"
+    ],
+    "whites": [],
+    "desc": "La capital del \"Rouge de Saint-Hippolyte\" a los pies de los Vosgos: tintos de Pinot Noir aterciopelados y frescos sobre arenas graníticas.",
+    "where_clause": "denom = 'Alsace Saint-Hippolyte'"
+  },
+  {
+    "id": "fr-alsace-scherwiller",
+    "name": "Alsace Scherwiller",
+    "layer": "AOC Alsace Scherwiller",
+    "gpkg_rel": "FRANCE/Alsace/Alsace_Scherwiller.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Bas-Rhin",
+    "color": "#7CB342",
+    "communes": [
+      "Scherwiller"
+    ],
+    "reds": [],
+    "whites": [
+      "Riesling"
+    ],
+    "desc": "El templo del Riesling sobre conos de deyección y aluviones pedregosos del Giessen: vinos de gran pureza aromática, nervio cítrico y mineralidad.",
+    "where_clause": "denom = 'Alsace Scherwiller'"
+  },
+  {
+    "id": "fr-alsace-val-saint-gregoire",
+    "name": "Alsace Val Saint-Grégoire",
+    "layer": "AOC Alsace Val Saint-Grégoire",
+    "gpkg_rel": "FRANCE/Alsace/Alsace_Val_Saint_Gregoire.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Haut-Rhin",
+    "color": "#8BC34A",
+    "communes": [
+      "Munster",
+      "Turckheim",
+      "Wihr-au-Val",
+      "Gunsbach",
+      "Walbach"
+    ],
+    "reds": [],
+    "whites": [
+      "Pinot Blanc",
+      "Auxerrois",
+      "Pinot Gris"
+    ],
+    "desc": "En el valle de Munster: microclima protegido y suelos de ladera granítica que dan blancos de textura redonda y frescura alpina.",
+    "where_clause": "denom = 'Alsace Val Saint Grégoire'"
+  },
+  {
+    "id": "fr-alsace-vallee-noble",
+    "name": "Alsace Vallée Noble",
+    "layer": "AOC Alsace Vallée Noble",
+    "gpkg_rel": "FRANCE/Alsace/Alsace_Vallee_Noble.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Haut-Rhin",
+    "color": "#9CCC65",
+    "communes": [
+      "Soultzmatt",
+      "Westhalten"
+    ],
+    "reds": [],
+    "whites": [
+      "Gewurztraminer",
+      "Pinot Gris",
+      "Riesling"
+    ],
+    "desc": "Valle resguardado orientado al sur: maduración óptima para Gewurztraminer y Pinot Gris con una elegancia aromática de alta escuela.",
+    "where_clause": "denom = 'Alsace Vallée Noble'"
+  },
+  {
+    "id": "fr-alsace-wolxheim",
+    "name": "Alsace Wolxheim",
+    "layer": "AOC Alsace Wolxheim",
+    "gpkg_rel": "FRANCE/Alsace/Alsace_Wolxheim.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Bas-Rhin",
+    "color": "#AED581",
+    "communes": [
+      "Wolxheim",
+      "Dinsheim-sur-Bruche"
+    ],
+    "reds": [],
+    "whites": [
+      "Riesling"
+    ],
+    "desc": "El Riesling favorito de Napoleón Bonaparte: suelos arcillo-calcáreos de la colina del Horn que aportan gran estructura y longevidad.",
+    "where_clause": "denom = 'Alsace Wolxheim'"
+  },
+  {
+    "id": "fr-alsace-cote-de-rouffach",
+    "name": "Alsace Côte de Rouffach",
+    "layer": "AOC Alsace Côte de Rouffach",
+    "gpkg_rel": "FRANCE/Alsace/Alsace_Cote_de_Rouffach.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Alsace/Alsace.pdf",
+    "region": "Alsace",
+    "subbasin": "Haut-Rhin",
+    "color": "#4CAF50",
+    "communes": [
+      "Rouffach",
+      "Pfaffenheim",
+      "Westhalten"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Gewurztraminer",
+      "Pinot Gris",
+      "Riesling"
+    ],
+    "desc": "Microclima de acusada calidez y aridez mediterránea a los pies del Grand Ballon: vinos concentrados, potentes y sedosos.",
+    "where_clause": "denom = 'Alsace Côte de Rouffach'"
+  },
+  {
+    "id": "fr-lorraine-cotes-de-toul",
+    "name": "Côtes de Toul",
+    "layer": "AOC Côtes de Toul",
+    "gpkg_rel": "FRANCE/Lorraine/Cotes_de_Toul.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Lorraine/Cotes_de_Toul.pdf",
+    "region": "Lorraine",
+    "subbasin": "Meurthe-et-Moselle",
+    "color": "#E91E63",
+    "communes": [
+      "Toul",
+      "Bruley",
+      "Lucey",
+      "Pagney-derrière-Barine",
+      "Bulligny",
+      "Blénod-lès-Toul",
+      "Charmes-la-Côte",
+      "Mont-le-Vignoble"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Gamay"
+    ],
+    "whites": [
+      "Auxerrois",
+      "Aubin Blanc"
+    ],
+    "desc": "La cuna del emblemático «Vin Gris de Toul»: prensado directo de Gamay y Pinot Noir sobre cuestas del Jurásico con notas de grosella, melocotón de viña y tensión mineral.",
+    "where_clause": "denom = 'Côtes de Toul'"
+  },
+  {
+    "id": "fr-lorraine-moselle",
+    "name": "Moselle",
+    "layer": "AOC Moselle",
+    "gpkg_rel": "FRANCE/Lorraine/Moselle.gpkg",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Lorraine/Moselle.pdf",
+    "region": "Lorraine",
+    "subbasin": "Moselle",
+    "color": "#00897B",
+    "communes": [
+      "Metz",
+      "Scy-Chazelles",
+      "Vaux",
+      "Marange-Silvange",
+      "Sierck-les-Bains",
+      "Contz-les-Bains",
+      "Vic-sur-Seille"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Auxerrois",
+      "Müller-Thurgau",
+      "Pinot Gris"
+    ],
+    "desc": "A lo largo de los meandros del río Mosela: la prolongación francesa del legendario valle renano con Auxerrois de gran finura y tintos elegantes de Pinot Noir.",
+    "where_clause": "denom = 'Moselle'"
+  }
+]

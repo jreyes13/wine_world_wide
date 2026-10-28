@@ -1,0 +1,1108 @@
+[
+  {
+    "id": "fr-loire-muscadet-sevre-et-maine",
+    "name": "Muscadet Sèvre et Maine",
+    "layer": "AOC Muscadet Sèvre et Maine",
+    "gpkg": "Muscadet_Sevre_et_Maine.gpkg",
+    "pdf": "Muscadet_Sevre_et_Maine.pdf",
+    "subbasin": "Pays Nantais",
+    "communes": [
+      "Vallet",
+      "Clisson",
+      "Le Pallet",
+      "Gorges",
+      "Mouzillon",
+      "Monnières",
+      "Saint-Fiacre-sur-Maine",
+      "Château-Thébaud",
+      "Maisdon-sur-Sèvre",
+      "Vertou",
+      "La Haye-Fouassière",
+      "Goulaine"
+    ],
+    "reds": [],
+    "whites": [
+      "Melon de Bourgogne"
+    ],
+    "desc": "El corazón mineral del Loira atlántico: Melon de Bourgogne criado sobre lías (sur lie) en suelos de esquisto, gneis y gabro con acidez crujiente y salinidad marina.",
+    "where_clause": "denom = 'Muscadet Sèvre et Maine'"
+  },
+  {
+    "id": "fr-loire-muscadet",
+    "name": "Muscadet",
+    "layer": "AOC Muscadet",
+    "gpkg": "Muscadet.gpkg",
+    "pdf": "Muscadet.pdf",
+    "subbasin": "Pays Nantais",
+    "communes": [
+      "Nantes",
+      "Ancenis",
+      "Clisson",
+      "Vallet",
+      "Rezé",
+      "Oudon"
+    ],
+    "reds": [],
+    "whites": [
+      "Melon de Bourgogne"
+    ],
+    "desc": "Denominación genérica del viñedo nantés fundada en 1937: vinos blancos secos, vivos y marinos elaborados exclusivamente con uva Melon de Bourgogne.",
+    "where_clause": "denom = 'Muscadet'"
+  },
+  {
+    "id": "fr-loire-muscadet-cotes-de-grandlieu",
+    "name": "Muscadet Côtes de Grandlieu",
+    "layer": "AOC Muscadet Côtes de Grandlieu",
+    "gpkg": "Muscadet_Cotes_de_Grandlieu.gpkg",
+    "pdf": "Muscadet_Cotes_de_Grandlieu.pdf",
+    "subbasin": "Pays Nantais",
+    "communes": [
+      "Saint-Philbert-de-Grand-Lieu",
+      "La Chevrolière",
+      "Saint-Lumine-de-Coutais",
+      "Saint-Aignan-Grandlieu",
+      "Corcoué-sur-Logne"
+    ],
+    "reds": [],
+    "whites": [
+      "Melon de Bourgogne"
+    ],
+    "desc": "Microclima templado por el mayor lago natural de llanura en Francia: Melon de Bourgogne aromático, flexible y floral con notas de fruta blanca fresca.",
+    "where_clause": "denom = 'Muscadet Côtes de Grandlieu'"
+  },
+  {
+    "id": "fr-loire-muscadet-coteaux-de-la-loire",
+    "name": "Muscadet Coteaux de la Loire",
+    "layer": "AOC Muscadet Coteaux de la Loire",
+    "gpkg": "Muscadet_Coteaux_de_la_Loire.gpkg",
+    "pdf": "Muscadet_Coteaux_de_la_Loire.pdf",
+    "subbasin": "Pays Nantais",
+    "communes": [
+      "Ancenis",
+      "Oudon",
+      "Champtoceaux",
+      "Saint-Florent-le-Vieil",
+      "Le Cellier",
+      "Mauves-sur-Loire"
+    ],
+    "reds": [],
+    "whites": [
+      "Melon de Bourgogne"
+    ],
+    "desc": "En las laderas escarpadas de esquistos que dominan el río Loira al este de Nantes: vinos tensos, pedregosos y de marcada austeridad mineral.",
+    "where_clause": "denom = 'Muscadet Coteaux de la Loire'"
+  },
+  {
+    "id": "fr-loire-gros-plant-du-pays-nantais",
+    "name": "Gros Plant du Pays Nantais",
+    "layer": "AOC Gros Plant du Pays Nantais",
+    "gpkg": "Gros_Plant_du_Pays_Nantais.gpkg",
+    "pdf": "Gros_Plant_du_Pays_Nantais.pdf",
+    "subbasin": "Pays Nantais",
+    "communes": [
+      "Vallet",
+      "Clisson",
+      "Aigrefeuille-sur-Maine",
+      "Loroux-Bottereau",
+      "Saint-Philbert-de-Grand-Lieu"
+    ],
+    "reds": [],
+    "whites": [
+      "Folle Blanche"
+    ],
+    "desc": "Tradicional blanco nantés elaborado con Folle Blanche (Gros Plant): vivacidad cítrica cortante, yodo y frescura vibrante, el maridaje legendario con ostras y mariscos atlánticos.",
+    "where_clause": "denom = 'Gros Plant du Pays Nantais'"
+  },
+  {
+    "id": "fr-loire-coteaux-d-ancenis",
+    "name": "Coteaux d'Ancenis",
+    "layer": "AOC Coteaux d'Ancenis",
+    "gpkg": "Coteaux_d_Ancenis.gpkg",
+    "pdf": "Coteaux_d_Ancenis.pdf",
+    "subbasin": "Pays Nantais",
+    "communes": [
+      "Ancenis",
+      "Oudon",
+      "Varades",
+      "Saint-Géréon",
+      "Couffé",
+      "Ligné"
+    ],
+    "reds": [
+      "Gamay",
+      "Cabernet Franc"
+    ],
+    "whites": [
+      "Pinot Gris (Malvoisie)"
+    ],
+    "desc": "Entre Nantes y Anjou a lo largo del Loira: tintos ligeros y afrutados de Gamay y célebres blancos semidulces o secos de Malvoisie (Pinot Gris).",
+    "where_clause": "denom = 'Coteaux d''Ancenis'"
+  },
+  {
+    "id": "fr-loire-fiefs-vendeens",
+    "name": "Fiefs Vendéens",
+    "layer": "AOC Fiefs Vendéens",
+    "gpkg": "Fiefs_Vendeens.gpkg",
+    "pdf": "Fiefs_Vendeens.pdf",
+    "subbasin": "Pays Nantais",
+    "communes": [
+      "Brem-sur-Mer",
+      "Mareuil-sur-Lay-Dissais",
+      "Pissotte",
+      "Vix",
+      "Chantonnay"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Gamay",
+      "Cabernet Franc",
+      "Négrette"
+    ],
+    "whites": [
+      "Chenin Blanc",
+      "Chardonnay",
+      "Grolleau Gris"
+    ],
+    "desc": "Viñedos meridionales de la Vendée acariciados por la brisa oceánica: tintos y rosados frescos y especiados, y blancos elegantes de Chenin y Chardonnay.",
+    "where_clause": "denom LIKE 'Fiefs Vendéens%'"
+  },
+  {
+    "id": "fr-loire-anjou",
+    "name": "Anjou",
+    "layer": "AOC Anjou",
+    "gpkg": "Anjou.gpkg",
+    "pdf": "Anjou.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Angers",
+      "Brissac-Quincé",
+      "Chalonnes-sur-Loire",
+      "Thouarcé",
+      "Doué-en-Anjou"
+    ],
+    "reds": [
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [
+      "Chenin Blanc",
+      "Sauvignon Blanc",
+      "Chardonnay"
+    ],
+    "desc": "Cuna histórica del viñedo angevino: vinos blancos estructurados de Chenin sobre pizarra negra (Anjou noir) y tintos aterciopelados de Cabernet.",
+    "where_clause": "denom = 'Anjou'"
+  },
+  {
+    "id": "fr-loire-anjou-villages",
+    "name": "Anjou Villages",
+    "layer": "AOC Anjou Villages",
+    "gpkg": "Anjou_Villages.gpkg",
+    "pdf": "Anjou_Villages.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Brissac-Quincé",
+      "Chalonnes-sur-Loire",
+      "Rochefort-sur-Loire",
+      "Thouarcé",
+      "Saint-Aubin-de-Luigné"
+    ],
+    "reds": [
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [],
+    "desc": "Selección de las mejores laderas de pizarra y toba para grandes tintos de guarda angevinos con notas de frutos negros, grafito y taninos pulidos.",
+    "where_clause": "denom = 'Anjou Villages'"
+  },
+  {
+    "id": "fr-loire-anjou-brissac",
+    "name": "Anjou Villages Brissac",
+    "layer": "AOC Anjou Villages Brissac",
+    "gpkg": "Anjou_Brissac.gpkg",
+    "pdf": "Anjou_Brissac.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Brissac-Quincé",
+      "Saint-Saturnin-sur-Loire",
+      "Saint-Jean-des-Mauvrets",
+      "Juigné-sur-Loire"
+    ],
+    "reds": [
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [],
+    "desc": "Cru angevino exclusivo en torno al Château de Brissac: tintos opulentos de Cabernet criados con maestría sobre suelos ricos en areniscas y esquistos.",
+    "where_clause": "denom = 'Anjou Brissac'"
+  },
+  {
+    "id": "fr-loire-cabernet-d-anjou",
+    "name": "Cabernet d'Anjou",
+    "layer": "AOC Cabernet d'Anjou",
+    "gpkg": "Cabernet_d_Anjou.gpkg",
+    "pdf": "Cabernet_d_Anjou.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Angers",
+      "Saumur",
+      "Doué-en-Anjou",
+      "Brissac-Quincé",
+      "Thouarcé"
+    ],
+    "reds": [
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [],
+    "desc": "El rosado suave más emblemático de Francia: semidulce, goloso, con aromas de fresa madura, grosella y un fondo aterciopelado sumamente placentero.",
+    "where_clause": "denom = 'Cabernet d''Anjou'"
+  },
+  {
+    "id": "fr-loire-savennieres",
+    "name": "Savennières",
+    "layer": "AOC Savennières",
+    "gpkg": "Savennieres.gpkg",
+    "pdf": "Savennieres.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Savennières",
+      "Bouchemaine",
+      "La Possonnière"
+    ],
+    "reds": [],
+    "whites": [
+      "Chenin Blanc"
+    ],
+    "desc": "Uno de los terruños de vino blanco seco más aristocráticos y longevos del mundo: Chenin seco cultivado en anfiteatros de esquisto y roca volcánica frente al Loira.",
+    "where_clause": "denom = 'Savennières'"
+  },
+  {
+    "id": "fr-loire-savennieres-roche-aux-moines",
+    "name": "Savennières Roche aux Moines",
+    "layer": "AOC Savennières Roche aux Moines",
+    "gpkg": "Savennieres_Roche_aux_Moines.gpkg",
+    "pdf": "Savennieres_Roche_aux_Moines.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Savennières"
+    ],
+    "reds": [],
+    "whites": [
+      "Chenin Blanc"
+    ],
+    "desc": "Laderas sagradas monásticas sobre esquisto púrpura y espilitas: Chenin sublime de densidad magistral, notas de membrillo, cera de abejas e inmensa mineralidad.",
+    "where_clause": "denom = 'Savennières Roche aux Moines'"
+  },
+  {
+    "id": "fr-loire-coulee-de-serrant",
+    "name": "Coulée de Serrant",
+    "layer": "AOC Coulée de Serrant",
+    "gpkg": "Coulee_de_Serrant.gpkg",
+    "pdf": "Coulee_de_Serrant.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Savennières"
+    ],
+    "reds": [],
+    "whites": [
+      "Chenin Blanc"
+    ],
+    "desc": "Monopolio mítico de Nicolas Joly plantado por monjes cistercienses en 1130: estandarte mundial de la biodinámica con una complejidad aromática y longevidad sobrecogedora.",
+    "where_clause": "denom = 'Coulée de Serrant'"
+  },
+  {
+    "id": "fr-loire-coteaux-du-layon",
+    "name": "Coteaux du Layon",
+    "layer": "AOC Coteaux du Layon",
+    "gpkg": "Coteaux_du_Layon.gpkg",
+    "pdf": "Coteaux_du_Layon.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Beaulieu-sur-Layon",
+      "Faye-d'Anjou",
+      "Rablay-sur-Layon",
+      "Rochefort-sur-Loire",
+      "Saint-Aubin-de-Luigné",
+      "Saint-Lambert-du-Lattay"
+    ],
+    "reds": [],
+    "whites": [
+      "Chenin Blanc"
+    ],
+    "desc": "Vinos dulces legendarios del afluente Layon: Chenin Blanc cosechado por vendimias sucesivas bajo la acción de la podredumbre noble (Botrytis cinerea).",
+    "where_clause": "denom = 'Coteaux du Layon'"
+  },
+  {
+    "id": "fr-loire-coteaux-de-l-aubance",
+    "name": "Coteaux de l'Aubance",
+    "layer": "AOC Coteaux de l'Aubance",
+    "gpkg": "Coteaux_de_l_Aubance.gpkg",
+    "pdf": "Coteaux_de_l_Aubance.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Brissac-Quincé",
+      "Saint-Melaine-sur-Aubance",
+      "Soulaines-sur-Aubance",
+      "Saint-Saturnin-sur-Loire"
+    ],
+    "reds": [],
+    "whites": [
+      "Chenin Blanc"
+    ],
+    "desc": "En las laderas de esquisto de la cuenca del Aubance: blancos licorosos de Chenin de perfil grácil, aromas de albaricoque, miel y prodigiosa frescura cítrica.",
+    "where_clause": "denom = 'Coteaux de l''Aubance'"
+  },
+  {
+    "id": "fr-loire-bonnezeaux",
+    "name": "Bonnezeaux",
+    "layer": "AOC Bonnezeaux",
+    "gpkg": "Bonnezeaux.gpkg",
+    "pdf": "Bonnezeaux.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Thouarcé"
+    ],
+    "reds": [],
+    "whites": [
+      "Chenin Blanc"
+    ],
+    "desc": "Cru licoroso de élite situado sobre tres laderas abruptas de esquistos y cuarzo: Chenin opulento, licoroso, con notas de flores blancas confitadas y trufa blanca.",
+    "where_clause": "denom = 'Bonnezeaux'"
+  },
+  {
+    "id": "fr-loire-quarts-de-chaume",
+    "name": "Quarts de Chaume Grand Cru",
+    "layer": "AOC Quarts de Chaume Grand Cru",
+    "gpkg": "Quarts_de_Chaume.gpkg",
+    "pdf": "Quarts_de_Chaume.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Rochefort-sur-Loire"
+    ],
+    "reds": [],
+    "whites": [
+      "Chenin Blanc"
+    ],
+    "desc": "El primer y único Grand Cru oficial del Valle del Loira: néctar divino de Chenin sobre areniscas del Carbonífero con un equilibrio infinito entre dulzor y tensión ácida.",
+    "where_clause": "denom = 'Quarts de Chaume'"
+  },
+  {
+    "id": "fr-loire-saumur",
+    "name": "Saumur",
+    "layer": "AOC Saumur",
+    "gpkg": "Saumur.gpkg",
+    "pdf": "Saumur.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Saumur",
+      "Montsoreau",
+      "Fontevraud-l'Abbaye",
+      "Varrains",
+      "Chacé",
+      "Dampierre-sur-Loire"
+    ],
+    "reds": [
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [
+      "Chenin Blanc",
+      "Chardonnay"
+    ],
+    "desc": "La capital de la toba calcárea (tuffeau): elegantes blancos minerales de Chenin y tintos fragantes de Cabernet Franc nacidos de galerías subterráneas trogloditas.",
+    "where_clause": "denom = 'Saumur'"
+  },
+  {
+    "id": "fr-loire-saumur-champigny",
+    "name": "Saumur-Champigny",
+    "layer": "AOC Saumur-Champigny",
+    "gpkg": "Saumur_Champigny.gpkg",
+    "pdf": "Saumur_Champigny.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Champigny",
+      "Chacé",
+      "Montsoreau",
+      "Saint-Cyr-en-Bourg",
+      "Souzay-Champigny",
+      "Turquant",
+      "Varrains",
+      "Saumur",
+      "Fontevraud-l'Abbaye"
+    ],
+    "reds": [
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [],
+    "desc": "El gran icono de los tintos del Loira: Cabernet Franc (Breton) puro, sedoso, aromático con recuerdos a frambuesa silvestre, lirio y frescura sobre toba calcárea pura.",
+    "where_clause": "denom = 'Saumur-Champigny'"
+  },
+  {
+    "id": "fr-loire-saumur-puy-notre-dame",
+    "name": "Saumur Puy-Notre-Dame",
+    "layer": "AOC Saumur Puy-Notre-Dame",
+    "gpkg": "Saumur_Puy_Notre_Dame.gpkg",
+    "pdf": "Saumur_Puy_Notre_Dame.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Le Puy-Notre-Dame",
+      "Vaudelnay",
+      "Brossay",
+      "Montreuil-Bellay",
+      "Cizay-la-Madeleine"
+    ],
+    "reds": [
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [],
+    "desc": "Reconocida en 2009 en los altos relieves calcáreos del sur de Saumur: tintos de Cabernet Franc densos, carnosos, estructurados y de gran vocación gastronómica.",
+    "where_clause": "denom = 'Saumur Puy-Notre-Dame'"
+  },
+  {
+    "id": "fr-loire-coteaux-de-saumur",
+    "name": "Coteaux de Saumur",
+    "layer": "AOC Coteaux de Saumur",
+    "gpkg": "Coteaux_de_Saumur.gpkg",
+    "pdf": "Coteaux_de_Saumur.pdf",
+    "subbasin": "Anjou-Saumur",
+    "communes": [
+      "Saumur",
+      "Montsoreau",
+      "Turquant",
+      "Parnay",
+      "Souzay-Champigny"
+    ],
+    "reds": [],
+    "whites": [
+      "Chenin Blanc"
+    ],
+    "desc": "Pequeña y rara apelación de vinos licorosos de Chenin sobre las soleadas cornisas de toba calcárea que vigilan el cauce del río Loira.",
+    "where_clause": "denom = 'Coteaux de Saumur'"
+  },
+  {
+    "id": "fr-loire-chinon",
+    "name": "Chinon",
+    "layer": "AOC Chinon",
+    "gpkg": "Chinon.gpkg",
+    "pdf": "Chinon.pdf",
+    "subbasin": "Touraine",
+    "communes": [
+      "Chinon",
+      "Beaumont-en-Véron",
+      "Savigny-en-Véron",
+      "Cravant-les-Coteaux",
+      "Panzoult",
+      "Sazilly",
+      "Ligré",
+      "Anché"
+    ],
+    "reds": [
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [
+      "Chenin Blanc"
+    ],
+    "desc": "Tierra natal de Rabelais: la cumbre del Cabernet Franc (Breton) entre gravas fluviales y laderas de toba; tintos aterciopelados con violeta, frambuesa y grafito.",
+    "where_clause": "denom = 'Chinon'"
+  },
+  {
+    "id": "fr-loire-bourgueil",
+    "name": "Bourgueil",
+    "layer": "AOC Bourgueil",
+    "gpkg": "Bourgueil.gpkg",
+    "pdf": "Bourgueil.pdf",
+    "subbasin": "Touraine",
+    "communes": [
+      "Bourgueil",
+      "Benais",
+      "Restigné",
+      "Saint-Nicolas-de-Bourgueil",
+      "La Chapelle-sur-Loire",
+      "Chouzé-sur-Loire",
+      "Ingrandes-de-Touraine"
+    ],
+    "reds": [
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [],
+    "desc": "En la ribera derecha del Loira: Cabernet Franc vigoroso, estructurado y profundo, alternando gravas vivaces en el llano con reservas majestuosas sobre la toba.",
+    "where_clause": "denom = 'Bourgueil'"
+  },
+  {
+    "id": "fr-loire-saint-nicolas-de-bourgueil",
+    "name": "Saint-Nicolas-de-Bourgueil",
+    "layer": "AOC Saint-Nicolas-de-Bourgueil",
+    "gpkg": "Saint_Nicolas_de_Bourgueil.gpkg",
+    "pdf": "Saint_Nicolas_de_Bourgueil.pdf",
+    "subbasin": "Touraine",
+    "communes": [
+      "Saint-Nicolas-de-Bourgueil"
+    ],
+    "reds": [
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [],
+    "desc": "Sobre una terraza aluvial única de arenas y gravas eólicas: tintos de Cabernet Franc de seducción inmediata, ligeros, etéreos y rebosantes de frutos rojos.",
+    "where_clause": "denom = 'Saint-Nicolas-de-Bourgueil'"
+  },
+  {
+    "id": "fr-loire-vouvray",
+    "name": "Vouvray",
+    "layer": "AOC Vouvray",
+    "gpkg": "Vouvray.gpkg",
+    "pdf": "Vouvray.pdf",
+    "subbasin": "Touraine",
+    "communes": [
+      "Vouvray",
+      "Rochecorbon",
+      "Vernou-sur-Brenne",
+      "Sainte-Radegonde",
+      "Chançay",
+      "Reugny",
+      "Noizay",
+      "Parçay-Meslay"
+    ],
+    "reds": [],
+    "whites": [
+      "Chenin Blanc"
+    ],
+    "desc": "El templo polifacético del Chenin Blanc: secos minerales, semidulces (moelleux), licorosos eternos y efervescentes finísimos sobre arcillas con sílex y toba.",
+    "where_clause": "denom = 'Vouvray'"
+  },
+  {
+    "id": "fr-loire-montlouis-sur-loire",
+    "name": "Montlouis-sur-Loire",
+    "layer": "AOC Montlouis-sur-Loire",
+    "gpkg": "Montlouis_sur_Loire.gpkg",
+    "pdf": "Montlouis_sur_Loire.pdf",
+    "subbasin": "Touraine",
+    "communes": [
+      "Montlouis-sur-Loire",
+      "Saint-Martin-le-Beau",
+      "Lussault-sur-Loire"
+    ],
+    "reds": [],
+    "whites": [
+      "Chenin Blanc"
+    ],
+    "desc": "Frente a Vouvray entre los ríos Loira y Cher: Chenin de impresionante pureza cristalina y filo calcáreo, cultivado con devoción artesanal y biodinámica.",
+    "where_clause": "denom = 'Montlouis-sur-Loire'"
+  },
+  {
+    "id": "fr-loire-touraine",
+    "name": "Touraine",
+    "layer": "AOC Touraine",
+    "gpkg": "Touraine.gpkg",
+    "pdf": "Touraine.pdf",
+    "subbasin": "Touraine",
+    "communes": [
+      "Tours",
+      "Amboise",
+      "Chenonceaux",
+      "Azay-le-Rideau",
+      "Loches",
+      "Saint-Aignan"
+    ],
+    "reds": [
+      "Gamay",
+      "Cabernet Franc",
+      "Côt (Malbec)"
+    ],
+    "whites": [
+      "Sauvignon Blanc"
+    ],
+    "desc": "Corazón vinícola de la comarca real: Sauvignon Blanc chispeante y aromático con grosella espinosa y pomelo, y tintos alegres de Gamay y Côt (Malbec).",
+    "where_clause": "denom = 'Touraine'"
+  },
+  {
+    "id": "fr-loire-touraine-noble-joue",
+    "name": "Touraine Noble Joué",
+    "layer": "AOC Touraine Noble Joué",
+    "gpkg": "Touraine_Noble_Joue.gpkg",
+    "pdf": "Touraine_Noble_Joue.pdf",
+    "subbasin": "Touraine",
+    "communes": [
+      "Joué-lès-Tours",
+      "Chambray-lès-Tours",
+      "Saint-Avertin",
+      "Esvres",
+      "Cormery"
+    ],
+    "reds": [
+      "Pinot Meunier",
+      "Pinot Gris",
+      "Pinot Noir"
+    ],
+    "whites": [],
+    "desc": "El renacido vino histórico de Touraine elaborado con los tres Pinots (Meunier, Gris y Noir) para un rosado pálido aromático y vibrante.",
+    "where_clause": "denom = 'Touraine Noble Joué'"
+  },
+  {
+    "id": "fr-loire-cheverny",
+    "name": "Cheverny",
+    "layer": "AOC Cheverny",
+    "gpkg": "Cheverny.gpkg",
+    "pdf": "Cheverny.pdf",
+    "subbasin": "Touraine",
+    "communes": [
+      "Cheverny",
+      "Cour-Cheverny",
+      "Chitenay",
+      "Cellettes",
+      "Huisseau-sur-Cosson",
+      "Mont-près-Chambord"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Gamay",
+      "Cabernet Franc"
+    ],
+    "whites": [
+      "Sauvignon Blanc",
+      "Chardonnay",
+      "Chenin Blanc"
+    ],
+    "desc": "A las puertas de Sologne y Chambord: ensamblajes originales de Sauvignon y Chardonnay en blancos frescos, y sutiles tintos de Pinot Noir y Gamay.",
+    "where_clause": "denom = 'Cheverny'"
+  },
+  {
+    "id": "fr-loire-cour-cheverny",
+    "name": "Cour-Cheverny",
+    "layer": "AOC Cour-Cheverny",
+    "gpkg": "Cour_Cheverny.gpkg",
+    "pdf": "Cour_Cheverny.pdf",
+    "subbasin": "Touraine",
+    "communes": [
+      "Cour-Cheverny",
+      "Cheverny",
+      "Cellettes",
+      "Cormeray",
+      "Tour-en-Sologne"
+    ],
+    "reds": [],
+    "whites": [
+      "Romorantin"
+    ],
+    "desc": "Refugio exclusivo del uva Romorantin introducida por Francisco I en 1519: blancos dorados singulares y secos con aromas de manzana reineta tostada, miel e hinojo.",
+    "where_clause": "denom = 'Cour-Cheverny'"
+  },
+  {
+    "id": "fr-loire-valencay",
+    "name": "Valençay",
+    "layer": "AOC Valençay",
+    "gpkg": "Valencay.gpkg",
+    "pdf": "Valencay.pdf",
+    "subbasin": "Touraine",
+    "communes": [
+      "Valençay",
+      "Chabris",
+      "Fontguenand",
+      "Luçay-le-Mâle",
+      "Poulaines",
+      "Vatan",
+      "Veuil",
+      "Vicq-sur-Nahon"
+    ],
+    "reds": [
+      "Gamay",
+      "Pinot Noir",
+      "Côt (Malbec)"
+    ],
+    "whites": [
+      "Sauvignon Blanc",
+      "Orbois (Arbois)"
+    ],
+    "desc": "El feudo de Talleyrand: la única denominación francesa que comparte nombre estricto entre un vino de gran finura y su legendario queso piramidal de cabra AOP.",
+    "where_clause": "denom = 'Valençay' AND FID = 418"
+  },
+  {
+    "id": "fr-loire-jasnieres",
+    "name": "Jasnières",
+    "layer": "AOC Jasnières",
+    "gpkg": "Jasnieres.gpkg",
+    "pdf": "Jasnieres.pdf",
+    "subbasin": "Touraine",
+    "communes": [
+      "Lhomme",
+      "Ruillé-sur-Loir"
+    ],
+    "reds": [],
+    "whites": [
+      "Chenin Blanc"
+    ],
+    "desc": "Joya secreta en las laderas meridionales del valle del Loir: Chenin señorial sobre toba y arcilla con pedernal que Henri IV consideraba el mejor vino de su reino.",
+    "where_clause": "denom = 'Jasnières'"
+  },
+  {
+    "id": "fr-loire-coteaux-du-loir",
+    "name": "Coteaux du Loir",
+    "layer": "AOC Coteaux du Loir",
+    "gpkg": "Coteaux_du_Loir.gpkg",
+    "pdf": "Coteaux_du_Loir.pdf",
+    "subbasin": "Touraine",
+    "communes": [
+      "Château-du-Loir",
+      "Marçon",
+      "Flée",
+      "Montval-sur-Loir",
+      "Vouvray-sur-Loir",
+      "Lhomme"
+    ],
+    "reds": [
+      "Pineau d'Aunis",
+      "Cabernet Franc",
+      "Gamay"
+    ],
+    "whites": [
+      "Chenin Blanc"
+    ],
+    "desc": "Ribera del río Loir: blancos cincelados de Chenin y los famosos tintos y rosados especiados elaborados con Pineau d'Aunis con recuerdos a pimienta blanca.",
+    "where_clause": "denom = 'Coteaux du Loir'"
+  },
+  {
+    "id": "fr-loire-coteaux-du-vendomois",
+    "name": "Coteaux du Vendômois",
+    "layer": "AOC Coteaux du Vendômois",
+    "gpkg": "Coteaux_du_Vendomois.gpkg",
+    "pdf": "Coteaux_du_Vendomois.pdf",
+    "subbasin": "Touraine",
+    "communes": [
+      "Vendôme",
+      "Montoire-sur-le-Loir",
+      "Naveil",
+      "Thoré-la-Rochette",
+      "Villiers-sur-Loir"
+    ],
+    "reds": [
+      "Pineau d'Aunis",
+      "Pinot Noir",
+      "Gamay"
+    ],
+    "whites": [
+      "Chenin Blanc",
+      "Chardonnay"
+    ],
+    "desc": "Cuna predilecta del Pineau d'Aunis para el célebre «Vin Gris»: rosados pálidos picantes y vibrantes, junto a blancos minerales de Chenin sobre sílex.",
+    "where_clause": "denom = 'Coteaux du Vendômois'"
+  },
+  {
+    "id": "fr-loire-haut-poitou",
+    "name": "Haut-Poitou",
+    "layer": "AOC Haut-Poitou",
+    "gpkg": "Haut_Poitou.gpkg",
+    "pdf": "Haut_Poitou.pdf",
+    "subbasin": "Touraine",
+    "communes": [
+      "Neuville-de-Poitou",
+      "Mirebeau",
+      "Vouillé",
+      "Lencloître",
+      "Saint-Georges-lès-Baillargeaux"
+    ],
+    "reds": [
+      "Cabernet Franc",
+      "Pinot Noir",
+      "Gamay"
+    ],
+    "whites": [
+      "Sauvignon Blanc",
+      "Sauvignon Gris"
+    ],
+    "desc": "Hacia el sur en tierras de Poitou: Sauvignon Blanc fresco y aromático y tintos equilibrados de Cabernet Franc cultivados en planicies de toba blanca arcillosa.",
+    "where_clause": "denom = 'Haut-Poitou'"
+  },
+  {
+    "id": "fr-loire-sancerre",
+    "name": "Sancerre",
+    "layer": "AOC Sancerre",
+    "gpkg": "Sancerre.gpkg",
+    "pdf": "Sancerre.pdf",
+    "subbasin": "Centre-Loire",
+    "communes": [
+      "Sancerre",
+      "Bué",
+      "Chavignol",
+      "Verdigny",
+      "Sury-en-Vaux",
+      "Ménétréol-sous-Sancerre",
+      "Thauvenay",
+      "Vinon",
+      "Saint-Satur"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Sauvignon Blanc"
+    ],
+    "desc": "La cúspide planetaria del Sauvignon Blanc: tres terruños míticos (terres blanches de caliza kimmeridgiana, caillottes pedregosas y sílex fósil) y delicados tintos de Pinot Noir.",
+    "where_clause": "denom = 'Sancerre'"
+  },
+  {
+    "id": "fr-loire-pouilly-fume",
+    "name": "Pouilly-Fumé",
+    "layer": "AOC Pouilly-Fumé",
+    "gpkg": "Pouilly_Fume.gpkg",
+    "pdf": "Pouilly_Fume.pdf",
+    "subbasin": "Centre-Loire",
+    "communes": [
+      "Pouilly-sur-Loire",
+      "Saint-Andelain",
+      "Les Loges",
+      "Tracy-sur-Loire",
+      "Saint-Laurent-l'Abbaye",
+      "Garchy",
+      "Saint-Martin-sur-Nohain"
+    ],
+    "reds": [],
+    "whites": [
+      "Sauvignon Blanc (Blanc Fumé)"
+    ],
+    "desc": "Frente a Sancerre en la orilla derecha: Sauvignon Blanc ahumado con aromas de piedra de chispa (pierre à fusil) nacidos de colinas de sílex y margas kimmeridgianas.",
+    "where_clause": "denom = 'Pouilly-Fumé ou Blanc Fumé de Pouilly'"
+  },
+  {
+    "id": "fr-loire-pouilly-sur-loire",
+    "name": "Pouilly-sur-Loire",
+    "layer": "AOC Pouilly-sur-Loire",
+    "gpkg": "Pouilly_sur_Loire.gpkg",
+    "pdf": "Pouilly_sur_Loire.pdf",
+    "subbasin": "Centre-Loire",
+    "communes": [
+      "Pouilly-sur-Loire",
+      "Saint-Andelain",
+      "Tracy-sur-Loire"
+    ],
+    "reds": [],
+    "whites": [
+      "Chasselas"
+    ],
+    "desc": "El viñedo histórico de Pouilly elaborado con Chasselas: vinos blancos ligeros, frescos y discretamente almendrados de delicada sutileza floral.",
+    "where_clause": "denom = 'Pouilly-sur-Loire'"
+  },
+  {
+    "id": "fr-loire-menetou-salon",
+    "name": "Menetou-Salon",
+    "layer": "AOC Menetou-Salon",
+    "gpkg": "Menetou_Salon.gpkg",
+    "pdf": "Menetou_Salon.pdf",
+    "subbasin": "Centre-Loire",
+    "communes": [
+      "Menetou-Salon",
+      "Aubinges",
+      "Morogues",
+      "Parassy",
+      "Pigny",
+      "Quantilly",
+      "Saint-Céols",
+      "Soulangis",
+      "Vignoux-sous-les-Aix",
+      "Humbligny"
+    ],
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Sauvignon Blanc"
+    ],
+    "desc": "Tierras kimmeridgianas contiguas a Sancerre: Sauvignon Blanc de gran finura con notas de cítricos y flores de azahar, y carnosos tintos de Pinot Noir.",
+    "where_clause": "denom = 'Menetou-Salon'"
+  },
+  {
+    "id": "fr-loire-quincy",
+    "name": "Quincy",
+    "layer": "AOC Quincy",
+    "gpkg": "Quincy.gpkg",
+    "pdf": "Quincy.pdf",
+    "subbasin": "Centre-Loire",
+    "communes": [
+      "Quincy",
+      "Brinay"
+    ],
+    "reds": [],
+    "whites": [
+      "Sauvignon Blanc"
+    ],
+    "desc": "La primera AOC reconocida en el Valle del Loira (1936) a orillas del río Cher: Sauvignon Blanc puro cultivado en terrazas de arena y gravas con notas de pomelo y menta.",
+    "where_clause": "denom = 'Quincy'"
+  },
+  {
+    "id": "fr-loire-reuilly",
+    "name": "Reuilly",
+    "layer": "AOC Reuilly",
+    "gpkg": "Reuilly.gpkg",
+    "pdf": "Reuilly.pdf",
+    "subbasin": "Centre-Loire",
+    "communes": [
+      "Reuilly",
+      "Diou",
+      "Lazenay",
+      "Chéry",
+      "Cerbois",
+      "Preuilly"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Pinot Gris"
+    ],
+    "whites": [
+      "Sauvignon Blanc"
+    ],
+    "desc": "A orillas del río Arnon: Sauvignon cristalino, tintos sedosos de Pinot Noir y singulares rosados pálidos (vin gris) de Pinot Gris de notable vivacidad.",
+    "where_clause": "denom = 'Reuilly'"
+  },
+  {
+    "id": "fr-loire-coteaux-du-giennois",
+    "name": "Coteaux du Giennois",
+    "layer": "AOC Coteaux du Giennois",
+    "gpkg": "Coteaux_du_Giennois.gpkg",
+    "pdf": "Coteaux_du_Giennois.pdf",
+    "subbasin": "Centre-Loire",
+    "communes": [
+      "Gien",
+      "Cosne-Cours-sur-Loire",
+      "Briare",
+      "Bonny-sur-Loire",
+      "Saint-Père",
+      "Beaumont-la-Ferrière"
+    ],
+    "reds": [
+      "Pinot Noir",
+      "Gamay"
+    ],
+    "whites": [
+      "Sauvignon Blanc"
+    ],
+    "desc": "Entre Gien y Cosne-sur-Loire sobre laderas de calizas y sílex: blancos de Sauvignon vivos y minerales, y tintos aromáticos de Pinot Noir y Gamay.",
+    "where_clause": "denom = 'Coteaux du Giennois'"
+  },
+  {
+    "id": "fr-loire-chateaumeillant",
+    "name": "Châteaumeillant",
+    "layer": "AOC Châteaumeillant",
+    "gpkg": "Chateaumeillant.gpkg",
+    "pdf": "Chateaumeillant.pdf",
+    "subbasin": "Centre-Loire",
+    "communes": [
+      "Châteaumeillant",
+      "Saint-Maur",
+      "Vesdun",
+      "Reigny",
+      "Champillet",
+      "Feusines",
+      "Néret"
+    ],
+    "reds": [
+      "Gamay",
+      "Pinot Noir"
+    ],
+    "whites": [],
+    "desc": "En el centro geográfico estricto de Francia sobre suelos de areniscas y micasquistos: famosos vinos grises y tintos afrutados dominados por Gamay.",
+    "where_clause": "denom = 'Châteaumeillant'"
+  },
+  {
+    "id": "fr-loire-orleans",
+    "name": "Orléans",
+    "layer": "AOC Orléans",
+    "gpkg": "Orleans.gpkg",
+    "pdf": "Orleans.pdf",
+    "subbasin": "Centre-Loire",
+    "communes": [
+      "Orléans",
+      "Saint-Hilaire-Saint-Mesmin",
+      "Baule",
+      "Cléry-Saint-André",
+      "Mareau-aux-Prés",
+      "Mézières-lez-Cléry",
+      "Olviet"
+    ],
+    "reds": [
+      "Pinot Meunier",
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "desc": "El histórico viñedo que abastecía la corte de los reyes de Francia en París: Chardonnay sutil y tintos originales de Pinot Meunier y Pinot Noir.",
+    "where_clause": "denom = 'Orléans'"
+  },
+  {
+    "id": "fr-loire-orleans-clery",
+    "name": "Orléans-Cléry",
+    "layer": "AOC Orléans-Cléry",
+    "gpkg": "Orleans_Clery.gpkg",
+    "pdf": "Orleans_Clery.pdf",
+    "subbasin": "Centre-Loire",
+    "communes": [
+      "Cléry-Saint-André",
+      "Mareau-aux-Prés",
+      "Mézières-lez-Cléry",
+      "Saint-Hilaire-Saint-Mesmin",
+      "Olivet"
+    ],
+    "reds": [
+      "Cabernet Franc"
+    ],
+    "whites": [],
+    "desc": "Denominación consagrada en exclusiva al Cabernet Franc sobre terrazas de arcillas con sílex y calizas al sur del río Loira.",
+    "where_clause": "denom = 'Orléans-Cléry'"
+  },
+  {
+    "id": "fr-loire-cremant-de-loire",
+    "name": "Crémant de Loire",
+    "layer": "AOC Crémant de Loire",
+    "gpkg": "Cremant_de_Loire.gpkg",
+    "pdf": "Cremant_de_Loire.pdf",
+    "subbasin": "Val de Loire",
+    "communes": [
+      "Saumur",
+      "Angers",
+      "Tours",
+      "Montlouis-sur-Loire",
+      "Thouarcé",
+      "Brissac-Quincé"
+    ],
+    "reds": [
+      "Cabernet Franc",
+      "Pinot Noir",
+      "Grolleau"
+    ],
+    "whites": [
+      "Chenin Blanc",
+      "Chardonnay",
+      "Orbois"
+    ],
+    "desc": "La gran efervescencia noble del Loira elaborada por método tradicional: burbujas finas, cremosas y vibrantes con Chenin y Chardonnay criados en bodegas de toba.",
+    "where_clause": "denom = 'Crémant de Loire'"
+  },
+  {
+    "id": "fr-loire-rose-de-loire",
+    "name": "Rosé de Loire",
+    "layer": "AOC Rosé de Loire",
+    "gpkg": "Rose_de_Loire.gpkg",
+    "pdf": "Rose_de_Loire.pdf",
+    "subbasin": "Val de Loire",
+    "communes": [
+      "Angers",
+      "Saumur",
+      "Tours",
+      "Ancenis",
+      "Blois"
+    ],
+    "reds": [
+      "Cabernet Franc",
+      "Cabernet Sauvignon",
+      "Grolleau",
+      "Gamay",
+      "Pinot d'Aunis"
+    ],
+    "whites": [],
+    "desc": "AOC regional de rosados secos elaborados a partir de las castas nobles del Valle del Loira con acidez crujiente, delicadeza floral y frutos rojos silvestres.",
+    "where_clause": "denom = 'Rosé de Loire'"
+  }
+]
