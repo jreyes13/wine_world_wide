@@ -3858,3 +3858,1069 @@ Total denominaciones en el Rosellón: **14 AOCs oficiales** encajadas entre los 
   "nom" IN ('Perpignan', 'Rivesaltes', 'Thuir', 'Céret', 'Ille-sur-Têt', 'Argelès-sur-Mer', 'Prades');
   ```
 
+## 12. Sudoeste (Sud-Ouest)
+
+Total denominaciones en el Suroeste: **32 AOCs oficiales** con el 100% de pliegos de condiciones del Ministerio de Agricultura y delimitación vectorial oficial del INAO:
+- **El valle del Lot y el Black Wine histórico:** *AOC Cahors (la cuna mundial del Malbec sobre terrazas y causses calcáreos)*.
+- **El piedemonte pirenaico y el País Vasco:** *AOC Madiran (el templo monumental del Tannat), AOC Pacherenc du Vic-Bilh (grandes blancos dulces y secos de Manseng), AOC Jurançon (el vino real del bautizo de Enrique IV), AOC Irouléguy (el viñedo vasco de Nafarroa Beherea en terrazas de arenisca roja), AOC Béarn*.
+- **Los valles del Tarn y Garona:** *AOC Gaillac y AOC Gaillac premières côtes (milenario santuario de variedades autóctonas: Braucol, Duras, Prunelart, Loin de l'Œil), AOC Fronton (el reino exclusivo de la Négrette), AOC Saint-Sardos, AOC Brulhois, AOC Buzet, AOC Côtes de Duras, AOC Côtes du Marmandais (con la original uva Abouriou)*.
+- **El Périgord Púrpura y el Bergeracois:** *AOC Bergerac, AOC Côtes de Bergerac, AOC Monbazillac (el mítico botrytis del castillo), AOC Pécharmant (el gran cru de las gravas con tran), AOC Saussignac, AOC Rosette, AOC Montravel, AOC Côtes de Montravel, AOC Haut-Montravel*.
+- **Los enclaves de montaña y el Macizo Central:** *AOC Marcillac (el cañón de gres rojo y el Mansois puro), AOC Saint-Mont (viñas prefiloxéricas de Gascuña), AOC Tursan (la uva Baroque), AOC Côtes de Millau (bajo el viaducto en las hoces del Tarn), AOC Entraygues - Le Fel, AOC Estaing (el cru artesanal del Camino de Santiago), AOC Corrèze y AOC Corrèze Coteaux de la Vézère (el renacer del Vin Paillé y Chenin sobre esquistos)*.
+- **El aperitivo noble de Gascuña:** *AOC Floc de Gascogne (mistela de mosto fresco y Armagnac)*.
+
+### AOC Cahors
+- **Región / Subcuenca:** Sud-Ouest (Vallée du Lot & Causses (Lot))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Cahors.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Cahors.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Cahors'`
+- **Variedades Tintas:** Cot (Malbec), Merlot, Tannat
+- **Variedades Blancas:** N/A
+- **Descripción:** El legendario «Vino Negro» (Black Wine) de los meandros del río Lot y las terrazas de caliza jurásica: el reino originario del Malbec (Cot / Auxerrois, mínimo 70%), produciendo tintos de insondable profundidad, taninos nobles y notas de trufa y mora silvestre.
+- **Comunas Principales:** Cahors, Puy-l'Évêque, Prayssac, Luzech, Albas, Bélaye, Castelfranc, Crayssac, Duravel, Flaujac-Poujols, Grezels, Labastide-du-Vert, Lacapelle-Cabanac, Lagardelle, Mauroux, Mercuès, Parnac, Pradines, Saint-Vincent-Rive-d'Olt, Sauzet, Soturac, Touzac, Vire-sur-Lot
+- **Capa Generada:** [`Cahors.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Cahors.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Cahors', 'Puy-l'Évêque', 'Prayssac', 'Luzech', 'Albas', 'Bélaye', 'Castelfranc', 'Crayssac', 'Duravel', 'Flaujac-Poujols', 'Grezels', 'Labastide-du-Vert', 'Lacapelle-Cabanac', 'Lagardelle', 'Mauroux', 'Mercuès', 'Parnac', 'Pradines', 'Saint-Vincent-Rive-d'Olt', 'Sauzet', 'Soturac', 'Touzac', 'Vire-sur-Lot');
+  ```
+
+### AOC Madiran
+- **Región / Subcuenca:** Sud-Ouest (Piémont Pyrénéen du Vic-Bilh (Gers / Hautes-Pyrénées / Pyrénées-Atlantiques))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Madiran.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Madiran.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Madiran'`
+- **Variedades Tintas:** Tannat, Cabernet Franc, Cabernet Sauvignon, Fer Servadou
+- **Variedades Blancas:** N/A
+- **Descripción:** El templo absoluto de la uva Tannat en las colinas que miran a la cordillera pirenaica: suelos arcillo-calcáreos y cantos rodados (galets) que forjan tintos de colosal potencia polifenólica, domados por crianzas pacientes en roble.
+- **Comunas Principales:** Madiran, Aydie, Castelnau-Rivière-Basse, Crouseilles, Maumusson-Laguian, Cannet, Moncaup, Saint-Lanne, Viella, Bétracq, Lasserre, Monpezat
+- **Capa Generada:** [`Madiran.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Madiran.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Madiran', 'Aydie', 'Castelnau-Rivière-Basse', 'Crouseilles', 'Maumusson-Laguian', 'Cannet', 'Moncaup', 'Saint-Lanne', 'Viella', 'Bétracq', 'Lasserre', 'Monpezat');
+  ```
+
+### AOC Pacherenc du Vic-Bilh
+- **Región / Subcuenca:** Sud-Ouest (Piémont Pyrénéen du Vic-Bilh (Gers / Hautes-Pyrénées / Pyrénées-Atlantiques))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Pacherenc_du_Vic_Bilh.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Pacherenc_du_Vic_Bilh.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Pacherenc du Vic-Bilh'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Petit Manseng, Gros Manseng, Petit Courbu, Arrufiac
+- **Descripción:** La joya blanca del territorio de Madiran («estacas del país viejo»): sublimes vinos blancos dulces y secos de vendimias tardías de Petit y Gros Manseng, rebosantes de frutas exóticas confitadas, miel y una acidez vibrante.
+- **Comunas Principales:** Madiran, Aydie, Castelnau-Rivière-Basse, Crouseilles, Maumusson-Laguian, Cannet, Moncaup, Saint-Lanne, Viella
+- **Capa Generada:** [`Pacherenc_du_Vic_Bilh.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Pacherenc_du_Vic_Bilh.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Madiran', 'Aydie', 'Castelnau-Rivière-Basse', 'Crouseilles', 'Maumusson-Laguian', 'Cannet', 'Moncaup', 'Saint-Lanne', 'Viella');
+  ```
+
+### AOC Jurançon
+- **Región / Subcuenca:** Sud-Ouest (Piémont Pyrénéen Béarnais (Pyrénées-Atlantiques))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Jurancon.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Jurancon.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Jurançon'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Petit Manseng, Gros Manseng, Courbu, Camaralet, Lauzet
+- **Descripción:** El vino del bautizo real de Enrique IV con ajo y vino de Jurançon (1553): laderas en anfiteatro encaradas al Midi y al Pic du Midi d'Ossau donde el viento foehn deshidrata el Petit Manseng por pasificación natural sobre la vid.
+- **Comunas Principales:** Jurançon, Chapelle-de-Rousse, Monein, Saint-Faust, Aubertin, Lasseube, Lucq-de-Béarn, Gan, Cuqueron, Lacommande, Mazères-Lezons, Parbayse, Rontignon
+- **Capa Generada:** [`Jurancon.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Jurancon.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Jurançon', 'Chapelle-de-Rousse', 'Monein', 'Saint-Faust', 'Aubertin', 'Lasseube', 'Lucq-de-Béarn', 'Gan', 'Cuqueron', 'Lacommande', 'Mazères-Lezons', 'Parbayse', 'Rontignon');
+  ```
+
+### AOC Irouléguy
+- **Región / Subcuenca:** Sud-Ouest (Pays Basque / Nafarroa Beherea (Pyrénées-Atlantiques))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Irouleguy.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Irouleguy.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Irouléguy'`
+- **Variedades Tintas:** Tannat, Cabernet Franc, Cabernet Sauvignon
+- **Variedades Blancas:** Gros Manseng, Petit Manseng, Petit Courbu
+- **Descripción:** El único viñedo del País Vasco francés en el corazón de la Baja Navarra: terrazas vertiginosas sobre areniscas rojas del Triásico y esquistos con pendientes de hasta el 60%, alumbrando tintos salvajes de Tannat y blancos minerales.
+- **Comunas Principales:** Irouléguy, Saint-Étienne-de-Baïgorry, Anhaux, Ascarat, Ispoure, Jaxu, Lasse, Ossès, Saint-Jean-Pied-de-Port, Bussunarits-Sarrasquette
+- **Capa Generada:** [`Irouleguy.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Irouleguy.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Irouléguy', 'Saint-Étienne-de-Baïgorry', 'Anhaux', 'Ascarat', 'Ispoure', 'Jaxu', 'Lasse', 'Ossès', 'Saint-Jean-Pied-de-Port', 'Bussunarits-Sarrasquette');
+  ```
+
+### AOC Gaillac
+- **Región / Subcuenca:** Sud-Ouest (Vallée du Tarn & Plateau Cordais (Tarn))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Gaillac.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Gaillac.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Gaillac'`
+- **Variedades Tintas:** Duras, Braucol (Fer Servadou), Prunelart, Syrah, Cabernet Sauvignon
+- **Variedades Blancas:** Mauzac, Loin de l'Œil (Len de l'Elh), Muscadelle, Ondenc, Sauvignon blanc
+- **Descripción:** Uno de los viñedos más antiguos de la Galia plantado por los romanos y preservado por la abadía de Saint-Michel: excepcional patrimonio de uvas autóctonas únicas (Braucol, Duras, Prunelart, Len de l'Elh) y su legendario método ancestral espumoso.
+- **Comunas Principales:** Gaillac, Albi, Castelnau-de-Montmiral, Cordes-sur-Ciel, Lagrave, Lisle-sur-Tarn, Rabastens, Cahuzac-sur-Vère, Broze, Montels
+- **Capa Generada:** [`Gaillac.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Gaillac.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Gaillac', 'Albi', 'Castelnau-de-Montmiral', 'Cordes-sur-Ciel', 'Lagrave', 'Lisle-sur-Tarn', 'Rabastens', 'Cahuzac-sur-Vère', 'Broze', 'Montels');
+  ```
+
+### AOC Gaillac premières côtes
+- **Región / Subcuenca:** Sud-Ouest (Coteaux de la Rive Droite du Tarn (Tarn))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Gaillac.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Gaillac.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Gaillac premières côtes'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Mauzac, Loin de l'Œil, Muscadelle, Sauvignon blanc
+- **Descripción:** Las laderas calcáreas privilegiadas de la margen derecha del Tarn: suelos de arcillo-calcáreos sobre la roca madre de la meseta cordesa reservados en exclusiva para excelsos vinos blancos secos y dulces.
+- **Comunas Principales:** Broze, Cahuzac-sur-Vère, Castelnau-de-Montmiral, Gaillac, Montels, Rivens, Sainte-Cécile-du-Cayrou, Villeneuve-sur-Vère
+- **Capa Generada:** [`Gaillac_Premieres_Cotes.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Gaillac_Premieres_Cotes.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Broze', 'Cahuzac-sur-Vère', 'Castelnau-de-Montmiral', 'Gaillac', 'Montels', 'Rivens', 'Sainte-Cécile-du-Cayrou', 'Villeneuve-sur-Vère');
+  ```
+
+### AOC Fronton
+- **Región / Subcuenca:** Sud-Ouest (Terrasses de la Garonne et du Tarn (Haute-Garonne / Tarn-et-Garonne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Fronton.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Fronton.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Fronton'`
+- **Variedades Tintas:** Négrette, Syrah, Cabernet Franc, Cabernet Sauvignon, Côt, Gamay
+- **Variedades Blancas:** N/A
+- **Descripción:** A las puertas de Toulouse: el terruño exclusivo de la uva Négrette (mínimo 50%), cultivada sobre tres terrazas de aluvión cuarcítico («boulbènes») que aporta notas arrebatadoras de violeta, peonía y regaliz negro.
+- **Comunas Principales:** Fronton, Bouloc, Castelnau-d'Estrétefonds, Vacquiers, Villaudric, Villariès, Campsas, Canals, Dieupentale, Fabas, Grisolles, Nohic, Pompignan
+- **Capa Generada:** [`Fronton.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Fronton.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Fronton', 'Bouloc', 'Castelnau-d'Estrétefonds', 'Vacquiers', 'Villaudric', 'Villariès', 'Campsas', 'Canals', 'Dieupentale', 'Fabas', 'Grisolles', 'Nohic', 'Pompignan');
+  ```
+
+### AOC Marcillac
+- **Región / Subcuenca:** Sud-Ouest (Vallon de Marcillac & Rougier (Aveyron))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Marcillac.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Marcillac.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Marcillac'`
+- **Variedades Tintas:** Fer Servadou (Mansois), Cabernet Franc, Cabernet Sauvignon, Merlot
+- **Variedades Blancas:** N/A
+- **Descripción:** Impresionante cañón esculpido en arcillas rojas y gres triásico («le rougier»): el reino del Mansois (Fer Servadou, mínimo 90%), cepa montaraz de taninos crujientes con aromas de pimiento rojo asado, grosella y pedernal.
+- **Comunas Principales:** Marcillac-Vallon, Balsac, Clairvaux-d'Aveyron, Mouret, Nauviale, Pruines, Saint-Christophe-Vallon, Salles-la-Source
+- **Capa Generada:** [`Marcillac.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Marcillac.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Marcillac-Vallon', 'Balsac', 'Clairvaux-d'Aveyron', 'Mouret', 'Nauviale', 'Pruines', 'Saint-Christophe-Vallon', 'Salles-la-Source');
+  ```
+
+### AOC Saint-Mont
+- **Región / Subcuenca:** Sud-Ouest (Collines de Gascogne / Piémont Adour (Gers))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Saint_Mont.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Saint_Mont.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Saint-Mont'`
+- **Variedades Tintas:** Tannat, Pinenc (Fer Servadou), Cabernet Franc, Cabernet Sauvignon
+- **Variedades Blancas:** Gros Manseng, Arrufiac, Petit Courbu, Clairette
+- **Descripción:** Viñedo de colinas gasconas sobre areniscas leonadas y arcillas: alberga la parcela monumental de viñas prefiloxéricas de Sarragachies (declarada Monumento Histórico), elaborando tintos y blancos de pureza ancestral.
+- **Comunas Principales:** Saint-Mont, Aignan, Plavols, Riscle, Tasque, Termes-d'Armagnac, Verlus, Viella, Castelnau-d'Auzan
+- **Capa Generada:** [`Saint_Mont.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Saint_Mont.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Saint-Mont', 'Aignan', 'Plavols', 'Riscle', 'Tasque', 'Termes-d'Armagnac', 'Verlus', 'Viella', 'Castelnau-d'Auzan');
+  ```
+
+### AOC Tursan
+- **Región / Subcuenca:** Sud-Ouest (Bassin de l'Adour (Landes / Gers))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Tursan.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Tursan.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Tursan'`
+- **Variedades Tintas:** Tannat, Cabernet Franc, Cabernet Sauvignon, Fer Servadou
+- **Variedades Blancas:** Baroque, Gros Manseng, Sauvignon blanc
+- **Descripción:** Entre las Landas y el Bearn: cuna exclusiva de la singular variedad blanca Baroque, asociada al Gros Manseng en vinos secos aromáticos, y tintos estructurados de Tannat.
+- **Comunas Principales:** Geaune, Aire-sur-l'Adour, Eugénie-les-Bains, Payros-Cazautets, Pimbo, Samadet, Urgon, Classun
+- **Capa Generada:** [`Tursan.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Tursan.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Geaune', 'Aire-sur-l'Adour', 'Eugénie-les-Bains', 'Payros-Cazautets', 'Pimbo', 'Samadet', 'Urgon', 'Classun');
+  ```
+
+### AOC Béarn
+- **Región / Subcuenca:** Sud-Ouest (Bassin Béarnais (Pyrénées-Atlantiques / Hautes-Pyrénées))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Bearn.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Bearn.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Béarn'`
+- **Variedades Tintas:** Tannat, Cabernet Franc, Cabernet Sauvignon, Fer Servadou
+- **Variedades Blancas:** Raffiat de Moncade, Gros Manseng, Petit Manseng
+- **Descripción:** Tierras históricas del Vizcondado de Bearn en torno al Gave de Pau: tintos y rosados generosos de Tannat y Cabernet, junto a blancos donde pervive la rarísima variedad Raffiat de Moncade.
+- **Comunas Principales:** Bellocq, Orthez, Salies-de-Béarn, Sauveterre-de-Béarn, Lahontan
+- **Capa Generada:** [`Bearn.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Bearn.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Bellocq', 'Orthez', 'Salies-de-Béarn', 'Sauveterre-de-Béarn', 'Lahontan');
+  ```
+
+### AOC Saint-Sardos
+- **Región / Subcuenca:** Sud-Ouest (Lomagne / Garonne (Tarn-et-Garonne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Saint_Sardos.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Saint_Sardos.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Saint-Sardos'`
+- **Variedades Tintas:** Syrah, Tannat, Cabernet Franc, Merlot
+- **Variedades Blancas:** N/A
+- **Descripción:** Al sur de Montauban: encuentro fascinante entre la finura especiada de la Syrah (mínimo 40%) y la recia estructura gascona del Tannat sobre colinas de arcillas y calizas de Lomagne.
+- **Comunas Principales:** Saint-Sardos, Beaumont-de-Lomagne, Bouillac, Comberouger, Mas-Grenier, Savenès, Verdun-sur-Garonne
+- **Capa Generada:** [`Saint_Sardos.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Saint_Sardos.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Saint-Sardos', 'Beaumont-de-Lomagne', 'Bouillac', 'Comberouger', 'Mas-Grenier', 'Savenès', 'Verdun-sur-Garonne');
+  ```
+
+### AOC Brulhois
+- **Región / Subcuenca:** Sud-Ouest (Coteaux de Garonne (Lot-et-Garonne / Tarn-et-Garonne / Gers))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Brulhois.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Brulhois.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Brulhois'`
+- **Variedades Tintas:** Tannat, Cabernet Franc, Merlot, Cabernet Sauvignon, Malbec, Fer Servadou
+- **Variedades Blancas:** N/A
+- **Descripción:** Los «Vinos Negros» del sur de Agen: laderas de cascajo y arcillas pedregosas donde el Tannat ensamblado con Cabernet Franc y Merlot engendra vinos de capa impenetrable y firme carnosidad.
+- **Comunas Principales:** Astaffort, Layrac, Dunes, Donzac, Auvillar, Fals, Cuq, Caudecoste
+- **Capa Generada:** [`Brulhois.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Brulhois.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Astaffort', 'Layrac', 'Dunes', 'Donzac', 'Auvillar', 'Fals', 'Cuq', 'Caudecoste');
+  ```
+
+### AOC Buzet
+- **Región / Subcuenca:** Sud-Ouest (Val de Garonne & Baïse (Lot-et-Garonne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Buzet.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Buzet.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Buzet'`
+- **Variedades Tintas:** Merlot, Cabernet Sauvignon, Cabernet Franc, Côt
+- **Variedades Blancas:** Sémillon, Sauvignon blanc, Muscadelle
+- **Descripción:** Entre las Landas y el río Garona: viñedos de tradición cooperativa pionera en agroecología sobre mesetas de gravas y calizas, elaborando tintos elegantes, redondos y aromáticos.
+- **Comunas Principales:** Buzet-sur-Baïse, Damazan, Feugarolles, Nérac, Vianne, Xaintrailles, Ambrus, Thouars-sur-Garonne
+- **Capa Generada:** [`Buzet.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Buzet.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Buzet-sur-Baïse', 'Damazan', 'Feugarolles', 'Nérac', 'Vianne', 'Xaintrailles', 'Ambrus', 'Thouars-sur-Garonne');
+  ```
+
+### AOC Côtes de Duras
+- **Región / Subcuenca:** Sud-Ouest (Vallée du Dropt (Lot-et-Garonne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Cotes_de_Duras.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Cotes_de_Duras.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Côtes de Duras'`
+- **Variedades Tintas:** Merlot, Cabernet Sauvignon, Cabernet Franc, Côt
+- **Variedades Blancas:** Sauvignon blanc, Sémillon, Muscadelle, Mauzac, Ondenc
+- **Descripción:** Alrededor del castillo de los Duques de Duras: viñedos de gran equilibrio que gozan de la frescura del río Dropt, reconocidos tanto por sus Sauvignon blancos cítricos y vivaces como por sus tintos sedosos.
+- **Comunas Principales:** Duras, Auriac-sur-Dropt, Baleyssagues, Esclottes, Loubès-Bernac, Pardaillan, Saint-Astier, Sainte-Colombe-de-Duras, Soumensac
+- **Capa Generada:** [`Cotes_de_Duras.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Cotes_de_Duras.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Duras', 'Auriac-sur-Dropt', 'Baleyssagues', 'Esclottes', 'Loubès-Bernac', 'Pardaillan', 'Saint-Astier', 'Sainte-Colombe-de-Duras', 'Soumensac');
+  ```
+
+### AOC Côtes du Marmandais
+- **Región / Subcuenca:** Sud-Ouest (Deux Rives de la Garonne (Lot-et-Garonne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Cotes_du_Marmandais.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Cotes_du_Marmandais.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Côtes du Marmandais'`
+- **Variedades Tintas:** Abouriou, Merlot, Cabernet Franc, Cabernet Sauvignon, Malbec, Syrah
+- **Variedades Blancas:** Sauvignon blanc, Sémillon, Muscadelle
+- **Descripción:** A ambas orillas del río Garona: cuna de la insólita cepa autóctona Abouriou, que confiere a los ensamblajes tintos una textura carnosa y notas exuberantes de mora silvestre y especias.
+- **Comunas Principales:** Marmande, Beaupuy, Cocumont, Meilhan-sur-Garonne, Sainte-Bazeille, Samazan, Bouglon, Romestaing
+- **Capa Generada:** [`Cotes_du_Marmandais.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Cotes_du_Marmandais.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Marmande', 'Beaupuy', 'Cocumont', 'Meilhan-sur-Garonne', 'Sainte-Bazeille', 'Samazan', 'Bouglon', 'Romestaing');
+  ```
+
+### AOC Bergerac
+- **Región / Subcuenca:** Sud-Ouest (Périgord Pourpre (Dordogne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Bergerac.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Bergerac.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Bergerac'`
+- **Variedades Tintas:** Merlot, Cabernet Sauvignon, Cabernet Franc, Côt (Malbec)
+- **Variedades Blancas:** Sauvignon blanc, Sémillon, Muscadelle, Ondenc, Chenin blanc
+- **Descripción:** El corazón del Périgord Púrpura a lo largo de las riberas del Dordoña: vasta denominación regional que aúna tintos frescos y frutales con blancos secos vibrantes y aromáticos.
+- **Comunas Principales:** Bergerac, Creysse, Gardonne, Lamonzie-Saint-Martin, Prigonrieux, Sigoulès, Eymet, La Force, Cunèges, Mouleydier
+- **Capa Generada:** [`Bergerac.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Bergerac.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Bergerac', 'Creysse', 'Gardonne', 'Lamonzie-Saint-Martin', 'Prigonrieux', 'Sigoulès', 'Eymet', 'La Force', 'Cunèges', 'Mouleydier');
+  ```
+
+### AOC Côtes de Bergerac
+- **Región / Subcuenca:** Sud-Ouest (Périgord Pourpre (Dordogne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Bergerac.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Bergerac.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Côtes de Bergerac'`
+- **Variedades Tintas:** Merlot, Cabernet Sauvignon, Cabernet Franc, Côt
+- **Variedades Blancas:** Sémillon, Sauvignon blanc, Muscadelle
+- **Descripción:** La selección cualitativa de las mejores laderas del Bergeracois: rendimientos más bajos y mayor maduración para tintos de guarda ricos y estructurados, y blancos moelleux de gran untuosidad.
+- **Comunas Principales:** Bergerac, Monbazillac, Pomport, Saussignac, Gageac-et-Rouillac, Razac-de-Saussignac
+- **Capa Generada:** [`Cotes_de_Bergerac.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Cotes_de_Bergerac.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Bergerac', 'Monbazillac', 'Pomport', 'Saussignac', 'Gageac-et-Rouillac', 'Razac-de-Saussignac');
+  ```
+
+### AOC Monbazillac
+- **Región / Subcuenca:** Sud-Ouest (Coteaux Sud de la Dordogne (Dordogne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Monbazillac.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Monbazillac.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Monbazillac'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Sémillon, Sauvignon blanc, Muscadelle
+- **Descripción:** El mítico vino licoroso del Périgord nacido bajo el castillo renacentista de Monbazillac: nieblas otoñales del río Gardonette que favorecen la botrytis cinérea (podredumbre noble) sobre Sémillon y Muscadelle.
+- **Comunas Principales:** Monbazillac, Colombier, Pomport, Rouffignac-de-Sigoulès, Saint-Laurent-des-Vignes
+- **Capa Generada:** [`Monbazillac.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Monbazillac.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Monbazillac', 'Colombier', 'Pomport', 'Rouffignac-de-Sigoulès', 'Saint-Laurent-des-Vignes');
+  ```
+
+### AOC Pécharmant
+- **Región / Subcuenca:** Sud-Ouest (Colline du Pech Charmant (Dordogne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Pecharmant.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Pecharmant.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Pécharmant'`
+- **Variedades Tintas:** Merlot, Cabernet Franc, Cabernet Sauvignon, Côt
+- **Variedades Blancas:** N/A
+- **Descripción:** El cru tinto más prestigioso del Bergeracois: colina («pech») al noreste de Bergerac con suelos de arenas y gravas del Périgord sobre una capa profunda de arcilla ferruginosa llamada «tran», forjando tintos opulentos y de gran guarda.
+- **Comunas Principales:** Bergerac, Creysse, Lembras, Saint-Sauveur
+- **Capa Generada:** [`Pecharmant.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Pecharmant.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Bergerac', 'Creysse', 'Lembras', 'Saint-Sauveur');
+  ```
+
+### AOC Saussignac
+- **Región / Subcuenca:** Sud-Ouest (Coteaux du Sud-Ouest Bergeracois (Dordogne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Saussignac.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Saussignac.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Saussignac'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Sémillon, Sauvignon blanc, Muscadelle, Chenin blanc
+- **Descripción:** Gran vino licoroso de producción muy limitada: vendimias manuales grano a grano por sucesivas selecciones («tries») de uvas botritizadas y pasificadas, con aromas de orejones, cera de abeja y naranja amarga.
+- **Comunas Principales:** Saussignac, Gageac-et-Rouillac, Monestier, Razac-de-Saussignac
+- **Capa Generada:** [`Saussignac.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Saussignac.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Saussignac', 'Gageac-et-Rouillac', 'Monestier', 'Razac-de-Saussignac');
+  ```
+
+### AOC Rosette
+- **Región / Subcuenca:** Sud-Ouest (Coteaux Nord de Bergerac (Dordogne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Rosette.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Rosette.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Rosette'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Sémillon, Sauvignon blanc, Muscadelle
+- **Descripción:** Minúscula denominación de vinos blancos semidulces («moelleux»): colinas orientadas al mediodía sobre arcillas y arenas que dan vinos de extrema delicadeza, redondos y florales.
+- **Comunas Principales:** Bergerac, Ginestet, Lembras, Maurens, Prigonrieux, Saint-Laurent-des-Vignes
+- **Capa Generada:** [`Rosette.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Rosette.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Bergerac', 'Ginestet', 'Lembras', 'Maurens', 'Prigonrieux', 'Saint-Laurent-des-Vignes');
+  ```
+
+### AOC Montravel
+- **Región / Subcuenca:** Sud-Ouest (Plateau de Montravel (Dordogne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Montravel.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Montravel.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Montravel'`
+- **Variedades Tintas:** Merlot, Cabernet Franc, Cabernet Sauvignon, Côt
+- **Variedades Blancas:** Sémillon, Sauvignon blanc, Muscadelle
+- **Descripción:** La tierra del filósofo Michel de Montaigne en el confín occidental del Périgord: meseta caliza sobre el río Dordoña contigua a Saint-Émilion, cuna de tintos distinguidos y blancos secos aromáticos.
+- **Comunas Principales:** Lamothe-Montravel, Montcaret, Saint-Michel-de-Montaigne, Bonneville-et-Saint-Avit-de-Fumadières, Montazeau, Saint-Seurin-de-Prats
+- **Capa Generada:** [`Montravel.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Montravel.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Lamothe-Montravel', 'Montcaret', 'Saint-Michel-de-Montaigne', 'Bonneville-et-Saint-Avit-de-Fumadières', 'Montazeau', 'Saint-Seurin-de-Prats');
+  ```
+
+### AOC Côtes de Montravel
+- **Región / Subcuenca:** Sud-Ouest (Coteaux de Montravel (Dordogne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Montravel.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Montravel.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Côtes de Montravel'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Sémillon, Sauvignon blanc, Muscadelle
+- **Descripción:** Laderas meridionales de Montravel reservadas a vinos blancos semidulces (moelleux) de gran finura y equilibrio entre frescura frutal y dulzor almibarado.
+- **Comunas Principales:** Lamothe-Montravel, Montcaret, Saint-Michel-de-Montaigne, Montazeau, Saint-Vivien
+- **Capa Generada:** [`Cotes_de_Montravel.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Cotes_de_Montravel.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Lamothe-Montravel', 'Montcaret', 'Saint-Michel-de-Montaigne', 'Montazeau', 'Saint-Vivien');
+  ```
+
+### AOC Haut-Montravel
+- **Región / Subcuenca:** Sud-Ouest (Hauts Coteaux de Montravel (Dordogne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Montravel.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Montravel.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Haut-Montravel'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Sémillon, Sauvignon blanc, Muscadelle
+- **Descripción:** Los vinos licorosos más nobles de Montravel: vendimiados exclusivamente en sobremaduración con botrytis seleccionada a mano, de textura densa y suntuosa con notas de albaricoque y flores blancas.
+- **Comunas Principales:** Saint-Michel-de-Montaigne, Montazeau, Saint-Vivien, Fougueyrolles, Nastringues
+- **Capa Generada:** [`Haut_Montravel.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Haut_Montravel.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Saint-Michel-de-Montaigne', 'Montazeau', 'Saint-Vivien', 'Fougueyrolles', 'Nastringues');
+  ```
+
+### AOC Côtes de Millau
+- **Región / Subcuenca:** Sud-Ouest (Gorges du Tarn (Aveyron))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Cotes_de_Millau.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Cotes_de_Millau.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Côtes de Millau'`
+- **Variedades Tintas:** Gamay, Syrah, Fer Servadou, Cabernet Franc
+- **Variedades Blancas:** Chenin blanc, Mauzac
+- **Descripción:** Viñedos de montaña bajo los imponentes pilares del Viaducto de Millau: bancales en las hoces del Tarn sobre canchales calcáreos, célebres por sus tintos frescos de Gamay y Syrah.
+- **Comunas Principales:** Millau, Compeyre, Aguessac, Creissels, Paulhe, Peyreleau, Rivière-sur-Tarn, Saint-Beauzély
+- **Capa Generada:** [`Cotes_de_Millau.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Cotes_de_Millau.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Millau', 'Compeyre', 'Aguessac', 'Creissels', 'Paulhe', 'Peyreleau', 'Rivière-sur-Tarn', 'Saint-Beauzély');
+  ```
+
+### AOC Entraygues - Le Fel
+- **Región / Subcuenca:** Sud-Ouest (Gorges du Lot et de la Truyère (Aveyron / Cantal))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Entraygues_Le_Fel.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Entraygues_Le_Fel.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Entraygues - Le Fel'`
+- **Variedades Tintas:** Fer Servadou, Cabernet Franc, Mouyssaguès
+- **Variedades Blancas:** Chenin blanc, Mauzac
+- **Descripción:** En la confluencia salvaje del Lot y la Truyère: terrazas escarpadas de esquistos y granito con Chenin blanco de mineralidad punzante y tintos rústicos de Fer Servadou.
+- **Comunas Principales:** Entraygues-sur-Truyère, Le Fel, Campuac, Golinhac, Saint-Amans-des-Cots, Cassaniouze, Vieillevie
+- **Capa Generada:** [`Entraygues_Le_Fel.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Entraygues_Le_Fel.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Entraygues-sur-Truyère', 'Le Fel', 'Campuac', 'Golinhac', 'Saint-Amans-des-Cots', 'Cassaniouze', 'Vieillevie');
+  ```
+
+### AOC Estaing
+- **Región / Subcuenca:** Sud-Ouest (Haute Vallée du Lot (Aveyron))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Estaing.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Estaing.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Estaing'`
+- **Variedades Tintas:** Fer Servadou, Gamay, Cabernet Franc, Pinot Noir
+- **Variedades Blancas:** Mauzac, Chenin blanc
+- **Descripción:** Uno de los viñedos AOC más pequeños de Francia (unas 20 hectáreas) a los pies del castillo medieval de Estaing en el Camino de Santiago: terrazas pizarrosas de extrema pureza artesanal.
+- **Comunas Principales:** Estaing, Coubisou, Sébrazac
+- **Capa Generada:** [`Estaing.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Estaing.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Estaing', 'Coubisou', 'Sébrazac');
+  ```
+
+### AOC Corrèze
+- **Región / Subcuenca:** Sud-Ouest (Bassin de Brive (Corrèze))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Correze.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Correze.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Corrèze'`
+- **Variedades Tintas:** Cabernet Franc, Merlot
+- **Variedades Blancas:** Chenin blanc, Chardonnay
+- **Descripción:** El renacimiento vitivinícola del Lemosín meridional (reconocida en 2017): famosa por sus tintos de Cabernet Franc y su legendario «Vin Paillé» (vino de paja), uvas secadas pacientemente en paseras de mimbre.
+- **Comunas Principales:** Brive-la-Gaillarde, Queyssac-les-Vignes, Branceilles, Curemonte, Jugeals-Nazareth, Liourdres, Noailles, Sioniac, Végennes
+- **Capa Generada:** [`Correze.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Correze.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Brive-la-Gaillarde', 'Queyssac-les-Vignes', 'Branceilles', 'Curemonte', 'Jugeals-Nazareth', 'Liourdres', 'Noailles', 'Sioniac', 'Végennes');
+  ```
+
+### AOC Corrèze Coteaux de la Vézère
+- **Región / Subcuenca:** Sud-Ouest (Vallée de la Vézère (Corrèze))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Correze.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Correze.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Corrèze Coteaux de la Vézère'`
+- **Variedades Tintas:** Cabernet Franc
+- **Variedades Blancas:** Chenin blanc
+- **Descripción:** Laderas pizarrosas y esquistos negros de la falla de la Vézère: monovarietales de Chenin blanco de asombrosa salinidad y tensión mineral, y tintos puros de Cabernet Franc.
+- **Comunas Principales:** Allassac, Donzenac, Voutezac
+- **Capa Generada:** [`Correze_Coteaux_de_la_Vezere.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Correze_Coteaux_de_la_Vezere.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Allassac', 'Donzenac', 'Voutezac');
+  ```
+
+### AOC Floc de Gascogne
+- **Región / Subcuenca:** Sud-Ouest (Territoire de l'Armagnac (Gers / Landes / Lot-et-Garonne))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Floc_de_Gascogne.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Sud_Ouest/Floc_de_Gascogne.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Floc de Gascogne'`
+- **Variedades Tintas:** Cabernet Franc, Cabernet Sauvignon, Merlot, Tannat
+- **Variedades Blancas:** Colombard, Ugni blanc, Gros Manseng
+- **Descripción:** El aperitivo tradicional de Gascuña («ramillete de flores»): mistela de AOC obtenida de la unión armoniosa de 2/3 de mosto fresco de uvas gasconas y 1/3 de aguardiente joven de Armagnac con Denominación de Origen.
+- **Comunas Principales:** Éauze, Condom, Nogaro, Lectoure, Fleurance, Vic-Fezensac, Mont-de-Marsan, Nérac
+- **Capa Generada:** [`Floc_de_Gascogne.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Sud_Ouest/Floc_de_Gascogne.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Éauze', 'Condom', 'Nogaro', 'Lectoure', 'Fleurance', 'Vic-Fezensac', 'Mont-de-Marsan', 'Nérac');
+  ```
+
+## 13. Jura
+
+Total denominaciones en el Jura: **7 AOCs oficiales** con el 100% de pliegos de condiciones del Ministerio de Agricultura y delimitación vectorial oficial del INAO:
+- **La capital histórica y sus crus:** *AOC Arbois (la primera AOC homologada de Francia en 1936) y AOC Arbois Pupillin (la capital mundial del Ploussard)*.
+- **El santuario legendario del Vin Jaune:** *AOC Château-Chalon (el acantilado de margas azules del Lías donde el Savagnin alcanza la inmortalidad bajo velo en botella Clavelin de 62 cl)*.
+- **El terruño de los fósiles estrellados:** *AOC L'Étoile (cinco colinas y pentacrinites marinos)*.
+- **La franja del Revermont:** *AOC Côtes du Jura, AOC Crémant du Jura (método tradicional de montaña) y AOC Macvin du Jura (mistela histórica de orujo y mosto desde el siglo XIV)*.
+
+### AOC Arbois
+- **Región / Subcuenca:** Jura (Vignoble d'Arbois (Jura))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Arbois.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Jura/Arbois.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Arbois'`
+- **Variedades Tintas:** Poulsard (Ploussard), Trousseau, Pinot Noir
+- **Variedades Blancas:** Savagnin, Chardonnay
+- **Descripción:** La capital histórica del vino jurasiano y la primera AOC homologada de Francia (1936): terruño de margas iridiscentes del Triásico y Lías, famoso por sus vinos de velo («sous voile»), Vin Jaune y tintos singulares de Poulsard y Trousseau.
+- **Comunas Principales:** Arbois, Les Arsures, Mathenay, Mesnay, Molamboz, Montigny-lès-Arsures, Planches-près-Arbois, Pupillin, Saint-Cyr-Montmalin, Vadans, Villette-lès-Arbois
+- **Capa Generada:** [`Arbois.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Jura/Arbois.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Arbois', 'Les Arsures', 'Mathenay', 'Mesnay', 'Molamboz', 'Montigny-lès-Arsures', 'Planches-près-Arbois', 'Pupillin', 'Saint-Cyr-Montmalin', 'Vadans', 'Villette-lès-Arbois');
+  ```
+
+### AOC Arbois Pupillin
+- **Región / Subcuenca:** Jura (Cirque de Pupillin (Jura))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Arbois.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Jura/Arbois.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Arbois Pupillin'`
+- **Variedades Tintas:** Poulsard (Ploussard), Trousseau
+- **Variedades Blancas:** Savagnin, Chardonnay
+- **Descripción:** La «Capital Mundial del Ploussard»: circo de margas jurásicas en torno a la aldea de Pupillin que entrega la máxima expresión etérea, floral y especiada de la variedad Poulsard.
+- **Comunas Principales:** Pupillin
+- **Capa Generada:** [`Arbois_Pupillin.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Jura/Arbois_Pupillin.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Pupillin');
+  ```
+
+### AOC Château-Chalon
+- **Región / Subcuenca:** Jura (Falaise de Château-Chalon (Jura))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Chateau_Chalon.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Jura/Chateau_Chalon.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Château-Chalon'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Savagnin
+- **Descripción:** El santuario mundial del Vin Jaune: acantilado colosal sobre margas azules del Lías donde el Savagnin envejece 6 años y 3 meses en barrica bajo un velo de levaduras sin rellenar («ouillage»), embotellado en el icónico Clavelin de 62 cl con notas inmortales de nuez, curry y sotobosque.
+- **Comunas Principales:** Château-Chalon, Domblans, Menétru-le-Vignoble, Nevy-sur-Seille
+- **Capa Generada:** [`Chateau_Chalon.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Jura/Chateau_Chalon.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Château-Chalon', 'Domblans', 'Menétru-le-Vignoble', 'Nevy-sur-Seille');
+  ```
+
+### AOC L'Étoile
+- **Región / Subcuenca:** Jura (Bassin des Cinq Collines (Jura))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [L_Etoile.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Jura/L_Etoile.pdf)
+- **Filtro Shapefile INAO:** `denom = 'L''Etoile'`
+- **Variedades Tintas:** Poulsard
+- **Variedades Blancas:** Chardonnay, Savagnin
+- **Descripción:** Rodeada por cinco colinas que forman una estrella y sobre suelos repletos de «pentacrinites» (fósiles estelares marinos): terruño de calizas y margas reservado casi exclusivamente para grandes blancos minerales y Vins Jaunes de sublime elegancia.
+- **Comunas Principales:** L'Étoile, Plainoiseau, Quintigny, Saint-Didier
+- **Capa Generada:** [`L_Etoile.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Jura/L_Etoile.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('L'Étoile', 'Plainoiseau', 'Quintigny', 'Saint-Didier');
+  ```
+
+### AOC Côtes du Jura
+- **Región / Subcuenca:** Jura (Revermont Jurassien (Jura))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Cotes_du_Jura.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Jura/Cotes_du_Jura.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Côtes du Jura'`
+- **Variedades Tintas:** Poulsard, Trousseau, Pinot Noir
+- **Variedades Blancas:** Chardonnay, Savagnin
+- **Descripción:** La denominación que recorre de norte a sur el Revermont jurasiano a lo largo de 80 km: colinas entre las llanuras de Bresse y el primer escalón del Jura, cuna de vinos ouillés contemporáneos, tradicionales sous voile y el dulce Vin de Paille.
+- **Comunas Principales:** Poligny, Lons-le-Saunier, Voiteur, Salins-les-Bains, Beaufort, Gevingey, Rotalier, Passenans, Saint-Lothain
+- **Capa Generada:** [`Cotes_du_Jura.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Jura/Cotes_du_Jura.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Poligny', 'Lons-le-Saunier', 'Voiteur', 'Salins-les-Bains', 'Beaufort', 'Gevingey', 'Rotalier', 'Passenans', 'Saint-Lothain');
+  ```
+
+### AOC Crémant du Jura
+- **Región / Subcuenca:** Jura (Revermont Jurassien (Jura))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Cremant_du_Jura.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Jura/Cremant_du_Jura.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Crémant du Jura'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Chardonnay, Pinot Noir, Poulsard, Trousseau, Savagnin
+- **Descripción:** Método tradicional de montaña de gran pureza y frescura alpina: burbujas finísimas elaboradas principalmente con Chardonnay y Pinot Noir con una crianza mínima de 12 meses sobre lías.
+- **Comunas Principales:** Poligny, Arbois, Lons-le-Saunier, Salins-les-Bains, Voiteur
+- **Capa Generada:** [`Cremant_du_Jura.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Jura/Cremant_du_Jura.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Poligny', 'Arbois', 'Lons-le-Saunier', 'Salins-les-Bains', 'Voiteur');
+  ```
+
+### AOC Macvin du Jura
+- **Región / Subcuenca:** Jura (Revermont Jurassien (Jura))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Macvin_du_Jura.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Jura/Macvin_du_Jura.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Macvin du Jura'`
+- **Variedades Tintas:** Poulsard, Trousseau, Pinot Noir
+- **Variedades Blancas:** Savagnin, Chardonnay
+- **Descripción:** El licor tradicional del Jura documentado desde el siglo XIV: mistela noble obtenida por el apagado de mosto de uva fresco con aguardiente de orujo de Jura (Marc du Jura) criado al menos 14 meses en roble.
+- **Comunas Principales:** Arbois, Poligny, Lons-le-Saunier, Château-Chalon
+- **Capa Generada:** [`Macvin_du_Jura.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Jura/Macvin_du_Jura.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Arbois', 'Poligny', 'Lons-le-Saunier', 'Château-Chalon');
+  ```
+
+## 14. Saboya (Savoie)
+
+Total denominaciones en Saboya: **23 AOCs oficiales y Crus comunales** esculpidos entre los valles glaciares y lagos alpinos:
+- **La gran figura regional alpina y sus 16 crus:** *AOC Vin de Savoie (regional), Vin de Savoie Apremont (sobre el derrumbe monumental del Mont Granier de 1248), Vin de Savoie Abymes, Vin de Savoie Arbin (el gran cru tinto de Mondeuse de la Combe), Vin de Savoie Chignin, Vin de Savoie Chignin-Bergeron (el rey blanco de Roussanne), Vin de Savoie Saint-Jean-de-la-Porte, Vin de Savoie Jongieux, Vin de Savoie Chautagne, Vin de Savoie Crépy, Vin de Savoie Ripaille, Vin de Savoie Marignan, Vin de Savoie Marin, Vin de Savoie Ayze (la uva Gringet frente al Mont Blanc), Vin de Savoie Cruet, Vin de Savoie Montmélian, Vin de Savoie Saint-Jeoire-Prieuré*.
+- **La nobleza monovarietal de la Altesse y sus crus:** *AOC Roussette de Savoie, Roussette de Savoie Frangy, Roussette de Savoie Marestel (la mítica pared del Mont de la Charvaz con 50% de desnivel), Roussette de Savoie Monterminod, Roussette de Savoie Monthoux*.
+- **El histórico desfiladero del Alto Ródano:** *AOC Seyssel (Altesse y Molette)*.
+
+### AOC Vin de Savoie
+- **Región / Subcuenca:** Savoie (Savoie Régional (Savoie / Haute-Savoie / Isère / Ain))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie ou Savoie'`
+- **Variedades Tintas:** Mondeuse noire, Gamay, Pinot Noir
+- **Variedades Blancas:** Jacquère, Altesse, Roussanne, Chasselas, Gringet
+- **Descripción:** La denominación regional alpina que abraza las laderas escarpadas de los valles glaciares de Saboya entre lagos y cumbres nevadas, célebre por la frescura cristalina de sus blancos y la personalidad especiada de la Mondeuse.
+- **Comunas Principales:** Chambéry, Montmélian, Albertville, Aix-les-Bains, Saint-Jean-de-Maurienne, Thonon-les-Bains, Annecy
+- **Capa Generada:** [`Vin_de_Savoie.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Chambéry', 'Montmélian', 'Albertville', 'Aix-les-Bains', 'Saint-Jean-de-Maurienne', 'Thonon-les-Bains', 'Annecy');
+  ```
+
+### AOC Vin de Savoie Apremont
+- **Región / Subcuenca:** Savoie (Éboulis du Mont Granier (Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Apremont'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Jacquère
+- **Descripción:** El cru más famoso de Saboya: plantado sobre el gigantesco caos de bloques calizos del desprendimiento catastrófico del Mont Granier de 1248, produciendo un blanco de Jacquère perlado, tenso y chispeante.
+- **Comunas Principales:** Apremont, Les Marches, Saint-Baldoph
+- **Capa Generada:** [`Vin_de_Savoie_Apremont.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Apremont.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Apremont', 'Les Marches', 'Saint-Baldoph');
+  ```
+
+### AOC Vin de Savoie Abymes
+- **Región / Subcuenca:** Savoie (Éboulis du Mont Granier (Savoie / Isère))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Abymes ou Les Abymes'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Jacquère
+- **Descripción:** En el corazón de los «abismos» de rocas del Granier: Jacquère pura sobre canchales calcáreos que entrega notas de cítricos, flores blancas y una acidez mineral crujiente.
+- **Comunas Principales:** Les Marches, Myans, Chapareillan
+- **Capa Generada:** [`Vin_de_Savoie_Abymes.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Abymes.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Les Marches', 'Myans', 'Chapareillan');
+  ```
+
+### AOC Vin de Savoie Arbin
+- **Región / Subcuenca:** Savoie (Combe de Savoie (Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Arbin'`
+- **Variedades Tintas:** Mondeuse noire
+- **Variedades Blancas:** N/A
+- **Descripción:** El gran cru tinto de Saboya: laderas abruptas orientadas al sur en la Combe de Savoie sobre margas oscuras donde la Mondeuse negra alcanza una suntuosa concentración de mora silvestre, pimienta blanca y regaliz.
+- **Comunas Principales:** Arbin, Montmélian
+- **Capa Generada:** [`Vin_de_Savoie_Arbin.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Arbin.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Arbin', 'Montmélian');
+  ```
+
+### AOC Vin de Savoie Chignin
+- **Región / Subcuenca:** Savoie (Piedmont des Bauges (Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Chignin'`
+- **Variedades Tintas:** Mondeuse
+- **Variedades Blancas:** Jacquère
+- **Descripción:** Bajo las torres medievales de Chignin en las estribaciones del macizo de Bauges: vinos blancos frescos de Jacquère con notas de manzana fresca y pedernal.
+- **Comunas Principales:** Chignin
+- **Capa Generada:** [`Vin_de_Savoie_Chignin.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Chignin.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Chignin');
+  ```
+
+### AOC Vin de Savoie Chignin-Bergeron
+- **Región / Subcuenca:** Savoie (Piedmont des Bauges (Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Chignin-Bergeron'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Roussanne (Bergeron)
+- **Descripción:** El aristócrata blanco de los Alpes: 100% Roussanne (llamada localmente Bergeron) plantada en las laderas más cálidas y soleadas de Chignin, ofreciendo vinos untuosos con aromas embriagadores de albaricoque, miel y mango.
+- **Comunas Principales:** Chignin, Francin, Montmélian
+- **Capa Generada:** [`Vin_de_Savoie_Chignin_Bergeron.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Chignin_Bergeron.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Chignin', 'Francin', 'Montmélian');
+  ```
+
+### AOC Vin de Savoie Saint-Jean-de-la-Porte
+- **Región / Subcuenca:** Savoie (Combe de Savoie (Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Saint-Jean-de-la-Porte'`
+- **Variedades Tintas:** Mondeuse noire
+- **Variedades Blancas:** N/A
+- **Descripción:** Cru exclusivamente tinto consagrado a la Mondeuse negra: laderas de esquistos y gravas al pie del macizo de Bauges que entregan vinos de gran estructura, nervio y frescura silvestre.
+- **Comunas Principales:** Saint-Jean-de-la-Porte
+- **Capa Generada:** [`Vin_de_Savoie_Saint_Jean_de_la_Porte.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Saint_Jean_de_la_Porte.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Saint-Jean-de-la-Porte');
+  ```
+
+### AOC Vin de Savoie Jongieux
+- **Región / Subcuenca:** Savoie (Avant-Pays Savoyard (Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Jongieux'`
+- **Variedades Tintas:** Gamay, Mondeuse
+- **Variedades Blancas:** Jacquère
+- **Descripción:** Laderas soleadas dominando el curso alto del río Ródano al oeste del Lac du Bourget: viñedo de bancales calizos famoso por sus tintos sabrosos de Gamay y blancos vivaces de Jacquère.
+- **Comunas Principales:** Jongieux, Billième, Lucey, Saint-Jean-de-Chevelu, Yenne
+- **Capa Generada:** [`Vin_de_Savoie_Jongieux.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Jongieux.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Jongieux', 'Billième', 'Lucey', 'Saint-Jean-de-Chevelu', 'Yenne');
+  ```
+
+### AOC Vin de Savoie Chautagne
+- **Región / Subcuenca:** Savoie (Nord du Lac du Bourget (Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Chautagne'`
+- **Variedades Tintas:** Gamay, Mondeuse, Pinot Noir
+- **Variedades Blancas:** Jacquère, Altesse
+- **Descripción:** Al norte del Lac du Bourget: el viñedo de clima más cálido y templado de Saboya gracias al efecto regulador del lago, propicio para tintos aterciopelados y florales de Gamay y Pinot Noir.
+- **Comunas Principales:** Chindrieux, Ruffieux, Serrières-en-Chautagne, Cessens
+- **Capa Generada:** [`Vin_de_Savoie_Chautagne.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Chautagne.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Chindrieux', 'Ruffieux', 'Serrières-en-Chautagne', 'Cessens');
+  ```
+
+### AOC Vin de Savoie Crépy
+- **Región / Subcuenca:** Savoie (Bas-Chablais / Lac Léman (Haute-Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Crépy'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Chasselas
+- **Descripción:** Sobre las colinas morrénicas glaciares frente a las aguas del lago Léman: monovarietal de Chasselas con un toque perlado natural, notas de avellana fresca y flores de tilo.
+- **Comunas Principales:** Ballaison, Douvaine, Loisin
+- **Capa Generada:** [`Vin_de_Savoie_Crepy.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Crepy.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Ballaison', 'Douvaine', 'Loisin');
+  ```
+
+### AOC Vin de Savoie Ripaille
+- **Región / Subcuenca:** Savoie (Rives du Lac Léman (Haute-Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Ripaille'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Chasselas
+- **Descripción:** En el parque secular del Château de Ripaille donde residió el duque Amadeo VIII de Saboya: viñedo plantado a orillas del lago Léman con Chasselas fresco, delicado y ligeramente alimonado.
+- **Comunas Principales:** Thonon-les-Bains
+- **Capa Generada:** [`Vin_de_Savoie_Ripaille.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Ripaille.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Thonon-les-Bains');
+  ```
+
+### AOC Vin de Savoie Marignan
+- **Región / Subcuenca:** Savoie (Rives du Lac Léman (Haute-Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Marignan'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Chasselas
+- **Descripción:** Enclave histórico cultivado desde el siglo XII por los monjes de la abadía de Sainte-Marie de Guilherand sobre el golfo de Coudrée en el lago Léman.
+- **Comunas Principales:** Sciez
+- **Capa Generada:** [`Vin_de_Savoie_Marignan.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Marignan.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Sciez');
+  ```
+
+### AOC Vin de Savoie Marin
+- **Región / Subcuenca:** Savoie (Rives du Lac Léman (Haute-Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Marin'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Chasselas
+- **Descripción:** Laderas orientadas al sur dominando la bahía de Évian sobre el lago Léman: vinos blancos minerales y cristalinos de uva Chasselas.
+- **Comunas Principales:** Marin, Publier
+- **Capa Generada:** [`Vin_de_Savoie_Marin.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Marin.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Marin', 'Publier');
+  ```
+
+### AOC Vin de Savoie Ayze
+- **Región / Subcuenca:** Savoie (Vallée de l'Arve (Haute-Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Ayze'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Gringet, Roussette (Altesse)
+- **Descripción:** Viñedo de alta montaña al pie del Môle y frente al macizo del Mont Blanc: santuario de la rarísima variedad autóctona Gringet, célebre por sus vinos espumosos y blancos de vigor alpino incomparable.
+- **Comunas Principales:** Ayse, Bonneville, Marignier
+- **Capa Generada:** [`Vin_de_Savoie_Ayze.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Ayze.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Ayse', 'Bonneville', 'Marignier');
+  ```
+
+### AOC Vin de Savoie Cruet
+- **Región / Subcuenca:** Savoie (Combe de Savoie (Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Cruet'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Jacquère
+- **Descripción:** Laderas soleadas de la Combe de Savoie sobre canchales calcáreos: vinos blancos de Jacquère muy finos, aéreos y con fondo de flores de montaña.
+- **Comunas Principales:** Cruet
+- **Capa Generada:** [`Vin_de_Savoie_Cruet.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Cruet.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Cruet');
+  ```
+
+### AOC Vin de Savoie Montmélian
+- **Región / Subcuenca:** Savoie (Combe de Savoie (Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Montmélian'`
+- **Variedades Tintas:** Mondeuse
+- **Variedades Blancas:** Jacquère
+- **Descripción:** Bajo el peñón de la antigua ciudadela inexpugnable de los duques de Saboya: cru calizo histórico de gran insolación en el cruce de los valles alpinos.
+- **Comunas Principales:** Montmélian, Francin
+- **Capa Generada:** [`Vin_de_Savoie_Montmelian.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Montmelian.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Montmélian', 'Francin');
+  ```
+
+### AOC Vin de Savoie Saint-Jeoire-Prieuré
+- **Región / Subcuenca:** Savoie (Piedmont des Bauges (Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Vin_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Vin de Savoie Saint-Jeoire-Prieuré'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Jacquère
+- **Descripción:** Alrededor del priorato medieval agustino del siglo XII: vinos blancos crujientes de Jacquère sobre conos de deyección calizos.
+- **Comunas Principales:** Saint-Jeoire-Prieuré
+- **Capa Generada:** [`Vin_de_Savoie_Saint_Jeoire_Prieure.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Vin_de_Savoie_Saint_Jeoire_Prieure.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Saint-Jeoire-Prieuré');
+  ```
+
+### AOC Roussette de Savoie
+- **Región / Subcuenca:** Savoie (Savoie & Haute-Savoie)
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Roussette_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Roussette_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Roussette de Savoie'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Altesse (Roussette)
+- **Descripción:** El gran blanco noble de Saboya: monovarietal de Altesse (llamada Roussette por el tinte dorado rojizo de su piel al madurar), caracterizado por aromas de avellana, miel de montaña, bergamota y una formidable longevidad.
+- **Comunas Principales:** Apremont, Chignin, Frangy, Jongieux, Lucey, Yenne, Seyssel
+- **Capa Generada:** [`Roussette_de_Savoie.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Roussette_de_Savoie.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Apremont', 'Chignin', 'Frangy', 'Jongieux', 'Lucey', 'Yenne', 'Seyssel');
+  ```
+
+### AOC Roussette de Savoie Frangy
+- **Región / Subcuenca:** Savoie (Vallée des Usses (Haute-Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Roussette_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Roussette_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Roussette de Savoie Frangy'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Altesse
+- **Descripción:** El cru septentrional de la Altesse en Alta Saboya: laderas orientadas al sur en el valle del río Usses que dotan al vino de una finura y perfume de miel excepcionales.
+- **Comunas Principales:** Frangy, Chaumont, Desingy
+- **Capa Generada:** [`Roussette_de_Savoie_Frangy.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Roussette_de_Savoie_Frangy.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Frangy', 'Chaumont', 'Desingy');
+  ```
+
+### AOC Roussette de Savoie Marestel
+- **Región / Subcuenca:** Savoie (Mont de la Charvaz (Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Roussette_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Roussette_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Roussette de Savoie Marestel'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Altesse
+- **Descripción:** El grand cru absoluto de la Altesse: ladera vertiginosa con pendientes de hasta el 50% sobre el río Ródano que entrega vinos de opulencia, densidad mineral y vida centenaria.
+- **Comunas Principales:** Jongieux, Lucey
+- **Capa Generada:** [`Roussette_de_Savoie_Marestel.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Roussette_de_Savoie_Marestel.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Jongieux', 'Lucey');
+  ```
+
+### AOC Roussette de Savoie Monterminod
+- **Región / Subcuenca:** Savoie (Piedmont des Bauges (Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Roussette_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Roussette_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Roussette de Savoie Monterminod'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Altesse
+- **Descripción:** Enclave en anfiteatro colgado sobre la aglomeración de Chambéry: Altesse cultivada en terrazas soleadas sobre margas que ofrecen notas de membrillo y frutos secos.
+- **Comunas Principales:** Saint-Alban-Leysse
+- **Capa Generada:** [`Roussette_de_Savoie_Monterminod.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Roussette_de_Savoie_Monterminod.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Saint-Alban-Leysse');
+  ```
+
+### AOC Roussette de Savoie Monthoux
+- **Región / Subcuenca:** Savoie (Avant-Pays Savoyard (Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Roussette_de_Savoie.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Roussette_de_Savoie.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Roussette de Savoie Monthoux'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Altesse
+- **Descripción:** Minúscula ladera caliza orientada al sur frente a los lagos de Chevelu: Roussette de gran pureza cristalina y notas de flores silvestres de montaña.
+- **Comunas Principales:** Saint-Jean-de-Chevelu
+- **Capa Generada:** [`Roussette_de_Savoie_Monthoux.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Roussette_de_Savoie_Monthoux.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Saint-Jean-de-Chevelu');
+  ```
+
+### AOC Seyssel
+- **Región / Subcuenca:** Savoie (Haut-Rhône (Ain / Haute-Savoie))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Seyssel.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Savoie/Seyssel.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Seyssel'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Altesse (Roussette), Molette
+- **Descripción:** A orillas del río Ródano en el desfiladero alpino entre el Ain y la Alta Saboya (AOC desde 1942): renombrado por sus blancos secos de Altesse y sus históricos vinos espumosos de Molette.
+- **Comunas Principales:** Seyssel (Ain), Seyssel (Haute-Savoie), Corbonod
+- **Capa Generada:** [`Seyssel.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Savoie/Seyssel.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Seyssel (Ain)', 'Seyssel (Haute-Savoie)', 'Corbonod');
+  ```
+
+## 15. Bugey
+
+Total denominaciones en el Bugey: **7 AOCs oficiales y denominaciones comunales** en el departamento de Ain:
+- **La denominación departamental y sus crus célebres:** *AOC Bugey (regional), AOC Bugey Cerdon (el mítico espumoso rosado ancestral de Gamay y Poulsard con 8% de alcohol), AOC Bugey Manicle (el cru calizo alabado por Brillat-Savarin), AOC Bugey Montagnieu*.
+- **La nobleza blanca de Bugey:** *AOC Roussette du Bugey, Roussette du Bugey Montagnieu, Roussette du Bugey Virieu-le-Grand*.
+
+### AOC Bugey
+- **Región / Subcuenca:** Bugey (Bas-Bugey & Revermont (Ain))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Bugey.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Bugey/Bugey.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Bugey'`
+- **Variedades Tintas:** Gamay, Pinot Noir, Mondeuse
+- **Variedades Blancas:** Chardonnay, Altesse, Jacquère
+- **Descripción:** El viñedo secreto entre Lyon y Ginebra sobre las estribaciones meridionales del macizo del Jura frente a los meandros del Ródano, cuna de vinos frescos, auténticos y de gran tensión alpina.
+- **Comunas Principales:** Belley, Cerdon, Montagnieu, Culoz, Virieu-le-Grand, Ambérieu-en-Bugey, Seyssel
+- **Capa Generada:** [`Bugey.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Bugey/Bugey.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Belley', 'Cerdon', 'Montagnieu', 'Culoz', 'Virieu-le-Grand', 'Ambérieu-en-Bugey', 'Seyssel');
+  ```
+
+### AOC Bugey Cerdon
+- **Región / Subcuenca:** Bugey (Vallée de Cerdon (Ain))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Bugey.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Bugey/Bugey.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Bugey Cerdon'`
+- **Variedades Tintas:** Gamay, Poulsard
+- **Variedades Blancas:** N/A
+- **Descripción:** El célebre espumoso rosado ancestral: fermentación en botella sin licor de expedición («méthode ancestrale»), dulce, ligeramente alcohólico (apenas 8%) y rebosante de aromas frescos de frambuesa, grosella y fresitas silvestres.
+- **Comunas Principales:** Cerdon, Abergement-de-Varey, Bohas-Meyriat-Rignat, Mérignat, Poncin, Saint-Alban, Saint-Martin-du-Mont, Jujurieux, Labalme, Vieu-d'Izenave
+- **Capa Generada:** [`Bugey_Cerdon.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Bugey/Bugey_Cerdon.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Cerdon', 'Abergement-de-Varey', 'Bohas-Meyriat-Rignat', 'Mérignat', 'Poncin', 'Saint-Alban', 'Saint-Martin-du-Mont', 'Jujurieux', 'Labalme', 'Vieu-d'Izenave');
+  ```
+
+### AOC Bugey Manicle
+- **Región / Subcuenca:** Bugey (Coteau de Manicle (Ain))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Bugey.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Bugey/Bugey.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Bugey Manicle'`
+- **Variedades Tintas:** Pinot Noir
+- **Variedades Blancas:** Chardonnay
+- **Descripción:** El cru más afamado de Bugey alabado por el gastrónomo Brillat-Savarin: minúsculo canchal de caliza jurásica expuesto al sur que entrega Chardonnays y Pinot Noirs de nivel borgoñón.
+- **Comunas Principales:** Cheignieu-la-Balme
+- **Capa Generada:** [`Bugey_Manicle.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Bugey/Bugey_Manicle.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Cheignieu-la-Balme');
+  ```
+
+### AOC Bugey Montagnieu
+- **Región / Subcuenca:** Bugey (Coteaux de Montagnieu (Ain))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Bugey.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Bugey/Bugey.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Bugey Montagnieu'`
+- **Variedades Tintas:** Mondeuse
+- **Variedades Blancas:** Chardonnay, Altesse, Molette
+- **Descripción:** Laderas empinadas sobre el río Ródano: tintos estructurados de Mondeuse y espumosos tradicionales de larga crianza.
+- **Comunas Principales:** Montagnieu, Briord, Seillonnaz
+- **Capa Generada:** [`Bugey_Montagnieu.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Bugey/Bugey_Montagnieu.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Montagnieu', 'Briord', 'Seillonnaz');
+  ```
+
+### AOC Roussette du Bugey
+- **Región / Subcuenca:** Bugey (Bas-Bugey (Ain))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Roussette_du_Bugey.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Bugey/Roussette_du_Bugey.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Roussette du Bugey'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Altesse
+- **Descripción:** La expresión bugeysiana de la uva Altesse: vinos blancos secos elegantes con notas florales, almendra fresca y mineralidad caliza.
+- **Comunas Principales:** Belley, Montagnieu, Virieu-le-Grand, Culoz
+- **Capa Generada:** [`Roussette_du_Bugey.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Bugey/Roussette_du_Bugey.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Belley', 'Montagnieu', 'Virieu-le-Grand', 'Culoz');
+  ```
+
+### AOC Roussette du Bugey Montagnieu
+- **Región / Subcuenca:** Bugey (Coteaux de Montagnieu (Ain))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Roussette_du_Bugey.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Bugey/Roussette_du_Bugey.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Roussette du Bugey Montagnieu'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Altesse
+- **Descripción:** Denominación comunal de Altesse sobre calizas abruptas del Ródano, caracterizada por su gran potencia floral y mineral.
+- **Comunas Principales:** Montagnieu, Briord, Seillonnaz
+- **Capa Generada:** [`Roussette_du_Bugey_Montagnieu.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Bugey/Roussette_du_Bugey_Montagnieu.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Montagnieu', 'Briord', 'Seillonnaz');
+  ```
+
+### AOC Roussette du Bugey Virieu-le-Grand
+- **Región / Subcuenca:** Bugey (Valromey (Ain))
+- **Figura de Calidad:** Appellation d'Origine Contrôlée (AOC) / AOP
+- **Pliego Oficial (PDF):** [Roussette_du_Bugey.pdf](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/DOWNs/DOCs/FRANCE/Bugey/Roussette_du_Bugey.pdf)
+- **Filtro Shapefile INAO:** `denom = 'Roussette du Bugey Virieu-le-Grand'`
+- **Variedades Tintas:** N/A
+- **Variedades Blancas:** Altesse
+- **Descripción:** Laderas kársticas del Valromey: Altesse monovarietal de acusada frescura aromática y toques de miel y cítricos.
+- **Comunas Principales:** Virieu-le-Grand
+- **Capa Generada:** [`Roussette_du_Bugey_Virieu_le_Grand.gpkg`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/FRANCE/Bugey/Roussette_du_Bugey_Virieu_le_Grand.gpkg)
+- **Filtro SQL Comunal:**
+  ```sql
+  "nom" IN ('Virieu-le-Grand');
+  ```
+

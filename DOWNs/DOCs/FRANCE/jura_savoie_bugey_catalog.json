@@ -1,0 +1,856 @@
+[
+  {
+    "id": "fr-jura-arbois",
+    "name": "Arbois",
+    "region": "Jura",
+    "subbasin": "Vignoble d'Arbois (Jura)",
+    "where_clause": "denom = 'Arbois'",
+    "gpkg_rel": "FRANCE/Jura/Arbois.gpkg",
+    "layer": "AOC Arbois",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Jura/Arbois.pdf",
+    "color": "#7c2d12",
+    "reds": [
+      "Poulsard (Ploussard)",
+      "Trousseau",
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Savagnin",
+      "Chardonnay"
+    ],
+    "communes": [
+      "Arbois",
+      "Les Arsures",
+      "Mathenay",
+      "Mesnay",
+      "Molamboz",
+      "Montigny-lès-Arsures",
+      "Planches-près-Arbois",
+      "Pupillin",
+      "Saint-Cyr-Montmalin",
+      "Vadans",
+      "Villette-lès-Arbois"
+    ],
+    "desc": "La capital histórica del vino jurasiano y la primera AOC homologada de Francia (1936): terruño de margas iridiscentes del Triásico y Lías, famoso por sus vinos de velo («sous voile»), Vin Jaune y tintos singulares de Poulsard y Trousseau."
+  },
+  {
+    "id": "fr-jura-arbois-pupillin",
+    "name": "Arbois Pupillin",
+    "region": "Jura",
+    "subbasin": "Cirque de Pupillin (Jura)",
+    "where_clause": "denom = 'Arbois Pupillin'",
+    "gpkg_rel": "FRANCE/Jura/Arbois_Pupillin.gpkg",
+    "layer": "AOC Arbois Pupillin",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Jura/Arbois.pdf",
+    "color": "#991b1b",
+    "reds": [
+      "Poulsard (Ploussard)",
+      "Trousseau"
+    ],
+    "whites": [
+      "Savagnin",
+      "Chardonnay"
+    ],
+    "communes": [
+      "Pupillin"
+    ],
+    "desc": "La «Capital Mundial del Ploussard»: circo de margas jurásicas en torno a la aldea de Pupillin que entrega la máxima expresión etérea, floral y especiada de la variedad Poulsard."
+  },
+  {
+    "id": "fr-jura-chateau-chalon",
+    "name": "Château-Chalon",
+    "region": "Jura",
+    "subbasin": "Falaise de Château-Chalon (Jura)",
+    "where_clause": "denom = 'Château-Chalon'",
+    "gpkg_rel": "FRANCE/Jura/Chateau_Chalon.gpkg",
+    "layer": "AOC Château-Chalon",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Jura/Chateau_Chalon.pdf",
+    "color": "#d97706",
+    "reds": [],
+    "whites": [
+      "Savagnin"
+    ],
+    "communes": [
+      "Château-Chalon",
+      "Domblans",
+      "Menétru-le-Vignoble",
+      "Nevy-sur-Seille"
+    ],
+    "desc": "El santuario mundial del Vin Jaune: acantilado colosal sobre margas azules del Lías donde el Savagnin envejece 6 años y 3 meses en barrica bajo un velo de levaduras sin rellenar («ouillage»), embotellado en el icónico Clavelin de 62 cl con notas inmortales de nuez, curry y sotobosque."
+  },
+  {
+    "id": "fr-jura-l-etoile",
+    "name": "L'Étoile",
+    "region": "Jura",
+    "subbasin": "Bassin des Cinq Collines (Jura)",
+    "where_clause": "denom = 'L''Etoile'",
+    "gpkg_rel": "FRANCE/Jura/L_Etoile.gpkg",
+    "layer": "AOC L'Étoile",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Jura/L_Etoile.pdf",
+    "color": "#ca8a04",
+    "reds": [
+      "Poulsard"
+    ],
+    "whites": [
+      "Chardonnay",
+      "Savagnin"
+    ],
+    "communes": [
+      "L'Étoile",
+      "Plainoiseau",
+      "Quintigny",
+      "Saint-Didier"
+    ],
+    "desc": "Rodeada por cinco colinas que forman una estrella y sobre suelos repletos de «pentacrinites» (fósiles estelares marinos): terruño de calizas y margas reservado casi exclusivamente para grandes blancos minerales y Vins Jaunes de sublime elegancia."
+  },
+  {
+    "id": "fr-jura-cotes-du-jura",
+    "name": "Côtes du Jura",
+    "region": "Jura",
+    "subbasin": "Revermont Jurassien (Jura)",
+    "where_clause": "denom = 'Côtes du Jura'",
+    "gpkg_rel": "FRANCE/Jura/Cotes_du_Jura.gpkg",
+    "layer": "AOC Côtes du Jura",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Jura/Cotes_du_Jura.pdf",
+    "color": "#b45309",
+    "reds": [
+      "Poulsard",
+      "Trousseau",
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay",
+      "Savagnin"
+    ],
+    "communes": [
+      "Poligny",
+      "Lons-le-Saunier",
+      "Voiteur",
+      "Salins-les-Bains",
+      "Beaufort",
+      "Gevingey",
+      "Rotalier",
+      "Passenans",
+      "Saint-Lothain"
+    ],
+    "desc": "La denominación que recorre de norte a sur el Revermont jurasiano a lo largo de 80 km: colinas entre las llanuras de Bresse y el primer escalón del Jura, cuna de vinos ouillés contemporáneos, tradicionales sous voile y el dulce Vin de Paille."
+  },
+  {
+    "id": "fr-jura-cremant-du-jura",
+    "name": "Crémant du Jura",
+    "region": "Jura",
+    "subbasin": "Revermont Jurassien (Jura)",
+    "where_clause": "denom = 'Crémant du Jura'",
+    "gpkg_rel": "FRANCE/Jura/Cremant_du_Jura.gpkg",
+    "layer": "AOC Crémant du Jura",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Jura/Cremant_du_Jura.pdf",
+    "color": "#eab308",
+    "reds": [],
+    "whites": [
+      "Chardonnay",
+      "Pinot Noir",
+      "Poulsard",
+      "Trousseau",
+      "Savagnin"
+    ],
+    "communes": [
+      "Poligny",
+      "Arbois",
+      "Lons-le-Saunier",
+      "Salins-les-Bains",
+      "Voiteur"
+    ],
+    "desc": "Método tradicional de montaña de gran pureza y frescura alpina: burbujas finísimas elaboradas principalmente con Chardonnay y Pinot Noir con una crianza mínima de 12 meses sobre lías."
+  },
+  {
+    "id": "fr-jura-macvin-du-jura",
+    "name": "Macvin du Jura",
+    "region": "Jura",
+    "subbasin": "Revermont Jurassien (Jura)",
+    "where_clause": "denom = 'Macvin du Jura'",
+    "gpkg_rel": "FRANCE/Jura/Macvin_du_Jura.gpkg",
+    "layer": "AOC Macvin du Jura",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Jura/Macvin_du_Jura.pdf",
+    "color": "#92400e",
+    "reds": [
+      "Poulsard",
+      "Trousseau",
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Savagnin",
+      "Chardonnay"
+    ],
+    "communes": [
+      "Arbois",
+      "Poligny",
+      "Lons-le-Saunier",
+      "Château-Chalon"
+    ],
+    "desc": "El licor tradicional del Jura documentado desde el siglo XIV: mistela noble obtenida por el apagado de mosto de uva fresco con aguardiente de orujo de Jura (Marc du Jura) criado al menos 14 meses en roble."
+  },
+  {
+    "id": "fr-savoie-vin-de-savoie",
+    "name": "Vin de Savoie",
+    "region": "Savoie",
+    "subbasin": "Savoie Régional (Savoie / Haute-Savoie / Isère / Ain)",
+    "where_clause": "denom = 'Vin de Savoie ou Savoie'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie.gpkg",
+    "layer": "AOC Vin de Savoie",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#0284c7",
+    "reds": [
+      "Mondeuse noire",
+      "Gamay",
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Jacquère",
+      "Altesse",
+      "Roussanne",
+      "Chasselas",
+      "Gringet"
+    ],
+    "communes": [
+      "Chambéry",
+      "Montmélian",
+      "Albertville",
+      "Aix-les-Bains",
+      "Saint-Jean-de-Maurienne",
+      "Thonon-les-Bains",
+      "Annecy"
+    ],
+    "desc": "La denominación regional alpina que abraza las laderas escarpadas de los valles glaciares de Saboya entre lagos y cumbres nevadas, célebre por la frescura cristalina de sus blancos y la personalidad especiada de la Mondeuse."
+  },
+  {
+    "id": "fr-savoie-apremont",
+    "name": "Vin de Savoie Apremont",
+    "region": "Savoie",
+    "subbasin": "Éboulis du Mont Granier (Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Apremont'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Apremont.gpkg",
+    "layer": "AOC Vin de Savoie Apremont",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#0369a1",
+    "reds": [],
+    "whites": [
+      "Jacquère"
+    ],
+    "communes": [
+      "Apremont",
+      "Les Marches",
+      "Saint-Baldoph"
+    ],
+    "desc": "El cru más famoso de Saboya: plantado sobre el gigantesco caos de bloques calizos del desprendimiento catastrófico del Mont Granier de 1248, produciendo un blanco de Jacquère perlado, tenso y chispeante."
+  },
+  {
+    "id": "fr-savoie-abymes",
+    "name": "Vin de Savoie Abymes",
+    "region": "Savoie",
+    "subbasin": "Éboulis du Mont Granier (Savoie / Isère)",
+    "where_clause": "denom = 'Vin de Savoie Abymes ou Les Abymes'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Abymes.gpkg",
+    "layer": "AOC Vin de Savoie Abymes",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#0284c7",
+    "reds": [],
+    "whites": [
+      "Jacquère"
+    ],
+    "communes": [
+      "Les Marches",
+      "Myans",
+      "Chapareillan"
+    ],
+    "desc": "En el corazón de los «abismos» de rocas del Granier: Jacquère pura sobre canchales calcáreos que entrega notas de cítricos, flores blancas y una acidez mineral crujiente."
+  },
+  {
+    "id": "fr-savoie-arbin",
+    "name": "Vin de Savoie Arbin",
+    "region": "Savoie",
+    "subbasin": "Combe de Savoie (Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Arbin'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Arbin.gpkg",
+    "layer": "AOC Vin de Savoie Arbin",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#581c87",
+    "reds": [
+      "Mondeuse noire"
+    ],
+    "whites": [],
+    "communes": [
+      "Arbin",
+      "Montmélian"
+    ],
+    "desc": "El gran cru tinto de Saboya: laderas abruptas orientadas al sur en la Combe de Savoie sobre margas oscuras donde la Mondeuse negra alcanza una suntuosa concentración de mora silvestre, pimienta blanca y regaliz."
+  },
+  {
+    "id": "fr-savoie-chignin",
+    "name": "Vin de Savoie Chignin",
+    "region": "Savoie",
+    "subbasin": "Piedmont des Bauges (Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Chignin'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Chignin.gpkg",
+    "layer": "AOC Vin de Savoie Chignin",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#0284c7",
+    "reds": [
+      "Mondeuse"
+    ],
+    "whites": [
+      "Jacquère"
+    ],
+    "communes": [
+      "Chignin"
+    ],
+    "desc": "Bajo las torres medievales de Chignin en las estribaciones del macizo de Bauges: vinos blancos frescos de Jacquère con notas de manzana fresca y pedernal."
+  },
+  {
+    "id": "fr-savoie-chignin-bergeron",
+    "name": "Vin de Savoie Chignin-Bergeron",
+    "region": "Savoie",
+    "subbasin": "Piedmont des Bauges (Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Chignin-Bergeron'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Chignin_Bergeron.gpkg",
+    "layer": "AOC Vin de Savoie Chignin-Bergeron",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#d97706",
+    "reds": [],
+    "whites": [
+      "Roussanne (Bergeron)"
+    ],
+    "communes": [
+      "Chignin",
+      "Francin",
+      "Montmélian"
+    ],
+    "desc": "El aristócrata blanco de los Alpes: 100% Roussanne (llamada localmente Bergeron) plantada en las laderas más cálidas y soleadas de Chignin, ofreciendo vinos untuosos con aromas embriagadores de albaricoque, miel y mango."
+  },
+  {
+    "id": "fr-savoie-saint-jean-de-la-porte",
+    "name": "Vin de Savoie Saint-Jean-de-la-Porte",
+    "region": "Savoie",
+    "subbasin": "Combe de Savoie (Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Saint-Jean-de-la-Porte'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Saint_Jean_de_la_Porte.gpkg",
+    "layer": "AOC Vin de Savoie Saint-Jean-de-la-Porte",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#6b21a8",
+    "reds": [
+      "Mondeuse noire"
+    ],
+    "whites": [],
+    "communes": [
+      "Saint-Jean-de-la-Porte"
+    ],
+    "desc": "Cru exclusivamente tinto consagrado a la Mondeuse negra: laderas de esquistos y gravas al pie del macizo de Bauges que entregan vinos de gran estructura, nervio y frescura silvestre."
+  },
+  {
+    "id": "fr-savoie-jongieux",
+    "name": "Vin de Savoie Jongieux",
+    "region": "Savoie",
+    "subbasin": "Avant-Pays Savoyard (Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Jongieux'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Jongieux.gpkg",
+    "layer": "AOC Vin de Savoie Jongieux",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#7c3aed",
+    "reds": [
+      "Gamay",
+      "Mondeuse"
+    ],
+    "whites": [
+      "Jacquère"
+    ],
+    "communes": [
+      "Jongieux",
+      "Billième",
+      "Lucey",
+      "Saint-Jean-de-Chevelu",
+      "Yenne"
+    ],
+    "desc": "Laderas soleadas dominando el curso alto del río Ródano al oeste del Lac du Bourget: viñedo de bancales calizos famoso por sus tintos sabrosos de Gamay y blancos vivaces de Jacquère."
+  },
+  {
+    "id": "fr-savoie-chautagne",
+    "name": "Vin de Savoie Chautagne",
+    "region": "Savoie",
+    "subbasin": "Nord du Lac du Bourget (Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Chautagne'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Chautagne.gpkg",
+    "layer": "AOC Vin de Savoie Chautagne",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#8b5cf6",
+    "reds": [
+      "Gamay",
+      "Mondeuse",
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Jacquère",
+      "Altesse"
+    ],
+    "communes": [
+      "Chindrieux",
+      "Ruffieux",
+      "Serrières-en-Chautagne",
+      "Cessens"
+    ],
+    "desc": "Al norte del Lac du Bourget: el viñedo de clima más cálido y templado de Saboya gracias al efecto regulador del lago, propicio para tintos aterciopelados y florales de Gamay y Pinot Noir."
+  },
+  {
+    "id": "fr-savoie-crepy",
+    "name": "Vin de Savoie Crépy",
+    "region": "Savoie",
+    "subbasin": "Bas-Chablais / Lac Léman (Haute-Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Crépy'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Crepy.gpkg",
+    "layer": "AOC Vin de Savoie Crépy",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#0ea5e9",
+    "reds": [],
+    "whites": [
+      "Chasselas"
+    ],
+    "communes": [
+      "Ballaison",
+      "Douvaine",
+      "Loisin"
+    ],
+    "desc": "Sobre las colinas morrénicas glaciares frente a las aguas del lago Léman: monovarietal de Chasselas con un toque perlado natural, notas de avellana fresca y flores de tilo."
+  },
+  {
+    "id": "fr-savoie-ripaille",
+    "name": "Vin de Savoie Ripaille",
+    "region": "Savoie",
+    "subbasin": "Rives du Lac Léman (Haute-Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Ripaille'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Ripaille.gpkg",
+    "layer": "AOC Vin de Savoie Ripaille",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#38bdf8",
+    "reds": [],
+    "whites": [
+      "Chasselas"
+    ],
+    "communes": [
+      "Thonon-les-Bains"
+    ],
+    "desc": "En el parque secular del Château de Ripaille donde residió el duque Amadeo VIII de Saboya: viñedo plantado a orillas del lago Léman con Chasselas fresco, delicado y ligeramente alimonado."
+  },
+  {
+    "id": "fr-savoie-marignan",
+    "name": "Vin de Savoie Marignan",
+    "region": "Savoie",
+    "subbasin": "Rives du Lac Léman (Haute-Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Marignan'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Marignan.gpkg",
+    "layer": "AOC Vin de Savoie Marignan",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#06b6d4",
+    "reds": [],
+    "whites": [
+      "Chasselas"
+    ],
+    "communes": [
+      "Sciez"
+    ],
+    "desc": "Enclave histórico cultivado desde el siglo XII por los monjes de la abadía de Sainte-Marie de Guilherand sobre el golfo de Coudrée en el lago Léman."
+  },
+  {
+    "id": "fr-savoie-marin",
+    "name": "Vin de Savoie Marin",
+    "region": "Savoie",
+    "subbasin": "Rives du Lac Léman (Haute-Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Marin'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Marin.gpkg",
+    "layer": "AOC Vin de Savoie Marin",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#0891b2",
+    "reds": [],
+    "whites": [
+      "Chasselas"
+    ],
+    "communes": [
+      "Marin",
+      "Publier"
+    ],
+    "desc": "Laderas orientadas al sur dominando la bahía de Évian sobre el lago Léman: vinos blancos minerales y cristalinos de uva Chasselas."
+  },
+  {
+    "id": "fr-savoie-ayze",
+    "name": "Vin de Savoie Ayze",
+    "region": "Savoie",
+    "subbasin": "Vallée de l'Arve (Haute-Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Ayze'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Ayze.gpkg",
+    "layer": "AOC Vin de Savoie Ayze",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#0284c7",
+    "reds": [],
+    "whites": [
+      "Gringet",
+      "Roussette (Altesse)"
+    ],
+    "communes": [
+      "Ayse",
+      "Bonneville",
+      "Marignier"
+    ],
+    "desc": "Viñedo de alta montaña al pie del Môle y frente al macizo del Mont Blanc: santuario de la rarísima variedad autóctona Gringet, célebre por sus vinos espumosos y blancos de vigor alpino incomparable."
+  },
+  {
+    "id": "fr-savoie-cruet",
+    "name": "Vin de Savoie Cruet",
+    "region": "Savoie",
+    "subbasin": "Combe de Savoie (Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Cruet'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Cruet.gpkg",
+    "layer": "AOC Vin de Savoie Cruet",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#0284c7",
+    "reds": [],
+    "whites": [
+      "Jacquère"
+    ],
+    "communes": [
+      "Cruet"
+    ],
+    "desc": "Laderas soleadas de la Combe de Savoie sobre canchales calcáreos: vinos blancos de Jacquère muy finos, aéreos y con fondo de flores de montaña."
+  },
+  {
+    "id": "fr-savoie-montmelian",
+    "name": "Vin de Savoie Montmélian",
+    "region": "Savoie",
+    "subbasin": "Combe de Savoie (Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Montmélian'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Montmelian.gpkg",
+    "layer": "AOC Vin de Savoie Montmélian",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#4f46e5",
+    "reds": [
+      "Mondeuse"
+    ],
+    "whites": [
+      "Jacquère"
+    ],
+    "communes": [
+      "Montmélian",
+      "Francin"
+    ],
+    "desc": "Bajo el peñón de la antigua ciudadela inexpugnable de los duques de Saboya: cru calizo histórico de gran insolación en el cruce de los valles alpinos."
+  },
+  {
+    "id": "fr-savoie-saint-jeoire-prieure",
+    "name": "Vin de Savoie Saint-Jeoire-Prieuré",
+    "region": "Savoie",
+    "subbasin": "Piedmont des Bauges (Savoie)",
+    "where_clause": "denom = 'Vin de Savoie Saint-Jeoire-Prieuré'",
+    "gpkg_rel": "FRANCE/Savoie/Vin_de_Savoie_Saint_Jeoire_Prieure.gpkg",
+    "layer": "AOC Vin de Savoie Saint-Jeoire-Prieuré",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Vin_de_Savoie.pdf",
+    "color": "#0369a1",
+    "reds": [],
+    "whites": [
+      "Jacquère"
+    ],
+    "communes": [
+      "Saint-Jeoire-Prieuré"
+    ],
+    "desc": "Alrededor del priorato medieval agustino del siglo XII: vinos blancos crujientes de Jacquère sobre conos de deyección calizos."
+  },
+  {
+    "id": "fr-savoie-roussette-de-savoie",
+    "name": "Roussette de Savoie",
+    "region": "Savoie",
+    "subbasin": "Savoie & Haute-Savoie",
+    "where_clause": "denom = 'Roussette de Savoie'",
+    "gpkg_rel": "FRANCE/Savoie/Roussette_de_Savoie.gpkg",
+    "layer": "AOC Roussette de Savoie",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Roussette_de_Savoie.pdf",
+    "color": "#059669",
+    "reds": [],
+    "whites": [
+      "Altesse (Roussette)"
+    ],
+    "communes": [
+      "Apremont",
+      "Chignin",
+      "Frangy",
+      "Jongieux",
+      "Lucey",
+      "Yenne",
+      "Seyssel"
+    ],
+    "desc": "El gran blanco noble de Saboya: monovarietal de Altesse (llamada Roussette por el tinte dorado rojizo de su piel al madurar), caracterizado por aromas de avellana, miel de montaña, bergamota y una formidable longevidad."
+  },
+  {
+    "id": "fr-savoie-roussette-frangy",
+    "name": "Roussette de Savoie Frangy",
+    "region": "Savoie",
+    "subbasin": "Vallée des Usses (Haute-Savoie)",
+    "where_clause": "denom = 'Roussette de Savoie Frangy'",
+    "gpkg_rel": "FRANCE/Savoie/Roussette_de_Savoie_Frangy.gpkg",
+    "layer": "AOC Roussette de Savoie Frangy",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Roussette_de_Savoie.pdf",
+    "color": "#10b981",
+    "reds": [],
+    "whites": [
+      "Altesse"
+    ],
+    "communes": [
+      "Frangy",
+      "Chaumont",
+      "Desingy"
+    ],
+    "desc": "El cru septentrional de la Altesse en Alta Saboya: laderas orientadas al sur en el valle del río Usses que dotan al vino de una finura y perfume de miel excepcionales."
+  },
+  {
+    "id": "fr-savoie-roussette-marestel",
+    "name": "Roussette de Savoie Marestel",
+    "region": "Savoie",
+    "subbasin": "Mont de la Charvaz (Savoie)",
+    "where_clause": "denom = 'Roussette de Savoie Marestel'",
+    "gpkg_rel": "FRANCE/Savoie/Roussette_de_Savoie_Marestel.gpkg",
+    "layer": "AOC Roussette de Savoie Marestel",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Roussette_de_Savoie.pdf",
+    "color": "#047857",
+    "reds": [],
+    "whites": [
+      "Altesse"
+    ],
+    "communes": [
+      "Jongieux",
+      "Lucey"
+    ],
+    "desc": "El grand cru absoluto de la Altesse: ladera vertiginosa con pendientes de hasta el 50% sobre el río Ródano que entrega vinos de opulencia, densidad mineral y vida centenaria."
+  },
+  {
+    "id": "fr-savoie-roussette-monterminod",
+    "name": "Roussette de Savoie Monterminod",
+    "region": "Savoie",
+    "subbasin": "Piedmont des Bauges (Savoie)",
+    "where_clause": "denom = 'Roussette de Savoie Monterminod'",
+    "gpkg_rel": "FRANCE/Savoie/Roussette_de_Savoie_Monterminod.gpkg",
+    "layer": "AOC Roussette de Savoie Monterminod",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Roussette_de_Savoie.pdf",
+    "color": "#065f46",
+    "reds": [],
+    "whites": [
+      "Altesse"
+    ],
+    "communes": [
+      "Saint-Alban-Leysse"
+    ],
+    "desc": "Enclave en anfiteatro colgado sobre la aglomeración de Chambéry: Altesse cultivada en terrazas soleadas sobre margas que ofrecen notas de membrillo y frutos secos."
+  },
+  {
+    "id": "fr-savoie-roussette-monthoux",
+    "name": "Roussette de Savoie Monthoux",
+    "region": "Savoie",
+    "subbasin": "Avant-Pays Savoyard (Savoie)",
+    "where_clause": "denom = 'Roussette de Savoie Monthoux'",
+    "gpkg_rel": "FRANCE/Savoie/Roussette_de_Savoie_Monthoux.gpkg",
+    "layer": "AOC Roussette de Savoie Monthoux",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Roussette_de_Savoie.pdf",
+    "color": "#064e3b",
+    "reds": [],
+    "whites": [
+      "Altesse"
+    ],
+    "communes": [
+      "Saint-Jean-de-Chevelu"
+    ],
+    "desc": "Minúscula ladera caliza orientada al sur frente a los lagos de Chevelu: Roussette de gran pureza cristalina y notas de flores silvestres de montaña."
+  },
+  {
+    "id": "fr-savoie-seyssel",
+    "name": "Seyssel",
+    "region": "Savoie",
+    "subbasin": "Haut-Rhône (Ain / Haute-Savoie)",
+    "where_clause": "denom = 'Seyssel'",
+    "gpkg_rel": "FRANCE/Savoie/Seyssel.gpkg",
+    "layer": "AOC Seyssel",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Savoie/Seyssel.pdf",
+    "color": "#10b981",
+    "reds": [],
+    "whites": [
+      "Altesse (Roussette)",
+      "Molette"
+    ],
+    "communes": [
+      "Seyssel (Ain)",
+      "Seyssel (Haute-Savoie)",
+      "Corbonod"
+    ],
+    "desc": "A orillas del río Ródano en el desfiladero alpino entre el Ain y la Alta Saboya (AOC desde 1942): renombrado por sus blancos secos de Altesse y sus históricos vinos espumosos de Molette."
+  },
+  {
+    "id": "fr-bugey-bugey",
+    "name": "Bugey",
+    "region": "Bugey",
+    "subbasin": "Bas-Bugey & Revermont (Ain)",
+    "where_clause": "denom = 'Bugey'",
+    "gpkg_rel": "FRANCE/Bugey/Bugey.gpkg",
+    "layer": "AOC Bugey",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Bugey/Bugey.pdf",
+    "color": "#6366f1",
+    "reds": [
+      "Gamay",
+      "Pinot Noir",
+      "Mondeuse"
+    ],
+    "whites": [
+      "Chardonnay",
+      "Altesse",
+      "Jacquère"
+    ],
+    "communes": [
+      "Belley",
+      "Cerdon",
+      "Montagnieu",
+      "Culoz",
+      "Virieu-le-Grand",
+      "Ambérieu-en-Bugey",
+      "Seyssel"
+    ],
+    "desc": "El viñedo secreto entre Lyon y Ginebra sobre las estribaciones meridionales del macizo del Jura frente a los meandros del Ródano, cuna de vinos frescos, auténticos y de gran tensión alpina."
+  },
+  {
+    "id": "fr-bugey-bugey-cerdon",
+    "name": "Bugey Cerdon",
+    "region": "Bugey",
+    "subbasin": "Vallée de Cerdon (Ain)",
+    "where_clause": "denom = 'Bugey Cerdon'",
+    "gpkg_rel": "FRANCE/Bugey/Bugey_Cerdon.gpkg",
+    "layer": "AOC Bugey Cerdon",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Bugey/Bugey.pdf",
+    "color": "#ec4899",
+    "reds": [
+      "Gamay",
+      "Poulsard"
+    ],
+    "whites": [],
+    "communes": [
+      "Cerdon",
+      "Abergement-de-Varey",
+      "Bohas-Meyriat-Rignat",
+      "Mérignat",
+      "Poncin",
+      "Saint-Alban",
+      "Saint-Martin-du-Mont",
+      "Jujurieux",
+      "Labalme",
+      "Vieu-d'Izenave"
+    ],
+    "desc": "El célebre espumoso rosado ancestral: fermentación en botella sin licor de expedición («méthode ancestrale»), dulce, ligeramente alcohólico (apenas 8%) y rebosante de aromas frescos de frambuesa, grosella y fresitas silvestres."
+  },
+  {
+    "id": "fr-bugey-bugey-manicle",
+    "name": "Bugey Manicle",
+    "region": "Bugey",
+    "subbasin": "Coteau de Manicle (Ain)",
+    "where_clause": "denom = 'Bugey Manicle'",
+    "gpkg_rel": "FRANCE/Bugey/Bugey_Manicle.gpkg",
+    "layer": "AOC Bugey Manicle",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Bugey/Bugey.pdf",
+    "color": "#8b5cf6",
+    "reds": [
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Chardonnay"
+    ],
+    "communes": [
+      "Cheignieu-la-Balme"
+    ],
+    "desc": "El cru más afamado de Bugey alabado por el gastrónomo Brillat-Savarin: minúsculo canchal de caliza jurásica expuesto al sur que entrega Chardonnays y Pinot Noirs de nivel borgoñón."
+  },
+  {
+    "id": "fr-bugey-bugey-montagnieu",
+    "name": "Bugey Montagnieu",
+    "region": "Bugey",
+    "subbasin": "Coteaux de Montagnieu (Ain)",
+    "where_clause": "denom = 'Bugey Montagnieu'",
+    "gpkg_rel": "FRANCE/Bugey/Bugey_Montagnieu.gpkg",
+    "layer": "AOC Bugey Montagnieu",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Bugey/Bugey.pdf",
+    "color": "#a855f7",
+    "reds": [
+      "Mondeuse"
+    ],
+    "whites": [
+      "Chardonnay",
+      "Altesse",
+      "Molette"
+    ],
+    "communes": [
+      "Montagnieu",
+      "Briord",
+      "Seillonnaz"
+    ],
+    "desc": "Laderas empinadas sobre el río Ródano: tintos estructurados de Mondeuse y espumosos tradicionales de larga crianza."
+  },
+  {
+    "id": "fr-bugey-roussette-du-bugey",
+    "name": "Roussette du Bugey",
+    "region": "Bugey",
+    "subbasin": "Bas-Bugey (Ain)",
+    "where_clause": "denom = 'Roussette du Bugey'",
+    "gpkg_rel": "FRANCE/Bugey/Roussette_du_Bugey.gpkg",
+    "layer": "AOC Roussette du Bugey",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Bugey/Roussette_du_Bugey.pdf",
+    "color": "#14b8a6",
+    "reds": [],
+    "whites": [
+      "Altesse"
+    ],
+    "communes": [
+      "Belley",
+      "Montagnieu",
+      "Virieu-le-Grand",
+      "Culoz"
+    ],
+    "desc": "La expresión bugeysiana de la uva Altesse: vinos blancos secos elegantes con notas florales, almendra fresca y mineralidad caliza."
+  },
+  {
+    "id": "fr-bugey-roussette-montagnieu",
+    "name": "Roussette du Bugey Montagnieu",
+    "region": "Bugey",
+    "subbasin": "Coteaux de Montagnieu (Ain)",
+    "where_clause": "denom = 'Roussette du Bugey Montagnieu'",
+    "gpkg_rel": "FRANCE/Bugey/Roussette_du_Bugey_Montagnieu.gpkg",
+    "layer": "AOC Roussette du Bugey Montagnieu",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Bugey/Roussette_du_Bugey.pdf",
+    "color": "#0d9488",
+    "reds": [],
+    "whites": [
+      "Altesse"
+    ],
+    "communes": [
+      "Montagnieu",
+      "Briord",
+      "Seillonnaz"
+    ],
+    "desc": "Denominación comunal de Altesse sobre calizas abruptas del Ródano, caracterizada por su gran potencia floral y mineral."
+  },
+  {
+    "id": "fr-bugey-roussette-virieu-le-grand",
+    "name": "Roussette du Bugey Virieu-le-Grand",
+    "region": "Bugey",
+    "subbasin": "Valromey (Ain)",
+    "where_clause": "denom = 'Roussette du Bugey Virieu-le-Grand'",
+    "gpkg_rel": "FRANCE/Bugey/Roussette_du_Bugey_Virieu_le_Grand.gpkg",
+    "layer": "AOC Roussette du Bugey Virieu-le-Grand",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Bugey/Roussette_du_Bugey.pdf",
+    "color": "#0f766e",
+    "reds": [],
+    "whites": [
+      "Altesse"
+    ],
+    "communes": [
+      "Virieu-le-Grand"
+    ],
+    "desc": "Laderas kársticas del Valromey: Altesse monovarietal de acusada frescura aromática y toques de miel y cítricos."
+  }
+]

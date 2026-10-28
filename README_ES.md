@@ -45,13 +45,13 @@ El proyecto cuenta con una cobertura internacional consolidada y estructurada:
 
 - **🇪🇸 España (100% oficial):** 101 regiones (2 DOCas, 66 DOs/DOPs, 4 Vinos de Calidad y 25 Vinos de Pago) con sus pliegos PDF. Ver [Registro de España](docs/SPAIN/REGISTRO_DOS.md).
 - **🇵🇹 Portugal (100% oficial):** 31 Denominações de Origem Protegida (DOC / DOP) completadas al 100%, con sus 31 Cadernos de Especificações oficiales en PDF archivados en [`DOWNs/DOCs/PORTUGAL/`](DOWNs/DOCs/PORTUGAL/). Ver [Registro de Portugal](docs/PORTUGAL/REGISTRO_DOCS.md).
-- **🇫🇷 Francia (Expansión Fase 2):** 256 AOCs oficiales. Cuencas completas de **Burdeos (36 AOCs)**, **Borgoña (46 AOCs)**, **Valle del Ródano (31 AOCs)**, **Valle del Loira (48 AOCs)**, **Champaña (5 AOCs)**, **Alsacia (16 AOCs)**, **Lorena (2 AOCs)**, **Provenza (14 AOCs)**, **Córcega (9 AOCs)**, **Languedoc (35 AOCs)** y **Rosellón (14 AOCs)** con el 100% de los pliegos de condiciones oficiales ministeriales (*cahiers des charges*) en PDF archivados en [`DOWNs/DOCs/FRANCE/`](DOWNs/DOCs/FRANCE/), delimitación vectorial oficial **INAO** y filtros SQL por comunas. Ver [Registro de Francia](docs/FRANCE/REGISTRO_AOCS.md).
+- **🇫🇷 Francia (100% Censo Completado):** 325 AOCs oficiales. Cobertura nacional exhaustiva en catorce cuencas vitivinícolas: **Burdeos (36 AOCs)**, **Borgoña (46 AOCs)**, **Valle del Ródano (31 AOCs)**, **Valle del Loira (48 AOCs)**, **Champaña (5 AOCs)**, **Alsacia (16 AOCs)**, **Lorena (2 AOCs)**, **Provenza (14 AOCs)**, **Córcega (9 AOCs)**, **Languedoc (35 AOCs)**, **Rosellón (14 AOCs)**, **Sudoeste (32 AOCs)**, **Jura (7 AOCs)**, **Saboya (23 AOCs)** y **Bugey (7 AOCs)** con el 100% de los pliegos de condiciones oficiales ministeriales (*cahiers des charges*) en PDF archivados en [`DOWNs/DOCs/FRANCE/`](DOWNs/DOCs/FRANCE/), delimitación vectorial oficial **INAO** y filtros SQL por comunas. Ver [Registro de Francia](docs/FRANCE/REGISTRO_AOCS.md).
 - **🇮🇹 Italia (Fase 1 completada):** 10 icónicas DOCG/DOC incluyendo Barolo, Barbaresco, Chianti Classico, Brunello di Montalcino, Bolgheri, Amarone della Valpolicella, Prosecco y Franciacorta. Ver [Registro de Italia](docs/ITALY/REGISTRO_DOCS.md).
 
 **En números:**
-* **398 regiones vitivinícolas oficiales** integradas en el visor web interactivo con filtros por país (España, Francia, Portugal, Italia) y por comunidades/regiones.
-* **425 capas vectoriales** estructuradas en el proyecto maestro QGIS (`QGIS/wine_world_wine.qgz`).
-* **325 pliegos oficiales (PDFs)** archivados en local en [`DOWNs/DOCs/`](DOWNs/DOCs/).
+* **467 regiones vitivinícolas oficiales** integradas en el visor web interactivo con filtros por país (España, Francia, Portugal, Italia) y por comunidades/regiones.
+* **494 capas vectoriales** estructuradas en el proyecto maestro QGIS (`QGIS/wine_world_wine.qgz`).
+* **363 pliegos oficiales (PDFs)** archivados en local en [`DOWNs/DOCs/`](DOWNs/DOCs/).
 * **Librerías SQL completas** para cada país en `QGIS/<PAIS>/SQLs/`.
 
 ---

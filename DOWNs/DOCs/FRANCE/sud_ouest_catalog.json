@@ -1,0 +1,996 @@
+[
+  {
+    "id": "fr-sud-ouest-cahors",
+    "name": "Cahors",
+    "region": "Sud-Ouest",
+    "subbasin": "Vallée du Lot & Causses (Lot)",
+    "where_clause": "denom = 'Cahors'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Cahors.gpkg",
+    "layer": "AOC Cahors",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Cahors.pdf",
+    "color": "#4a044e",
+    "reds": [
+      "Cot (Malbec)",
+      "Merlot",
+      "Tannat"
+    ],
+    "whites": [],
+    "communes": [
+      "Cahors",
+      "Puy-l'Évêque",
+      "Prayssac",
+      "Luzech",
+      "Albas",
+      "Bélaye",
+      "Castelfranc",
+      "Crayssac",
+      "Duravel",
+      "Flaujac-Poujols",
+      "Grezels",
+      "Labastide-du-Vert",
+      "Lacapelle-Cabanac",
+      "Lagardelle",
+      "Mauroux",
+      "Mercuès",
+      "Parnac",
+      "Pradines",
+      "Saint-Vincent-Rive-d'Olt",
+      "Sauzet",
+      "Soturac",
+      "Touzac",
+      "Vire-sur-Lot"
+    ],
+    "desc": "El legendario «Vino Negro» (Black Wine) de los meandros del río Lot y las terrazas de caliza jurásica: el reino originario del Malbec (Cot / Auxerrois, mínimo 70%), produciendo tintos de insondable profundidad, taninos nobles y notas de trufa y mora silvestre."
+  },
+  {
+    "id": "fr-sud-ouest-madiran",
+    "name": "Madiran",
+    "region": "Sud-Ouest",
+    "subbasin": "Piémont Pyrénéen du Vic-Bilh (Gers / Hautes-Pyrénées / Pyrénées-Atlantiques)",
+    "where_clause": "denom = 'Madiran'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Madiran.gpkg",
+    "layer": "AOC Madiran",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Madiran.pdf",
+    "color": "#881337",
+    "reds": [
+      "Tannat",
+      "Cabernet Franc",
+      "Cabernet Sauvignon",
+      "Fer Servadou"
+    ],
+    "whites": [],
+    "communes": [
+      "Madiran",
+      "Aydie",
+      "Castelnau-Rivière-Basse",
+      "Crouseilles",
+      "Maumusson-Laguian",
+      "Cannet",
+      "Moncaup",
+      "Saint-Lanne",
+      "Viella",
+      "Bétracq",
+      "Lasserre",
+      "Monpezat"
+    ],
+    "desc": "El templo absoluto de la uva Tannat en las colinas que miran a la cordillera pirenaica: suelos arcillo-calcáreos y cantos rodados (galets) que forjan tintos de colosal potencia polifenólica, domados por crianzas pacientes en roble."
+  },
+  {
+    "id": "fr-sud-ouest-pacherenc-du-vic-bilh",
+    "name": "Pacherenc du Vic-Bilh",
+    "region": "Sud-Ouest",
+    "subbasin": "Piémont Pyrénéen du Vic-Bilh (Gers / Hautes-Pyrénées / Pyrénées-Atlantiques)",
+    "where_clause": "denom = 'Pacherenc du Vic-Bilh'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Pacherenc_du_Vic_Bilh.gpkg",
+    "layer": "AOC Pacherenc du Vic-Bilh",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Pacherenc_du_Vic_Bilh.pdf",
+    "color": "#eab308",
+    "reds": [],
+    "whites": [
+      "Petit Manseng",
+      "Gros Manseng",
+      "Petit Courbu",
+      "Arrufiac"
+    ],
+    "communes": [
+      "Madiran",
+      "Aydie",
+      "Castelnau-Rivière-Basse",
+      "Crouseilles",
+      "Maumusson-Laguian",
+      "Cannet",
+      "Moncaup",
+      "Saint-Lanne",
+      "Viella"
+    ],
+    "desc": "La joya blanca del territorio de Madiran («estacas del país viejo»): sublimes vinos blancos dulces y secos de vendimias tardías de Petit y Gros Manseng, rebosantes de frutas exóticas confitadas, miel y una acidez vibrante."
+  },
+  {
+    "id": "fr-sud-ouest-jurancon",
+    "name": "Jurançon",
+    "region": "Sud-Ouest",
+    "subbasin": "Piémont Pyrénéen Béarnais (Pyrénées-Atlantiques)",
+    "where_clause": "denom = 'Jurançon'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Jurancon.gpkg",
+    "layer": "AOC Jurançon",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Jurancon.pdf",
+    "color": "#f59e0b",
+    "reds": [],
+    "whites": [
+      "Petit Manseng",
+      "Gros Manseng",
+      "Courbu",
+      "Camaralet",
+      "Lauzet"
+    ],
+    "communes": [
+      "Jurançon",
+      "Chapelle-de-Rousse",
+      "Monein",
+      "Saint-Faust",
+      "Aubertin",
+      "Lasseube",
+      "Lucq-de-Béarn",
+      "Gan",
+      "Cuqueron",
+      "Lacommande",
+      "Mazères-Lezons",
+      "Parbayse",
+      "Rontignon"
+    ],
+    "desc": "El vino del bautizo real de Enrique IV con ajo y vino de Jurançon (1553): laderas en anfiteatro encaradas al Midi y al Pic du Midi d'Ossau donde el viento foehn deshidrata el Petit Manseng por pasificación natural sobre la vid."
+  },
+  {
+    "id": "fr-sud-ouest-irouleguy",
+    "name": "Irouléguy",
+    "region": "Sud-Ouest",
+    "subbasin": "Pays Basque / Nafarroa Beherea (Pyrénées-Atlantiques)",
+    "where_clause": "denom = 'Irouléguy'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Irouleguy.gpkg",
+    "layer": "AOC Irouléguy",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Irouleguy.pdf",
+    "color": "#991b1b",
+    "reds": [
+      "Tannat",
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [
+      "Gros Manseng",
+      "Petit Manseng",
+      "Petit Courbu"
+    ],
+    "communes": [
+      "Irouléguy",
+      "Saint-Étienne-de-Baïgorry",
+      "Anhaux",
+      "Ascarat",
+      "Ispoure",
+      "Jaxu",
+      "Lasse",
+      "Ossès",
+      "Saint-Jean-Pied-de-Port",
+      "Bussunarits-Sarrasquette"
+    ],
+    "desc": "El único viñedo del País Vasco francés en el corazón de la Baja Navarra: terrazas vertiginosas sobre areniscas rojas del Triásico y esquistos con pendientes de hasta el 60%, alumbrando tintos salvajes de Tannat y blancos minerales."
+  },
+  {
+    "id": "fr-sud-ouest-gaillac",
+    "name": "Gaillac",
+    "region": "Sud-Ouest",
+    "subbasin": "Vallée du Tarn & Plateau Cordais (Tarn)",
+    "where_clause": "denom = 'Gaillac'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Gaillac.gpkg",
+    "layer": "AOC Gaillac",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Gaillac.pdf",
+    "color": "#b91c1c",
+    "reds": [
+      "Duras",
+      "Braucol (Fer Servadou)",
+      "Prunelart",
+      "Syrah",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [
+      "Mauzac",
+      "Loin de l'Œil (Len de l'Elh)",
+      "Muscadelle",
+      "Ondenc",
+      "Sauvignon blanc"
+    ],
+    "communes": [
+      "Gaillac",
+      "Albi",
+      "Castelnau-de-Montmiral",
+      "Cordes-sur-Ciel",
+      "Lagrave",
+      "Lisle-sur-Tarn",
+      "Rabastens",
+      "Cahuzac-sur-Vère",
+      "Broze",
+      "Montels"
+    ],
+    "desc": "Uno de los viñedos más antiguos de la Galia plantado por los romanos y preservado por la abadía de Saint-Michel: excepcional patrimonio de uvas autóctonas únicas (Braucol, Duras, Prunelart, Len de l'Elh) y su legendario método ancestral espumoso."
+  },
+  {
+    "id": "fr-sud-ouest-gaillac-premieres-cotes",
+    "name": "Gaillac premières côtes",
+    "region": "Sud-Ouest",
+    "subbasin": "Coteaux de la Rive Droite du Tarn (Tarn)",
+    "where_clause": "denom = 'Gaillac premières côtes'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Gaillac_Premieres_Cotes.gpkg",
+    "layer": "AOC Gaillac premières côtes",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Gaillac.pdf",
+    "color": "#ca8a04",
+    "reds": [],
+    "whites": [
+      "Mauzac",
+      "Loin de l'Œil",
+      "Muscadelle",
+      "Sauvignon blanc"
+    ],
+    "communes": [
+      "Broze",
+      "Cahuzac-sur-Vère",
+      "Castelnau-de-Montmiral",
+      "Gaillac",
+      "Montels",
+      "Rivens",
+      "Sainte-Cécile-du-Cayrou",
+      "Villeneuve-sur-Vère"
+    ],
+    "desc": "Las laderas calcáreas privilegiadas de la margen derecha del Tarn: suelos de arcillo-calcáreos sobre la roca madre de la meseta cordesa reservados en exclusiva para excelsos vinos blancos secos y dulces."
+  },
+  {
+    "id": "fr-sud-ouest-fronton",
+    "name": "Fronton",
+    "region": "Sud-Ouest",
+    "subbasin": "Terrasses de la Garonne et du Tarn (Haute-Garonne / Tarn-et-Garonne)",
+    "where_clause": "denom = 'Fronton'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Fronton.gpkg",
+    "layer": "AOC Fronton",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Fronton.pdf",
+    "color": "#701a75",
+    "reds": [
+      "Négrette",
+      "Syrah",
+      "Cabernet Franc",
+      "Cabernet Sauvignon",
+      "Côt",
+      "Gamay"
+    ],
+    "whites": [],
+    "communes": [
+      "Fronton",
+      "Bouloc",
+      "Castelnau-d'Estrétefonds",
+      "Vacquiers",
+      "Villaudric",
+      "Villariès",
+      "Campsas",
+      "Canals",
+      "Dieupentale",
+      "Fabas",
+      "Grisolles",
+      "Nohic",
+      "Pompignan"
+    ],
+    "desc": "A las puertas de Toulouse: el terruño exclusivo de la uva Négrette (mínimo 50%), cultivada sobre tres terrazas de aluvión cuarcítico («boulbènes») que aporta notas arrebatadoras de violeta, peonía y regaliz negro."
+  },
+  {
+    "id": "fr-sud-ouest-marcillac",
+    "name": "Marcillac",
+    "region": "Sud-Ouest",
+    "subbasin": "Vallon de Marcillac & Rougier (Aveyron)",
+    "where_clause": "denom = 'Marcillac'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Marcillac.gpkg",
+    "layer": "AOC Marcillac",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Marcillac.pdf",
+    "color": "#7c2d12",
+    "reds": [
+      "Fer Servadou (Mansois)",
+      "Cabernet Franc",
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    "whites": [],
+    "communes": [
+      "Marcillac-Vallon",
+      "Balsac",
+      "Clairvaux-d'Aveyron",
+      "Mouret",
+      "Nauviale",
+      "Pruines",
+      "Saint-Christophe-Vallon",
+      "Salles-la-Source"
+    ],
+    "desc": "Impresionante cañón esculpido en arcillas rojas y gres triásico («le rougier»): el reino del Mansois (Fer Servadou, mínimo 90%), cepa montaraz de taninos crujientes con aromas de pimiento rojo asado, grosella y pedernal."
+  },
+  {
+    "id": "fr-sud-ouest-saint-mont",
+    "name": "Saint-Mont",
+    "region": "Sud-Ouest",
+    "subbasin": "Collines de Gascogne / Piémont Adour (Gers)",
+    "where_clause": "denom = 'Saint-Mont'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Saint_Mont.gpkg",
+    "layer": "AOC Saint-Mont",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Saint_Mont.pdf",
+    "color": "#9f1239",
+    "reds": [
+      "Tannat",
+      "Pinenc (Fer Servadou)",
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "whites": [
+      "Gros Manseng",
+      "Arrufiac",
+      "Petit Courbu",
+      "Clairette"
+    ],
+    "communes": [
+      "Saint-Mont",
+      "Aignan",
+      "Plavols",
+      "Riscle",
+      "Tasque",
+      "Termes-d'Armagnac",
+      "Verlus",
+      "Viella",
+      "Castelnau-d'Auzan"
+    ],
+    "desc": "Viñedo de colinas gasconas sobre areniscas leonadas y arcillas: alberga la parcela monumental de viñas prefiloxéricas de Sarragachies (declarada Monumento Histórico), elaborando tintos y blancos de pureza ancestral."
+  },
+  {
+    "id": "fr-sud-ouest-tursan",
+    "name": "Tursan",
+    "region": "Sud-Ouest",
+    "subbasin": "Bassin de l'Adour (Landes / Gers)",
+    "where_clause": "denom = 'Tursan'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Tursan.gpkg",
+    "layer": "AOC Tursan",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Tursan.pdf",
+    "color": "#d97706",
+    "reds": [
+      "Tannat",
+      "Cabernet Franc",
+      "Cabernet Sauvignon",
+      "Fer Servadou"
+    ],
+    "whites": [
+      "Baroque",
+      "Gros Manseng",
+      "Sauvignon blanc"
+    ],
+    "communes": [
+      "Geaune",
+      "Aire-sur-l'Adour",
+      "Eugénie-les-Bains",
+      "Payros-Cazautets",
+      "Pimbo",
+      "Samadet",
+      "Urgon",
+      "Classun"
+    ],
+    "desc": "Entre las Landas y el Bearn: cuna exclusiva de la singular variedad blanca Baroque, asociada al Gros Manseng en vinos secos aromáticos, y tintos estructurados de Tannat."
+  },
+  {
+    "id": "fr-sud-ouest-bearn",
+    "name": "Béarn",
+    "region": "Sud-Ouest",
+    "subbasin": "Bassin Béarnais (Pyrénées-Atlantiques / Hautes-Pyrénées)",
+    "where_clause": "denom = 'Béarn'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Bearn.gpkg",
+    "layer": "AOC Béarn",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Bearn.pdf",
+    "color": "#a21caf",
+    "reds": [
+      "Tannat",
+      "Cabernet Franc",
+      "Cabernet Sauvignon",
+      "Fer Servadou"
+    ],
+    "whites": [
+      "Raffiat de Moncade",
+      "Gros Manseng",
+      "Petit Manseng"
+    ],
+    "communes": [
+      "Bellocq",
+      "Orthez",
+      "Salies-de-Béarn",
+      "Sauveterre-de-Béarn",
+      "Lahontan"
+    ],
+    "desc": "Tierras históricas del Vizcondado de Bearn en torno al Gave de Pau: tintos y rosados generosos de Tannat y Cabernet, junto a blancos donde pervive la rarísima variedad Raffiat de Moncade."
+  },
+  {
+    "id": "fr-sud-ouest-saint-sardos",
+    "name": "Saint-Sardos",
+    "region": "Sud-Ouest",
+    "subbasin": "Lomagne / Garonne (Tarn-et-Garonne)",
+    "where_clause": "denom = 'Saint-Sardos'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Saint_Sardos.gpkg",
+    "layer": "AOC Saint-Sardos",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Saint_Sardos.pdf",
+    "color": "#6b21a8",
+    "reds": [
+      "Syrah",
+      "Tannat",
+      "Cabernet Franc",
+      "Merlot"
+    ],
+    "whites": [],
+    "communes": [
+      "Saint-Sardos",
+      "Beaumont-de-Lomagne",
+      "Bouillac",
+      "Comberouger",
+      "Mas-Grenier",
+      "Savenès",
+      "Verdun-sur-Garonne"
+    ],
+    "desc": "Al sur de Montauban: encuentro fascinante entre la finura especiada de la Syrah (mínimo 40%) y la recia estructura gascona del Tannat sobre colinas de arcillas y calizas de Lomagne."
+  },
+  {
+    "id": "fr-sud-ouest-brulhois",
+    "name": "Brulhois",
+    "region": "Sud-Ouest",
+    "subbasin": "Coteaux de Garonne (Lot-et-Garonne / Tarn-et-Garonne / Gers)",
+    "where_clause": "denom = 'Brulhois'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Brulhois.gpkg",
+    "layer": "AOC Brulhois",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Brulhois.pdf",
+    "color": "#581c87",
+    "reds": [
+      "Tannat",
+      "Cabernet Franc",
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Malbec",
+      "Fer Servadou"
+    ],
+    "whites": [],
+    "communes": [
+      "Astaffort",
+      "Layrac",
+      "Dunes",
+      "Donzac",
+      "Auvillar",
+      "Fals",
+      "Cuq",
+      "Caudecoste"
+    ],
+    "desc": "Los «Vinos Negros» del sur de Agen: laderas de cascajo y arcillas pedregosas donde el Tannat ensamblado con Cabernet Franc y Merlot engendra vinos de capa impenetrable y firme carnosidad."
+  },
+  {
+    "id": "fr-sud-ouest-buzet",
+    "name": "Buzet",
+    "region": "Sud-Ouest",
+    "subbasin": "Val de Garonne & Baïse (Lot-et-Garonne)",
+    "where_clause": "denom = 'Buzet'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Buzet.gpkg",
+    "layer": "AOC Buzet",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Buzet.pdf",
+    "color": "#991b1b",
+    "reds": [
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Cabernet Franc",
+      "Côt"
+    ],
+    "whites": [
+      "Sémillon",
+      "Sauvignon blanc",
+      "Muscadelle"
+    ],
+    "communes": [
+      "Buzet-sur-Baïse",
+      "Damazan",
+      "Feugarolles",
+      "Nérac",
+      "Vianne",
+      "Xaintrailles",
+      "Ambrus",
+      "Thouars-sur-Garonne"
+    ],
+    "desc": "Entre las Landas y el río Garona: viñedos de tradición cooperativa pionera en agroecología sobre mesetas de gravas y calizas, elaborando tintos elegantes, redondos y aromáticos."
+  },
+  {
+    "id": "fr-sud-ouest-cotes-de-duras",
+    "name": "Côtes de Duras",
+    "region": "Sud-Ouest",
+    "subbasin": "Vallée du Dropt (Lot-et-Garonne)",
+    "where_clause": "denom = 'Côtes de Duras'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Cotes_de_Duras.gpkg",
+    "layer": "AOC Côtes de Duras",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Cotes_de_Duras.pdf",
+    "color": "#c2410c",
+    "reds": [
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Cabernet Franc",
+      "Côt"
+    ],
+    "whites": [
+      "Sauvignon blanc",
+      "Sémillon",
+      "Muscadelle",
+      "Mauzac",
+      "Ondenc"
+    ],
+    "communes": [
+      "Duras",
+      "Auriac-sur-Dropt",
+      "Baleyssagues",
+      "Esclottes",
+      "Loubès-Bernac",
+      "Pardaillan",
+      "Saint-Astier",
+      "Sainte-Colombe-de-Duras",
+      "Soumensac"
+    ],
+    "desc": "Alrededor del castillo de los Duques de Duras: viñedos de gran equilibrio que gozan de la frescura del río Dropt, reconocidos tanto por sus Sauvignon blancos cítricos y vivaces como por sus tintos sedosos."
+  },
+  {
+    "id": "fr-sud-ouest-cotes-du-marmandais",
+    "name": "Côtes du Marmandais",
+    "region": "Sud-Ouest",
+    "subbasin": "Deux Rives de la Garonne (Lot-et-Garonne)",
+    "where_clause": "denom = 'Côtes du Marmandais'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Cotes_du_Marmandais.gpkg",
+    "layer": "AOC Côtes du Marmandais",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Cotes_du_Marmandais.pdf",
+    "color": "#831843",
+    "reds": [
+      "Abouriou",
+      "Merlot",
+      "Cabernet Franc",
+      "Cabernet Sauvignon",
+      "Malbec",
+      "Syrah"
+    ],
+    "whites": [
+      "Sauvignon blanc",
+      "Sémillon",
+      "Muscadelle"
+    ],
+    "communes": [
+      "Marmande",
+      "Beaupuy",
+      "Cocumont",
+      "Meilhan-sur-Garonne",
+      "Sainte-Bazeille",
+      "Samazan",
+      "Bouglon",
+      "Romestaing"
+    ],
+    "desc": "A ambas orillas del río Garona: cuna de la insólita cepa autóctona Abouriou, que confiere a los ensamblajes tintos una textura carnosa y notas exuberantes de mora silvestre y especias."
+  },
+  {
+    "id": "fr-sud-ouest-bergerac",
+    "name": "Bergerac",
+    "region": "Sud-Ouest",
+    "subbasin": "Périgord Pourpre (Dordogne)",
+    "where_clause": "denom = 'Bergerac'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Bergerac.gpkg",
+    "layer": "AOC Bergerac",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Bergerac.pdf",
+    "color": "#991b1b",
+    "reds": [
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Cabernet Franc",
+      "Côt (Malbec)"
+    ],
+    "whites": [
+      "Sauvignon blanc",
+      "Sémillon",
+      "Muscadelle",
+      "Ondenc",
+      "Chenin blanc"
+    ],
+    "communes": [
+      "Bergerac",
+      "Creysse",
+      "Gardonne",
+      "Lamonzie-Saint-Martin",
+      "Prigonrieux",
+      "Sigoulès",
+      "Eymet",
+      "La Force",
+      "Cunèges",
+      "Mouleydier"
+    ],
+    "desc": "El corazón del Périgord Púrpura a lo largo de las riberas del Dordoña: vasta denominación regional que aúna tintos frescos y frutales con blancos secos vibrantes y aromáticos."
+  },
+  {
+    "id": "fr-sud-ouest-cotes-de-bergerac",
+    "name": "Côtes de Bergerac",
+    "region": "Sud-Ouest",
+    "subbasin": "Périgord Pourpre (Dordogne)",
+    "where_clause": "denom = 'Côtes de Bergerac'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Cotes_de_Bergerac.gpkg",
+    "layer": "AOC Côtes de Bergerac",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Bergerac.pdf",
+    "color": "#701a75",
+    "reds": [
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Cabernet Franc",
+      "Côt"
+    ],
+    "whites": [
+      "Sémillon",
+      "Sauvignon blanc",
+      "Muscadelle"
+    ],
+    "communes": [
+      "Bergerac",
+      "Monbazillac",
+      "Pomport",
+      "Saussignac",
+      "Gageac-et-Rouillac",
+      "Razac-de-Saussignac"
+    ],
+    "desc": "La selección cualitativa de las mejores laderas del Bergeracois: rendimientos más bajos y mayor maduración para tintos de guarda ricos y estructurados, y blancos moelleux de gran untuosidad."
+  },
+  {
+    "id": "fr-sud-ouest-monbazillac",
+    "name": "Monbazillac",
+    "region": "Sud-Ouest",
+    "subbasin": "Coteaux Sud de la Dordogne (Dordogne)",
+    "where_clause": "denom = 'Monbazillac'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Monbazillac.gpkg",
+    "layer": "AOC Monbazillac",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Monbazillac.pdf",
+    "color": "#eab308",
+    "reds": [],
+    "whites": [
+      "Sémillon",
+      "Sauvignon blanc",
+      "Muscadelle"
+    ],
+    "communes": [
+      "Monbazillac",
+      "Colombier",
+      "Pomport",
+      "Rouffignac-de-Sigoulès",
+      "Saint-Laurent-des-Vignes"
+    ],
+    "desc": "El mítico vino licoroso del Périgord nacido bajo el castillo renacentista de Monbazillac: nieblas otoñales del río Gardonette que favorecen la botrytis cinérea (podredumbre noble) sobre Sémillon y Muscadelle."
+  },
+  {
+    "id": "fr-sud-ouest-pecharmant",
+    "name": "Pécharmant",
+    "region": "Sud-Ouest",
+    "subbasin": "Colline du Pech Charmant (Dordogne)",
+    "where_clause": "denom = 'Pécharmant'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Pecharmant.gpkg",
+    "layer": "AOC Pécharmant",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Pecharmant.pdf",
+    "color": "#881337",
+    "reds": [
+      "Merlot",
+      "Cabernet Franc",
+      "Cabernet Sauvignon",
+      "Côt"
+    ],
+    "whites": [],
+    "communes": [
+      "Bergerac",
+      "Creysse",
+      "Lembras",
+      "Saint-Sauveur"
+    ],
+    "desc": "El cru tinto más prestigioso del Bergeracois: colina («pech») al noreste de Bergerac con suelos de arenas y gravas del Périgord sobre una capa profunda de arcilla ferruginosa llamada «tran», forjando tintos opulentos y de gran guarda."
+  },
+  {
+    "id": "fr-sud-ouest-saussignac",
+    "name": "Saussignac",
+    "region": "Sud-Ouest",
+    "subbasin": "Coteaux du Sud-Ouest Bergeracois (Dordogne)",
+    "where_clause": "denom = 'Saussignac'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Saussignac.gpkg",
+    "layer": "AOC Saussignac",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Saussignac.pdf",
+    "color": "#ca8a04",
+    "reds": [],
+    "whites": [
+      "Sémillon",
+      "Sauvignon blanc",
+      "Muscadelle",
+      "Chenin blanc"
+    ],
+    "communes": [
+      "Saussignac",
+      "Gageac-et-Rouillac",
+      "Monestier",
+      "Razac-de-Saussignac"
+    ],
+    "desc": "Gran vino licoroso de producción muy limitada: vendimias manuales grano a grano por sucesivas selecciones («tries») de uvas botritizadas y pasificadas, con aromas de orejones, cera de abeja y naranja amarga."
+  },
+  {
+    "id": "fr-sud-ouest-rosette",
+    "name": "Rosette",
+    "region": "Sud-Ouest",
+    "subbasin": "Coteaux Nord de Bergerac (Dordogne)",
+    "where_clause": "denom = 'Rosette'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Rosette.gpkg",
+    "layer": "AOC Rosette",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Rosette.pdf",
+    "color": "#f59e0b",
+    "reds": [],
+    "whites": [
+      "Sémillon",
+      "Sauvignon blanc",
+      "Muscadelle"
+    ],
+    "communes": [
+      "Bergerac",
+      "Ginestet",
+      "Lembras",
+      "Maurens",
+      "Prigonrieux",
+      "Saint-Laurent-des-Vignes"
+    ],
+    "desc": "Minúscula denominación de vinos blancos semidulces («moelleux»): colinas orientadas al mediodía sobre arcillas y arenas que dan vinos de extrema delicadeza, redondos y florales."
+  },
+  {
+    "id": "fr-sud-ouest-montravel",
+    "name": "Montravel",
+    "region": "Sud-Ouest",
+    "subbasin": "Plateau de Montravel (Dordogne)",
+    "where_clause": "denom = 'Montravel'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Montravel.gpkg",
+    "layer": "AOC Montravel",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Montravel.pdf",
+    "color": "#991b1b",
+    "reds": [
+      "Merlot",
+      "Cabernet Franc",
+      "Cabernet Sauvignon",
+      "Côt"
+    ],
+    "whites": [
+      "Sémillon",
+      "Sauvignon blanc",
+      "Muscadelle"
+    ],
+    "communes": [
+      "Lamothe-Montravel",
+      "Montcaret",
+      "Saint-Michel-de-Montaigne",
+      "Bonneville-et-Saint-Avit-de-Fumadières",
+      "Montazeau",
+      "Saint-Seurin-de-Prats"
+    ],
+    "desc": "La tierra del filósofo Michel de Montaigne en el confín occidental del Périgord: meseta caliza sobre el río Dordoña contigua a Saint-Émilion, cuna de tintos distinguidos y blancos secos aromáticos."
+  },
+  {
+    "id": "fr-sud-ouest-cotes-de-montravel",
+    "name": "Côtes de Montravel",
+    "region": "Sud-Ouest",
+    "subbasin": "Coteaux de Montravel (Dordogne)",
+    "where_clause": "denom = 'Côtes de Montravel'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Cotes_de_Montravel.gpkg",
+    "layer": "AOC Côtes de Montravel",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Montravel.pdf",
+    "color": "#d97706",
+    "reds": [],
+    "whites": [
+      "Sémillon",
+      "Sauvignon blanc",
+      "Muscadelle"
+    ],
+    "communes": [
+      "Lamothe-Montravel",
+      "Montcaret",
+      "Saint-Michel-de-Montaigne",
+      "Montazeau",
+      "Saint-Vivien"
+    ],
+    "desc": "Laderas meridionales de Montravel reservadas a vinos blancos semidulces (moelleux) de gran finura y equilibrio entre frescura frutal y dulzor almibarado."
+  },
+  {
+    "id": "fr-sud-ouest-haut-montravel",
+    "name": "Haut-Montravel",
+    "region": "Sud-Ouest",
+    "subbasin": "Hauts Coteaux de Montravel (Dordogne)",
+    "where_clause": "denom = 'Haut-Montravel'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Haut_Montravel.gpkg",
+    "layer": "AOC Haut-Montravel",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Montravel.pdf",
+    "color": "#b45309",
+    "reds": [],
+    "whites": [
+      "Sémillon",
+      "Sauvignon blanc",
+      "Muscadelle"
+    ],
+    "communes": [
+      "Saint-Michel-de-Montaigne",
+      "Montazeau",
+      "Saint-Vivien",
+      "Fougueyrolles",
+      "Nastringues"
+    ],
+    "desc": "Los vinos licorosos más nobles de Montravel: vendimiados exclusivamente en sobremaduración con botrytis seleccionada a mano, de textura densa y suntuosa con notas de albaricoque y flores blancas."
+  },
+  {
+    "id": "fr-sud-ouest-cotes-de-millau",
+    "name": "Côtes de Millau",
+    "region": "Sud-Ouest",
+    "subbasin": "Gorges du Tarn (Aveyron)",
+    "where_clause": "denom = 'Côtes de Millau'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Cotes_de_Millau.gpkg",
+    "layer": "AOC Côtes de Millau",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Cotes_de_Millau.pdf",
+    "color": "#4c1d95",
+    "reds": [
+      "Gamay",
+      "Syrah",
+      "Fer Servadou",
+      "Cabernet Franc"
+    ],
+    "whites": [
+      "Chenin blanc",
+      "Mauzac"
+    ],
+    "communes": [
+      "Millau",
+      "Compeyre",
+      "Aguessac",
+      "Creissels",
+      "Paulhe",
+      "Peyreleau",
+      "Rivière-sur-Tarn",
+      "Saint-Beauzély"
+    ],
+    "desc": "Viñedos de montaña bajo los imponentes pilares del Viaducto de Millau: bancales en las hoces del Tarn sobre canchales calcáreos, célebres por sus tintos frescos de Gamay y Syrah."
+  },
+  {
+    "id": "fr-sud-ouest-entraygues-le-fel",
+    "name": "Entraygues - Le Fel",
+    "region": "Sud-Ouest",
+    "subbasin": "Gorges du Lot et de la Truyère (Aveyron / Cantal)",
+    "where_clause": "denom = 'Entraygues - Le Fel'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Entraygues_Le_Fel.gpkg",
+    "layer": "AOC Entraygues - Le Fel",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Entraygues_Le_Fel.pdf",
+    "color": "#0284c7",
+    "reds": [
+      "Fer Servadou",
+      "Cabernet Franc",
+      "Mouyssaguès"
+    ],
+    "whites": [
+      "Chenin blanc",
+      "Mauzac"
+    ],
+    "communes": [
+      "Entraygues-sur-Truyère",
+      "Le Fel",
+      "Campuac",
+      "Golinhac",
+      "Saint-Amans-des-Cots",
+      "Cassaniouze",
+      "Vieillevie"
+    ],
+    "desc": "En la confluencia salvaje del Lot y la Truyère: terrazas escarpadas de esquistos y granito con Chenin blanco de mineralidad punzante y tintos rústicos de Fer Servadou."
+  },
+  {
+    "id": "fr-sud-ouest-estaing",
+    "name": "Estaing",
+    "region": "Sud-Ouest",
+    "subbasin": "Haute Vallée du Lot (Aveyron)",
+    "where_clause": "denom = 'Estaing'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Estaing.gpkg",
+    "layer": "AOC Estaing",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Estaing.pdf",
+    "color": "#0d9488",
+    "reds": [
+      "Fer Servadou",
+      "Gamay",
+      "Cabernet Franc",
+      "Pinot Noir"
+    ],
+    "whites": [
+      "Mauzac",
+      "Chenin blanc"
+    ],
+    "communes": [
+      "Estaing",
+      "Coubisou",
+      "Sébrazac"
+    ],
+    "desc": "Uno de los viñedos AOC más pequeños de Francia (unas 20 hectáreas) a los pies del castillo medieval de Estaing en el Camino de Santiago: terrazas pizarrosas de extrema pureza artesanal."
+  },
+  {
+    "id": "fr-sud-ouest-correze",
+    "name": "Corrèze",
+    "region": "Sud-Ouest",
+    "subbasin": "Bassin de Brive (Corrèze)",
+    "where_clause": "denom = 'Corrèze'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Correze.gpkg",
+    "layer": "AOC Corrèze",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Correze.pdf",
+    "color": "#15803d",
+    "reds": [
+      "Cabernet Franc",
+      "Merlot"
+    ],
+    "whites": [
+      "Chenin blanc",
+      "Chardonnay"
+    ],
+    "communes": [
+      "Brive-la-Gaillarde",
+      "Queyssac-les-Vignes",
+      "Branceilles",
+      "Curemonte",
+      "Jugeals-Nazareth",
+      "Liourdres",
+      "Noailles",
+      "Sioniac",
+      "Végennes"
+    ],
+    "desc": "El renacimiento vitivinícola del Lemosín meridional (reconocida en 2017): famosa por sus tintos de Cabernet Franc y su legendario «Vin Paillé» (vino de paja), uvas secadas pacientemente en paseras de mimbre."
+  },
+  {
+    "id": "fr-sud-ouest-correze-coteaux-de-la-vezere",
+    "name": "Corrèze Coteaux de la Vézère",
+    "region": "Sud-Ouest",
+    "subbasin": "Vallée de la Vézère (Corrèze)",
+    "where_clause": "denom = 'Corrèze Coteaux de la Vézère'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Correze_Coteaux_de_la_Vezere.gpkg",
+    "layer": "AOC Corrèze Coteaux de la Vézère",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Correze.pdf",
+    "color": "#166534",
+    "reds": [
+      "Cabernet Franc"
+    ],
+    "whites": [
+      "Chenin blanc"
+    ],
+    "communes": [
+      "Allassac",
+      "Donzenac",
+      "Voutezac"
+    ],
+    "desc": "Laderas pizarrosas y esquistos negros de la falla de la Vézère: monovarietales de Chenin blanco de asombrosa salinidad y tensión mineral, y tintos puros de Cabernet Franc."
+  },
+  {
+    "id": "fr-sud-ouest-floc-de-gascogne",
+    "name": "Floc de Gascogne",
+    "region": "Sud-Ouest",
+    "subbasin": "Territoire de l'Armagnac (Gers / Landes / Lot-et-Garonne)",
+    "where_clause": "denom = 'Floc de Gascogne'",
+    "gpkg_rel": "FRANCE/Sud_Ouest/Floc_de_Gascogne.gpkg",
+    "layer": "AOC Floc de Gascogne",
+    "pdf_rel": "DOWNs/DOCs/FRANCE/Sud_Ouest/Floc_de_Gascogne.pdf",
+    "color": "#ea580c",
+    "reds": [
+      "Cabernet Franc",
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Tannat"
+    ],
+    "whites": [
+      "Colombard",
+      "Ugni blanc",
+      "Gros Manseng"
+    ],
+    "communes": [
+      "Éauze",
+      "Condom",
+      "Nogaro",
+      "Lectoure",
+      "Fleurance",
+      "Vic-Fezensac",
+      "Mont-de-Marsan",
+      "Nérac"
+    ],
+    "desc": "El aperitivo tradicional de Gascuña («ramillete de flores»): mistela de AOC obtenida de la unión armoniosa de 2/3 de mosto fresco de uvas gasconas y 1/3 de aguardiente joven de Armagnac con Denominación de Origen."
+  }
+]
