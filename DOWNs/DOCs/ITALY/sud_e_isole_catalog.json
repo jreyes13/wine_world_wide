@@ -1,0 +1,795 @@
+[
+  {
+    "id": "it-campania-taurasi",
+    "name": "Taurasi",
+    "layer": "DOCG Taurasi",
+    "region": "Campania",
+    "category": "DOCG",
+    "color": "#4A0026",
+    "reds": [
+      "Aglianico"
+    ],
+    "whites": [],
+    "desc": "El \"Barolo del Sur\" en las colinas de Irpinia sobre toba volcánica y arcilla. Aglianico monumental, austero, con notas de ciruela negra, alquitrán, incienso y crianza mínima de 3 años (1 en madera).",
+    "comuni": [
+      "Taurasi",
+      "Bonito",
+      "Castelfranci",
+      "Castelvetere sul Calore",
+      "Fontanarosa",
+      "Lapio",
+      "Luogosano",
+      "Mirabella Eclano",
+      "Montefalcione",
+      "Montemarano",
+      "Montemiletto",
+      "Paternopoli",
+      "Pietradefusi",
+      "Sant'Angelo all'Esca",
+      "San Mango sul Calore",
+      "Torre Le Nocelle",
+      "Venticano"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Campania/Taurasi.pdf",
+    "gpkg_rel": "QGIS/ITALY/Campania/Taurasi.gpkg"
+  },
+  {
+    "id": "it-campania-greco-di-tufo",
+    "name": "Greco di Tufo",
+    "layer": "DOCG Greco di Tufo",
+    "region": "Campania",
+    "category": "DOCG",
+    "color": "#D4AC0D",
+    "reds": [],
+    "whites": [
+      "Greco",
+      "Coda di Volpe"
+    ],
+    "desc": "Cultivado en las colinas sulfurosas a orillas del río Sabato. Blanco de marcada impronta volcánica y mineral; notas de melocotón blanco, azufre, corteza de almendra y acidez tajante.",
+    "comuni": [
+      "Tufo",
+      "Altavilla Irpina",
+      "Chianche",
+      "Montefusco",
+      "Prata di Principato Ultra",
+      "Petruro Irpino",
+      "Santa Paolina",
+      "Torrioni"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Campania/Greco_di_Tufo.pdf",
+    "gpkg_rel": "QGIS/ITALY/Campania/Greco_di_Tufo.gpkg"
+  },
+  {
+    "id": "it-campania-fiano-di-avellino",
+    "name": "Fiano di Avellino",
+    "layer": "DOCG Fiano di Avellino",
+    "region": "Campania",
+    "category": "DOCG",
+    "color": "#F4D03F",
+    "reds": [],
+    "whites": [
+      "Fiano"
+    ],
+    "desc": "Uno de los blancos más aristocráticos y longevos de Europa. Suelos volcánico-arcillosos de Irpinia; notas florales de tilo, miel de castaño, avellana tostada y evolución mineral prodigiosa.",
+    "comuni": [
+      "Avellino",
+      "Lapio",
+      "Atripalda",
+      "Candida",
+      "Cesinali",
+      "Chiusano di San Domenico",
+      "Forino",
+      "Montefalcione",
+      "Montefredane",
+      "Parolise",
+      "Pratola Serra",
+      "Salza Irpina",
+      "San Michele di Serino",
+      "Santa Lucia di Serino",
+      "Santo Stefano del Sole",
+      "Sorbo Serpico",
+      "Aiello del Sabato",
+      "Contrada",
+      "Manocalzati",
+      "Mercogliano",
+      "Summonte"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Campania/Fiano_di_Avellino.pdf",
+    "gpkg_rel": "QGIS/ITALY/Campania/Fiano_di_Avellino.gpkg"
+  },
+  {
+    "id": "it-campania-aglianico-del-taburno",
+    "name": "Aglianico del Taburno",
+    "layer": "DOCG Aglianico del Taburno",
+    "region": "Campania",
+    "category": "DOCG",
+    "color": "#78184A",
+    "reds": [
+      "Aglianico"
+    ],
+    "whites": [],
+    "desc": "Nacido en las laderas calizas del macizo del Taburno en Benevento. Tinto de imponente estructura tánica, notas balsámicas de zarzamora, cuero, tabaco y versiones Riserva de gran relieve.",
+    "comuni": [
+      "Torrecuso",
+      "Ponte",
+      "Benevento",
+      "Foglianise",
+      "Cautano",
+      "Vitulano",
+      "Campoli del Monte Taburno",
+      "Castelpoto",
+      "Apollosa",
+      "Bonea",
+      "Montesarchio",
+      "Tocco Caudio",
+      "Fragneto Monforte"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Campania/Aglianico_del_Taburno.pdf",
+    "gpkg_rel": "QGIS/ITALY/Campania/Aglianico_del_Taburno.gpkg"
+  },
+  {
+    "id": "it-campania-vesuvio",
+    "name": "Vesuvio",
+    "layer": "DOC Vesuvio",
+    "region": "Campania",
+    "category": "DOC",
+    "color": "#B03A2E",
+    "reds": [
+      "Piedirosso",
+      "Aglianico"
+    ],
+    "whites": [
+      "Caprettone",
+      "Coda di Volpe"
+    ],
+    "desc": "Vides sobre pie franco plantadas en la ceniza y los lapilli del volcán Vesuvio. Hogar del legendario Lacryma Christi; tintos minerales con aromas de humo y violeta, y blancos sulfurosos.",
+    "comuni": [
+      "Boscoreale",
+      "Boscotrecase",
+      "Cercola",
+      "Ercolano",
+      "Massa di Somma",
+      "Ottaviano",
+      "Pollena Trocchia",
+      "Portici",
+      "San Giuseppe Vesuviano",
+      "San Sebastiano al Vesuvio",
+      "Sant'Anastasia",
+      "Somma Vesuviana",
+      "Terzigno",
+      "Torre Annunziata",
+      "Torre del Greco",
+      "Trecase"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Campania/Vesuvio.pdf",
+    "gpkg_rel": "QGIS/ITALY/Campania/Vesuvio.gpkg"
+  },
+  {
+    "id": "it-campania-costa-d-amalfi",
+    "name": "Costa d'Amalfi",
+    "layer": "DOC Costa d'Amalfi",
+    "region": "Campania",
+    "category": "DOC",
+    "color": "#48C9B0",
+    "reds": [
+      "Piedirosso",
+      "Tintore"
+    ],
+    "whites": [
+      "Falanghina",
+      "Biancolella",
+      "Fenile",
+      "Ripoli",
+      "Ginestra"
+    ],
+    "desc": "Viticultura heroica colgada sobre los acantilados de la Costa Amalfitana (Furore, Ravello, Tramonti). Blancos con aromas a cítricos mediterráneos e iodo, y tintos salvajes de uva Tintore.",
+    "comuni": [
+      "Amalfi",
+      "Atrani",
+      "Cetara",
+      "Conca dei Marini",
+      "Furore",
+      "Maiori",
+      "Minori",
+      "Positano",
+      "Praiano",
+      "Ravello",
+      "Scala",
+      "Tramonti",
+      "Vietri sul Mare"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Campania/Costa_d_Amalfi.pdf",
+    "gpkg_rel": "QGIS/ITALY/Campania/Costa_d_Amalfi.gpkg"
+  },
+  {
+    "id": "it-campania-campi-flegrei",
+    "name": "Campi Flegrei",
+    "layer": "DOC Campi Flegrei",
+    "region": "Campania",
+    "category": "DOC",
+    "color": "#F8C471",
+    "reds": [
+      "Piedirosso (Per'e Palummo)"
+    ],
+    "whites": [
+      "Falanghina dei Campi Flegrei"
+    ],
+    "desc": "La caldera de los Campos Flegreos al oeste de Nápoles. Vides centenarias pre-filoxéricas a pie franco sobre arena marina y azufre; Falanghina salina, fósil y aromática.",
+    "comuni": [
+      "Pozzuoli",
+      "Bacoli",
+      "Monte di Procida",
+      "Quarto",
+      "Napoli"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Campania/Campi_Flegrei.pdf",
+    "gpkg_rel": "QGIS/ITALY/Campania/Campi_Flegrei.gpkg"
+  },
+  {
+    "id": "it-basilicata-aglianico-del-vulture-superiore",
+    "name": "Aglianico del Vulture Superiore",
+    "layer": "DOCG Aglianico del Vulture Superiore",
+    "region": "Basilicata",
+    "category": "DOCG",
+    "color": "#512E5F",
+    "reds": [
+      "Aglianico del Vulture"
+    ],
+    "whites": [],
+    "desc": "La única DOCG de Basilicata en torno al volcán extinto Monte Vulture. Suelos basálticos oscuros; Aglianico de gran altitud, 3 años de crianza (1 en madera); mineral, tánico y complejo.",
+    "comuni": [
+      "Rionero in Vulture",
+      "Barile",
+      "Rapolla",
+      "Ripacandida",
+      "Ginestra",
+      "Maschito",
+      "Forenza",
+      "Acerenza",
+      "Melfi",
+      "Atella",
+      "Venosa",
+      "Lavello",
+      "Palazzo San Gervasio",
+      "Banzi",
+      "Genzano di Lucania"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Basilicata/Aglianico_del_Vulture_Superiore.pdf",
+    "gpkg_rel": "QGIS/ITALY/Basilicata/Aglianico_del_Vulture_Superiore.gpkg"
+  },
+  {
+    "id": "it-basilicata-aglianico-del-vulture",
+    "name": "Aglianico del Vulture",
+    "layer": "DOC Aglianico del Vulture",
+    "region": "Basilicata",
+    "category": "DOC",
+    "color": "#7D3C98",
+    "reds": [
+      "Aglianico"
+    ],
+    "whites": [],
+    "desc": "La denominación histórica del Vulture lucano. Vinos tintos estructurados con recuerdos a cereza ácida, violeta silvestre, pimienta y pedernal.",
+    "comuni": [
+      "Rionero in Vulture",
+      "Barile",
+      "Rapolla",
+      "Ripacandida",
+      "Ginestra",
+      "Maschito",
+      "Forenza",
+      "Acerenza",
+      "Melfi",
+      "Atella",
+      "Venosa",
+      "Lavello",
+      "Palazzo San Gervasio",
+      "Banzi",
+      "Genzano di Lucania"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Basilicata/Aglianico_del_Vulture.pdf",
+    "gpkg_rel": "QGIS/ITALY/Basilicata/Aglianico_del_Vulture.gpkg"
+  },
+  {
+    "id": "it-puglia-primitivo-di-manduria-dolce-naturale",
+    "name": "Primitivo di Manduria Dolce Naturale",
+    "layer": "DOCG Primitivo di Manduria Dolce Naturale",
+    "region": "Puglia",
+    "category": "DOCG",
+    "color": "#641E16",
+    "reds": [
+      "Primitivo"
+    ],
+    "whites": [],
+    "desc": "La primera DOCG de Puglia. Uvas de Primitivo pasificadas al sol sobre la planta en las llanuras de tierra roja salentinas; dulce noble, cálido, aterciopelado con notas de higo seco y cacao.",
+    "comuni": [
+      "Manduria",
+      "Avetrana",
+      "Carosino",
+      "Faggiano",
+      "Fragagnano",
+      "Leporano",
+      "Lizzano",
+      "Maruggio",
+      "Monteparano",
+      "Pulsano",
+      "Sava",
+      "Torricella",
+      "San Giorgio Ionico",
+      "Erchie",
+      "Oria",
+      "Torre Santa Susanna"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Puglia/Primitivo_di_Manduria_Dolce_Naturale.pdf",
+    "gpkg_rel": "QGIS/ITALY/Puglia/Primitivo_di_Manduria_Dolce_Naturale.gpkg"
+  },
+  {
+    "id": "it-puglia-castel-del-monte-bombino-nero",
+    "name": "Castel del Monte Bombino Nero",
+    "layer": "DOCG Castel del Monte Bombino Nero",
+    "region": "Puglia",
+    "category": "DOCG",
+    "color": "#E74C3C",
+    "reds": [
+      "Bombino Nero"
+    ],
+    "whites": [],
+    "desc": "La gran DOCG rosada de las Murge en torno al castillo octogonal de Federico II. Rosado vibrante, con aromas de granada, cereza y un paladar seco, sabroso y refrescante.",
+    "comuni": [
+      "Andria",
+      "Corato",
+      "Trani",
+      "Ruvo di Puglia",
+      "Terlizzi",
+      "Bitonto",
+      "Canosa di Puglia",
+      "Minervino Murge"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Puglia/Castel_del_Monte_Bombino_Nero.pdf",
+    "gpkg_rel": "QGIS/ITALY/Puglia/Castel_del_Monte_Bombino_Nero.gpkg"
+  },
+  {
+    "id": "it-puglia-castel-del-monte-nero-di-troia-riserva",
+    "name": "Castel del Monte Nero di Troia Riserva",
+    "layer": "DOCG Castel del Monte Nero di Troia Riserva",
+    "region": "Puglia",
+    "category": "DOCG",
+    "color": "#78281F",
+    "reds": [
+      "Nero di Troia"
+    ],
+    "whites": [],
+    "desc": "La aristocracia autóctona del norte de Puglia. Uva Nero di Troia sobre mesetas calizas; color granate denso, notas de mora, pimienta negra, violeta y taninos nobles de gran finura.",
+    "comuni": [
+      "Andria",
+      "Corato",
+      "Trani",
+      "Ruvo di Puglia",
+      "Terlizzi",
+      "Bitonto",
+      "Canosa di Puglia",
+      "Minervino Murge"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Puglia/Castel_del_Monte_Nero_di_Troia_Riserva.pdf",
+    "gpkg_rel": "QGIS/ITALY/Puglia/Castel_del_Monte_Nero_di_Troia_Riserva.gpkg"
+  },
+  {
+    "id": "it-puglia-castel-del-monte-rosso-riserva",
+    "name": "Castel del Monte Rosso Riserva",
+    "layer": "DOCG Castel del Monte Rosso Riserva",
+    "region": "Puglia",
+    "category": "DOCG",
+    "color": "#922B21",
+    "reds": [
+      "Nero di Troia",
+      "Aglianico",
+      "Montepulciano"
+    ],
+    "whites": [],
+    "desc": "Ensamblaje murgiano con base de Nero di Troia envejecido al menos dos años (uno en roble). Estructura cálida, armoniosa y profundamente vinculada al paisaje pedregoso murgiano.",
+    "comuni": [
+      "Andria",
+      "Corato",
+      "Trani",
+      "Ruvo di Puglia",
+      "Terlizzi",
+      "Bitonto",
+      "Canosa di Puglia",
+      "Minervino Murge"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Puglia/Castel_del_Monte_Rosso_Riserva.pdf",
+    "gpkg_rel": "QGIS/ITALY/Puglia/Castel_del_Monte_Rosso_Riserva.gpkg"
+  },
+  {
+    "id": "it-puglia-primitivo-di-manduria",
+    "name": "Primitivo di Manduria",
+    "layer": "DOC Primitivo di Manduria",
+    "region": "Puglia",
+    "category": "DOC",
+    "color": "#900C3F",
+    "reds": [
+      "Primitivo"
+    ],
+    "whites": [],
+    "desc": "El tinto seco pugliese de culto mundial. Alberelli antiguos bañados por el mar Jónico; opulencia alcohólica suave, confitura de ciruela, cerezas negras y notas balsámicas de regaliz.",
+    "comuni": [
+      "Manduria",
+      "Avetrana",
+      "Carosino",
+      "Faggiano",
+      "Fragagnano",
+      "Leporano",
+      "Lizzano",
+      "Maruggio",
+      "Monteparano",
+      "Pulsano",
+      "Sava",
+      "Torricella",
+      "San Giorgio Ionico",
+      "Erchie",
+      "Oria",
+      "Torre Santa Susanna"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Puglia/Primitivo_di_Manduria.pdf",
+    "gpkg_rel": "QGIS/ITALY/Puglia/Primitivo_di_Manduria.gpkg"
+  },
+  {
+    "id": "it-calabria-ciro",
+    "name": "Cirò",
+    "layer": "DOC Cirò",
+    "region": "Calabria",
+    "category": "DOC",
+    "color": "#C0392B",
+    "reds": [
+      "Gaglioppo"
+    ],
+    "whites": [
+      "Greco Bianco"
+    ],
+    "desc": "Heredero del mítico vino \"Kremissa\" de la Magna Grecia que se otorgaba a los campeones olímpicos. Gaglioppo puro en tinto (rubí translúcido, tánico y especiado) y Greco Bianco floral y salino.",
+    "comuni": [
+      "Cirò",
+      "Cirò Marina",
+      "Crucoli",
+      "Melissa"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Calabria/Ciro.pdf",
+    "gpkg_rel": "QGIS/ITALY/Calabria/Ciro.gpkg"
+  },
+  {
+    "id": "it-calabria-greco-di-bianco",
+    "name": "Greco di Bianco",
+    "layer": "DOC Greco di Bianco",
+    "region": "Calabria",
+    "category": "DOC",
+    "color": "#F39C12",
+    "reds": [],
+    "whites": [
+      "Greco Bianco"
+    ],
+    "desc": "Uno de los vinos dulces más escasos y antiguos del Mediterráneo, cultivado en la costa jónica de Reggio Calabria. Pasificación en cannizzi; notas de bergamota, azahar, higo y miel.",
+    "comuni": [
+      "Bianco",
+      "Casignana"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Calabria/Greco_di_Bianco.pdf",
+    "gpkg_rel": "QGIS/ITALY/Calabria/Greco_di_Bianco.gpkg"
+  },
+  {
+    "id": "it-molise-biferno",
+    "name": "Biferno",
+    "layer": "DOC Biferno",
+    "region": "Molise",
+    "category": "DOC",
+    "color": "#884EA0",
+    "reds": [
+      "Montepulciano",
+      "Aglianico"
+    ],
+    "whites": [
+      "Trebbiano"
+    ],
+    "desc": "La gran denominación histórica del Molise a lo largo del valle del río Biferno. Tintos con la carnosidad del Montepulciano y la noble espina dorsal del Aglianico.",
+    "comuni": [
+      "Campobasso",
+      "Termoli",
+      "Larino",
+      "Campomarino",
+      "Guglionesi",
+      "Petacciato",
+      "San Giacomo degli Schiavoni",
+      "Portocannone"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Molise/Biferno.pdf",
+    "gpkg_rel": "QGIS/ITALY/Molise/Biferno.gpkg"
+  },
+  {
+    "id": "it-sicilia-cerasuolo-di-vittoria",
+    "name": "Cerasuolo di Vittoria",
+    "layer": "DOCG Cerasuolo di Vittoria",
+    "region": "Sicilia",
+    "category": "DOCG",
+    "color": "#C0392B",
+    "reds": [
+      "Nero d'Avola",
+      "Frappato"
+    ],
+    "whites": [],
+    "desc": "La única DOCG de Sicilia. Armonía sublime entre el músculo cálido del Nero d'Avola y la elegancia aromática floral de cereza del Frappato en las arenas rojas del sureste.",
+    "comuni": [
+      "Vittoria",
+      "Acate",
+      "Chiaramonte Gulfi",
+      "Comiso",
+      "Ragusa",
+      "Santa Croce Camerina",
+      "Niscemi",
+      "Gela",
+      "Riesi",
+      "Butera",
+      "Mazzarino",
+      "Caltagirone",
+      "Licodia Eubea"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Sicilia/Cerasuolo_di_Vittoria.pdf",
+    "gpkg_rel": "QGIS/ITALY/Sicilia/Cerasuolo_di_Vittoria.gpkg"
+  },
+  {
+    "id": "it-sicilia-etna",
+    "name": "Etna",
+    "layer": "DOC Etna",
+    "region": "Sicilia",
+    "category": "DOC",
+    "color": "#922B21",
+    "reds": [
+      "Nerello Mascalese",
+      "Nerello Cappuccio"
+    ],
+    "whites": [
+      "Carricante",
+      "Catarratto"
+    ],
+    "desc": "La \"Borgogna del Mediterráneo\" en las laderas del volcán activo más alto de Europa. Suelos de lava negra, ceniza y gran altitud; tintos minerales de Nerello y blancos salinos de Carricante.",
+    "comuni": [
+      "Biancavilla",
+      "Santa Maria di Licodia",
+      "Belpasso",
+      "Nicolosi",
+      "Pedara",
+      "Trecastagni",
+      "Viagrande",
+      "Aci Sant'Antonio",
+      "Acireale",
+      "Santa Venerina",
+      "Giarre",
+      "Mascali",
+      "Piedimonte Etneo",
+      "Linguaglossa",
+      "Castiglione di Sicilia",
+      "Francavilla di Sicilia",
+      "Randazzo"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Sicilia/Etna.pdf",
+    "gpkg_rel": "QGIS/ITALY/Sicilia/Etna.gpkg"
+  },
+  {
+    "id": "it-sicilia-pantelleria",
+    "name": "Pantelleria",
+    "layer": "DOC Pantelleria",
+    "region": "Sicilia",
+    "category": "DOC",
+    "color": "#D35400",
+    "reds": [],
+    "whites": [
+      "Zibibbo (Moscato d'Alessandria)"
+    ],
+    "desc": "La isla volcánica en el canal de Sicilia donde las cepas crecen en concas cavadas para protegerse del viento (UNESCO). Néctar dorado pasificado de dátil, albaricoque y azahar.",
+    "comuni": [
+      "Pantelleria"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Sicilia/Pantelleria.pdf",
+    "gpkg_rel": "QGIS/ITALY/Sicilia/Pantelleria.gpkg"
+  },
+  {
+    "id": "it-sicilia-marsala",
+    "name": "Marsala",
+    "layer": "DOC Marsala",
+    "region": "Sicilia",
+    "category": "DOC",
+    "color": "#B9770E",
+    "reds": [
+      "Nero d'Avola",
+      "Nerello Mascalese"
+    ],
+    "whites": [
+      "Grillo",
+      "Catarratto",
+      "Inzolia"
+    ],
+    "desc": "El legendario vino fortificado de crianza en Soleras fundado en 1773 en el extremo occidental de Sicilia. Aromas complejos a nuez tostada, algarroba, tabaco y una longevidad inmortal.",
+    "comuni": [
+      "Marsala",
+      "Trapani",
+      "Petrosino",
+      "Mazara del Vallo",
+      "Salemi",
+      "Paceco",
+      "Erice",
+      "Custonaci",
+      "Castellammare del Golfo",
+      "Alcamo",
+      "Calatafimi-Segesta",
+      "Buseto Palizzolo",
+      "San Vito Lo Capo"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Sicilia/Marsala.pdf",
+    "gpkg_rel": "QGIS/ITALY/Sicilia/Marsala.gpkg"
+  },
+  {
+    "id": "it-sicilia-noto",
+    "name": "Noto",
+    "layer": "DOC Noto",
+    "region": "Sicilia",
+    "category": "DOC",
+    "color": "#78281F",
+    "reds": [
+      "Nero d'Avola"
+    ],
+    "whites": [
+      "Moscato Bianco"
+    ],
+    "desc": "El epicentro barroco del Nero d'Avola original y del Moscato de Noto sobre tierras blancas calizas expuestas a una insolación extrema.",
+    "comuni": [
+      "Noto",
+      "Avola",
+      "Rosolini",
+      "Pachino"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Sicilia/Noto.pdf",
+    "gpkg_rel": "QGIS/ITALY/Sicilia/Noto.gpkg"
+  },
+  {
+    "id": "it-sicilia-faro",
+    "name": "Faro",
+    "layer": "DOC Faro",
+    "region": "Sicilia",
+    "category": "DOC",
+    "color": "#641E16",
+    "reds": [
+      "Nerello Mascalese",
+      "Nerello Cappuccio",
+      "Nocera"
+    ],
+    "whites": [],
+    "desc": "El cru histórico de las colinas de Mesina frente al estrecho y a los vientos marinos. Tinto de aristocrática frescura, notas de mirto silvestre y textura aterciopelada.",
+    "comuni": [
+      "Messina"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Sicilia/Faro.pdf",
+    "gpkg_rel": "QGIS/ITALY/Sicilia/Faro.gpkg"
+  },
+  {
+    "id": "it-sardegna-vermentino-di-gallura",
+    "name": "Vermentino di Gallura",
+    "layer": "DOCG Vermentino di Gallura",
+    "region": "Sardegna",
+    "category": "DOCG",
+    "color": "#27AE60",
+    "reds": [],
+    "whites": [
+      "Vermentino"
+    ],
+    "desc": "La única DOCG de Cerdeña sobre arenas de granito erosionadas por el maestrale en la Gallura. Blanco seco, sapidísimo, con recuerdos a hinojo marino, elicriso y final amargo de almendra.",
+    "comuni": [
+      "Olbia",
+      "Arzachena",
+      "Tempio Pausania",
+      "Calangianus",
+      "Luras",
+      "Luogosanto",
+      "Palau",
+      "Santa Teresa Gallura",
+      "Sant'Antonio di Gallura",
+      "Aggius",
+      "Badesi",
+      "Viddalba",
+      "Trinità d'Agultu e Vignola",
+      "Berchidda",
+      "Monti",
+      "Oschiri",
+      "Telti",
+      "Loiri Porto San Paolo",
+      "Golfo Aranci",
+      "San Teodoro",
+      "Budoni"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Sardegna/Vermentino_di_Gallura.pdf",
+    "gpkg_rel": "QGIS/ITALY/Sardegna/Vermentino_di_Gallura.gpkg"
+  },
+  {
+    "id": "it-sardegna-cannonau-di-sardegna",
+    "name": "Cannonau di Sardegna",
+    "layer": "DOC Cannonau di Sardegna",
+    "region": "Sardegna",
+    "category": "DOC",
+    "color": "#78184A",
+    "reds": [
+      "Cannonau (Garnacha)"
+    ],
+    "whites": [],
+    "desc": "El alma y el secreto de la longevidad de la Blue Zone sarda en las montañas de Barbagia y Ogliastra. Tinto potente, balsámico, con aromas a mirto, romero y bayas salvajes.",
+    "comuni": [
+      "Nuoro",
+      "Oliena",
+      "Mamoiada",
+      "Dorgali",
+      "Jerzu",
+      "Tortolì",
+      "Lanusei",
+      "Oristano",
+      "Cagliari",
+      "Sassari",
+      "Alghero"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Sardegna/Cannonau_di_Sardegna.pdf",
+    "gpkg_rel": "QGIS/ITALY/Sardegna/Cannonau_di_Sardegna.gpkg"
+  },
+  {
+    "id": "it-sardegna-carignano-del-sulcis",
+    "name": "Carignano del Sulcis",
+    "layer": "DOC Carignano del Sulcis",
+    "region": "Sardegna",
+    "category": "DOC",
+    "color": "#5B2C6F",
+    "reds": [
+      "Carignano"
+    ],
+    "whites": [],
+    "desc": "Viñas viejas en pie franco plantadas directamente sobre las dunas de arena en la costa suroeste y la isla de Sant'Antioco. Tinto suntuoso, marino, salino y de taninos sedosos.",
+    "comuni": [
+      "Sant'Antioco",
+      "Carloforte",
+      "Carbonia",
+      "Iglesias",
+      "Calasetta",
+      "Giba",
+      "Masainas",
+      "Narcao",
+      "Nuxis",
+      "Perdaxius",
+      "Piscinas",
+      "San Giovanni Suergiu",
+      "Santadi",
+      "Sant'Anna Arresi",
+      "Tratalias",
+      "Villaperuccio"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Sardegna/Carignano_del_Sulcis.pdf",
+    "gpkg_rel": "QGIS/ITALY/Sardegna/Carignano_del_Sulcis.gpkg"
+  },
+  {
+    "id": "it-sardegna-vernaccia-di-oristano",
+    "name": "Vernaccia di Oristano",
+    "layer": "DOC Vernaccia di Oristano",
+    "region": "Sardegna",
+    "category": "DOC",
+    "color": "#B7950B",
+    "reds": [],
+    "whites": [
+      "Vernaccia di Oristano"
+    ],
+    "desc": "El gran blanco oxidativo biológico bajo velo de flor criado en barricas de castaño en el valle del Tirso. Néctar de almendra tostada (\"murruxi\"), yodo marino y final seco eterno.",
+    "comuni": [
+      "Oristano",
+      "Cabras",
+      "Solarussa",
+      "Riola Sardo",
+      "Santa Giusta",
+      "Baratili San Pietro",
+      "Zeddiani",
+      "Siamaggiore",
+      "Nurachi"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Sardegna/Vernaccia_di_Oristano.pdf",
+    "gpkg_rel": "QGIS/ITALY/Sardegna/Vernaccia_di_Oristano.gpkg"
+  }
+]

@@ -1,0 +1,774 @@
+[
+  {
+    "id": "it-toscana-chianti-classico",
+    "name": "Chianti Classico",
+    "layer": "DOCG Chianti Classico",
+    "region": "Toscana",
+    "category": "DOCG",
+    "color": "#8B0000",
+    "reds": [
+      "Sangiovese",
+      "Canaiolo",
+      "Colorino",
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    "whites": [],
+    "desc": "El corazón histórico del Gallo Nero entre Florencia y Siena sobre suelos de galestro y alberese. Gran finura tánica, notas de violeta, guinda, tabaco y versiones Riserva y Gran Selezione de prestigio universal.",
+    "comuni": [
+      "Castellina in Chianti",
+      "Gaiole in Chianti",
+      "Radda in Chianti",
+      "Greve in Chianti",
+      "Barberino Tavarnelle",
+      "San Casciano in Val di Pesa",
+      "Castelnuovo Berardenga",
+      "Poggibonsi"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Chianti_Classico.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Chianti_Classico.gpkg"
+  },
+  {
+    "id": "it-toscana-brunello-di-montalcino",
+    "name": "Brunello di Montalcino",
+    "layer": "DOCG Brunello di Montalcino",
+    "region": "Toscana",
+    "category": "DOCG",
+    "color": "#581845",
+    "reds": [
+      "Sangiovese (Brunello)"
+    ],
+    "whites": [],
+    "desc": "100% Sangiovese en la colina de Montalcino. Invecchiamento mínimo de 5 años (2 en barrica); austero, tánico, etéreo y de longevidad legendaria.",
+    "comuni": [
+      "Montalcino"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Brunello_di_Montalcino.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Brunello_di_Montalcino.gpkg"
+  },
+  {
+    "id": "it-toscana-vino-nobile-di-montepulciano",
+    "name": "Vino Nobile di Montepulciano",
+    "layer": "DOCG Vino Nobile di Montepulciano",
+    "region": "Toscana",
+    "category": "DOCG",
+    "color": "#78281F",
+    "reds": [
+      "Sangiovese (Prugnolo Gentile)",
+      "Canaiolo"
+    ],
+    "whites": [],
+    "desc": "Alabado desde el Renacimiento por papas y poetas (\"Montepulciano d'ogni vino è re\"). Estructurado con el clon local Prugnolo Gentile sobre arcillas y arenas de colina.",
+    "comuni": [
+      "Montepulciano"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Vino_Nobile_di_Montepulciano.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Vino_Nobile_di_Montepulciano.gpkg"
+  },
+  {
+    "id": "it-toscana-vernaccia-di-san-gimignano",
+    "name": "Vernaccia di San Gimignano",
+    "layer": "DOCG Vernaccia di San Gimignano",
+    "region": "Toscana",
+    "category": "DOCG",
+    "color": "#F1C40F",
+    "reds": [],
+    "whites": [
+      "Vernaccia di San Gimignano"
+    ],
+    "desc": "La primera DOC de Italia (1966) en torno a las célebres torres medievales de San Gimignano. Blanco mineral, fresco, notas de flores blancas y característico final de almendra amarga.",
+    "comuni": [
+      "San Gimignano"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Vernaccia_di_San_Gimignano.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Vernaccia_di_San_Gimignano.gpkg"
+  },
+  {
+    "id": "it-toscana-chianti",
+    "name": "Chianti",
+    "layer": "DOCG Chianti",
+    "region": "Toscana",
+    "category": "DOCG",
+    "color": "#A93226",
+    "reds": [
+      "Sangiovese",
+      "Canaiolo",
+      "Colorino",
+      "Cabernet"
+    ],
+    "whites": [],
+    "desc": "El emblema secular del vino toscano en sus 7 subzonas históricas (Colli Fiorentini, Colli Senesi, Rufina, Montalbano, Colli Aretini, Colline Pisane, Montespertoli). Fruta roja fresca, acidez viva y gran versatilidad.",
+    "comuni": [
+      "Firenze",
+      "Siena",
+      "Arezzo",
+      "Pisa",
+      "Pistoia",
+      "Prato",
+      "Pontassieve",
+      "Rufina",
+      "Montespertoli",
+      "Castelnuovo Berardenga",
+      "Vinci",
+      "Empoli",
+      "San Miniato"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Chianti.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Chianti.gpkg"
+  },
+  {
+    "id": "it-toscana-morellino-di-scansano",
+    "name": "Morellino di Scansano",
+    "layer": "DOCG Morellino di Scansano",
+    "region": "Toscana",
+    "category": "DOCG",
+    "color": "#922B21",
+    "reds": [
+      "Sangiovese (Morellino)"
+    ],
+    "whites": [],
+    "desc": "El Sangiovese cálido y mediterráneo de las colinas de la Maremma grossetana. Fruta negra madura, toques balsámicos de jara y romero con taninos carnosos y aterciopelados.",
+    "comuni": [
+      "Scansano",
+      "Campagnatico",
+      "Grosseto",
+      "Magliano in Toscana",
+      "Manciano",
+      "Roccalbegna",
+      "Semproniano"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Morellino_di_Scansano.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Morellino_di_Scansano.gpkg"
+  },
+  {
+    "id": "it-toscana-carmignano",
+    "name": "Carmignano",
+    "layer": "DOCG Carmignano",
+    "region": "Toscana",
+    "category": "DOCG",
+    "color": "#641E16",
+    "reds": [
+      "Sangiovese",
+      "Cabernet Sauvignon",
+      "Cabernet Franc",
+      "Canaiolo"
+    ],
+    "whites": [],
+    "desc": "El primer corte toscano-bordelés documentado por Cosimo III de' Medici en 1716. Elegancia aristocrática, notas de ciruela, cacao y finura tánica forjada en las colinas de Montalbano.",
+    "comuni": [
+      "Carmignano",
+      "Poggio a Caiano"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Carmignano.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Carmignano.gpkg"
+  },
+  {
+    "id": "it-toscana-montecucco-sangiovese",
+    "name": "Montecucco Sangiovese",
+    "layer": "DOCG Montecucco Sangiovese",
+    "region": "Toscana",
+    "category": "DOCG",
+    "color": "#7B241C",
+    "reds": [
+      "Sangiovese"
+    ],
+    "whites": [],
+    "desc": "En las faldas volcánicas del Monte Amiata lindando con Montalcino. Sangiovese de gran altitud, mineral, austero y de profundas notas a frutos silvestres y regaliz.",
+    "comuni": [
+      "Arcidosso",
+      "Campagnatico",
+      "Castel del Piano",
+      "Cinigiano",
+      "Civitella Paganico",
+      "Roccalbegna",
+      "Seggiano"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Montecucco_Sangiovese.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Montecucco_Sangiovese.gpkg"
+  },
+  {
+    "id": "it-toscana-val-di-cornia-rosso",
+    "name": "Val di Cornia Rosso",
+    "layer": "DOCG Val di Cornia Rosso",
+    "region": "Toscana",
+    "category": "DOCG",
+    "color": "#4A0E17",
+    "reds": [
+      "Sangiovese",
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    "whites": [],
+    "desc": "Costa tirrenica frente a la Isla de Elba; suelos ricos en minerales metalíferos que regalan tintos potentes, salinos, especiados y con gran capacidad de guarda.",
+    "comuni": [
+      "Suvereto",
+      "Campiglia Marittima",
+      "Piombino",
+      "San Vincenzo",
+      "Sassetta",
+      "Monteverdi Marittimo"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Val_di_Cornia_Rosso.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Val_di_Cornia_Rosso.gpkg"
+  },
+  {
+    "id": "it-toscana-suvereto",
+    "name": "Suvereto",
+    "layer": "DOCG Suvereto",
+    "region": "Toscana",
+    "category": "DOCG",
+    "color": "#4C0026",
+    "reds": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Sangiovese"
+    ],
+    "whites": [],
+    "desc": "El grand cru de la Val di Cornia. Microclima soleado y seco que permite maduraciones prodigiosas de Cabernet y Merlot con voluptuosidad y elegancia mediterránea.",
+    "comuni": [
+      "Suvereto"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Suvereto.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Suvereto.gpkg"
+  },
+  {
+    "id": "it-toscana-elba-aleatico-passito",
+    "name": "Elba Aleatico Passito",
+    "layer": "DOCG Elba Aleatico Passito",
+    "region": "Toscana",
+    "category": "DOCG",
+    "color": "#78184A",
+    "reds": [
+      "Aleatico"
+    ],
+    "whites": [],
+    "desc": "La joya insular toscana amada por Napoleón Bonaparte. Uva tinta aromática pasificada bajo el sol marino; aromas intensos de rosa silvestre, cerezas al licor y un trago untuoso y noble.",
+    "comuni": [
+      "Portoferraio",
+      "Campo nell'Elba",
+      "Capoliveri",
+      "Marciana",
+      "Marciana Marina",
+      "Porto Azzurro",
+      "Rio"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Elba_Aleatico_Passito.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Elba_Aleatico_Passito.gpkg"
+  },
+  {
+    "id": "it-toscana-bolgheri",
+    "name": "Bolgheri",
+    "layer": "DOC Bolgheri",
+    "region": "Toscana",
+    "category": "DOC",
+    "color": "#800020",
+    "reds": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc",
+      "Syrah",
+      "Petit Verdot"
+    ],
+    "whites": [
+      "Vermentino"
+    ],
+    "desc": "La cuna de los Supertoscanos junto al mar Tirreno: Sassicaia, Ornellaia y Masseto en el famoso Viale dei Cipressi. Suelos de aluvión, caliza y brisa marina.",
+    "comuni": [
+      "Castagneto Carducci"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Bolgheri.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Bolgheri.gpkg"
+  },
+  {
+    "id": "it-toscana-rosso-di-montalcino",
+    "name": "Rosso di Montalcino",
+    "layer": "DOC Rosso di Montalcino",
+    "region": "Toscana",
+    "category": "DOC",
+    "color": "#C0392B",
+    "reds": [
+      "Sangiovese"
+    ],
+    "whites": [],
+    "desc": "100% Sangiovese de Montalcino en versión más fresca y ágil. Menor tiempo de crianza que resalta la pureza de la cereza fresca, la acidez vibrante y el carácter del terruño.",
+    "comuni": [
+      "Montalcino"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Rosso_di_Montalcino.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Rosso_di_Montalcino.gpkg"
+  },
+  {
+    "id": "it-toscana-rosso-di-montepulciano",
+    "name": "Rosso di Montepulciano",
+    "layer": "DOC Rosso di Montepulciano",
+    "region": "Toscana",
+    "category": "DOC",
+    "color": "#B03A2E",
+    "reds": [
+      "Sangiovese (Prugnolo Gentile)",
+      "Canaiolo"
+    ],
+    "whites": [],
+    "desc": "El tinto joven y gastronómico de las colinas de Montepulciano. Fragante, accesible, con taninos suaves y delicioso acompañamiento para la cocina toscana.",
+    "comuni": [
+      "Montepulciano"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Rosso_di_Montepulciano.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Rosso_di_Montepulciano.gpkg"
+  },
+  {
+    "id": "it-toscana-maremma-toscana",
+    "name": "Maremma Toscana",
+    "layer": "DOC Maremma Toscana",
+    "region": "Toscana",
+    "category": "DOC",
+    "color": "#D98880",
+    "reds": [
+      "Sangiovese",
+      "Cabernet",
+      "Merlot",
+      "Ciliegiolo",
+      "Alicante"
+    ],
+    "whites": [
+      "Vermentino",
+      "Ansonica"
+    ],
+    "desc": "La gran denominación de la Toscana meridional. Destacan sus vibrantes Vermentinos costeros y tintos modernos de corte mediterráneo que expresan la luz de la Maremma.",
+    "comuni": [
+      "Grosseto",
+      "Castiglione della Pescaia",
+      "Follonica",
+      "Gavorrano",
+      "Massa Marittima",
+      "Orbetello",
+      "Capalbio",
+      "Pitigliano",
+      "Sorano",
+      "Scansano",
+      "Manciano"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Maremma_Toscana.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Maremma_Toscana.gpkg"
+  },
+  {
+    "id": "it-toscana-cortona",
+    "name": "Cortona",
+    "layer": "DOC Cortona",
+    "region": "Toscana",
+    "category": "DOC",
+    "color": "#6C3483",
+    "reds": [
+      "Syrah",
+      "Merlot",
+      "Sangiovese"
+    ],
+    "whites": [],
+    "desc": "La capital indiscutible de la uva Syrah en Italia. Suelos arcillosos bien drenados y exposición que forjan Syrah concentrados, de marcado aroma a pimienta y grosella negra.",
+    "comuni": [
+      "Cortona"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Toscana/Cortona.pdf",
+    "gpkg_rel": "QGIS/ITALY/Toscana/Cortona.gpkg"
+  },
+  {
+    "id": "it-umbria-montefalco-sagrantino",
+    "name": "Montefalco Sagrantino",
+    "layer": "DOCG Montefalco Sagrantino",
+    "region": "Umbria",
+    "category": "DOCG",
+    "color": "#4A0033",
+    "reds": [
+      "Sagrantino"
+    ],
+    "whites": [],
+    "desc": "100% Sagrantino en las colinas de Montefalco. La uva con mayor densidad tánica de Europa; crianza de 37 meses (12 en roble); notas de mora de zarza, tierra mojada y potencia colosal.",
+    "comuni": [
+      "Montefalco",
+      "Bevagna",
+      "Gualdo Cattaneo",
+      "Castel Ritaldi",
+      "Giano dell'Umbria"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Umbria/Montefalco_Sagrantino.pdf",
+    "gpkg_rel": "QGIS/ITALY/Umbria/Montefalco_Sagrantino.gpkg"
+  },
+  {
+    "id": "it-umbria-torgiano-rosso-riserva",
+    "name": "Torgiano Rosso Riserva",
+    "layer": "DOCG Torgiano Rosso Riserva",
+    "region": "Umbria",
+    "category": "DOCG",
+    "color": "#78281F",
+    "reds": [
+      "Sangiovese",
+      "Canaiolo",
+      "Colorino"
+    ],
+    "whites": [],
+    "desc": "El gran embajador de la viticultura umbra fundado por la familia Lungarotti. Elegancia clásica al estilo de los grandes reservas europeos con crianza prolongada en roble y botella.",
+    "comuni": [
+      "Torgiano"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Umbria/Torgiano_Rosso_Riserva.pdf",
+    "gpkg_rel": "QGIS/ITALY/Umbria/Torgiano_Rosso_Riserva.gpkg"
+  },
+  {
+    "id": "it-umbria-orvieto",
+    "name": "Orvieto",
+    "layer": "DOC Orvieto",
+    "region": "Umbria",
+    "category": "DOC",
+    "color": "#F4D03F",
+    "reds": [],
+    "whites": [
+      "Grechetto",
+      "Procanico (Trebbiano Toscano)"
+    ],
+    "desc": "Nacido en las espectaculares terrazas y cuevas de toba volcánica de la ciudadela de Orvieto. Vinos secos minerales y afamadas cosechas botritizadas de Muffa Nobile.",
+    "comuni": [
+      "Orvieto",
+      "Allerona",
+      "Castel Giorgio",
+      "Castel Viscardo",
+      "Ficulle",
+      "Montecchio",
+      "Porano",
+      "Baschi",
+      "Bagnoregio",
+      "Civitella d'Agliano",
+      "Castiglione in Teverina"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Umbria/Orvieto.pdf",
+    "gpkg_rel": "QGIS/ITALY/Umbria/Orvieto.gpkg"
+  },
+  {
+    "id": "it-umbria-montefalco",
+    "name": "Montefalco",
+    "layer": "DOC Montefalco",
+    "region": "Umbria",
+    "category": "DOC",
+    "color": "#900C3F",
+    "reds": [
+      "Sangiovese",
+      "Sagrantino"
+    ],
+    "whites": [
+      "Grechetto",
+      "Trebbiano Spoletino"
+    ],
+    "desc": "El equilibrio perfecto entre la amabilidad del Sangiovese y la bravura del Sagrantino en tinto, y la consagración del Trebbiano Spoletino y Grechetto en blanco.",
+    "comuni": [
+      "Montefalco",
+      "Bevagna",
+      "Gualdo Cattaneo",
+      "Castel Ritaldi",
+      "Giano dell'Umbria"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Umbria/Montefalco.pdf",
+    "gpkg_rel": "QGIS/ITALY/Umbria/Montefalco.gpkg"
+  },
+  {
+    "id": "it-marche-castelli-di-jesi-verdicchio-riserva",
+    "name": "Castelli di Jesi Verdicchio Riserva",
+    "layer": "DOCG Castelli di Jesi Verdicchio Riserva",
+    "region": "Marche",
+    "category": "DOCG",
+    "color": "#D4AC0D",
+    "reds": [],
+    "whites": [
+      "Verdicchio"
+    ],
+    "desc": "La cúspide del Verdicchio costero en las colinas que bajan al Adriático. Mínimo 24 meses de crianza; salinidad marina, aromas de hinojo, hierba fresca, anís y longevidad descomunal.",
+    "comuni": [
+      "Jesi",
+      "Maiolati Spontini",
+      "Montecarotto",
+      "Cupramontana",
+      "Castelbellino",
+      "Staffolo",
+      "San Paolo di Jesi",
+      "Apiro",
+      "Cingoli",
+      "Serra de' Conti",
+      "Monte Roberto",
+      "Castelplanio",
+      "Mergo",
+      "Rosora",
+      "Morro d'Alba"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Marche/Castelli_di_Jesi_Verdicchio_Riserva.pdf",
+    "gpkg_rel": "QGIS/ITALY/Marche/Castelli_di_Jesi_Verdicchio_Riserva.gpkg"
+  },
+  {
+    "id": "it-marche-verdicchio-di-matelica-riserva",
+    "name": "Verdicchio di Matelica Riserva",
+    "layer": "DOCG Verdicchio di Matelica Riserva",
+    "region": "Marche",
+    "category": "DOCG",
+    "color": "#B7950B",
+    "reds": [],
+    "whites": [
+      "Verdicchio"
+    ],
+    "desc": "Verdicchio de alta montaña en el valle cerrado de Matelica. Clima continental con gran salto térmico; acidez cortante, notas de pedernal, hidrocarburos con los años y una pureza cristalina.",
+    "comuni": [
+      "Matelica",
+      "Cerreto d'Esi",
+      "Camerino",
+      "Castelraimondo",
+      "Esanatoglia",
+      "Fabriano",
+      "Gagliole",
+      "Pioraco"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Marche/Verdicchio_di_Matelica_Riserva.pdf",
+    "gpkg_rel": "QGIS/ITALY/Marche/Verdicchio_di_Matelica_Riserva.gpkg"
+  },
+  {
+    "id": "it-marche-conero",
+    "name": "Conero",
+    "layer": "DOCG Conero",
+    "region": "Marche",
+    "category": "DOCG",
+    "color": "#512E5F",
+    "reds": [
+      "Montepulciano",
+      "Sangiovese"
+    ],
+    "whites": [],
+    "desc": "Uva Montepulciano cultivada en los acantilados calcáreos del promontorio marino del Conero. Tinto profundo, con aromas de guinda madura, tabaco y una marcada brisa salina.",
+    "comuni": [
+      "Ancona",
+      "Camerano",
+      "Numana",
+      "Sirolo",
+      "Castelfidardo",
+      "Osimo",
+      "Offagna"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Marche/Conero.pdf",
+    "gpkg_rel": "QGIS/ITALY/Marche/Conero.gpkg"
+  },
+  {
+    "id": "it-marche-vernaccia-di-serrapetrona",
+    "name": "Vernaccia di Serrapetrona",
+    "layer": "DOCG Vernaccia di Serrapetrona",
+    "region": "Marche",
+    "category": "DOCG",
+    "color": "#900C3F",
+    "reds": [
+      "Vernaccia Nera"
+    ],
+    "whites": [],
+    "desc": "Insólito espumoso tinto de montaña elaborado con tres fermentaciones sucesivas y uvas pasificadas en cannicci. Espuma rubí, notas balsámicas de bayas rojas y trago chispeante.",
+    "comuni": [
+      "Serrapetrona",
+      "Belforte del Chienti",
+      "San Severino Marche"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Marche/Vernaccia_di_Serrapetrona.pdf",
+    "gpkg_rel": "QGIS/ITALY/Marche/Vernaccia_di_Serrapetrona.gpkg"
+  },
+  {
+    "id": "it-marche-offida",
+    "name": "Offida",
+    "layer": "DOCG Offida",
+    "region": "Marche",
+    "category": "DOCG",
+    "color": "#F39C12",
+    "reds": [
+      "Montepulciano"
+    ],
+    "whites": [
+      "Pecorino",
+      "Passerina"
+    ],
+    "desc": "La capital del renacimiento de la uva Pecorino y Passerina en las colinas meridionales del Piceno. Blancos con nervio ácido, estructura casi de tinto y calidez mineral.",
+    "comuni": [
+      "Offida",
+      "Acquaviva Picena",
+      "Ripatransone",
+      "Castorano",
+      "Colli del Tronto",
+      "Cossignano",
+      "Grottammare",
+      "Cupra Marittima",
+      "Appignano del Tronto",
+      "Spinetoli"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Marche/Offida.pdf",
+    "gpkg_rel": "QGIS/ITALY/Marche/Offida.gpkg"
+  },
+  {
+    "id": "it-lazio-frascati-superiore",
+    "name": "Frascati Superiore",
+    "layer": "DOCG Frascati Superiore",
+    "region": "Lazio",
+    "category": "DOCG",
+    "color": "#F7DC6F",
+    "reds": [],
+    "whites": [
+      "Malvasia del Lazio (Puntinata)",
+      "Malvasia di Candia",
+      "Bellone",
+      "Trebbiano"
+    ],
+    "desc": "El blanco histórico de la Roma imperial y papal en los fértiles suelos volcánicos de los Colli Albani. Mineralidad fósil, aromas a flores de manzanilla, manzana y acidez equilibrada.",
+    "comuni": [
+      "Frascati",
+      "Grottaferrata",
+      "Monte Porzio Catone",
+      "Roma",
+      "Monte Compatri"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Lazio/Frascati_Superiore.pdf",
+    "gpkg_rel": "QGIS/ITALY/Lazio/Frascati_Superiore.gpkg"
+  },
+  {
+    "id": "it-lazio-cannellino-di-frascati",
+    "name": "Cannellino di Frascati",
+    "layer": "DOCG Cannellino di Frascati",
+    "region": "Lazio",
+    "category": "DOCG",
+    "color": "#E59866",
+    "reds": [],
+    "whites": [
+      "Malvasia del Lazio",
+      "Bellone"
+    ],
+    "desc": "La versión dulce noble y tradicional de Frascati cosechada tardíamente o afectada por la podredumbre noble (botrytis). Aromas de fruta confitada, miel y toque volcánico.",
+    "comuni": [
+      "Frascati",
+      "Grottaferrata",
+      "Monte Porzio Catone",
+      "Roma",
+      "Monte Compatri"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Lazio/Cannellino_di_Frascati.pdf",
+    "gpkg_rel": "QGIS/ITALY/Lazio/Cannellino_di_Frascati.gpkg"
+  },
+  {
+    "id": "it-lazio-cesanese-del-piglio",
+    "name": "Cesanese del Piglio",
+    "layer": "DOCG Cesanese del Piglio",
+    "region": "Lazio",
+    "category": "DOCG",
+    "color": "#78281F",
+    "reds": [
+      "Cesanese di Affile",
+      "Cesanese Comune"
+    ],
+    "whites": [],
+    "desc": "El gran tinto autóctono de las laderas de los Monti Ernici en la Ciociaria. Color rubí con reflejos violetas, aromas a mora silvestre, sotobosque y paladar cálido y envolvente.",
+    "comuni": [
+      "Piglio",
+      "Serrone",
+      "Acuto",
+      "Anagni",
+      "Paliano"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Lazio/Cesanese_del_Piglio.pdf",
+    "gpkg_rel": "QGIS/ITALY/Lazio/Cesanese_del_Piglio.gpkg"
+  },
+  {
+    "id": "it-abruzzo-montepulciano-d-abruzzo-colline-teramane",
+    "name": "Montepulciano d'Abruzzo Colline Teramane",
+    "layer": "DOCG Montepulciano d'Abruzzo Colline Teramane",
+    "region": "Abruzzo",
+    "category": "DOCG",
+    "color": "#4A0026",
+    "reds": [
+      "Montepulciano",
+      "Sangiovese"
+    ],
+    "whites": [],
+    "desc": "La máxima expresión cualitativa del Montepulciano entre el macizo del Gran Sasso y las playas de Teramo. Crianza de 2 años en madera; fruta negra licorosa, especias dulces y taninos imponentes.",
+    "comuni": [
+      "Colonnella",
+      "Controguerra",
+      "Corropoli",
+      "Ancarano",
+      "Torano Nuovo",
+      "Sant'Egidio alla Vibrata",
+      "Nereto",
+      "Bellante",
+      "Alba Adriatica",
+      "Tortoreto",
+      "Giulianova",
+      "Mosciano Sant'Angelo",
+      "Roseto degli Abruzzi",
+      "Atri",
+      "Pineto",
+      "Silvi",
+      "Teramo"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Abruzzo/Montepulciano_d_Abruzzo_Colline_Teramane.pdf",
+    "gpkg_rel": "QGIS/ITALY/Abruzzo/Montepulciano_d_Abruzzo_Colline_Teramane.gpkg"
+  },
+  {
+    "id": "it-abruzzo-montepulciano-d-abruzzo",
+    "name": "Montepulciano d'Abruzzo",
+    "layer": "DOC Montepulciano d'Abruzzo",
+    "region": "Abruzzo",
+    "category": "DOC",
+    "color": "#78184A",
+    "reds": [
+      "Montepulciano"
+    ],
+    "whites": [],
+    "desc": "Uno de los grandes vinos tintos más populares y admirados del mundo. Generoso, amplio, cálido, con notas inconfundibles de ciruela negra, mora y regaliz.",
+    "comuni": [
+      "Chieti",
+      "Teramo",
+      "Pescara",
+      "L'Aquila",
+      "Lanciano",
+      "Ortona",
+      "Vasto",
+      "Atri",
+      "Penne",
+      "Sulmona",
+      "Pratola Peligna",
+      "Popoli Terme",
+      "Loreto Aprutino",
+      "Città Sant'Angelo",
+      "Francavilla al Mare"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Abruzzo/Montepulciano_d_Abruzzo.pdf",
+    "gpkg_rel": "QGIS/ITALY/Abruzzo/Montepulciano_d_Abruzzo.gpkg"
+  },
+  {
+    "id": "it-abruzzo-trebbiano-d-abruzzo",
+    "name": "Trebbiano d'Abruzzo",
+    "layer": "DOC Trebbiano d'Abruzzo",
+    "region": "Abruzzo",
+    "category": "DOC",
+    "color": "#D4AC0D",
+    "reds": [],
+    "whites": [
+      "Trebbiano Abruzzese",
+      "Trebbiano Toscano"
+    ],
+    "desc": "El blanco bandera de los Apeninos abruzzeses. Capaz de pasar de un trago fresco y floral a monumentales blancos envejecidos en barrica de culto mundial (Valentini).",
+    "comuni": [
+      "Chieti",
+      "Teramo",
+      "Pescara",
+      "L'Aquila",
+      "Lanciano",
+      "Ortona",
+      "Vasto",
+      "Atri",
+      "Penne",
+      "Sulmona",
+      "Pratola Peligna",
+      "Popoli Terme",
+      "Loreto Aprutino",
+      "Città Sant'Angelo",
+      "Francavilla al Mare"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Abruzzo/Trebbiano_d_Abruzzo.pdf",
+    "gpkg_rel": "QGIS/ITALY/Abruzzo/Trebbiano_d_Abruzzo.gpkg"
+  }
+]

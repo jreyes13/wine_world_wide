@@ -1,0 +1,962 @@
+[
+  {
+    "id": "it-veneto-amarone-della-valpolicella",
+    "name": "Amarone della Valpolicella",
+    "layer": "DOCG Amarone della Valpolicella",
+    "region": "Veneto",
+    "category": "DOCG",
+    "color": "#581845",
+    "reds": [
+      "Corvina Veronese",
+      "Corvinone",
+      "Rondinella"
+    ],
+    "whites": [],
+    "desc": "La cúspide del tinto seco del Véneto. Pasificación natural en los fruttai durante 3 a 4 meses; potencia, glicerina, notas de cereza confitada, higos secos, chocolate amargo y monumental longevidad.",
+    "comuni": [
+      "Negrar di Valpolicella",
+      "Marano di Valpolicella",
+      "Fumane",
+      "Sant'Ambrogio di Valpolicella",
+      "San Pietro in Cariano",
+      "Dolcè",
+      "Verona",
+      "Pescantina",
+      "Grezzana",
+      "Cerro Veronese",
+      "San Martino Buon Albergo",
+      "Lavagno",
+      "Mezzane di Sotto",
+      "Tregnago",
+      "Illasi",
+      "Colognola ai Colli",
+      "Cazzano di Tramigna",
+      "Montecchia di Crosara",
+      "Roncà"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Veneto/Amarone_della_Valpolicella.pdf",
+    "gpkg_rel": "QGIS/ITALY/Veneto/Amarone_della_Valpolicella.gpkg"
+  },
+  {
+    "id": "it-veneto-recioto-della-valpolicella",
+    "name": "Recioto della Valpolicella",
+    "layer": "DOCG Recioto della Valpolicella",
+    "region": "Veneto",
+    "category": "DOCG",
+    "color": "#4A0026",
+    "reds": [
+      "Corvina Veronese",
+      "Corvinone",
+      "Rondinella"
+    ],
+    "whites": [],
+    "desc": "El vino noble histórico de la Valpolicella desde época romana (Acinatico). Tinto dulce natural pasificado; suntuoso, aterciopelado, con aromas a confitura de moras, violetas y un frescor balsámico inigualable.",
+    "comuni": [
+      "Negrar di Valpolicella",
+      "Marano di Valpolicella",
+      "Fumane",
+      "Sant'Ambrogio di Valpolicella",
+      "San Pietro in Cariano",
+      "Dolcè",
+      "Verona",
+      "Pescantina",
+      "Grezzana",
+      "Cerro Veronese",
+      "San Martino Buon Albergo",
+      "Lavagno",
+      "Mezzane di Sotto",
+      "Tregnago",
+      "Illasi",
+      "Colognola ai Colli",
+      "Cazzano di Tramigna",
+      "Montecchia di Crosara",
+      "Roncà"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Veneto/Recioto_della_Valpolicella.pdf",
+    "gpkg_rel": "QGIS/ITALY/Veneto/Recioto_della_Valpolicella.gpkg"
+  },
+  {
+    "id": "it-veneto-valpolicella",
+    "name": "Valpolicella",
+    "layer": "DOC Valpolicella",
+    "region": "Veneto",
+    "category": "DOC",
+    "color": "#900C3F",
+    "reds": [
+      "Corvina Veronese",
+      "Corvinone",
+      "Rondinella"
+    ],
+    "whites": [],
+    "desc": "El corazón de los tintos frescos veroneses y el célebre Valpolicella Ripasso, macerado sobre los hollejos del Amarone para ganar cuerpo, calidez y complejidad especiada.",
+    "comuni": [
+      "Negrar di Valpolicella",
+      "Marano di Valpolicella",
+      "Fumane",
+      "Sant'Ambrogio di Valpolicella",
+      "San Pietro in Cariano",
+      "Dolcè",
+      "Verona",
+      "Pescantina",
+      "Grezzana",
+      "Cerro Veronese",
+      "San Martino Buon Albergo",
+      "Lavagno",
+      "Mezzane di Sotto",
+      "Tregnago",
+      "Illasi",
+      "Colognola ai Colli",
+      "Cazzano di Tramigna",
+      "Montecchia di Crosara",
+      "Roncà"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Veneto/Valpolicella.pdf",
+    "gpkg_rel": "QGIS/ITALY/Veneto/Valpolicella.gpkg"
+  },
+  {
+    "id": "it-veneto-conegliano-valdobbiadene-prosecco",
+    "name": "Conegliano Valdobbiadene Prosecco",
+    "layer": "DOCG Conegliano Valdobbiadene Prosecco",
+    "region": "Veneto",
+    "category": "DOCG",
+    "color": "#F4D03F",
+    "reds": [],
+    "whites": [
+      "Glera",
+      "Verdiso",
+      "Bianchetta"
+    ],
+    "desc": "La cuna histórica y Patrimonio de la Humanidad UNESCO del Prosecco Superiore en las escarpadas laderas de colina entre Conegliano y Valdobbiadene. Incluye el exclusivo grand cru Cartizze.",
+    "comuni": [
+      "Conegliano",
+      "Valdobbiadene",
+      "Susegana",
+      "San Pietro di Feletto",
+      "Farra di Soligo",
+      "Pieve di Soligo",
+      "Miane",
+      "Vidor",
+      "Follina",
+      "Cison di Valmarino",
+      "Refrontolo",
+      "Tarzo",
+      "Vittorio Veneto",
+      "San Vendemiano",
+      "Colle Umberto"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Veneto/Conegliano_Valdobbiadene_Prosecco.pdf",
+    "gpkg_rel": "QGIS/ITALY/Veneto/Conegliano_Valdobbiadene_Prosecco.gpkg"
+  },
+  {
+    "id": "it-veneto-asolo-prosecco",
+    "name": "Asolo Prosecco",
+    "layer": "DOCG Asolo Prosecco",
+    "region": "Veneto",
+    "category": "DOCG",
+    "color": "#F7DC6F",
+    "reds": [],
+    "whites": [
+      "Glera"
+    ],
+    "desc": "El Prosecco de alta cota al pie del Monte Grappa en torno al burgo histórico de Asolo. Perfil seco pionero (Extra Brut), mineralidad calcárea, flores blancas y sutil salinidad.",
+    "comuni": [
+      "Asolo",
+      "Castelcucco",
+      "Cornuda",
+      "Monfumo",
+      "Maser",
+      "Fonte",
+      "Cavaso del Tomba",
+      "Pederobba",
+      "Valdobbiadene",
+      "Crocetta del Montello",
+      "Montebelluna",
+      "Caerano di San Marco"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Veneto/Asolo_Prosecco.pdf",
+    "gpkg_rel": "QGIS/ITALY/Veneto/Asolo_Prosecco.gpkg"
+  },
+  {
+    "id": "it-veneto-soave-superiore",
+    "name": "Soave Superiore",
+    "layer": "DOCG Soave Superiore",
+    "region": "Veneto",
+    "category": "DOCG",
+    "color": "#D4AC0D",
+    "reds": [],
+    "whites": [
+      "Garganega",
+      "Trebbiano di Soave"
+    ],
+    "desc": "La consagración cualitativa de la uva Garganega en las laderas volcánicas de roca basáltica negra y tobas calizas. Blanco denso, floral, con notas de manzana reineta, almendra y larga crianza.",
+    "comuni": [
+      "Soave",
+      "Monteforte d'Alpone",
+      "San Martino Buon Albergo",
+      "Lavagno",
+      "Mezzane di Sotto",
+      "Caldiero",
+      "Colognola ai Colli",
+      "Illasi",
+      "Cazzano di Tramigna",
+      "Roncà",
+      "Montebello Vicentino",
+      "San Bonifacio"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Veneto/Soave_Superiore.pdf",
+    "gpkg_rel": "QGIS/ITALY/Veneto/Soave_Superiore.gpkg"
+  },
+  {
+    "id": "it-veneto-recioto-di-soave",
+    "name": "Recioto di Soave",
+    "layer": "DOCG Recioto di Soave",
+    "region": "Veneto",
+    "category": "DOCG",
+    "color": "#E59866",
+    "reds": [],
+    "whites": [
+      "Garganega"
+    ],
+    "desc": "La primera DOCG en la historia del Véneto (1998). Garganega pacientemente pasificada en graticci; néctar dorado de miel de acacia, orejones, frutas exóticas y final fresco inmaculado.",
+    "comuni": [
+      "Soave",
+      "Monteforte d'Alpone",
+      "San Martino Buon Albergo",
+      "Lavagno",
+      "Mezzane di Sotto",
+      "Caldiero",
+      "Colognola ai Colli",
+      "Illasi",
+      "Cazzano di Tramigna",
+      "Roncà",
+      "Montebello Vicentino",
+      "San Bonifacio"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Veneto/Recioto_di_Soave.pdf",
+    "gpkg_rel": "QGIS/ITALY/Veneto/Recioto_di_Soave.gpkg"
+  },
+  {
+    "id": "it-veneto-soave",
+    "name": "Soave",
+    "layer": "DOC Soave",
+    "region": "Veneto",
+    "category": "DOC",
+    "color": "#BDB76B",
+    "reds": [],
+    "whites": [
+      "Garganega",
+      "Trebbiano di Soave"
+    ],
+    "desc": "El blanco italiano más célebre en el mundo, cultivado entre los castillos medievales de Soave y el valle del Alpone. Elegante, fresco, almendrado y sumamente gastronómico.",
+    "comuni": [
+      "Soave",
+      "Monteforte d'Alpone",
+      "San Martino Buon Albergo",
+      "Lavagno",
+      "Mezzane di Sotto",
+      "Caldiero",
+      "Colognola ai Colli",
+      "Illasi",
+      "Cazzano di Tramigna",
+      "Roncà",
+      "Montebello Vicentino",
+      "San Bonifacio"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Veneto/Soave.pdf",
+    "gpkg_rel": "QGIS/ITALY/Veneto/Soave.gpkg"
+  },
+  {
+    "id": "it-veneto-bardolino-superiore",
+    "name": "Bardolino Superiore",
+    "layer": "DOCG Bardolino Superiore",
+    "region": "Veneto",
+    "category": "DOCG",
+    "color": "#C0392B",
+    "reds": [
+      "Corvina Veronese",
+      "Rondinella",
+      "Molinara"
+    ],
+    "whites": [],
+    "desc": "Nacido en las colinas morénicas acariciadas por la brisa templada del Lago de Garda. Crianza obligatoria de 1 año; color rubí brillante, notas especiadas de pimienta negra, canela y frambuesa.",
+    "comuni": [
+      "Bardolino",
+      "Garda",
+      "Lazise",
+      "Affi",
+      "Costermano sul Garda",
+      "Cavaion Veronese",
+      "Torri del Benaco",
+      "Caprino Veronese",
+      "Pastrengo",
+      "Bussolengo",
+      "Castelnuovo del Garda",
+      "Sona",
+      "Peschiera del Garda",
+      "Sommacampagna",
+      "Valeggio sul Mincio"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Veneto/Bardolino_Superiore.pdf",
+    "gpkg_rel": "QGIS/ITALY/Veneto/Bardolino_Superiore.gpkg"
+  },
+  {
+    "id": "it-veneto-colli-euganei-fior-d-arancio",
+    "name": "Colli Euganei Fior d'Arancio",
+    "layer": "DOCG Colli Euganei Fior d'Arancio",
+    "region": "Veneto",
+    "category": "DOCG",
+    "color": "#E67E22",
+    "reds": [],
+    "whites": [
+      "Moscato Giallo"
+    ],
+    "desc": "Producido en los singulares conos volcánicos de los Colli Euganei en Padua. Moscato Giallo puro en versiones Spumante, seco y Passito; fragancia embriagadora de azahar, cítricos maduros y hierbas aromáticas.",
+    "comuni": [
+      "Arquà Petrarca",
+      "Baone",
+      "Cinto Euganeo",
+      "Galzignano Terme",
+      "Teolo",
+      "Torreglia",
+      "Vo'",
+      "Rovolon",
+      "Lozzo Atestino",
+      "Battaglia Terme",
+      "Monselice",
+      "Este"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Veneto/Colli_Euganei_Fior_d_Arancio.pdf",
+    "gpkg_rel": "QGIS/ITALY/Veneto/Colli_Euganei_Fior_d_Arancio.gpkg"
+  },
+  {
+    "id": "it-veneto-piave-malanotte",
+    "name": "Piave Malanotte",
+    "layer": "DOCG Piave Malanotte",
+    "region": "Veneto",
+    "category": "DOCG",
+    "color": "#641E16",
+    "reds": [
+      "Raboso Piave",
+      "Raboso Veronese"
+    ],
+    "whites": [],
+    "desc": "La máxima expresión del indómito Raboso del Piave. Elaborado con un porcentaje de uvas pasificadas y 3 años de crianza en madera; tinto severo, bravío, tánico, con notas de cereza silvestre y cuero.",
+    "comuni": [
+      "San Polo di Piave",
+      "Mareno di Piave",
+      "Vazzola",
+      "Oderzo",
+      "Ormelle",
+      "Fontanelle",
+      "Cimadolmo",
+      "Breda di Piave",
+      "Maserada sul Piave",
+      "Ponte di Piave",
+      "Salgareda"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Veneto/Piave_Malanotte.pdf",
+    "gpkg_rel": "QGIS/ITALY/Veneto/Piave_Malanotte.gpkg"
+  },
+  {
+    "id": "it-veneto-lison",
+    "name": "Lison",
+    "layer": "DOCG Lison",
+    "region": "Veneto",
+    "category": "DOCG",
+    "color": "#A0522D",
+    "reds": [],
+    "whites": [
+      "Tai (Friulano)"
+    ],
+    "desc": "Prestigiosa DOCG interestatal entre el Véneto oriental y Friuli sobre suelos arcillosos carbonatados. Blanco señorial de uva Tai (Friulano); glicérico, denso, con inconfundible retrogusto de almendra amarga.",
+    "comuni": [
+      "Portogruaro",
+      "Pramaggiore",
+      "Annone Veneto",
+      "San Stino di Livenza",
+      "Concordia Sagittaria",
+      "Cinto Caomaggiore",
+      "Belfiore",
+      "Meduna di Livenza"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Veneto/Lison.pdf",
+    "gpkg_rel": "QGIS/ITALY/Veneto/Lison.gpkg"
+  },
+  {
+    "id": "it-veneto-colli-di-conegliano",
+    "name": "Colli di Conegliano",
+    "layer": "DOCG Colli di Conegliano",
+    "region": "Veneto",
+    "category": "DOCG",
+    "color": "#7D6608",
+    "reds": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc",
+      "Marzemino"
+    ],
+    "whites": [
+      "Manzoni Bianco",
+      "Pinot Bianco",
+      "Chardonnay"
+    ],
+    "desc": "Grandes vinos tranquilos de colina que conviven con el Prosecco. Destacan sus tintos de corte bordelés estructurado y sus legendarios vinos de pasas Refrontolo (Marzemino) y Torchiato di Fregona.",
+    "comuni": [
+      "Conegliano",
+      "Susegana",
+      "Vittorio Veneto",
+      "Tarzo",
+      "San Pietro di Feletto",
+      "Refrontolo",
+      "Pieve di Soligo",
+      "Farra di Soligo",
+      "San Vendemiano",
+      "Colle Umberto",
+      "Cappella Maggiore",
+      "Fregona",
+      "Sarmede"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Veneto/Colli_di_Conegliano.pdf",
+    "gpkg_rel": "QGIS/ITALY/Veneto/Colli_di_Conegliano.gpkg"
+  },
+  {
+    "id": "it-veneto-bagnoli-friularo",
+    "name": "Bagnoli Friularo",
+    "layer": "DOCG Bagnoli Friularo",
+    "region": "Veneto",
+    "category": "DOCG",
+    "color": "#4D5656",
+    "reds": [
+      "Raboso Piave (Friularo)"
+    ],
+    "whites": [],
+    "desc": "Cultivo histórico de la uva Friularo (Raboso) en los dominios de la antigua abadía benedictina de Bagnoli di Sopra. Acidez vivaz, gran concentración tánica, fruta roja crujiente y versiones Riserva y Vendemmia Tardiva.",
+    "comuni": [
+      "Bagnoli di Sopra",
+      "Agna",
+      "Arre",
+      "Candiana",
+      "Conselve",
+      "Tribano",
+      "Terrassa Padovana"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Veneto/Bagnoli_Friularo.pdf",
+    "gpkg_rel": "QGIS/ITALY/Veneto/Bagnoli_Friularo.gpkg"
+  },
+  {
+    "id": "it-trentino-alto-adige-alto-adige",
+    "name": "Alto Adige / Südtirol",
+    "layer": "DOC Alto Adige",
+    "region": "Trentino-Alto Adige",
+    "category": "DOC",
+    "color": "#1E8449",
+    "reds": [
+      "Lagrein",
+      "Pinot Nero",
+      "Schiava (Vernatsch)"
+    ],
+    "whites": [
+      "Pinot Bianco",
+      "Sauvignon",
+      "Gewürztraminer",
+      "Kerner",
+      "Chardonnay"
+    ],
+    "desc": "El olimpo de la viticultura alpina en las laderas de los Dolomitas. Subzonas mitológicas como Terlano, Valle Isarco y Santa Maddalena; blancos de vibrante tensión mineral y tintos de Lagrein y Pinot Nero de clase mundial.",
+    "comuni": [
+      "Bolzano/Bozen",
+      "Appiano sulla strada del vino/Eppan an der Weinstraße",
+      "Caldaro sulla strada del vino/Kaltern an der Weinstraße",
+      "Termeno sulla strada del vino/Tramin an der Weinstraße",
+      "Merano/Meran",
+      "Bressanone/Brixen",
+      "Egna/Neumarkt",
+      "Cortaccia sulla strada del vino/Kurtatsch an der Weinstraße",
+      "Magrè sulla strada del vino/Margreid an der Weinstraße",
+      "Montagna sulla strada del vino/Montan an der Weinstraße",
+      "Salorno sulla strada del vino/Salurn an der Weinstraße",
+      "Terlano/Terlan",
+      "Nalles/Nals",
+      "Andriano/Andrian",
+      "Tirolo/Tirol",
+      "Scena/Schenna",
+      "Lana/Lana",
+      "Chiusa/Klausen",
+      "Varna/Vahrn"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Trentino_Alto_Adige/Alto_Adige.pdf",
+    "gpkg_rel": "QGIS/ITALY/Trentino_Alto_Adige/Alto_Adige.gpkg"
+  },
+  {
+    "id": "it-trentino-alto-adige-lago-di-caldaro",
+    "name": "Lago di Caldaro / Kalterersee",
+    "layer": "DOC Lago di Caldaro",
+    "region": "Trentino-Alto Adige",
+    "category": "DOC",
+    "color": "#27AE60",
+    "reds": [
+      "Schiava"
+    ],
+    "whites": [],
+    "desc": "Viñedos en pérgola tradicional alrededor del lago de Caldaro. Tinto sutil, luminoso y fragrante con aromas de almendra y violeta, de trago sumamente ágil y placentero.",
+    "comuni": [
+      "Caldaro sulla strada del vino/Kaltern an der Weinstraße",
+      "Appiano sulla strada del vino/Eppan an der Weinstraße",
+      "Termeno sulla strada del vino/Tramin an der Weinstraße",
+      "Vadena/Pfatten",
+      "Bronzolo/Branzoll",
+      "Ora/Auer",
+      "Montagna sulla strada del vino/Montan an der Weinstraße",
+      "Egna/Neumarkt",
+      "Mezzocorona",
+      "Roverè della Luna"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Trentino_Alto_Adige/Lago_di_Caldaro.pdf",
+    "gpkg_rel": "QGIS/ITALY/Trentino_Alto_Adige/Lago_di_Caldaro.gpkg"
+  },
+  {
+    "id": "it-trentino-alto-adige-valdadige",
+    "name": "Valdadige / Etschtal",
+    "layer": "DOC Valdadige",
+    "region": "Trentino-Alto Adige",
+    "category": "DOC",
+    "color": "#52BE80",
+    "reds": [
+      "Schiava",
+      "Enantio",
+      "Lagrein"
+    ],
+    "whites": [
+      "Pinot Grigio",
+      "Chardonnay",
+      "Pinot Bianco"
+    ],
+    "desc": "La gran arteria fluvial del río Adigio que conecta los valles de Trento, Bolzano y Verona. Vinos frescos, secos y aromáticos esculpidos por los vientos alpinos.",
+    "comuni": [
+      "Avio",
+      "Ala",
+      "Mori",
+      "Rovereto",
+      "Volano",
+      "Calliano",
+      "Besenello",
+      "Trento",
+      "Lavis",
+      "San Michele all'Adige",
+      "Mezzocorona",
+      "Brentino Belluno",
+      "Dolcè",
+      "Rivoli Veronese"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Trentino_Alto_Adige/Valdadige.pdf",
+    "gpkg_rel": "QGIS/ITALY/Trentino_Alto_Adige/Valdadige.gpkg"
+  },
+  {
+    "id": "it-trentino-alto-adige-trento",
+    "name": "Trento",
+    "layer": "DOC Trento",
+    "region": "Trentino-Alto Adige",
+    "category": "DOC",
+    "color": "#F5B041",
+    "reds": [
+      "Pinot Nero"
+    ],
+    "whites": [
+      "Chardonnay",
+      "Pinot Bianco",
+      "Pinot Meunier"
+    ],
+    "desc": "El templo del espumoso método tradicional de montaña (Trentodoc). Viñedos colgados hasta 800 m de altitud; gran tensión ácida, sapidez mineral, notas de manzana reineta y lías finas.",
+    "comuni": [
+      "Trento",
+      "Lavis",
+      "Mezzocorona",
+      "Mezzolombardo",
+      "San Michele all'Adige",
+      "Mori",
+      "Rovereto",
+      "Isera",
+      "Volano",
+      "Calliano",
+      "Besenello",
+      "Ala",
+      "Avio",
+      "Riva del Garda",
+      "Arco",
+      "Nomi",
+      "Aldeno",
+      "Cimone",
+      "Garniga Terme",
+      "Civezzano",
+      "Pergine Valsugana"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Trentino_Alto_Adige/Trento.pdf",
+    "gpkg_rel": "QGIS/ITALY/Trentino_Alto_Adige/Trento.gpkg"
+  },
+  {
+    "id": "it-trentino-alto-adige-trentino",
+    "name": "Trentino",
+    "layer": "DOC Trentino",
+    "region": "Trentino-Alto Adige",
+    "category": "DOC",
+    "color": "#117864",
+    "reds": [
+      "Marzemino",
+      "Teroldego",
+      "Cabernet",
+      "Merlot"
+    ],
+    "whites": [
+      "Nosiola",
+      "Müller Thurgau",
+      "Traminer Aromatico"
+    ],
+    "desc": "La denominación paraguas de la provincia de Trento. Desde los frescos Müller Thurgau de la empinada Val di Cembra hasta el autóctono Marzemino de Isera y el legendario Vino Santo de Nosiola.",
+    "comuni": [
+      "Trento",
+      "Rovereto",
+      "Mezzolombardo",
+      "Mezzocorona",
+      "San Michele all'Adige",
+      "Lavis",
+      "Cembra Lisignago",
+      "Giovo",
+      "Isera",
+      "Mori",
+      "Ala",
+      "Avio",
+      "Arco",
+      "Riva del Garda",
+      "Nago-Torbole",
+      "Dro",
+      "Drena"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Trentino_Alto_Adige/Trentino.pdf",
+    "gpkg_rel": "QGIS/ITALY/Trentino_Alto_Adige/Trentino.gpkg"
+  },
+  {
+    "id": "it-trentino-alto-adige-teroldego-rotaliano",
+    "name": "Teroldego Rotaliano",
+    "layer": "DOC Teroldego Rotaliano",
+    "region": "Trentino-Alto Adige",
+    "category": "DOC",
+    "color": "#4A235A",
+    "reds": [
+      "Teroldego"
+    ],
+    "whites": [],
+    "desc": "El \"Príncipe del Trentino\". Confinado a los suelos de grava y guijarros del Campo Rotaliano; tinto profundo de color casi negro, acidez mordaz, arándanos, grafito y taninos pulidos.",
+    "comuni": [
+      "Mezzolombardo",
+      "Mezzocorona",
+      "San Michele all'Adige"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Trentino_Alto_Adige/Teroldego_Rotaliano.pdf",
+    "gpkg_rel": "QGIS/ITALY/Trentino_Alto_Adige/Teroldego_Rotaliano.gpkg"
+  },
+  {
+    "id": "it-trentino-alto-adige-casteller",
+    "name": "Casteller",
+    "layer": "DOC Casteller",
+    "region": "Trentino-Alto Adige",
+    "category": "DOC",
+    "color": "#784212",
+    "reds": [
+      "Merlot",
+      "Schiava",
+      "Enantio",
+      "Teroldego"
+    ],
+    "whites": [],
+    "desc": "El clásico tinto de colina trentino con base de Merlot y uvas autóctonas. Suave, fresco y afrutado, elemento insustituible de la gastronomía alpina tradicional.",
+    "comuni": [
+      "Trento",
+      "Rovereto",
+      "Mori",
+      "Ala",
+      "Avio",
+      "Volano",
+      "Calliano",
+      "Besenello",
+      "Isera",
+      "Nomi",
+      "Aldeno"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Trentino_Alto_Adige/Casteller.pdf",
+    "gpkg_rel": "QGIS/ITALY/Trentino_Alto_Adige/Casteller.gpkg"
+  },
+  {
+    "id": "it-friuli-colli-orientali-del-friuli-picolit",
+    "name": "Colli Orientali del Friuli Picolit",
+    "layer": "DOCG Colli Orientali del Friuli Picolit",
+    "region": "Friuli-Venezia Giulia",
+    "category": "DOCG",
+    "color": "#F39C12",
+    "reds": [],
+    "whites": [
+      "Picolit"
+    ],
+    "desc": "La joya dulce aristocrática de Friuli mimada por papas y emperadores. Producido por la uva Picolit con aborto floral natural; concentración suprema de miel silvestre, albaricoque y elegancia meditativa.",
+    "comuni": [
+      "Cividale del Friuli",
+      "Corno di Rosazzo",
+      "Manzano",
+      "San Giovanni al Natisone",
+      "Tarcento",
+      "Nimis",
+      "Faedis",
+      "Premariacco",
+      "Prepotto",
+      "Buttrio",
+      "Attimis",
+      "Povoletto",
+      "San Pietro al Natisone",
+      "Torreano"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Friuli_Venezia_Giulia/Colli_Orientali_del_Friuli_Picolit.pdf",
+    "gpkg_rel": "QGIS/ITALY/Friuli_Venezia_Giulia/Colli_Orientali_del_Friuli_Picolit.gpkg"
+  },
+  {
+    "id": "it-friuli-ramandolo",
+    "name": "Ramandolo",
+    "layer": "DOCG Ramandolo",
+    "region": "Friuli-Venezia Giulia",
+    "category": "DOCG",
+    "color": "#D35400",
+    "reds": [],
+    "whites": [
+      "Verduzzo Friulano"
+    ],
+    "desc": "La primera DOCG friulana en las vertiginosas terrazas de Nimis y Tarcento al pie de los Prealpes Julianos. Verduzzo pasificado; color ámbar brillante, suntuoso dulzor y un final tánico balsámico excepcional.",
+    "comuni": [
+      "Nimis",
+      "Tarcento"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Friuli_Venezia_Giulia/Ramandolo.pdf",
+    "gpkg_rel": "QGIS/ITALY/Friuli_Venezia_Giulia/Ramandolo.gpkg"
+  },
+  {
+    "id": "it-friuli-rosazzo",
+    "name": "Rosazzo",
+    "layer": "DOCG Rosazzo",
+    "region": "Friuli-Venezia Giulia",
+    "category": "DOCG",
+    "color": "#B7950B",
+    "reds": [],
+    "whites": [
+      "Friulano",
+      "Sauvignon",
+      "Pinot Bianco",
+      "Chardonnay",
+      "Ribolla Gialla"
+    ],
+    "desc": "El cru monástico de la milenaria Abadía de Rosazzo. Ensamblaje blanco sublime sobre suelo de ponca (margas calcáreas); profundo, salino, estructurado y con décadas de potencial de guarda.",
+    "comuni": [
+      "Manzano",
+      "San Giovanni al Natisone"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Friuli_Venezia_Giulia/Rosazzo.pdf",
+    "gpkg_rel": "QGIS/ITALY/Friuli_Venezia_Giulia/Rosazzo.gpkg"
+  },
+  {
+    "id": "it-friuli-collio-goriziano",
+    "name": "Collio Goriziano",
+    "layer": "DOC Collio Goriziano",
+    "region": "Friuli-Venezia Giulia",
+    "category": "DOC",
+    "color": "#F1C40F",
+    "reds": [
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "whites": [
+      "Friulano",
+      "Ribolla Gialla",
+      "Sauvignon",
+      "Pinot Grigio",
+      "Chardonnay",
+      "Malvasia Istriana"
+    ],
+    "desc": "El santuario mundial de los grandes blancos minerales y \"orange wines\" sobre el flysch estratificado de \"ponca\". Frontera eslovena entre los Alpes y el Adriático de incomparable salinidad y estructura.",
+    "comuni": [
+      "Gorizia",
+      "Cormons",
+      "San Floriano del Collio-Števerjan",
+      "Dolegna del Collio",
+      "Capriva del Friuli",
+      "Mossa",
+      "Farra d'Isonzo",
+      "San Lorenzo Isontino"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Friuli_Venezia_Giulia/Collio_Goriziano.pdf",
+    "gpkg_rel": "QGIS/ITALY/Friuli_Venezia_Giulia/Collio_Goriziano.gpkg"
+  },
+  {
+    "id": "it-friuli-friuli-colli-orientali",
+    "name": "Friuli Colli Orientali",
+    "layer": "DOC Friuli Colli Orientali",
+    "region": "Friuli-Venezia Giulia",
+    "category": "DOC",
+    "color": "#D4AC0D",
+    "reds": [
+      "Refosco dal Peduncolo Rosso",
+      "Schioppettino",
+      "Pignolo",
+      "Tazzelenghe"
+    ],
+    "whites": [
+      "Friulano",
+      "Ribolla Gialla",
+      "Sauvignon",
+      "Pinot Grigio"
+    ],
+    "desc": "Colinas orientales de Udine ricas en tesoros ampelográficos autóctonos. Destacan los legendarios tintos Schioppettino di Prepotto, Refosco y Pignolo junto a blancos varietales de enorme pureza.",
+    "comuni": [
+      "Cividale del Friuli",
+      "Corno di Rosazzo",
+      "Manzano",
+      "San Giovanni al Natisone",
+      "Tarcento",
+      "Nimis",
+      "Faedis",
+      "Premariacco",
+      "Prepotto",
+      "Buttrio",
+      "Attimis",
+      "Povoletto",
+      "San Daniele del Friuli"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Friuli_Venezia_Giulia/Friuli_Colli_Orientali.pdf",
+    "gpkg_rel": "QGIS/ITALY/Friuli_Venezia_Giulia/Friuli_Colli_Orientali.gpkg"
+  },
+  {
+    "id": "it-friuli-friuli-grave",
+    "name": "Friuli Grave",
+    "layer": "DOC Friuli Grave",
+    "region": "Friuli-Venezia Giulia",
+    "category": "DOC",
+    "color": "#7F8C8D",
+    "reds": [
+      "Merlot",
+      "Refosco",
+      "Cabernet Franc"
+    ],
+    "whites": [
+      "Pinot Grigio",
+      "Glera",
+      "Sauvignon",
+      "Friulano",
+      "Chardonnay"
+    ],
+    "desc": "La gran llanura pedregosa de guijarros aluviales entre Pordenone y Udine. Efecto térmico de los cantos rodados que favorece uvas perfumadas; vinos limpios, frescos, minerales y muy reconocidos.",
+    "comuni": [
+      "Spilimbergo",
+      "San Vito al Tagliamento",
+      "Pordenone",
+      "Codroipo",
+      "Pasiano di Pordenone",
+      "Maniago",
+      "Azzano Decimo",
+      "Fiume Veneto",
+      "Zoppola",
+      "Casarsa della Delizia",
+      "Sedegliano",
+      "Coseano",
+      "Flaibano",
+      "San Giorgio della Richinvelda",
+      "Arba",
+      "Sequals"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Friuli_Venezia_Giulia/Friuli_Grave.pdf",
+    "gpkg_rel": "QGIS/ITALY/Friuli_Venezia_Giulia/Friuli_Grave.gpkg"
+  },
+  {
+    "id": "it-friuli-friuli-isonzo",
+    "name": "Friuli Isonzo",
+    "layer": "DOC Friuli Isonzo",
+    "region": "Friuli-Venezia Giulia",
+    "category": "DOC",
+    "color": "#16A085",
+    "reds": [
+      "Merlot",
+      "Refosco"
+    ],
+    "whites": [
+      "Sauvignon",
+      "Pinot Grigio",
+      "Chardonnay",
+      "Malvasia"
+    ],
+    "desc": "Bañado por las aguas esmeralda del río Isonzo en la llanura de Gorizia. Dividido entre los cascajos de Rive Alte y las tierras rojas ricas en hierro; blancos opulentos, aromáticos y minerales.",
+    "comuni": [
+      "Gradisca d'Isonzo",
+      "Mariano del Friuli",
+      "Romans d'Isonzo",
+      "Cormons",
+      "San Lorenzo Isontino",
+      "Moraro",
+      "Capriva del Friuli",
+      "Farra d'Isonzo",
+      "Gorizia",
+      "Fogliano Redipuglia",
+      "Sagrado",
+      "Savogna d'Isonzo-Sovodnje ob Soči",
+      "Villesse"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Friuli_Venezia_Giulia/Friuli_Isonzo.pdf",
+    "gpkg_rel": "QGIS/ITALY/Friuli_Venezia_Giulia/Friuli_Isonzo.gpkg"
+  },
+  {
+    "id": "it-friuli-carso",
+    "name": "Carso",
+    "layer": "DOC Carso",
+    "region": "Friuli-Venezia Giulia",
+    "category": "DOC",
+    "color": "#884EA0",
+    "reds": [
+      "Terrano"
+    ],
+    "whites": [
+      "Vitovska",
+      "Malvasia Istriana"
+    ],
+    "desc": "Viticultura heroica sobre la roca caliza kárstica batida por el viento de la bora en el golfo de Trieste. Cuna de la blanca mineral y salina Vitovska y del tinto salvaje, férreo y ácido Terrano.",
+    "comuni": [
+      "Trieste",
+      "Duino Aurisina-Devin Nabrežina",
+      "Monrupino-Repentabor",
+      "Sgonico-Zgonik",
+      "San Dorligo della Valle-Dolina"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Friuli_Venezia_Giulia/Carso.pdf",
+    "gpkg_rel": "QGIS/ITALY/Friuli_Venezia_Giulia/Carso.gpkg"
+  },
+  {
+    "id": "it-friuli-friuli-aquileia",
+    "name": "Friuli Aquileia",
+    "layer": "DOC Friuli Aquileia",
+    "region": "Friuli-Venezia Giulia",
+    "category": "DOC",
+    "color": "#5B2C6F",
+    "reds": [
+      "Refosco dal Peduncolo Rosso",
+      "Merlot"
+    ],
+    "whites": [
+      "Friulano",
+      "Pinot Grigio",
+      "Traminer"
+    ],
+    "desc": "Tierras lagunares cargadas de historia junto a la metrópoli imperial romana de Aquileia y Grado. Refosco marítimo con notas de moras y brisa salobre, documentado desde hace más de dos mil años.",
+    "comuni": [
+      "Aquileia",
+      "Cervignano del Friuli",
+      "Fiumicello Villa Vicentina",
+      "Terzo d'Aquileia",
+      "Ruda",
+      "Grado"
+    ],
+    "pdf_rel": "DOWNs/DOCs/ITALY/Friuli_Venezia_Giulia/Friuli_Aquileia.pdf",
+    "gpkg_rel": "QGIS/ITALY/Friuli_Venezia_Giulia/Friuli_Aquileia.gpkg"
+  }
+]
