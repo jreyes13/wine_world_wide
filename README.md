@@ -113,12 +113,15 @@ The project currently features authoritative coverage across four leading wine n
 - 🇪🇸 **Spain (100% census):** 101 official regions (DOCa, DO, DOP, Vinos de Calidad, Vinos de Pago) with all official PDF specifications. See [Spain Registry](docs/SPAIN/REGISTRO_DOS.md).
 - 🇵🇹 **Portugal (100% census):** All 31 official Denominações de Origem Protegida (DOC / DOP) mapped with all 31 official PDF Cadernos de Especificações stored under [`DOWNs/DOCs/PORTUGAL/`](DOWNs/DOCs/PORTUGAL/). See [Portugal Registry](docs/PORTUGAL/REGISTRO_DOCS.md).
 - 🇫🇷 **France (100% Complete Census):** 325 official Appellations d'Origine Contrôlée (AOC / AOP). Complete exhaustive coverage across all fourteen major French wine basins: **Bordeaux (36 AOCs)**, **Bourgogne (46 AOCs)**, **Vallée du Rhône (31 AOCs)**, **Val de Loire (48 AOCs)**, **Champagne (5 AOCs)**, **Alsace (16 AOCs)**, **Lorraine (2 AOCs)**, **Provence (14 AOCs)**, **Corse (9 AOCs)**, **Languedoc (35 AOCs)**, **Roussillon (14 AOCs)**, **Sud-Ouest (32 AOCs)**, **Jura (7 AOCs)**, **Savoie (23 AOCs)**, and **Bugey (7 AOCs)** with 100% official ministerial *cahiers des charges* (PDF) stored in [`DOWNs/DOCs/FRANCE/`](DOWNs/DOCs/FRANCE/), delimited via official **INAO geospatial boundaries**. See [France Registry](docs/FRANCE/REGISTRO_AOCS.md).
-- 🇮🇹 **Italy (Phase 1):** 10 premier DOCGs & DOCs including Barolo, Barbaresco, Chianti Classico, Brunello di Montalcino, Bolgheri, Amarone della Valpolicella, Prosecco, and Franciacorta. See [Italy Registry](docs/ITALY/REGISTRO_DOCS.md).
+- 🇮🇹 **Italy (In Progress — Block 1 Completed):** 40 official denominations with official MASAF specifications and ISTAT municipal boundaries. **Block 1: North / Piedmont & Lombardy (33 denominations)** 100% completed:
+  - **Piedmont (23 denominations: 19 DOCG + 4 DOC):** Barolo, Barbaresco, Roero, Barbera d'Asti, Nizza, Barbera del Monferrato Superiore, Ruchè di Castagnole Monferrato, Dogliani, Diano d'Alba, Dolcetto di Ovada Superiore, Gavi, Asti e Moscato d'Asti, Brachetto d'Acqui, Alta Langa, Canelli, Erbaluce di Caluso, Gattinara, Ghemme, Carema, Langhe, Barbera d'Alba, Nebbiolo d'Alba, and Dolcetto d'Alba.
+  - **Lombardy (10 denominations: 5 DOCG + 5 DOC):** Franciacorta, Valtellina Superiore, Sforzato di Valtellina, Oltrepò Pavese Metodo Classico, Moscato di Scanzo, Rosso di Valtellina, Curtefranca, Lugana, Oltrepò Pavese, and Riviera del Garda Classico.
+  - Plus premier pilot denominations in Tuscany (Chianti Classico, Brunello, Montepulciano, Bolgheri, San Gimignano) and Veneto (Amarone/Valpolicella, Prosecco). See [Italy Registry](docs/ITALY/REGISTRO_DOCS.md).
 
 **Key metrics:**
-* **467 official wine regions** interactive in the web application with real-time commune chip search, basemap switcher, multi-country and regional filters (Spain, France, Portugal, Italy), and official PDF specification viewers.
-* **494 vector layers** systematically arranged in the primary QGIS project (`QGIS/wine_world_wine.qgz`).
-* **363 official legal specification documents (PDFs)** archived locally in [`DOWNs/DOCs/`](DOWNs/DOCs/).
+* **497 official wine regions** interactive in the web application with real-time commune chip search, basemap switcher, multi-country and regional filters (Spain, France, Portugal, Italy), and official PDF specification viewers.
+* **524 vector layers** systematically arranged in the primary QGIS project (`QGIS/wine_world_wine.qgz`).
+* **396 official legal specification documents (PDFs)** archived locally in [`DOWNs/DOCs/`](DOWNs/DOCs/).
 * **Dedicated SQL filter libraries** available under `QGIS/<COUNTRY>/SQLs/`.
 
 ---
