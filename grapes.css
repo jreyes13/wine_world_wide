@@ -381,6 +381,24 @@ body {
   gap: 0.5rem;
 }
 
+.matrix-sort-select {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 6px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-main);
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.matrix-sort-select:hover {
+  background: #EDF2F7;
+  border-color: #CBD5E1;
+}
+
 .btn-matrix-toggle {
   background: #F8FAFC;
   border: 1px solid #E2E8F0;

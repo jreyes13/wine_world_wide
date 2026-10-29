@@ -24,6 +24,8 @@ const I18N = {
     lblSearchVariety: "Search Variety:",
     searchPlaceholder: "Search variety (e.g. Tempranillo, Pinot Noir...)",
     lblMatrixTitle: "Grape Varieties Catalog",
+    optSortAlpha: "🔤 A-Z (Alphabetical)",
+    optSortRegions: "📊 Most Appellations",
     btnMatrixExpand: "↕️ Expand Grid",
     btnMatrixCollapse: "↕️ Collapse Grid",
     noMatrixMatches: "No grape varieties match the selected filters.",
@@ -91,6 +93,8 @@ const I18N = {
     lblSearchVariety: "Buscar Variedad:",
     searchPlaceholder: "Buscar variedad (ej. Tempranillo, Pinot Noir...)",
     lblMatrixTitle: "Catálogo de Variedades",
+    optSortAlpha: "🔤 A-Z (Alfabético)",
+    optSortRegions: "📊 Mayor Presencia",
     btnMatrixExpand: "↕️ Expandir Matriz",
     btnMatrixCollapse: "↕️ Reducir Matriz",
     noMatrixMatches: "No se encontraron variedades con los filtros seleccionados.",
@@ -338,12 +342,15 @@ function renderVarietyMatrix() {
     return;
   }
 
-  // Sort: highest number of total regions first, then alphabetically
+  // Sort: Alphabetical (A-Z) by default, or by presence in appellations
+  const sortMode = document.getElementById('matrix-sort-select')?.value || 'alpha';
   const sorted = [...filtered].sort((a, b) => {
-    if (b.total_regions !== a.total_regions) {
-      return b.total_regions - a.total_regions;
+    if (sortMode === 'regions') {
+      if (b.total_regions !== a.total_regions) {
+        return b.total_regions - a.total_regions;
+      }
     }
-    return a.name.localeCompare(b.name);
+    return a.name.localeCompare(b.name, currentLang, { sensitivity: 'base' });
   });
 
   sorted.forEach(g => {
@@ -893,6 +900,9 @@ function setupEventListeners() {
     document.getElementById('btn-matrix-toggle-text').textContent = isExpanded ? t.btnMatrixCollapse : t.btnMatrixExpand;
   });
 
+  // Matrix Sort Selector (Alphabetical vs Regions)
+  document.getElementById('matrix-sort-select').addEventListener('change', renderVarietyMatrix);
+
   // Basemap Switcher
   document.getElementById('basemap-select').addEventListener('change', (e) => {
     const style = BASEMAP_STYLES[e.target.value];
@@ -991,6 +1001,8 @@ function setLanguage(lang) {
   document.getElementById('grape-search').placeholder = t.searchPlaceholder;
 
   document.getElementById('lbl-matrix-title').textContent = t.lblMatrixTitle;
+  document.getElementById('opt-sort-alpha').textContent = t.optSortAlpha;
+  document.getElementById('opt-sort-regions').textContent = t.optSortRegions;
   const isExpanded = document.getElementById('variety-matrix-grid')?.classList.contains('expanded');
   document.getElementById('btn-matrix-toggle-text').textContent = isExpanded ? t.btnMatrixCollapse : t.btnMatrixExpand;
 
