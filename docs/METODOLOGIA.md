@@ -1,68 +1,144 @@
-# Metodología de Mapeo de Denominaciones de Origen Vitivinícolas 🗺️
+# Metodología de Mapeo Cartográfico y Análisis Vitivinícola 🗺️
 
-Este documento describe el flujo de trabajo técnico y cartográfico estandarizado para transformar los pliegos de condiciones normativos en capas SIG georreferenciadas, verificadas y optimizadas para visualización interactiva en **QGIS** y plataformas web como **Atlas.co**.
+[English Version](METHODOLOGY.md) | **Versión en Español**
 
----
-
-## 1. Fundamentos Cartográficos y Fuentes de Datos
-
-### Fuentes Oficiales Utilizadas
-- **Normativa Vitivinícola:** Pliegos de Condiciones oficiales depositados en el Ministerio de Agricultura, Pesca y Alimentación (MAPA), boletines oficiales autonómicos (BOCyL, BOPV, BOJA, etc.) y la base comunitaria europea *eAmbrosia*.
-- **Límites Administrativos Oficiales (España):** 
-  - Base de Datos de Delimitaciones Territoriales del **Instituto Geográfico Nacional (IGN)** conforme a la directiva europea **INSPIRE**.
-  - **Península y Baleares:** Sistema de Referencia Terrestre Europeo 1989 (**ETRS89**, EPSG:4258).
-  - **Canarias:** Red Geodésica de Canarias 1995 (**REGCAN95**, EPSG:4081).
-  - **Publicación Web (Atlas.co / GeoJSON / KML):** WGS84 (**EPSG:4326**).
+Este documento detalla el flujo de trabajo técnico, cartográfico y analítico estandarizado utilizado en **World Wine Wide** para transformar pliegos normativos oficiales en capas SIG georreferenciadas, bases de datos vectoriales optimizadas y visualizaciones analíticas web interactivas.
 
 ---
 
-## 2. Flujo de Trabajo en 5 Pasos
+## 1. Fundamentos Cartográficos y Fuentes Oficiales
+
+La premisa fundacional del proyecto es la utilización exclusiva de **fuentes gubernamentales e institucionales oficiales**, descartando polígonos aproximados dibujados a mano alzada.
+
+### A. Marco Normativo Vitivinícola Oficial
+* **Unión Europea:** Base de datos oficial **eAmbrosia** (Directorio de Denominaciones de Origen Protegidas e Indicaciones Geográficas de la Comisión Europea).
+* **Organismos Nacionales Competentes:**
+  * 🇪🇸 **España:** Ministerio de Agricultura, Pesca y Alimentación (MAPA) y boletines oficiales autonómicos.
+  * 🇫🇷 **Francia:** Institut National de l'Origine et de la Qualité (INAO) — *Cahiers des charges*.
+  * 🇮🇹 **Italia:** Ministero dell'Agricoltura, della Sovranità Alimentare e delle Foreste (MASAF) — *Disciplinari di produzione*.
+  * 🇵🇹 **Portugal:** Instituto da Vinha e do Vinho (IVV) — *Cadernos de especificações*.
+  * 🇩🇪 **Alemania:** Bundesanstalt für Landwirtschaft und Ernährung (BLE) — *Weinverordnung (WeinV)*.
+  * 🇦🇹 **Austria:** Bundesministerium für Land- und Forstwirtschaft (BML) — *Österreichisches Weingesetz*.
+  * 🇬🇷 **Grecia:** Ministerio de Desarrollo Rural y Alimentación (YPAAT).
+  * 🇭🇺 **Hungría:** Nemzeti Élelmiszerlánc-biztonsági Hivatal (NÉBIH) y Hegyközségek Nemzeti Tanácsa (HNT).
+  * 🇬🇪 **Georgia:** Agencia Nacional del Vino de Georgia (NWA) y Sakpatenti.
+  * 🇨🇿 **República Checa:** Ústřední kontrolní a zkušební ústav zemědělský (ÚKZÚZ).
+  * 🇨🇭 **Suiza:** Office Fédéral de l'Agriculture (OFAG / BLW) y Swiss Wine Promotion.
+  * 🇸🇮 **Eslovenia:** Ministerio de Agricultura, Silvicultura y Alimentación (MKGP).
+  * 🇭🇷 **Croacia:** Ministerio de Agricultura — *Zakon o vinu*.
+  * 🇸🇰 **Eslovaquia:** Ministerio de Agricultura y Desarrollo Rural — *Zákon č. 313/2009 Z. z.*
+  * 🇷🇴 **Rumanía:** Oficiul Național al Viei și Produselor Vitivinicole (ONVPV).
+  * 🇧🇬 **Bulgaria:** Agencia Ejecutiva de la Viña y el Vino (EAVW).
+  * 🇲🇩 **Moldavia:** Oficina Nacional de la Viña y el Vino (ONVV).
+  * 🇦🇲 **Armenia:** Fundación de la Viña y el Vino de Armenia (VWFA) y Ministerio de Economía.
+  * 🇨🇾 **Chipre:** Departamento de Agricultura.
+  * 🇱🇧 **Líbano:** Union Vinicole du Liban (UVL) — *Loi no 216/2000*.
+
+### B. Cartografía Administrativa Base y Sistemas de Referencia (CRS)
+| Ámbito Geográfico | Organismo Cartográfico Oficial | Nivel de Entidad Base | Sistema de Coordenadas Nativo | CRS de Publicación Web |
+| :--- | :--- | :--- | :--- | :--- |
+| **España (Península/Baleares)** | IGN España (INSPIRE) | Municipios (`recintos_municipales`) | ETRS89 (EPSG:4258) | WGS84 (EPSG:4326) |
+| **España (Canarias)** | IGN España | Municipios | REGCAN95 (EPSG:4081) | WGS84 (EPSG:4326) |
+| **Francia** | IGN France (BD CARTO®) | Communes / Cantons | RGF93 / Lambert-93 (EPSG:2154) | WGS84 (EPSG:4326) |
+| **Italia** | ISTAT | Comuni | Roma40 / Gauss-Boaga (EPSG:3003) | WGS84 (EPSG:4326) |
+| **Portugal** | DGT Portugal (CAOP) | Freguesias / Concelhos | ETRS89 / PT-TM06 (EPSG:3763) | WGS84 (EPSG:4326) |
+| **Alemania** | BKG | Gemeinden | ETRS89 / UTM 32N (EPSG:25832) | WGS84 (EPSG:4326) |
+| **Centroeuropa y Levante** | Natural Earth / Eurostat | Admin-1 / Admin-2 Provinces | WGS84 (EPSG:4326) | WGS84 (EPSG:4326) |
+
+---
+
+## 2. El Flujo de Trabajo Técnico en 5 Pasos
 
 ```
-[1. Pliego Oficial PDF] ──> [2. Extracción de Municipios] ──> [3. Validación IGN NAMEUNIT]
-                                                                      │
-[5. Publicación Atlas.co] <── [4. Generación GPKG / GeoJSON] <────────┘
+[1. Pliego Oficial PDF] ──> [2. Extracción y Normalización] ──> [3. Filtrado SQL en QGIS]
+                                                                        │
+[5. Publicación Web]    <── [4. Exportación GeoJSON / GPKG] <───────────┘
 ```
 
 ### Paso 1: Extracción de la Delimitación Geográfica
-Cada pliego de condiciones dedica el **Apartado 4 ("Delimitación de la zona geográfica")** o los artículos iniciales de su reglamento a listar los términos municipales donde es apta la producción y elaboración de uva.
-- Se recopilan los nombres de los municipios, así como sus subzonas o áreas de crianza cuando la denominación esté zonificada.
+Cada pliego de condiciones dedica una sección específica a la demarcación territorial:
+* En los pliegos españoles: **Apartado 4 ("Delimitación de la zona geográfica")**.
+* En los *Cahiers des charges* franceses: **Chapitre I, Section III ("Aire géographique")**.
+* En los *Disciplinari* italianos: **Articolo 3 ("Zona di produzione delle uve")**.
+* En los *Cadernos de especificações* portugueses: **Capítulo III ("Área geográfica delimitada")**.
+* Se extrae la lista rigurosa de términos municipales, comunas o entidades menores habilitadas para la producción de uva y elaboración de vino.
 
-### Paso 2: Normalización con el Nomenclátor del IGN (`NAMEUNIT`)
-Los nombres en los pliegos y en el uso coloquial a menudo presentan ligeras discrepancias respecto al registro oficial del IGN:
-1. **Nombres bilingües oficiales:** Por ejemplo, en Álava `Ayala/Aiara`, `Baños de Ebro/Mañueta`, `Laudio/Llodio`.
-2. **Uso de artículos y tildes:** P. ej. `El Hoyo de Pinares` vs `Hoyo de Pinares`, o `Fuente-Álamo` con guión.
-3. **Pedanías y entidades menores:** Cuando el pliego menciona aldeas o pedanías (como *Atauta* o *Alcubilla del Marqués* en Ribera del Duero), cartográficamente se representan a través de su municipio matriz oficial (*San Esteban de Gormaz* o *Burgo de Osma-Ciudad de Osma*).
+### Paso 2: Normalización y Resolución de Nombres
+Se aplican reglas de coincidencia contra los nomenclátores oficiales para evitar pérdidas de geometría:
+1. **Nombres Bilingües Oficiales:** Se contempla la coexistencia de denominaciones dobles (ej. Álava: `Ayala/Aiara`, `Laguardia/Guardia`; Suiza: cantones bilingües de Valais y Friburgo; Trentino-Alto Adige: nombres duales italiano/alemán como `Bolzano/Bozen`).
+2. **Entidades Menores y Pedanías:** Cuando el pliego cita aldeas o caseríos no constituidos en municipio propio, se asigna cartográficamente el municipio matriz oficial.
+3. **Fusiones y Reorganizaciones Municipales:** Se utilizan las tablas de correspondencia histórica de comunas (ej. comunas nuevas en Francia o fusiones en Portugal tras la reforma de 2013).
 
-> **Herramienta de referencia:** Se coteja siempre contra [`QGIS/SPAIN/SQLs/recintos_municipales_NAMEUNIT.csv`](file:///Users/jreyes13/Documents/GitHub/wine_world_wide/QGIS/SPAIN/SQLs/recintos_municipales_NAMEUNIT.csv).
-
-### Paso 3: Construcción de Filtros SQL
-Para aplicar en la tabla de atributos de QGIS (*"Seleccionar por expresión"*), se construye una cláusula SQL unificada:
+### Paso 3: Construcción y Versionado de Expresiones SQL
+Para cada región vitivinícola, se genera una consulta SQL validada que permite reproducir instantáneamente la selección en QGIS:
 ```sql
+-- Ejemplo: Selección por atributo normalizado
 "NAMEUNIT" IN (
   'Municipio 1',
   'Municipio 2',
   'Municipio 3'
 )
 ```
-Cuando la delimitación coincide exactamente con una provincia o territorio histórico completo (como Bizkaia o Granada), se optimiza usando el código NUTS3 oficial:
-```sql
-"CODNUT3" = 'ES213' -- Bizkaia completa
+Todas las consultas se archivan en `QGIS/<PAIS>/SQLs/` garantizando reproducibilidad y versionado continuo.
+
+### Paso 4: Empaquetado Vectorial (GeoPackage y GeoJSON)
+Las entidades seleccionadas se exportan asegurando la integridad topológica:
+* **En QGIS Desktop:** *Exportar > Guardar objetos seleccionados como...* seleccionando formato GeoPackage (`.gpkg`) con reproyección a **EPSG:4326 (WGS84)**.
+* **Vía línea de comandos (`ogr2ogr`):**
+  ```bash
+  ogr2ogr -f GeoJSON -t_srs EPSG:4326 salida.geojson entrada.shp \
+    -where "NAMEUNIT IN ('Muni1', 'Muni2')"
+  ```
+* Se calculan los centroides geométricos de cada región (`centroid: [lng, lat]`) para facilitar el posicionamiento dinámico de la cámara y marcadores analíticos.
+
+### Paso 5: Despliegue en Aplicaciones Web Interactivas
+Los datos vectoriales se despliegan en el ecosistema digital del proyecto:
+1. **Visor de Mapas de Regiones ([`index.html`](../index.html)):**
+   * Motor cartográfico basado en **MapLibre GL JS** sobre teselas vectoriales CartoDB (Voyager, Positron, Dark Matter) y satélite ESRI.
+   * Filtros dinámicos en cascada por país, clasificación (DOCa, DO, AOC, DOCG, etc.) y subregión.
+   * Buscador de municipios interactivo con apertura de *chips* e hipervínculos a los pliegos oficiales.
+   * Panel lateral colapsable con redimensionamiento fluido del lienzo (`map.resize()`).
+2. **Plataforma Atlas.co:** Publicación colaborativa en la nube con simbología estandarizada y tooltips enriquecidos.
+
+---
+
+## 3. Pipeline de Análisis de Variedades de Uva (`grapes.html`)
+
+El proyecto incorpora un analizador especializado en variedades de uva alimentado por un pipeline automatizado en Python ([`scratch/build_grape_database.py`](../scratch/build_grape_database.py)):
+
+```
+[GeoJSON 754 Regiones] ──> [Normalización & Sinónimos] ──> [Cálculo de Cuotas & Estilos]
+                                                                     │
+[Visualización grapes.html] <── [Datasets JSON / JS] <───────────────┘
 ```
 
-### Paso 4: Exportación de la Capa (GeoPackage / GeoJSON)
-La selección se exporta en formato **GeoPackage (`.gpkg`)** o **GeoJSON (`.geojson`)**:
-- **Mediante interfaz QGIS:** Clic derecho sobre la capa municipal base `recintos_municipales` → *Exportar > Guardar objetos seleccionados como...*
-- **Mediante consola con `ogr2ogr`:**
-```bash
-/Applications/QGIS.app/Contents/MacOS/ogr2ogr -f GPKG "salida.gpkg" "capa_base.shp" \
-  -nln "Nombre_DO" \
-  -nlt PROMOTE_TO_MULTI \
-  -where "NAMEUNIT IN ('Muni1', 'Muni2')"
-```
+1. **Extracción y Tokenización:** El script recorre los campos `grapes_red` y `grapes_white` de las 754 regiones vitivinícolas, separando menciones y limpiando notas contextuales.
+2. **Diccionario Universal de Sinónimos:** Vincula las denominaciones vernáculas a su identidad canónica:
+   * *Tempranillo:* Tinta del País, Tinto Fino, Cencibel, Ull de Llebre, Aragonez, Tinta Roriz, Tinto de Toro.
+   * *Pinot Noir:* Spätburgunder, Pinot Nero, Blauburgunder, Modri Pinot, Rulandské modré.
+   * *Garnacha / Grenache:* Garnacha Tinta, Grenache Noir, Cannonau, Alicante, Lledoner Pelut.
+   * *Sangiovese:* Brunello, Morellino, Prugnolo Gentile, Nielluccio.
+   * *Nebbiolo:* Spanna, Chiavennasca, Picotendro.
+   * *Blaufränkisch:* Kékfrankos, Lemberger, Frankovka, Modra Frankinja.
+   * *Grüner Veltliner:* Veltlínské zelené, Zelený veltlín.
+   * *Chasselas:* Fendant, Gutedel.
+   * *Welschriesling / Graševina:* Olaszrizling, Ryzlink vlašský, Laški rizling.
+3. **Cálculo de Porcentajes Reglamentarios y Enfoque de Mezcla:**
+   * Detecta si la variedad cuenta con una exigencia porcentual en el pliego (ej. *Ribera del Duero min 75% Tempranillo; Barolo 100% Nebbiolo; Brunello 100% Sangiovese; Naoussa 100% Xinomavro; Wachau 100% DAC*).
+   * Clasifica la aptitud de elaboración: **Monovarietal (Varietal)** vs. **Mezcla (Coupage/Assemblage)**.
+4. **Categorización de Estilos de Vino:**
+   * **Vino Tranquilo (*Still*):** Tintos, blancos y rosados convencionales.
+   * **Vino Espumoso (*Sparkling*):** Método tradicional y charmat (Champagne, Cava, Franciacorta, Prosecco, Crémant, Pezsgő, Sekt).
+   * **Generoso y Dulce (*Fortified & Dessert*):** Vinos fortificados, asoleados y botritizados (Oporto, Jerez/Sherry, Madeira, Tokaji Aszú, Sauternes, Commandaria, Samos, Ruster Ausbruch).
+5. **Generación de Datasets Ligeros:**
+   * `data/grape_varieties.json` (2.5 MB) y `data/grape_varieties.js` (1.7 MB), sincronizados automáticamente con el directorio `web/`.
+6. **Visualización Gráfica en SVG:**
+   * Gráfico circular interactivo (*Donut Chart*) con distribución porcentual por país y filtro cruzado en un solo clic hacia la tabla y el mapa.
 
-### Paso 5: Publicación y Visualización Web en Atlas.co
-1. Se abre el proyecto en [Atlas.co](https://app.atlas.co/projects/iRfhgtNFAbVm6zHZL3bN).
-2. Se sube el archivo `.gpkg` o `.geojson` exportado.
-3. Se aplica la paleta cromática del proyecto (tonalidades burdeos, rubí, dorado y verde según tipología de DO).
-4. Se configuran tooltips interactivos con el nombre de la DO, subzona y enlaces a los pliegos.
+---
+
+## 4. Filosofía Bilingüe y Accesibilidad
+
+Todas las herramientas web (`index.html`, `grapes.html`) y documentos del repositorio se estructuran bajo un modelo bilingüe simétrico:
+* **Idioma por Defecto:** Inglés (`en`), facilitando el acceso a la comunidad global de investigadores, estudiantes y sumilleres.
+* **Conmutación Instantánea:** Selector de idioma en tiempo real (`ES` / `EN`) que traduce etiquetas, descripciones sensoriales, leyendas de gráficos y cabeceras sin recargar la página.

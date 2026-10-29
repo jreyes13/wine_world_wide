@@ -1,0 +1,234 @@
+# World Wine Wide — Informe Detallado de Cobertura Multipaís 🌍
+
+[English Version](COVERAGE.md) | **Versión en Español**
+
+Este documento recoge el censo exhaustivo, técnico y cartográfico de los **20 países** y **754 regiones vitivinícolas oficiales** integradas en el proyecto **World Wine Wide**.
+
+---
+
+## Métricas Globales del Proyecto 📊
+
+* **20 Naciones Vitivinícolas Soberanas** con censo oficial completado al 100%.
+* **754 Regiones Vitivinícolas Demarcadas** interactivas en la aplicación web con búsqueda y filtrado a nivel de municipio/comuna.
+* **782 Capas Vectoriales QGIS** estructuradas en 21 grupos nacionales dentro del proyecto maestro ([`QGIS/wine_world_wine.qgz`](../QGIS/wine_world_wine.qgz)).
+* **661 Pliegos Oficiales de Condiciones (PDFs)** archivados localmente en [`DOWNs/DOCs/`](../DOWNs/DOCs/).
+* **2 Aplicaciones Web Interactivas:**
+  * 🗺️ **Mapa Oficial de Regiones Vitivinícolas:** [https://jreyes13.github.io/wine_world_wide/](https://jreyes13.github.io/wine_world_wide/)
+  * 🍇 **Explorador Global de Variedades de Uva:** [https://jreyes13.github.io/wine_world_wide/grapes.html](https://jreyes13.github.io/wine_world_wide/grapes.html)
+  * 🌐 **Proyecto en Atlas.co:** [World Wine Wide en Atlas](https://app.atlas.co/shared/iRfhgtNFAbVm6zHZL3bN?loc=-3.8121%2C41.8957%2C6.2431z&public=true)
+
+---
+
+## Censo Nacional Detallado (Orden Alfabético)
+
+### 🇩🇪 Alemania (100% Censo Oficial Completado)
+13 Anbaugebiete (Regiones Determinadas de Calidad - *Qualitätswein b.A.* / Geschützte Ursprungsbezeichnung - **g.U.**) que cubren la totalidad del viñedo de calidad de Alemania conforme al **Deutsches Weingesetz (WeinG § 3)** y a la Unión Europea (**eAmbrosia**), con pliegos de condiciones oficiales en PDF archivados en [`DOWNs/DOCs/GERMANY/`](../DOWNs/DOCs/GERMANY/), capas vectoriales GPKG en [`QGIS/GERMANY/`](../QGIS/GERMANY/) y filtros SQL en [`QGIS/GERMANY/SQLs/`](../QGIS/GERMANY/SQLs/):
+* **Ahr:** El paraíso del Spätburgunder (Pinot Noir) más septentrional de Europa sobre terrazas escarpadas de pizarra y rocas volcánicas.
+* **Baden:** La región más meridional y soleada (Zona B de la UE), célebre por sus terruños volcánicos (Kaiserstuhl) y sus soberbios Pinot (Spätburgunder, Grauburgunder y Weißburgunder).
+* **Franken:** Cuna del Silvaner mineral, los suelos de caliza de conchas (*Muschelkalk*) y Keuper a orillas del Meno, y la tradicional botella *Bocksbeutel*.
+* **Hessische Bergstraße:** El "Jardín de Primavera", microclima privilegiado protegido por el Odenwald con Rieslings fragantes y jugosos.
+* **Mittelrhein:** El desfiladero del Rin (Patrimonio UNESCO) con viñedos heroicos verticales sobre pizarra devónica y Rieslings afilados.
+* **Mosel:** La meca mundial del Riesling escarpado (Bremmer Calmont, Wehlener Sonnenuhr), laderas de pizarra azul y vinos etéreos de electrizante acidez.
+* **Nahe:** Prodigio de diversidad geológica (pórfiro volcánico, arenisca roja, pizarra) con Rieslings que unen la finura del Mosela y el cuerpo del Rheingau.
+* **Pfalz:** La segunda mayor región vinícola de Alemania y el mayor viñedo de Riesling del mundo, con clima mediterráneo y tintos señoriales.
+* **Rheingau:** Cuna aristocrática del Riesling y de la vendimia tardía (*Spätlese* 1775 en Schloss Johannisberg), laderas sur perfectas sobre el Rin.
+* **Rheinhessen:** La mayor región vinícola de Alemania ("Tierra de las mil colinas"), hogar del *Roter Hang* de Nierstein y el renacimiento moderno de calidad.
+* **Saale-Unstrut:** En el paralelo 51°N, viñedos milenarios sobre calizas en los valles del Saale y Unstrut con blancos secos sumamente crujientes.
+* **Sachsen:** La región más oriental en el valle del río Elba (Dresden y Meißen) sobre terrazas de granito y gneis, cuna de la rara especialidad *Goldriesling*.
+* **Württemberg:** La gran capital del vino tinto alemán (>65% de la producción), famosa por el identitario *Trollinger* y el estructurado *Lemberger* (Blaufränkisch).
+* 👉 *Registro Detallado:* [Registro de Alemania](GERMANY/REGISTRO_ANBAUGEBIETE.md)
+
+---
+
+### 🇦🇲 Armenia (100% Censo Oficial Completado)
+5 Regiones Vitivinícolas Oficiales amparadas por la **Fundación de la Viña y el Vino de Armenia (VWFA)** y el Ministerio de Economía, con pliegos oficiales en [`DOWNs/DOCs/ARMENIA/`](../DOWNs/DOCs/ARMENIA/), capas vectoriales GPKG en [`QGIS/ARMENIA/`](../QGIS/ARMENIA/) y filtros SQL en [`QGIS/ARMENIA/SQLs/`](../QGIS/ARMENIA/SQLs/):
+* **Vayots Dzor PDO:** La cuna arqueológica mundial del vino; complejo de cuevas de Areni-1 con la bodega completa más antigua de la humanidad (6.100 años). Viñedos alpinos entre 1.200 y 1.800 metros sobre cañones calizos y toba volcánica, feudo exclusivo de la noble uva tinta *Areni Noir* (Sev Areni).
+* **Aragatsotn PDO:** Laderas volcánicas del monte Aragats (4.090 m) en Oshakan, Voskevaz y Sasunik; reino de la uva reina blanca *Voskehat* ("Gota Dorada") y el estructurado tinto *Haghtanak*.
+* **Armavir PDO:** Altiplano de Sardarapat sobre toba volcánica rica en minerales; vanguardia del renacimiento vinícola armenio moderno (Karas Winery / Eurnekian) con Kangun, Voskehat y Sireni.
+* **Valle de Ararat PDO:** Soleado valle histórico bajo el monte Ararat del Génesis bíblico; cuna del célebre brandy tradicional armenio y vinos de rica extracción de Kangun, Kakhet y Rkatsiteli.
+* **Tavush PDO:** Noreste boscoso y montañoso de Ijevan; clima más fresco y húmedo que produce blancos vivaces y espumosos de las uvas autóctonas *Lalvari* y *Banants*.
+* 👉 *Registro Detallado:* [Registro de Armenia](ARMENIA/REGISTRO_REGIONS.md)
+
+---
+
+### 🇦🇹 Austria (100% Censo Oficial Completado)
+18 Denominaciones DAC (*Districtus Austriae Controllatus* / Geschützte Ursprungsbezeichnung - **g.U.**) que cubren la totalidad del viñedo de calidad de Austria reguladas conforme al **Österreichisches Weingesetz** y protegidas por la Unión Europea (**eAmbrosia**), con pliegos de condiciones en PDF en [`DOWNs/DOCs/AUSTRIA/`](../DOWNs/DOCs/AUSTRIA/), capas vectoriales GPKG en [`QGIS/AUSTRIA/`](../QGIS/AUSTRIA/) y filtros SQL en [`QGIS/AUSTRIA/SQLs/`](../QGIS/AUSTRIA/SQLs/):
+* **Baja Austria / Niederösterreich (8 DACs):** Wachau (Patrimonio UNESCO, terrazas de gneis, Steinfeder/Federspiel/Smaragd), Kremstal (Krems y Göttweig, Grüner Veltliner pimentado y Riesling), Kamptal (Langenlois, pago Zöbinger Heiligenstein sobre arenisca volcánica pérmica), Traisental (terrazas de conglomerado calcáreo afiladas), Wagram (manto de loess de 20 m y Roter Veltliner), Weinviertel (la cuna del Pfefferl y primera DAC en 2002), Carnuntum (Spitzerberg y Arbesthal, Zweigelt y Blaufränkisch nobles) y Thermenregion (dúo autóctono exclusivo Rotgipfler/Zierfandler y Pinot Noir sobre falla termal).
+* **Burgenland (6 DACs):** Neusiedlersee (Zweigelt carnoso y los grandes dulces botritizados TBA de Seewinkel), Leithaberg (dualidad de caliza marina fósil Leithakalk y esquistos micáceos), Mittelburgenland (el mítico "Blaufränkischland" sobre arcillas pesadas), Eisenberg (esquistos verdes y óxido de hierro con Blaufränkisch afilado y grafito), Rosalia (tintos y rosados Rosalia Rosé al pie de la montaña) y Ruster Ausbruch (la legendaria Ciudad Libre de Rust y su néctar botrítico imperial).
+* **Estiria / Steiermark (3 DACs):** Vulkanland Steiermark (conos volcánicos de basalto y Klöcher Traminer), Südsteiermark (la "Toscana de Estiria", laderas empinadas de Opok y Sauvignon Blanc de clase mundial) y Weststeiermark (las laderas de Koralpe y el inimitable vino rosado de culto Schilcher de uva Blauer Wildbacher).
+* **Viena / Wien (1 DAC):** Wiener Gemischter Satz (viñedos urbanos históricos en colinas sobre el Danubio, polifonía varietal cosechada y vinificada conjuntamente).
+* 👉 *Registro Detallado:* [Registro de Austria](AUSTRIA/REGISTRO_DACS.md)
+
+---
+
+### 🇧🇬 Bulgaria (100% Censo Oficial Completado)
+5 Regiones Vitivinícolas Oficiales con Indicación Geográfica Protegida (**PGI** / **ZGU**) bajo la **Agencia Ejecutiva de la Viña y el Vino (EAVW)** y la Unión Europea (**eAmbrosia**), con pliegos oficiales en [`DOWNs/DOCs/BULGARIA/`](../DOWNs/DOCs/BULGARIA/), capas vectoriales GPKG en [`QGIS/BULGARIA/`](../QGIS/BULGARIA/) y filtros SQL en [`QGIS/BULGARIA/SQLs/`](../QGIS/BULGARIA/SQLs/):
+* **Dunavska Ravnina PGI:** Llanura Danubiana septentrional sobre terrazas de loess; cuna de la especiada uva tinta Gamza (Kadarka), Sauvignon Blanc y Dimyat.
+* **Trakiiska Nizina PGI:** Tierras Bajas de Tracia al sur de los Balcanes; epicentro ancestral del soberano tinto Mavrud (Asenovgrad) y Rubin (Nebbiolo x Syrah).
+* **Chernomorski Rayon PGI:** Costa marítima del Mar Negro (Varna, Burgas, Pomorie); largos otoños templados para Dimyat, Traminer y Chardonnay.
+* **Dolina na Reka Struma PGI:** Valle sudoccidental del Struma y pirámides de arenisca de Melnik; hábitat exclusivo de la histórica Shiroka Melnishka Loza y Melnik 55.
+* **Rozova Dolina PGI:** Valle de las Rosas subbalcánico en Karlovo y Sungurlare; renombre universal por la floral uva Cherven Misket (Misket Rojo).
+* 👉 *Registro Detallado:* [Registro de Bulgaria](BULGARIA/REGISTRO_REGIONS.md)
+
+---
+
+### 🇨🇾 Chipre (100% Censo Oficial Completado)
+5 Denominaciones de Origen Protegidas (**PDO** / **POP**) bajo el Departamento de Agricultura y la Unión Europea (**eAmbrosia**), con pliegos oficiales en [`DOWNs/DOCs/CYPRUS/`](../DOWNs/DOCs/CYPRUS/), capas vectoriales GPKG en [`QGIS/CYPRUS/`](../QGIS/CYPRUS/) y filtros SQL en [`QGIS/CYPRUS/SQLs/`](../QGIS/CYPRUS/SQLs/):
+* **Commandaria PDO:** El vino demarcado más antiguo del mundo aún en producción continua (documentado desde el 800 a.C. por Hesíodo y bautizado en 1191 por Ricardo Corazón de León como "el vino de los reyes y el rey de los vinos"). 14 aldeas montañosas de Troodos; uvas asoleadas de Xinisteri y Mavro criadas mediante el sistema tradicional de soleras "mana" en barricas de roble.
+* **Krasochoria Lemesou PDO:** Los pintorescos "Pueblos del Vino de Limassol" (Omodos, Koilani, Vouni) sobre margas cretácicas; estandarte de la autóctona tinta *Maratheftiko* y la cítrica blanca *Xinisteri*.
+* **Laona Akamas PDO:** Meseta salvaje de la península de Akamas en Pafos; brisa marina adriática constante que aporta salinidad y crujiente frescura.
+* **Vouni Panayias - Ambelitis PDO:** Tierras altas de montaña (>1.000 m) junto al monasterio de Chrysorrogiatissa; viñas en pie franco inmunes a la filoxera y rescate de joyas ancestrales (*Spourtiko*, *Promara*, *Morokanella*).
+* **Pitsilia PDO:** Los viñedos más altos de Europa (hasta 1.500 m) en los picos Madari y Papoutsa de Troodos, entre pinares y ofiolita volcánica.
+* 👉 *Registro Detallado:* [Registro de Chipre](CYPRUS/REGISTRO_PDOS.md)
+
+---
+
+### 🇭🇷 Croacia (100% Censo Oficial Completado)
+4 Regiones Vitivinícolas Oficiales (*Vinogradarske regije*) que cubren el 100% de los 21 condados (*Županije*) de Croacia, amparando las 16 subregiones y Denominaciones de Origen Protegidas (**ZOI** / **PDO**) bajo la **Ley Croata del Vino (*Zakon o vinu*)** y la Unión Europea (**eAmbrosia**), con pliegos oficiales en [`DOWNs/DOCs/CROATIA/`](../DOWNs/DOCs/CROATIA/), capas vectoriales GPKG en [`QGIS/CROATIA/`](../QGIS/CROATIA/) y filtros SQL en [`QGIS/CROATIA/SQLs/`](../QGIS/CROATIA/SQLs/):
+* **Dalmacija ZOI:** Islas y costa adriática meridional; cuna del legendario *Dingač* (1961, primera DO protegida de Croacia) y *Postup* en los acantilados de Pelješac, viñedos en terrazas de piedra de Primošten (*Babić*), origen genético universal del Zinfandel (*Crljenak Kaštelanski / Tribidrag* en Kaštela) y los frescos blancos isleños (*Pošip*, *Grk*, *Vugava*).
+* **Hrvatska Istra i Kvarner ZOI:** Península de Istria y archipiélago de Kvarner sobre suelos blancos, grises y de *terra rossa*; dominada por la mineral y estructurada *Malvazija Istarska*, el tinto *Teran* y el enclave de Krk con la autóctona *Vrbnička Žlahtina*.
+* **Slavonija i Hrvatsko Podunavlje ZOI:** Grandes valles fluviales entre el Danubio, Drava y Sava; reino absoluto de la *Graševina* (Kutjevo y Đakovo) y del imperial *Traminac* de Ilok (Srijem) junto al Danubio.
+* **Središnja bregovita Hrvatska ZOI:** Colinas del interior alrededor de Zagreb; destacando Plešivica (la "Champaña de Croacia", epicentro de los grandes espumosos método tradicional y maceraciones en ánfora), Moslavina (*Škrlet*) y Zagorje-Međimurje (*Pušipel / Furmint*).
+* 👉 *Registro Detallado:* [Registro de Croacia](CROATIA/REGISTRO_ZOI.md)
+
+---
+
+### 🇸🇰 Eslovaquia (100% Censo Oficial Completado)
+6 Regiones Vitivinícolas Oficiales (*Vinohradnícke oblasti*) amparadas por la **Ley Eslovaca del Vino (*Zákon č. 313/2009 Z. z.*)** y la Unión Europea (**eAmbrosia**), con pliegos oficiales en [`DOWNs/DOCs/SLOVAKIA/`](../DOWNs/DOCs/SLOVAKIA/), capas vectoriales GPKG en [`QGIS/SLOVAKIA/`](../QGIS/SLOVAKIA/) y filtros SQL en [`QGIS/SLOVAKIA/SQLs/`](../QGIS/SLOVAKIA/SQLs/):
+* **Malokarpatská CHOP:** Laderas de los Pequeños Cárpatos desde Bratislava hasta Trnava; villas reales de Pezinok, Modra y Svätý Jur con mineral Frankovka modrá, Rizling vlašský y Veltlínske zelené.
+* **Južnoslovenská CHOP:** Cálida llanura danubiana meridional; cuna de las prestigiosas uvas autóctonas *Dunaj* y *Hron*.
+* **Nitrianska CHOP:** Laderas calizas del monte Zobor y Vráble con Silvánske zelené y Frankovka.
+* **Stredoslovenská CHOP:** Laderas volcánicas de Štiavnica (Krupina, Modrý Kameň) con Tramín červený y Alibernet.
+* **Východoslovenská CHOP:** Faldas del Vihorlat en Sobrance y Tibava sobre toba volcánica cerca de Ucrania.
+* **Tokaj CHOP:** Enclave eslovaco demarcado de Tokaj (Trebišov: Čerhov, Malá Tŕňa, Slovenské Nové Mesto, Veľká Tŕňa, Viničky); célebres Tokajský výber (3 a 6 putňový) y Tokajská esencia criados en galerías de toba volcánica cubiertas de Cladosporium.
+* 👉 *Registro Detallado:* [Registro de Eslovaquia](SLOVAKIA/REGISTRO_OBLASTI.md)
+
+---
+
+### 🇸🇮 Eslovenia (100% Censo Oficial Completado)
+9 Distritos Vitivinícolas Oficiales (*Vinorodni okoliši*) articulados en 3 macro-regiones (*Vinorodne dežele*) con estatus de Denominación de Origen Protegida (**ZGP** / **PDO**) bajo el **Ministerio de Agricultura de Eslovenia** y la Unión Europea (**eAmbrosia**), con pliegos oficiales en [`DOWNs/DOCs/SLOVENIA/`](../DOWNs/DOCs/SLOVENIA/), capas vectoriales GPKG en [`QGIS/SLOVENIA/`](../QGIS/SLOVENIA/) y filtros SQL en [`QGIS/SLOVENIA/SQLs/`](../QGIS/SLOVENIA/SQLs/):
+* **Primorska (4 ZGPs):** Goriška Brda (fronterizo con el Collio italiano, colinas escalonadas de flysch margoso *opoka*, cuna de la uva *Rebula* y vinos naranja de culto), Vipavska dolina (valle barrido por el viento Bora con cepas exclusivas *Zelen*, *Pinela* y *Klarnica*), Kras (altiplano kárstico sobre *terra rossa*, hogar del mítico *Teran PTP* y la blanca *Vitovska Grganja*) y Slovenska Istra (costa adriática en Koper y Piran con *Refošk* e *Istrska Malvazija*).
+* **Podravje (2 ZGPs):** Štajerska Slovenija (el mayor distrito vitícola de Eslovenia en Haloze y Jeruzalem-Ormož, renombrado mundialmente por *Šipon / Furmint*, *Sauvignon Blanc* y la vid viva más antigua del planeta en Maribor, *Stara trta*, con más de 400 años) y Prekmurje (tierras del río Mura con *Laški Rizling* y *Modra Frankinja*).
+* **Posavje (3 ZGPs):** Dolenjska (feudo exclusivo del inimitable *Cviček PTP*, histórico coupage tinto y blanco de baja graduación alcohólica 8.5-10% y fresca acidez), Bizeljsko-Sremič (cuevas subterráneas de arena *repnice*, espumosos tradicionales y *Modra Frankinja*) y Bela Krajina (cálido valle del río Kolpa con *Metliška Črnina PTP* y *Belokranjec PTP*).
+* 👉 *Registro Detallado:* [Registro de Eslovenia](SLOVENIA/REGISTRO_ZGP.md)
+
+---
+
+### 🇪🇸 España (100% Censo Oficial Completado)
+101 regiones vitivinícolas oficiales (2 DOCas, 66 DOs/DOPs, 4 Vinos de Calidad y 25 Vinos de Pago) con el 100% de los pliegos oficiales en PDF archivados en [`DOWNs/DOCs/SPAIN/`](../DOWNs/DOCs/SPAIN/):
+* Abarca iconos universales como **Rioja**, **Ribera del Duero**, **Priorat**, **Rías Baixas**, **Rueda**, **Jerez-Xérès-Sherry**, **Toro**, **Bierzo**, **Penedès**, **Cava**, **Jumilla** y la totalidad de los Vinos de Pago singulares (*Pago de Arínzano*, *Dominio de Valdepusa*, *Abadía Retuerta*, etc.).
+* 👉 *Registro Detallado:* [Registro de España](SPAIN/REGISTRO_DOS.md)
+
+---
+
+### 🇫🇷 Francia (100% Censo Completado)
+325 AOCs oficiales. Cobertura nacional exhaustiva en catorce cuencas vitivinícolas: **Burdeos (36 AOCs)**, **Borgoña (46 AOCs)**, **Valle del Ródano (31 AOCs)**, **Valle del Loira (48 AOCs)**, **Champaña (5 AOCs)**, **Alsacia (16 AOCs)**, **Lorena (2 AOCs)**, **Provenza (14 AOCs)**, **Córcega (9 AOCs)**, **Languedoc (35 AOCs)**, **Rosellón (14 AOCs)**, **Sudoeste (32 AOCs)**, **Jura (7 AOCs)**, **Saboya (23 AOCs)** y **Bugey (7 AOCs)** con el 100% de los pliegos de condiciones oficiales ministeriales (*cahiers des charges*) en PDF archivados en [`DOWNs/DOCs/FRANCE/`](../DOWNs/DOCs/FRANCE/), delimitación vectorial oficial **INAO** y filtros SQL por comunas.
+* 👉 *Registro Detallado:* [Registro de Francia](FRANCE/REGISTRO_AOCS.md)
+
+---
+
+### 🇬🇪 Georgia (100% Censo Oficial Completado)
+29 Denominaciones de Origen Protegidas (დაცული ადგილწარმოშობის დასახელება - **PDO** / **DOP**), que abarcan la cuna milenaria del vino de más de 8.000 años y el método ancestral de vinificación en tinajas subterráneas **Qvevri** (**Patrimonio Cultural Inmaterial UNESCO**), registradas oficialmente por la **Agencia Nacional del Vino de Georgia (NWA)**, **Sakpatenti** y el **MEPA**, con pliegos de condiciones en PDF en [`DOWNs/DOCs/GEORGIA/`](../DOWNs/DOCs/GEORGIA/), capas vectoriales GPKG en [`QGIS/GEORGIA/`](../QGIS/GEORGIA/) y filtros SQL en [`QGIS/GEORGIA/SQLs/`](../QGIS/GEORGIA/SQLs/):
+* **Kajetia / Kakheti (20 PDOs):** Tsinandali (el clásico blanco seco aristocrático en la margen derecha del Alazani), Mukuzani (el rey del tinto seco de guarda con 3 años de crianza sobre suelos de carbonato), Kindzmarauli (tinto naturalmente semidulce sobre los esquistos negros del Duruji), Napareuli (margen izquierda a los pies del Cáucaso), Vazisubani, Akhasheni, Teliani, Kvareli, Manavi, Kakheti, Kotekhi, Kardenakhi, Tibaani, Akhmeta, Tsarapi, Akhoebi, Khashmi, Eniseli, Gurjaani y Maghraani.
+* **Racha-Lechkhumi (3 PDOs):** Khvanchkara (el célebre tinto naturalmente semidulce de Aleksandrouli y Mujureteli en el cañón calizo del Rioni), Tvishi y Usakhelouri.
+* **Shida Kartli (1 PDO):** Atenuri (histórica garganta del río Tana en Gori, blancos y espumosos método tradicional de Chinuri y Goruli Mtsvane).
+* **Kvemo Kartli (2 PDOs):** Bolnisi y Asuretuli Shala.
+* **Imereti (2 PDOs):** Sviri y Terjola.
+* **Samegrelo (1 PDO):** Salkhino Dadiani (tinto noble de la ancestral uva Ojaleshi).
+* 👉 *Registro Detallado:* [Registro de Georgia](GEORGIA/REGISTRO_PDOS.md)
+
+---
+
+### 🇬🇷 Grecia (100% Censo Oficial Completado)
+33 Denominaciones de Origen Protegidas (Προστατευόμενη Ονομασία Προέλευσης - **POP** / **PDO**), que abarcan el 100% de las denominaciones históricas **OPAP** (Calidad Superior) y **OPE** (Vinos Dulces Controlados) de Grecia bajo la legislación del Ministerio helénico (**YPAAT**) y la Unión Europea (**eAmbrosia**), con pliegos de condiciones en PDF en [`DOWNs/DOCs/GREECE/`](../DOWNs/DOCs/GREECE/), capas vectoriales GPKG en [`QGIS/GREECE/`](../QGIS/GREECE/) y filtros SQL en [`QGIS/GREECE/SQLs/`](../QGIS/GREECE/SQLs/):
+* **Macedonia (4 POPs):** Naoussa (monte Vermio, el reino indiscutible del Xinomavro tinto de guarda), Amyndeon (meseta fría de Florina, cepas prefiloxéricas y espumosos brut), Goumenissa y Slopes of Meliton.
+* **Tesalia (3 POPs):** Rapsani (laderas del Monte Olimpo, Xinomavro, Krassato y Stavroto), Anchialos y Mesenikola.
+* **Epiro (1 POP):** Zitsa (montañas calizas de Ioannina, blancos y espumosos alpinos de uva autóctona Debina).
+* **Peloponeso (7 POPs):** Nemea (la capital del tinto griego, 100% Agiorgitiko / "La Sangre de Hércules"), Mantinia (Arcadia, Moschofilero), Patra, Mavrodaphne of Patras, Muscat of Patras, Muscat of Rio Patras y Monemvasia-Malvasia.
+* **Islas Jónicas (3 POPs):** Robola of Cephalonia ("Vino di Sasso"), Mavrodaphne of Cephalonia y Muscat of Cephalonia.
+* **Islas del Egeo y Dodecaneso (8 POPs):** Santorini (el blanco volcánico más electrizante del planeta sobre suelos de ceniza y viñedos en cesta "kouloura", Assyrtiko y Vinsanto noble), Paros, Malvasia Paros, Samos, Limnos, Muscat of Limnos, Rhodes y Muscat of Rhodes.
+* **Creta (7 POPs):** Archanes, Dafnes (100% Liatiko seco y dulce Liastos), Peza, Handakas-Candia, Malvasia Handakas-Candia, Sitia y Malvasia Sitia.
+* 👉 *Registro Detallado:* [Registro de Grecia](GREECE/REGISTRO_POPS.md)
+
+---
+
+### 🇭🇺 Hungría (100% Censo Oficial Completado)
+22 Regiones Vitivinícolas Oficiales (*Borvidékek*), reconocidas como Denominaciones de Origen Protegidas (Oltalom alatt álló eredetmegjelölés - **OEM** / **PDO**) bajo la Ley del Vino húngara (*Bortörvény*), el Consejo Nacional de las Comunidades Vitivinícolas (**HNT**) y la Unión Europea (**eAmbrosia**), con pliegos oficiales en [`DOWNs/DOCs/HUNGARY/`](../DOWNs/DOCs/HUNGARY/), capas vectoriales GPKG en [`QGIS/HUNGARY/`](../QGIS/HUNGARY/) y filtros SQL en [`QGIS/HUNGARY/SQLs/`](../QGIS/HUNGARY/SQLs/):
+* **Tokaj / Észak-Magyarország (1 OEM):** Tokaj OEM (la primera denominación clasificada del mundo en 1730 y Patrimonio de la Humanidad UNESCO; suelos volcánicos de riolita y toba que alumbran los legendarios Tokaji Aszú botritizados, Szamorodni y el vibrante Furmint seco).
+* **Felső-Magyarország (3 OEMs):** Eger OEM (el histórico Egri Bikavér "Sangre de Toro" y el blanco Egri Csillag sobre toba riolítica), Mátra OEM y Bükk OEM.
+* **Pannon (4 OEMs):** Villány OEM (capital indiscutible del gran tinto húngaro, célebre por el Villányi Franc y coupages bordeleses), Szekszárd OEM (cuna del Szekszárdi Bikavér, Kadarka y Kékfrankos), Pécs OEM (santuario del Cirfandli) y Tolna OEM.
+* **Balatón (6 OEMs):** Badacsony OEM (conos volcánicos de basalto en la ribera norte con mineral Kéknyelű y Szürkebarát), Balatonfüred-Csopak OEM (arenisca roja pérmica, Csopaki Kódex Olaszrizling), Balaton-felvidék OEM, Balatonboglár OEM, Zala OEM y Nagy-Somló OEM (el volcán "Sombrero de Dios", patria de la uva Juhfark).
+* **Felső-Pannon (5 OEMs):** Sopron OEM (capital del Kékfrankos sobre esquistos micáceos en el lago Fertő), Neszmély OEM, Etyek-Buda OEM (espumosos Pezsgő), Mór OEM (bastión exclusivo de Ezerjó) y Pannonhalma OEM (abadía benedictina del 996).
+* **Duna / Gran Llanura (3 OEMs):** Kunság OEM (arenas inmunes a la filoxera con Cserszegi fűszeres y Kövidinka), Csongrád OEM y Hajós-Baja OEM.
+* 👉 *Registro Detallado:* [Registro de Hungría](HUNGARY/REGISTRO_OEMS.md)
+
+---
+
+### 🇮🇹 Italia (100% Censo Nacional Completado)
+121 denominaciones oficiales en 17 regiones vitivinícolas con el 100% de las 74 DOCGs del país y las grandes DOCs históricas, con pliegos ministeriales MASAF archivados en [`DOWNs/DOCs/ITALY/`](../DOWNs/DOCs/ITALY/) y cartografía oficial ISTAT:
+* **Norte / Piamonte y Lombardía (33 denominaciones):** 23 en Piamonte (19 DOCGs: Barolo, Barbaresco, Roero, Barbera d'Asti, Nizza, etc. + 4 DOCs) y 10 en Lombardía (5 DOCGs: Franciacorta, Valtellina Superiore, Sforzato, Oltrepò Metodo Classico, Scanzo + 5 DOCs).
+* **Triveneto / Véneto, Trentino-Alto Adigio y Friuli (30 denominaciones):** 14 en Véneto (Amarone, Recioto della Valpolicella, Conegliano Valdobbiadene Prosecco, Asolo Prosecco, Soave Superiore, Bardolino Superiore, Piave Malanotte, Lison, etc.), 7 en Trentino-Alto Adigio (Alto Adige/Südtirol, Trento Metodo Classico, Teroldego Rotaliano, Lago di Caldaro, etc.) y 9 en Friuli-Venezia Giulia (Collio Goriziano, Colli Orientali Picolit, Ramandolo, Rosazzo, Friuli Grave, Carso, etc.).
+* **Centro / Toscana, Umbría, Marcas, Lacio y Abruzos (31 denominaciones):** 16 en Toscana (11 DOCGs: Chianti Classico, Brunello di Montalcino, Vino Nobile di Montepulciano, Vernaccia di San Gimignano, Chianti, Morellino di Scansano, Carmignano, Montecucco Sangiovese, Val di Cornia, Suvereto, Elba Aleatico + 5 DOCs: Bolgheri, Rosso di Montalcino, Rosso di Montepulciano, Maremma Toscana, Cortona), 4 en Umbría (Montefalco Sagrantino, Torgiano Rosso Riserva, Orvieto, Montefalco), 5 en Marcas (Castelli di Jesi Verdicchio Riserva, Verdicchio di Matelica Riserva, Conero, Vernaccia di Serrapetrona, Offida), 3 en Lacio y 3 en Abruzos.
+* **Sur e Islas / Mezzogiorno (27 denominaciones):** 7 en Campania (Taurasi, Greco di Tufo, Fiano di Avellino, Aglianico del Taburno, Vesuvio/Lacryma Christi, Costa d'Amalfi, Campi Flegrei), 2 en Basilicata (Aglianico del Vulture Superiore y DOC), 5 en Puglia (Primitivo di Manduria Dolce Naturale, Castel del Monte Bombino Nero, Nero di Troia Riserva, Rosso Riserva y Primitivo di Manduria DOC), 2 en Calabria, 1 en Molise, 6 en Sicilia (Cerasuolo di Vittoria DOCG, Etna, Pantelleria, Marsala, Noto, Faro) y 4 en Cerdeña (Vermentino di Gallura DOCG, Cannonau di Sardegna, Carignano del Sulcis, Vernaccia di Oristano).
+* 👉 *Registro Detallado:* [Registro de Italia](ITALY/REGISTRO_DOCS.md)
+
+---
+
+### 🇱🇧 Líbano (100% Censo Oficial Completado)
+4 Regiones y Terruños Vitivinícolas Históricos amparados por la **Ley Libanesa del Vino (*Loi no 216/2000*)** y la **Union Vinicole du Liban (UVL)**, con pliegos oficiales en [`DOWNs/DOCs/LEBANON/`](../DOWNs/DOCs/LEBANON/), capas vectoriales GPKG en [`QGIS/LEBANON/`](../QGIS/LEBANON/) y filtros SQL en [`QGIS/LEBANON/SQLs/`](../QGIS/LEBANON/SQLs/):
+* **Valle de la Becá / Bekaa Valley GI:** El santuario de Baco en Baalbek; meseta vinícola a 1.000 metros protegida entre el Monte Líbano y el Antilíbano con 300 días de sol. Sede de bodegas míticas: Château Ksara (1857, grutas romanas), Château Kefraya, Domaine des Tourelles y viñedos de Château Musar; nobles coupages de Cinsault, Carignan, Cabernet, Syrah y blanca Obeidi.
+* **Monte Líbano GI:** Terrazas calizas escarpadas asomadas al mar Mediterráneo (Ghazir, Bhamdoun, Chouf); histórica bodega central de Château Musar (Gaston Hochar) y la rara uva nativa *Merwah*.
+* **Norte del Líbano / Batroun GI:** Cuna de los antiguos marinos fenicios que llevaron la vid por el Mediterráneo; viñedos boutique que escalan desde Batroun hasta los 1.800 metros en Qadisha (Ixsir).
+* **Sur del Líbano / Jezzine GI:** Cascadas y pinares a 950 m de altitud; caliza pura con excelente Syrah y Cabernet Sauvignon (Karam Wines).
+* 👉 *Registro Detallado:* [Registro de Líbano](LEBANON/REGISTRO_TERROIRS.md)
+
+---
+
+### 🇲🇩 Moldavia (100% Censo Oficial Completado)
+4 Regiones Vitivinícolas Históricas con Indicación Geográfica Protegida (**IGP**) amparadas por la **Oficina Nacional de la Viña y el Vino (ONVV)**, con pliegos oficiales en [`DOWNs/DOCs/MOLDOVA/`](../DOWNs/DOCs/MOLDOVA/), capas vectoriales GPKG en [`QGIS/MOLDOVA/`](../QGIS/MOLDOVA/) y filtros SQL en [`QGIS/MOLDOVA/SQLs/`](../QGIS/MOLDOVA/SQLs/):
+* **Valul lui Traian IGP:** Cálida estepa meridional de Bugeac junto al Muro de Trajano; tintos estructurados de guarda de Fetească Neagră, Saperavi y Cabernet Sauvignon.
+* **Ștefan Vodă IGP:** Terrazas del bajo Dniéster cerca del Mar Negro; cuna de la histórica bodega Purcari y del legendario *Negru de Purcari* (Cabernet Sauvignon, Saperavi, Rara Neagră).
+* **Codru IGP:** Colinas centrales boscosas y laberintos calizos subterráneos con las mayores bodegas del planeta (Récord Guinness: Mileștii Mici con >2M de botellas y Cricova con 120 km de galerías); espumosos método tradicional y elegantes blancos (*Viorica*, Fetească Albă).
+* **Divin IGP:** Denominación nacional geográfica que ampara el tradicional brandy de uva moldavo envejecido en roble (*eau-de-vie de vin*), destilado en alambiques de cobre a partir de vinos blancos de alta acidez (*Aligoté*, *Bianca*, *Rkatsiteli*).
+* 👉 *Registro Detallado:* [Registro de Moldavia](MOLDOVA/REGISTRO_IGP.md)
+
+---
+
+### 🇵🇹 Portugal (100% Censo Oficial Completado)
+31 Denominações de Origem Protegida (DOC / DOP) completadas al 100%, con sus 31 Cadernos de Especificações oficiales en PDF archivados en [`DOWNs/DOCs/PORTUGAL/`](../DOWNs/DOCs/PORTUGAL/):
+* Incluye grandes regiones como **Vinho Verde**, **Douro / Oporto**, **Dão**, **Bairrada**, **Alentejo**, **Colares**, **Bucelas**, **Carcavelos**, **Setúbal**, **Madeira** y las **Azores** (Pico, Graciosa, Biscoitos).
+* 👉 *Registro Detallado:* [Registro de Portugal](PORTUGAL/REGISTRO_DOCS.md)
+
+---
+
+### 🇨🇿 República Checa (100% Censo Oficial Completado)
+6 Subregiones Vitivinícolas Oficiales (*Vinařské podoblasti*), reconocidas como Denominaciones de Origen Protegidas (Chráněné označení původu - **CHOP** / **PDO**) y Vinos de Certificación de Origen (**VOC** / *Vína originální certifikace*) bajo la **Ley Checa del Vino (*Zákon č. 321/2004 Sb.*)**, el Instituto Central de Supervisión Agrícola (**ÚKZÚZ**) y la Unión Europea (**eAmbrosia**), con pliegos oficiales en [`DOWNs/DOCs/CZECH_REPUBLIC/`](../DOWNs/DOCs/CZECH_REPUBLIC/), capas vectoriales GPKG en [`QGIS/CZECH_REPUBLIC/`](../QGIS/CZECH_REPUBLIC/) y filtros SQL en [`QGIS/CZECH_REPUBLIC/SQLs/`](../QGIS/CZECH_REPUBLIC/SQLs/):
+* **Moravia / Morava (4 Podoblasti):** Znojemská PDO (valle del río Dyje sobre el macizo cristalino de Bohemia y loess, gran cuna de Veltlínské zelené y Riesling; VOC Znojmo), Mikulovská PDO (acantilados de caliza jurásica de Pálava y loess cálido, cumbre del Ryzlink vlašský y de la uva autóctona Pálava; VOC Mikulov, VOC Pálava, VOC Valtice), Velkopavlovická PDO (la capital del tinto checo sobre arcillas pesadas de Frankovka, St. Laurent y André; VOC Modré Hory, VOC Kraví hora) y Slovácká PDO (tradición folclórica junto al río Morava y los Cárpatos Blancos, cuna del Muškát moravský, Cabernet Moravia y el histórico Blatnický Roháč; VOC Slovácko, VOC Blatnice).
+* **Bohemia / Čechy (2 Podoblasti):** Mělnická PDO (viñedos reales históricos en la confluencia del Elba y Moldava fundados en el siglo XIV por Carlos IV con Pinot Noir borgoñón; VOC Mělník) y Litoměřická PDO (el enclave más septentrional de Chequia sobre laderas volcánicas de basalto de las Tierras Altas Centrales de Bohemia; VOC Litoměřice).
+* 👉 *Registro Detallado:* [Registro de República Checa](CZECH_REPUBLIC/REGISTRO_PODOBLASTI.md)
+
+---
+
+### 🇷🇴 Rumanía (100% Censo Oficial Completado)
+8 Grandes Regiones Vitivinícolas Oficiales (*Regiuni viticole*) que amparan las 37 denominaciones DOC registradas por el **Oficiul Național al Viei și Produselor Vitivinicole (ONVPV)** y la Unión Europea (**eAmbrosia**), con pliegos oficiales en [`DOWNs/DOCs/ROMANIA/`](../DOWNs/DOCs/ROMANIA/), capas vectoriales GPKG en [`QGIS/ROMANIA/`](../QGIS/ROMANIA/) y filtros SQL en [`QGIS/ROMANIA/SQLs/`](../QGIS/ROMANIA/SQLs/):
+* **Dealurile Moldovei DOC:** La mayor región de Rumanía sobre las laderas subcarpáticas orientales (Cotnari, Panciu, Odobești, Huși, Bohotin); histórica Grasă de Cotnari botritizada, Fetească Albă y la aromática Busuioacă de Bohotin.
+* **Dealurile Munteniei și Olteniei DOC:** El epicentro del tinto rumano; Dealu Mare sobre arcillas rojas cálidas produciendo la insigne Fetească Neagră, junto a Drăgășani (Crâmpoșie Selecționată, Negru de Drăgășani), Sâmburești y Ștefănești.
+* **Podișul Transilvaniei DOC:** Meseta elevada rodeada por los Cárpatos; blancos frescos aromáticos de Târnave (Jidvei, patria de la Fetească Regală en 1928), Alba Iulia y Lechința.
+* **Colinele Dobrogei DOC:** Colinas marítimas entre el bajo Danubio y el Mar Negro (Murfatlar, Babadag, Sarica Niculițel); loess soleado con Chardonnay licoroso y Pinot Noir maduro.
+* **Dealurile Banatului DOC:** Colinas occidentales de Recaș y Silagiu; arcilla férrica con Fetească Neagră, Cabernet y Cadarcă.
+* **Dealurile Crișanei și Maramureșului DOC:** Histórica cuna del Aszú tinto en Miniș con Cadarcă y Mustoasă de Măderat.
+* **Terasele Dunării DOC:** Terrazas soleadas del bajo Danubio en Ostrov y Greaca.
+* **Regiunea Nisipurilor din Sudul Olteniei DOC:** Arenas aluviales con viñedo pie franco inmune a la filoxera de Roșioară y Fetească Neagră.
+* 👉 *Registro Detallado:* [Registro de Rumanía](ROMANIA/REGISTRO_REGIUNI.md)
+
+---
+
+### 🇨🇭 Suiza (100% Censo Oficial Completado)
+6 Regiones Vitivinícolas Oficiales amparadas bajo el marco legal de la **Office fédéral de l'agriculture (OFAG / BLW)** y **Swiss Wine Promotion**, con pliegos de condiciones en PDF en [`DOWNs/DOCs/SWITZERLAND/`](../DOWNs/DOCs/SWITZERLAND/), capas vectoriales GPKG en [`QGIS/SWITZERLAND/`](../QGIS/SWITZERLAND/) y filtros SQL en [`QGIS/SWITZERLAND/SQLs/`](../QGIS/SWITZERLAND/SQLs/):
+* **Valais AOC:** El mayor cantón vitivinícola de Suiza en el alto valle del Ródano; viñedos alpinos vertiginosos en terrazas de piedra seca, microclima cálido potenciado por el efecto foehn y cepas autóctonas (*Petite Arvine, Cornalin, Humagne Rouge, Fendant*).
+* **Vaud AOC:** Costas del lago Lemán con las terrazas de Lavaux (Patrimonio Mundial UNESCO), Grands Crus Dézaley y Calamin, La Côte y Chablais; máxima expresión mineral del *Chasselas*.
+* **Genève AOC:** Pionera de las AOC suizas en 1988; comarcas del Mandement y confluencia Arve-Ródano, con vinos florales de Gamay y Chasselas, e innovaciones de Gamaret.
+* **Trois-Lacs AOC:** Cuencas de los lagos Neuchâtel, Bienne y Morat; cuna histórica del afamado rosado *Œil-de-Perdrix* (sangrado de Pinot Noir) y del *Chasselas Non Filtré*.
+* **Ticino DOC:** La Suiza meridional de habla italiana; reinado absoluto del *Merlot* (>80%), célebre por sus tintos criados en barrica y su distinguido *Bianco di Merlot*.
+* **Deutschschweiz AOC:** Cantones germanófonos destacando la mítica *Bündner Herrschaft* (Grisones) con Pinot Noir de talla mundial, Zürich (*Räuschling*) y Schaffhausen (*Klettgau*).
+* 👉 *Registro Detallado:* [Registro de Suiza](SWITZERLAND/REGISTRO_REGIONS.md)
