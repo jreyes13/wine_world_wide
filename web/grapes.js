@@ -66,6 +66,9 @@ const I18N = {
     thActions: "Explore",
     btnViewMap: "🗺️ Zoom Map",
     btnPliego: "📄 Specs (PDF)",
+    lblClearBoundary: "Clear boundary",
+    lblActiveBoundary: "Active Boundary",
+    btnOpenWineMap: "🗺️ Open in Wine Map",
     redBadge: "🔴 Red Variety",
     whiteBadge: "⚪ White Variety",
     noRegionsFound: "No appellations found for this selection."
@@ -135,6 +138,9 @@ const I18N = {
     thActions: "Explorar",
     btnViewMap: "🗺️ Ver en Mapa",
     btnPliego: "📄 Pliego (PDF)",
+    lblClearBoundary: "Quitar límite",
+    lblActiveBoundary: "Límite Activo",
+    btnOpenWineMap: "🗺️ Ver en Mapa General",
     redBadge: "🔴 Variedad Tinta",
     whiteBadge: "⚪ Variedad Blanca",
     noRegionsFound: "No se encontraron denominaciones para esta selección."
@@ -205,6 +211,12 @@ let selectedGrapeObj = null;
 let activeCountryFilter = null;
 let map = null;
 
+// Option A: Dynamic full region polygon loading & caching
+let fullRegionsPromise = null;
+let fullRegionsIndex = null;
+let activeRegionPolygon = null;
+let activeMapPopup = null;
+
 // Initialize Application
 document.addEventListener('DOMContentLoaded', async () => {
   initMap();
@@ -213,6 +225,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   setupEventListeners();
   renderVarietyMatrix();
   selectGrape('Tempranillo');
+
+  // Background preload full boundary geometries in idle time (does not block initial load)
+  setTimeout(() => {
+    ensureFullRegionsLoaded().catch(err => console.warn("Background preload info:", err));
+  }, 600);
 });
 
 function initMap() {
@@ -406,6 +423,7 @@ function selectGrape(grapeName) {
   if (!match) return;
 
   selectedGrapeObj = match;
+  clearActivePolygon(false);
 
   const countrySelect = document.getElementById('country-filter');
   if (countrySelect && countrySelect.value !== 'all') {
@@ -592,6 +610,295 @@ function renderStylesChart() {
   }
 }
 
+/* Option A: Hybrid Vector Polygons Loader & MapLibre Integration */
+async function ensureFullRegionsLoaded() {
+  if (fullRegionsIndex) return fullRegionsIndex;
+  if (!fullRegionsPromise) {
+    fullRegionsPromise = (async () => {
+      let data = null;
+      if (typeof SPAIN_WINE_DATA !== 'undefined' && SPAIN_WINE_DATA) {
+        data = SPAIN_WINE_DATA;
+      } else if (typeof window !== 'undefined' && typeof window.SPAIN_WINE_DATA !== 'undefined' && window.SPAIN_WINE_DATA) {
+        data = window.SPAIN_WINE_DATA;
+      } else {
+        try {
+          const resp = await fetch('data/spain_wine_regions.geojson');
+          if (resp.ok) {
+            data = await resp.json();
+          }
+        } catch (e) {
+          console.warn("GeoJSON fetch deferred or fallback required:", e);
+        }
+        if (!data) {
+          await new Promise((resolve) => {
+            const script = document.createElement('script');
+            script.src = 'data/spain_wine_regions.js';
+            script.onload = resolve;
+            script.onerror = resolve;
+            document.head.appendChild(script);
+          });
+          if (typeof SPAIN_WINE_DATA !== 'undefined' && SPAIN_WINE_DATA) {
+            data = SPAIN_WINE_DATA;
+          } else if (typeof window !== 'undefined' && typeof window.SPAIN_WINE_DATA !== 'undefined') {
+            data = window.SPAIN_WINE_DATA;
+          }
+        }
+      }
+
+      const byId = new Map();
+      const byName = new Map();
+      if (data && data.features) {
+        for (let i = 0; i < data.features.length; i++) {
+          const f = data.features[i];
+          if (f.properties) {
+            if (f.properties.id) byId.set(f.properties.id, f);
+            if (f.properties.name) byName.set(f.properties.name.toLowerCase().trim(), f);
+          }
+        }
+      }
+      fullRegionsIndex = { byId, byName };
+      return fullRegionsIndex;
+    })();
+  }
+  return fullRegionsPromise;
+}
+
+function extendBoundsWithGeom(bounds, geom) {
+  if (!geom || !geom.coordinates) return;
+  const coords = geom.coordinates;
+  if (geom.type === 'Polygon') {
+    for (let r = 0; r < coords.length; r++) {
+      for (let p = 0; p < coords[r].length; p++) {
+        bounds.extend(coords[r][p]);
+      }
+    }
+  } else if (geom.type === 'MultiPolygon') {
+    for (let m = 0; m < coords.length; m++) {
+      for (let r = 0; r < coords[m].length; r++) {
+        for (let p = 0; p < coords[m][r].length; p++) {
+          bounds.extend(coords[m][r][p]);
+        }
+      }
+    }
+  } else if (geom.type === 'Point') {
+    bounds.extend(coords);
+  }
+}
+
+function ensurePolygonLayers() {
+  if (!map) return;
+
+  if (!map.getSource('active-region-polygon')) {
+    map.addSource('active-region-polygon', {
+      type: 'geojson',
+      data: { type: 'FeatureCollection', features: [] }
+    });
+  }
+
+  const beforeLayer = map.getLayer('grape-regions-circles') ? 'grape-regions-circles' : undefined;
+
+  if (!map.getLayer('active-region-fill')) {
+    map.addLayer({
+      id: 'active-region-fill',
+      type: 'fill',
+      source: 'active-region-polygon',
+      paint: {
+        'fill-color': ['coalesce', ['get', 'color'], '#7C2D12'],
+        'fill-opacity': 0.42
+      }
+    }, beforeLayer);
+  }
+
+  if (!map.getLayer('active-region-line')) {
+    map.addLayer({
+      id: 'active-region-line',
+      type: 'line',
+      source: 'active-region-polygon',
+      paint: {
+        'line-color': ['coalesce', ['get', 'color'], '#7C2D12'],
+        'line-width': 2.8,
+        'line-opacity': 0.95
+      }
+    }, beforeLayer);
+  }
+}
+
+async function highlightAndZoomToRegion(regionId, regionName, centroid) {
+  if (!map) return;
+
+  // Smooth scroll towards the map if not in full view
+  const mapCard = document.querySelector('.map-section-card');
+  if (mapCard) {
+    mapCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  // Find region in current grape variety list
+  const regObj = selectedGrapeObj?.regions.find(r => 
+    r.id === regionId || (r.name && r.name.toLowerCase() === (regionName || '').toLowerCase())
+  );
+
+  const badge = document.getElementById('active-polygon-badge');
+  const badgeName = document.getElementById('active-polygon-name');
+  if (badge && badgeName) {
+    badgeName.textContent = regionName || regObj?.name || regionId;
+    badge.style.display = 'inline-flex';
+  }
+
+  ensurePolygonLayers();
+
+  const idx = await ensureFullRegionsLoaded();
+  let feature = null;
+  if (idx) {
+    if (regionId && idx.byId.has(regionId)) {
+      feature = idx.byId.get(regionId);
+    } else if (regionName && idx.byName.has(regionName.toLowerCase().trim())) {
+      feature = idx.byName.get(regionName.toLowerCase().trim());
+    } else if (regObj && idx.byName.has(regObj.name.toLowerCase().trim())) {
+      feature = idx.byName.get(regObj.name.toLowerCase().trim());
+    }
+  }
+
+  const regionColor = regObj?.color || feature?.properties?.color || (selectedGrapeObj?.color === 'red' ? '#991B1B' : '#D97706');
+
+  if (feature && feature.geometry) {
+    activeRegionPolygon = feature;
+    const polyGeojson = {
+      type: 'FeatureCollection',
+      features: [{
+        type: 'Feature',
+        geometry: feature.geometry,
+        properties: {
+          id: feature.properties?.id || regionId,
+          name: feature.properties?.name || regionName,
+          color: regionColor
+        }
+      }]
+    };
+    if (map.getSource('active-region-polygon')) {
+      map.getSource('active-region-polygon').setData(polyGeojson);
+    }
+
+    const bounds = new maplibregl.LngLatBounds();
+    extendBoundsWithGeom(bounds, feature.geometry);
+
+    if (!bounds.isEmpty()) {
+      map.fitBounds(bounds, {
+        padding: { top: 60, bottom: 60, left: 60, right: 60 },
+        duration: 1200,
+        maxZoom: 11.5
+      });
+    } else if (centroid) {
+      map.flyTo({ center: centroid, zoom: 9.5, duration: 1000 });
+    }
+  } else {
+    if (map.getSource('active-region-polygon')) {
+      map.getSource('active-region-polygon').setData({ type: 'FeatureCollection', features: [] });
+    }
+    if (centroid) {
+      map.flyTo({ center: centroid, zoom: 9.5, duration: 1000 });
+    }
+  }
+
+  let popupCoords = centroid;
+  if (!popupCoords && feature && feature.geometry) {
+    const b = new maplibregl.LngLatBounds();
+    extendBoundsWithGeom(b, feature.geometry);
+    if (!b.isEmpty()) {
+      popupCoords = b.getCenter().toArray();
+    }
+  }
+  if (popupCoords) {
+    showRegionPopup(regObj, feature, popupCoords);
+  }
+}
+
+function showRegionPopup(regObj, feature, coords) {
+  if (!map) return;
+  if (activeMapPopup) {
+    activeMapPopup.remove();
+  }
+
+  const t = I18N[currentLang];
+  const name = regObj?.name || feature?.properties?.name || 'Region';
+  const country = regObj?.country || feature?.properties?.country || '';
+  const countryFlag = regObj?.country_flag || '🌍';
+  const category = regObj?.category || feature?.properties?.category || '';
+  const role = regObj?.role || 'Authorized';
+  const color = regObj?.color || feature?.properties?.color || '#7C2D12';
+  const styles = regObj?.styles ? regObj.styles.map(s => {
+    if (s === 'still') return '🍷 Still';
+    if (s === 'sparkling') return '🥂 Sparkling';
+    if (s === 'fortified_sweet') return '🍯 Fortified';
+    return s;
+  }).join(' • ') : '';
+  const pliego = regObj?.pliego || feature?.properties?.pliego;
+
+  const html = `
+    <div class="grape-popup-content">
+      <div class="popup-top">
+        <span class="popup-cat" style="background: ${color}">${category}</span>
+        <span class="popup-country">${countryFlag} ${country}</span>
+      </div>
+      <h4 class="popup-title">${name}</h4>
+      <div class="popup-role-box">
+        <span class="popup-role-badge">${role}</span>
+        ${styles ? `<div class="popup-styles">${styles}</div>` : ''}
+      </div>
+      <div class="popup-actions">
+        <a href="index.html?do=${encodeURIComponent(name)}" target="_blank" class="btn-popup-action">
+          ${t.btnOpenWineMap || '🗺️ Open in Wine Map'}
+        </a>
+        ${pliego ? `
+          <a href="https://github.com/jreyes13/wine_world_wide/blob/main/${encodeURI(pliego)}" target="_blank" rel="noopener noreferrer" class="btn-popup-action secondary">
+            ${t.btnPliego}
+          </a>
+        ` : ''}
+      </div>
+    </div>
+  `;
+
+  activeMapPopup = new maplibregl.Popup({ closeButton: true, closeOnClick: false, offset: 12 })
+    .setLngLat(coords)
+    .setHTML(html)
+    .addTo(map);
+}
+
+function clearActivePolygon(refit = true) {
+  activeRegionPolygon = null;
+  const badge = document.getElementById('active-polygon-badge');
+  if (badge) badge.style.display = 'none';
+
+  if (map && map.getSource('active-region-polygon')) {
+    map.getSource('active-region-polygon').setData({ type: 'FeatureCollection', features: [] });
+  }
+
+  if (activeMapPopup) {
+    activeMapPopup.remove();
+    activeMapPopup = null;
+  }
+
+  if (refit && map && selectedGrapeObj) {
+    fitToAllGrapeRegions();
+  }
+}
+
+function fitToAllGrapeRegions() {
+  if (!map || !selectedGrapeObj) return;
+  let regions = selectedGrapeObj.regions;
+  if (activeCountryFilter) {
+    regions = regions.filter(r => r.country === activeCountryFilter);
+  }
+  if (regions.length > 0) {
+    const bounds = new maplibregl.LngLatBounds();
+    regions.forEach(r => {
+      if (r.centroid) bounds.extend(r.centroid);
+    });
+    if (!bounds.isEmpty()) {
+      map.fitBounds(bounds, { padding: 60, maxZoom: 8, duration: 1000 });
+    }
+  }
+}
+
 /* MapLibre GeoJSON Points Update */
 function updateMapRegions() {
   if (!map || !selectedGrapeObj) return;
@@ -637,6 +944,8 @@ function updateMapRegions() {
     features: features
   };
 
+  ensurePolygonLayers();
+
   if (map.getSource('grape-regions')) {
     map.getSource('grape-regions').setData(geojson);
   } else {
@@ -663,35 +972,20 @@ function updateMapRegions() {
       }
     });
 
-    // Map Click and Popups
-    const popup = new maplibregl.Popup({ closeButton: true, closeOnClick: true });
-
+    // Map Click and Popups: clicking circle marker highlights polygon & zooms
     map.on('click', 'grape-regions-circles', (e) => {
       if (!e.features.length) return;
       const f = e.features[0];
       const p = f.properties;
-      const t = I18N[currentLang];
+      highlightAndZoomToRegion(p.id, p.name, f.geometry.coordinates);
+    });
 
-      const html = `
-        <div style="font-family: inherit; padding: 4px; font-size: 0.85rem; max-width: 240px;">
-          <div style="font-size: 0.7rem; font-weight: 700; color: #7C2D12; text-transform: uppercase;">
-            ${p.category} • ${p.country_flag} ${p.country}
-          </div>
-          <div style="font-size: 1rem; font-weight: 800; color: #0F172A; margin: 2px 0 6px 0;">
-            ${p.name}
-          </div>
-          <div style="background: #F1F5F9; border-radius: 4px; padding: 4px 6px; font-size: 0.75rem; margin-bottom: 6px;">
-            <strong>${p.role}</strong>
-          </div>
-          <div style="display: flex; gap: 4px;">
-            <a href="index.html?do=${encodeURIComponent(p.name)}" target="_blank" style="display: inline-block; padding: 3px 6px; background: #7C2D12; color: white; border-radius: 4px; text-decoration: none; font-size: 0.72rem; font-weight: 600;">
-              🗺️ Open in Wine Map
-            </a>
-          </div>
-        </div>
-      `;
-
-      popup.setLngLat(f.geometry.coordinates).setHTML(html).addTo(map);
+    // Clicking polygon fill triggers zoom and popup
+    map.on('click', 'active-region-fill', (e) => {
+      if (!e.features.length) return;
+      const f = e.features[0];
+      const p = f.properties;
+      highlightAndZoomToRegion(p.id, p.name, [e.lngLat.lng, e.lngLat.lat]);
     });
 
     map.on('mouseenter', 'grape-regions-circles', () => {
@@ -700,10 +994,16 @@ function updateMapRegions() {
     map.on('mouseleave', 'grape-regions-circles', () => {
       map.getCanvas().style.cursor = '';
     });
+    map.on('mouseenter', 'active-region-fill', () => {
+      map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'active-region-fill', () => {
+      map.getCanvas().style.cursor = '';
+    });
   }
 
-  // Zoom to fit bounds of regions
-  if (features.length > 0) {
+  // Zoom to fit bounds of regions only if no polygon is actively isolated
+  if (!activeRegionPolygon && features.length > 0) {
     const bounds = new maplibregl.LngLatBounds();
     features.forEach(f => bounds.extend(f.geometry.coordinates));
     map.fitBounds(bounds, { padding: 60, maxZoom: 8, duration: 1000 });
@@ -779,7 +1079,7 @@ function renderTable() {
       <td><span style="font-size: 0.78rem; color: #475569;">${stylesBadges}</span></td>
       <td>
         <div class="td-actions">
-          <button class="btn-table-action btn-zoom-map" data-lng="${r.centroid[0]}" data-lat="${r.centroid[1]}">
+          <button class="btn-table-action btn-zoom-map" data-id="${r.id}" data-name="${r.name}" data-lng="${r.centroid[0]}" data-lat="${r.centroid[1]}">
             ${t.btnViewMap}
           </button>
           ${r.pliego ? `<a href="https://github.com/jreyes13/wine_world_wide/blob/main/${encodeURI(r.pliego)}" target="_blank" rel="noopener noreferrer" class="btn-table-action">${t.btnPliego}</a>` : ''}
@@ -790,21 +1090,29 @@ function renderTable() {
     tbody.appendChild(tr);
   });
 
-  // Attach zoom buttons
+  // Attach zoom buttons: highlights exact polygon boundary and fits bounds smoothly
   document.querySelectorAll('.btn-zoom-map').forEach(btn => {
     btn.addEventListener('click', (e) => {
-      const lng = parseFloat(e.currentTarget.dataset.lng);
-      const lat = parseFloat(e.currentTarget.dataset.lat);
-      if (map) {
-        map.flyTo({ center: [lng, lat], zoom: 9, essential: true });
-        document.querySelector('.map-section-card').scrollIntoView({ behavior: 'smooth' });
-      }
+      const btnElem = e.currentTarget;
+      const id = btnElem.dataset.id;
+      const name = btnElem.dataset.name;
+      const lng = parseFloat(btnElem.dataset.lng);
+      const lat = parseFloat(btnElem.dataset.lat);
+      highlightAndZoomToRegion(id, name, [lng, lat]);
     });
   });
 }
 
 /* Event Listeners Setup */
 function setupEventListeners() {
+  // Boundary Clear Button
+  const btnClearPoly = document.getElementById('btn-clear-polygon');
+  if (btnClearPoly) {
+    btnClearPoly.addEventListener('click', () => {
+      clearActivePolygon(true);
+    });
+  }
+
   // Language Switcher
   document.getElementById('btn-lang-en').addEventListener('click', () => setLanguage('en'));
   document.getElementById('btn-lang-es').addEventListener('click', () => setLanguage('es'));
@@ -1030,6 +1338,8 @@ function setLanguage(lang) {
   document.getElementById('title-map-section').textContent = t.titleMapSection;
   document.getElementById('sub-map-section').textContent = t.subMapSection;
   document.getElementById('lbl-pill-cultivated').textContent = t.lblPillCultivated;
+  const btnClearPoly = document.getElementById('btn-clear-polygon');
+  if (btnClearPoly) btnClearPoly.title = t.lblClearBoundary;
 
   document.getElementById('title-table-section').textContent = t.titleTableSection;
   document.getElementById('sub-table-section').textContent = t.subTableSection;
