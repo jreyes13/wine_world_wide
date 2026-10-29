@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grape Varieties Explorer — World Wine Wide 🍇</title>
+  <meta name="description" content="Explore where world grape varieties like Tempranillo, Pinot Noir, Chardonnay or Riesling are cultivated across 20 countries and 754 official wine regions with interactive circular charts, regional distribution, and blend analysis.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍇</text></svg>">
+
+  <!-- MapLibre GL JS -->
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" />
+  <script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="grapes.css">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Top Navigation Bar -->
+    <header class="top-nav">
+      <div class="brand">
+        <span class="brand-icon">🍇</span>
+        <div>
+          <h1 class="brand-title" id="brand-title">World Wine Wide</h1>
+          <div class="brand-subtitle" id="brand-subtitle">Grape Varieties Global Explorer</div>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <!-- Return to Main Wine Map -->
+        <a href="index.html" class="btn-link btn-map" id="nav-btn-map" title="Interactive Wine Regions Map">
+          <span>🗺️</span> <span id="nav-map-text">Wine Regions Map</span>
+        </a>
+
+        <!-- Reference Basemap Switcher -->
+        <div class="basemap-selector-wrap">
+          <span class="basemap-label" id="lbl-basemap" title="Reference Basemap">🌍</span>
+          <select id="basemap-select" class="basemap-select" title="Change reference basemap">
+            <option value="voyager" id="bm-voyager-opt">Voyager (Color)</option>
+            <option value="positron" id="bm-positron-opt">Light (Positron)</option>
+            <option value="dark" id="bm-dark-opt">Dark (Dark Matter)</option>
+            <option value="satellite" id="bm-satellite-opt">Satellite (ESRI)</option>
+            <option value="topo" id="bm-topo-opt">Topographic (Relief)</option>
+          </select>
+        </div>
+
+        <!-- Language Switcher -->
+        <button class="lang-btn" data-lang="es" id="btn-lang-es">ES</button>
+        <button class="lang-btn active" data-lang="en" id="btn-lang-en">EN</button>
+
+        <a href="https://app.atlas.co/projects/iRfhgtNFAbVm6zHZL3bN?loc=-2.7334%2C39.9785%2C6.0441z" target="_blank" rel="noopener noreferrer" class="btn-link btn-atlas">
+          <span>🗺️</span> Atlas.co
+        </a>
+        <a href="https://github.com/jreyes13/wine_world_wide" target="_blank" rel="noopener noreferrer" class="btn-link btn-github">
+          <svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+          </svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="main-container">
+      <!-- Controls & Filter Toolbar -->
+      <section class="controls-toolbar" aria-label="Filters and Variety Search">
+        <div class="filters-row">
+          <!-- Color Segmented Filter (All, Red, White) -->
+          <div class="filter-group">
+            <label class="filter-label" id="lbl-color-filter">Grape Color:</label>
+            <div class="segmented-control" id="color-filter-group">
+              <button class="seg-btn active" data-color="all" id="btn-color-all">All</button>
+              <button class="seg-btn" data-color="red" id="btn-color-red">🔴 Red</button>
+              <button class="seg-btn" data-color="white" id="btn-color-white">⚪ White</button>
+            </div>
+          </div>
+
+          <!-- Wine Style Filter (Still, Sparkling, Fortified) -->
+          <div class="filter-group">
+            <label class="filter-label" id="lbl-style-filter">Wine Style:</label>
+            <select id="style-filter" class="filter-select">
+              <option value="all" id="opt-style-all">All Wine Styles</option>
+              <option value="still" id="opt-style-still">🍷 Still Wine (Tranquilo)</option>
+              <option value="sparkling" id="opt-style-sparkling">🥂 Sparkling (Espumoso / Método Tradicional)</option>
+              <option value="fortified_sweet" id="opt-style-fortified">🍯 Fortified & Dessert (Generoso / Dulce)</option>
+            </select>
+          </div>
+
+          <!-- Blend Focus Filter (Monovarietal vs Blends) -->
+          <div class="filter-group">
+            <label class="filter-label" id="lbl-blend-filter">Production Type:</label>
+            <select id="blend-filter" class="filter-select">
+              <option value="all" id="opt-blend-all">All Production Types</option>
+              <option value="monovarietal" id="opt-blend-mono">🍇 Monovarietal Focus (Single Variety)</option>
+              <option value="blend" id="opt-blend-coupage">🍷 Blends / Coupage (Assemblage)</option>
+            </select>
+          </div>
+
+          <!-- Autocomplete Grape Search Box -->
+          <div class="filter-group search-group">
+            <label class="filter-label" id="lbl-search-variety">Search Variety:</label>
+            <div class="search-box">
+              <span class="search-icon">🔍</span>
+              <input type="text" id="grape-search" class="search-input" placeholder="Search variety (e.g. Tempranillo, Pinot Noir...)" autocomplete="off">
+              <div class="autocomplete-list" id="autocomplete-list"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Select Iconic Grapes Carousel/Pills -->
+        <div class="popular-grapes-bar">
+          <span class="popular-label" id="lbl-popular-grapes">Quick Select:</span>
+          <div class="popular-chips" id="popular-chips">
+            <!-- Populated dynamically via JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Grape Hero Banner Card -->
+      <section class="grape-hero-card" id="grape-hero-card">
+        <div class="hero-header">
+          <div class="hero-title-area">
+            <span class="hero-color-badge" id="hero-color-badge">🔴 Red Variety</span>
+            <h2 class="hero-grape-name" id="hero-grape-name">Tempranillo</h2>
+            <div class="hero-origin" id="hero-origin">📍 Origin: <span>Spain</span></div>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-box">
+              <div class="stat-number" id="stat-countries">2</div>
+              <div class="stat-label" id="lbl-stat-countries">Countries</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number" id="stat-regions">74</div>
+              <div class="stat-label" id="lbl-stat-regions">Appellations</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number" id="stat-monovarietal">88%</div>
+              <div class="stat-label" id="lbl-stat-monovarietal">Single Varietal Eligible</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-body">
+          <p class="hero-description" id="hero-description">
+            Spain's premier noble grape, celebrated for flavors of ripe red cherry, dried fig, cedar, dill, and tobacco when aged in oak. Thrives on the high meseta of Ribera del Duero, Rioja, Toro, and Portugal's Douro and Alentejo.
+          </p>
+          <div class="hero-synonyms-wrap" id="hero-synonyms-wrap">
+            <span class="synonyms-title" id="lbl-synonyms">Regional Synonyms:</span>
+            <div class="synonyms-chips" id="hero-synonyms-chips">
+              <span class="syn-chip">Tinta del País</span>
+              <span class="syn-chip">Tinto Fino</span>
+              <span class="syn-chip">Cencibel</span>
+              <span class="syn-chip">Ull de Llebre</span>
+              <span class="syn-chip">Aragonez</span>
+              <span class="syn-chip">Tinta Roriz</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Analytics & Charts Grid -->
+      <section class="analytics-grid">
+        <!-- Circular Donut Chart: Regional / Country Distribution -->
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title" id="title-donut-chart">Geographic Distribution by Country</h3>
+              <p class="chart-subtitle" id="sub-donut-chart">Interactive share of appellations cultivating this variety</p>
+            </div>
+            <button class="btn-chart-reset" id="btn-reset-country-filter" style="display: none;" title="Reset country filter">
+              <span>↺</span> <span id="lbl-reset-filter">Show All</span>
+            </button>
+          </div>
+          <div class="donut-wrapper">
+            <div class="donut-container" id="donut-container">
+              <svg id="donut-svg" viewBox="0 0 320 320" class="donut-svg"></svg>
+              <div class="donut-center-info" id="donut-center-info">
+                <span class="center-count" id="donut-center-count">74</span>
+                <span class="center-label" id="donut-center-label">Regions</span>
+              </div>
+            </div>
+            <div class="donut-legend" id="donut-legend">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Wine Style & Blend Focus Breakdown -->
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title" id="title-styles-chart">Production Profiles & Blend Typology</h3>
+              <p class="chart-subtitle" id="sub-styles-chart">Still vs. Sparkling vs. Fortified and Monovarietal vs. Blends</p>
+            </div>
+          </div>
+          <div class="breakdown-container">
+            <!-- Wine Styles Distribution -->
+            <div class="progress-section">
+              <div class="progress-header">
+                <span class="progress-title" id="lbl-styles-title">Wine Styles Distribution</span>
+                <span class="progress-meta" id="styles-meta">Still: 74 | Sparkling: 0 | Fortified: 3</span>
+              </div>
+              <div class="multi-progress-bar" id="styles-progress-bar">
+                <div class="bar-segment seg-still" id="seg-still" style="width: 96%;" title="Still Wine: 96%"></div>
+                <div class="bar-segment seg-sparkling" id="seg-sparkling" style="width: 0%;" title="Sparkling: 0%"></div>
+                <div class="bar-segment seg-fortified" id="seg-fortified" style="width: 4%;" title="Fortified & Sweet: 4%"></div>
+              </div>
+              <div class="progress-legend">
+                <span class="legend-item"><span class="dot dot-still"></span> <span id="lbl-leg-still">Still Wine</span></span>
+                <span class="legend-item"><span class="dot dot-sparkling"></span> <span id="lbl-leg-sparkling">Sparkling</span></span>
+                <span class="legend-item"><span class="dot dot-fortified"></span> <span id="lbl-leg-fortified">Fortified & Dessert</span></span>
+              </div>
+            </div>
+
+            <!-- Blend Focus Distribution -->
+            <div class="progress-section" style="margin-top: 1.5rem;">
+              <div class="progress-header">
+                <span class="progress-title" id="lbl-blend-title">Blend & Varietal Focus</span>
+                <span class="progress-meta" id="blend-meta">Monovarietal: 65% | Blends: 35%</span>
+              </div>
+              <div class="multi-progress-bar" id="blend-progress-bar">
+                <div class="bar-segment seg-mono" id="seg-mono" style="width: 65%;" title="Monovarietal: 65%"></div>
+                <div class="bar-segment seg-blend" id="seg-blend" style="width: 35%;" title="Blends / Coupage: 35%"></div>
+              </div>
+              <div class="progress-legend">
+                <span class="legend-item"><span class="dot dot-mono"></span> <span id="lbl-leg-mono">Single Varietal (Monovarietal)</span></span>
+                <span class="legend-item"><span class="dot dot-blend"></span> <span id="lbl-leg-blend">Traditional Blends (Coupage)</span></span>
+              </div>
+            </div>
+
+            <!-- Benchmark Terroirs Card -->
+            <div class="benchmark-highlight" id="benchmark-highlight">
+              <span class="benchmark-icon">🏆</span>
+              <div>
+                <strong id="lbl-benchmark-title">Benchmark Appellations:</strong>
+                <p id="lbl-benchmark-desc">Ribera del Duero (min 75%), Rioja (~85%), Toro (min 75-100%), Douro & Alentejo (Aragonez/Tinta Roriz).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Geospatial Vector Map Section -->
+      <section class="map-section-card">
+        <div class="card-header-bar">
+          <div>
+            <h3 class="section-title" id="title-map-section">Geospatial Distribution Map</h3>
+            <p class="section-subtitle" id="sub-map-section">Interactive locations of all authorized wine appellations cultivating this grape</p>
+          </div>
+          <div class="map-legend-pills">
+            <span class="pill-marker pill-active-grape" id="lbl-pill-cultivated">📍 Cultivated Area</span>
+          </div>
+        </div>
+        <div class="map-wrapper">
+          <div id="grape-map" class="grape-map-canvas"></div>
+        </div>
+      </section>
+
+      <!-- Authorized Wine Appellations Directory Table -->
+      <section class="regions-table-section">
+        <div class="table-header-bar">
+          <div>
+            <h3 class="section-title" id="title-table-section">Authorized Appellations Directory</h3>
+            <p class="section-subtitle" id="sub-table-section">Detailed list of wine regions, legal requirements, and wine styles</p>
+          </div>
+          <div class="table-search-wrap">
+            <input type="text" id="table-filter-input" class="table-search-input" placeholder="Filter appellations or country..." autocomplete="off">
+            <span class="table-counter-badge" id="table-counter-badge">74 Appellations</span>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="regions-table" id="regions-table">
+            <thead>
+              <tr>
+                <th id="th-country">Country</th>
+                <th id="th-appellation">Appellation</th>
+                <th id="th-category">Classification</th>
+                <th id="th-region">Territory / Basin</th>
+                <th id="th-role">Presence & Requirement</th>
+                <th id="th-styles">Wine Styles</th>
+                <th id="th-actions">Explore</th>
+              </tr>
+            </thead>
+            <tbody id="regions-table-body">
+              <!-- Populated dynamically via JS -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <div>
+        <strong>World Wine Wide</strong> — Open Geospatial & Viticultural Project. Data from Official Regulatory Councils & Ministries.
+      </div>
+      <div>
+        <a href="index.html" class="footer-link" id="footer-link-map">Interactive Map</a> • 
+        <a href="https://github.com/jreyes13/wine_world_wide" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a> • 
+        <a href="https://app.atlas.co/projects/iRfhgtNFAbVm6zHZL3bN?loc=-2.7334%2C39.9785%2C6.0441z" target="_blank" rel="noopener noreferrer" class="footer-link">Atlas.co</a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Load Data and Core Application Logic -->
+  <script src="data/grape_varieties.js"></script>
+  <script src="grapes.js"></script>
+</body>
+</html>

@@ -37,7 +37,8 @@ const I18N = {
     bmTopo: "Topográfico (Relieve)",
     bmOsm: "OpenStreetMap",
     toggleSidebarHide: "Ocultar panel lateral",
-    toggleSidebarShow: "Mostrar panel lateral"
+    toggleSidebarShow: "Mostrar panel lateral",
+    navGrapes: "Variedades de Uva"
   },
   en: {
     title: "World Wine Wide",
@@ -75,7 +76,8 @@ const I18N = {
     bmTopo: "Topographic (Relief)",
     bmOsm: "OpenStreetMap",
     toggleSidebarHide: "Hide sidebar",
-    toggleSidebarShow: "Show sidebar"
+    toggleSidebarShow: "Show sidebar",
+    navGrapes: "Grape Varieties"
   }
 };
 
@@ -288,14 +290,28 @@ map.on('load', async () => {
 
 function updateCountryFilterLabels(lang) {
   const select = document.getElementById('country-filter');
-  const optCountryAll = document.getElementById('country-all-opt');
-  if (optCountryAll) optCountryAll.textContent = I18N[lang].allCountries;
+  const currentVal = select.value;
+  const optCountryAll = document.getElementById('country-all-opt') || document.createElement('option');
+  optCountryAll.value = "";
+  optCountryAll.id = "country-all-opt";
+  optCountryAll.textContent = I18N[lang].allCountries;
 
-  for (const [key, data] of Object.entries(COUNTRY_NAMES)) {
-    const opt = select.querySelector(`option[value="${key}"]`);
-    if (opt) {
-      opt.textContent = `${data.flag} ${data[lang]}`;
+  // Sort country entries alphabetically by localized name in the active language
+  const sortedEntries = Object.entries(COUNTRY_NAMES).sort((a, b) => {
+    return a[1][lang].localeCompare(b[1][lang], lang);
+  });
+
+  select.innerHTML = '';
+  select.appendChild(optCountryAll);
+
+  for (const [key, data] of sortedEntries) {
+    const opt = document.createElement('option');
+    opt.value = key;
+    opt.textContent = `${data.flag} ${data[lang]}`;
+    if (key === currentVal) {
+      opt.selected = true;
     }
+    select.appendChild(opt);
   }
 }
 
@@ -544,6 +560,9 @@ function setLanguage(lang) {
   document.getElementById('brand-subtitle').textContent = t.subtitle;
   document.getElementById('search-input').placeholder = t.searchPlaceholder;
   
+  const navGrapesText = document.getElementById('nav-grapes-text');
+  if (navGrapesText) navGrapesText.textContent = t.navGrapes;
+
   const optCountryAll = document.getElementById('country-all-opt');
   if (optCountryAll) optCountryAll.textContent = t.allCountries;
 

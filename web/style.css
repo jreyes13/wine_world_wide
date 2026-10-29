@@ -154,6 +154,17 @@ body, html {
   background: #2563EB;
 }
 
+.btn-grapes {
+  background: #7C2D12;
+  color: #FEF3C7;
+  border: 1px solid #9A3412;
+}
+
+.btn-grapes:hover {
+  background: #9A3412;
+  color: #FFFFFF;
+}
+
 /* Main Workspace */
 .main-content {
   flex: 1;
