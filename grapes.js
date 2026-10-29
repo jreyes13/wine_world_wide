@@ -10,6 +10,8 @@ const I18N = {
     colorAll: "All",
     colorRed: "🔴 Red",
     colorWhite: "⚪ White",
+    lblCountryFilter: "Country:",
+    optCountryAll: "🌍 All Countries (21)",
     lblStyleFilter: "Wine Style:",
     optStyleAll: "All Wine Styles",
     optStyleStill: "🍷 Still Wine (Tranquilo)",
@@ -21,6 +23,11 @@ const I18N = {
     optBlendCoupage: "🍷 Blends / Coupage (Assemblage)",
     lblSearchVariety: "Search Variety:",
     searchPlaceholder: "Search variety (e.g. Tempranillo, Pinot Noir...)",
+    lblMatrixTitle: "Grape Varieties Catalog",
+    btnMatrixExpand: "↕️ Expand Grid",
+    btnMatrixCollapse: "↕️ Collapse Grid",
+    noMatrixMatches: "No grape varieties match the selected filters.",
+    btnClearFilters: "Reset All Filters",
     lblPopularGrapes: "Quick Select:",
     lblStatCountries: "Countries",
     lblStatRegions: "Appellations",
@@ -70,6 +77,8 @@ const I18N = {
     colorAll: "Todas",
     colorRed: "🔴 Tinta",
     colorWhite: "⚪ Blanca",
+    lblCountryFilter: "País:",
+    optCountryAll: "🌍 Todos los Países (21)",
     lblStyleFilter: "Estilo de Vino:",
     optStyleAll: "Todos los Estilos",
     optStyleStill: "🍷 Vino Tranquilo",
@@ -81,6 +90,11 @@ const I18N = {
     optBlendCoupage: "🍷 Mezclas / Ensamblajes (Coupage)",
     lblSearchVariety: "Buscar Variedad:",
     searchPlaceholder: "Buscar variedad (ej. Tempranillo, Pinot Noir...)",
+    lblMatrixTitle: "Catálogo de Variedades",
+    btnMatrixExpand: "↕️ Expandir Matriz",
+    btnMatrixCollapse: "↕️ Reducir Matriz",
+    noMatrixMatches: "No se encontraron variedades con los filtros seleccionados.",
+    btnClearFilters: "Restablecer Filtros",
     lblPopularGrapes: "Selección Rápida:",
     lblStatCountries: "Países",
     lblStatRegions: "Denominaciones",
@@ -157,12 +171,28 @@ const PALETTE = [
   '#475569', '#B45309', '#047857', '#6D28D9', '#BE185D'
 ];
 
-const POPULAR_VARIETIES = [
-  'Tempranillo', 'Pinot Noir', 'Cabernet Sauvignon', 'Chardonnay',
-  'Syrah', 'Garnacha / Grenache', 'Merlot', 'Riesling',
-  'Sangiovese', 'Nebbiolo', 'Sauvignon Blanc', 'Grüner Veltliner',
-  'Blaufränkisch', 'Albariño', 'Furmint', 'Assyrtiko',
-  'Saperavi', 'Mencía', 'Touriga Nacional', 'Glera (Prosecco)'
+const ALL_COUNTRIES = [
+  { key: 'Alemania', en: 'Germany', es: 'Alemania', flag: '🇩🇪' },
+  { key: 'Armenia', en: 'Armenia', es: 'Armenia', flag: '🇦🇲' },
+  { key: 'Austria', en: 'Austria', es: 'Austria', flag: '🇦🇹' },
+  { key: 'Bulgaria', en: 'Bulgaria', es: 'Bulgaria', flag: '🇧🇬' },
+  { key: 'Chipre', en: 'Cyprus', es: 'Chipre', flag: '🇨🇾' },
+  { key: 'Croacia', en: 'Croatia', es: 'Croacia', flag: '🇭🇷' },
+  { key: 'Eslovaquia', en: 'Slovakia', es: 'Eslovaquia', flag: '🇸🇰' },
+  { key: 'Eslovenia', en: 'Slovenia', es: 'Eslovenia', flag: '🇸🇮' },
+  { key: 'España', en: 'Spain', es: 'España', flag: '🇪🇸' },
+  { key: 'Francia', en: 'France', es: 'Francia', flag: '🇫🇷' },
+  { key: 'Georgia', en: 'Georgia', es: 'Georgia', flag: '🇬🇪' },
+  { key: 'Grecia', en: 'Greece', es: 'Grecia', flag: '🇬🇷' },
+  { key: 'Hungría', en: 'Hungary', es: 'Hungría', flag: '🇭🇺' },
+  { key: 'Italia', en: 'Italy', es: 'Italia', flag: '🇮🇹' },
+  { key: 'Líbano', en: 'Lebanon', es: 'Líbano', flag: '🇱🇧' },
+  { key: 'Moldavia', en: 'Moldova', es: 'Moldavia', flag: '🇲🇩' },
+  { key: 'Portugal', en: 'Portugal', es: 'Portugal', flag: '🇵🇹' },
+  { key: 'República Checa', en: 'Czech Republic', es: 'República Checa', flag: '🇨🇿' },
+  { key: 'Rumanía', en: 'Romania', es: 'Rumanía', flag: '🇷🇴' },
+  { key: 'Suiza', en: 'Switzerland', es: 'Suiza', flag: '🇨🇭' },
+  { key: 'Turquía', en: 'Turkey', es: 'Turquía', flag: '🇹🇷' }
 ];
 
 let currentLang = 'en';
@@ -175,8 +205,9 @@ let map = null;
 document.addEventListener('DOMContentLoaded', async () => {
   initMap();
   await loadGrapeData();
+  populateCountryFilter();
   setupEventListeners();
-  renderPopularChips();
+  renderVarietyMatrix();
   selectGrape('Tempranillo');
 });
 
@@ -204,12 +235,177 @@ async function loadGrapeData() {
   }
 }
 
+function populateCountryFilter() {
+  const select = document.getElementById('country-filter');
+  if (!select) return;
+  const currentVal = select.value || 'all';
+  select.innerHTML = '';
+
+  const optAll = document.createElement('option');
+  optAll.value = 'all';
+  optAll.id = 'opt-country-all';
+  optAll.textContent = I18N[currentLang].optCountryAll;
+  select.appendChild(optAll);
+
+  const sorted = [...ALL_COUNTRIES].sort((a, b) => {
+    const nameA = currentLang === 'es' ? a.es : a.en;
+    const nameB = currentLang === 'es' ? b.es : b.en;
+    return nameA.localeCompare(nameB);
+  });
+
+  sorted.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c.key;
+    const name = currentLang === 'es' ? c.es : c.en;
+    opt.textContent = `${c.flag} ${name}`;
+    select.appendChild(opt);
+  });
+
+  select.value = currentVal;
+}
+
+function getFilteredGrapes() {
+  const colorFilter = document.querySelector('#color-filter-group .seg-btn.active')?.dataset.color || 'all';
+  const countryFilter = document.getElementById('country-filter')?.value || 'all';
+  const styleFilter = document.getElementById('style-filter')?.value || 'all';
+  const blendFilter = document.getElementById('blend-filter')?.value || 'all';
+  const searchQuery = (document.getElementById('grape-search')?.value || '').toLowerCase().trim();
+
+  return allGrapes.filter(g => {
+    // 1. Color filter
+    if (colorFilter !== 'all' && g.color !== colorFilter) {
+      return false;
+    }
+
+    // 2. Country filter
+    if (countryFilter !== 'all') {
+      const matchCountry = g.countries_breakdown && g.countries_breakdown.some(c => 
+        c.country === countryFilter || c.country_es === countryFilter || c.country_en === countryFilter
+      );
+      if (!matchCountry) return false;
+    }
+
+    // 3. Style filter
+    if (styleFilter !== 'all') {
+      if (!g.styles_breakdown || (g.styles_breakdown[styleFilter] || 0) === 0) {
+        return false;
+      }
+    }
+
+    // 4. Blend filter
+    if (blendFilter !== 'all') {
+      if (!g.blend_breakdown || (g.blend_breakdown[blendFilter] || 0) === 0) {
+        return false;
+      }
+    }
+
+    // 5. Search query
+    if (searchQuery) {
+      const matchName = g.name.toLowerCase().includes(searchQuery);
+      const matchSyn = g.synonyms && g.synonyms.some(s => s.toLowerCase().includes(searchQuery));
+      if (!matchName && !matchSyn) return false;
+    }
+
+    return true;
+  });
+}
+
+function renderVarietyMatrix() {
+  const container = document.getElementById('variety-matrix-grid');
+  const counter = document.getElementById('matrix-counter');
+  if (!container) return;
+
+  const filtered = getFilteredGrapes();
+  const t = I18N[currentLang];
+
+  if (counter) {
+    counter.textContent = currentLang === 'es'
+      ? `Mostrando ${filtered.length} de ${allGrapes.length} variedades`
+      : `Showing ${filtered.length} of ${allGrapes.length} varieties`;
+  }
+
+  container.innerHTML = '';
+
+  if (filtered.length === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'matrix-empty-state';
+    empty.innerHTML = `
+      <p>${t.noMatrixMatches}</p>
+      <button type="button" class="btn-clear-filters" id="btn-matrix-clear">${t.btnClearFilters}</button>
+    `;
+    container.appendChild(empty);
+    document.getElementById('btn-matrix-clear')?.addEventListener('click', resetAllFilters);
+    return;
+  }
+
+  // Sort: highest number of total regions first, then alphabetically
+  const sorted = [...filtered].sort((a, b) => {
+    if (b.total_regions !== a.total_regions) {
+      return b.total_regions - a.total_regions;
+    }
+    return a.name.localeCompare(b.name);
+  });
+
+  sorted.forEach(g => {
+    const btn = document.createElement('button');
+    const isSelected = selectedGrapeObj && (selectedGrapeObj.name.toLowerCase() === g.name.toLowerCase() || selectedGrapeObj.id === g.id);
+    btn.className = `variety-card ${g.color} ${isSelected ? 'active' : ''}`;
+    btn.dataset.name = g.name;
+
+    const flags = (g.countries_breakdown || []).slice(0, 3).map(c => c.flag).join(' ');
+    const regLabel = currentLang === 'es' ? 'reg.' : 'reg.';
+
+    btn.innerHTML = `
+      <div class="vcard-top">
+        <span class="vcard-color-dot ${g.color}"></span>
+        <span class="vcard-name" title="${g.name}">${g.name}</span>
+      </div>
+      <div class="vcard-meta">
+        <span class="vcard-regions">${g.total_regions} ${regLabel}</span>
+        <span class="vcard-flags" title="${(g.countries_breakdown || []).map(c => c.country).join(', ')}">${flags}</span>
+      </div>
+    `;
+
+    btn.addEventListener('click', () => {
+      selectGrape(g.name);
+    });
+
+    container.appendChild(btn);
+  });
+}
+
+function resetAllFilters() {
+  document.querySelectorAll('#color-filter-group .seg-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.color === 'all');
+  });
+  const countrySelect = document.getElementById('country-filter');
+  if (countrySelect) countrySelect.value = 'all';
+  const styleSelect = document.getElementById('style-filter');
+  if (styleSelect) styleSelect.value = 'all';
+  const blendSelect = document.getElementById('blend-filter');
+  if (blendSelect) blendSelect.value = 'all';
+  const searchInput = document.getElementById('grape-search');
+  if (searchInput) searchInput.value = '';
+  activeCountryFilter = null;
+
+  renderVarietyMatrix();
+  if (allGrapes.length > 0) {
+    selectGrape('Tempranillo');
+  }
+}
+
 function selectGrape(grapeName) {
   const match = allGrapes.find(g => g.name.toLowerCase() === grapeName.toLowerCase() || g.id === grapeName.toLowerCase());
   if (!match) return;
 
   selectedGrapeObj = match;
-  activeCountryFilter = null;
+
+  const countrySelect = document.getElementById('country-filter');
+  if (countrySelect && countrySelect.value !== 'all') {
+    activeCountryFilter = countrySelect.value;
+  } else {
+    activeCountryFilter = null;
+  }
 
   renderHeroCard();
   renderDonutChart();
@@ -217,23 +413,9 @@ function selectGrape(grapeName) {
   updateMapRegions();
   renderTable();
 
-  // Highlight popular chip if active
-  document.querySelectorAll('.pop-chip').forEach(c => {
+  // Highlight active variety card in matrix
+  document.querySelectorAll('.variety-card').forEach(c => {
     c.classList.toggle('active', c.dataset.name === selectedGrapeObj.name);
-  });
-}
-
-function renderPopularChips() {
-  const container = document.getElementById('popular-chips');
-  container.innerHTML = '';
-
-  POPULAR_VARIETIES.forEach(name => {
-    const chip = document.createElement('button');
-    chip.className = 'pop-chip';
-    chip.dataset.name = name;
-    chip.textContent = name;
-    chip.addEventListener('click', () => selectGrape(name));
-    container.appendChild(chip);
   });
 }
 
@@ -348,11 +530,15 @@ function renderDonutChart() {
 }
 
 function toggleCountryFilter(country) {
+  const countrySelect = document.getElementById('country-filter');
   if (activeCountryFilter === country) {
     activeCountryFilter = null;
+    if (countrySelect) countrySelect.value = 'all';
   } else {
     activeCountryFilter = country;
+    if (countrySelect) countrySelect.value = country;
   }
+  renderVarietyMatrix();
   renderDonutChart();
   updateMapRegions();
   renderTable();
@@ -621,33 +807,90 @@ function setupEventListeners() {
     btn.addEventListener('click', (e) => {
       document.querySelectorAll('#color-filter-group .seg-btn').forEach(b => b.classList.remove('active'));
       e.target.classList.add('active');
-      const color = e.target.dataset.color;
-      filterGrapesListByColor(color);
-      updateMapRegions();
-      renderTable();
+      renderVarietyMatrix();
+      
+      const filtered = getFilteredGrapes();
+      if (filtered.length > 0) {
+        const isStillInList = filtered.some(g => g.name === selectedGrapeObj?.name);
+        if (!isStillInList) {
+          selectGrape(filtered[0].name);
+        } else {
+          updateMapRegions();
+          renderTable();
+        }
+      }
     });
   });
 
-  // Style and Blend Filters
-  document.getElementById('style-filter').addEventListener('change', () => {
-    updateMapRegions();
-    renderTable();
+  // Country Filter Dropdown
+  document.getElementById('country-filter').addEventListener('change', (e) => {
+    const val = e.target.value;
+    activeCountryFilter = val === 'all' ? null : val;
+    renderVarietyMatrix();
+
+    const filtered = getFilteredGrapes();
+    if (filtered.length > 0) {
+      const isStillInList = filtered.some(g => g.name === selectedGrapeObj?.name);
+      if (!isStillInList) {
+        selectGrape(filtered[0].name);
+      } else {
+        renderDonutChart();
+        updateMapRegions();
+        renderTable();
+      }
+    }
   });
 
+  // Wine Style Filter
+  document.getElementById('style-filter').addEventListener('change', () => {
+    renderVarietyMatrix();
+    const filtered = getFilteredGrapes();
+    if (filtered.length > 0) {
+      const isStillInList = filtered.some(g => g.name === selectedGrapeObj?.name);
+      if (!isStillInList) {
+        selectGrape(filtered[0].name);
+      } else {
+        updateMapRegions();
+        renderTable();
+      }
+    }
+  });
+
+  // Blend Focus Filter
   document.getElementById('blend-filter').addEventListener('change', () => {
-    updateMapRegions();
-    renderTable();
+    renderVarietyMatrix();
+    const filtered = getFilteredGrapes();
+    if (filtered.length > 0) {
+      const isStillInList = filtered.some(g => g.name === selectedGrapeObj?.name);
+      if (!isStillInList) {
+        selectGrape(filtered[0].name);
+      } else {
+        updateMapRegions();
+        renderTable();
+      }
+    }
   });
 
   // Table Search Filter
   document.getElementById('table-filter-input').addEventListener('input', renderTable);
 
-  // Reset Country Filter
+  // Reset Country Filter Button (from Donut Chart area)
   document.getElementById('btn-reset-country-filter').addEventListener('click', () => {
     activeCountryFilter = null;
+    const countrySelect = document.getElementById('country-filter');
+    if (countrySelect) countrySelect.value = 'all';
+    renderVarietyMatrix();
     renderDonutChart();
     updateMapRegions();
     renderTable();
+  });
+
+  // Matrix Grid Height Toggle
+  document.getElementById('btn-matrix-toggle').addEventListener('click', () => {
+    const grid = document.getElementById('variety-matrix-grid');
+    const isExpanded = grid.classList.toggle('expanded');
+    const t = I18N[currentLang];
+    document.getElementById('btn-matrix-toggle-text').textContent = isExpanded ? t.btnMatrixCollapse : t.btnMatrixExpand;
   });
 
   // Basemap Switcher
@@ -661,27 +904,24 @@ function setupEventListeners() {
     }
   });
 
-  // Autocomplete Search Box
+  // Search Box (Real-time live matrix filter + Autocomplete)
   const searchInput = document.getElementById('grape-search');
   const autoList = document.getElementById('autocomplete-list');
 
   searchInput.addEventListener('input', (e) => {
+    renderVarietyMatrix();
+
     const q = e.target.value.toLowerCase().trim();
     if (!q) {
       autoList.classList.remove('active');
       return;
     }
 
-    const colorFilter = document.querySelector('.seg-btn.active').dataset.color;
-    let list = allGrapes;
-    if (colorFilter !== 'all') {
-      list = list.filter(g => g.color === colorFilter);
-    }
-
-    const matches = list.filter(g => 
+    const filtered = getFilteredGrapes();
+    const matches = filtered.filter(g => 
       g.name.toLowerCase().includes(q) ||
-      g.synonyms.some(s => s.toLowerCase().includes(q))
-    ).slice(0, 12);
+      (g.synonyms && g.synonyms.some(s => s.toLowerCase().includes(q)))
+    ).slice(0, 10);
 
     autoList.innerHTML = '';
     if (matches.length === 0) {
@@ -717,17 +957,6 @@ function setupEventListeners() {
   });
 }
 
-function filterGrapesListByColor(color) {
-  if (color === 'all') return;
-  // If current grape does not match color, pick top grape of that color
-  if (selectedGrapeObj && selectedGrapeObj.color !== color) {
-    const nextGrape = allGrapes.find(g => g.color === color);
-    if (nextGrape) {
-      selectGrape(nextGrape.name);
-    }
-  }
-}
-
 function setLanguage(lang) {
   currentLang = lang;
   document.getElementById('btn-lang-en').classList.toggle('active', lang === 'en');
@@ -744,6 +973,9 @@ function setLanguage(lang) {
   document.getElementById('btn-color-red').textContent = t.colorRed;
   document.getElementById('btn-color-white').textContent = t.colorWhite;
 
+  document.getElementById('lbl-country-filter').textContent = t.lblCountryFilter;
+  populateCountryFilter();
+
   document.getElementById('lbl-style-filter').textContent = t.lblStyleFilter;
   document.getElementById('opt-style-all').textContent = t.optStyleAll;
   document.getElementById('opt-style-still').textContent = t.optStyleStill;
@@ -757,7 +989,10 @@ function setLanguage(lang) {
 
   document.getElementById('lbl-search-variety').textContent = t.lblSearchVariety;
   document.getElementById('grape-search').placeholder = t.searchPlaceholder;
-  document.getElementById('lbl-popular-grapes').textContent = t.lblPopularGrapes;
+
+  document.getElementById('lbl-matrix-title').textContent = t.lblMatrixTitle;
+  const isExpanded = document.getElementById('variety-matrix-grid')?.classList.contains('expanded');
+  document.getElementById('btn-matrix-toggle-text').textContent = isExpanded ? t.btnMatrixCollapse : t.btnMatrixExpand;
 
   document.getElementById('lbl-stat-countries').textContent = t.lblStatCountries;
   document.getElementById('lbl-stat-regions').textContent = t.lblStatRegions;
@@ -798,6 +1033,7 @@ function setLanguage(lang) {
 
   document.getElementById('footer-link-map').textContent = t.navMap;
 
+  renderVarietyMatrix();
   renderHeroCard();
   renderDonutChart();
   renderStylesChart();

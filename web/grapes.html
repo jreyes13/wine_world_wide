@@ -79,6 +79,14 @@
             </div>
           </div>
 
+          <!-- Country Filter Dropdown (All 21 Nations) -->
+          <div class="filter-group">
+            <label class="filter-label" id="lbl-country-filter">Country:</label>
+            <select id="country-filter" class="filter-select">
+              <option value="all" id="opt-country-all">🌍 All Countries (21)</option>
+            </select>
+          </div>
+
           <!-- Wine Style Filter (Still, Sparkling, Fortified) -->
           <div class="filter-group">
             <label class="filter-label" id="lbl-style-filter">Wine Style:</label>
@@ -111,11 +119,22 @@
           </div>
         </div>
 
-        <!-- Quick Select Iconic Grapes Carousel/Pills -->
-        <div class="popular-grapes-bar">
-          <span class="popular-label" id="lbl-popular-grapes">Quick Select:</span>
-          <div class="popular-chips" id="popular-chips">
-            <!-- Populated dynamically via JS -->
+        <!-- Reactive Grape Varieties Matrix -->
+        <div class="variety-matrix-wrapper">
+          <div class="matrix-header">
+            <div class="matrix-title-area">
+              <span class="matrix-icon">🍇</span>
+              <span class="matrix-title" id="lbl-matrix-title">Grape Varieties Catalog</span>
+              <span class="matrix-counter" id="matrix-counter">Showing 698 varieties</span>
+            </div>
+            <div class="matrix-actions">
+              <button type="button" class="btn-matrix-toggle" id="btn-matrix-toggle" title="Expand or collapse catalog height">
+                <span id="btn-matrix-toggle-text">↕️ Expand Grid</span>
+              </button>
+            </div>
+          </div>
+          <div class="variety-matrix-grid" id="variety-matrix-grid">
+            <!-- Populated dynamically via JS matching active filters -->
           </div>
         </div>
       </section>
