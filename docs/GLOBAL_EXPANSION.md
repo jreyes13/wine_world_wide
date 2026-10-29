@@ -8,15 +8,15 @@ This document establishes the modular, technical, and collaborative architecture
 
 ## 1. Current Collection Status & Architecture
 
-The project has achieved 100% complete official census coverage across **20 sovereign wine nations** throughout Europe, the Mediterranean basin, and the Caucasus:
+The project has achieved 100% complete official census coverage across **21 sovereign wine nations** throughout Europe, the Mediterranean basin, Anatolia, and the Caucasus:
 
 | Regional Axis | Covered Countries (100% Official Census) | Demarcated Regions |
 | :--- | :--- | :---: |
 | **Western & Iberian Europe** | 🇪🇸 Spain, 🇵🇹 Portugal, 🇫🇷 France, 🇮🇹 Italy | 578 DOs / AOCs / DOCGs |
 | **Central Europe & Alpine-Adriatic** | 🇩🇪 Germany, 🇦🇹 Austria, 🇨🇭 Switzerland, 🇸🇮 Slovenia, 🇭🇷 Croatia, 🇨🇿 Czech Republic, 🇸🇰 Slovakia | 72 g.U. / DAC / ZGP / CHOP |
 | **Black Sea & Eastern Central Europe** | 🇭🇺 Hungary, 🇷🇴 Romania, 🇧🇬 Bulgaria, 🇲🇩 Moldova | 39 Borvidékek / DOC / PGI / IGP |
-| **Archaeological Caucasus & Levant** | 🇬🇪 Georgia, 🇬🇷 Greece, 🇦🇲 Armenia, 🇨🇾 Cyprus, 🇱🇧 Lebanon | 65 PDOs / POPs / Terroirs |
-| **Total Consolidated Metric** | **20 Sovereign Nations** | **754 Official Regions** |
+| **Archaeological Caucasus, Anatolia & Levant** | 🇬🇪 Georgia, 🇬🇷 Greece, 🇦🇲 Armenia, 🇨🇾 Cyprus, 🇱🇧 Lebanon, 🇹🇷 Turkey | 74 PDOs / POPs / GIs / Terroirs |
+| **Total Consolidated Metric** | **21 Sovereign Nations** | **763 Official Regions** |
 
 ### Standardized Directory Hierarchy
 The repository organizes all assets within a clean, country-by-country modular structure:

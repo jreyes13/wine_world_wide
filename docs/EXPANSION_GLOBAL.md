@@ -8,15 +8,15 @@ Este documento establece la arquitectura modular, técnica y colaborativa para c
 
 ## 1. Estado de la Colección y Arquitectura Consolidada
 
-El proyecto ha completado de forma exhaustiva el censo oficial de **20 naciones vitivinícolas europeas y de la cuenca mediterránea/caucásica**:
+El proyecto ha completado de forma exhaustiva el censo oficial de **21 naciones vitivinícolas europeas, de Anatolia y de la cuenca mediterránea/caucásica**:
 
 | Eje Territorial | Países Completados (100% Censo Oficial) | Regiones Demarcadas |
 | :--- | :--- | :---: |
 | **Europa Occidental e Ibérica** | 🇪🇸 España, 🇵🇹 Portugal, 🇫🇷 Francia, 🇮🇹 Italia | 578 DOs / AOCs / DOCGs |
 | **Europa Central y Alpino-Adriática** | 🇩🇪 Alemania, 🇦🇹 Austria, 🇨🇭 Suiza, 🇸🇮 Eslovenia, 🇭🇷 Croacia, 🇨🇿 República Checa, 🇸🇰 Eslovaquia | 72 g.U. / DAC / ZGP / CHOP |
 | **Mar Negro y Centroeuropa Oriental** | 🇭🇺 Hungría, 🇷🇴 Rumanía, 🇧🇬 Bulgaria, 🇲🇩 Moldavia | 39 Borvidékek / DOC / PGI / IGP |
-| **Cáucaso Arqueológico y Levante** | 🇬🇪 Georgia, 🇬🇷 Grecia, 🇦🇲 Armenia, 🇨🇾 Chipre, 🇱🇧 Líbano | 65 PDOs / POPs / Terruños |
-| **Total Global Consolidado** | **20 Naciones Soberanas** | **754 Regiones Oficiales** |
+| **Cáucaso Arqueológico, Anatolia y Levante** | 🇬🇪 Georgia, 🇬🇷 Grecia, 🇦🇲 Armenia, 🇨🇾 Chipre, 🇱🇧 Líbano, 🇹🇷 Turquía | 74 PDOs / POPs / GIs / Terruños |
+| **Total Global Consolidado** | **21 Naciones Soberanas** | **763 Regiones Oficiales** |
 
 ### Estructura de Directorios Estandarizada
 El repositorio organiza todos sus activos conforme a una jerarquía modular por país:

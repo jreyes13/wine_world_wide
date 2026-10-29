@@ -1,0 +1,322 @@
+[
+  {
+    "id": "tr-gi-tracia-marmara",
+    "name": "Tracia y Mármara",
+    "layer": "Tracia y Mármara GI",
+    "country": "Turquía",
+    "country_code": "TR",
+    "adm0_a3": "TUR",
+    "region": "Thrace & Marmara (Trakya Bağ Rotası)",
+    "category": "Bölge / GI",
+    "pdo_code": "TÜRKPATENT / Trakya Bağ Rotası (Tekirdağ & Gallipoli)",
+    "decree": "Tarım ve Orman Bakanlığı / Tütün ve Alkol Dairesi Başkanlığı (TADB)",
+    "color": "#8B0000",
+    "whites": [
+      "Yapıncak",
+      "Vasilaki",
+      "Çavuş",
+      "Sauvignon Blanc",
+      "Chardonnay"
+    ],
+    "reds": [
+      "Papaskarası",
+      "Karasakız (Kuntra)",
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Syrah",
+      "Gamay"
+    ],
+    "desc": "Puerta de entrada del vino europeo hacia Anatolia y cuna de la prestigiosa Ruta del Vino de Tracia (Trakya Bağ Rotası). Clima templado marítimo entre el Mar de Mármara, el Egeo y el Mar Negro. Comprende los históricos viñedos costeros de Şarköy y Mürefte en Tekirdağ, las colinas de Kırklareli a los pies de las montañas Strandja, la península de Gallípoli (Gelibolu) y la mítica isla egea de Bozcaada (antigua Ténedos). Hogar de cepas históricas autóctonas como la tinta Papaskarası, la blanca Yapıncak y la roja Karasakız.",
+    "units": [
+      "Edirne",
+      "Kirklareli",
+      "Tekirdag",
+      "Çanakkale",
+      "Istanbul",
+      "Balikesir",
+      "Bursa",
+      "Yalova"
+    ],
+    "pdf_rel": "DOWNs/DOCs/TURKEY/Tracia_y_Marmara.pdf",
+    "gpkg_rel": "QGIS/TURKEY/Tracia_y_Marmara.gpkg"
+  },
+  {
+    "id": "tr-gi-costa-egeo-urla",
+    "name": "Costa del Egeo - Urla",
+    "layer": "Costa del Egeo GI",
+    "country": "Turquía",
+    "country_code": "TR",
+    "adm0_a3": "TUR",
+    "region": "Aegean Coast (Urla Bağ Yolu)",
+    "category": "Bölge / GI",
+    "pdo_code": "TÜRKPATENT Coğrafi İşareti / Urla Bağ Yolu",
+    "decree": "Tarım ve Orman Bakanlığı / TADB",
+    "color": "#D4AF37",
+    "whites": [
+      "Bornova Misketi",
+      "Sultaniye",
+      "Chardonnay",
+      "Sauvignon Blanc",
+      "Viognier"
+    ],
+    "reds": [
+      "Urla Karası",
+      "Foça Karası",
+      "Syrah",
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Petit Verdot"
+    ],
+    "desc": "La luminosa costa egea de la antigua Jonia y Élide. El epicentro del dinamismo vinícola boutique turco con la prestigiosa Ruta del Vino de Urla (Urla Bağ Yolu) y los valles de Çeşme, Torbalı y Akhisar. Clima puramente mediterráneo templado por constantes brisas marinas del mar Egeo sobre suelos arcillo-calcáreos con gravas aluviales y piedras calizas. Cuna de la aromática Moscatel Bornova Misketi y del rescate de tintas históricas como la Urla Karası y Foça Karası.",
+    "units": [
+      "Izmir",
+      "Manisa",
+      "Aydin",
+      "Mugla"
+    ],
+    "pdf_rel": "DOWNs/DOCs/TURKEY/Costa_del_Egeo_Urla.pdf",
+    "gpkg_rel": "QGIS/TURKEY/Costa_del_Egeo_Urla.gpkg"
+  },
+  {
+    "id": "tr-gi-meseta-egeo-denizli",
+    "name": "Meseta del Egeo - Denizli",
+    "layer": "Meseta del Egeo GI",
+    "country": "Turquía",
+    "country_code": "TR",
+    "adm0_a3": "TUR",
+    "region": "Aegean Plateau (Güney & Çal)",
+    "category": "Bölge / GI",
+    "pdo_code": "TÜRKPATENT Güney & Çal Bağları",
+    "decree": "Tarım ve Orman Bakanlığı / TADB",
+    "color": "#FF6347",
+    "whites": [
+      "Sultaniye",
+      "Narince",
+      "Sauvignon Blanc",
+      "Chardonnay"
+    ],
+    "reds": [
+      "Çalkarası",
+      "Kalecik Karası",
+      "Öküzgözü",
+      "Syrah",
+      "Cabernet Sauvignon"
+    ],
+    "desc": "Meseta del interior egeo a una altitud de 800 a 1.000 metros en torno al cañón del río Büyük Menderes (antiguo río Meandro). La meseta de Güney y los distritos de Çal y Bekilli son el gran motor vitícola de montaña de Turquía, combinando una altísima insolación diurna con noches frías y suelos calcáreos y arcillosos de grava volcánica. Patria de la emblemática uva autóctona Çalkarası, reina indiscutible de los rosados frescos de Anatolia.",
+    "units": [
+      "Denizli",
+      "Usak",
+      "Kütahya",
+      "Afyonkarahisar"
+    ],
+    "pdf_rel": "DOWNs/DOCs/TURKEY/Meseta_del_Egeo_Denizli.pdf",
+    "gpkg_rel": "QGIS/TURKEY/Meseta_del_Egeo_Denizli.gpkg"
+  },
+  {
+    "id": "tr-gi-capadocia",
+    "name": "Capadocia",
+    "layer": "Capadocia GI",
+    "country": "Turquía",
+    "country_code": "TR",
+    "adm0_a3": "TUR",
+    "region": "Cappadocia (Kapadokya Volcanic Valley)",
+    "category": "Bölge / GI",
+    "pdo_code": "TÜRKPATENT Kapadokya Şarapları",
+    "decree": "Tarım ve Orman Bakanlığı / TADB",
+    "color": "#4682B4",
+    "whites": [
+      "Emir",
+      "Narince",
+      "Chardonnay"
+    ],
+    "reds": [
+      "Kalecik Karası",
+      "Öküzgözü",
+      "Boğazkere",
+      "Syrah"
+    ],
+    "desc": "El corazón volcánico y lunar de Anatolia entre 950 y 1.250 metros de altitud, dominado por los imponentes estratovolcanes Erciyes y Hasan. Sus suelos de toba volcánica blanca y cenizas son inmunes a la filoxera, preservando viñedos centenarios en pie franco. Es el feudo indiscutible de la uva blanca Emir, cultivada en vaso y vinificada en bodegas subterráneas milenarias excavadas directamente en la roca de toba (Ürgüp, Uçhisar, Avanos), que mantienen temperaturas naturalmente frescas y constantes.",
+    "units": [
+      "Nevsehir",
+      "Kayseri",
+      "Nigde",
+      "Aksaray",
+      "Kirsehir",
+      "Yozgat"
+    ],
+    "pdf_rel": "DOWNs/DOCs/TURKEY/Capadocia.pdf",
+    "gpkg_rel": "QGIS/TURKEY/Capadocia.gpkg"
+  },
+  {
+    "id": "tr-gi-valle-kalecik-ankara",
+    "name": "Valle de Kalecik",
+    "layer": "Valle de Kalecik GI",
+    "country": "Turquía",
+    "country_code": "TR",
+    "adm0_a3": "TUR",
+    "region": "Central Anatolia (Kalecik & Kızılırmak)",
+    "category": "Bölge / GI",
+    "pdo_code": "TÜRKPATENT Kalecik Karası Coğrafi İşareti",
+    "decree": "Tarım ve Orman Bakanlığı / TADB",
+    "color": "#800020",
+    "whites": [
+      "Hasandede",
+      "Emir",
+      "Narince",
+      "Sauvignon Blanc"
+    ],
+    "reds": [
+      "Kalecik Karası",
+      "Syrah",
+      "Cabernet Sauvignon"
+    ],
+    "desc": "Microclima abrigado en el valle del río Kızılırmak (Río Rojo), al noreste de Ankara, protegido por los montes İdris que frenan los gélidos vientos de la estepa anatolia. Patria absoluta de la noble variedad Kalecik Karası, bautizada popularmente como la Pinot Noir de Anatolia por su piel fina, frutos rojos delicados, perfume floral y taninos aterciopelados. Rescatada en la década de 1980 de la extinción gracias al trabajo de la Universidad de Ankara.",
+    "units": [
+      "Ankara",
+      "Konya",
+      "Eskisehir",
+      "Karaman",
+      "Çankiri",
+      "Kinkkale"
+    ],
+    "pdf_rel": "DOWNs/DOCs/TURKEY/Valle_de_Kalecik.pdf",
+    "gpkg_rel": "QGIS/TURKEY/Valle_de_Kalecik.gpkg"
+  },
+  {
+    "id": "tr-gi-cuenca-eufrates-elazig",
+    "name": "Cuenca del Éufrates - Elazığ",
+    "layer": "Cuenca del Éufrates GI",
+    "country": "Turquía",
+    "country_code": "TR",
+    "adm0_a3": "TUR",
+    "region": "Eastern Anatolia (Elazığ & Euphrates Basin)",
+    "category": "Bölge / GI",
+    "pdo_code": "TÜRKPATENT Elazığ Öküzgözü Coğrafi İşareti",
+    "decree": "Tarım ve Orman Bakanlığı / TADB",
+    "color": "#800000",
+    "whites": [
+      "Narince",
+      "Sultaniye"
+    ],
+    "reds": [
+      "Öküzgözü",
+      "Boğazkere",
+      "Kösetevek"
+    ],
+    "desc": "Tierras altas del este de Anatolia situadas a lo largo de la cuenca alta del río Éufrates (Fırat Nehri) y el inmenso embalse de Keban, a altitudes de 1.000 a 1.200 metros sobre arcillas rojas, gravas calcáreas y aluviales. Cuna ancestral y feudo exclusivo de la variedad tinta Öküzgözü (\"Ojo de buey\"), famosa por sus bayas oscuras gigantes, su refrescante acidez natural, aromas a cereza madura, mora y eucalipto.",
+    "units": [
+      "Elazig",
+      "Malatya",
+      "Erzincan",
+      "Tunceli",
+      "Bingöl",
+      "Mus"
+    ],
+    "pdf_rel": "DOWNs/DOCs/TURKEY/Cuenca_del_Eufrates_Elazig.pdf",
+    "gpkg_rel": "QGIS/TURKEY/Cuenca_del_Eufrates_Elazig.gpkg"
+  },
+  {
+    "id": "tr-gi-cuenca-tigris-mardin",
+    "name": "Cuenca del Tigris y Mardin",
+    "layer": "Cuenca del Tigris GI",
+    "country": "Turquía",
+    "country_code": "TR",
+    "adm0_a3": "TUR",
+    "region": "Southeastern Anatolia (Diyarbakır & Tur Abdin)",
+    "category": "Bölge / GI",
+    "pdo_code": "TÜRKPATENT Diyarbakır Boğazkere Coğrafi İşareti",
+    "decree": "Tarım ve Orman Bakanlığı / TADB",
+    "color": "#4A0E17",
+    "whites": [
+      "Mazrona",
+      "Karkuş"
+    ],
+    "reds": [
+      "Boğazkere",
+      "Öküzgözü"
+    ],
+    "desc": "Histórica Alta Mesopotamia delimitada por el valle del río Tigris (Dicle Nehri) y la meseta caliza de Tur Abdin. En Diyarbakır, las faldas basálticas negras del volcán extinto Karacadağ forjan la concentración tánica, longevidad y musculatura de la uva Boğazkere (\"Rascatragos\"). En Midyat y Mardin, los monasterios e iglesias de la comunidad siriaca (asiria) elaboran desde hace milenios el legendario vino siriaco (Süryani Şarabı) con uvas autóctonas como Mazrona.",
+    "units": [
+      "Diyarbakir",
+      "Mardin",
+      "Gaziantep",
+      "Sanliurfa",
+      "Batman",
+      "Siirt",
+      "Sirnak",
+      "Adiyaman",
+      "Kilis"
+    ],
+    "pdf_rel": "DOWNs/DOCs/TURKEY/Cuenca_del_Tigris_y_Mardin.pdf",
+    "gpkg_rel": "QGIS/TURKEY/Cuenca_del_Tigris_y_Mardin.gpkg"
+  },
+  {
+    "id": "tr-gi-valle-tokat-mar-negro",
+    "name": "Valle de Tokat",
+    "layer": "Valle de Tokat GI",
+    "country": "Turquía",
+    "country_code": "TR",
+    "adm0_a3": "TUR",
+    "region": "Black Sea Transition (Tokat & Yeşilırmak)",
+    "category": "Bölge / GI",
+    "pdo_code": "TÜRKPATENT Tokat Narince Coğrafi İşareti",
+    "decree": "Tarım ve Orman Bakanlığı / TADB",
+    "color": "#2E8B57",
+    "whites": [
+      "Narince"
+    ],
+    "reds": [
+      "Boğazkere",
+      "Öküzgözü",
+      "Syrah"
+    ],
+    "desc": "Valles fluviales de transición a lo largo del curso del río Yeşilırmak (Río Verde) protegidos por los Montes Pónticos, a altitudes de 500 a 700 metros. Microclima moderado que equilibra la humedad marítima del Mar Negro con la sequedad continental. Hogar de origen de la gran reina blanca turca, Narince (\"La Delicada\"), célebre por su equilibrada acidez cítrica, notas de pera, flor de tilo y mineralidad con sobresaliente evolución en barrica.",
+    "units": [
+      "Tokat",
+      "Amasya",
+      "Çorum",
+      "Samsun",
+      "Sinop"
+    ],
+    "pdf_rel": "DOWNs/DOCs/TURKEY/Valle_de_Tokat.pdf",
+    "gpkg_rel": "QGIS/TURKEY/Valle_de_Tokat.gpkg"
+  },
+  {
+    "id": "tr-gi-montes-tauro-elmali",
+    "name": "Montes Tauro - Elmalı",
+    "layer": "Montes Tauro GI",
+    "country": "Turquía",
+    "country_code": "TR",
+    "adm0_a3": "TUR",
+    "region": "Mediterranean Highlands (Elmalı & Lycia)",
+    "category": "Bölge / GI",
+    "pdo_code": "TÜRKPATENT Elmalı / Likya Bağları",
+    "decree": "Tarım ve Orman Bakanlığı / TADB",
+    "color": "#6B8E23",
+    "whites": [
+      "Fersun",
+      "Narince",
+      "Chardonnay"
+    ],
+    "reds": [
+      "Acıkara",
+      "Merzifon Karası",
+      "Tilkikuyruğu",
+      "Cabernet Sauvignon",
+      "Malbec"
+    ],
+    "desc": "Viñedos de extrema altitud ubicados a más de 1.100 metros en la meseta de Elmalı, en el corazón de los Montes Tauro de Licia, con vistas a picos nevados. Suelos de caliza margosa, grava y esquisto con una oscilación térmica diurna/nocturna superior a 20°C que favorece una maduración fenólica lenta y perfecta. Es el santuario donde se han rescatado uvas prefiloxéricas ancestrales como la tinta Acıkara (\"La Negra Amarga\") y la Merzifon Karası.",
+    "units": [
+      "Antalya",
+      "Burdur",
+      "Isparta",
+      "Mersin",
+      "Adana",
+      "K. Maras",
+      "Hatay",
+      "Osmaniye"
+    ],
+    "pdf_rel": "DOWNs/DOCs/TURKEY/Montes_Tauro_Elmali.pdf",
+    "gpkg_rel": "QGIS/TURKEY/Montes_Tauro_Elmali.gpkg"
+  }
+]

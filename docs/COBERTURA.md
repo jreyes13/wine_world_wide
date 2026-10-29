@@ -2,16 +2,16 @@
 
 [English Version](COVERAGE.md) | **Versión en Español**
 
-Este documento recoge el censo exhaustivo, técnico y cartográfico de los **20 países** y **754 regiones vitivinícolas oficiales** integradas en el proyecto **World Wine Wide**.
+Este documento recoge el censo exhaustivo, técnico y cartográfico de los **21 países** y **763 regiones vitivinícolas oficiales** integradas en el proyecto **World Wine Wide**.
 
 ---
 
 ## Métricas Globales del Proyecto 📊
 
-* **20 Naciones Vitivinícolas Soberanas** con censo oficial completado al 100%.
-* **754 Regiones Vitivinícolas Demarcadas** interactivas en la aplicación web con búsqueda y filtrado a nivel de municipio/comuna.
-* **782 Capas Vectoriales QGIS** estructuradas en 21 grupos nacionales dentro del proyecto maestro ([`QGIS/wine_world_wine.qgz`](../QGIS/wine_world_wine.qgz)).
-* **661 Pliegos Oficiales de Condiciones (PDFs)** archivados localmente en [`DOWNs/DOCs/`](../DOWNs/DOCs/).
+* **21 Naciones Vitivinícolas Soberanas** con censo oficial completado al 100%.
+* **763 Regiones Vitivinícolas Demarcadas** interactivas en la aplicación web con búsqueda y filtrado a nivel de municipio/comuna.
+* **791 Capas Vectoriales QGIS** estructuradas en 22 grupos nacionales dentro del proyecto maestro ([`QGIS/wine_world_wine.qgz`](../QGIS/wine_world_wine.qgz)).
+* **670 Pliegos Oficiales de Condiciones (PDFs)** archivados localmente en [`DOWNs/DOCs/`](../DOWNs/DOCs/).
 * **2 Aplicaciones Web Interactivas:**
   * 🗺️ **Mapa Oficial de Regiones Vitivinícolas:** [https://jreyes13.github.io/wine_world_wide/](https://jreyes13.github.io/wine_world_wide/)
   * 🍇 **Explorador Global de Variedades de Uva:** [https://jreyes13.github.io/wine_world_wide/grapes.html](https://jreyes13.github.io/wine_world_wide/grapes.html)
@@ -232,3 +232,18 @@ Este documento recoge el censo exhaustivo, técnico y cartográfico de los **20 
 * **Ticino DOC:** La Suiza meridional de habla italiana; reinado absoluto del *Merlot* (>80%), célebre por sus tintos criados en barrica y su distinguido *Bianco di Merlot*.
 * **Deutschschweiz AOC:** Cantones germanófonos destacando la mítica *Bündner Herrschaft* (Grisones) con Pinot Noir de talla mundial, Zürich (*Räuschling*) y Schaffhausen (*Klettgau*).
 * 👉 *Registro Detallado:* [Registro de Suiza](SWITZERLAND/REGISTRO_REGIONS.md)
+
+---
+
+### 🇹🇷 Turquía (100% Censo Oficial Completado)
+Las 9 regiones vitivinícolas oficiales e históricas de la República de Turquía (*Türkiye Cumhuriyeti*) reconocidas por el Ministerio de Agricultura y Silvicultura (*Tarım ve Orman Bakanlığı*), el Instituto Turco de Patentes y Marcas (**TÜRKPATENT**) y la asociación **Wines of Turkey**, con pliegos de condiciones en PDF en [`DOWNs/DOCs/TURKEY/`](../DOWNs/DOCs/TURKEY/), capas vectoriales GPKG en [`QGIS/TURKEY/`](../QGIS/TURKEY/) y filtros SQL en [`QGIS/TURKEY/SQLs/`](../QGIS/TURKEY/SQLs/):
+* **Tracia y Mármara (Thrace & Marmara):** Puerta de entrada del vino europeo hacia Anatolia. Sede de la Ruta del Vino de Tracia (*Trakya Bağ Rotası*), los históricos viñedos marítimos de Şarköy y Mürefte (Tekirdağ), las colinas de Kırklareli a los pies de las montañas Strandja, la península de Gallípoli (*Gelibolu*) y la isla egea de Bozcaada (*Ténedos*). Cuna de las uvas autóctonas *Papaskarası*, *Yapıncak* y *Karasakız (Kuntra)*.
+* **Costa del Egeo - Urla (Aegean Coast):** Epicentro del dinamismo vinícola boutique turco con la Ruta del Vino de Urla (*Urla Bağ Yolu*), Çeşme y Akhisar. Brisas marinas y suelos calcáreos que alumbran fragantes blancos de *Bornova Misketi* y tintos de *Urla Karası* y *Foça Karası*.
+* **Meseta del Egeo - Denizli (Aegean Plateau):** Meseta de montaña a 800-1.000 m sobre el cañón del río Büyük Menderes. La meseta de Güney y los distritos de Çal y Bekilli conforman el gran motor vitícola de montaña de Turquía, célebre por la uva autóctona *Çalkarası* para rosados frescos y tintos estructurados.
+* **Capadocia (Cappadocia):** Corazón volcánico de Anatolia entre 950 y 1.250 m dominado por el volcán Erciyes. Suelos de toba volcánica blanca y cenizas inmunes a la filoxera que albergan viñas centenarias en pie franco. Reino indiscutible de la blanca mineral *Emir*, criada en bodegas subterráneas milenarias excavadas en la roca volcánica (Ürgüp, Uçhisar, Avanos).
+* **Valle de Kalecik (Anatolia Central):** Valle abrigado a orillas del río Kızılırmak al noreste de Ankara. Hogar ancestral de la cepa noble *Kalecik Karası* ("la Pinot Noir de Anatolia"), de perfume floral, frutos rojos silvestres y taninos de terciopelo.
+* **Cuenca del Éufrates - Elazığ (Anatolia Oriental):** Tierras altas a 1.000-1.200 m junto a la cuenca alta del río Éufrates (*Fırat Nehri*) y el embalse de Keban. Patria de la gran uva tinta *Öküzgözü* ("Ojo de buey"), de bayas gigantes, viva acidez natural, cereza brillante y eucalipto.
+* **Cuenca del Tigris y Mardin (Anatolia Suroriental):** Alta Mesopotamia delimitada por el río Tigris (*Dicle Nehri*) y la meseta de Tur Abdin. El basalto volcánico del monte Karacadağ forja la potencia tánica de la uva *Boğazkere* ("Rascatragos"), mientras los monasterios siriacos (asirios) de Midyat y Mardin elaboran vino siriaco milenario (*Süryani Şarabı*) con *Mazrona*.
+* **Valle de Tokat (Transición Mar Negro):** Valles fluviales a orillas del río Yeşilırmak y los Montes Pónticos. Hogar exclusivo de la reina blanca turca *Narince* ("La Delicada"), célebre por su equilibrio cítrico, flor de tilo y aptitud para la crianza en roble.
+* **Montes Tauro - Elmalı (Mediterráneo Altiplano):** Viñedos de extrema altitud a más de 1.100 m en la meseta de Elmalı (Montes Tauro de Licia). Fuerte oscilación térmica que favorece el rescate de uvas ancestrales como la tinta *Acıkara* y la *Merzifon Karası*.
+* 👉 *Registro Detallado:* [Registro de Turquía](TURKEY/REGISTRO_REGIONS.md)

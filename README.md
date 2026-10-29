@@ -18,21 +18,46 @@ This project produces **interactive web maps** that show the precise boundaries 
 
 ## The Challenge: Sourcing Global Data
 
-Every country manages its own geographic data. There is no single, global source for administrative boundaries. The first step for any region is to find the most **authoritative official source**.
+Every country manages its own geographic data. There is no single, global source for administrative boundaries. The core principle of **World Wine Wide** is to identify and process the most **authoritative official public sources** for both regulatory viticultural decrees and geographic demarcations:
 
-| Region / Country | Typical Data Source | Common Formats | Common Coordinate Systems |
-|------------------|---------------------|----------------|---------------------------|
-| **Spain** | IGN (via INSPIRE) | CSV (with WKT), Shapefile | ETRS89 (EPSG:4258) |
-| **France** | IGN (Géoportail), BD CARTO® | Shapefile, GeoPackage | RGF93 / Lambert-93 |
-| **Italy** | ISTAT | Shapefile, GeoPackage | Roma40 / Gauss-Boaga |
-| **Portugal** | DGT (Direção-Geral do Território) | Shapefile, GeoPackage | ETRS89 (EPSG:4258) |
-| **Germany** | BKG (Bundesamt für Kartographie) | Shapefile, GeoPackage | ETRS89 / UTM |
-| **USA** | US Census Bureau (TIGER/Line) | Shapefile, GeoPackage | NAD83 (EPSG:4269) |
-| **Argentina** | IGN Argentina | Shapefile, GeoPackage | POSGAR 2007 |
-| **Australia** | Geoscience Australia | Shapefile, GeoPackage | GDA2020 |
-| **Global (Fallback)** | GADM, OpenStreetMap | Shapefile, GeoPackage, GeoJSON | WGS84 (EPSG:4326) |
+### A. Authoritative Sources for Completed Nations (21 Countries)
 
-> **Tip:** Look for keywords like "administrative boundaries," "municipalities," "communes," "cantons," or "counties" on national mapping agency websites. The **INSPIRE** portal is an excellent starting point for European data.
+| Country | Official Cartographic Agency / Portal | Base Administrative Level | Native Coordinate System (CRS) | Regulatory Wine Authority |
+| :--- | :--- | :--- | :--- | :--- |
+| 🇦🇲 **Armenia** | Cadastre Committee / Natural Earth | Marzer (Provinces) | ArmRef02 / WGS84 | VWFA / Min. of Economy |
+| 🇦🇹 **Austria** | BEV (Bundesamt für Eich- und Vermessungswesen) | Gemeinden / Bezirke | MGI / Austria Lambert (EPSG:31287) | BML / eAmbrosia |
+| 🇧🇬 **Bulgaria** | AGKK / Natural Earth | Oblasti / Obshtini | BGS2005 (EPSG:7801) | EAVW (Bulgarian Wine Agency) |
+| 🇭🇷 **Croatia** | DGU (Državna geodetska uprava) | Županije / Gradovi | HTRS96/TM (EPSG:3765) | Min. Poljoprivrede / eAmbrosia |
+| 🇨🇾 **Cyprus** | Dept. of Lands and Surveys / Natural Earth | Eparchies / Communities | CGRS93 (EPSG:6312) | Department of Agriculture |
+| 🇨🇿 **Czech Republic** | ČÚZK (State Administration of Land Surveying) | Okresy / Kraje | S-JTSK (EPSG:5514) | ÚKZÚZ |
+| 🇫🇷 **France** | IGN France (BD CARTO® / Géoportail) | Communes / Cantons | RGF93 / Lambert-93 (EPSG:2154) | INAO (*Cahiers des charges*) |
+| 🇬🇪 **Georgia** | NAPR (National Agency of Public Registry) | Municipalities / Rayons | WGS84 / UTM 38N (EPSG:32638) | National Wine Agency / Sakpatenti |
+| 🇩🇪 **Germany** | BKG (Bundesamt für Kartographie und Geodäsie) | Gemeinden / Kreise | ETRS89 / UTM 32N (EPSG:25832) | BLE / *Weinverordnung* |
+| 🇬🇷 **Greece** | Hellenic Statistical Authority (ELSTAT) | Prefectures / Municipalities | GGRS87 (EPSG:2100) | YPAAT (Min. of Agriculture) |
+| 🇭🇺 **Hungary** | Lechner Tudásközpont / FÖMI | Counties / Settlements | EOV / HD72 (EPSG:23700) | HNT / NÉBIH |
+| 🇮🇹 **Italy** | ISTAT (Istituto Nazionale di Statistica) | Comuni | Roma40 / Gauss-Boaga (EPSG:3003) | MASAF (*Disciplinari*) |
+| 🇱🇧 **Lebanon** | Directorate of Geographic Affairs (DAG) | Governorates / Districts | Deir ez Zor / Levant (EPSG:22770) | Union Vinicole du Liban (UVL) |
+| 🇲🇩 **Moldova** | ARFC (Cadastre Agency) / Natural Earth | Raioane | Moldref 99 (EPSG:4026) | ONVV |
+| 🇵🇹 **Portugal** | DGT (Direção-Geral do Território - CAOP) | Concelhos / Freguesias | ETRS89 / PT-TM06 (EPSG:3763) | IVV (*Cadernos de especificações*) |
+| 🇷🇴 **Romania** | ANCPI / Eurostat | Județe / Comuni | Dealul Piscului 1970 (EPSG:31700) | ONVPV |
+| 🇸🇰 **Slovakia** | ÚGKK SR (Geodesy Authority) / Eurostat | Kraje / Okresy | S-JTSK (EPSG:5514) | Min. Pôdohospodárstva |
+| 🇸🇮 **Slovenia** | GURS (Surveying and Mapping Authority) | Občine / Upravne enote | D96/TM (EPSG:3794) | MKGP / eAmbrosia |
+| 🇪🇸 **Spain** | IGN España (INSPIRE) | Municipios (`recintos_municipales`) | ETRS89 (EPSG:4258) / REGCAN95 | MAPA / Consejos Reguladores |
+| 🇨🇭 **Switzerland** | swisstopo (Federal Office of Topography) | Cantons / Communes | CH1903+ / LV95 (EPSG:2056) | OFAG / BLW |
+| 🇹🇷 **Turkey** | Harita Genel Müdürlüğü (HGM) / Natural Earth | İller (Provinces) / İlçeler | TUREF (EPSG:5254) / WGS84 | Tarım ve Orman Bak. / TÜRKPATENT |
+
+### B. Roadmap Sources for Upcoming New World Expansion
+
+| Country | Primary Cartographic Agency | Base Geographic Unit | Coordinate Reference System | Viticultural Authority |
+| :--- | :--- | :--- | :--- | :--- |
+| 🇺🇸 **USA** | US Census Bureau (TIGER/Line) | Counties / TTB Boundaries | NAD83 (EPSG:4269) | TTB (Alcohol and Tobacco Tax Bureau) |
+| 🇦🇷 **Argentina** | IGN Argentina | Departamentos | POSGAR 2007 (EPSG:5343) | INV (Instituto Nacional de Vitivinicultura) |
+| 🇨🇱 **Chile** | IDE Chile / IGM | Comunas / Provincias | SIRGAS-Chile (EPSG:5360) | SAG (Servicio Agrícola y Ganadero) |
+| 🇦🇺 **Australia** | Geoscience Australia | GIs / Local Government Areas | GDA2020 (EPSG:7844) | Wine Australia |
+| 🇳🇿 **New Zealand** | LINZ (Land Information New Zealand) | GIs / Territorial Authorities | NZGD2000 (EPSG:2193) | New Zealand Winegrowers |
+| 🇿🇦 **South Africa** | NGI (National Geo-spatial Information) | Municipalities / WOs | Hartebeesthoek94 (EPSG:2048) | SAWIS (Wine Industry Information) |
+
+> **Cartographic Standard:** All vector layers are reprojected and exported to **WGS84 (EPSG:4326)** for unified global GIS analysis and web performance.
 
 ## The Generic Workflow (5 Steps)
 
@@ -108,11 +133,11 @@ To validate this workflow, it was first applied to the **Ribera del Duero D.O.**
 
 This example proves that the methodology works with real-world, official data.
 
-For comprehensive technical specifications, official cartographic agencies across all 20 countries, Coordinate Reference Systems (CRS), SQL queries, and the grape analysis pipeline, see the full [Methodology Guide](docs/METHODOLOGY.md) (or [Versión en Español](docs/METODOLOGIA.md)).
+For comprehensive technical specifications, official cartographic agencies across all 21 countries, Coordinate Reference Systems (CRS), SQL queries, and the grape analysis pipeline, see the full [Methodology Guide](docs/METHODOLOGY.md) (or [Versión en Español](docs/METODOLOGIA.md)).
 
 ## Multi-Country Coverage Status 🌍
 
-The **World Wine Wide** project has completed full, authoritative census coverage across **20 sovereign wine nations**, encompassing **754 official wine regions**, **782 QGIS vector layers**, and **661 official legal specification documents (PDFs)**:
+The **World Wine Wide** project has completed full, authoritative census coverage across **21 sovereign wine nations**, encompassing **763 official wine regions**, **791 QGIS vector layers**, and **670 official legal specification documents (PDFs)**:
 
 | Country | Status | Appellations / Regions | Key Official Classifications | Primary Cartographic Agency | National Registry |
 | :--- | :---: | :---: | :--- | :--- | :---: |
@@ -136,20 +161,21 @@ The **World Wine Wide** project has completed full, authoritative census coverag
 | 🇸🇮 **Slovenia** | 100% | 9 | ZGP (Goriška Brda, Vipavska dolina, Kras, etc.) | Natural Earth / eAmbrosia | [Registry](docs/SLOVENIA/REGISTRO_ZGP.md) |
 | 🇪🇸 **Spain** | 100% | 101 | DOCa, DO, VP, VC (Rioja, Ribera, Priorat, etc.) | IGN Spain / MAPA | [Registry](docs/SPAIN/REGISTRO_DOS.md) |
 | 🇨🇭 **Switzerland** | 100% | 6 | AOC / DOC (Valais, Vaud, Genève, Ticino, etc.) | Natural Earth / OFAG | [Registry](docs/SWITZERLAND/REGISTRO_REGIONS.md) |
+| 🇹🇷 **Turkey** | 100% | 9 | Bölge / GI (Trakya, Urla, Denizli, Kapadokya, etc.) | Natural Earth / TÜRKPATENT | [Registry](docs/TURKEY/REGISTRO_REGIONS.md) |
 
 👉 **For the complete regional descriptions, territorial notes, and wine profiles of each country, see the full [Multi-Country Coverage Report](docs/COVERAGE.md) (or [Versión en Español](docs/COBERTURA.md)).**
 
 **Key metrics:**
-* **754 official wine regions** interactive in the web applications with commune-level search, basemap switcher, multi-country and regional filters, and official PDF specification viewers.
-* **782 vector layers** systematically arranged in the primary QGIS project (`QGIS/wine_world_wine.qgz`) partitioned into twenty-one national groups: `SPAIN`, `FRANCE`, `PORTUGAL`, `ITALY`, `GERMANY`, `AUSTRIA`, `GREECE`, `HUNGARY`, `GEORGIA`, `CZECH_REPUBLIC`, `SWITZERLAND`, `SLOVENIA`, `CROATIA`, `SLOVAKIA`, `ROMANIA`, `BULGARIA`, `MOLDOVA`, `ARMENIA`, `CYPRUS`, `LEBANON`, and `Google`.
-* **661 official legal specification documents (PDFs)** archived locally in [`DOWNs/DOCs/`](DOWNs/DOCs/).
+* **763 official wine regions** interactive in the web applications with commune-level search, basemap switcher, multi-country and regional filters, and official PDF specification viewers.
+* **791 vector layers** systematically arranged in the primary QGIS project (`QGIS/wine_world_wine.qgz`) partitioned into twenty-two national groups: `SPAIN`, `FRANCE`, `PORTUGAL`, `ITALY`, `GERMANY`, `AUSTRIA`, `GREECE`, `HUNGARY`, `GEORGIA`, `CZECH_REPUBLIC`, `SWITZERLAND`, `SLOVENIA`, `CROATIA`, `SLOVAKIA`, `ROMANIA`, `BULGARIA`, `MOLDOVA`, `ARMENIA`, `CYPRUS`, `LEBANON`, `TURKEY`, and `Google`.
+* **670 official legal specification documents (PDFs)** archived locally in [`DOWNs/DOCs/`](DOWNs/DOCs/).
 * **Dedicated SQL filter libraries** available under `QGIS/<COUNTRY>/SQLs/`.
 
 ---
 
 ## Building the Global Collection 🚀
 
-With the **Old World wine heritage fully mapped across 20 countries**, the next phase of the **World Wine Wide** project expands into the New World:
+With the **Old World wine heritage fully mapped across 21 countries**, the next phase of the **World Wine Wide** project expands into the New World:
 * **North America:** United States (California AVAs — Napa Valley, Sonoma, Paso Robles, Santa Barbara; Oregon — Willamette Valley; Washington — Columbia Valley).
 * **South America:** Argentina (Mendoza — Uco Valley, Luján de Cuyo; Salta — Cafayate) and Chile (Maipo, Colchagua, Casablanca).
 * **Oceania:** Australia (Barossa Valley, McLaren Vale, Margaret River, Yarra Valley) and New Zealand (Marlborough, Central Otago).

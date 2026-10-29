@@ -101,7 +101,8 @@ const COUNTRY_NAMES = {
   'Moldavia': { es: 'Moldavia', en: 'Moldova', flag: '🇲🇩' },
   'Armenia': { es: 'Armenia', en: 'Armenia', flag: '🇦🇲' },
   'Chipre': { es: 'Chipre', en: 'Cyprus', flag: '🇨🇾' },
-  'Líbano': { es: 'Líbano', en: 'Lebanon', flag: '🇱🇧' }
+  'Líbano': { es: 'Líbano', en: 'Lebanon', flag: '🇱🇧' },
+  'Turquía': { es: 'Turquía', en: 'Turkey', flag: '🇹🇷' }
 };
 
 let currentLang = 'en';
@@ -653,7 +654,8 @@ const COUNTRY_CENTERS = {
   'Moldavia': { center: [28.8, 47.0], zoom: 7.5 },
   'Armenia': { center: [44.8, 40.2], zoom: 7.5 },
   'Chipre': { center: [33.1, 35.0], zoom: 8.5 },
-  'Líbano': { center: [35.8, 33.9], zoom: 8.3 }
+  'Líbano': { center: [35.8, 33.9], zoom: 8.3 },
+  'Turquía': { center: [35.2, 39.0], zoom: 5.8 }
 };
 
 // Event Listeners

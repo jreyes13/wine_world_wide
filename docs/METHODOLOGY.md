@@ -33,17 +33,33 @@ The foundational principle of the project is the exclusive use of **official gov
   * 🇦🇲 **Armenia:** Vine and Wine Foundation of Armenia (VWFA) & Ministry of Economy.
   * 🇨🇾 **Cyprus:** Department of Agriculture.
   * 🇱🇧 **Lebanon:** Union Vinicole du Liban (UVL) — *Loi no 216/2000*.
+  * 🇹🇷 **Turkey:** Ministry of Agriculture and Forestry (*Tarım ve Orman Bakanlığı* - TADB) & Turkish Patent and Trademark Office (*TÜRKPATENT*).
 
 ### B. Base Administrative Cartography & Coordinate Reference Systems (CRS)
 | Geographic Scope | Official Cartographic Agency | Base Administrative Entity | Native Coordinate Reference System | Web Publishing CRS |
 | :--- | :--- | :--- | :--- | :--- |
-| **Spain (Peninsula/Balearics)** | IGN España (INSPIRE) | Municipalities (`recintos_municipales`) | ETRS89 (EPSG:4258) | WGS84 (EPSG:4326) |
-| **Spain (Canary Islands)** | IGN España | Municipalities | REGCAN95 (EPSG:4081) | WGS84 (EPSG:4326) |
-| **France** | IGN France (BD CARTO®) | Communes / Cantons | RGF93 / Lambert-93 (EPSG:2154) | WGS84 (EPSG:4326) |
-| **Italy** | ISTAT | Comuni | Roma40 / Gauss-Boaga (EPSG:3003) | WGS84 (EPSG:4326) |
-| **Portugal** | DGT Portugal (CAOP) | Freguesias / Concelhos | ETRS89 / PT-TM06 (EPSG:3763) | WGS84 (EPSG:4326) |
-| **Germany** | BKG | Gemeinden | ETRS89 / UTM 32N (EPSG:25832) | WGS84 (EPSG:4326) |
-| **Central Europe & Levant** | Natural Earth / Eurostat | Admin-1 / Admin-2 Provinces | WGS84 (EPSG:4326) | WGS84 (EPSG:4326) |
+| **Armenia** | Cadastre Committee / Natural Earth | Marzer (Provinces) | ArmRef02 (EPSG:5636) / WGS84 | WGS84 (EPSG:4326) |
+| **Austria** | BEV (Bundesamt für Eich- und Vermessungswesen) | Gemeinden / Bezirke | MGI / Austria Lambert (EPSG:31287) | WGS84 (EPSG:4326) |
+| **Bulgaria** | AGKK / Natural Earth | Oblasti / Obshtini | BGS2005 (EPSG:7801) | WGS84 (EPSG:4326) |
+| **Croatia** | DGU (Državna geodetska uprava) | Županije / Gradovi | HTRS96/TM (EPSG:3765) | WGS84 (EPSG:4326) |
+| **Cyprus** | Dept. of Lands and Surveys / Natural Earth | Eparchies / Communities | CGRS93 (EPSG:6312) | WGS84 (EPSG:4326) |
+| **Czech Republic** | ČÚZK | Okresy / Kraje | S-JTSK (EPSG:5514) | WGS84 (EPSG:4326) |
+| **France** | IGN France (BD CARTO® / Géoportail) | Communes / Cantons | RGF93 / Lambert-93 (EPSG:2154) | WGS84 (EPSG:4326) |
+| **Georgia** | NAPR / Sakpatenti | Municipalities / Rayons | WGS84 / UTM 38N (EPSG:32638) | WGS84 (EPSG:4326) |
+| **Germany** | BKG (Bundesamt für Kartographie und Geodäsie) | Gemeinden / Kreise | ETRS89 / UTM 32N (EPSG:25832) | WGS84 (EPSG:4326) |
+| **Greece** | ELSTAT / YPAAT | Prefectures / Municipalities | GGRS87 (EPSG:2100) | WGS84 (EPSG:4326) |
+| **Hungary** | Lechner Tudásközpont / FÖMI | Counties / Settlements | EOV / HD72 (EPSG:23700) | WGS84 (EPSG:4326) |
+| **Italy** | ISTAT (Istituto Nazionale di Statistica) | Comuni | Roma40 / Gauss-Boaga (EPSG:3003) | WGS84 (EPSG:4326) |
+| **Lebanon** | Directorate of Geographic Affairs (DAG) | Governorates / Districts | Deir ez Zor / Levant (EPSG:22770) | WGS84 (EPSG:4326) |
+| **Moldova** | ARFC / Natural Earth | Raioane | Moldref 99 (EPSG:4026) | WGS84 (EPSG:4326) |
+| **Portugal** | DGT (Direção-Geral do Território - CAOP) | Concelhos / Freguesias | ETRS89 / PT-TM06 (EPSG:3763) | WGS84 (EPSG:4326) |
+| **Romania** | ANCPI / Eurostat | Județe / Comuni | Dealul Piscului 1970 (EPSG:31700) | WGS84 (EPSG:4326) |
+| **Slovakia** | ÚGKK SR / Eurostat | Kraje / Okresy | S-JTSK (EPSG:5514) | WGS84 (EPSG:4326) |
+| **Slovenia** | GURS (Surveying and Mapping Authority) | Občine / Upravne enote | D96/TM (EPSG:3794) | WGS84 (EPSG:4326) |
+| **Spain (Peninsula / Balearics)** | IGN España (INSPIRE) | Municipios (`recintos_municipales`) | ETRS89 (EPSG:4258) | WGS84 (EPSG:4326) |
+| **Spain (Canary Islands)** | IGN España | Municipios | REGCAN95 (EPSG:4081) | WGS84 (EPSG:4326) |
+| **Switzerland** | swisstopo | Cantons / Communes | CH1903+ / LV95 (EPSG:2056) | WGS84 (EPSG:4326) |
+| **Turkey** | Harita Genel Müdürlüğü (HGM) / Natural Earth | İller (Provinces) / İlçeler | TUREF (EPSG:5254) / WGS84 | WGS84 (EPSG:4326) |
 
 ---
 
@@ -107,12 +123,12 @@ Vector features are integrated into the project's digital web ecosystem:
 The repository features a specialized grape variety analytics engine driven by an automated Python parsing pipeline ([`scratch/build_grape_database.py`](../scratch/build_grape_database.py)):
 
 ```
-[754 GeoJSON Regions] ──> [Normalization & Synonyms] ──> [Quota & Style Calculations]
+[763 GeoJSON Regions] ──> [Normalization & Synonyms] ──> [Quota & Style Calculations]
                                                                    │
 [grapes.html Dashboard] <── [JSON / JS Datasets] <─────────────────┘
 ```
 
-1. **Extraction & Tokenization:** The script parses the `grapes_red` and `grapes_white` fields across all 754 wine regions, tokenizing individual grape mentions and scrubbing regulatory metadata.
+1. **Extraction & Tokenization:** The script parses the `grapes_red` and `grapes_white` fields across all 763 wine regions, tokenizing individual grape mentions and scrubbing regulatory metadata.
 2. **Universal Synonym Dictionary:** Maps vernacular regional names to their canonical botanical identities:
    * *Tempranillo:* Tinta del País, Tinto Fino, Cencibel, Ull de Llebre, Aragonez, Tinta Roriz, Tinto de Toro.
    * *Pinot Noir:* Spätburgunder, Pinot Nero, Blauburgunder, Modri Pinot, Rulandské modré.
